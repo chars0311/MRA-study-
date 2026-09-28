@@ -351,7 +351,7 @@
       "explanation": "The magnetic starter switches motor power and includes overload protection.",
       "source": "m",
       "section": "Magnetic Motor Starters",
-      "topic": "5 · Relays & motor starters"
+      "topic": "Module 5 · Control Relays and Motor Starters"
     },
     {
       "id": "q025",
@@ -368,7 +368,7 @@
       "explanation": "When energized, the auxiliary contact closes a parallel path around Start and keeps the coil energized.",
       "source": "m",
       "section": "Components; Memory Logic Operation",
-      "topic": "5 · Relays & motor starters"
+      "topic": "Module 5 · Control Relays and Motor Starters"
     },
     {
       "id": "q026",
@@ -385,7 +385,7 @@
       "explanation": "Power loss drops out the coil and seal-in contact. Three-wire control provides low-voltage protection.",
       "source": "m",
       "section": "Three-Wire Control",
-      "topic": "5 · Relays & motor starters"
+      "topic": "Module 5 · Control Relays and Motor Starters"
     },
     {
       "id": "q027",
@@ -402,7 +402,7 @@
       "explanation": "The guide notes that two-wire control does not provide low-voltage protection.",
       "source": "m",
       "section": "Two-Wire Control",
-      "topic": "5 · Relays & motor starters"
+      "topic": "Module 5 · Control Relays and Motor Starters"
     },
     {
       "id": "q028",
@@ -419,7 +419,7 @@
       "explanation": "Swapping two phases reverses phase sequence and motor rotation.",
       "source": "m",
       "section": "Manual Motor Reversing",
-      "topic": "6 · Reversing motor control"
+      "topic": "Module 6 · Reversing Motor Control"
     },
     {
       "id": "q029",
@@ -436,7 +436,7 @@
       "explanation": "Interlocking prevents the forward and reverse commands being active at the same time.",
       "source": "m",
       "section": "Interlocking",
-      "topic": "6 · Reversing motor control"
+      "topic": "Module 6 · Reversing Motor Control"
     },
     {
       "id": "q030",
@@ -453,7 +453,7 @@
       "explanation": "The on-delay contacts change after the preset interval with the coil energized.",
       "source": "m",
       "section": "On-Delay Timer Operation",
-      "topic": "8 · Basic timer control"
+      "topic": "Module 8 · Basic Timer Control"
     },
     {
       "id": "q031",
@@ -470,7 +470,7 @@
       "explanation": "Its contacts actuate immediately when energized and remain held for the delay after de-energizing.",
       "source": "m",
       "section": "Off-Delay Timer Operation",
-      "topic": "8 · Basic timer control"
+      "topic": "Module 8 · Basic Timer Control"
     },
     {
       "id": "q032",
@@ -487,7 +487,7 @@
       "explanation": "A float's movement with liquid level operates the switch contacts.",
       "source": "m",
       "section": "Float Switch",
-      "topic": "7 · Automatic input devices"
+      "topic": "Module 7 · Automatic Input Devices"
     },
     {
       "id": "q033",
@@ -504,7 +504,7 @@
       "explanation": "The differential separates switch actuation and reset pressures and prevents rapid cycling.",
       "source": "m",
       "section": "Pressure Switch",
-      "topic": "7 · Automatic input devices"
+      "topic": "Module 7 · Automatic Input Devices"
     },
     {
       "id": "q034",
@@ -521,7 +521,7 @@
       "explanation": "Half-split tests near the middle to narrow the problem to the upstream or downstream portion.",
       "source": "m",
       "section": "System Troubleshooting Methods",
-      "topic": "Troubleshooting methods"
+      "topic": "Troubleshooting Methods"
     },
     {
       "id": "q035",
@@ -1439,7 +1439,7 @@
     {
       "id": "mc-ground",
       "world": "motor",
-      "topic": "1 · Introduction & electrical safety",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
       "type": "quiz",
       "prompt": "Why are metal equipment enclosures grounded?",
       "answer": "Reduce electric-shock risk",
@@ -1466,7 +1466,7 @@
     {
       "id": "mc-tag",
       "world": "motor",
-      "topic": "1 · Introduction & electrical safety",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
       "type": "quiz",
       "prompt": "How does a warning tag differ from a physical lock?",
       "answer": "A tag warns but does not physically restrain operation",
@@ -1493,7 +1493,7 @@
     {
       "id": "mc-starter",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "quiz",
       "prompt": "A motor controller includes overload protection. What is this combination called?",
       "answer": "Motor starter",
@@ -1520,7 +1520,7 @@
     {
       "id": "mc-short",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "scenario",
       "prompt": "Does an overload relay replace short-circuit protection?",
       "answer": "Short-circuit protection",
@@ -1547,7 +1547,7 @@
     {
       "id": "mc-bimetal",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "quiz",
       "prompt": "What makes a bimetal overload element bend when heated?",
       "answer": "Its two metals expand at different rates",
@@ -1574,7 +1574,7 @@
     {
       "id": "mc-magnetic",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "quiz",
       "prompt": "In a magnetic overload with adjustable time delay, which component adjusts the response time?",
       "answer": "Dashpot",
@@ -1601,7 +1601,7 @@
     {
       "id": "mc-transformer",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "type": "quiz",
       "prompt": "Why is a control transformer used?",
       "answer": "Voltage reduction and isolation",
@@ -1628,7 +1628,7 @@
     {
       "id": "mc-sizing",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "type": "quiz",
       "prompt": "Which current requirements matter when sizing a control transformer?",
       "answer": "Both steady-state and inrush demand matter",
@@ -1655,7 +1655,7 @@
     {
       "id": "mc-and",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
       "prompt": "Two normally open contacts in series represent which logic?",
       "answer": "AND",
@@ -1682,7 +1682,7 @@
     {
       "id": "mc-or",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
       "prompt": "Two normally open contacts in parallel represent which logic?",
       "answer": "OR",
@@ -1709,7 +1709,7 @@
     {
       "id": "mc-nor",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
       "prompt": "Two normally closed contacts in series represent which logic?",
       "answer": "NOR",
@@ -1736,7 +1736,7 @@
     {
       "id": "mc-nand",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
       "prompt": "Two normally closed contacts in parallel represent which logic?",
       "answer": "NAND",
@@ -1763,7 +1763,7 @@
     {
       "id": "mc-momentary",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
       "prompt": "What happens when a momentary pushbutton is released?",
       "answer": "It returns to its normal position",
@@ -1790,7 +1790,7 @@
     {
       "id": "mc-ladder",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
       "prompt": "Where are outputs normally placed on a ladder rung?",
       "answer": "Right side",
@@ -1817,7 +1817,7 @@
     {
       "id": "mc-relay",
       "world": "motor",
-      "topic": "5 · Relays & motor starters",
+      "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "quiz",
       "prompt": "What happens to a relay’s normally closed contact when its coil energizes?",
       "answer": "Opens the contact",
@@ -1844,7 +1844,7 @@
     {
       "id": "mc-seal-fault",
       "world": "motor",
-      "topic": "5 · Relays & motor starters",
+      "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "scenario",
       "prompt": "A three-wire circuit runs while Start is held but stops on release. Which path should be considered in the diagram?",
       "answer": "Seal-in path around Start",
@@ -1880,7 +1880,7 @@
     {
       "id": "mc-label",
       "world": "motor",
-      "topic": "5 · Relays & motor starters",
+      "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "quiz",
       "prompt": "How are a relay coil and its associated contacts identified?",
       "answer": "The same component label",
@@ -1907,7 +1907,7 @@
     {
       "id": "mc-jog",
       "world": "motor",
-      "topic": "6 · Reversing motor control",
+      "topic": "Module 6 · Reversing Motor Control",
       "type": "quiz",
       "prompt": "Why is seal-in inhibited during jogging?",
       "answer": "The motor should run only while the jog command is held",
@@ -1934,7 +1934,7 @@
     {
       "id": "mc-interlock",
       "world": "motor",
-      "topic": "6 · Reversing motor control",
+      "topic": "Module 6 · Reversing Motor Control",
       "type": "quiz",
       "prompt": "Which auxiliary contact is used to inhibit the opposite direction coil?",
       "answer": "Normally closed auxiliary contact",
@@ -1961,7 +1961,7 @@
     {
       "id": "mc-limit",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "type": "quiz",
       "prompt": "Which input detects mechanical position?",
       "answer": "Limit switch",
@@ -1988,7 +1988,7 @@
     {
       "id": "mc-sequence",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "type": "scenario",
       "prompt": "Motor 2 must not start unless Motor 1 is running. What control concept is this?",
       "answer": "Sequence control",
@@ -2015,7 +2015,7 @@
     {
       "id": "mc-on-scenario",
       "world": "motor",
-      "topic": "8 · Basic timer control",
+      "topic": "Module 8 · Basic Timer Control",
       "type": "scenario",
       "prompt": "An on-delay coil has just energized and its preset has not elapsed. What is the state of its timed NO contact?",
       "answer": "It remains open",
@@ -2042,7 +2042,7 @@
     {
       "id": "mc-off-scenario",
       "world": "motor",
-      "topic": "8 · Basic timer control",
+      "topic": "Module 8 · Basic Timer Control",
       "type": "scenario",
       "prompt": "An off-delay coil de-energizes after being energized. What happens to its actuated timed contacts during the delay?",
       "answer": "Stay actuated until the delay ends",
@@ -2069,7 +2069,7 @@
     {
       "id": "calc-turns",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "source": "m",
       "section": "Module 3 · Turns ratio, slide 35",
       "type": "formula",
@@ -2485,7 +2485,7 @@
     {
       "id": "calc-secondary",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "source": "m",
       "section": "Module 3 · Secondary voltage, slide 37",
       "type": "formula",
@@ -2901,7 +2901,7 @@
     {
       "id": "calc-steady",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "source": "m",
       "section": "Module 3 · VA calculations, slide 47",
       "type": "formula",
@@ -3317,7 +3317,7 @@
     {
       "id": "calc-inrush",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "source": "m",
       "section": "Module 3 · VA calculations, slide 47",
       "type": "formula",
@@ -3733,7 +3733,7 @@
     {
       "id": "calc-overload-arithmetic",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "source": "m",
       "section": "Module 2 · Lab arithmetic example, slide 31",
       "type": "formula",
@@ -4565,7 +4565,7 @@
     {
       "id": "wb-0",
       "world": "motor",
-      "topic": "1 · Introduction & electrical safety",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
       "type": "wordbank",
       "cloze": "___ helps reduce shock risk from metal equipment enclosures.",
       "prompt": "___ helps reduce shock risk from metal equipment enclosures.",
@@ -4583,7 +4583,7 @@
     {
       "id": "wb-1",
       "world": "motor",
-      "topic": "1 · Introduction & electrical safety",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
       "type": "wordbank",
       "cloze": "___ warns against operation but does not physically restrain it.",
       "prompt": "___ warns against operation but does not physically restrain it.",
@@ -4601,7 +4601,7 @@
     {
       "id": "wb-2",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "wordbank",
       "cloze": "A controller combined with overload protection is a ___.",
       "prompt": "A controller combined with overload protection is a ___.",
@@ -4619,7 +4619,7 @@
     {
       "id": "wb-3",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "wordbank",
       "cloze": "___ responds to excessive motor current over time.",
       "prompt": "___ responds to excessive motor current over time.",
@@ -4637,7 +4637,7 @@
     {
       "id": "wb-4",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "wordbank",
       "cloze": "A ___ overload element uses two bonded metals that expand differently when heated.",
       "prompt": "A ___ overload element uses two bonded metals that expand differently when heated.",
@@ -4655,7 +4655,7 @@
     {
       "id": "wb-5",
       "world": "motor",
-      "topic": "2 · Manual control & overload protection",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "wordbank",
       "cloze": "A ___ adjusts the time response of the magnetic overload.",
       "prompt": "A ___ adjusts the time response of the magnetic overload.",
@@ -4673,7 +4673,7 @@
     {
       "id": "wb-6",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "type": "wordbank",
       "cloze": "A ___ reduces control voltage and provides isolation.",
       "prompt": "A ___ reduces control voltage and provides isolation.",
@@ -4691,7 +4691,7 @@
     {
       "id": "wb-7",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "type": "wordbank",
       "cloze": "Primary turns divided by secondary turns gives the ___.",
       "prompt": "Primary turns divided by secondary turns gives the ___.",
@@ -4709,7 +4709,7 @@
     {
       "id": "wb-8",
       "world": "motor",
-      "topic": "3 · Control transformers",
+      "topic": "Module 3 · Control Transformers",
       "type": "wordbank",
       "cloze": "Multiplying secondary voltage by secondary current gives apparent power in ___.",
       "prompt": "Multiplying secondary voltage by secondary current gives apparent power in ___.",
@@ -4727,7 +4727,7 @@
     {
       "id": "wb-9",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "wordbank",
       "cloze": "Two normally open contacts in series implement ___ logic.",
       "prompt": "Two normally open contacts in series implement ___ logic.",
@@ -4745,7 +4745,7 @@
     {
       "id": "wb-10",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "wordbank",
       "cloze": "Two normally open contacts in parallel implement ___ logic.",
       "prompt": "Two normally open contacts in parallel implement ___ logic.",
@@ -4763,7 +4763,7 @@
     {
       "id": "wb-11",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "wordbank",
       "cloze": "A single normally closed contact implements ___ logic.",
       "prompt": "A single normally closed contact implements ___ logic.",
@@ -4781,7 +4781,7 @@
     {
       "id": "wb-12",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "wordbank",
       "cloze": "Two normally closed contacts in series implement ___ logic.",
       "prompt": "Two normally closed contacts in series implement ___ logic.",
@@ -4799,7 +4799,7 @@
     {
       "id": "wb-13",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "wordbank",
       "cloze": "Two normally closed contacts in parallel implement ___ logic.",
       "prompt": "Two normally closed contacts in parallel implement ___ logic.",
@@ -4817,7 +4817,7 @@
     {
       "id": "wb-14",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "wordbank",
       "cloze": "A ___ pushbutton returns to its normal position when released.",
       "prompt": "A ___ pushbutton returns to its normal position when released.",
@@ -4835,7 +4835,7 @@
     {
       "id": "wb-15",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "wordbank",
       "cloze": "A ___ operator holds its selected position after release.",
       "prompt": "A ___ operator holds its selected position after release.",
@@ -4853,7 +4853,7 @@
     {
       "id": "wb-16",
       "world": "motor",
-      "topic": "5 · Relays & motor starters",
+      "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "wordbank",
       "cloze": "A ___ path keeps a starter coil energized after Start is released.",
       "prompt": "A ___ path keeps a starter coil energized after Start is released.",
@@ -4871,7 +4871,7 @@
     {
       "id": "wb-17",
       "world": "motor",
-      "topic": "5 · Relays & motor starters",
+      "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "wordbank",
       "cloze": "___ control waits for Start to be pressed again after supply power returns.",
       "prompt": "___ control waits for Start to be pressed again after supply power returns.",
@@ -4889,7 +4889,7 @@
     {
       "id": "wb-18",
       "world": "motor",
-      "topic": "6 · Reversing motor control",
+      "topic": "Module 6 · Reversing Motor Control",
       "type": "wordbank",
       "cloze": "___ prevents forward and reverse contactors from being commanded on together.",
       "prompt": "___ prevents forward and reverse contactors from being commanded on together.",
@@ -4907,7 +4907,7 @@
     {
       "id": "wb-19",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "type": "wordbank",
       "cloze": "A ___ detects liquid level through mechanical movement.",
       "prompt": "A ___ detects liquid level through mechanical movement.",
@@ -4925,7 +4925,7 @@
     {
       "id": "wb-20",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "type": "wordbank",
       "cloze": "A ___ responds to mechanical position.",
       "prompt": "A ___ responds to mechanical position.",
@@ -4943,7 +4943,7 @@
     {
       "id": "wb-21",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "type": "wordbank",
       "cloze": "The difference between pressure-switch cutout and reset pressures is its ___.",
       "prompt": "The difference between pressure-switch cutout and reset pressures is its ___.",
@@ -4961,7 +4961,7 @@
     {
       "id": "wb-22",
       "world": "motor",
-      "topic": "8 · Basic timer control",
+      "topic": "Module 8 · Basic Timer Control",
       "type": "wordbank",
       "cloze": "An ___ timer starts timing when its coil is energized.",
       "prompt": "An ___ timer starts timing when its coil is energized.",
@@ -4979,7 +4979,7 @@
     {
       "id": "wb-23",
       "world": "motor",
-      "topic": "8 · Basic timer control",
+      "topic": "Module 8 · Basic Timer Control",
       "type": "wordbank",
       "cloze": "An ___ timer starts its delay when its coil is de-energized.",
       "prompt": "An ___ timer starts its delay when its coil is de-energized.",
@@ -5347,7 +5347,7 @@
     {
       "id": "visual-m-and",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "Which control-logic arrangement does this slide diagram show?",
       "answer": "AND",
@@ -5381,7 +5381,7 @@
     {
       "id": "visual-m-or",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "Which control-logic arrangement does this slide diagram show?",
       "answer": "OR",
@@ -5415,7 +5415,7 @@
     {
       "id": "visual-m-not",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "Which control-logic arrangement does this slide diagram show?",
       "answer": "NOT",
@@ -5449,7 +5449,7 @@
     {
       "id": "visual-m-nor",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "Which control-logic arrangement does this slide diagram show?",
       "answer": "NOR",
@@ -5483,7 +5483,7 @@
     {
       "id": "slide-nand-motor",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "Which control-logic arrangement does this slide diagram show?",
       "answer": "NAND",
@@ -5687,7 +5687,7 @@
     {
       "id": "visual-m-and-operation",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "Starting with both buttons released, what must happen to light the lamp?",
       "answer": "Both PB1 and PB2 must be pressed",
@@ -5710,7 +5710,7 @@
     {
       "id": "visual-m-or-operation",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "If only PB2 is pressed and PB1 stays released, what happens to the lamp?",
       "answer": "It energizes through the PB2 branch",
@@ -5733,7 +5733,7 @@
     {
       "id": "visual-m-nand-operation",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "If PB1 is pressed but PB2 remains released, what happens to the lamp?",
       "answer": "It stays on through the PB2 branch",
@@ -5779,7 +5779,7 @@
     {
       "id": "visual-m-no",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "What pushbutton contact is represented by this symbol?",
       "answer": "Normally open",
@@ -5802,7 +5802,7 @@
     {
       "id": "visual-m-nc",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "type": "symbol",
       "prompt": "What pushbutton contact is represented by this symbol?",
       "answer": "Normally closed",
@@ -5825,7 +5825,7 @@
     {
       "id": "visual-m-notc",
       "world": "motor",
-      "topic": "8 · Basic timer control",
+      "topic": "Module 8 · Basic Timer Control",
       "type": "symbol",
       "prompt": "Which timer-contact symbol is shown?",
       "answer": "Normally open, timed close (NOTC)",
@@ -5848,7 +5848,7 @@
     {
       "id": "visual-m-ncto",
       "world": "motor",
-      "topic": "8 · Basic timer control",
+      "topic": "Module 8 · Basic Timer Control",
       "type": "symbol",
       "prompt": "Which timer-contact symbol is shown?",
       "answer": "Normally closed, timed open (NCTO)",
@@ -5871,7 +5871,7 @@
     {
       "id": "visual-m-two-wire",
       "world": "motor",
-      "topic": "5 · Relays & motor starters",
+      "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "symbol",
       "prompt": "Which control arrangement connects the maintained input device to the starter coil in this diagram?",
       "answer": "Two-wire control",
@@ -5894,7 +5894,7 @@
     {
       "id": "visual-m-three-wire",
       "world": "motor",
-      "topic": "5 · Relays & motor starters",
+      "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "symbol",
       "prompt": "What is the function of the auxiliary M contact connected around Start?",
       "answer": "Keep the coil energized after Start is released",
@@ -5917,7 +5917,7 @@
     {
       "id": "visual-m-interlock",
       "world": "motor",
-      "topic": "6 · Reversing motor control",
+      "topic": "Module 6 · Reversing Motor Control",
       "type": "symbol",
       "prompt": "Which contact blocks the reverse coil when the forward contactor is energized?",
       "answer": "The normally closed F contact in the reverse rung",
@@ -6651,7 +6651,7 @@
     {
       "id": "switch-maintained",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 59",
       "type": "quiz",
@@ -6668,7 +6668,7 @@
     {
       "id": "switch-momentary-use",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 59",
       "type": "quiz",
@@ -6685,7 +6685,7 @@
     {
       "id": "switch-no-press",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 60",
       "type": "quiz",
@@ -6702,7 +6702,7 @@
     {
       "id": "switch-nc-press",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 60",
       "type": "quiz",
@@ -6719,7 +6719,7 @@
     {
       "id": "switch-no-release",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 60",
       "type": "quiz",
@@ -6736,7 +6736,7 @@
     {
       "id": "switch-nc-release",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 60",
       "type": "quiz",
@@ -6753,7 +6753,7 @@
     {
       "id": "switch-selector-wafer",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 61",
       "type": "quiz",
@@ -6770,7 +6770,7 @@
     {
       "id": "switch-selector-behavior",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 61",
       "type": "quiz",
@@ -6787,7 +6787,7 @@
     {
       "id": "switch-selector-operators",
       "world": "motor",
-      "topic": "4 · Control ladder logic",
+      "topic": "Module 4 · Control Ladder Logic",
       "source": "m",
       "section": "4 · Control ladder logic · PDF page 61",
       "type": "quiz",
@@ -6804,7 +6804,7 @@
     {
       "id": "switch-limit-mechanism",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "source": "m",
       "section": "7 · Automatic input devices · PDF page 112",
       "type": "quiz",
@@ -6821,7 +6821,7 @@
     {
       "id": "switch-guard",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "source": "m",
       "section": "7 · Automatic input devices · PDF page 113",
       "type": "quiz",
@@ -6838,7 +6838,7 @@
     {
       "id": "switch-float",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "source": "m",
       "section": "7 · Automatic input devices · PDF page 114",
       "type": "quiz",
@@ -6855,7 +6855,7 @@
     {
       "id": "switch-float-action",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "source": "m",
       "section": "7 · Automatic input devices · PDF page 114",
       "type": "quiz",
@@ -6872,7 +6872,7 @@
     {
       "id": "switch-pressure",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "source": "m",
       "section": "7 · Automatic input devices · PDF page 116",
       "type": "quiz",
@@ -6889,7 +6889,7 @@
     {
       "id": "switch-diaphragm",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "source": "m",
       "section": "7 · Automatic input devices · PDF page 116",
       "type": "quiz",
@@ -6906,7 +6906,7 @@
     {
       "id": "switch-snap",
       "world": "motor",
-      "topic": "7 · Automatic input devices",
+      "topic": "Module 7 · Automatic Input Devices",
       "source": "m",
       "section": "7 · Automatic input devices · PDF page 116",
       "type": "quiz",
@@ -12843,19 +12843,1875 @@
           "explanation": "I_p = V_s I_s/V_p = 24 × 5/120 = 1 A."
         }
       ]
+    },
+    {
+      "id": "c202x-ground-parts",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Which parts are included in equipment grounding?",
+      "answer": "Metal enclosures, conduit and transformer cases",
+      "options": [
+        "Metal enclosures, conduit and transformer cases",
+        "Only motor windings",
+        "Only normal load-current conductors",
+        "Only plastic covers"
+      ],
+      "explanation": "These are metal parts that do not normally carry current.",
+      "source": "m",
+      "sourcePages": [
+        4
+      ],
+      "section": "Module 1 · Introduction to Electric Motor Control · C202 Electric Motor Controls.pdf · PDF page 4"
+    },
+    {
+      "id": "c202x-wet",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why does a wet floor increase shock risk?",
+      "answer": "It lowers resistance between a person and ground",
+      "options": [
+        "It lowers resistance between a person and ground",
+        "It raises insulation resistance",
+        "It converts AC to DC",
+        "It changes motor phase order"
+      ],
+      "explanation": "Reduced resistance increases the shock hazard.",
+      "source": "m",
+      "sourcePages": [
+        8
+      ],
+      "section": "Module 1 · Introduction to Electric Motor Control · C202 Electric Motor Controls.pdf · PDF page 8"
+    },
+    {
+      "id": "c202x-locks",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Several people service one machine. Which lockout arrangement is described?",
+      "answer": "Each person has their own lockout",
+      "options": [
+        "Each person has their own lockout",
+        "One shared key for everyone",
+        "Only the last worker locks out",
+        "Tags replace all locks"
+      ],
+      "explanation": "Each worker has their own lockout under the required procedure.",
+      "source": "m",
+      "sourcePages": [
+        11
+      ],
+      "section": "Module 1 · Introduction to Electric Motor Control · C202 Electric Motor Controls.pdf · PDF page 11"
+    },
+    {
+      "id": "c202x-disconnect",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "What must a three-phase disconnect open simultaneously?",
+      "answer": "All three ungrounded supply conductors",
+      "options": [
+        "All three ungrounded supply conductors",
+        "Only one phase",
+        "Only the ground wire",
+        "Only the secondary neutral"
+      ],
+      "explanation": "The slide calls for a three-pole disconnect.",
+      "source": "m",
+      "sourcePages": [
+        16
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 16"
+    },
+    {
+      "id": "c202x-combined",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "Must four motor-control requirements use four separate devices?",
+      "answer": "No; one device can satisfy more than one requirement",
+      "options": [
+        "No; one device can satisfy more than one requirement",
+        "Yes, always",
+        "No; an overload replaces all protection",
+        "No; a coil supplies every requirement"
+      ],
+      "explanation": "A suitably equipped breaker can provide disconnect and short-circuit functions.",
+      "source": "m",
+      "sourcePages": [
+        17
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 17"
+    },
+    {
+      "id": "c202x-fractional",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "Which motor fits the fractional-horsepower manual-starter category in the course?",
+      "answer": "Single-phase, 1 horsepower or less",
+      "options": [
+        "Single-phase, 1 horsepower or less",
+        "Three-phase, 10 horsepower",
+        "Any motor regardless of rating",
+        "Only motors above 1 horsepower"
+      ],
+      "explanation": "The slide specifies single-phase motors rated one horsepower or less.",
+      "source": "m",
+      "sourcePages": [
+        22
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 22"
+    },
+    {
+      "id": "c202x-restart",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "A maintained manual starter stays ON during a power failure. What can happen when power returns?",
+      "answer": "The motor can restart automatically",
+      "options": [
+        "The motor can restart automatically",
+        "It always waits for Start",
+        "It reverses direction",
+        "It changes into a fuse"
+      ],
+      "explanation": "The manual contacts remain actuated.",
+      "source": "m",
+      "sourcePages": [
+        24
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 24"
+    },
+    {
+      "id": "c202x-alloy",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "symbol",
+      "prompt": "Which overload mechanism is illustrated?",
+      "answer": "Melting-alloy thermal overload",
+      "options": [
+        "Melting-alloy thermal overload",
+        "Bimetallic overload",
+        "Dashpot magnetic overload",
+        "Electronic sensor",
+        "None of these"
+      ],
+      "explanation": "Heating melts the alloy and releases the ratchet.",
+      "source": "m",
+      "sourcePages": [
+        27
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 27",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-alloy",
+        "alt": "Original C-202 diagram for this question",
+        "page": 27
+      }
+    },
+    {
+      "id": "c202x-bimetal",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "symbol",
+      "prompt": "What causes the element shown to deflect during overload?",
+      "answer": "Different expansion rates of the bonded metals",
+      "options": [
+        "Different expansion rates of the bonded metals",
+        "Phase reversal",
+        "Melting solder",
+        "A change in transformer ratio"
+      ],
+      "explanation": "Current produces heat and the two metals expand differently.",
+      "source": "m",
+      "sourcePages": [
+        28
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 28",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-bimetal",
+        "alt": "Original C-202 diagram for this question",
+        "page": 28
+      }
+    },
+    {
+      "id": "c202x-adjust",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "Which pair can be adjusted on a time-delay magnetic overload?",
+      "answer": "Trip level and response time",
+      "options": [
+        "Trip level and response time",
+        "Only voltage and frequency",
+        "Only motor speed and direction",
+        "Only turns ratio and VA"
+      ],
+      "explanation": "The oil dashpot permits time adjustment.",
+      "source": "m",
+      "sourcePages": [
+        29
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 29"
+    },
+    {
+      "id": "c202x-instant",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "What distinguishes an instantaneous-trip relay from a delayed magnetic overload?",
+      "answer": "No dashpot delay",
+      "options": [
+        "No dashpot delay",
+        "No sensing coil",
+        "A float replaces the coil",
+        "It must melt solder"
+      ],
+      "explanation": "The slide describes a magnetic overload without the dashpot.",
+      "source": "m",
+      "sourcePages": [
+        29
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 29"
+    },
+    {
+      "id": "c202x-secondary",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "Can a transformer have multiple secondary windings?",
+      "answer": "Yes",
+      "options": [
+        "Yes",
+        "No, exactly one is required",
+        "Only with a DC primary",
+        "Only if windings are shorted"
+      ],
+      "explanation": "The slide shows several separate secondary coils.",
+      "source": "m",
+      "sourcePages": [
+        36
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 36"
+    },
+    {
+      "id": "c202x-dual",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "What winding arrangement is used in the dual-voltage control transformer?",
+      "answer": "Two primary coils and one secondary",
+      "options": [
+        "Two primary coils and one secondary",
+        "One primary and two mandatory secondaries",
+        "Three primary coils and no secondary",
+        "One DC coil only"
+      ],
+      "explanation": "The two primaries allow different input-voltage connections.",
+      "source": "m",
+      "sourcePages": [
+        40
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 40"
+    },
+    {
+      "id": "c202x-parallel",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "symbol",
+      "prompt": "How are the two primary windings connected here?",
+      "answer": "In parallel",
+      "options": [
+        "In parallel",
+        "In series",
+        "Open-circuited",
+        "Three-phase delta",
+        "None of these"
+      ],
+      "explanation": "Both primaries are connected across the same supply.",
+      "source": "m",
+      "sourcePages": [
+        41
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 41",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-primary-parallel",
+        "alt": "Original C-202 diagram for this question",
+        "page": 41
+      }
+    },
+    {
+      "id": "c202x-series",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "symbol",
+      "prompt": "How are the two primary windings connected here?",
+      "answer": "In series",
+      "options": [
+        "In series",
+        "In parallel",
+        "Both shorted",
+        "Three-phase wye",
+        "None of these"
+      ],
+      "explanation": "The H2-H3 link joins the windings in series.",
+      "source": "m",
+      "sourcePages": [
+        42
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 42",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-primary-series",
+        "alt": "Original C-202 diagram for this question",
+        "page": 42
+      }
+    },
+    {
+      "id": "c202x-taps",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "symbol",
+      "prompt": "What lets this transformer accept different line voltages?",
+      "answer": "Multiple winding taps",
+      "options": [
+        "Multiple winding taps",
+        "A reversing switch",
+        "A float contact",
+        "An oil dashpot"
+      ],
+      "explanation": "The taps select different numbers of winding turns.",
+      "source": "m",
+      "sourcePages": [
+        43
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 43",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-transformer-multi",
+        "alt": "Original C-202 diagram for this question",
+        "page": 43
+      }
+    },
+    {
+      "id": "c202x-open",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "An isolated, de-energized transformer shows infinite resistance across one winding. What does that suggest?",
+      "answer": "An open winding",
+      "options": [
+        "An open winding",
+        "A normal closed winding",
+        "A primary-secondary short",
+        "A correct output voltage"
+      ],
+      "explanation": "The slide identifies infinity across a coil as an open.",
+      "source": "m",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 44"
+    },
+    {
+      "id": "c202x-isolated",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "What resistance is expected between separate primary and secondary windings on an isolated, de-energized transformer?",
+      "answer": "Infinite resistance",
+      "options": [
+        "Infinite resistance",
+        "Zero resistance",
+        "The rated secondary voltage",
+        "The motor full-load current"
+      ],
+      "explanation": "The windings should not have a conductive connection.",
+      "source": "m",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 44"
+    },
+    {
+      "id": "c202x-core",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "Unwanted continuity between an isolated winding and its core suggests what?",
+      "answer": "A winding-to-core fault",
+      "options": [
+        "A winding-to-core fault",
+        "Correct isolation",
+        "Correct turns ratio",
+        "Normal inrush"
+      ],
+      "explanation": "The expected reading is infinite resistance under the proper de-energized test procedure.",
+      "source": "m",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 44"
+    },
+    {
+      "id": "c202x-turns",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "A short within a winding effectively reduces what?",
+      "answer": "Active turns",
+      "options": [
+        "Active turns",
+        "Supply frequency",
+        "Motor poles",
+        "Ground-wire length"
+      ],
+      "explanation": "The short bypasses some winding turns.",
+      "source": "m",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 44"
+    },
+    {
+      "id": "c202x-size",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "Which data are needed for control-transformer sizing?",
+      "answer": "Input voltage, output voltage, steady and inrush current",
+      "options": [
+        "Input voltage, output voltage, steady and inrush current",
+        "Motor speed only",
+        "Pushbutton count only",
+        "Wire color only"
+      ],
+      "explanation": "Both steady and starting current demand matter.",
+      "source": "m",
+      "sourcePages": [
+        46
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 46"
+    },
+    {
+      "id": "c202x-rating",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "A steady load needs 85 VA, with inrush already checked. Which rating follows the slide selection rule?",
+      "answer": "100 VA",
+      "options": [
+        "100 VA",
+        "50 VA",
+        "75 VA",
+        "500 VA"
+      ],
+      "explanation": "Choose above, but closest to, the required rating while meeting inrush demand.",
+      "source": "m",
+      "sourcePages": [
+        48
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 48"
+    },
+    {
+      "id": "c202x-semi",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "An operator starts a cycle that then finishes without further input. Which classification fits?",
+      "answer": "Semiautomatic",
+      "options": [
+        "Semiautomatic",
+        "Manual",
+        "Automatic initiation",
+        "None of these"
+      ],
+      "explanation": "Manual input starts the otherwise automatic cycle.",
+      "source": "m",
+      "sourcePages": [
+        53
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 53"
+    },
+    {
+      "id": "c202x-schematic",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "What does a schematic primarily show?",
+      "answer": "Electrical connections using standard symbols",
+      "options": [
+        "Electrical connections using standard symbols",
+        "Exact physical routing",
+        "Only photographs",
+        "Only operating schedules"
+      ],
+      "explanation": "It shows interconnections rather than physical placement.",
+      "source": "m",
+      "sourcePages": [
+        55
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 55"
+    },
+    {
+      "id": "c202x-step",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Which three parts make up a sequence step?",
+      "answer": "Input, logic and output",
+      "options": [
+        "Input, logic and output",
+        "Voltage, current and resistance",
+        "Start, fuse and ground",
+        "Primary, secondary and core"
+      ],
+      "explanation": "Input signals the step, logic decides, and output acts.",
+      "source": "m",
+      "sourcePages": [
+        56
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 56"
+    },
+    {
+      "id": "c202x-lamp",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "Which device is represented by this symbol?",
+      "answer": "Red indicator lamp",
+      "options": [
+        "Red indicator lamp",
+        "Resistor",
+        "Relay coil",
+        "NO pushbutton",
+        "None of these"
+      ],
+      "explanation": "The rays identify a lamp; R indicates red.",
+      "source": "m",
+      "sourcePages": [
+        58
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 58",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-lamp",
+        "alt": "Original C-202 diagram for this question",
+        "page": 58
+      }
+    },
+    {
+      "id": "c202x-center",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "What does the center position do in the three-position selector example?",
+      "answer": "Operates no contacts",
+      "options": [
+        "Operates no contacts",
+        "Closes every contact",
+        "Always reverses the motor",
+        "Trips the overload"
+      ],
+      "explanation": "The example has an inactive center position.",
+      "source": "m",
+      "sourcePages": [
+        61
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 61"
+    },
+    {
+      "id": "c202x-rails",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Which labels identify transformer-supplied control rails?",
+      "answer": "X1 and X2",
+      "options": [
+        "X1 and X2",
+        "T1 and T3",
+        "PB1 and PB2",
+        "NO and NC"
+      ],
+      "explanation": "X1 and X2 identify the secondary supply terminals.",
+      "source": "m",
+      "sourcePages": [
+        63
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 63"
+    },
+    {
+      "id": "c202x-numbers",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Directly joined conductors with no intervening component have what numbering?",
+      "answer": "The same number",
+      "options": [
+        "The same number",
+        "Always different numbers",
+        "No numbers",
+        "The coil voltage as a number"
+      ],
+      "explanation": "They form one electrical node.",
+      "source": "m",
+      "sourcePages": [
+        64
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 64"
+    },
+    {
+      "id": "c202x-loads",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "How should separate output loads be arranged under the course ladder rules?",
+      "answer": "On separate parallel rungs",
+      "options": [
+        "On separate parallel rungs",
+        "All in series on one rung",
+        "Only on the left rail",
+        "Without labels"
+      ],
+      "explanation": "The course specifies one load per line, with outputs on the right.",
+      "source": "m",
+      "sourcePages": [
+        64
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 64"
+    },
+    {
+      "id": "c202x-load-relay",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "Why use relay contacts between a small input device and a larger load?",
+      "answer": "The load may exceed the input device switching-current rating",
+      "options": [
+        "The load may exceed the input device switching-current rating",
+        "Relays always convert AC to DC",
+        "Relays replace overloads",
+        "Relay contacts generate power"
+      ],
+      "explanation": "The contacts switch load power while the input controls the coil.",
+      "source": "m",
+      "sourcePages": [
+        76
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 76"
+    },
+    {
+      "id": "c202x-spring",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "What returns the relay armature when its coil turns off?",
+      "answer": "A spring",
+      "options": [
+        "A spring",
+        "A secondary winding",
+        "A grounding wire",
+        "A float"
+      ],
+      "explanation": "The armature is spring loaded.",
+      "source": "m",
+      "sourcePages": [
+        77
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 77"
+    },
+    {
+      "id": "c202x-heavy",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "Which relay category suits heavy-duty industrial use?",
+      "answer": "Machine-control relay",
+      "options": [
+        "Machine-control relay",
+        "General-purpose light-duty relay",
+        "Float switch",
+        "Manual fractional-horsepower switch"
+      ],
+      "explanation": "The course also calls it a heavy-duty industrial control relay.",
+      "source": "m",
+      "sourcePages": [
+        79
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 79"
+    },
+    {
+      "id": "c202x-detached",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "A coil and its contacts appear on separate rungs. What drawing method is this?",
+      "answer": "Detached symbology",
+      "options": [
+        "Detached symbology",
+        "Pictorial-only drawing",
+        "Series power wiring",
+        "Mechanical interlocking"
+      ],
+      "explanation": "Several symbols in different locations represent one component.",
+      "source": "m",
+      "sourcePages": [
+        80
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 80"
+    },
+    {
+      "id": "c202x-reference",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "An underlined line number in a relay cross-reference indicates what?",
+      "answer": "A normally closed contact",
+      "options": [
+        "A normally closed contact",
+        "A normally open contact",
+        "An open-wire fault",
+        "A higher coil voltage"
+      ],
+      "explanation": "The underline denotes NC; no underline denotes NO.",
+      "source": "m",
+      "sourcePages": [
+        81
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 81"
+    },
+    {
+      "id": "c202x-poles",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "What is the minimum number of power-contact sets for switching a three-phase motor?",
+      "answer": "Three",
+      "options": [
+        "Three",
+        "One",
+        "Two",
+        "Six"
+      ],
+      "explanation": "Each phase needs its own contact set.",
+      "source": "m",
+      "sourcePages": [
+        84
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 84"
+    },
+    {
+      "id": "c202x-trip",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "When a starter thermal overload trips, what happens to its coil?",
+      "answer": "The control path opens and the coil de-energizes",
+      "options": [
+        "The control path opens and the coil de-energizes",
+        "It reverses direction",
+        "Its voltage doubles",
+        "It bypasses protection"
+      ],
+      "explanation": "The overload contact interrupts the coil circuit.",
+      "source": "m",
+      "sourcePages": [
+        84
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 84"
+    },
+    {
+      "id": "c202x-pilot",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "symbol",
+      "prompt": "Which indicator device is shown?",
+      "answer": "Push-to-test pilot light",
+      "options": [
+        "Push-to-test pilot light",
+        "Standard two-terminal lamp",
+        "Off-delay timer",
+        "Pressure switch",
+        "None of these"
+      ],
+      "explanation": "The extra connection allows the bulb to be tested by pressing the lens.",
+      "source": "m",
+      "sourcePages": [
+        88
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 88",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-push-test",
+        "alt": "Original C-202 diagram for this question",
+        "page": 88
+      }
+    },
+    {
+      "id": "c202x-drum",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "Which manual control device is pictured?",
+      "answer": "Drum switch",
+      "options": [
+        "Drum switch",
+        "Magnetic overload",
+        "Float switch",
+        "Control transformer",
+        "None of these"
+      ],
+      "explanation": "Movable contacts on a rotating insulated shaft select power paths.",
+      "source": "m",
+      "sourcePages": [
+        93
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 93",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-drum",
+        "alt": "Original C-202 diagram for this question",
+        "page": 93
+      }
+    },
+    {
+      "id": "c202x-reverser",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "What makes up a reversing magnetic starter?",
+      "answer": "Two contactors plus overload protection",
+      "options": [
+        "Two contactors plus overload protection",
+        "One contactor without overload",
+        "Two transformers only",
+        "One unprotected drum switch"
+      ],
+      "explanation": "One contactor controls each direction.",
+      "source": "m",
+      "sourcePages": [
+        96
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 96"
+    },
+    {
+      "id": "c202x-both",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "Both direction buttons are pressed in the pushbutton-interlocked circuit. What should happen?",
+      "answer": "Neither coil energizes",
+      "options": [
+        "Neither coil energizes",
+        "Both coils energize",
+        "Reverse always wins",
+        "Forward always wins"
+      ],
+      "explanation": "Each button also interrupts the opposing path.",
+      "source": "m",
+      "sourcePages": [
+        101
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 101"
+    },
+    {
+      "id": "c202x-mechanical",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "How does a mechanical interlock block simultaneous contactor operation?",
+      "answer": "A lever blocks the other armature",
+      "options": [
+        "A lever blocks the other armature",
+        "A timer delays both supplies",
+        "A fuse swaps phases",
+        "A float opens neutral"
+      ],
+      "explanation": "It physically prevents the other armature moving.",
+      "source": "m",
+      "sourcePages": [
+        102
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 102"
+    },
+    {
+      "id": "c202x-blocked",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "Why combine auxiliary electrical and mechanical interlocking?",
+      "answer": "A powered coil with a blocked armature can draw excessive current",
+      "options": [
+        "A powered coil with a blocked armature can draw excessive current",
+        "Mechanical interlocks supply voltage",
+        "Electrical interlocks replace overloads",
+        "They reverse all three phases"
+      ],
+      "explanation": "The slide warns of damage from energizing a mechanically blocked coil.",
+      "source": "m",
+      "sourcePages": [
+        103
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 103"
+    },
+    {
+      "id": "c202x-jog",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "With the selector branch open as drawn, what happens when Start is released?",
+      "answer": "F de-energizes",
+      "options": [
+        "F de-energizes",
+        "F stays sealed in",
+        "The motor reverses",
+        "The overload is bypassed"
+      ],
+      "explanation": "The open selector prevents the auxiliary contact from holding the coil.",
+      "source": "m",
+      "sourcePages": [
+        107
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 107",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-jog-selector",
+        "alt": "Original C-202 diagram for this question",
+        "page": 107
+      }
+    },
+    {
+      "id": "c202x-run",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "What must the selector do to permit holding after Start is released?",
+      "answer": "Close the holding branch",
+      "options": [
+        "Close the holding branch",
+        "Open the holding branch",
+        "Hold Stop open",
+        "Bypass the overload"
+      ],
+      "explanation": "Run mode completes the branch through the F auxiliary contact.",
+      "source": "m",
+      "sourcePages": [
+        107
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 107",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-jog-selector",
+        "alt": "Original C-202 diagram for this question",
+        "page": 107
+      }
+    },
+    {
+      "id": "c202x-auto",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "In Auto mode, what provides the operating command for M?",
+      "answer": "The automatic input devices",
+      "options": [
+        "The automatic input devices",
+        "The Hand branch alone",
+        "The overload heater alone",
+        "The grounding wire"
+      ],
+      "explanation": "Auto routes the command through the input-device path.",
+      "source": "m",
+      "sourcePages": [
+        108
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 108",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-hoa",
+        "alt": "Original C-202 diagram for this question",
+        "page": 108
+      }
+    },
+    {
+      "id": "c202x-off",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "What does Off do in this circuit?",
+      "answer": "Prevents both command paths from energizing M",
+      "options": [
+        "Prevents both command paths from energizing M",
+        "Runs M continuously",
+        "Reverses M",
+        "Changes transformer ratio"
+      ],
+      "explanation": "Neither operating path is selected.",
+      "source": "m",
+      "sourcePages": [
+        108
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 108",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-hoa",
+        "alt": "Original C-202 diagram for this question",
+        "page": 108
+      }
+    },
+    {
+      "id": "c202x-hand",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "With protection healthy, what does Hand command?",
+      "answer": "Continuous motor operation",
+      "options": [
+        "Continuous motor operation",
+        "Only automatic-input operation",
+        "A delayed shutdown",
+        "Automatic reversal"
+      ],
+      "explanation": "Hand selects the manual continuous-run path.",
+      "source": "m",
+      "sourcePages": [
+        108
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 108",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-hoa",
+        "alt": "Original C-202 diagram for this question",
+        "page": 108
+      }
+    },
+    {
+      "id": "c202x-fill",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "A fill tank reaches its upper set level. What should the float circuit do?",
+      "answer": "Open and stop filling",
+      "options": [
+        "Open and stop filling",
+        "Close and continue filling",
+        "Reverse two phases",
+        "Bypass the float"
+      ],
+      "explanation": "The fill example opens its NC float contact at high level.",
+      "source": "m",
+      "sourcePages": [
+        115
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 115"
+    },
+    {
+      "id": "c202x-sump",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "Liquid rises above the desired level in a sump. What should happen?",
+      "answer": "The contact closes and the pump removes liquid",
+      "options": [
+        "The contact closes and the pump removes liquid",
+        "The pump stops and lets liquid rise",
+        "The motor phases reverse",
+        "The overload resets itself"
+      ],
+      "explanation": "The sump NO contact closes at high level and opens after the level falls.",
+      "source": "m",
+      "sourcePages": [
+        115
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 115"
+    },
+    {
+      "id": "c202x-deadband",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "Why use different cutout and reset pressures?",
+      "answer": "Prevent rapid on-off cycling",
+      "options": [
+        "Prevent rapid on-off cycling",
+        "Eliminate the diaphragm",
+        "Reverse phase order",
+        "Sense temperature only"
+      ],
+      "explanation": "Deadband separates the actuation and reset thresholds.",
+      "source": "m",
+      "sourcePages": [
+        117
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 117"
+    },
+    {
+      "id": "c202x-sequence-stop",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Both motors run. What happens if Stop 1 opens?",
+      "answer": "Both M1 and M2 lose their supply path",
+      "options": [
+        "Both M1 and M2 lose their supply path",
+        "Only M2 stops",
+        "Both stay sealed in",
+        "M2 reverses"
+      ],
+      "explanation": "The M2 rung is fed downstream of the M1 control path.",
+      "source": "m",
+      "sourcePages": [
+        118
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 118",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-sequence",
+        "alt": "Original C-202 diagram for this question",
+        "page": 118
+      }
+    },
+    {
+      "id": "c202x-parts",
+      "world": "motor",
+      "topic": "Module 8 · Basic Timer Control",
+      "type": "quiz",
+      "prompt": "Which parts make up a time-delay relay?",
+      "answer": "Coil, contacts and timing mechanism",
+      "options": [
+        "Coil, contacts and timing mechanism",
+        "Primary, secondary and rectifier",
+        "Float, tank and pump",
+        "Ratchet, fuse and drum"
+      ],
+      "explanation": "The timing mechanism determines the contact-change delay.",
+      "source": "m",
+      "sourcePages": [
+        121
+      ],
+      "section": "Module 8 · Basic Timer Control · C202 Electric Motor Controls.pdf · PDF page 121"
+    },
+    {
+      "id": "c202x-on-nc",
+      "world": "motor",
+      "topic": "Module 8 · Basic Timer Control",
+      "type": "quiz",
+      "prompt": "An on-delay is energized but has not timed out. What does its timed NC contact do?",
+      "answer": "Stays closed",
+      "options": [
+        "Stays closed",
+        "Already opens",
+        "Alternates rapidly",
+        "Permanently disconnects"
+      ],
+      "explanation": "On-delay contacts remain normal until the preset expires.",
+      "source": "m",
+      "sourcePages": [
+        122
+      ],
+      "section": "Module 8 · Basic Timer Control · C202 Electric Motor Controls.pdf · PDF page 122"
+    },
+    {
+      "id": "c202x-off-nc",
+      "world": "motor",
+      "topic": "Module 8 · Basic Timer Control",
+      "type": "quiz",
+      "prompt": "An off-delay has just energized. What does its timed NC contact do?",
+      "answer": "Opens immediately",
+      "options": [
+        "Opens immediately",
+        "Waits for coil turn-off before opening",
+        "Stays closed indefinitely",
+        "Only changes during a failure"
+      ],
+      "explanation": "Off-delay contacts actuate immediately and return with a delay after turn-off.",
+      "source": "m",
+      "sourcePages": [
+        123
+      ],
+      "section": "Module 8 · Basic Timer Control · C202 Electric Motor Controls.pdf · PDF page 123"
+    },
+    {
+      "id": "c202x-system",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Finding which component caused a machine failure is what troubleshooting level?",
+      "answer": "System level",
+      "options": [
+        "System level",
+        "Internal component disassembly",
+        "Factory calibration",
+        "Preventive lubrication"
+      ],
+      "explanation": "System-level work identifies the failed component.",
+      "source": "m",
+      "sourcePages": [
+        127
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 127"
+    },
+    {
+      "id": "c202x-bench",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "A component is removed for bench testing. Which category is this?",
+      "answer": "Out-of-circuit",
+      "options": [
+        "Out-of-circuit",
+        "In-circuit",
+        "Half-split by definition",
+        "Output-back by definition"
+      ],
+      "explanation": "It has been removed from the machine circuit.",
+      "source": "m",
+      "sourcePages": [
+        128
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 128"
+    },
+    {
+      "id": "c202x-sequence-fault",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Machine steps occur in the wrong order. Which fault category fits?",
+      "answer": "Machine sequence fault",
+      "options": [
+        "Machine sequence fault",
+        "Performance fault only",
+        "Normal operation",
+        "A guaranteed winding short"
+      ],
+      "explanation": "Sequence faults concern operating steps.",
+      "source": "m",
+      "sourcePages": [
+        135
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 135"
+    },
+    {
+      "id": "c202x-performance",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "An actuator moves erratically and drifts. Which fault category fits?",
+      "answer": "Performance fault",
+      "options": [
+        "Performance fault",
+        "Sequence-order fault only",
+        "Normal input operation",
+        "Transformer ratio error by definition"
+      ],
+      "explanation": "Erratic movement and drift are performance symptoms.",
+      "source": "m",
+      "sourcePages": [
+        135
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 135"
+    },
+    {
+      "id": "c202x-output-back",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Testing begins at a faulty actuator and moves upstream point by point. Which method is this?",
+      "answer": "Output-back",
+      "options": [
+        "Output-back",
+        "Half-split",
+        "Shotgun",
+        "Substitution"
+      ],
+      "explanation": "Output-back traces upstream from the affected output.",
+      "source": "m",
+      "sourcePages": [
+        138
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 138"
+    },
+    {
+      "id": "c202x-shotgun",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Random testing of different circuit parts is which method?",
+      "answer": "Shotgun",
+      "options": [
+        "Shotgun",
+        "Output-back",
+        "Half-split",
+        "Structured flowchart"
+      ],
+      "explanation": "The slide describes random testing as often inefficient.",
+      "source": "m",
+      "sourcePages": [
+        138
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 138"
+    },
+    {
+      "id": "c202x-diamond",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Which flowchart shape represents a branching question?",
+      "answer": "Diamond",
+      "options": [
+        "Diamond",
+        "Rectangle",
+        "Oval",
+        "Circle",
+        "Parallelogram"
+      ],
+      "explanation": "The answer determines the next branch.",
+      "source": "m",
+      "sourcePages": [
+        141
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 141"
+    },
+    {
+      "id": "c202x-rectangle",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Which flowchart shape represents an action or test?",
+      "answer": "Rectangle",
+      "options": [
+        "Rectangle",
+        "Diamond",
+        "Oval",
+        "Numbered circle",
+        "Parallelogram"
+      ],
+      "explanation": "An action box suggests a test or corrective action.",
+      "source": "m",
+      "sourcePages": [
+        142
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 142"
+    },
+    {
+      "id": "c202x-link",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "What does a numbered circular flowchart connector do?",
+      "answer": "Links to a matching continuation",
+      "options": [
+        "Links to a matching continuation",
+        "Always ends troubleshooting",
+        "Means replace the motor",
+        "Specifies voltage"
+      ],
+      "explanation": "Match the number to continue elsewhere in the chart.",
+      "source": "m",
+      "sourcePages": [
+        143
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 143"
+    },
+    {
+      "id": "c202x-limit-no",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which limit-switch state is shown?",
+      "answer": "Normally open, unoperated",
+      "options": [
+        "Normally open, unoperated",
+        "Normally closed, unoperated",
+        "Normally open, held closed",
+        "Normally closed, held open",
+        "None of these"
+      ],
+      "explanation": "The contact geometry shows normally open, unoperated.",
+      "source": "m",
+      "sourcePages": [
+        113
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-limit-no",
+        "alt": "Original C-202 diagram for this question",
+        "page": 113
+      }
+    },
+    {
+      "id": "c202x-limit-nc",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which limit-switch state is shown?",
+      "answer": "Normally closed, unoperated",
+      "options": [
+        "Normally closed, unoperated",
+        "Normally open, unoperated",
+        "Normally open, held closed",
+        "Normally closed, held open",
+        "None of these"
+      ],
+      "explanation": "The contact geometry shows normally closed, unoperated.",
+      "source": "m",
+      "sourcePages": [
+        113
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-limit-nc",
+        "alt": "Original C-202 diagram for this question",
+        "page": 113
+      }
+    },
+    {
+      "id": "c202x-limit-nohc",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which limit-switch state is shown?",
+      "answer": "Normally open, held closed",
+      "options": [
+        "Normally open, held closed",
+        "Normally open, unoperated",
+        "Normally closed, unoperated",
+        "Normally closed, held open",
+        "None of these"
+      ],
+      "explanation": "The contact geometry shows normally open, held closed.",
+      "source": "m",
+      "sourcePages": [
+        113
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-limit-nohc",
+        "alt": "Original C-202 diagram for this question",
+        "page": 113
+      }
+    },
+    {
+      "id": "c202x-limit-ncho",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which limit-switch state is shown?",
+      "answer": "Normally closed, held open",
+      "options": [
+        "Normally closed, held open",
+        "Normally open, unoperated",
+        "Normally closed, unoperated",
+        "Normally open, held closed",
+        "None of these"
+      ],
+      "explanation": "The contact geometry shows normally closed, held open.",
+      "source": "m",
+      "sourcePages": [
+        113
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-limit-ncho",
+        "alt": "Original C-202 diagram for this question",
+        "page": 113
+      }
+    },
+    {
+      "id": "c202x-float-no",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Normally open float switch",
+      "options": [
+        "Normally open float switch",
+        "Normally closed float switch",
+        "Pushbutton switch",
+        "Limit switch",
+        "None of these"
+      ],
+      "explanation": "The circle is the float operator; the contact is open.",
+      "source": "m",
+      "sourcePages": [
+        114
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 114",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-float-no",
+        "alt": "Original C-202 diagram for this question",
+        "page": 114
+      }
+    },
+    {
+      "id": "c202x-float-nc",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Normally closed float switch",
+      "options": [
+        "Normally closed float switch",
+        "Normally open float switch",
+        "Pushbutton switch",
+        "Limit switch",
+        "None of these"
+      ],
+      "explanation": "The circle is the float operator; the contact is closed.",
+      "source": "m",
+      "sourcePages": [
+        114
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 114",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-float-nc",
+        "alt": "Original C-202 diagram for this question",
+        "page": 114
+      }
+    },
+    {
+      "id": "c202x-timer-noto",
+      "world": "motor",
+      "topic": "Module 8 · Basic Timer Control",
+      "type": "symbol",
+      "prompt": "Which timed-contact symbol is shown?",
+      "answer": "Normally open, timed open (NOTO)",
+      "options": [
+        "Normally open, timed open (NOTO)",
+        "Normally closed, timed closed (NCTC)",
+        "Normally open, timed closed (NOTC)",
+        "Normally closed, timed open (NCTO)",
+        "Untimed normally open contact"
+      ],
+      "explanation": "This contact closes immediately on energization and opens after the off-delay.",
+      "source": "m",
+      "sourcePages": [
+        123
+      ],
+      "section": "Module 8 · Basic Timer Control · C202 Electric Motor Controls.pdf · PDF page 123",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-timer-noto",
+        "alt": "Original C-202 diagram for this question",
+        "page": 123
+      }
+    },
+    {
+      "id": "c202x-timer-nctc",
+      "world": "motor",
+      "topic": "Module 8 · Basic Timer Control",
+      "type": "symbol",
+      "prompt": "Which timed-contact symbol is shown?",
+      "answer": "Normally closed, timed closed (NCTC)",
+      "options": [
+        "Normally closed, timed closed (NCTC)",
+        "Normally open, timed open (NOTO)",
+        "Normally open, timed closed (NOTC)",
+        "Normally closed, timed open (NCTO)",
+        "Untimed normally open contact"
+      ],
+      "explanation": "This contact opens immediately on energization and closes after the off-delay.",
+      "source": "m",
+      "sourcePages": [
+        123
+      ],
+      "section": "Module 8 · Basic Timer Control · C202 Electric Motor Controls.pdf · PDF page 123",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-timer-nctc",
+        "alt": "Original C-202 diagram for this question",
+        "page": 123
+      }
+    },
+    {
+      "id": "c202x-voltage",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "formula",
+      "prompt": "An ideal 4:1 transformer receives 480 V. Find secondary voltage.",
+      "answer": "120 V",
+      "options": [
+        "120 V",
+        "240 V",
+        "60 V",
+        "220 V"
+      ],
+      "explanation": "480 / 4 = 120 V.",
+      "source": "m",
+      "sourcePages": [
+        37
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 37",
+      "numeric": 120,
+      "tolerance": 0.6,
+      "unit": "V",
+      "variants": [
+        {
+          "variant": "voltage-0",
+          "prompt": "An ideal 4:1 transformer receives 480 V. Find secondary voltage.",
+          "numeric": 120,
+          "tolerance": 0.6,
+          "answer": "120 V",
+          "options": [
+            "120 V",
+            "240 V",
+            "60 V",
+            "220 V"
+          ],
+          "explanation": "480 / 4 = 120 V."
+        },
+        {
+          "variant": "voltage-1",
+          "prompt": "An ideal 5:1 transformer receives 120 V. Find secondary voltage.",
+          "numeric": 24,
+          "tolerance": 0.12,
+          "answer": "24 V",
+          "options": [
+            "24 V",
+            "48 V",
+            "12 V",
+            "124 V"
+          ],
+          "explanation": "120 / 5 = 24 V."
+        },
+        {
+          "variant": "voltage-2",
+          "prompt": "An ideal 10:1 transformer receives 240 V. Find secondary voltage.",
+          "numeric": 24,
+          "tolerance": 0.12,
+          "answer": "24 V",
+          "options": [
+            "24 V",
+            "48 V",
+            "12 V",
+            "124 V"
+          ],
+          "explanation": "240 / 10 = 24 V."
+        }
+      ]
+    },
+    {
+      "id": "c202x-steady",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "formula",
+      "prompt": "A 120 V control load draws 0.5 A steadily. Find VA.",
+      "answer": "60 VA",
+      "options": [
+        "60 VA",
+        "120 VA",
+        "30 VA",
+        "160 VA"
+      ],
+      "explanation": "120 × 0.5 = 60 VA.",
+      "source": "m",
+      "sourcePages": [
+        47
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 47",
+      "numeric": 60,
+      "tolerance": 0.3,
+      "unit": "VA",
+      "variants": [
+        {
+          "variant": "steady-0",
+          "prompt": "A 120 V control load draws 0.5 A steadily. Find VA.",
+          "numeric": 60,
+          "tolerance": 0.3,
+          "answer": "60 VA",
+          "options": [
+            "60 VA",
+            "120 VA",
+            "30 VA",
+            "160 VA"
+          ],
+          "explanation": "120 × 0.5 = 60 VA."
+        },
+        {
+          "variant": "steady-1",
+          "prompt": "A 24 V control load draws 2 A steadily. Find VA.",
+          "numeric": 48,
+          "tolerance": 0.24,
+          "answer": "48 VA",
+          "options": [
+            "48 VA",
+            "96 VA",
+            "24 VA",
+            "148 VA"
+          ],
+          "explanation": "24 × 2 = 48 VA."
+        },
+        {
+          "variant": "steady-2",
+          "prompt": "A 120 V control load draws 0.75 A steadily. Find VA.",
+          "numeric": 90,
+          "tolerance": 0.45,
+          "answer": "90 VA",
+          "options": [
+            "90 VA",
+            "180 VA",
+            "45 VA",
+            "190 VA"
+          ],
+          "explanation": "120 × 0.75 = 90 VA."
+        }
+      ]
+    },
+    {
+      "id": "c202x-inrush",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "formula",
+      "prompt": "A 120 V coil draws 3 A during inrush. Find inrush VA.",
+      "answer": "360 VA",
+      "options": [
+        "360 VA",
+        "720 VA",
+        "180 VA",
+        "460 VA"
+      ],
+      "explanation": "120 × 3 = 360 VA.",
+      "source": "m",
+      "sourcePages": [
+        47
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 47",
+      "numeric": 360,
+      "tolerance": 1.8,
+      "unit": "VA",
+      "variants": [
+        {
+          "variant": "inrush-0",
+          "prompt": "A 120 V coil draws 3 A during inrush. Find inrush VA.",
+          "numeric": 360,
+          "tolerance": 1.8,
+          "answer": "360 VA",
+          "options": [
+            "360 VA",
+            "720 VA",
+            "180 VA",
+            "460 VA"
+          ],
+          "explanation": "120 × 3 = 360 VA."
+        },
+        {
+          "variant": "inrush-1",
+          "prompt": "A 24 V coil draws 5 A during inrush. Find inrush VA.",
+          "numeric": 120,
+          "tolerance": 0.6,
+          "answer": "120 VA",
+          "options": [
+            "120 VA",
+            "240 VA",
+            "60 VA",
+            "220 VA"
+          ],
+          "explanation": "24 × 5 = 120 VA."
+        },
+        {
+          "variant": "inrush-2",
+          "prompt": "A 120 V coil draws 2.5 A during inrush. Find inrush VA.",
+          "numeric": 300,
+          "tolerance": 1.5,
+          "answer": "300 VA",
+          "options": [
+            "300 VA",
+            "600 VA",
+            "150 VA",
+            "400 VA"
+          ],
+          "explanation": "120 × 2.5 = 300 VA."
+        }
+      ]
+    },
+    {
+      "id": "c202x-differential",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "formula",
+      "prompt": "Cutout is 100 psi and reset is 80 psi. Find deadband.",
+      "answer": "20 psi",
+      "options": [
+        "20 psi",
+        "40 psi",
+        "10 psi",
+        "120 psi"
+      ],
+      "explanation": "100 - 80 = 20 psi.",
+      "source": "m",
+      "sourcePages": [
+        117
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 117",
+      "numeric": 20,
+      "tolerance": 0.1,
+      "unit": "psi",
+      "variants": [
+        {
+          "variant": "differential-0",
+          "prompt": "Cutout is 100 psi and reset is 80 psi. Find deadband.",
+          "numeric": 20,
+          "tolerance": 0.1,
+          "answer": "20 psi",
+          "options": [
+            "20 psi",
+            "40 psi",
+            "10 psi",
+            "120 psi"
+          ],
+          "explanation": "100 - 80 = 20 psi."
+        },
+        {
+          "variant": "differential-1",
+          "prompt": "Cutout is 120 psi and reset is 90 psi. Find deadband.",
+          "numeric": 30,
+          "tolerance": 0.15,
+          "answer": "30 psi",
+          "options": [
+            "30 psi",
+            "60 psi",
+            "15 psi",
+            "130 psi"
+          ],
+          "explanation": "120 - 90 = 30 psi."
+        },
+        {
+          "variant": "differential-2",
+          "prompt": "Cutout is 85 psi and reset is 70 psi. Find deadband.",
+          "numeric": 15,
+          "tolerance": 0.075,
+          "answer": "15 psi",
+          "options": [
+            "15 psi",
+            "30 psi",
+            "7.5 psi",
+            "115 psi"
+          ],
+          "explanation": "85 - 70 = 15 psi."
+        }
+      ]
     }
   ],
   "topics": {
     "motor": [
-      "1 · Introduction & electrical safety",
-      "2 · Manual control & overload protection",
-      "3 · Control transformers",
-      "4 · Control ladder logic",
-      "5 · Relays & motor starters",
-      "6 · Reversing motor control",
-      "7 · Automatic input devices",
-      "8 · Basic timer control",
-      "Troubleshooting methods"
+      "Module 1 · Introduction to Electric Motor Control",
+      "Module 2 · Manual Motor Control and Overload Protection",
+      "Module 3 · Control Transformers",
+      "Module 4 · Control Ladder Logic",
+      "Module 5 · Control Relays and Motor Starters",
+      "Module 6 · Reversing Motor Control",
+      "Module 7 · Automatic Input Devices",
+      "Module 8 · Basic Timer Control",
+      "Troubleshooting Methods"
     ],
     "electrical": [
       "Module 1 · Basic Electrical Circuits",
@@ -12916,7 +14772,8 @@
     "conveyor": "This deck uses topic headings rather than numbered modules.",
     "lab": "Labs are grouped by the supplied lab packet; they are not additional numbered lecture modules.",
     "math": "These are the three sessions named in the Amazon math packet.",
-    "saca": "Mixed review follows each course’s modules and sections. Choose a course/module below or keep all courses mixed."
+    "saca": "Mixed review follows each course’s modules and sections. Choose a course/module below or keep all courses mixed.",
+    "motor": "Eight modules follow C202 Electric Motor Controls.pdf, followed by its troubleshooting section. Original cropped diagrams accompany image questions."
   },
   "slideImageSources": {
     "e-schematic": {
@@ -14299,6 +16156,272 @@
         214,
         1329,
         719
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-limit-no": {
+      "source": "m",
+      "page": 113,
+      "boxPixels": [
+        300,
+        465,
+        425,
+        542
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-limit-nc": {
+      "source": "m",
+      "page": 113,
+      "boxPixels": [
+        775,
+        474,
+        896,
+        541
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-limit-nohc": {
+      "source": "m",
+      "page": 113,
+      "boxPixels": [
+        303,
+        687,
+        425,
+        742
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-limit-ncho": {
+      "source": "m",
+      "page": 113,
+      "boxPixels": [
+        775,
+        672,
+        899,
+        739
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-float-nc": {
+      "source": "m",
+      "page": 114,
+      "boxPixels": [
+        650,
+        542,
+        899,
+        680
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-float-no": {
+      "source": "m",
+      "page": 114,
+      "boxPixels": [
+        1034,
+        542,
+        1285,
+        680
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-timer-noto": {
+      "source": "m",
+      "page": 123,
+      "boxPixels": [
+        263,
+        515,
+        592,
+        654
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-timer-nctc": {
+      "source": "m",
+      "page": 123,
+      "boxPixels": [
+        636,
+        515,
+        965,
+        654
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-primary-parallel": {
+      "source": "m",
+      "page": 41,
+      "boxPixels": [
+        151,
+        344,
+        657,
+        692
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-primary-series": {
+      "source": "m",
+      "page": 42,
+      "boxPixels": [
+        170,
+        338,
+        744,
+        681
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-lamp": {
+      "source": "m",
+      "page": 58,
+      "boxPixels": [
+        97,
+        419,
+        524,
+        620
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-alloy": {
+      "source": "m",
+      "page": 27,
+      "boxPixels": [
+        154,
+        461,
+        435,
+        698
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-bimetal": {
+      "source": "m",
+      "page": 28,
+      "boxPixels": [
+        308,
+        187,
+        532,
+        423
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-transformer-multi": {
+      "source": "m",
+      "page": 43,
+      "boxPixels": [
+        494,
+        353,
+        901,
+        695
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-push-test": {
+      "source": "m",
+      "page": 88,
+      "boxPixels": [
+        376,
+        441,
+        1024,
+        644
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-sequence": {
+      "source": "m",
+      "page": 118,
+      "boxPixels": [
+        700,
+        204,
+        1272,
+        551
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-jog-selector": {
+      "source": "m",
+      "page": 107,
+      "boxPixels": [
+        620,
+        385,
+        1378,
+        644
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-hoa": {
+      "source": "m",
+      "page": 108,
+      "boxPixels": [
+        886,
+        491,
+        1347,
+        716
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-drum": {
+      "source": "m",
+      "page": 93,
+      "boxPixels": [
+        764,
+        374,
+        1226,
+        718
       ],
       "renderSize": [
         1400,
