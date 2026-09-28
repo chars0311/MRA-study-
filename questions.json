@@ -6859,7 +6859,7 @@
       "source": "m",
       "section": "7 · Automatic input devices · PDF page 114",
       "type": "quiz",
-      "prompt": "What directly operates the contacts in the float-switch example?",
+      "prompt": "What directly operates the contacts in a mechanical float switch?",
       "answer": "Upward or downward movement of the float",
       "options": [
         "Upward or downward movement of the float",
@@ -7588,7 +7588,7 @@
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
       "type": "quiz",
-      "prompt": "Which diagram is used to show the control logic of the circuit?",
+      "prompt": "Which type of electrical drawing represents control logic using rungs and control-device symbols?",
       "answer": "Ladder diagram",
       "options": [
         "Ladder diagram",
@@ -7669,7 +7669,7 @@
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
       "type": "quiz",
-      "prompt": "How many loads per rung does this course specify?",
+      "prompt": "Under the one-load-per-rung convention, how many output loads belong on each ladder rung?",
       "answer": "One",
       "options": [
         "One",
@@ -7897,7 +7897,7 @@
       "world": "sensor",
       "topic": "Module 2 · Valves and Relays",
       "type": "quiz",
-      "prompt": "In the single-solenoid 5/2 example, what returns the spool when the solenoid is not energized?",
+      "prompt": "In a single-solenoid 5/2 directional-control valve with a mechanical return, what returns the spool when the solenoid is de-energized?",
       "answer": "The spring",
       "options": [
         "The spring",
@@ -7905,7 +7905,7 @@
         "The lamp circuit",
         "A timer contact"
       ],
-      "explanation": "The slide shows the spring pushing the spool to its non-energized position.",
+      "explanation": "The mechanical return spring moves the spool back when the solenoid is de-energized.",
       "source": "s",
       "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 17",
       "sourcePages": [
@@ -7917,7 +7917,7 @@
       "world": "sensor",
       "topic": "Module 2 · Valves and Relays",
       "type": "quiz",
-      "prompt": "What is the purpose of the valve manual override described in this troubleshooting example?",
+      "prompt": "What is the purpose of a manual override on an electrically operated directional-control valve?",
       "answer": "Actuate the valve independently of its electrical switch signal",
       "options": [
         "Actuate the valve independently of its electrical switch signal",
@@ -8909,7 +8909,7 @@
       "world": "sensor",
       "topic": "Module 5 · Advanced Systems",
       "type": "quiz",
-      "prompt": "For cylinders that must work in parallel, what arrangement does the course suggest where practical?",
+      "prompt": "What mechanical arrangement can help cylinders move together when they must work in parallel?",
       "answer": "Attach them to the same machine part",
       "options": [
         "Attach them to the same machine part",
@@ -9246,7 +9246,7 @@
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
       "type": "quiz",
-      "prompt": "Does this reed switch need a separate power supply to energize internal sensing electronics?",
+      "prompt": "Does a basic mechanical reed switch need a separate power supply for internal sensing electronics?",
       "answer": "No; a magnetic field operates its mechanical contacts",
       "options": [
         "No; a magnetic field operates its mechanical contacts",
@@ -9327,7 +9327,7 @@
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
       "type": "quiz",
-      "prompt": "What do Hall-effect sensors and reed switches have in common in this course?",
+      "prompt": "What do Hall-effect sensors and reed switches both detect?",
       "answer": "Both detect a magnetic field",
       "options": [
         "Both detect a magnetic field",
@@ -9407,7 +9407,7 @@
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
       "type": "quiz",
-      "prompt": "Why does the mirror-based example discuss angling a shiny target away from perpendicular to the beam?",
+      "prompt": "In a photoelectric sensor system with a reflector, why can angling a shiny target away from perpendicular to the beam help prevent false reflections?",
       "answer": "To reduce light reflected straight back toward the sensor",
       "options": [
         "To reduce light reflected straight back toward the sensor",
@@ -9512,7 +9512,7 @@
         5
       ],
       "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 5",
-      "prompt": "Under the conventional-current model in the slide, external DC current flows in which direction?",
+      "prompt": "Under the conventional-current model, in which direction does external DC current flow?",
       "answer": "Positive toward negative",
       "options": [
         "Positive toward negative",
@@ -10430,7 +10430,7 @@
         28
       ],
       "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 28",
-      "prompt": "What preparation does the slide specify for component resistance measurement?",
+      "prompt": "How should a component be prepared before measuring its resistance with an ohmmeter?",
       "answer": "Turn off circuit power and disconnect one component terminal",
       "options": [
         "Turn off circuit power and disconnect one component terminal",
@@ -11587,7 +11587,7 @@
         67
       ],
       "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 67",
-      "prompt": "How does this course define turns ratio?",
+      "prompt": "Which formula defines the primary-to-secondary turns ratio?",
       "answer": "Primary turns / secondary turns",
       "options": [
         "Primary turns / secondary turns",
@@ -13302,7 +13302,7 @@
       "world": "motor",
       "topic": "Module 3 · Control Transformers",
       "type": "quiz",
-      "prompt": "A steady load needs 85 VA, with inrush already checked. Which rating follows the slide selection rule?",
+      "prompt": "A steady load needs 85 VA, with inrush already checked. Which available rating is above and closest to the required steady load?",
       "answer": "100 VA",
       "options": [
         "100 VA",
@@ -13409,7 +13409,7 @@
       "world": "motor",
       "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
-      "prompt": "What does the center position do in the three-position selector example?",
+      "prompt": "For a three-position selector with an inactive center position, what does selecting center do?",
       "answer": "Operates no contacts",
       "options": [
         "Operates no contacts",
