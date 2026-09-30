@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "catalog": "catalog.json",
+  "images": "images.json",
+  "math": "questions/shared/math.json",
+  "modules": [
+    {
+      "id": "c201/module-1",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "path": "questions/c201/module-1/question.json"
+    },
+    {
+      "id": "c201/module-2",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "path": "questions/c201/module-2/question.json"
+    },
+    {
+      "id": "c201/module-3",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "path": "questions/c201/module-3/question.json"
+    },
+    {
+      "id": "c201/module-5",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "path": "questions/c201/module-5/question.json"
+    },
+    {
+      "id": "c201/module-6",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "path": "questions/c201/module-6/question.json"
+    },
+    {
+      "id": "c202/module-1",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "path": "questions/c202/module-1/question.json"
+    },
+    {
+      "id": "c202/module-2",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "path": "questions/c202/module-2/question.json"
+    },
+    {
+      "id": "c202/module-3",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "path": "questions/c202/module-3/question.json"
+    },
+    {
+      "id": "c202/module-4",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "path": "questions/c202/module-4/question.json"
+    },
+    {
+      "id": "c202/module-5",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "path": "questions/c202/module-5/question.json"
+    },
+    {
+      "id": "c202/module-6",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "path": "questions/c202/module-6/question.json"
+    },
+    {
+      "id": "c202/module-7",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "path": "questions/c202/module-7/question.json"
+    },
+    {
+      "id": "c202/module-8",
+      "world": "motor",
+      "topic": "Module 8 · Basic Timer Control",
+      "path": "questions/c202/module-8/question.json"
+    },
+    {
+      "id": "c202/section-09",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "path": "questions/c202/section-09/question.json"
+    },
+    {
+      "id": "c205/module-1",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "path": "questions/c205/module-1/question.json"
+    },
+    {
+      "id": "c205/module-2",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "path": "questions/c205/module-2/question.json"
+    },
+    {
+      "id": "c205/module-3",
+      "world": "sensor",
+      "topic": "Module 3 · Limit Switches",
+      "path": "questions/c205/module-3/question.json"
+    },
+    {
+      "id": "c205/module-4",
+      "world": "sensor",
+      "topic": "Module 4 · Timers",
+      "path": "questions/c205/module-4/question.json"
+    },
+    {
+      "id": "c205/module-5",
+      "world": "sensor",
+      "topic": "Module 5 · Advanced Systems",
+      "path": "questions/c205/module-5/question.json"
+    },
+    {
+      "id": "c205/section-06",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "path": "questions/c205/section-06/question.json"
+    },
+    {
+      "id": "c205/module-7",
+      "world": "sensor",
+      "topic": "Module 7 · Electronic sensor applications",
+      "path": "questions/c205/module-7/question.json"
+    },
+    {
+      "id": "c209/section-01",
+      "world": "pneumatic",
+      "topic": "Introduction & basic components",
+      "path": "questions/c209/section-01/question.json"
+    },
+    {
+      "id": "c209/section-02",
+      "world": "pneumatic",
+      "topic": "Cylinders & directional control valves",
+      "path": "questions/c209/section-02/question.json"
+    },
+    {
+      "id": "c209/module-4",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "path": "questions/c209/module-4/question.json"
+    },
+    {
+      "id": "c209/module-5",
+      "world": "pneumatic",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "path": "questions/c209/module-5/question.json"
+    },
+    {
+      "id": "c209/module-6",
+      "world": "pneumatic",
+      "topic": "Module 6 · Air Logic",
+      "path": "questions/c209/module-6/question.json"
+    },
+    {
+      "id": "c209/module-7",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "path": "questions/c209/module-7/question.json"
+    },
+    {
+      "id": "c210/section-01",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "path": "questions/c210/section-01/question.json"
+    },
+    {
+      "id": "c210/section-02",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "path": "questions/c210/section-02/question.json"
+    },
+    {
+      "id": "c210/section-03",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "path": "questions/c210/section-03/question.json"
+    },
+    {
+      "id": "c210/section-04",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "path": "questions/c210/section-04/question.json"
+    },
+    {
+      "id": "c302/section-01",
+      "world": "alignment",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "path": "questions/c302/section-01/question.json"
+    },
+    {
+      "id": "c302/section-02",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "path": "questions/c302/section-02/question.json"
+    },
+    {
+      "id": "c302/section-03",
+      "world": "alignment",
+      "topic": "Day 1 · Rough alignment",
+      "path": "questions/c302/section-03/question.json"
+    },
+    {
+      "id": "c302/section-04",
+      "world": "alignment",
+      "topic": "Day 1 · Laser alignment process",
+      "path": "questions/c302/section-04/question.json"
+    },
+    {
+      "id": "c302/section-05",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 1: Soft Foot Correction",
+      "path": "questions/c302/section-05/question.json"
+    },
+    {
+      "id": "c302/section-06",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 2: Laser Shaft Alignment Operation",
+      "path": "questions/c302/section-06/question.json"
+    },
+    {
+      "id": "c302/section-07",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 3: Laser Shaft Alignment Analysis",
+      "path": "questions/c302/section-07/question.json"
+    },
+    {
+      "id": "conveyors/section-01",
+      "world": "conveyor",
+      "topic": "Classification & types of conveyors",
+      "path": "questions/conveyors/section-01/question.json"
+    },
+    {
+      "id": "conveyors/section-02",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "path": "questions/conveyors/section-02/question.json"
+    },
+    {
+      "id": "conveyors/section-03",
+      "world": "conveyor",
+      "topic": "Conveyor Belt Splicing",
+      "path": "questions/conveyors/section-03/question.json"
+    },
+    {
+      "id": "conveyors/section-04",
+      "world": "conveyor",
+      "topic": "Prepare Belt Ends",
+      "path": "questions/conveyors/section-04/question.json"
+    },
+    {
+      "id": "conveyors/section-05",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "path": "questions/conveyors/section-05/question.json"
+    },
+    {
+      "id": "conveyors/section-06",
+      "world": "conveyor",
+      "topic": "Splice limitations & troubleshooting",
+      "path": "questions/conveyors/section-06/question.json"
+    }
+  ]
+}

@@ -1,0 +1,1845 @@
+{
+  "worlds": [
+    {
+      "id": "electrical",
+      "code": "C-201",
+      "name": "Electrical Systems",
+      "description": "Circuits, measurements & electrical calculations",
+      "icon": "⚡",
+      "sourceKeys": [
+        "e",
+        "full"
+      ]
+    },
+    {
+      "id": "motor",
+      "code": "C-202",
+      "name": "Motor Controls",
+      "description": "Starters, interlocks & timer logic",
+      "icon": "↻",
+      "sourceKeys": [
+        "m"
+      ]
+    },
+    {
+      "id": "sensor",
+      "code": "C-205",
+      "name": "Sensor Logic",
+      "description": "Read the signal. Follow the logic.",
+      "icon": "◎",
+      "sourceKeys": [
+        "s"
+      ]
+    },
+    {
+      "id": "pneumatic",
+      "code": "C-209",
+      "name": "Pneumatics",
+      "description": "Pressure, air flow & actuator control",
+      "icon": "≋",
+      "sourceKeys": [
+        "p"
+      ]
+    },
+    {
+      "id": "mechanical",
+      "code": "C-210",
+      "name": "Mechanical Power",
+      "description": "Drives, ratios & machine mounting",
+      "icon": "⚙",
+      "sourceKeys": [
+        "g"
+      ]
+    },
+    {
+      "id": "alignment",
+      "code": "C-302",
+      "name": "Laser Alignment",
+      "description": "Bring both shafts onto one centerline",
+      "icon": "⊕",
+      "sourceKeys": [
+        "a"
+      ]
+    },
+    {
+      "id": "conveyor",
+      "code": "FIELD 07",
+      "name": "Conveyors",
+      "description": "Belts, splices & tracking fundamentals",
+      "icon": "▰",
+      "sourceKeys": [
+        "c"
+      ]
+    },
+    {
+      "id": "saca",
+      "code": "FINAL",
+      "name": "SACA Practice Arena",
+      "description": "Mixed review from your course slides",
+      "icon": "★",
+      "sourceKeys": [
+        "e",
+        "m",
+        "s",
+        "p",
+        "g",
+        "a",
+        "c"
+      ]
+    }
+  ],
+  "sources": {
+    "e": {
+      "title": "2026 Electrical Systems 1 Condensed.pdf"
+    },
+    "m": {
+      "title": "C202 Electric Motor Controls.pdf"
+    },
+    "s": {
+      "title": "C205 Sensor Logic Systems.pdf"
+    },
+    "p": {
+      "title": "C209 Pneumatic Systems.pdf"
+    },
+    "g": {
+      "title": "C210 Mechanical Power Sys.pdf"
+    },
+    "a": {
+      "title": "C302 Laser Shaft Alignment.pdf"
+    },
+    "c": {
+      "title": "Conveyors.pdf"
+    },
+    "full": {
+      "title": "C201 Electrical Systems 1.pdf"
+    }
+  },
+  "topics": {
+    "motor": [
+      "Module 1 · Introduction to Electric Motor Control",
+      "Module 2 · Manual Motor Control and Overload Protection",
+      "Module 3 · Control Transformers",
+      "Module 4 · Control Ladder Logic",
+      "Module 5 · Control Relays and Motor Starters",
+      "Module 6 · Reversing Motor Control",
+      "Module 7 · Automatic Input Devices",
+      "Module 8 · Basic Timer Control",
+      "Troubleshooting Methods"
+    ],
+    "electrical": [
+      "Module 1 · Basic Electrical Circuits",
+      "Module 2 · Electrical Measurements",
+      "Module 3 · Circuit Analysis",
+      "Module 5 · Combination Circuits",
+      "Module 6 · Transformers"
+    ],
+    "sensor": [
+      "Module 1 · Control Logic",
+      "Module 2 · Valves and Relays",
+      "Module 3 · Limit Switches",
+      "Module 4 · Timers",
+      "Module 5 · Advanced Systems",
+      "Electronic Sensors · introduction & proximity sensors",
+      "Module 7 · Electronic sensor applications"
+    ],
+    "pneumatic": [
+      "Introduction & basic components",
+      "Cylinders & directional control valves",
+      "Module 4 · Pneumatic Speed Control Circuits",
+      "Module 5 · Pneumatic DCV Applications",
+      "Module 6 · Air Logic",
+      "Module 7 · Automatic Input Devices 1"
+    ],
+    "mechanical": [
+      "Day 1 · Introduction to Mechanical Drive Systems",
+      "Day 2 · Shafts, chain drives & gears",
+      "Day 3 · Belt drives & chain installation",
+      "Day 4 · Drive-train calculations & shaft alignment"
+    ],
+    "alignment": [
+      "Day 1 · Shaft alignment fundamentals",
+      "Day 1 · Measurement unit & jack bolts",
+      "Day 1 · Rough alignment",
+      "Day 1 · Laser alignment process",
+      "Day 2 · Segment 1: Soft Foot Correction",
+      "Day 2 · Segment 2: Laser Shaft Alignment Operation",
+      "Day 2 · Segment 3: Laser Shaft Alignment Analysis"
+    ],
+    "conveyor": [
+      "Classification & types of conveyors",
+      "Flat Belt Conveyor Operation",
+      "Conveyor Belt Splicing",
+      "Prepare Belt Ends",
+      "Tensioning",
+      "Splice limitations & troubleshooting"
+    ],
+    "lab": [],
+    "math": []
+  },
+  "outlineNotes": {
+    "electrical": "Module numbering follows the supplied slides, which move from Module 3 to Module 5.",
+    "sensor": "Module 3 (Limit Switches) and Module 4 (Timers) are listed on the Day 2 divider. Electronic-sensor introduction has no visible Module 6 label in the readable slides, so it is listed by topic. Module 7 retains its slide number.",
+    "pneumatic": "The readable deck explicitly labels Modules 3–7. Its earlier material is grouped by slide topic without assigning unverified Module 1/2 labels. Module 7 is titled Automatic Input Devices 1 in the slides; its content covers air preparation, filtration, lubrication and leaks.",
+    "mechanical": "Sections follow the day breaks in the Mechanical Power slides.",
+    "alignment": "Day 1 follows the slide topics; Day 2 uses the three named segments on the course outline.",
+    "conveyor": "This deck uses topic headings rather than numbered modules.",
+    "lab": "Labs are grouped by the supplied lab packet; they are not additional numbered lecture modules.",
+    "math": "These are the three sessions named in the Amazon math packet.",
+    "saca": "Mixed review follows each course’s modules and sections. Choose a course/module below or keep all courses mixed.",
+    "motor": "Eight modules follow C202 Electric Motor Controls.pdf, followed by its troubleshooting section. Original cropped diagrams accompany image questions."
+  },
+  "slideImageSources": {
+    "e-schematic": {
+      "source": "full",
+      "page": 8,
+      "boxPixels": [
+        731,
+        515,
+        1126,
+        682
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "e-series": {
+      "source": "full",
+      "page": 16,
+      "boxPixels": [
+        331,
+        428,
+        608,
+        672
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "e-parallel": {
+      "source": "full",
+      "page": 16,
+      "boxPixels": [
+        705,
+        428,
+        1069,
+        672
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "e-voltmeter": {
+      "source": "full",
+      "page": 19,
+      "boxPixels": [
+        380,
+        289,
+        1020,
+        711
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "e-ammeter": {
+      "source": "full",
+      "page": 24,
+      "boxPixels": [
+        444,
+        354,
+        956,
+        772
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "e-divider": {
+      "source": "full",
+      "page": 54,
+      "boxPixels": [
+        489,
+        367,
+        904,
+        749
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-and": {
+      "source": "m",
+      "page": 68,
+      "boxPixels": [
+        277,
+        415,
+        666,
+        621
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-or": {
+      "source": "m",
+      "page": 69,
+      "boxPixels": [
+        145,
+        418,
+        467,
+        624
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-not": {
+      "source": "m",
+      "page": 70,
+      "boxPixels": [
+        274,
+        428,
+        666,
+        634
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-nor": {
+      "source": "m",
+      "page": 71,
+      "boxPixels": [
+        187,
+        486,
+        631,
+        614
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-nand": {
+      "source": "m",
+      "page": 72,
+      "boxPixels": [
+        257,
+        399,
+        657,
+        672
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-no": {
+      "source": "m",
+      "page": 60,
+      "boxPixels": [
+        274,
+        405,
+        644,
+        595
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-nc": {
+      "source": "m",
+      "page": 60,
+      "boxPixels": [
+        763,
+        486,
+        1126,
+        595
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-two-wire": {
+      "source": "m",
+      "page": 86,
+      "boxPixels": [
+        248,
+        454,
+        1152,
+        650
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-three-wire": {
+      "source": "m",
+      "page": 87,
+      "boxPixels": [
+        383,
+        534,
+        1014,
+        733
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-interlock": {
+      "source": "m",
+      "page": 100,
+      "boxPixels": [
+        756,
+        341,
+        1316,
+        650
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-notc": {
+      "source": "m",
+      "page": 122,
+      "boxPixels": [
+        180,
+        499,
+        541,
+        663
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "m-ncto": {
+      "source": "m",
+      "page": 122,
+      "boxPixels": [
+        628,
+        499,
+        975,
+        663
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-and": {
+      "source": "s",
+      "page": 8,
+      "boxPixels": [
+        586,
+        122,
+        1252,
+        241
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-or": {
+      "source": "s",
+      "page": 8,
+      "boxPixels": [
+        586,
+        251,
+        1101,
+        531
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-not": {
+      "source": "s",
+      "page": 8,
+      "boxPixels": [
+        589,
+        544,
+        1252,
+        704
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-nand": {
+      "source": "s",
+      "page": 9,
+      "boxPixels": [
+        566,
+        341,
+        1059,
+        595
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-nor": {
+      "source": "s",
+      "page": 9,
+      "boxPixels": [
+        570,
+        608,
+        1085,
+        778
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-memory": {
+      "source": "s",
+      "page": 9,
+      "boxPixels": [
+        570,
+        45,
+        1194,
+        325
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-relay": {
+      "source": "s",
+      "page": 23,
+      "boxPixels": [
+        711,
+        193,
+        1397,
+        656
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-seal": {
+      "source": "s",
+      "page": 25,
+      "boxPixels": [
+        457,
+        392,
+        1310,
+        785
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-sequence": {
+      "source": "s",
+      "page": 36,
+      "boxPixels": [
+        702,
+        119,
+        1397,
+        782
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "s-single-cycle": {
+      "source": "s",
+      "page": 37,
+      "boxPixels": [
+        695,
+        145,
+        1377,
+        550
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "p-regulator": {
+      "source": "p",
+      "page": 20,
+      "boxPixels": [
+        882,
+        418,
+        1139,
+        618
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "p-double": {
+      "source": "p",
+      "page": 28,
+      "boxPixels": [
+        756,
+        457,
+        1332,
+        695
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "p-single": {
+      "source": "p",
+      "page": 42,
+      "boxPixels": [
+        740,
+        264,
+        1091,
+        460
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "p-check": {
+      "source": "p",
+      "page": 81,
+      "boxPixels": [
+        769,
+        563,
+        969,
+        666
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "g-square": {
+      "source": "g",
+      "page": 41,
+      "boxPixels": [
+        80,
+        280,
+        238,
+        376
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "g-woodruff": {
+      "source": "g",
+      "page": 41,
+      "boxPixels": [
+        1110,
+        499,
+        1342,
+        563
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "g-jaw": {
+      "source": "g",
+      "page": 69,
+      "boxPixels": [
+        891,
+        232,
+        1371,
+        576
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "g-spur": {
+      "source": "g",
+      "page": 89,
+      "boxPixels": [
+        525,
+        151,
+        727,
+        360
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "g-helical": {
+      "source": "g",
+      "page": 89,
+      "boxPixels": [
+        1165,
+        170,
+        1361,
+        347
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "g-herringbone": {
+      "source": "g",
+      "page": 89,
+      "boxPixels": [
+        470,
+        441,
+        657,
+        643
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "a-angular": {
+      "source": "a",
+      "page": 21,
+      "boxPixels": [
+        451,
+        193,
+        1020,
+        708
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "a-parallel": {
+      "source": "a",
+      "page": 22,
+      "boxPixels": [
+        444,
+        193,
+        1017,
+        708
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c-splice": {
+      "source": "c",
+      "page": 10,
+      "boxPixels": [
+        225,
+        64,
+        1171,
+        720
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-spst-single": {
+      "source": "s",
+      "page": 3,
+      "boxPixels": [
+        435,
+        283,
+        653,
+        355
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-spst-double": {
+      "source": "s",
+      "page": 3,
+      "boxPixels": [
+        664,
+        304,
+        859,
+        356
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-spdt-single": {
+      "source": "s",
+      "page": 3,
+      "boxPixels": [
+        877,
+        284,
+        1097,
+        365
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-spdt-double": {
+      "source": "s",
+      "page": 3,
+      "boxPixels": [
+        1137,
+        283,
+        1303,
+        371
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-dpst-single": {
+      "source": "s",
+      "page": 3,
+      "boxPixels": [
+        435,
+        490,
+        645,
+        608
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-dpst-double": {
+      "source": "s",
+      "page": 3,
+      "boxPixels": [
+        687,
+        487,
+        864,
+        609
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-dpdt-single": {
+      "source": "s",
+      "page": 3,
+      "boxPixels": [
+        881,
+        487,
+        1092,
+        607
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-dpdt-double": {
+      "source": "s",
+      "page": 3,
+      "boxPixels": [
+        1136,
+        489,
+        1303,
+        611
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-limit-no": {
+      "source": "s",
+      "page": 35,
+      "boxPixels": [
+        674,
+        188,
+        957,
+        331
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-limit-nc": {
+      "source": "s",
+      "page": 35,
+      "boxPixels": [
+        1036,
+        213,
+        1321,
+        316
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-limit-nohc": {
+      "source": "s",
+      "page": 35,
+      "boxPixels": [
+        674,
+        461,
+        957,
+        559
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-limit-ncho": {
+      "source": "s",
+      "page": 35,
+      "boxPixels": [
+        1036,
+        466,
+        1321,
+        555
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-timer-notc": {
+      "source": "s",
+      "page": 41,
+      "boxPixels": [
+        730,
+        347,
+        976,
+        447
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-timer-ncto": {
+      "source": "s",
+      "page": 41,
+      "boxPixels": [
+        1050,
+        344,
+        1312,
+        427
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-timer-noto": {
+      "source": "s",
+      "page": 41,
+      "boxPixels": [
+        730,
+        574,
+        984,
+        684
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-timer-nctc": {
+      "source": "s",
+      "page": 41,
+      "boxPixels": [
+        1050,
+        571,
+        1345,
+        664
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-selector": {
+      "source": "s",
+      "page": 6,
+      "boxPixels": [
+        237,
+        526,
+        497,
+        729
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-selector-center": {
+      "source": "s",
+      "page": 6,
+      "boxPixels": [
+        710,
+        543,
+        896,
+        696
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-selector-left": {
+      "source": "s",
+      "page": 6,
+      "boxPixels": [
+        915,
+        543,
+        1100,
+        696
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-selector-right": {
+      "source": "s",
+      "page": 6,
+      "boxPixels": [
+        1108,
+        543,
+        1303,
+        696
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-dcv-a": {
+      "source": "s",
+      "page": 16,
+      "boxPixels": [
+        90,
+        406,
+        477,
+        566
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-dcv-center": {
+      "source": "s",
+      "page": 16,
+      "boxPixels": [
+        506,
+        406,
+        893,
+        566
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-dcv-b": {
+      "source": "s",
+      "page": 16,
+      "boxPixels": [
+        922,
+        406,
+        1310,
+        566
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-continuous": {
+      "source": "s",
+      "page": 38,
+      "boxPixels": [
+        480,
+        253,
+        1369,
+        745
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-timing": {
+      "source": "s",
+      "page": 44,
+      "boxPixels": [
+        703,
+        248,
+        1368,
+        741
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-sourcing": {
+      "source": "s",
+      "page": 50,
+      "boxPixels": [
+        69,
+        138,
+        637,
+        770
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c205-sinking": {
+      "source": "s",
+      "page": 51,
+      "boxPixels": [
+        71,
+        133,
+        649,
+        720
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-ac": {
+      "source": "full",
+      "page": 7,
+      "boxPixels": [
+        934,
+        178,
+        1094,
+        288
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-dc": {
+      "source": "full",
+      "page": 7,
+      "boxPixels": [
+        1133,
+        178,
+        1268,
+        288
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-knife": {
+      "source": "full",
+      "page": 11,
+      "boxPixels": [
+        328,
+        592,
+        473,
+        661
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-no": {
+      "source": "full",
+      "page": 11,
+      "boxPixels": [
+        761,
+        515,
+        896,
+        585
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-nc": {
+      "source": "full",
+      "page": 11,
+      "boxPixels": [
+        761,
+        635,
+        901,
+        705
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-selector-no": {
+      "source": "full",
+      "page": 11,
+      "boxPixels": [
+        1202,
+        515,
+        1315,
+        582
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-selector-nc": {
+      "source": "full",
+      "page": 11,
+      "boxPixels": [
+        1202,
+        638,
+        1317,
+        703
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-lamp": {
+      "source": "full",
+      "page": 12,
+      "boxPixels": [
+        1175,
+        189,
+        1318,
+        258
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-resistor": {
+      "source": "full",
+      "page": 12,
+      "boxPixels": [
+        1168,
+        318,
+        1327,
+        373
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-buzzer": {
+      "source": "full",
+      "page": 12,
+      "boxPixels": [
+        1188,
+        433,
+        1306,
+        502
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-solenoid": {
+      "source": "full",
+      "page": 12,
+      "boxPixels": [
+        1156,
+        567,
+        1338,
+        607
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-motor": {
+      "source": "full",
+      "page": 12,
+      "boxPixels": [
+        1183,
+        678,
+        1310,
+        745
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-colors": {
+      "source": "full",
+      "page": 29,
+      "boxPixels": [
+        450,
+        181,
+        1018,
+        756
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-combination": {
+      "source": "full",
+      "page": 51,
+      "boxPixels": [
+        412,
+        178,
+        989,
+        735
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-ohmmeter": {
+      "source": "full",
+      "page": 28,
+      "boxPixels": [
+        163,
+        403,
+        361,
+        682
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-series-resistors": {
+      "source": "full",
+      "page": 30,
+      "boxPixels": [
+        226,
+        311,
+        661,
+        696
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-parallel-resistors": {
+      "source": "full",
+      "page": 31,
+      "boxPixels": [
+        124,
+        318,
+        675,
+        668
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-ohms-example": {
+      "source": "full",
+      "page": 40,
+      "boxPixels": [
+        148,
+        353,
+        675,
+        693
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-fuse": {
+      "source": "full",
+      "page": 45,
+      "boxPixels": [
+        915,
+        560,
+        1203,
+        627
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-variable-three": {
+      "source": "full",
+      "page": 53,
+      "boxPixels": [
+        629,
+        527,
+        898,
+        696
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-variable-two": {
+      "source": "full",
+      "page": 53,
+      "boxPixels": [
+        951,
+        527,
+        1259,
+        696
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-fan": {
+      "source": "full",
+      "page": 52,
+      "boxPixels": [
+        290,
+        180,
+        1103,
+        742
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-short-series": {
+      "source": "full",
+      "page": 58,
+      "boxPixels": [
+        414,
+        355,
+        986,
+        701
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-short-parallel": {
+      "source": "full",
+      "page": 59,
+      "boxPixels": [
+        338,
+        460,
+        1059,
+        693
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-open-parallel": {
+      "source": "full",
+      "page": 61,
+      "boxPixels": [
+        521,
+        513,
+        876,
+        762
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-parallel-primary": {
+      "source": "full",
+      "page": 75,
+      "boxPixels": [
+        290,
+        322,
+        1107,
+        731
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-series-primary": {
+      "source": "full",
+      "page": 76,
+      "boxPixels": [
+        396,
+        318,
+        1004,
+        735
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-tap": {
+      "source": "full",
+      "page": 78,
+      "boxPixels": [
+        325,
+        336,
+        1071,
+        710
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c201-center-tap": {
+      "source": "full",
+      "page": 79,
+      "boxPixels": [
+        369,
+        432,
+        1030,
+        739
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "repair-spool": {
+      "source": "s",
+      "page": 15,
+      "boxPixels": [
+        619,
+        363,
+        947,
+        485
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "repair-guard": {
+      "source": "s",
+      "page": 39,
+      "boxPixels": [
+        480,
+        214,
+        1329,
+        719
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-limit-no": {
+      "source": "m",
+      "page": 113,
+      "boxPixels": [
+        300,
+        465,
+        425,
+        542
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-limit-nc": {
+      "source": "m",
+      "page": 113,
+      "boxPixels": [
+        775,
+        474,
+        896,
+        541
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-limit-nohc": {
+      "source": "m",
+      "page": 113,
+      "boxPixels": [
+        303,
+        687,
+        425,
+        742
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-limit-ncho": {
+      "source": "m",
+      "page": 113,
+      "boxPixels": [
+        775,
+        672,
+        899,
+        739
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-float-nc": {
+      "source": "m",
+      "page": 114,
+      "boxPixels": [
+        650,
+        542,
+        899,
+        680
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-float-no": {
+      "source": "m",
+      "page": 114,
+      "boxPixels": [
+        1034,
+        542,
+        1285,
+        680
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-timer-noto": {
+      "source": "m",
+      "page": 123,
+      "boxPixels": [
+        263,
+        515,
+        592,
+        654
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-timer-nctc": {
+      "source": "m",
+      "page": 123,
+      "boxPixels": [
+        636,
+        515,
+        965,
+        654
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-primary-parallel": {
+      "source": "m",
+      "page": 41,
+      "boxPixels": [
+        151,
+        344,
+        657,
+        692
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-primary-series": {
+      "source": "m",
+      "page": 42,
+      "boxPixels": [
+        170,
+        338,
+        744,
+        681
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-lamp": {
+      "source": "m",
+      "page": 58,
+      "boxPixels": [
+        97,
+        419,
+        524,
+        620
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-alloy": {
+      "source": "m",
+      "page": 27,
+      "boxPixels": [
+        154,
+        461,
+        435,
+        698
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-bimetal": {
+      "source": "m",
+      "page": 28,
+      "boxPixels": [
+        308,
+        187,
+        532,
+        423
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-transformer-multi": {
+      "source": "m",
+      "page": 43,
+      "boxPixels": [
+        494,
+        353,
+        901,
+        695
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-push-test": {
+      "source": "m",
+      "page": 88,
+      "boxPixels": [
+        376,
+        441,
+        1024,
+        644
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-sequence": {
+      "source": "m",
+      "page": 118,
+      "boxPixels": [
+        700,
+        204,
+        1272,
+        551
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-jog-selector": {
+      "source": "m",
+      "page": 107,
+      "boxPixels": [
+        620,
+        385,
+        1378,
+        644
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-hoa": {
+      "source": "m",
+      "page": 108,
+      "boxPixels": [
+        886,
+        491,
+        1347,
+        716
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    },
+    "c202-drum": {
+      "source": "m",
+      "page": 93,
+      "boxPixels": [
+        764,
+        374,
+        1226,
+        718
+      ],
+      "renderSize": [
+        1400,
+        788
+      ]
+    }
+  }
+}

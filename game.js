@@ -1,86 +1,1052 @@
-let originalImageKeys=new Set();
-const root=document.querySelector('#app');
-let bank,events=[],loaded=false,error='',busy=false,screen='worlds',selected='electrical',topic='',showPool=false,poolScope='selected',poolForms={},run=null,pending=null;
-const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const el=(id)=>document.getElementById(id);
-const shuffle=items=>{const a=[...items];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
-const world=()=>bank.worlds.find(w=>w.id===selected);
-const topicKey=q=>selected==='saca'?(bank.worlds.find(w=>w.id===q.world)?.code+' · '+q.topic):q.topic;
-let enabledModules={};try{enabledModules=JSON.parse(localStorage.getItem('mra-enabled-modules-v1')||'{}')||{}}catch{}
-function moduleEnabled(q){const list=enabledModules[q.world];return !Array.isArray(list)||list.includes(q.topic)}
-const pool=()=>bank.questions.filter(q=>(selected==='saca'||q.world===selected)&&moduleEnabled(q)&&(!topic||topicKey(q)===topic));
-const topicList=()=>bank.topics?.[selected]||[...new Set(bank.questions.filter(q=>selected==='saca'||q.world===selected).map(topicKey))];
-let hideMastered=true;
-try{hideMastered=localStorage.getItem('mra-hide-mastered')!=='false'}catch{}
-function retiredIds(){const counts={},seen=new Set();for(const e of events){const key=e.run+'/'+e.qid;if(seen.has(key))continue;seen.add(key);counts[e.qid]=e.correct?(counts[e.qid]||0)+1:0;}return new Set(Object.keys(counts).filter(id=>counts[id]>=3));}
-function practicePool(){const retired=retiredIds();return pool().filter(q=>!hideMastered||!retired.has(q.id));}
-function masteryPanel(){const count=pool().filter(q=>retiredIds().has(q.id)).length;return '<section class="topic-panel"><label><input id="hide-mastered" type="checkbox" '+(hideMastered?'checked':'')+'> Hide mastered questions from practice</label><p class="small">'+count+' retired in this selection. Three consecutive correct answers in separate sessions retire a question and its wording / number variations. A wrong answer brings it back. Simple Test includes mastered questions from checked modules. Boss exams include the whole course, regardless of module selections. Uncheck to practice everything. Saved in this browser only.</p></section>';}
-function suggestionPanel(){const loc=globalThis.location;const owner=loc?.hostname?.match(/^([a-z0-9-]+)\.github\.io$/i)?.[1];const repo=loc?.pathname?.split('/').filter(Boolean)[0];if(!owner||!repo||!/^[-a-z0-9_.]+$/i.test(repo))return '';const url='https://github.com/'+owner+'/'+repo+'/issues/new?title='+encodeURIComponent('Study question suggestion')+'&body='+encodeURIComponent('Course / module:\n\nSlide or page:\n\nQuestion or correction:\n\nAnswer choices:\n\nCorrect answer and explanation:\n\nAttach the supporting diagram if needed.');return '<section class="topic-panel"><h2>Help improve the question pool</h2><a href="'+escape(url)+'" target="_blank" rel="noopener noreferrer">Suggest a question or report a correction</a><p class="small">Opens GitHub Issues (GitHub sign-in required). Include the course, slide, correct answer and explanation. Suggestions need owner review before they enter the shared bank.</p></section>';}
-
-const variantHistory={};
-function freshQuestion(q){const forms=q.variants;if(!forms?.length)return {...q};const previous=variantHistory[q.id]??events.filter(e=>e.qid===q.id).at(-1)?.variant;const chosen=shuffle(forms.filter(v=>v.variant!==previous))[0]||forms[0];variantHistory[q.id]=chosen.variant;return {...q,...chosen};}
-function topicPicker(){const courses=bank.worlds.filter(w=>w.id!=='saca'&&(selected==='saca'||w.id===selected));return '<section class="topic-panel"><h2>Modules in your question pool</h2><p>Check the modules you have covered. Checked modules control Simple Test and practice. Boss exams always cover the whole selected course. Your choices save in this browser.</p><div class="module-actions"><button id="modules-all">Check all</button><button id="modules-none">Clear all</button></div>'+courses.map(w=>'<fieldset class="module-checks"><legend>'+escape(w.code+' · '+w.name)+'</legend>'+(bank.topics[w.id]||[...new Set(bank.questions.filter(q=>q.world===w.id).map(q=>q.topic))]).map((t,i)=>{const qs=bank.questions.filter(q=>q.world===w.id&&q.topic===t);return '<label><input type="checkbox" data-module-world="'+w.id+'" data-module-index="'+i+'" '+(moduleEnabled({world:w.id,topic:t})?'checked':'')+'><span>'+escape(t)+'<small>'+qs.length+' questions</small></span></label>'}).join('')+'</fieldset>').join('')+'<p role="status"><b>'+pool().length+' questions included.</b> '+(pool().length?'':'Check at least one module to start.')+'</p></section>';}
-function moduleNames(id){return bank.topics[id]||[...new Set(bank.questions.filter(q=>q.world===id).map(q=>q.topic))]}
-function saveModules(){topic='';try{localStorage.setItem('mra-enabled-modules-v1',JSON.stringify(enabledModules))}catch{}error='';render()}
-function bindModules(){root.querySelectorAll('[data-module-world]').forEach(input=>input.onchange=()=>{const id=input.dataset.moduleWorld,names=moduleNames(id),set=new Set(enabledModules[id]||names),name=names[Number(input.dataset.moduleIndex)];input.checked?set.add(name):set.delete(name);enabledModules[id]=[...set];saveModules()});for(const id of ['modules-all','modules-none'])if(el(id))el(id).onclick=()=>{bank.worlds.filter(w=>w.id!=='saca'&&(selected==='saca'||w.id===selected)).forEach(w=>enabledModules[w.id]=id==='modules-all'?moduleNames(w.id):[]);saveModules()};}
-function reviewGuidance(q){const cue=q.reviewCue;return '<div class="review-guidance"><h3>What to look for on the slide</h3><p>'+escape(cue?.text||'Follow the relationship described in the explanation above.')+'</p>'+(cue?.excerpt?'<blockquote>'+escape(cue.excerpt)+'</blockquote><p class="small">Slide passage · PDF page '+cue.page+'</p>':'')+'</div>';}
-function reviewSlides(q){const pages=q.reviewSlides||[];if(!pages.length)return '<p class="small">Review the source and section listed above.</p>';return reviewGuidance(q)+'<section class="review-slides"><h3>Review this slide</h3>'+pages.map(s=>'<figure><a href="'+escape(s.url)+'" target="_blank" rel="noopener"><img src="'+escape(s.url)+'" alt="Review slide: '+escape(s.title)+' — PDF page '+s.page+'" loading="lazy"></a><figcaption>'+escape(s.title)+' · PDF page '+s.page+' · Select image to enlarge</figcaption></figure>').join('')+'</section>';}
-const lastAnswers=()=>Object.fromEntries(events.filter(e=>bank.questions.some(q=>q.id===e.qid)).map(e=>[e.qid,e.correct]));
-function stats(){let xp=0,streak=0,best=0;for(const e of events){if(e.correct){streak++;xp+=10+Math.min(streak,5)*2;best=Math.max(best,streak)}else streak=0}const latest=lastAnswers();return{xp,streak,best,level:1+Math.floor(xp/250),mastered:Object.values(latest).filter(Boolean).length,missed:Object.keys(latest).filter(k=>!latest[k])}}
-function badges(){const runs={};for(const e of events.filter(e=>e.mode==='boss'&&!e.topic))(runs[e.run]??=[]).push(e);return Object.values(runs).filter(a=>a.length===a[0].total&&a.filter(e=>e.correct).length/a.length>=.75).map(a=>a[0].world)}
-const source=q=>`<strong>What to review</strong><span>${escape(bank.worlds.find(w=>w.id===q.world)?.name||"Course materials")} · ${escape(bank.sources[q.source].title)}</span><span>${escape(q.section)}</span>`;
-const progress=(value,max,label)=>`<progress value="${value}" max="${Math.max(max,1)}" aria-label="${escape(label)}"></progress>`;
-function diagram(q){
- if(q.diagram?.kind!=='slide-image')return '';
- const img=bank.slideImages?.[q.diagram.imageKey];
- return img?`<figure class="slide-question-image"><img src="${img}" alt="${escape(q.diagram.alt||'Course slide diagram for this question')}" decoding="async"><figcaption>${q.custom?'Contributor-supplied course image':'Original course slide diagram'}</figcaption></figure>`:'';
+let originalImageKeys = new Set();
+const root = document.querySelector("#app");
+let bank,
+  events = [],
+  loaded = false,
+  error = "",
+  busy = false,
+  screen = "worlds",
+  selected = "electrical",
+  topic = "",
+  showPool = false,
+  poolScope = "selected",
+  poolForms = {},
+  run = null,
+  pending = null;
+const escape = (s) =>
+  String(s).replace(
+    /[&<>"']/g,
+    (c) =>
+      ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[
+        c
+      ],
+  );
+const el = (id) => document.getElementById(id);
+const shuffle = (items) => {
+  const a = [...items];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+};
+const world = () => bank.worlds.find((w) => w.id === selected);
+const topicKey = (q) =>
+  selected === "saca"
+    ? bank.worlds.find((w) => w.id === q.world)?.code + " · " + q.topic
+    : q.topic;
+let enabledModules = {};
+try {
+  enabledModules =
+    JSON.parse(localStorage.getItem("mra-enabled-modules-v1") || "{}") || {};
+} catch {}
+function moduleEnabled(q) {
+  const list = enabledModules[q.world];
+  return !Array.isArray(list) || list.includes(q.topic);
+}
+// A shared math question may be assigned to more than one relevant module.
+// Keep one question per ID in a session, and use an eligible assignment.
+function courseQuestions(course = selected, checkedOnly = false) {
+  return bank.questions.flatMap((question) => {
+    const assignments = question.moduleAssignments || [question];
+    const assignment = assignments.find(
+      (entry) =>
+        (course === "saca" || entry.world === course) &&
+        (!checkedOnly || moduleEnabled(entry)) &&
+        (!checkedOnly || !topic || topicKey(entry) === topic),
+    );
+    return assignment ? [{ ...question, world: assignment.world, topic: assignment.topic }] : [];
+  });
+}
+function belongsToModule(question, course, module) {
+  return (question.moduleAssignments || [question]).some(
+    (entry) => entry.world === course && entry.topic === module,
+  );
+}
+const pool = () => courseQuestions(selected, true);
+const topicList = () =>
+  bank.topics?.[selected] || [
+    ...new Set(
+      bank.questions.flatMap((q) => q.moduleAssignments || [q])
+        .filter((q) => selected === "saca" || q.world === selected).map(topicKey),
+    ),
+  ];
+let hideMastered = true;
+try {
+  hideMastered = localStorage.getItem("mra-hide-mastered") !== "false";
+} catch {}
+function retiredIds() {
+  const counts = {},
+    seen = new Set();
+  for (const e of events) {
+    const key = e.run + "/" + e.qid;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    counts[e.qid] = e.correct ? (counts[e.qid] || 0) + 1 : 0;
+  }
+  return new Set(Object.keys(counts).filter((id) => counts[id] >= 3));
+}
+function practicePool() {
+  const retired = retiredIds();
+  return pool().filter((q) => !hideMastered || !retired.has(q.id));
+}
+function masteryPanel() {
+  const count = pool().filter((q) => retiredIds().has(q.id)).length;
+  return (
+    '<section class="topic-panel"><label><input id="hide-mastered" type="checkbox" ' +
+    (hideMastered ? "checked" : "") +
+    '> Hide mastered questions from practice</label><p class="small">' +
+    count +
+    " retired in this selection. Three consecutive correct answers in separate sessions retire a question and its wording / number variations. A wrong answer brings it back. Simple Test includes mastered questions from checked modules. Boss exams include the whole course, regardless of module selections. Uncheck to practice everything. Saved in this browser only.</p></section>"
+  );
+}
+function suggestionPanel() {
+  const loc = globalThis.location;
+  const owner = loc?.hostname?.match(/^([a-z0-9-]+)\.github\.io$/i)?.[1];
+  const repo = loc?.pathname?.split("/").filter(Boolean)[0];
+  if (!owner || !repo || !/^[-a-z0-9_.]+$/i.test(repo)) return "";
+  const url =
+    "https://github.com/" +
+    owner +
+    "/" +
+    repo +
+    "/issues/new?title=" +
+    encodeURIComponent("Study question suggestion") +
+    "&body=" +
+    encodeURIComponent(
+      "Course / module:\n\nSlide or page:\n\nQuestion or correction:\n\nAnswer choices:\n\nCorrect answer and explanation:\n\nAttach the supporting diagram if needed.",
+    );
+  return (
+    '<section class="topic-panel"><h2>Help improve the question pool</h2><a href="' +
+    escape(url) +
+    '" target="_blank" rel="noopener noreferrer">Suggest a question or report a correction</a><p class="small">Opens GitHub Issues (GitHub sign-in required). Include the course, slide, correct answer and explanation. Suggestions need owner review before they enter the shared bank.</p></section>'
+  );
 }
 
-function wordbank(){const locked=busy||run.checking||run.answers.length>0;return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit" ${locked?'disabled':''}>← Leave session</button><span>WORD BANK · 5 SENTENCES</span></div><h1 id="question-heading" tabindex="-1">Fill in the missing words.</h1><p>Drag a word into each blank, or select a word and then select a blank. Each word can be used once; 15 choices are extras. Select a filled blank with no word selected to clear it.</p><ol class="word-sentences">${run.qs.map((q,i)=>{const parts=q.cloze.split('___');return `<li>${escape(parts[0])}<button class="word-slot" data-slot="${q.id}" aria-label="Blank ${i+1}: ${escape(run.placements[q.id]||'empty')}" ${locked?'disabled':''}>${escape(run.placements[q.id]||'Drop word here')}</button>${escape(parts[1])}</li>`}).join('')}</ol><p role="status">${run.selectedWord?'Selected: '+escape(run.selectedWord):'Choose from these 20 words'}</p><div class="word-tray">${run.words.map((w,i)=>`<button class="word-chip" draggable="${!locked}" data-word="${i}" aria-pressed="${run.selectedWord===w}" ${locked||Object.values(run.placements).includes(w)?'disabled':''}>${escape(w)}</button>`).join('')}</div><button class="primary" id="check-wordbank" ${busy||run.checking||run.qs.some(q=>!run.placements[q.id])?'disabled':''}>${run.checking?'Checking…':'Check all 5 answers'}</button><p class="small">All five answers are scored together. Earn XP for correct answers; review each explanation afterward.</p></section>`;}
-function placeWord(id,word){if(busy||run.checking||run.answers.length||!run.qs.some(q=>q.id===id))return;if(word&&!run.words.includes(word))return;for(const key of Object.keys(run.placements))if(run.placements[key]===word)delete run.placements[key];if(word)run.placements[id]=word;else delete run.placements[id];run.selectedWord=null;render();}
-async function checkWordbank(){if(busy||run.checking||run.qs.some(q=>!run.placements[q.id]))return;run.checking=true;render();for(const q of run.qs){if(run.answers.some(e=>e.qid===q.id))continue;if(pending)await savePending();else await submit(q,run.placements[q.id]);if(pending)break;}run.checking=false;if(run.answers.length===run.qs.length)run.finished=true;render();}
-function bindWordbank(){if(run?.mode!=='wordbank')return;root.querySelectorAll('[data-word]').forEach(b=>{b.onclick=()=>{const word=run.words[Number(b.dataset.word)];run.selectedWord=run.selectedWord===word?null:word;render()};b.ondragstart=e=>{e.dataTransfer.setData('text/plain',run.words[Number(b.dataset.word)]);e.dataTransfer.effectAllowed='move';}});root.querySelectorAll('[data-slot]').forEach(b=>{b.onclick=()=>placeWord(b.dataset.slot,run.selectedWord);b.ondragover=e=>{e.preventDefault();e.dataTransfer.dropEffect='move'};b.ondrop=e=>{e.preventDefault();placeWord(b.dataset.slot,e.dataTransfer.getData('text/plain'))}});if(el('check-wordbank'))el('check-wordbank').onclick=checkWordbank;}
-
-function gameHeader(){const t=stats();return `<header><button class="brand" data-action="home" aria-label="MRA Tech Quest home"><b class="brand-mark">ϟ</b><span>MRA <b>TECH QUEST</b></span></button><div class="rank"><span class="rank-label">LEVEL ${t.level}</span><b>${['Apprentice','Circuit Scout','Field Technician','Systems Specialist','Master Technician'][Math.min(4,Math.floor((t.level-1)/3))]}</b>${progress(t.xp%250,250,'Progress to next level')}</div></header><div class="status-strip"><span><b>ϟ ${t.xp}</b> XP</span><span><b>${t.streak}</b> answer streak</span><span><b>${t.mastered}/${bank.questions.length}</b> mastered</span><span class="save-status">${busy?'Saving…':loaded?(portablePersistent?'✓ Saved in this browser':'Session only — progress will not be saved'):error?'Progress unavailable':'Loading progress…'}</span></div>`}
-function notice(){return error?`<div class="notice" role="alert"><p>${escape(error)}</p><button data-action="retry">Retry ${pending?'save':'loading'}</button>${/Sign in/.test(error)?'<a href="/signin-with-chatgpt?return_to=/" target="_top">Sign in</a>':''}</div>`:''}
-function render(){if(!bank)return;root.innerHTML=`<main class="quest">${gameHeader()}${notice()}${run?play():`<nav aria-label="Game navigation" class="navigation">${[['worlds','Training worlds'],['progress','Your progress'],['sources','Study library'],].map(([id,n])=>`<button data-screen="${id}" ${screen===id?'aria-current="page" class="active"':''}>${n}</button>`).join('')}</nav>${screen==='worlds'?home():screen==='progress'?progressPage():library()}`}<footer>MRA school · Personal study practice<br><span>Practice exams are not official SACA exams. Lab questions rehearse the supplied materials; follow your instructor’s procedures on real equipment.</span></footer></main>`;bind();}
-
-function questionPoolBrowser(){
- const qs=poolScope==='all'?bank.questions:pool();
- return `<section class="pool-panel"><button id="pool-toggle" aria-expanded="${showPool}" aria-controls="pool-content">${showPool?'Hide':'Show'} question pool</button>${showPool?`<div id="pool-content"><h2>Question pool</h2><label for="pool-scope">Browse</label> <select id="pool-scope"><option value="selected" ${poolScope==='selected'?'selected':''}>Selected course / module</option><option value="all" ${poolScope==='all'?'selected':''}>All courses</option></select><p>${qs.length} questions · ${qs.reduce((n,q)=>n+(q.variants?.length||1),0)} wording / number variations</p><p class="small">This is the available bank, not your next test. Tests randomly draw from it and can include earlier sections or broader review. Browsing does not change XP or progress.</p><div class="pool-list">${qs.map(q=>{const form=q.variants?.[poolForms[q.id]||0],v={...q,...form};return `<article class="pool-question"><p class="eyebrow">${escape(bank.worlds.find(w=>w.id===q.world)?.name||'')} · ${escape(q.type)}</p><p class="small">${escape(q.topic)}${q.examEligible===false?' · Excluded from tests: setup image needed':''}</p><h3>${escape(v.prompt)}</h3>${diagram(v)}${q.variants?.length>1?`<label>Question variation <select data-pool-form="${q.id}">${q.variants.map((_,i)=>`<option value="${i}" ${(poolForms[q.id]||0)===i?'selected':''}>${i+1} of ${q.variants.length}</option>`).join('')}</select></label>`:''}<details><summary>Reveal answer & explanation</summary><p><strong>${escape(v.answer)}</strong></p><p>${escape(v.explanation)}</p><div class="source">${source(v)}</div></details></article>`}).join('')}</div></div>`:''}</section>`;
+const variantHistory = {};
+function freshQuestion(q) {
+  const forms = q.variants;
+  if (!forms?.length) return { ...q };
+  const previous =
+    variantHistory[q.id] ??
+    events.filter((e) => e.qid === q.id).at(-1)?.variant;
+  const chosen =
+    shuffle(forms.filter((v) => v.variant !== previous))[0] || forms[0];
+  variantHistory[q.id] = chosen.variant;
+  return { ...q, ...chosen };
+}
+function topicPicker() {
+  const courses = bank.worlds.filter(
+    (w) => w.id !== "saca" && (selected === "saca" || w.id === selected),
+  );
+  return (
+    '<section class="topic-panel"><h2>Modules in your question pool</h2><p>Check the modules you have covered. Checked modules control Simple Test and practice. Boss exams always cover the whole selected course. Your choices save in this browser.</p><div class="module-actions"><button id="modules-all">Check all</button><button id="modules-none">Clear all</button></div>' +
+    courses
+      .map(
+        (w) =>
+          '<fieldset class="module-checks"><legend>' +
+          escape(w.code + " · " + w.name) +
+          "</legend>" +
+          (
+            bank.topics[w.id] || [
+              ...new Set(
+                bank.questions
+                  .filter((q) => q.world === w.id)
+                  .map((q) => q.topic),
+              ),
+            ]
+          )
+            .map((t, i) => {
+              const qs = bank.questions.filter(
+                (q) => belongsToModule(q, w.id, t),
+              );
+              return (
+                '<label><input type="checkbox" data-module-world="' +
+                w.id +
+                '" data-module-index="' +
+                i +
+                '" ' +
+                (moduleEnabled({ world: w.id, topic: t }) ? "checked" : "") +
+                "><span>" +
+                escape(t) +
+                "<small>" +
+                qs.length +
+                " questions</small></span></label>"
+              );
+            })
+            .join("") +
+          "</fieldset>",
+      )
+      .join("") +
+    '<p role="status"><b>' +
+    pool().length +
+    " questions included.</b> " +
+    (pool().length ? "" : "Check at least one module to start.") +
+    "</p></section>"
+  );
+}
+function moduleNames(id) {
+  return (
+    bank.topics[id] || [
+      ...new Set(
+        bank.questions.filter((q) => q.world === id).map((q) => q.topic),
+      ),
+    ]
+  );
+}
+function saveModules() {
+  topic = "";
+  try {
+    localStorage.setItem(
+      "mra-enabled-modules-v1",
+      JSON.stringify(enabledModules),
+    );
+  } catch {}
+  error = "";
+  render();
+}
+function bindModules() {
+  root.querySelectorAll("[data-module-world]").forEach(
+    (input) =>
+      (input.onchange = () => {
+        const id = input.dataset.moduleWorld,
+          names = moduleNames(id),
+          set = new Set(enabledModules[id] || names),
+          name = names[Number(input.dataset.moduleIndex)];
+        input.checked ? set.add(name) : set.delete(name);
+        enabledModules[id] = [...set];
+        saveModules();
+      }),
+  );
+  for (const id of ["modules-all", "modules-none"])
+    if (el(id))
+      el(id).onclick = () => {
+        bank.worlds
+          .filter(
+            (w) =>
+              w.id !== "saca" && (selected === "saca" || w.id === selected),
+          )
+          .forEach(
+            (w) =>
+              (enabledModules[w.id] =
+                id === "modules-all" ? moduleNames(w.id) : []),
+          );
+        saveModules();
+      };
+}
+function reviewGuidance(q) {
+  const cue = q.reviewCue;
+  return (
+    '<div class="review-guidance"><h3>What to look for on the slide</h3><p>' +
+    escape(
+      cue?.text ||
+        "Follow the relationship described in the explanation above.",
+    ) +
+    "</p>" +
+    (cue?.excerpt
+      ? "<blockquote>" +
+        escape(cue.excerpt) +
+        '</blockquote><p class="small">Slide passage · PDF page ' +
+        cue.page +
+        "</p>"
+      : "") +
+    "</div>"
+  );
+}
+function reviewSlides(q) {
+  const pages = q.reviewSlides || [];
+  if (!pages.length)
+    return '<p class="small">Review the source and section listed above.</p>';
+  return (
+    reviewGuidance(q) +
+    '<section class="review-slides"><h3>Review this slide</h3>' +
+    pages
+      .map(
+        (s) =>
+          '<figure><a href="' +
+          escape(s.url) +
+          '" target="_blank" rel="noopener"><img src="' +
+          escape(s.url) +
+          '" alt="Review slide: ' +
+          escape(s.title) +
+          " — PDF page " +
+          s.page +
+          '" loading="lazy"></a><figcaption>' +
+          escape(s.title) +
+          " · PDF page " +
+          s.page +
+          " · Select image to enlarge</figcaption></figure>",
+      )
+      .join("") +
+    "</section>"
+  );
+}
+const lastAnswers = () =>
+  Object.fromEntries(
+    events
+      .filter((e) => bank.questions.some((q) => q.id === e.qid))
+      .map((e) => [e.qid, e.correct]),
+  );
+function stats() {
+  let xp = 0,
+    streak = 0,
+    best = 0;
+  for (const e of events) {
+    if (e.correct) {
+      streak++;
+      xp += 10 + Math.min(streak, 5) * 2;
+      best = Math.max(best, streak);
+    } else streak = 0;
+  }
+  const latest = lastAnswers();
+  return {
+    xp,
+    streak,
+    best,
+    level: 1 + Math.floor(xp / 250),
+    mastered: Object.values(latest).filter(Boolean).length,
+    missed: Object.keys(latest).filter((k) => !latest[k]),
+  };
+}
+function badges() {
+  const runs = {};
+  for (const e of events.filter((e) => e.mode === "boss" && !e.topic))
+    (runs[e.run] ??= []).push(e);
+  return Object.values(runs)
+    .filter(
+      (a) =>
+        a.length === a[0].total &&
+        a.filter((e) => e.correct).length / a.length >= 0.75,
+    )
+    .map((a) => a[0].world);
+}
+const source = (q) =>
+  `<strong>What to review</strong><span>${escape(bank.worlds.find((w) => w.id === q.world)?.name || "Course materials")} · ${escape(bank.sources[q.source].title)}</span><span>${escape(q.section)}</span>`;
+const progress = (value, max, label) =>
+  `<progress value="${value}" max="${Math.max(max, 1)}" aria-label="${escape(label)}"></progress>`;
+function diagram(q) {
+  if (q.diagram?.kind !== "slide-image") return "";
+  const img = bank.slideImages?.[q.diagram.imageKey];
+  return img
+    ? `<figure class="slide-question-image"><img src="${img}" alt="${escape(q.diagram.alt || "Course slide diagram for this question")}" decoding="async"><figcaption>${q.custom ? "Contributor-supplied course image" : "Original course slide diagram"}</figcaption></figure>`
+    : "";
 }
 
-function home(){const w=world(),questions=pool(),t=stats(),latest=lastAnswers(),n=questions.filter(q=>latest[q.id]).length;return `<div class="course-jump"><label for="course-jump">Your course</label><select id="course-jump">${bank.worlds.map(x=>`<option value="${x.id}" ${x.id===selected?'selected':''}>${escape(x.code+' · '+x.name)}</option>`).join('')}</select><span>${questions.length} questions in your pool</span></div><section class="board"><div class="board-copy"><p class="eyebrow">${selected==='electrical'?'START HERE · ':''}${escape(w.code)}</p><h1>${escape(w.name)}</h1><p>${escape(w.description)}</p><div class="mission-meta"><span>♥ ♥ ♥ <b>3 lives per mission</b></span><span>${questions.length} concepts</span></div><button class="primary" data-mode="mission" ${!loaded||!questions.length?'disabled':''}>${n?'Continue training':'Start '+(selected==='electrical'?'electrical ':'')+'mission'} <span>→</span></button><p class="small">${Math.min(8,questions.length)} questions · instant explanations · earn XP</p></div><div class="world-emblem" aria-hidden="true">${escape(w.icon)}<span>${escape(w.code)}</span></div></section>${topicPicker()}<div class="section-heading"><div><p class="eyebrow">PRACTICE YOUR WAY</p><h2>Choose a study mode</h2></div><span>Simple Test: checked modules · Boss: whole course</span></div><section class="training-modes" aria-label="Practice modes">${[['symbol','✓','Simple Test','Checked modules · instant explanations',questions.some(q=>!q.cloze&&q.examEligible!==false)],['formula','∑','Formula drill','Work the numbers',questions.some(q=>q.type==='formula')],['scenario','⌕','Troubleshooting','Reason through a fault',questions.some(q=>q.type==='scenario')],['cards','▱','Flashcards','Flip. Recall. Repeat.',true],['boss','★','Boss exam','Whole course · 20 questions · 75% to pass',bossPool().length>0],['review','↺','Retry mistakes',`${questions.filter(q=>t.missed.includes(q.id)).length} to revisit`,questions.some(q=>t.missed.includes(q.id))]].map(([mode,icon,title,sub,available])=>`<button class="mode" data-mode="${mode}" ${!available||(mode!=='boss'&&!questions.length)||(!loaded&&mode!=='cards')?'disabled':''}><span class="mode-icon">${icon}</span><b>${title}</b><span>${available?sub:'No questions in this mode'}</span></button>`).join('')}</section>${masteryPanel()}${questionPoolBrowser()}${suggestionPanel()}<div class="section-heading"><div><p class="eyebrow">EXPLORE THE CURRICULUM</p><h2>Choose your world</h2></div><span>All worlds unlocked</span></div><section class="world-grid">${bank.worlds.map((w,i)=>{const qs=bank.questions.filter(q=>w.id==='saca'||q.world===w.id),done=qs.filter(q=>latest[q.id]).length;return `<button class="world-card ${w.id===selected?'selected':''}" data-world="${w.id}" aria-pressed="${w.id===selected}"><div class="card-top"><span class="world-icon">${escape(w.icon)}</span><span class="small">${escape(w.code)} ${badges().includes(w.id)?'★':''}</span></div><h3>${escape(w.name)}</h3><p>${escape(w.description)}</p>${progress(done,qs.length,w.name+' mastery')}<div class="card-bottom"><span>${done}/${qs.length} mastered</span><span>${w.id===selected?'Selected':'Explore →'}</span></div></button>`}).join('')}</section>`}
-function progressPage(){const t=stats(),won=new Set(badges()),latest=lastAnswers();return `<section class="page-heading"><p class="eyebrow">YOUR FIELD RECORD</p><h1>Progress that stays with you.</h1><p>Progress saves in this browser. It does not sync between devices. Clearing browser data resets your progress.</p></section><div class="metric-grid"><article><span>Total XP</span><b>${t.xp}</b></article><article><span>Best answer streak</span><b>${t.best}</b></article><article><span>Boss worlds passed</span><b>${won.size}</b></article><article><span>Questions to revisit</span><b>${t.missed.length}</b></article></div><h2>Course mastery</h2><section class="mastery-list">${bank.worlds.map(w=>{const qs=bank.questions.filter(q=>w.id==='saca'||q.world===w.id),n=qs.filter(q=>latest[q.id]).length;return `<button data-world="${w.id}"><span class="world-icon">${escape(w.icon)}</span><div><b>${escape(w.name)}</b>${progress(n,qs.length,w.name+' mastery')}</div><span>${n}/${qs.length}</span><span>${won.has(w.id)?'★ Passed':'Train →'}</span></button>`}).join('')}</section><section class="rules"><h2>How scoring works</h2><p>Correct answers earn 10 XP plus a streak bonus of 2–10 XP. Every 250 XP raises your level. A wrong answer resets the streak and costs a mission life. Each new mission starts with 3 lives.</p><p>Simple Test draws 10 questions across every checked module with eligible questions, using more than 10 if needed to cover every selected module. It provides immediate explanations without a life cutoff. Boss exams draw up to 20 questions from the entire selected course, regardless of checkboxes, and require 75% to pass (15 of 20). Smaller selected pools produce shorter sessions. Boss answers stay editable until you lock in and grade. Flashcards are unscored. Mastery reflects your latest scored answer to each question.</p></section>`}
-function library(){const w=world();return `<section class="page-heading"><p class="eyebrow">YOUR COURSE MATERIALS</p><h1>Your study library</h1><p>${bank.questions.length} practice concepts and ${bank.questions.reduce((n,q)=>n+(q.variants?.length||1),0)} question forms and worked calculations built from the readable course slides. Each explanation names the sheet and section to look for in your course materials.</p><p class="small">Use these sheet names to find the matching materials in your original course folder. Names are based on the copies supplied for this game.</p></section><div class="library-grid">${bank.worlds.map(w=>`<article><p class="eyebrow">${escape(w.code)}</p><h2>${escape(w.name)}</h2>${bank.topics?.[w.id]?`<h3>Modules / sections</h3><ul>${bank.topics[w.id].map(t=>`<li>${escape(t)}</li>`).join('')}</ul><p class="small">${escape(bank.outlineNotes?.[w.id]||'Module titles follow the course slides.')}</p>`:''}<h3>Study materials</h3><ul>${w.sourceKeys.map(k=>`<li>${escape(bank.sources[k].title)}</li>`).join('')}</ul></article>`).join('')}</div><section class="rules"><h2>What the game covers</h2><p>The bank uses course concepts, source-based troubleshooting scenarios, and new numeric examples worked with your formula sheet. The SACA arena mixes the course bank; only the supplied slide topics are included. It does not reproduce an official exam.</p><p>Only the supplied course slides are used for this question bank. Visual questions use supplied slide images with answer text kept outside the visible diagram. Digital gate-symbol questions and generated diagrams have been removed. Equipment-specific settings are identified as lab examples. Review the named sheet in your original course materials.</p></section>`}
+function wordbank() {
+  const locked = busy || run.checking || run.answers.length > 0;
+  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit" ${locked ? "disabled" : ""}>← Leave session</button><span>WORD BANK · 5 SENTENCES</span></div><h1 id="question-heading" tabindex="-1">Fill in the missing words.</h1><p>Drag a word into each blank, or select a word and then select a blank. Each word can be used once; 15 choices are extras. Select a filled blank with no word selected to clear it.</p><ol class="word-sentences">${run.qs
+    .map((q, i) => {
+      const parts = q.cloze.split("___");
+      return `<li>${escape(parts[0])}<button class="word-slot" data-slot="${q.id}" aria-label="Blank ${i + 1}: ${escape(run.placements[q.id] || "empty")}" ${locked ? "disabled" : ""}>${escape(run.placements[q.id] || "Drop word here")}</button>${escape(parts[1])}</li>`;
+    })
+    .join(
+      "",
+    )}</ol><p role="status">${run.selectedWord ? "Selected: " + escape(run.selectedWord) : "Choose from these 20 words"}</p><div class="word-tray">${run.words.map((w, i) => `<button class="word-chip" draggable="${!locked}" data-word="${i}" aria-pressed="${run.selectedWord === w}" ${locked || Object.values(run.placements).includes(w) ? "disabled" : ""}>${escape(w)}</button>`).join("")}</div><button class="primary" id="check-wordbank" ${busy || run.checking || run.qs.some((q) => !run.placements[q.id]) ? "disabled" : ""}>${run.checking ? "Checking…" : "Check all 5 answers"}</button><p class="small">All five answers are scored together. Earn XP for correct answers; review each explanation afterward.</p></section>`;
+}
+function placeWord(id, word) {
+  if (
+    busy ||
+    run.checking ||
+    run.answers.length ||
+    !run.qs.some((q) => q.id === id)
+  )
+    return;
+  if (word && !run.words.includes(word)) return;
+  for (const key of Object.keys(run.placements))
+    if (run.placements[key] === word) delete run.placements[key];
+  if (word) run.placements[id] = word;
+  else delete run.placements[id];
+  run.selectedWord = null;
+  render();
+}
+async function checkWordbank() {
+  if (busy || run.checking || run.qs.some((q) => !run.placements[q.id])) return;
+  run.checking = true;
+  render();
+  for (const q of run.qs) {
+    if (run.answers.some((e) => e.qid === q.id)) continue;
+    if (pending) await savePending();
+    else await submit(q, run.placements[q.id]);
+    if (pending) break;
+  }
+  run.checking = false;
+  if (run.answers.length === run.qs.length) run.finished = true;
+  render();
+}
+function bindWordbank() {
+  if (run?.mode !== "wordbank") return;
+  root.querySelectorAll("[data-word]").forEach((b) => {
+    b.onclick = () => {
+      const word = run.words[Number(b.dataset.word)];
+      run.selectedWord = run.selectedWord === word ? null : word;
+      render();
+    };
+    b.ondragstart = (e) => {
+      e.dataTransfer.setData("text/plain", run.words[Number(b.dataset.word)]);
+      e.dataTransfer.effectAllowed = "move";
+    };
+  });
+  root.querySelectorAll("[data-slot]").forEach((b) => {
+    b.onclick = () => placeWord(b.dataset.slot, run.selectedWord);
+    b.ondragover = (e) => {
+      e.preventDefault();
+      e.dataTransfer.dropEffect = "move";
+    };
+    b.ondrop = (e) => {
+      e.preventDefault();
+      placeWord(b.dataset.slot, e.dataTransfer.getData("text/plain"));
+    };
+  });
+  if (el("check-wordbank")) el("check-wordbank").onclick = checkWordbank;
+}
 
-function balancedQuestions(items,target){const groups=new Map();for(const q of shuffle(items)){const key=q.world+'|'+q.topic;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(q)}const buckets=shuffle([...groups.values()]),picked=[];while(picked.length<target&&buckets.some(x=>x.length)){for(const bucket of buckets){if(bucket.length&&picked.length<target)picked.push(bucket.pop())}}return shuffle(picked).map(freshQuestion);}
-function bossPool(){return bank.questions.filter(q=>(selected==='saca'||q.world===selected)&&q.examEligible!==false&&!q.cloze)}
-function examPool(){const qs=balancedQuestions(bossPool(),20);return {qs,note:'Whole-course boss exam: module checkboxes and Hide mastered do not limit this exam.'+(qs.length<20?' Only '+qs.length+' eligible questions are available in this course.':'' )};}
-function start(mode){if(!['symbol','boss','mission','formula','scenario','cards','review'].includes(mode)||run||busy||(!loaded&&mode!=='cards'))return;const latest=lastAnswers();let qs=(mode==='boss'?bossPool():mode==='symbol'?pool():practicePool()).filter(q=>!q.cloze||mode==='cards'||mode==='review');if(mode==='symbol')qs=qs.filter(q=>q.examEligible!==false);if(mode==='formula')qs=qs.filter(q=>q.type==='formula');if(mode==='scenario')qs=qs.filter(q=>q.type==='scenario');if(mode==='review')qs=qs.filter(q=>latest[q.id]===false);if(!qs.length){error='No questions available for this selection. Check modules or turn off Hide mastered questions for practice.';render();return;}
-let note='';if(mode==='boss'){const exam=examPool();qs=exam.qs;note=exam.note;}else if(mode==='symbol'){const count=new Set(qs.map(q=>q.world+'|'+q.topic)).size;qs=balancedQuestions(qs,Math.max(10,count));note=qs.length+' questions · every checked module with eligible questions · immediate explanations · no life cutoff. Mastered questions are included.';}else{qs=shuffle(qs).map(freshQuestion);if(mode!=='cards')qs=qs.slice(0,8);}
-qs=qs.map(q=>({...q,choices:shuffle(q.options)}));run={id:crypto.randomUUID(),mode,world:selected,topic:mode==='boss'?'':topic,qs,examNote:note,index:0,answers:[],feedback:null,finished:false,lives:3,flipped:false,activePair:null,matchChoices:[],startXP:stats().xp};error='';render();window.scrollTo({top:0,behavior:'smooth'});focusQuestion();}
-function focusQuestion(){setTimeout(()=>el('question-heading')?.focus(),0)}
-const isExam=()=>run&&['test','boss'].includes(run.mode);
-const draftValid=q=>{const a=run.drafts?.[q.id];return typeof a==='string'&&a.trim()!==''&&(q.numeric===undefined?q.options.includes(a):Number.isFinite(Number(a)))};
-function examNavigator(){return `<aside class="exam-sidebar" aria-label="Question navigation"><h2>Questions</h2><p id="exam-count" role="status">${run.qs.filter(draftValid).length} / ${run.qs.length} answered</p><p class="small">✓ Answered · ○ Unanswered</p><div class="exam-question-list">${run.qs.map((q,i)=>`<button data-exam-goto="${i}" ${run.locked?'disabled':''} ${i===run.index?'aria-current="step"':''}>${draftValid(q)?'✓':'○'} Question ${i+1}</button>`).join('')}</div><button id="exam-lock" class="primary" ${run.locked||!run.qs.every(draftValid)?'disabled':''}>Lock in & grade</button>${run.locked&&!run.grading?'<button id="exam-resume">Retry grading</button>':''}<p class="small">${run.locked?'Answers locked.':'Answer every question to enable grading. You can change answers until then.'}</p></aside>`;}
-function examPage(){run.drafts??={};const q=run.qs[run.index];return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit" ${run.locked?'disabled':''}>← Leave session</button><span>${escape(world().code)} · ${run.mode==='boss'?'BOSS EXAM':'TEST'}</span></div><p>${escape(run.examNote||'')}</p><div class="exam-layout">${examNavigator()}<div class="exam-main"><p class="eyebrow">QUESTION ${run.index+1} OF ${run.qs.length}</p><p class="small">${q.recap?'↺ Earlier-section review · ':''}${escape(q.topic)}</p><h1 id="question-heading" tabindex="-1">${escape(q.prompt)}</h1>${diagram(q)}${q.numeric!==undefined?`<label for="exam-number">Your answer in ${escape(q.unit)}</label><input id="exam-number" type="text" inputmode="decimal" autocomplete="off" value="${escape(run.drafts[q.id]||'')}" ${run.locked?'disabled':''}><p class="small">Enter a number only; round to within 0.5%. Your answer stays editable.</p>`:`<div class="answer-grid">${q.choices.map((a,i)=>`<button class="answer ${run.drafts[q.id]===a?'draft-selected':''}" data-exam-answer="${i}" aria-pressed="${run.drafts[q.id]===a}" ${run.locked?'disabled':''}><span class="answer-letter">${'ABCDEF'[i]}</span><span>${escape(a)}</span></button>`).join('')}</div>`}<div class="exam-controls"><button data-exam-goto="${run.index-1}" ${run.locked||run.index===0?'disabled':''}>← Previous</button><button id="exam-clear" ${run.locked?'disabled':''}>Clear answer</button><button data-exam-goto="${run.index+1}" ${run.locked||run.index===run.qs.length-1?'disabled':''}>Next / skip →</button><button id="exam-unanswered" ${run.locked||run.qs.every(draftValid)?'disabled':''}>Next unanswered</button></div><p role="status">${run.locked?'Grading your locked answers…':'Selections are drafts. Nothing is graded until you lock in the whole test.'}</p></div></div></section>`;}
-function setExamDraft(q,value,redraw=true){if(!isExam()||run.locked)return;run.drafts??={};run.drafts[q.id]=value;if(redraw)render();else{const count=el('exam-count');if(count)count.textContent=run.qs.filter(draftValid).length+' / '+run.qs.length+' answered';if(el('exam-lock'))el('exam-lock').disabled=!run.qs.every(draftValid);if(el('exam-unanswered'))el('exam-unanswered').disabled=run.qs.every(draftValid);root.querySelectorAll('[data-exam-goto]').forEach(b=>{const i=Number(b.dataset.examGoto);if(b.closest('.exam-question-list'))b.textContent=(draftValid(run.qs[i])?'✓':'○')+' Question '+(i+1)})}}
-async function lockExam(){if(!isExam()||run.grading||(!run.locked&&!run.qs.every(draftValid)))return;run.locked=true;run.grading=true;render();try{for(const q of run.qs){if(run.answers.some(a=>a.qid===q.id))continue;if(pending)await savePending();else await submit(q,run.drafts[q.id]);if(pending)break;}if(run.answers.length===run.qs.length)run.finished=true;}finally{run.grading=false;render();}}
-function bindExam(){if(!isExam()||run.finished)return;root.querySelectorAll('[data-exam-answer]').forEach(b=>b.onclick=()=>{const q=run.qs[run.index];setExamDraft(q,q.choices[Number(b.dataset.examAnswer)])});root.querySelectorAll('[data-exam-goto]').forEach(b=>b.onclick=()=>{if(run.locked)return;run.index=Math.max(0,Math.min(run.qs.length-1,Number(b.dataset.examGoto)));render();focusQuestion()});if(el('exam-number'))el('exam-number').oninput=e=>setExamDraft(run.qs[run.index],e.target.value,false);if(el('exam-clear'))el('exam-clear').onclick=()=>setExamDraft(run.qs[run.index],'');if(el('exam-lock'))el('exam-lock').onclick=lockExam;if(el('exam-resume'))el('exam-resume').onclick=lockExam;if(el('exam-unanswered'))el('exam-unanswered').onclick=()=>{if(run.locked)return;for(let step=1;step<=run.qs.length;step++){const i=(run.index+step)%run.qs.length;if(!draftValid(run.qs[i])){run.index=i;render();focusQuestion();break}}};}
+function gameHeader() {
+  const t = stats();
+  return `<header><button class="brand" data-action="home" aria-label="MRA Tech Quest home"><b class="brand-mark">ϟ</b><span>MRA <b>TECH QUEST</b></span></button><div class="rank"><span class="rank-label">LEVEL ${t.level}</span><b>${["Apprentice", "Circuit Scout", "Field Technician", "Systems Specialist", "Master Technician"][Math.min(4, Math.floor((t.level - 1) / 3))]}</b>${progress(t.xp % 250, 250, "Progress to next level")}</div></header><div class="status-strip"><span><b>ϟ ${t.xp}</b> XP</span><span><b>${t.streak}</b> answer streak</span><span><b>${t.mastered}/${bank.questions.length}</b> mastered</span><span class="save-status">${busy ? "Saving…" : loaded ? (portablePersistent ? "✓ Saved in this browser" : "Session only — progress will not be saved") : error ? "Progress unavailable" : "Loading progress…"}</span></div>`;
+}
+function notice() {
+  return error
+    ? `<div class="notice" role="alert"><p>${escape(error)}</p><button data-action="retry">Retry ${pending ? "save" : "loading"}</button>${/Sign in/.test(error) ? '<a href="/signin-with-chatgpt?return_to=/" target="_top">Sign in</a>' : ""}</div>`
+    : "";
+}
+function render() {
+  if (!bank) return;
+  root.innerHTML = `<main class="quest">${gameHeader()}${notice()}${
+    run
+      ? play()
+      : `<nav aria-label="Game navigation" class="navigation">${[
+          ["worlds", "Training worlds"],
+          ["progress", "Your progress"],
+          ["sources", "Study library"],
+        ]
+          .map(
+            ([id, n]) =>
+              `<button data-screen="${id}" ${screen === id ? 'aria-current="page" class="active"' : ""}>${n}</button>`,
+          )
+          .join(
+            "",
+          )}</nav>${screen === "worlds" ? home() : screen === "progress" ? progressPage() : library()}`
+  }<footer>MRA school · Personal study practice<br><span>Practice exams are not official SACA exams. Lab questions rehearse the supplied materials; follow your instructor’s procedures on real equipment.</span></footer></main>`;
+  bind();
+}
 
-function play(){if(run.finished)return summary();if(isExam())return examPage();if(run.mode==='wordbank')return wordbank();if(run.mode==='cards')return cards();if(run.mode==='match')return matching();const q=run.qs[run.index],boss=['boss','test'].includes(run.mode);return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit">← Leave session</button><span>${escape(world().code)} · ${run.mode==='boss'?'BOSS EXAM':run.mode==='symbol'?'SIMPLE TEST':run.mode.toUpperCase()}</span><span class="hearts">${boss?'★ '+Math.round(run.answers.filter(a=>a.correct).length/Math.max(1,run.answers.length)*100)+'%':run.mode==='symbol'?'PRACTICE':('♥ '.repeat(run.lives)+'♡ '.repeat(3-run.lives))}</span></div>${run.examNote?`<p class="small">${escape(run.examNote)}</p>`:''}${progress(run.index,run.qs.length,'Session progress')}<div class="question-meta"><span>CHALLENGE ${run.index+1} OF ${run.qs.length}</span><span>${q.diagram?'◇ SYMBOL':q.type==='formula'?'∑ FORMULA':q.type==='scenario'?'⌕ TROUBLESHOOTING':'KNOWLEDGE CHECK'}</span></div><p class="small">${q.recap?'↺ Earlier-section review · ':''}${escape(bank.worlds.find(w=>w.id===q.world)?.code||'')} · ${escape(q.topic||q.section)}</p><h1 id="question-heading" tabindex="-1">${escape(q.prompt)}</h1>${diagram(q)}${boss?'<p class="small">Exam mode: explanations appear in your final review.</p>':''}${q.numeric!==undefined?`<form id="numeric-form"><label for="numeric-answer">Your answer in ${escape(q.unit)}</label><div class="number-row"><input id="numeric-answer" name="answer" type="text" inputmode="decimal" autocomplete="off" placeholder="Enter a number" ${run.feedback||busy?'disabled':''} required><span>${escape(q.unit)}</span><button class="primary" type="submit" ${run.feedback||busy?'disabled':''}>Check answer</button></div><p class="small">Enter the number only. Decimals accepted; round to within 0.5%.</p></form>`:`<div class="answer-grid">${q.choices.map((a,i)=>`<button data-answer="${i}" class="answer ${run.feedback&&!boss&&(a===q.answer?'correct':a===run.feedback.answer?'incorrect':'')}" ${run.feedback||busy?'disabled':''}><span class="answer-letter">${'ABCDEF'[i]}</span><span>${escape(a)}</span>${run.feedback&&!boss&&a===q.answer?'<span>✓</span>':''}</button>`).join('')}</div>`}${run.feedback?`<section class="feedback ${boss?'':run.feedback.correct?'good':'bad'}" aria-live="polite">${boss?'<h2>Answer saved</h2>':`<h2>${run.feedback.correct?'✓ Correct':'Let’s work through it'}</h2><h3>Why the correct answer is correct</h3><p><b>${escape(q.answer)}</b></p><p>${escape(q.explanation)}</p><div class="source">${source(q)}</div>${!run.feedback.correct?reviewSlides(q):''}` }<button class="primary" data-action="next">${run.index+1===run.qs.length||(!boss&&run.mode!=='symbol'&&run.lives===0)?'See results':'Next challenge'} →</button></section>`:''}${busy?'<p role="status">Saving your answer…</p>':''}</section>`}
-function cards(){const q=run.qs[run.index];return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit">← Back to worlds</button><span>FLASHCARDS · ${run.index+1}/${run.qs.length}</span><span>Unscored</span></div><button class="flashcard" data-action="flip" aria-label="${run.flipped?'Hide':'Reveal'} answer"><p class="eyebrow">${run.flipped?'THE ANSWER':'RECALL FIRST'}</p>${diagram(q)}<h1 id="question-heading" tabindex="-1">${escape(run.flipped?q.answer:q.prompt)}</h1><p>${run.flipped?escape(q.explanation):'Tap to reveal the answer'}</p></button>${run.flipped?`<div class="source">${source(q)}</div>`:''}<div class="card-controls"><button data-action="previous-card" ${run.index===0?'disabled':''}>← Previous</button><button class="primary" data-action="flip">${run.flipped?'Show question':'Reveal answer'}</button><button data-action="next-card" ${run.index===run.qs.length-1?'disabled':''}>Next →</button></div><p class="small">Recall it before flipping. Use a mission when you’re ready to earn XP.</p></section>`}
-function matching(){const done=new Set(run.answers.map(a=>a.qid));return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit">← Leave session</button><span>MATCH PAIRS · ${done.size}/${run.qs.length}</span><span class="hearts">${'♥ '.repeat(run.lives)}</span></div><h1 id="question-heading" tabindex="-1">Make the connection.</h1><p>Select a question on the left, then its answer on the right. Each pair gets one scored attempt.</p><div class="match-grid"><div>${run.qs.map(q=>`<button class="match-item ${run.activePair===q.id?'selected':''}" data-pair="${q.id}" ${done.has(q.id)||busy?'disabled':''}>${done.has(q.id)?'✓ Reviewed · ':''}${escape(q.prompt)}${diagram(q)}</button>`).join('')}</div><div>${run.matchChoices.map(q=>`<button class="match-item" data-match-answer="${q.id}" ${done.has(q.id)||!run.activePair||busy?'disabled':''}>${escape(q.answer)}</button>`).join('')}</div></div>${run.feedback?`<section class="feedback ${run.feedback.correct?'good':'bad'}" aria-live="polite"><h2>${run.feedback.correct?'✓ Pair matched':'Pair reviewed'}</h2><p>${escape(run.feedback.q.explanation)}</p><div class="source">${source(run.feedback.q)}</div>${!run.feedback.correct?reviewSlides(run.feedback.q):''}</section>`:''}${done.size===run.qs.length||run.lives===0?'<button class="primary" data-action="finish-match">See results →</button>':''}</section>`}
-function summary(){const correct=run.answers.filter(a=>a.correct).length,total=run.qs.length,percent=Math.round(100*correct/total),passed=correct/total>=.75,wasBoss=run.mode==='boss';return `<section class="results"><p class="eyebrow">${escape(world().code)} · SESSION COMPLETE</p><div class="result-symbol">${wasBoss&&passed?'★':correct?'ϟ':'↺'}</div><h1>${wasBoss?(passed?'Boss cleared.':'Keep building your skills.'):run.lives===0?'Time to recharge.':'Good work, technician.'}</h1><p>${correct} correct out of ${run.answers.length} answered${run.answers.length<total?` · ${total-run.answers.length} remaining`:''}. ${['boss','test'].includes(run.mode)?`Score: ${percent}%. Pass mark: 75%.`:'Every explanation is another chance to learn.'}</p><div class="result-stats"><span><b>+${stats().xp-run.startXP}</b> XP earned</span><span><b>${stats().level}</b> current level</span><span><b>${run.answers.filter(a=>!a.correct).length}</b> to revisit</span></div><div class="result-actions"><button class="primary" data-action="home">Back to worlds →</button><button data-action="again">New ${wasBoss?'boss exam':run.mode==='wordbank'?'word bank':run.mode==='symbol'?'Simple Test':run.mode==='test'?'test':'mission'}</button></div></section><section class="review-list"><h2>Session review</h2>${run.answers.map(a=>{const q=run.qs.find(q=>q.id===a.qid);return `<article><span class="review-tag ${a.correct?'right':'wrong'}">${a.correct?'✓ Correct':'↺ Review'}</span><h3>${escape(q.prompt)}</h3>${diagram(q)}<h3>Why the correct answer is correct</h3><p><b>${escape(q.answer)}</b></p><p>${escape(q.explanation)}</p><div class="source">${source(q)}</div>${!a.correct?reviewSlides(q):''}</article>`}).join('')}</section>`}
-async function loadProgress(){busy=true;error='';render();try{const r=await fetch('/api/progress');const d=await r.json();if(!r.ok)throw Error(d.error||'Could not load progress.');events=d.events;loaded=true}catch(e){error=e.message}finally{busy=false;render()}}
-async function submit(q,answer){if(busy||pending)return;pending={qid:q.id,variant:q.variant,topic:run.topic,answer,run:run.id,world:run.world,mode:run.mode,total:run.qs.length};await savePending()}
-async function savePending(){if(!pending||busy)return;busy=true;error='';const attempt=pending;render();try{const r=await fetch('/api/answer',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(attempt)});const d=await r.json();if(!r.ok)throw Error(d.error||'Could not save answer.');const event=d.event;if(!events.some(e=>e.key===event.key))events.push(event);if(!run.answers.some(e=>e.qid===event.qid))run.answers.push(event);if(!event.correct&&!['boss','test','wordbank','symbol'].includes(run.mode))run.lives--;const q=run.qs.find(q=>q.id===attempt.qid);run.feedback={correct:event.correct,answer:attempt.answer,q};run.activePair=null;pending=null;}catch(e){error=e.message}finally{busy=false;render();el('numeric-answer')&&(el('numeric-answer').value=attempt.answer);}}
-function next(){if(!run.feedback||busy)return;if(run.index+1>=run.qs.length||(!['boss','test','symbol'].includes(run.mode)&&run.lives===0))run.finished=true;else{run.index++;run.feedback=null}render();focusQuestion()}
-function leave(){if(run?.locked&&!run.finished)return;if(pending){error='Retry saving this answer before leaving the session.';render();return}run=null;screen='worlds';error='';render();window.scrollTo({top:0,behavior:'smooth'})}
-function bind(){if(el('course-jump'))el('course-jump').onchange=e=>{selected=e.target.value;topic='';render()};if(el("hide-mastered"))el("hide-mastered").onchange=e=>{hideMastered=e.target.checked;try{localStorage.setItem("mra-hide-mastered",String(hideMastered))}catch{}error="";render()};bindModules();bindExam();if(el("pool-toggle"))el("pool-toggle").onclick=()=>{showPool=!showPool;render();el("pool-toggle")?.focus()};if(el("pool-scope"))el("pool-scope").onchange=e=>{poolScope=e.target.value;render()};root.querySelectorAll("[data-pool-form]").forEach(s=>s.onchange=()=>{const y=window.scrollY;poolForms[s.dataset.poolForm]=Number(s.value);render();window.scrollTo({top:y})});bindWordbank();if(el("topic-select"))el("topic-select").onchange=e=>{topic=e.target.value;render()};root.querySelectorAll('[data-screen]').forEach(b=>b.onclick=()=>{screen=b.dataset.screen;render()});root.querySelectorAll('[data-world]').forEach(b=>b.onclick=()=>{selected=b.dataset.world;topic='';screen='worlds';render();window.scrollTo({top:0,behavior:'smooth'})});root.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>start(b.dataset.mode));root.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>{if(run.feedback)return;const q=run.qs[run.index];submit(q,q.choices[Number(b.dataset.answer)])});root.querySelectorAll('[data-pair]').forEach(b=>b.onclick=()=>{run.activePair=b.dataset.pair;run.feedback=null;render()});root.querySelectorAll('[data-match-answer]').forEach(b=>b.onclick=()=>{if(!run.activePair)return;const q=run.qs.find(q=>q.id===run.activePair),a=run.matchChoices.find(q=>q.id===b.dataset.matchAnswer);submit(q,a.answer)});
- root.querySelectorAll('[data-action]').forEach(b=>b.onclick=()=>{switch(b.dataset.action){case'home':case'exit':leave();break;case'retry':pending?savePending():loadProgress();break;case'next':next();break;case'flip':run.flipped=!run.flipped;render();break;case'previous-card':run.index=Math.max(0,run.index-1);run.flipped=false;render();break;case'next-card':run.index=Math.min(run.qs.length-1,run.index+1);run.flipped=false;render();break;case'finish-match':run.finished=true;render();break;case'again':{const mode=['boss','symbol'].includes(run.mode)?run.mode:'mission';run=null;start(mode);break}}});const form=el('numeric-form');if(form)form.onsubmit=e=>{e.preventDefault();const value=el('numeric-answer').value.trim();if(!value||!Number.isFinite(Number(value))){el('numeric-answer').setCustomValidity('Enter a number, such as 0.5.');el('numeric-answer').reportValidity();return}submit(run.qs[run.index],value)};if(el('numeric-answer'))el('numeric-answer').oninput=()=>el('numeric-answer').setCustomValidity('');}
-async function init(){try{const r=await fetch('/bank.json');if(!r.ok)throw Error('Could not load course questions.');bank=await r.json();render();await loadProgress();registerTools()}catch(e){root.innerHTML=`<main class="quest"><h1>The game could not load.</h1><p>${escape(e.message)}</p><a href="/">Reload game</a></main>`}}
-function registerTools(){const context=document.modelContext;if(!context?.registerTool)return;const lifecycle=new AbortController();try{Promise.resolve(context.registerTool({name:'read_study_progress',description:'Read the same XP, mastery and boss results shown in the game.',inputSchema:{type:'object',properties:{},additionalProperties:false},annotations:{readOnlyHint:true},execute(input){if(!input||typeof input!=='object'||Object.keys(input).length)throw Error('No arguments expected');return{...stats(),bossWorlds:[...new Set(badges())]}}},{signal:lifecycle.signal})).catch(()=>{});}catch{}window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true})}
-window.addEventListener('beforeunload',e=>{if(pending||busy&&run){e.preventDefault();e.returnValue=''}});
+function questionPoolBrowser() {
+  const qs = poolScope === "all" ? bank.questions : pool();
+  return `<section class="pool-panel"><button id="pool-toggle" aria-expanded="${showPool}" aria-controls="pool-content">${showPool ? "Hide" : "Show"} question pool</button>${
+    showPool
+      ? `<div id="pool-content"><h2>Question pool</h2><label for="pool-scope">Browse</label> <select id="pool-scope"><option value="selected" ${poolScope === "selected" ? "selected" : ""}>Selected course / module</option><option value="all" ${poolScope === "all" ? "selected" : ""}>All courses</option></select><p>${qs.length} questions · ${qs.reduce((n, q) => n + (q.variants?.length || 1), 0)} wording / number variations</p><p class="small">This is the available bank, not your next test. Tests randomly draw from it and can include earlier sections or broader review. Browsing does not change XP or progress.</p><div class="pool-list">${qs
+          .map((q) => {
+            const form = q.variants?.[poolForms[q.id] || 0],
+              v = { ...q, ...form };
+            return `<article class="pool-question"><p class="eyebrow">${escape(bank.worlds.find((w) => w.id === q.world)?.name || "")} · ${escape(q.type)}</p><p class="small">${escape(q.topic)}${q.examEligible === false ? " · Excluded from tests: setup image needed" : ""}</p><h3>${escape(v.prompt)}</h3>${diagram(v)}${q.variants?.length > 1 ? `<label>Question variation <select data-pool-form="${q.id}">${q.variants.map((_, i) => `<option value="${i}" ${(poolForms[q.id] || 0) === i ? "selected" : ""}>${i + 1} of ${q.variants.length}</option>`).join("")}</select></label>` : ""}<details><summary>Reveal answer & explanation</summary><p><strong>${escape(v.answer)}</strong></p><p>${escape(v.explanation)}</p><div class="source">${source(v)}</div></details></article>`;
+          })
+          .join("")}</div></div>`
+      : ""
+  }</section>`;
+}
+
+function home() {
+  const w = world(),
+    questions = pool(),
+    t = stats(),
+    latest = lastAnswers(),
+    n = questions.filter((q) => latest[q.id]).length;
+  return `<div class="course-jump"><label for="course-jump">Your course</label><select id="course-jump">${bank.worlds.map((x) => `<option value="${x.id}" ${x.id === selected ? "selected" : ""}>${escape(x.code + " · " + x.name)}</option>`).join("")}</select><span>${questions.length} questions in your pool</span></div><section class="board"><div class="board-copy"><p class="eyebrow">${selected === "electrical" ? "START HERE · " : ""}${escape(w.code)}</p><h1>${escape(w.name)}</h1><p>${escape(w.description)}</p><div class="mission-meta"><span>♥ ♥ ♥ <b>3 lives per mission</b></span><span>${questions.length} concepts</span></div><button class="primary" data-mode="mission" ${!loaded || !questions.length ? "disabled" : ""}>${n ? "Continue training" : "Start " + (selected === "electrical" ? "electrical " : "") + "mission"} <span>→</span></button><p class="small">${Math.min(8, questions.length)} questions · instant explanations · earn XP</p></div><div class="world-emblem" aria-hidden="true">${escape(w.icon)}<span>${escape(w.code)}</span></div></section>${topicPicker()}<div class="section-heading"><div><p class="eyebrow">PRACTICE YOUR WAY</p><h2>Choose a study mode</h2></div><span>Simple Test: checked modules · Boss: whole course</span></div><section class="training-modes" aria-label="Practice modes">${[
+    [
+      "symbol",
+      "✓",
+      "Simple Test",
+      "Checked modules · instant explanations",
+      questions.some((q) => !q.cloze && q.examEligible !== false),
+    ],
+    [
+      "formula",
+      "∑",
+      "Formula drill",
+      "Work the numbers",
+      questions.some((q) => q.type === "formula"),
+    ],
+    [
+      "scenario",
+      "⌕",
+      "Troubleshooting",
+      "Reason through a fault",
+      questions.some((q) => q.type === "scenario"),
+    ],
+    ["cards", "▱", "Flashcards", "Flip. Recall. Repeat.", true],
+    [
+      "boss",
+      "★",
+      "Boss exam",
+      "Whole course · 20 questions · 75% to pass",
+      bossPool().length > 0,
+    ],
+    [
+      "review",
+      "↺",
+      "Retry mistakes",
+      `${questions.filter((q) => t.missed.includes(q.id)).length} to revisit`,
+      questions.some((q) => t.missed.includes(q.id)),
+    ],
+  ]
+    .map(
+      ([mode, icon, title, sub, available]) =>
+        `<button class="mode" data-mode="${mode}" ${!available || (mode !== "boss" && !questions.length) || (!loaded && mode !== "cards") ? "disabled" : ""}><span class="mode-icon">${icon}</span><b>${title}</b><span>${available ? sub : "No questions in this mode"}</span></button>`,
+    )
+    .join(
+      "",
+    )}</section>${masteryPanel()}${questionPoolBrowser()}${suggestionPanel()}<div class="section-heading"><div><p class="eyebrow">EXPLORE THE CURRICULUM</p><h2>Choose your world</h2></div><span>All worlds unlocked</span></div><section class="world-grid">${bank.worlds
+    .map((w, i) => {
+      const qs = courseQuestions(w.id),
+        done = qs.filter((q) => latest[q.id]).length;
+      return `<button class="world-card ${w.id === selected ? "selected" : ""}" data-world="${w.id}" aria-pressed="${w.id === selected}"><div class="card-top"><span class="world-icon">${escape(w.icon)}</span><span class="small">${escape(w.code)} ${badges().includes(w.id) ? "★" : ""}</span></div><h3>${escape(w.name)}</h3><p>${escape(w.description)}</p>${progress(done, qs.length, w.name + " mastery")}<div class="card-bottom"><span>${done}/${qs.length} mastered</span><span>${w.id === selected ? "Selected" : "Explore →"}</span></div></button>`;
+    })
+    .join("")}</section>`;
+}
+function progressPage() {
+  const t = stats(),
+    won = new Set(badges()),
+    latest = lastAnswers();
+  return `<section class="page-heading"><p class="eyebrow">YOUR FIELD RECORD</p><h1>Progress that stays with you.</h1><p>Progress saves in this browser. It does not sync between devices. Clearing browser data resets your progress.</p></section><div class="metric-grid"><article><span>Total XP</span><b>${t.xp}</b></article><article><span>Best answer streak</span><b>${t.best}</b></article><article><span>Boss worlds passed</span><b>${won.size}</b></article><article><span>Questions to revisit</span><b>${t.missed.length}</b></article></div><h2>Course mastery</h2><section class="mastery-list">${bank.worlds
+    .map((w) => {
+      const qs = courseQuestions(w.id),
+        n = qs.filter((q) => latest[q.id]).length;
+      return `<button data-world="${w.id}"><span class="world-icon">${escape(w.icon)}</span><div><b>${escape(w.name)}</b>${progress(n, qs.length, w.name + " mastery")}</div><span>${n}/${qs.length}</span><span>${won.has(w.id) ? "★ Passed" : "Train →"}</span></button>`;
+    })
+    .join(
+      "",
+    )}</section><section class="rules"><h2>How scoring works</h2><p>Correct answers earn 10 XP plus a streak bonus of 2–10 XP. Every 250 XP raises your level. A wrong answer resets the streak and costs a mission life. Each new mission starts with 3 lives.</p><p>Simple Test draws 10 questions across every checked module with eligible questions, using more than 10 if needed to cover every selected module. It provides immediate explanations without a life cutoff. Boss exams draw up to 20 questions from the entire selected course, regardless of checkboxes, and require 75% to pass (15 of 20). Smaller selected pools produce shorter sessions. Boss answers stay editable until you lock in and grade. Flashcards are unscored. Mastery reflects your latest scored answer to each question.</p></section>`;
+}
+function library() {
+  const w = world();
+  return `<section class="page-heading"><p class="eyebrow">YOUR COURSE MATERIALS</p><h1>Your study library</h1><p>${bank.questions.length} practice concepts and ${bank.questions.reduce((n, q) => n + (q.variants?.length || 1), 0)} question forms and worked calculations built from the readable course slides. Each explanation names the sheet and section to look for in your course materials.</p><p class="small">Use these sheet names to find the matching materials in your original course folder. Names are based on the copies supplied for this game.</p></section><div class="library-grid">${bank.worlds.map((w) => `<article><p class="eyebrow">${escape(w.code)}</p><h2>${escape(w.name)}</h2>${bank.topics?.[w.id] ? `<h3>Modules / sections</h3><ul>${bank.topics[w.id].map((t) => `<li>${escape(t)}</li>`).join("")}</ul><p class="small">${escape(bank.outlineNotes?.[w.id] || "Module titles follow the course slides.")}</p>` : ""}<h3>Study materials</h3><ul>${w.sourceKeys.map((k) => `<li>${escape(bank.sources[k].title)}</li>`).join("")}</ul></article>`).join("")}</div><section class="rules"><h2>What the game covers</h2><p>The bank uses course concepts, source-based troubleshooting scenarios, and new numeric examples worked with your formula sheet. The SACA arena mixes the course bank; only the supplied slide topics are included. It does not reproduce an official exam.</p><p>Only the supplied course slides are used for this question bank. Visual questions use supplied slide images with answer text kept outside the visible diagram. Digital gate-symbol questions and generated diagrams have been removed. Equipment-specific settings are identified as lab examples. Review the named sheet in your original course materials.</p></section>`;
+}
+
+function balancedQuestions(items, target) {
+  const groups = new Map();
+  for (const q of shuffle(items)) {
+    const key = q.world + "|" + q.topic;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(q);
+  }
+  const buckets = shuffle([...groups.values()]),
+    picked = [];
+  while (picked.length < target && buckets.some((x) => x.length)) {
+    for (const bucket of buckets) {
+      if (bucket.length && picked.length < target) picked.push(bucket.pop());
+    }
+  }
+  return shuffle(picked).map(freshQuestion);
+}
+function bossPool() {
+  return courseQuestions().filter((q) => q.examEligible !== false && !q.cloze);
+}
+function examPool() {
+  const qs = balancedQuestions(bossPool(), 20);
+  return {
+    qs,
+    note:
+      "Whole-course boss exam: module checkboxes and Hide mastered do not limit this exam." +
+      (qs.length < 20
+        ? " Only " +
+          qs.length +
+          " eligible questions are available in this course."
+        : ""),
+  };
+}
+function start(mode) {
+  if (
+    ![
+      "symbol",
+      "boss",
+      "mission",
+      "formula",
+      "scenario",
+      "cards",
+      "review",
+    ].includes(mode) ||
+    run ||
+    busy ||
+    (!loaded && mode !== "cards")
+  )
+    return;
+  const latest = lastAnswers();
+  let qs = (
+    mode === "boss" ? bossPool() : mode === "symbol" ? pool() : practicePool()
+  ).filter((q) => !q.cloze || mode === "cards" || mode === "review");
+  if (mode === "symbol") qs = qs.filter((q) => q.examEligible !== false);
+  if (mode === "formula") qs = qs.filter((q) => q.type === "formula");
+  if (mode === "scenario") qs = qs.filter((q) => q.type === "scenario");
+  if (mode === "review") qs = qs.filter((q) => latest[q.id] === false);
+  if (!qs.length) {
+    error =
+      "No questions available for this selection. Check modules or turn off Hide mastered questions for practice.";
+    render();
+    return;
+  }
+  let note = "";
+  if (mode === "boss") {
+    const exam = examPool();
+    qs = exam.qs;
+    note = exam.note;
+  } else if (mode === "symbol") {
+    const count = new Set(qs.map((q) => q.world + "|" + q.topic)).size;
+    qs = balancedQuestions(qs, Math.max(10, count));
+    note =
+      qs.length +
+      " questions · every checked module with eligible questions · immediate explanations · no life cutoff. Mastered questions are included.";
+  } else {
+    qs = shuffle(qs).map(freshQuestion);
+    if (mode !== "cards") qs = qs.slice(0, 8);
+  }
+  qs = qs.map((q) => ({ ...q, choices: shuffle(q.options) }));
+  run = {
+    id: crypto.randomUUID(),
+    mode,
+    world: selected,
+    topic: mode === "boss" ? "" : topic,
+    qs,
+    examNote: note,
+    index: 0,
+    answers: [],
+    feedback: null,
+    finished: false,
+    lives: 3,
+    flipped: false,
+    activePair: null,
+    matchChoices: [],
+    startXP: stats().xp,
+  };
+  error = "";
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  focusQuestion();
+}
+function focusQuestion() {
+  setTimeout(() => el("question-heading")?.focus(), 0);
+}
+const isExam = () => run && ["test", "boss"].includes(run.mode);
+const draftValid = (q) => {
+  const a = run.drafts?.[q.id];
+  return (
+    typeof a === "string" &&
+    a.trim() !== "" &&
+    (q.numeric === undefined
+      ? q.options.includes(a)
+      : Number.isFinite(Number(a)))
+  );
+};
+function examNavigator() {
+  return `<aside class="exam-sidebar" aria-label="Question navigation"><h2>Questions</h2><p id="exam-count" role="status">${run.qs.filter(draftValid).length} / ${run.qs.length} answered</p><p class="small">✓ Answered · ○ Unanswered</p><div class="exam-question-list">${run.qs.map((q, i) => `<button data-exam-goto="${i}" ${run.locked ? "disabled" : ""} ${i === run.index ? 'aria-current="step"' : ""}>${draftValid(q) ? "✓" : "○"} Question ${i + 1}</button>`).join("")}</div><button id="exam-lock" class="primary" ${run.locked || !run.qs.every(draftValid) ? "disabled" : ""}>Lock in & grade</button>${run.locked && !run.grading ? '<button id="exam-resume">Retry grading</button>' : ""}<p class="small">${run.locked ? "Answers locked." : "Answer every question to enable grading. You can change answers until then."}</p></aside>`;
+}
+function examPage() {
+  run.drafts ??= {};
+  const q = run.qs[run.index];
+  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit" ${run.locked ? "disabled" : ""}>← Leave session</button><span>${escape(world().code)} · ${run.mode === "boss" ? "BOSS EXAM" : "TEST"}</span></div><p>${escape(run.examNote || "")}</p><div class="exam-layout">${examNavigator()}<div class="exam-main"><p class="eyebrow">QUESTION ${run.index + 1} OF ${run.qs.length}</p><p class="small">${q.recap ? "↺ Earlier-section review · " : ""}${escape(q.topic)}</p><h1 id="question-heading" tabindex="-1">${escape(q.prompt)}</h1>${diagram(q)}${q.numeric !== undefined ? `<label for="exam-number">Your answer in ${escape(q.unit)}</label><input id="exam-number" type="text" inputmode="decimal" autocomplete="off" value="${escape(run.drafts[q.id] || "")}" ${run.locked ? "disabled" : ""}><p class="small">Enter a number only; round to within 0.5%. Your answer stays editable.</p>` : `<div class="answer-grid">${q.choices.map((a, i) => `<button class="answer ${run.drafts[q.id] === a ? "draft-selected" : ""}" data-exam-answer="${i}" aria-pressed="${run.drafts[q.id] === a}" ${run.locked ? "disabled" : ""}><span class="answer-letter">${"ABCDEF"[i]}</span><span>${escape(a)}</span></button>`).join("")}</div>`}<div class="exam-controls"><button data-exam-goto="${run.index - 1}" ${run.locked || run.index === 0 ? "disabled" : ""}>← Previous</button><button id="exam-clear" ${run.locked ? "disabled" : ""}>Clear answer</button><button data-exam-goto="${run.index + 1}" ${run.locked || run.index === run.qs.length - 1 ? "disabled" : ""}>Next / skip →</button><button id="exam-unanswered" ${run.locked || run.qs.every(draftValid) ? "disabled" : ""}>Next unanswered</button></div><p role="status">${run.locked ? "Grading your locked answers…" : "Selections are drafts. Nothing is graded until you lock in the whole test."}</p></div></div></section>`;
+}
+function setExamDraft(q, value, redraw = true) {
+  if (!isExam() || run.locked) return;
+  run.drafts ??= {};
+  run.drafts[q.id] = value;
+  if (redraw) render();
+  else {
+    const count = el("exam-count");
+    if (count)
+      count.textContent =
+        run.qs.filter(draftValid).length + " / " + run.qs.length + " answered";
+    if (el("exam-lock")) el("exam-lock").disabled = !run.qs.every(draftValid);
+    if (el("exam-unanswered"))
+      el("exam-unanswered").disabled = run.qs.every(draftValid);
+    root.querySelectorAll("[data-exam-goto]").forEach((b) => {
+      const i = Number(b.dataset.examGoto);
+      if (b.closest(".exam-question-list"))
+        b.textContent =
+          (draftValid(run.qs[i]) ? "✓" : "○") + " Question " + (i + 1);
+    });
+  }
+}
+async function lockExam() {
+  if (!isExam() || run.grading || (!run.locked && !run.qs.every(draftValid)))
+    return;
+  run.locked = true;
+  run.grading = true;
+  render();
+  try {
+    for (const q of run.qs) {
+      if (run.answers.some((a) => a.qid === q.id)) continue;
+      if (pending) await savePending();
+      else await submit(q, run.drafts[q.id]);
+      if (pending) break;
+    }
+    if (run.answers.length === run.qs.length) run.finished = true;
+  } finally {
+    run.grading = false;
+    render();
+  }
+}
+function bindExam() {
+  if (!isExam() || run.finished) return;
+  root.querySelectorAll("[data-exam-answer]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        const q = run.qs[run.index];
+        setExamDraft(q, q.choices[Number(b.dataset.examAnswer)]);
+      }),
+  );
+  root.querySelectorAll("[data-exam-goto]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        if (run.locked) return;
+        run.index = Math.max(
+          0,
+          Math.min(run.qs.length - 1, Number(b.dataset.examGoto)),
+        );
+        render();
+        focusQuestion();
+      }),
+  );
+  if (el("exam-number"))
+    el("exam-number").oninput = (e) =>
+      setExamDraft(run.qs[run.index], e.target.value, false);
+  if (el("exam-clear"))
+    el("exam-clear").onclick = () => setExamDraft(run.qs[run.index], "");
+  if (el("exam-lock")) el("exam-lock").onclick = lockExam;
+  if (el("exam-resume")) el("exam-resume").onclick = lockExam;
+  if (el("exam-unanswered"))
+    el("exam-unanswered").onclick = () => {
+      if (run.locked) return;
+      for (let step = 1; step <= run.qs.length; step++) {
+        const i = (run.index + step) % run.qs.length;
+        if (!draftValid(run.qs[i])) {
+          run.index = i;
+          render();
+          focusQuestion();
+          break;
+        }
+      }
+    };
+}
+
+function play() {
+  if (run.finished) return summary();
+  if (isExam()) return examPage();
+  if (run.mode === "wordbank") return wordbank();
+  if (run.mode === "cards") return cards();
+  if (run.mode === "match") return matching();
+  const q = run.qs[run.index],
+    boss = ["boss", "test"].includes(run.mode);
+  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit">← Leave session</button><span>${escape(world().code)} · ${run.mode === "boss" ? "BOSS EXAM" : run.mode === "symbol" ? "SIMPLE TEST" : run.mode.toUpperCase()}</span><span class="hearts">${boss ? "★ " + Math.round((run.answers.filter((a) => a.correct).length / Math.max(1, run.answers.length)) * 100) + "%" : run.mode === "symbol" ? "PRACTICE" : "♥ ".repeat(run.lives) + "♡ ".repeat(3 - run.lives)}</span></div>${run.examNote ? `<p class="small">${escape(run.examNote)}</p>` : ""}${progress(run.index, run.qs.length, "Session progress")}<div class="question-meta"><span>CHALLENGE ${run.index + 1} OF ${run.qs.length}</span><span>${q.diagram ? "◇ SYMBOL" : q.type === "formula" ? "∑ FORMULA" : q.type === "scenario" ? "⌕ TROUBLESHOOTING" : "KNOWLEDGE CHECK"}</span></div><p class="small">${q.recap ? "↺ Earlier-section review · " : ""}${escape(bank.worlds.find((w) => w.id === q.world)?.code || "")} · ${escape(q.topic || q.section)}</p><h1 id="question-heading" tabindex="-1">${escape(q.prompt)}</h1>${diagram(q)}${boss ? '<p class="small">Exam mode: explanations appear in your final review.</p>' : ""}${q.numeric !== undefined ? `<form id="numeric-form"><label for="numeric-answer">Your answer in ${escape(q.unit)}</label><div class="number-row"><input id="numeric-answer" name="answer" type="text" inputmode="decimal" autocomplete="off" placeholder="Enter a number" ${run.feedback || busy ? "disabled" : ""} required><span>${escape(q.unit)}</span><button class="primary" type="submit" ${run.feedback || busy ? "disabled" : ""}>Check answer</button></div><p class="small">Enter the number only. Decimals accepted; round to within 0.5%.</p></form>` : `<div class="answer-grid">${q.choices.map((a, i) => `<button data-answer="${i}" class="answer ${run.feedback && !boss && (a === q.answer ? "correct" : a === run.feedback.answer ? "incorrect" : "")}" ${run.feedback || busy ? "disabled" : ""}><span class="answer-letter">${"ABCDEF"[i]}</span><span>${escape(a)}</span>${run.feedback && !boss && a === q.answer ? "<span>✓</span>" : ""}</button>`).join("")}</div>`}${run.feedback ? `<section class="feedback ${boss ? "" : run.feedback.correct ? "good" : "bad"}" aria-live="polite">${boss ? "<h2>Answer saved</h2>" : `<h2>${run.feedback.correct ? "✓ Correct" : "Let’s work through it"}</h2><h3>Why the correct answer is correct</h3><p><b>${escape(q.answer)}</b></p><p>${escape(q.explanation)}</p><div class="source">${source(q)}</div>${!run.feedback.correct ? reviewSlides(q) : ""}`}<button class="primary" data-action="next">${run.index + 1 === run.qs.length || (!boss && run.mode !== "symbol" && run.lives === 0) ? "See results" : "Next challenge"} →</button></section>` : ""}${busy ? '<p role="status">Saving your answer…</p>' : ""}</section>`;
+}
+function cards() {
+  const q = run.qs[run.index];
+  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit">← Back to worlds</button><span>FLASHCARDS · ${run.index + 1}/${run.qs.length}</span><span>Unscored</span></div><button class="flashcard" data-action="flip" aria-label="${run.flipped ? "Hide" : "Reveal"} answer"><p class="eyebrow">${run.flipped ? "THE ANSWER" : "RECALL FIRST"}</p>${diagram(q)}<h1 id="question-heading" tabindex="-1">${escape(run.flipped ? q.answer : q.prompt)}</h1><p>${run.flipped ? escape(q.explanation) : "Tap to reveal the answer"}</p></button>${run.flipped ? `<div class="source">${source(q)}</div>` : ""}<div class="card-controls"><button data-action="previous-card" ${run.index === 0 ? "disabled" : ""}>← Previous</button><button class="primary" data-action="flip">${run.flipped ? "Show question" : "Reveal answer"}</button><button data-action="next-card" ${run.index === run.qs.length - 1 ? "disabled" : ""}>Next →</button></div><p class="small">Recall it before flipping. Use a mission when you’re ready to earn XP.</p></section>`;
+}
+function matching() {
+  const done = new Set(run.answers.map((a) => a.qid));
+  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit">← Leave session</button><span>MATCH PAIRS · ${done.size}/${run.qs.length}</span><span class="hearts">${"♥ ".repeat(run.lives)}</span></div><h1 id="question-heading" tabindex="-1">Make the connection.</h1><p>Select a question on the left, then its answer on the right. Each pair gets one scored attempt.</p><div class="match-grid"><div>${run.qs.map((q) => `<button class="match-item ${run.activePair === q.id ? "selected" : ""}" data-pair="${q.id}" ${done.has(q.id) || busy ? "disabled" : ""}>${done.has(q.id) ? "✓ Reviewed · " : ""}${escape(q.prompt)}${diagram(q)}</button>`).join("")}</div><div>${run.matchChoices.map((q) => `<button class="match-item" data-match-answer="${q.id}" ${done.has(q.id) || !run.activePair || busy ? "disabled" : ""}>${escape(q.answer)}</button>`).join("")}</div></div>${run.feedback ? `<section class="feedback ${run.feedback.correct ? "good" : "bad"}" aria-live="polite"><h2>${run.feedback.correct ? "✓ Pair matched" : "Pair reviewed"}</h2><p>${escape(run.feedback.q.explanation)}</p><div class="source">${source(run.feedback.q)}</div>${!run.feedback.correct ? reviewSlides(run.feedback.q) : ""}</section>` : ""}${done.size === run.qs.length || run.lives === 0 ? '<button class="primary" data-action="finish-match">See results →</button>' : ""}</section>`;
+}
+function summary() {
+  const correct = run.answers.filter((a) => a.correct).length,
+    total = run.qs.length,
+    percent = Math.round((100 * correct) / total),
+    passed = correct / total >= 0.75,
+    wasBoss = run.mode === "boss";
+  return `<section class="results"><p class="eyebrow">${escape(world().code)} · SESSION COMPLETE</p><div class="result-symbol">${wasBoss && passed ? "★" : correct ? "ϟ" : "↺"}</div><h1>${wasBoss ? (passed ? "Boss cleared." : "Keep building your skills.") : run.lives === 0 ? "Time to recharge." : "Good work, technician."}</h1><p>${correct} correct out of ${run.answers.length} answered${run.answers.length < total ? ` · ${total - run.answers.length} remaining` : ""}. ${["boss", "test"].includes(run.mode) ? `Score: ${percent}%. Pass mark: 75%.` : "Every explanation is another chance to learn."}</p><div class="result-stats"><span><b>+${stats().xp - run.startXP}</b> XP earned</span><span><b>${stats().level}</b> current level</span><span><b>${run.answers.filter((a) => !a.correct).length}</b> to revisit</span></div><div class="result-actions"><button class="primary" data-action="home">Back to worlds →</button><button data-action="again">New ${wasBoss ? "boss exam" : run.mode === "wordbank" ? "word bank" : run.mode === "symbol" ? "Simple Test" : run.mode === "test" ? "test" : "mission"}</button></div></section><section class="review-list"><h2>Session review</h2>${run.answers
+    .map((a) => {
+      const q = run.qs.find((q) => q.id === a.qid);
+      return `<article><span class="review-tag ${a.correct ? "right" : "wrong"}">${a.correct ? "✓ Correct" : "↺ Review"}</span><h3>${escape(q.prompt)}</h3>${diagram(q)}<h3>Why the correct answer is correct</h3><p><b>${escape(q.answer)}</b></p><p>${escape(q.explanation)}</p><div class="source">${source(q)}</div>${!a.correct ? reviewSlides(q) : ""}</article>`;
+    })
+    .join("")}</section>`;
+}
+async function loadProgress() {
+  busy = true;
+  error = "";
+  render();
+  try {
+    const r = await fetch("/api/progress");
+    const d = await r.json();
+    if (!r.ok) throw Error(d.error || "Could not load progress.");
+    events = d.events;
+    loaded = true;
+  } catch (e) {
+    error = e.message;
+  } finally {
+    busy = false;
+    render();
+  }
+}
+async function submit(q, answer) {
+  if (busy || pending) return;
+  pending = {
+    qid: q.id,
+    variant: q.variant,
+    topic: run.topic,
+    answer,
+    run: run.id,
+    world: run.world,
+    mode: run.mode,
+    total: run.qs.length,
+  };
+  await savePending();
+}
+async function savePending() {
+  if (!pending || busy) return;
+  busy = true;
+  error = "";
+  const attempt = pending;
+  render();
+  try {
+    const r = await fetch("/api/answer", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(attempt),
+    });
+    const d = await r.json();
+    if (!r.ok) throw Error(d.error || "Could not save answer.");
+    const event = d.event;
+    if (!events.some((e) => e.key === event.key)) events.push(event);
+    if (!run.answers.some((e) => e.qid === event.qid)) run.answers.push(event);
+    if (
+      !event.correct &&
+      !["boss", "test", "wordbank", "symbol"].includes(run.mode)
+    )
+      run.lives--;
+    const q = run.qs.find((q) => q.id === attempt.qid);
+    run.feedback = { correct: event.correct, answer: attempt.answer, q };
+    run.activePair = null;
+    pending = null;
+  } catch (e) {
+    error = e.message;
+  } finally {
+    busy = false;
+    render();
+    el("numeric-answer") && (el("numeric-answer").value = attempt.answer);
+  }
+}
+function next() {
+  if (!run.feedback || busy) return;
+  if (
+    run.index + 1 >= run.qs.length ||
+    (!["boss", "test", "symbol"].includes(run.mode) && run.lives === 0)
+  )
+    run.finished = true;
+  else {
+    run.index++;
+    run.feedback = null;
+  }
+  render();
+  focusQuestion();
+}
+function leave() {
+  if (run?.locked && !run.finished) return;
+  if (pending) {
+    error = "Retry saving this answer before leaving the session.";
+    render();
+    return;
+  }
+  run = null;
+  screen = "worlds";
+  error = "";
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+function bind() {
+  if (el("course-jump"))
+    el("course-jump").onchange = (e) => {
+      selected = e.target.value;
+      topic = "";
+      render();
+    };
+  if (el("hide-mastered"))
+    el("hide-mastered").onchange = (e) => {
+      hideMastered = e.target.checked;
+      try {
+        localStorage.setItem("mra-hide-mastered", String(hideMastered));
+      } catch {}
+      error = "";
+      render();
+    };
+  bindModules();
+  bindExam();
+  if (el("pool-toggle"))
+    el("pool-toggle").onclick = () => {
+      showPool = !showPool;
+      render();
+      el("pool-toggle")?.focus();
+    };
+  if (el("pool-scope"))
+    el("pool-scope").onchange = (e) => {
+      poolScope = e.target.value;
+      render();
+    };
+  root.querySelectorAll("[data-pool-form]").forEach(
+    (s) =>
+      (s.onchange = () => {
+        const y = window.scrollY;
+        poolForms[s.dataset.poolForm] = Number(s.value);
+        render();
+        window.scrollTo({ top: y });
+      }),
+  );
+  bindWordbank();
+  if (el("topic-select"))
+    el("topic-select").onchange = (e) => {
+      topic = e.target.value;
+      render();
+    };
+  root.querySelectorAll("[data-screen]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        screen = b.dataset.screen;
+        render();
+      }),
+  );
+  root.querySelectorAll("[data-world]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        selected = b.dataset.world;
+        topic = "";
+        screen = "worlds";
+        render();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }),
+  );
+  root
+    .querySelectorAll("[data-mode]")
+    .forEach((b) => (b.onclick = () => start(b.dataset.mode)));
+  root.querySelectorAll("[data-answer]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        if (run.feedback) return;
+        const q = run.qs[run.index];
+        submit(q, q.choices[Number(b.dataset.answer)]);
+      }),
+  );
+  root.querySelectorAll("[data-pair]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        run.activePair = b.dataset.pair;
+        run.feedback = null;
+        render();
+      }),
+  );
+  root.querySelectorAll("[data-match-answer]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        if (!run.activePair) return;
+        const q = run.qs.find((q) => q.id === run.activePair),
+          a = run.matchChoices.find((q) => q.id === b.dataset.matchAnswer);
+        submit(q, a.answer);
+      }),
+  );
+  root.querySelectorAll("[data-action]").forEach(
+    (b) =>
+      (b.onclick = () => {
+        switch (b.dataset.action) {
+          case "home":
+          case "exit":
+            leave();
+            break;
+          case "retry":
+            pending ? savePending() : loadProgress();
+            break;
+          case "next":
+            next();
+            break;
+          case "flip":
+            run.flipped = !run.flipped;
+            render();
+            break;
+          case "previous-card":
+            run.index = Math.max(0, run.index - 1);
+            run.flipped = false;
+            render();
+            break;
+          case "next-card":
+            run.index = Math.min(run.qs.length - 1, run.index + 1);
+            run.flipped = false;
+            render();
+            break;
+          case "finish-match":
+            run.finished = true;
+            render();
+            break;
+          case "again": {
+            const mode = ["boss", "symbol"].includes(run.mode)
+              ? run.mode
+              : "mission";
+            run = null;
+            start(mode);
+            break;
+          }
+        }
+      }),
+  );
+  const form = el("numeric-form");
+  if (form)
+    form.onsubmit = (e) => {
+      e.preventDefault();
+      const value = el("numeric-answer").value.trim();
+      if (!value || !Number.isFinite(Number(value))) {
+        el("numeric-answer").setCustomValidity("Enter a number, such as 0.5.");
+        el("numeric-answer").reportValidity();
+        return;
+      }
+      submit(run.qs[run.index], value);
+    };
+  if (el("numeric-answer"))
+    el("numeric-answer").oninput = () =>
+      el("numeric-answer").setCustomValidity("");
+}
+async function init() {
+  try {
+    const r = await fetch("/bank.json");
+    if (!r.ok) throw Error("Could not load course questions.");
+    bank = await r.json();
+    render();
+    await loadProgress();
+    registerTools();
+  } catch (e) {
+    root.innerHTML = `<main class="quest"><h1>The game could not load.</h1><p>${escape(e.message)}</p><a href="/">Reload game</a></main>`;
+  }
+}
+function registerTools() {
+  const context = document.modelContext;
+  if (!context?.registerTool) return;
+  const lifecycle = new AbortController();
+  try {
+    Promise.resolve(
+      context.registerTool(
+        {
+          name: "read_study_progress",
+          description:
+            "Read the same XP, mastery and boss results shown in the game.",
+          inputSchema: {
+            type: "object",
+            properties: {},
+            additionalProperties: false,
+          },
+          annotations: { readOnlyHint: true },
+          execute(input) {
+            if (
+              !input ||
+              typeof input !== "object" ||
+              Object.keys(input).length
+            )
+              throw Error("No arguments expected");
+            return { ...stats(), bossWorlds: [...new Set(badges())] };
+          },
+        },
+        { signal: lifecycle.signal },
+      ),
+    ).catch(() => {});
+  } catch {}
+  window.addEventListener("pagehide", () => lifecycle.abort(), { once: true });
+}
+window.addEventListener("beforeunload", (e) => {
+  if (pending || (busy && run)) {
+    e.preventDefault();
+    e.returnValue = "";
+  }
+});
 init();
