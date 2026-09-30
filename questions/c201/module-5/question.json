@@ -1,0 +1,874 @@
+{
+  "world": "electrical",
+  "topic": "Module 5 · Combination Circuits",
+  "mathQuestionIds": [
+    "c201x-calc-firm",
+    "c201x-calc-stiff",
+    "c201x-calc-divider",
+    "c201x-parallel-section"
+  ],
+  "questions": [
+    {
+      "id": "visual-e-divider",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "prompt": "What network is made by the series resistors and the midpoint connection shown?",
+      "answer": "Voltage divider",
+      "options": [
+        "Voltage divider",
+        "Parallel-current branch network",
+        "Transformer secondary",
+        "Relay seal-in network"
+      ],
+      "explanation": "A voltage divider uses series resistors so a voltage smaller than the total source voltage can be obtained across part of the series network.",
+      "source": "full",
+      "section": "Module 5 · Combination Circuits · PDF page 54",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-divider",
+        "alt": "Course slide diagram for this question",
+        "page": 54
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-54.jpg",
+          "page": 54,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 54,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Voltage Divider Network ● A voltage divider creates a voltage that is lower than the source voltage ● Consists of two or more resistors in series with the source voltage ○ The voltage at point B is some value between the source voltage and zero volts 54"
+      }
+    },
+    {
+      "id": "c201x-combination",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        48,
+        51
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 48 · diagram on page 51",
+      "prompt": "Why is this a combination circuit?",
+      "answer": "It contains series components and parallel paths",
+      "options": [
+        "It contains series components and parallel paths",
+        "Every resistor has a separate supply",
+        "All resistors share one unbranched path",
+        "All resistors connect across the same two nodes"
+      ],
+      "explanation": "The outer series resistors connect to a parallel network.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-combination",
+        "alt": "C-201 course diagram for this question",
+        "page": 51
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-48.jpg",
+          "page": 48,
+          "title": "C201 Electrical Systems 1.pdf"
+        },
+        {
+          "url": "./review-slides/full-51.jpg",
+          "page": 51,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 48,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A series-parallel or combination circuit contains elements of both series and parallel circuits ○ Components connected in series have the same current flowing through them ○ Components connected in parallel have the same voltage across them 48"
+      }
+    },
+    {
+      "id": "c201x-nodes",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        49
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 49",
+      "prompt": "What identifies a parallel section within a larger network?",
+      "answer": "Nodes where current divides and recombines",
+      "options": [
+        "Nodes where current divides and recombines",
+        "Only the largest resistor value",
+        "Only symbol spacing",
+        "Only bends in the wire"
+      ],
+      "explanation": "Trace the common split and recombination nodes.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-49.jpg",
+          "page": 49,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 49,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Nodes that split the current ○ Nodes that recombine the current 49"
+      }
+    },
+    {
+      "id": "c201x-first-step",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        50
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 50",
+      "prompt": "What is the usual first step for solving a combination circuit?",
+      "answer": "Replace parallel sections with equivalent resistance",
+      "options": [
+        "Replace parallel sections with equivalent resistance",
+        "Add all resistors as if in series",
+        "Assign total current to every branch",
+        "Ignore all branches"
+      ],
+      "explanation": "Simplification permits calculating total resistance and current.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-50.jpg",
+          "page": 50,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 50,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Seven Steps for Solving Combination Circuits ● Solving or analyzing a circuit involves determining unknown values of resistance, current, or voltage in a combination circuit ● Seven general steps: ○ Simplify the Circuit - simplify to a series circuit by findin…"
+      }
+    },
+    {
+      "id": "c201x-r34",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        51
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 51",
+      "prompt": "What is the resistance of the R3–R4 branch?",
+      "answer": "100 Ω",
+      "options": [
+        "100 Ω",
+        "25 Ω",
+        "75 Ω",
+        "18.75 Ω",
+        "None of these"
+      ],
+      "explanation": "These two resistors are in series: 25 + 75 = 100 Ω.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-combination",
+        "alt": "C-201 course diagram for this question",
+        "page": 51
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-51.jpg",
+          "page": 51,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 51,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solve a Combination Circuit Example 51"
+      }
+    },
+    {
+      "id": "c201x-total",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        51
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 51",
+      "prompt": "What total resistance does the source see?",
+      "answer": "200 Ω",
+      "options": [
+        "200 Ω",
+        "350 Ω",
+        "150 Ω",
+        "50 Ω",
+        "None of these"
+      ],
+      "explanation": "R1 + parallel equivalent + R5 = 50 + 50 + 100 = 200 Ω.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-combination",
+        "alt": "C-201 course diagram for this question",
+        "page": 51
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-51.jpg",
+          "page": 51,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 51,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solve a Combination Circuit Example 51"
+      }
+    },
+    {
+      "id": "c201x-current",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        51
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 51",
+      "prompt": "What current does the 24 V source supply?",
+      "answer": "0.12 A",
+      "options": [
+        "0.12 A",
+        "0.48 A",
+        "1.2 A",
+        "4.8 A",
+        "None of these"
+      ],
+      "explanation": "24 V / 200 Ω = 0.12 A.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-combination",
+        "alt": "C-201 course diagram for this question",
+        "page": 51
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-51.jpg",
+          "page": 51,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 51,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solve a Combination Circuit Example 51"
+      }
+    },
+    {
+      "id": "c201x-r2-voltage",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        51
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 51",
+      "prompt": "What voltage is across R2?",
+      "answer": "6 V",
+      "options": [
+        "6 V",
+        "24 V",
+        "12 V",
+        "3 V",
+        "None of these"
+      ],
+      "explanation": "The 50 Ω equivalent parallel section carries 0.12 A total, giving 6 V across both branches.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-combination",
+        "alt": "C-201 course diagram for this question",
+        "page": 51
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-51.jpg",
+          "page": 51,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 51,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solve a Combination Circuit Example 51"
+      }
+    },
+    {
+      "id": "c201x-fan-main",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        52
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 52",
+      "prompt": "Which switch interrupts both the motor and lamp paths?",
+      "answer": "S1",
+      "options": [
+        "S1",
+        "S2",
+        "S3",
+        "None of these"
+      ],
+      "explanation": "S1 is before the paths divide.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-fan",
+        "alt": "C-201 course diagram for this question",
+        "page": 52
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-52.jpg",
+          "page": 52,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 52,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Ceiling Fan with Lights 52"
+      }
+    },
+    {
+      "id": "c201x-fan-control",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        52
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 52",
+      "prompt": "With S1 closed, which switch independently controls the motor?",
+      "answer": "S2",
+      "options": [
+        "S2",
+        "S1 only",
+        "S3",
+        "None of these"
+      ],
+      "explanation": "S2 is in the motor branch; S3 is in the lamp branch.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-fan",
+        "alt": "C-201 course diagram for this question",
+        "page": 52
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-52.jpg",
+          "page": 52,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 52,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Ceiling Fan with Lights 52"
+      }
+    },
+    {
+      "id": "c201x-variable-three",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        53
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 53",
+      "prompt": "Which configuration is shown?",
+      "answer": "Three-terminal variable resistor with a wiper",
+      "options": [
+        "Three-terminal variable resistor with a wiper",
+        "Fixed two-terminal resistor",
+        "Two-terminal variable resistor",
+        "Three-position selector",
+        "None of these"
+      ],
+      "explanation": "The arrow is a separate wiper connection in addition to the two end terminals.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-variable-three",
+        "alt": "C-201 course diagram for this question",
+        "page": 53
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-53.jpg",
+          "page": 53,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 53,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Can have two or three terminals ○ The two outside terminals act like a fixed resistor ○ The center terminal is attached to a slider (or “wiper”) which is controlled by a knob ● Two Types ○ Rheostat - used primarily in high-power circuits ○ Potentiometer - us…"
+      }
+    },
+    {
+      "id": "c201x-variable-two",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        53
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 53",
+      "prompt": "Which configuration is shown?",
+      "answer": "Two-terminal variable resistor",
+      "options": [
+        "Two-terminal variable resistor",
+        "Fixed resistor",
+        "Three-terminal variable resistor with separate wiper lead",
+        "Normally open selector",
+        "None of these"
+      ],
+      "explanation": "The arrow indicates adjustment and the symbol has two external terminals.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-variable-two",
+        "alt": "C-201 course diagram for this question",
+        "page": 53
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-53.jpg",
+          "page": 53,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 53,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ The two outside terminals act like a fixed resistor ○ The center terminal is attached to a slider (or “wiper”) which is controlled by a knob ● Two Types ○ Rheostat - used primarily in high-power circuits ○ Potentiometer - used primarily in low-power (e.g. el…"
+      }
+    },
+    {
+      "id": "c201x-outer",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        53
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 53",
+      "prompt": "How do the two outer terminals of the described variable resistor behave?",
+      "answer": "Like a fixed resistance",
+      "options": [
+        "Like a fixed resistance",
+        "Always open",
+        "Always shorted",
+        "They go to zero resistance whenever the wiper moves"
+      ],
+      "explanation": "The outer terminals span the full element; the wiper selects a point along it.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-53.jpg",
+          "page": 53,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 53,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ The two outside terminals act like a fixed resistor ○ The center terminal is attached to a slider (or “wiper”) which is controlled by a knob ● Two Types ○ Rheostat - used primarily in high-power circuits ○ Potentiometer - used primarily in low-power (e.g. el…"
+      }
+    },
+    {
+      "id": "c201x-divider",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        54
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 54",
+      "prompt": "What is the purpose of the midpoint connection?",
+      "answer": "Obtain a voltage below the source voltage",
+      "options": [
+        "Obtain a voltage below the source voltage",
+        "Increase source frequency",
+        "Put the entire source voltage across each resistor",
+        "Eliminate resistor current"
+      ],
+      "explanation": "Series resistors divide the source voltage.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-divider",
+        "alt": "C-201 course diagram for this question",
+        "page": 54
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-54.jpg",
+          "page": 54,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 54,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Consists of two or more resistors in series with the source voltage ○ The voltage at point B is some value between the source voltage and zero volts 54"
+      }
+    },
+    {
+      "id": "c201x-divider-design",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        55
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 55",
+      "prompt": "Which is the complete set of listed divider design considerations?",
+      "answer": "Voltage stability, power consumption, and load resistance",
+      "options": [
+        "Voltage stability, power consumption, and load resistance",
+        "Voltage stability only",
+        "Power consumption only",
+        "Load resistance only",
+        "None of these"
+      ],
+      "explanation": "All three influence divider selection.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-55.jpg",
+          "page": 55,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 55,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Three points to consider when designing a voltage divider network: ○ How constant the load voltage must be ○ How much power the circuit will consume ○ Whether the load resistance is high or low ● Three types of voltage divider networks: ○ Firm Voltage Divide…"
+      }
+    },
+    {
+      "id": "c201x-firm",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        56
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 56",
+      "prompt": "Under the firm-divider guideline, bleeder resistance is what fraction of load resistance?",
+      "answer": "One tenth",
+      "options": [
+        "One tenth",
+        "One hundredth",
+        "Ten times",
+        "Equal"
+      ],
+      "explanation": "The course uses R_bleeder = R_load/10.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-56.jpg",
+          "page": 56,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 56,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ A firm voltage divider uses a bleeder resistor that is 1/10 the resistance of the load ■ Used if the load voltage does not need to be very constant ■ Does not consume as much power as the stiff voltage divider ○ A stiff voltage divider uses a bleeder resisto…"
+      }
+    },
+    {
+      "id": "c201x-stiff",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        56
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 56",
+      "prompt": "Which divider uses a bleeder resistance one hundredth of the load resistance?",
+      "answer": "Stiff divider",
+      "options": [
+        "Stiff divider",
+        "Firm divider",
+        "Loaded divider",
+        "None of these"
+      ],
+      "explanation": "A stiff divider reduces loading effects by using R_load/100, at higher bleeder-power cost.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-56.jpg",
+          "page": 56,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 56,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ A stiff voltage divider uses a bleeder resistor that is 1/100 the resistance of the load ■ Used when the load voltage must be more constant ○ Power wasted is 10-100X the load power ● Loaded voltage dividers are used if the load resistance is relatively low ○…"
+      }
+    },
+    {
+      "id": "c201x-loading",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        56
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 56",
+      "prompt": "Why can adding a load change the divider voltage?",
+      "answer": "The load parallels the lower resistor and changes its equivalent resistance",
+      "options": [
+        "The load parallels the lower resistor and changes its equivalent resistance",
+        "The load always becomes series-connected with both resistors",
+        "The source is removed",
+        "The wiper must move"
+      ],
+      "explanation": "The lower resistor and load form a parallel equivalent.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-56.jpg",
+          "page": 56,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 56,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ A firm voltage divider uses a bleeder resistor that is 1/10 the resistance of the load ■ Used if the load voltage does not need to be very constant ■ Does not consume as much power as the stiff voltage divider ○ A stiff voltage divider uses a bleeder resisto…"
+      }
+    },
+    {
+      "id": "c201x-approximation",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        57
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 57",
+      "prompt": "What assumption makes the simple firm/stiff divider equation approximate?",
+      "answer": "It treats load resistance as infinite",
+      "options": [
+        "It treats load resistance as infinite",
+        "It treats source voltage as zero",
+        "It treats both resistances as zero",
+        "It treats the load as a short"
+      ],
+      "explanation": "The simple formula neglects loading.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-57.jpg",
+          "page": 57,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 57,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Firm and Stiff Voltage Divider Formulas ● Can be used to calculate the load voltage if you know the resistance ● Can also be used to size R1 if you know what the voltage needs to be ● Actually an approximation because it assumes RL is infinite 57"
+      }
+    },
+    {
+      "id": "c201x-short-series",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        58
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 58",
+      "prompt": "What happens to total resistance when R2 is bypassed as shown?",
+      "answer": "It decreases",
+      "options": [
+        "It decreases",
+        "It increases by R2",
+        "It becomes infinite",
+        "It stays unchanged"
+      ],
+      "explanation": "R2 no longer contributes its series resistance, so current rises at fixed source voltage.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-short-series",
+        "alt": "C-201 course diagram for this question",
+        "page": 58
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-58.jpg",
+          "page": 58,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 58,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A short in a series circuit may or may not cause excessive current ○ If a single component is shorted, current continues to flow through the rest of circuit ○ Only the shorted component is bypassed, meaning the current will be higher 58"
+      }
+    },
+    {
+      "id": "c201x-short-parallel",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        59
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 59",
+      "prompt": "Why does this branch fault cause excessive source current?",
+      "answer": "It creates a very low-resistance path across the supply",
+      "options": [
+        "It creates a very low-resistance path across the supply",
+        "It opens every other branch",
+        "It adds resistance in series with each load",
+        "It halves supply frequency"
+      ],
+      "explanation": "A short across the rails draws very high current, limited by the real supply and conductors.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-short-parallel",
+        "alt": "C-201 course diagram for this question",
+        "page": 59
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-59.jpg",
+          "page": 59,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 59,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Causes an excessive amount of current since there is practically no resistance ○ A short across the power supply can damage or destroy it 59"
+      }
+    },
+    {
+      "id": "c201x-locate-short",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        60
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 60",
+      "prompt": "During the de-energized isolation test, resistance rises sharply when one branch is removed. What does that indicate?",
+      "answer": "That branch contained the short",
+      "options": [
+        "That branch contained the short",
+        "That branch was already open",
+        "The main line is open",
+        "All remaining branches are shorted"
+      ],
+      "explanation": "Removing the faulty low-resistance path removes the short.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-60.jpg",
+          "page": 60,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 60,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ If the resistance stays close to zero when a branch is removed, the short is in another branch ○ If the resistance suddenly rises when a branch is disconnected, that is the shorted branch ○ If disconnecting all branches results in a zero ohm reading, the sho…"
+      }
+    },
+    {
+      "id": "c201x-open-total",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        61
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 61",
+      "prompt": "A branch is open as shown. What happens to total source current compared with the healthy circuit?",
+      "answer": "It decreases",
+      "options": [
+        "It decreases",
+        "It increases",
+        "It stays identical",
+        "Every branch current must become zero"
+      ],
+      "explanation": "The open branch stops drawing current; intact branches can still operate.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-open-parallel",
+        "alt": "C-201 course diagram for this question",
+        "page": 61
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-61.jpg",
+          "page": 61,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 61,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● If one branch of a parallel circuit has opened, the rest of the circuit will still operate but with a reduced total current ○ The effective resistance of the circuit has been increased ● If an open occurs in a series circuit, current will not flow 61"
+      }
+    },
+    {
+      "id": "c201x-locate-open",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        62
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 62",
+      "prompt": "During a de-energized test, removing a branch does not affect equivalent resistance. What does that suggest?",
+      "answer": "It was already open",
+      "options": [
+        "It was already open",
+        "It was a direct short",
+        "It carried the largest current",
+        "It was the only good branch"
+      ],
+      "explanation": "An already-open branch contributes no current path.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-62.jpg",
+          "page": 62,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 62,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ If disconnecting a branch has no effect on the total resistance, that branch has a open ○ More than one branch may have an open, so you should continue checking after one is found ○ If the open occurs in the main line, the circuit will not operate at all 62"
+      }
+    }
+  ]
+}

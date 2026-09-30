@@ -1,0 +1,585 @@
+{
+  "world": "electrical",
+  "topic": "Module 6 · Transformers",
+  "mathQuestionIds": [
+    "c201x-calc-transformer",
+    "c201x-calc-va",
+    "c201x-calc-primary",
+    "c201x-rating"
+  ],
+  "questions": [
+    {
+      "id": "c201x-transformer",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        65
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 65",
+      "prompt": "What does the transformer described do?",
+      "answer": "Convert AC from one voltage level to another",
+      "options": [
+        "Convert AC from one voltage level to another",
+        "Convert steady DC to steady DC by turns alone",
+        "Turn resistance into a fuse",
+        "Store current mechanically"
+      ],
+      "explanation": "Its operation uses a changing magnetic field associated with AC.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-65.jpg",
+          "page": 65,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 65,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Function of a Transformer ● A Transfromer is an electrical device that converts AC electricity from one voltage level to another ○ s are used to transform high levels of voltage transmitted by the power company into lower level voltages that are more easily an…"
+      }
+    },
+    {
+      "id": "c201x-parts",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        66
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 66",
+      "prompt": "Which are the three main transformer parts?",
+      "answer": "Primary winding, secondary winding, core",
+      "options": [
+        "Primary winding, secondary winding, core",
+        "Operator, contacts, wiper",
+        "Fuse element, trip, armature",
+        "Load, bleeder, selector"
+      ],
+      "explanation": "The primary receives input, the secondary supplies output, and the core carries magnetic flux.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-66.jpg",
+          "page": 66,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 66,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Primary Coil - input voltage ○ Secondary Coil - output voltage ○ Core - conducts magnetic field ● Uses the principle of mutual inductance ○ AC current flowing through the primary coil induces an AC voltage in the secondary coil 66 34"
+      }
+    },
+    {
+      "id": "c201x-inductance",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        66
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 66",
+      "prompt": "Which principle links primary and secondary?",
+      "answer": "Mutual inductance",
+      "options": [
+        "Mutual inductance",
+        "Direct metallic contact between isolated windings",
+        "Mechanical shaft coupling",
+        "A resistor wiper"
+      ],
+      "explanation": "The changing primary magnetic field induces secondary voltage.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-66.jpg",
+          "page": 66,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 66,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Uses the principle of mutual inductance ○ AC current flowing through the primary coil induces an AC voltage in the secondary coil 66 34"
+      }
+    },
+    {
+      "id": "c201x-ratio",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        67
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 67",
+      "prompt": "Which formula defines the primary-to-secondary turns ratio?",
+      "answer": "Primary turns / secondary turns",
+      "options": [
+        "Primary turns / secondary turns",
+        "Secondary turns / primary turns",
+        "Primary turns + secondary turns",
+        "Primary turns − secondary turns"
+      ],
+      "explanation": "TR = Np/Ns, so Vs = Vp/TR.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-67.jpg",
+          "page": 67,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 67,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● To determine output voltage you need only input voltage and turns ratio 67"
+      }
+    },
+    {
+      "id": "c201x-checks",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        68
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 68",
+      "prompt": "Which is the complete set of listed transformer checks?",
+      "answer": "Both voltage checks and de-energized resistance checks",
+      "options": [
+        "Both voltage checks and de-energized resistance checks",
+        "Voltage checks only",
+        "Resistance checks only",
+        "Neither of these"
+      ],
+      "explanation": "Input/output voltage and isolated resistance measurements provide complementary information.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-68.jpg",
+          "page": 68,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 68,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Measure input and output voltages ○ Check the with an ohmmeter ■ Opens in Coils ■ Shorts between the Primary and Secondary Coils ■ Coils Shorted to the Core 68"
+      }
+    },
+    {
+      "id": "c201x-winding-open",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        69
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 69",
+      "prompt": "An isolated winding reads infinite resistance end-to-end. What does that suggest?",
+      "answer": "An open winding",
+      "options": [
+        "An open winding",
+        "Healthy winding continuity",
+        "A shorted turn proven by that reading",
+        "Only normal separation between windings"
+      ],
+      "explanation": "An end-to-end open means no continuous conductive path through the winding.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-69.jpg",
+          "page": 69,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 69,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Opens in Coils - if any of the coils show infinity, the winding is open ○ Shorts between Coils - should show infinite resistance between primary and secondary coils ○ Shorts within Coils - effectively reduces the number of turns ○ Coils Shorted to the Core -…"
+      }
+    },
+    {
+      "id": "c201x-isolation",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        69
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 69",
+      "prompt": "What resistance should exist between separate primary and secondary windings of the isolation transformer described?",
+      "answer": "Effectively infinite",
+      "options": [
+        "Effectively infinite",
+        "Approximately zero",
+        "The sum of the turns",
+        "Exactly the load resistance"
+      ],
+      "explanation": "The windings should have no direct electrical connection.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-69.jpg",
+          "page": 69,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 69,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Shorts between Coils - should show infinite resistance between primary and secondary coils ○ Shorts within Coils - effectively reduces the number of turns ○ Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens i…"
+      }
+    },
+    {
+      "id": "c201x-core-short",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        69
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 69",
+      "prompt": "A de-energized winding has a low-resistance path to the core. What is indicated?",
+      "answer": "Winding-to-core short",
+      "options": [
+        "Winding-to-core short",
+        "Normal winding continuity only",
+        "An open secondary",
+        "Normal magnetic coupling"
+      ],
+      "explanation": "The expected winding-to-core isolation has failed.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-69.jpg",
+          "page": 69,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 69,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens in Coils Shorts between Coils Shorts within Coils Coils Shorted to the Core 69 Transformer"
+      }
+    },
+    {
+      "id": "c201x-specs",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        70
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 70",
+      "prompt": "Which is the complete electrical information needed for selection?",
+      "answer": "Input voltage, output voltage, and output current including inrush",
+      "options": [
+        "Input voltage, output voltage, and output current including inrush",
+        "Input voltage only",
+        "Output voltage only",
+        "Steady current only, ignoring inrush",
+        "None of these"
+      ],
+      "explanation": "The slide includes voltage requirements and starting as well as steady current.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-70.jpg",
+          "page": 70,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 70,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● The information needed to size a transformer includes: ○ Input voltage available ○ Output voltage desired ○ Output current required, both in-rush and steady-state ● With this information, you can use a catalog specification sheet ○ Safely and efficiently pro…"
+      }
+    },
+    {
+      "id": "c201x-primary-current",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        72
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 72",
+      "prompt": "Why must primary current be considered in the transformer supply circuit?",
+      "answer": "The source must supply the primary current needed for the secondary load",
+      "options": [
+        "The source must supply the primary current needed for the secondary load",
+        "Secondary loading never affects the primary",
+        "Primary current always equals zero",
+        "Primary current only flows during a fault"
+      ],
+      "explanation": "The primary draws current to transfer power to its load.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-72.jpg",
+          "page": 72,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 72,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Amount of current that must be supplied to the primary coil in order to power the circuit connected to the secondary coil ○ Use to size the circuit breaker to handle the added load 72"
+      }
+    },
+    {
+      "id": "c201x-categories",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        73
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 73",
+      "prompt": "What distinguishes isolation transformers from autotransformers?",
+      "answer": "Separate isolated windings versus one shared tapped winding",
+      "options": [
+        "Separate isolated windings versus one shared tapped winding",
+        "Both always share one winding",
+        "Both always have isolated windings",
+        "Only isolation transformers use a core"
+      ],
+      "explanation": "The course contrasts separate magnetically coupled windings with a common tapped coil.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-73.jpg",
+          "page": 73,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 73,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Isolation Transformers ■ Primary and secondary windings are physically and electrically separated ■ Magnetically coupled, not electrically coupled ■ Voltage spikes on the primary are greatly reduced on the secondary ■ Some produce an output voltage equal to …"
+      }
+    },
+    {
+      "id": "c201x-control-use",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        74
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 74",
+      "prompt": "What does the control transformer provide?",
+      "answer": "Lower-voltage power for machine controls",
+      "options": [
+        "Lower-voltage power for machine controls",
+        "Higher supply frequency",
+        "Only a mechanical guard signal",
+        "A resistance reading without a source"
+      ],
+      "explanation": "It steps main-line voltage down for the control system.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-74.jpg",
+          "page": 74,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 74,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A control transformer reduces voltage from the main power line to a lower voltage that operates a machine’s electrical control system ○ Most common type has two primary coils and one secondary coil ○ In most cases, reduces 240 VAC or 480 VAC to 120 VAC ○ Met…"
+      }
+    },
+    {
+      "id": "c201x-parallel-primary",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        75
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 75",
+      "prompt": "How are these two primary windings connected?",
+      "answer": "In parallel",
+      "options": [
+        "In parallel",
+        "In series",
+        "As separate secondary windings",
+        "With one primary open",
+        "None of these"
+      ],
+      "explanation": "Both primaries share source terminals in this 240 V example.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-parallel-primary",
+        "alt": "C-201 course diagram for this question",
+        "page": 75
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-75.jpg",
+          "page": 75,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 75,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● If supplied line voltage is 240 VAC, the primaries must be connected in parallel ● Turns Ratio 2:1 75"
+      }
+    },
+    {
+      "id": "c201x-series-primary",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        76
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 76",
+      "prompt": "How are these two primary windings connected?",
+      "answer": "In series",
+      "options": [
+        "In series",
+        "In parallel",
+        "Both shorted across the supply",
+        "As an open circuit",
+        "None of these"
+      ],
+      "explanation": "They are end-to-end in this 480 V example.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-series-primary",
+        "alt": "C-201 course diagram for this question",
+        "page": 76
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-76.jpg",
+          "page": 76,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 76,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● If supplied line voltage is 480 VAC, the primaries must be connected in series ● Turns Ratio 4:1 76"
+      }
+    },
+    {
+      "id": "c201x-ideal-power",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        77
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 77",
+      "prompt": "In the ideal transformer approximation, what accompanies a lower output voltage at equal transferred power?",
+      "answer": "Higher available output current",
+      "options": [
+        "Higher available output current",
+        "Lower output current by the same voltage factor",
+        "Always identical input and output currents",
+        "Current unrelated to voltage"
+      ],
+      "explanation": "Ideal voltage × current is equal on each side; real transformers also have losses.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-77.jpg",
+          "page": 77,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 77,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Input power and output power are equal ● If voltage goes up, current goes down 77"
+      }
+    },
+    {
+      "id": "c201x-tap-fraction",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        78
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 78",
+      "prompt": "The upper section has 20 turns and the lower 80. What fraction of total secondary turns is in the upper section?",
+      "answer": "20%",
+      "options": [
+        "20%",
+        "80%",
+        "25%",
+        "50%",
+        "None of these"
+      ],
+      "explanation": "20 / (20 + 80) = 20%.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-tap",
+        "alt": "C-201 course diagram for this question",
+        "page": 78
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-78.jpg",
+          "page": 78,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 78,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Function of a Tap ● A tap is connected at a point between the ends of the coil ○ Allows you to get a different output voltage 78"
+      }
+    },
+    {
+      "id": "c201x-center",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        79
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 79",
+      "prompt": "What is the connection halfway along this secondary winding called?",
+      "answer": "Center tap",
+      "options": [
+        "Center tap",
+        "Primary terminal",
+        "Bleeder resistor",
+        "Series fuse",
+        "None of these"
+      ],
+      "explanation": "A center tap divides the secondary into equal winding sections.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-center-tap",
+        "alt": "C-201 course diagram for this question",
+        "page": 79
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-79.jpg",
+          "page": 79,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 79,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A tap that splits a secondary in half is called a center tap ○ Common application is a distribution transformer ■ Used by homes and businesses to change high voltage to the common 240/120 VAC ■ In this case, the center tap connected to earth ground and becom…"
+      }
+    }
+  ]
+}

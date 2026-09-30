@@ -1,0 +1,267 @@
+{
+  "world": "mechanical",
+  "topic": "Day 2 · Shafts, chain drives & gears",
+  "mathQuestionIds": [
+    "q129",
+    "q130",
+    "calc-speed"
+  ],
+  "questions": [
+    {
+      "id": "q063",
+      "world": "mechanical",
+      "type": "quiz",
+      "prompt": "To calculate output speed as input speed divided by sprocket ratio, how must the sprocket ratio be calculated?",
+      "answer": "Driven teeth divided by driver teeth",
+      "options": [
+        "Driven teeth divided by driver teeth",
+        "Driver teeth divided by driven teeth",
+        "Total teeth times speed",
+        "Sum of both tooth counts"
+      ],
+      "explanation": "The ratio is driven/driver. Output speed is input speed divided by that ratio.",
+      "source": "g",
+      "section": "Sprocket Ratio, slide 81",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-81.jpg",
+          "page": 81,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 81,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "How to Calculate Sprocket Ratio Skill 1 - Calculate Sprocket Ratio The speed and torque that are transmitted to the driven shaft where the teeth touch along the PITCH CIRCLE of a chain drive. When the driver and driven sprockets have different numbers of teeth…"
+      }
+    },
+    {
+      "id": "q064",
+      "world": "mechanical",
+      "type": "quiz",
+      "prompt": "What does an idler gear change without changing the final speed ratio?",
+      "answer": "Rotation direction or transfer location",
+      "options": [
+        "Rotation direction or transfer location",
+        "Final output speed ratio",
+        "Input frequency",
+        "Lubricant viscosity"
+      ],
+      "explanation": "The guide describes idlers as transferring motion or changing direction without changing output speed or torque ratio.",
+      "source": "g",
+      "section": "Idler Gears, slide 84",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-139.jpg",
+          "page": 139,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 139,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "⮚ Ignore idlers, except for direction change. They do not affect torque or speed ⮚ Use the Gear Ratio, GR = DRIVEN / DRIVER to calculate the torque and speed of the next driven shaft ⮚ That shaft becomes the new driver and the GR to the next output shaft is us…"
+      }
+    },
+    {
+      "id": "q065",
+      "world": "mechanical",
+      "type": "quiz",
+      "prompt": "Which drive converts rotary motion into linear motion?",
+      "answer": "Rack and pinion",
+      "options": [
+        "Rack and pinion",
+        "Two equal spur gears alone",
+        "A rigid coupling alone",
+        "A plain shaft bearing"
+      ],
+      "explanation": "A rotating pinion moves along a straight rack, converting rotary and linear motion.",
+      "source": "g",
+      "section": "Four Types of Gear Drives, slide 88",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-88.jpg",
+          "page": 88,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 88,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Converts rotary motion to linear motion. Also know as a rack and pinion drive. This is used in fluid power actuators to convert linear motion into rotary motion. 88"
+      }
+    },
+    {
+      "id": "q066",
+      "world": "mechanical",
+      "type": "scenario",
+      "prompt": "You enlarge the driven gear while keeping the driver and input speed fixed. What happens to output speed?",
+      "answer": "It decreases",
+      "options": [
+        "It decreases",
+        "It increases",
+        "It must stay the same",
+        "It becomes zero immediately"
+      ],
+      "explanation": "Gear size and speed are inversely related: a larger driven gear rotates more slowly.",
+      "source": "g",
+      "section": "Shaft Speed and Torque, slide 87",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-140.jpg",
+          "page": 140,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 140,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "If the DRIVEN is larger than the DRIVER, the speed of the Driven is LESS THAN the speed of the DRIVER BUT the TORQUE is MORE. Use the ratio accordingly. EXERCISE: What is the speed of the DRIVER GEAR? Gear Ratio = 12/36 = 1 to 3, Since RPM of Output is 30 rpm …"
+      }
+    },
+    {
+      "id": "visual-g-jaw",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "symbol",
+      "prompt": "What coupling type uses the pictured hubs and flexible center piece?",
+      "answer": "Flexible jaw coupling",
+      "options": [
+        "Flexible jaw coupling",
+        "Solid sleeve coupling",
+        "Flange coupling",
+        "Roller chain coupling"
+      ],
+      "explanation": "The two hubs engage a flexible spider. The slide describes this as a flexible jaw coupling that can accommodate some misalignment.",
+      "source": "g",
+      "section": "Day 2 · Shafts, chain drives & gears · PDF page 69",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "g-jaw",
+        "alt": "Course slide diagram for this question",
+        "page": 69
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-69.jpg",
+          "page": 69,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 69,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "The flexible jaw coupling is a type of coupling with a rubber- like insert called a spider to connect the two hubs. ⮚ The hubs of a jaw coupling are machined from metal and mount a key fastener or bushing. ⮚ The spider is rubber or other flexible material. ⮚ T…"
+      }
+    },
+    {
+      "id": "visual-g-spur",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "symbol",
+      "prompt": "Which gear type is pictured?",
+      "answer": "Spur gear",
+      "options": [
+        "Spur gear",
+        "Helical gear",
+        "Herringbone gear",
+        "Internal gear"
+      ],
+      "explanation": "The straight teeth run parallel to the gear shaft. This matches the gear comparison in the course slide.",
+      "source": "g",
+      "section": "Day 2 · Shafts, chain drives & gears · PDF page 89",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "g-spur",
+        "alt": "Course slide diagram for this question",
+        "page": 89
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-89.jpg",
+          "page": 89,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 89,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "The spur gear drive is the most basic of gear drives, used mainly in low- to-medium speed applications such as machine tool drives, instrument transducers, and gear reducers for low cost and easy maintenance. The helical gear is similar in design to the spur g…"
+      }
+    },
+    {
+      "id": "visual-g-helical",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "symbol",
+      "prompt": "Which gear type is pictured?",
+      "answer": "Helical gear",
+      "options": [
+        "Helical gear",
+        "Spur gear",
+        "Herringbone gear",
+        "Internal gear"
+      ],
+      "explanation": "The teeth are angled across the gear face. This matches the gear comparison in the course slide.",
+      "source": "g",
+      "section": "Day 2 · Shafts, chain drives & gears · PDF page 89",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "g-helical",
+        "alt": "Course slide diagram for this question",
+        "page": 89
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-89.jpg",
+          "page": 89,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 89,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "The helical gear is similar in design to the spur gear except that its teeth are cut into the gear at an angle to the gear's axis of rotation. It’s more expensive than the spur and creates a side or thrust load but can operate at higher speeds with lower noise…"
+      }
+    },
+    {
+      "id": "visual-g-herringbone",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "symbol",
+      "prompt": "Which gear type is pictured?",
+      "answer": "Herringbone gear",
+      "options": [
+        "Herringbone gear",
+        "Spur gear",
+        "Helical gear",
+        "Internal gear"
+      ],
+      "explanation": "Two opposite helical tooth patterns form the characteristic paired pattern. This matches the gear comparison in the course slide.",
+      "source": "g",
+      "section": "Day 2 · Shafts, chain drives & gears · PDF page 89",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "g-herringbone",
+        "alt": "Course slide diagram for this question",
+        "page": 89
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-89.jpg",
+          "page": 89,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 89,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "helical gear design has two helical patterns for quiet, high- speed, heavy-load operation. It eliminates the side load caused by the single helical design. IT IS THE MOST EXPENSIVE of the gears.” The internal gear or planetary drive uses one or more external g…"
+      }
+    }
+  ]
+}

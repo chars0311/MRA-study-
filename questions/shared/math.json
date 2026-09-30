@@ -1,0 +1,4354 @@
+{
+  "questions": [
+    {
+      "id": "q129",
+      "world": "mechanical",
+      "type": "formula",
+      "prompt": "A 20-tooth driver turns at 1,000 RPM and drives a 40-tooth sprocket. Find output speed.",
+      "answer": "500 RPM",
+      "options": [
+        "500 RPM",
+        "2000 RPM",
+        "1000 RPM",
+        "250 RPM"
+      ],
+      "explanation": "Sprocket ratio = 40/20 = 2. Output speed = 1000/2 = 500 RPM.",
+      "source": "g",
+      "section": "Shaft Speed and Torque of a Chain Drive, slide 82",
+      "numeric": 500,
+      "unit": "RPM",
+      "tolerance": 2.5,
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-82.jpg",
+          "page": 82,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 82,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in opposite directions If you halve speed, you double torque 82"
+      }
+    },
+    {
+      "id": "q130",
+      "world": "mechanical",
+      "type": "formula",
+      "prompt": "Input torque is 600 in·lbf with a driven/driver sprocket ratio of 2. Ignoring losses, find output torque.",
+      "answer": "1200 in·lbf",
+      "options": [
+        "1200 in·lbf",
+        "300 in·lbf",
+        "600 in·lbf",
+        "2400 in·lbf"
+      ],
+      "explanation": "Output torque = input torque × ratio = 600 × 2 = 1200 in·lbf.",
+      "source": "g",
+      "section": "Shaft Speed and Torque of a Chain Drive, slide 82",
+      "numeric": 1200,
+      "unit": "in·lbf",
+      "tolerance": 6,
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-82.jpg",
+          "page": 82,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 82,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "The Sprocket Ratio = 40/20 = 2 Since the DRIVEN(larger)sprocket will move slower than DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in oppos…"
+      }
+    },
+    {
+      "id": "q131",
+      "world": "mechanical",
+      "type": "formula",
+      "prompt": "A shaft makes one revolution each second. What is its speed in RPM?",
+      "answer": "60 RPM",
+      "options": [
+        "60 RPM",
+        "1 RPM",
+        "30 RPM",
+        "3600 RPM"
+      ],
+      "explanation": "There are 60 seconds per minute: 1 × 60 = 60 revolutions per minute.",
+      "source": "g",
+      "section": "Two Methods of Measuring Motor Shaft Speed",
+      "numeric": 60,
+      "unit": "RPM",
+      "tolerance": 0.3,
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-38.jpg",
+          "page": 38,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 38,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "per minute or RPM. If a motor shaft is turning at one revolution per second, the speed is 60 RPM. Contact Tachometer - The rubber contact of the tachometer tip is placed on the end of the spinning shaft. It spins at the same speed as the shaft and it’s interna…"
+      }
+    },
+    {
+      "id": "q132",
+      "world": "conveyor",
+      "type": "formula",
+      "prompt": "The lab target stretch is 0.25%. How much should a 25-inch reference distance grow?",
+      "answer": "0.0625 in",
+      "options": [
+        "0.0625 in",
+        "0.25 in",
+        "6.25 in",
+        "0.625 in"
+      ],
+      "explanation": "0.25% = 0.0025. 25 × 0.0025 = 0.0625 in = 1/16 in. This is the lab-specific target.",
+      "source": "c",
+      "section": "Tensioning, slide 37",
+      "numeric": 0.0625,
+      "unit": "in",
+      "tolerance": 0.01,
+      "topic": "Tensioning",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-37.jpg",
+          "page": 37,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 37,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "In our lab exercise, the target belt stretch is 0.25% In 100 inches, this is 0.25” (1/4”) We don’t have 100” of belt length to work with, so we use 25” as a reference, aiming for 1/16 of stretch in that 25”. (¼ of 100” is 25” and ¼ of ¼” is 1/16”) 37"
+      }
+    },
+    {
+      "id": "calc-turns",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "source": "m",
+      "section": "Module 3 · Turns ratio, slide 35",
+      "type": "formula",
+      "unit": "ratio",
+      "variant": "n0",
+      "prompt": "Find the turns ratio for Np = 100 and Ns = 50.",
+      "numeric": 2,
+      "answer": "2 ratio",
+      "options": [
+        "2 ratio"
+      ],
+      "explanation": "TR = Np ÷ Ns = 100 ÷ 50 = 2.",
+      "tolerance": 0.01,
+      "variants": [
+        {
+          "variant": "n0",
+          "prompt": "Find the turns ratio for Np = 100 and Ns = 50.",
+          "numeric": 2,
+          "answer": "2 ratio",
+          "options": [
+            "2 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 100 ÷ 50 = 2.",
+          "tolerance": 0.01
+        },
+        {
+          "variant": "n1",
+          "prompt": "A transformer has 180 primary turns and 60 secondary turns. Find Np/Ns.",
+          "numeric": 3,
+          "answer": "3 ratio",
+          "options": [
+            "3 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 180 ÷ 60 = 3.",
+          "tolerance": 0.015
+        },
+        {
+          "variant": "n2",
+          "prompt": "Find the turns ratio for Np = 280 and Ns = 70.",
+          "numeric": 4,
+          "answer": "4 ratio",
+          "options": [
+            "4 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 280 ÷ 70 = 4.",
+          "tolerance": 0.02
+        },
+        {
+          "variant": "n3",
+          "prompt": "A transformer has 400 primary turns and 80 secondary turns. Find Np/Ns.",
+          "numeric": 5,
+          "answer": "5 ratio",
+          "options": [
+            "5 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 400 ÷ 80 = 5.",
+          "tolerance": 0.025
+        },
+        {
+          "variant": "n4",
+          "prompt": "Find the turns ratio for Np = 540 and Ns = 90.",
+          "numeric": 6,
+          "answer": "6 ratio",
+          "options": [
+            "6 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 540 ÷ 90 = 6.",
+          "tolerance": 0.03
+        },
+        {
+          "variant": "n5",
+          "prompt": "A transformer has 700 primary turns and 100 secondary turns. Find Np/Ns.",
+          "numeric": 7,
+          "answer": "7 ratio",
+          "options": [
+            "7 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 700 ÷ 100 = 7.",
+          "tolerance": 0.035
+        },
+        {
+          "variant": "n6",
+          "prompt": "Find the turns ratio for Np = 880 and Ns = 110.",
+          "numeric": 8,
+          "answer": "8 ratio",
+          "options": [
+            "8 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 880 ÷ 110 = 8.",
+          "tolerance": 0.04
+        },
+        {
+          "variant": "n7",
+          "prompt": "A transformer has 240 primary turns and 120 secondary turns. Find Np/Ns.",
+          "numeric": 2,
+          "answer": "2 ratio",
+          "options": [
+            "2 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 240 ÷ 120 = 2.",
+          "tolerance": 0.01
+        },
+        {
+          "variant": "n8",
+          "prompt": "Find the turns ratio for Np = 390 and Ns = 130.",
+          "numeric": 3,
+          "answer": "3 ratio",
+          "options": [
+            "3 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 390 ÷ 130 = 3.",
+          "tolerance": 0.015
+        },
+        {
+          "variant": "n9",
+          "prompt": "A transformer has 560 primary turns and 140 secondary turns. Find Np/Ns.",
+          "numeric": 4,
+          "answer": "4 ratio",
+          "options": [
+            "4 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 560 ÷ 140 = 4.",
+          "tolerance": 0.02
+        },
+        {
+          "variant": "n10",
+          "prompt": "Find the turns ratio for Np = 750 and Ns = 150.",
+          "numeric": 5,
+          "answer": "5 ratio",
+          "options": [
+            "5 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 750 ÷ 150 = 5.",
+          "tolerance": 0.025
+        },
+        {
+          "variant": "n11",
+          "prompt": "A transformer has 960 primary turns and 160 secondary turns. Find Np/Ns.",
+          "numeric": 6,
+          "answer": "6 ratio",
+          "options": [
+            "6 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 960 ÷ 160 = 6.",
+          "tolerance": 0.03
+        },
+        {
+          "variant": "n12",
+          "prompt": "Find the turns ratio for Np = 1190 and Ns = 170.",
+          "numeric": 7,
+          "answer": "7 ratio",
+          "options": [
+            "7 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1190 ÷ 170 = 7.",
+          "tolerance": 0.035
+        },
+        {
+          "variant": "n13",
+          "prompt": "A transformer has 1440 primary turns and 180 secondary turns. Find Np/Ns.",
+          "numeric": 8,
+          "answer": "8 ratio",
+          "options": [
+            "8 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1440 ÷ 180 = 8.",
+          "tolerance": 0.04
+        },
+        {
+          "variant": "n14",
+          "prompt": "Find the turns ratio for Np = 380 and Ns = 190.",
+          "numeric": 2,
+          "answer": "2 ratio",
+          "options": [
+            "2 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 380 ÷ 190 = 2.",
+          "tolerance": 0.01
+        },
+        {
+          "variant": "n15",
+          "prompt": "A transformer has 600 primary turns and 200 secondary turns. Find Np/Ns.",
+          "numeric": 3,
+          "answer": "3 ratio",
+          "options": [
+            "3 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 600 ÷ 200 = 3.",
+          "tolerance": 0.015
+        },
+        {
+          "variant": "n16",
+          "prompt": "Find the turns ratio for Np = 840 and Ns = 210.",
+          "numeric": 4,
+          "answer": "4 ratio",
+          "options": [
+            "4 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 840 ÷ 210 = 4.",
+          "tolerance": 0.02
+        },
+        {
+          "variant": "n17",
+          "prompt": "A transformer has 1100 primary turns and 220 secondary turns. Find Np/Ns.",
+          "numeric": 5,
+          "answer": "5 ratio",
+          "options": [
+            "5 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1100 ÷ 220 = 5.",
+          "tolerance": 0.025
+        },
+        {
+          "variant": "n18",
+          "prompt": "Find the turns ratio for Np = 1380 and Ns = 230.",
+          "numeric": 6,
+          "answer": "6 ratio",
+          "options": [
+            "6 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1380 ÷ 230 = 6.",
+          "tolerance": 0.03
+        },
+        {
+          "variant": "n19",
+          "prompt": "A transformer has 1680 primary turns and 240 secondary turns. Find Np/Ns.",
+          "numeric": 7,
+          "answer": "7 ratio",
+          "options": [
+            "7 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1680 ÷ 240 = 7.",
+          "tolerance": 0.035
+        },
+        {
+          "variant": "n20",
+          "prompt": "Find the turns ratio for Np = 2000 and Ns = 250.",
+          "numeric": 8,
+          "answer": "8 ratio",
+          "options": [
+            "8 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 2000 ÷ 250 = 8.",
+          "tolerance": 0.04
+        },
+        {
+          "variant": "n21",
+          "prompt": "A transformer has 520 primary turns and 260 secondary turns. Find Np/Ns.",
+          "numeric": 2,
+          "answer": "2 ratio",
+          "options": [
+            "2 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 520 ÷ 260 = 2.",
+          "tolerance": 0.01
+        },
+        {
+          "variant": "n22",
+          "prompt": "Find the turns ratio for Np = 810 and Ns = 270.",
+          "numeric": 3,
+          "answer": "3 ratio",
+          "options": [
+            "3 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 810 ÷ 270 = 3.",
+          "tolerance": 0.015
+        },
+        {
+          "variant": "n23",
+          "prompt": "A transformer has 1120 primary turns and 280 secondary turns. Find Np/Ns.",
+          "numeric": 4,
+          "answer": "4 ratio",
+          "options": [
+            "4 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1120 ÷ 280 = 4.",
+          "tolerance": 0.02
+        },
+        {
+          "variant": "n24",
+          "prompt": "Find the turns ratio for Np = 1450 and Ns = 290.",
+          "numeric": 5,
+          "answer": "5 ratio",
+          "options": [
+            "5 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1450 ÷ 290 = 5.",
+          "tolerance": 0.025
+        },
+        {
+          "variant": "n25",
+          "prompt": "A transformer has 1800 primary turns and 300 secondary turns. Find Np/Ns.",
+          "numeric": 6,
+          "answer": "6 ratio",
+          "options": [
+            "6 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1800 ÷ 300 = 6.",
+          "tolerance": 0.03
+        },
+        {
+          "variant": "n26",
+          "prompt": "Find the turns ratio for Np = 2170 and Ns = 310.",
+          "numeric": 7,
+          "answer": "7 ratio",
+          "options": [
+            "7 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 2170 ÷ 310 = 7.",
+          "tolerance": 0.035
+        },
+        {
+          "variant": "n27",
+          "prompt": "A transformer has 2560 primary turns and 320 secondary turns. Find Np/Ns.",
+          "numeric": 8,
+          "answer": "8 ratio",
+          "options": [
+            "8 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 2560 ÷ 320 = 8.",
+          "tolerance": 0.04
+        },
+        {
+          "variant": "n28",
+          "prompt": "Find the turns ratio for Np = 660 and Ns = 330.",
+          "numeric": 2,
+          "answer": "2 ratio",
+          "options": [
+            "2 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 660 ÷ 330 = 2.",
+          "tolerance": 0.01
+        },
+        {
+          "variant": "n29",
+          "prompt": "A transformer has 1020 primary turns and 340 secondary turns. Find Np/Ns.",
+          "numeric": 3,
+          "answer": "3 ratio",
+          "options": [
+            "3 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1020 ÷ 340 = 3.",
+          "tolerance": 0.015
+        },
+        {
+          "variant": "n30",
+          "prompt": "Find the turns ratio for Np = 1400 and Ns = 350.",
+          "numeric": 4,
+          "answer": "4 ratio",
+          "options": [
+            "4 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1400 ÷ 350 = 4.",
+          "tolerance": 0.02
+        },
+        {
+          "variant": "n31",
+          "prompt": "A transformer has 1800 primary turns and 360 secondary turns. Find Np/Ns.",
+          "numeric": 5,
+          "answer": "5 ratio",
+          "options": [
+            "5 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 1800 ÷ 360 = 5.",
+          "tolerance": 0.025
+        },
+        {
+          "variant": "n32",
+          "prompt": "Find the turns ratio for Np = 2220 and Ns = 370.",
+          "numeric": 6,
+          "answer": "6 ratio",
+          "options": [
+            "6 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 2220 ÷ 370 = 6.",
+          "tolerance": 0.03
+        },
+        {
+          "variant": "n33",
+          "prompt": "A transformer has 2660 primary turns and 380 secondary turns. Find Np/Ns.",
+          "numeric": 7,
+          "answer": "7 ratio",
+          "options": [
+            "7 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 2660 ÷ 380 = 7.",
+          "tolerance": 0.035
+        },
+        {
+          "variant": "n34",
+          "prompt": "Find the turns ratio for Np = 3120 and Ns = 390.",
+          "numeric": 8,
+          "answer": "8 ratio",
+          "options": [
+            "8 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 3120 ÷ 390 = 8.",
+          "tolerance": 0.04
+        },
+        {
+          "variant": "n35",
+          "prompt": "A transformer has 800 primary turns and 400 secondary turns. Find Np/Ns.",
+          "numeric": 2,
+          "answer": "2 ratio",
+          "options": [
+            "2 ratio"
+          ],
+          "explanation": "TR = Np ÷ Ns = 800 ÷ 400 = 2.",
+          "tolerance": 0.01
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-35.jpg",
+          "page": 35,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 35,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "► The turns ratio is the number of turns in the primary coil divided by the number of turns in the secondary coil Turns Ratio 35 A09S A09"
+      }
+    },
+    {
+      "id": "calc-secondary",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "source": "m",
+      "section": "Module 3 · Secondary voltage, slide 37",
+      "type": "formula",
+      "unit": "V",
+      "variant": "n0",
+      "prompt": "An ideal 2:1 transformer receives 24 V. What voltage appears at the secondary?",
+      "numeric": 12,
+      "answer": "12 V",
+      "options": [
+        "12 V"
+      ],
+      "explanation": "Vs = Vp ÷ TR = 24 ÷ 2 = 12 V.",
+      "tolerance": 0.06,
+      "variants": [
+        {
+          "variant": "n0",
+          "prompt": "An ideal 2:1 transformer receives 24 V. What voltage appears at the secondary?",
+          "numeric": 12,
+          "answer": "12 V",
+          "options": [
+            "12 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 24 ÷ 2 = 12 V.",
+          "tolerance": 0.06
+        },
+        {
+          "variant": "n1",
+          "prompt": "Primary voltage is 54 V and Np/Ns is 3. Find secondary voltage.",
+          "numeric": 18,
+          "answer": "18 V",
+          "options": [
+            "18 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 54 ÷ 3 = 18 V.",
+          "tolerance": 0.09
+        },
+        {
+          "variant": "n2",
+          "prompt": "An ideal 4:1 transformer receives 96 V. What voltage appears at the secondary?",
+          "numeric": 24,
+          "answer": "24 V",
+          "options": [
+            "24 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 96 ÷ 4 = 24 V.",
+          "tolerance": 0.12
+        },
+        {
+          "variant": "n3",
+          "prompt": "Primary voltage is 150 V and Np/Ns is 5. Find secondary voltage.",
+          "numeric": 30,
+          "answer": "30 V",
+          "options": [
+            "30 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 150 ÷ 5 = 30 V.",
+          "tolerance": 0.15
+        },
+        {
+          "variant": "n4",
+          "prompt": "An ideal 6:1 transformer receives 216 V. What voltage appears at the secondary?",
+          "numeric": 36,
+          "answer": "36 V",
+          "options": [
+            "36 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 216 ÷ 6 = 36 V.",
+          "tolerance": 0.18
+        },
+        {
+          "variant": "n5",
+          "prompt": "Primary voltage is 84 V and Np/Ns is 2. Find secondary voltage.",
+          "numeric": 42,
+          "answer": "42 V",
+          "options": [
+            "42 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 84 ÷ 2 = 42 V.",
+          "tolerance": 0.21
+        },
+        {
+          "variant": "n6",
+          "prompt": "An ideal 3:1 transformer receives 144 V. What voltage appears at the secondary?",
+          "numeric": 48,
+          "answer": "48 V",
+          "options": [
+            "48 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 144 ÷ 3 = 48 V.",
+          "tolerance": 0.24
+        },
+        {
+          "variant": "n7",
+          "prompt": "Primary voltage is 216 V and Np/Ns is 4. Find secondary voltage.",
+          "numeric": 54,
+          "answer": "54 V",
+          "options": [
+            "54 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 216 ÷ 4 = 54 V.",
+          "tolerance": 0.27
+        },
+        {
+          "variant": "n8",
+          "prompt": "An ideal 5:1 transformer receives 300 V. What voltage appears at the secondary?",
+          "numeric": 60,
+          "answer": "60 V",
+          "options": [
+            "60 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 300 ÷ 5 = 60 V.",
+          "tolerance": 0.3
+        },
+        {
+          "variant": "n9",
+          "prompt": "Primary voltage is 396 V and Np/Ns is 6. Find secondary voltage.",
+          "numeric": 66,
+          "answer": "66 V",
+          "options": [
+            "66 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 396 ÷ 6 = 66 V.",
+          "tolerance": 0.33
+        },
+        {
+          "variant": "n10",
+          "prompt": "An ideal 2:1 transformer receives 144 V. What voltage appears at the secondary?",
+          "numeric": 72,
+          "answer": "72 V",
+          "options": [
+            "72 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 144 ÷ 2 = 72 V.",
+          "tolerance": 0.36
+        },
+        {
+          "variant": "n11",
+          "prompt": "Primary voltage is 234 V and Np/Ns is 3. Find secondary voltage.",
+          "numeric": 78,
+          "answer": "78 V",
+          "options": [
+            "78 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 234 ÷ 3 = 78 V.",
+          "tolerance": 0.39
+        },
+        {
+          "variant": "n12",
+          "prompt": "An ideal 4:1 transformer receives 336 V. What voltage appears at the secondary?",
+          "numeric": 84,
+          "answer": "84 V",
+          "options": [
+            "84 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 336 ÷ 4 = 84 V.",
+          "tolerance": 0.42
+        },
+        {
+          "variant": "n13",
+          "prompt": "Primary voltage is 450 V and Np/Ns is 5. Find secondary voltage.",
+          "numeric": 90,
+          "answer": "90 V",
+          "options": [
+            "90 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 450 ÷ 5 = 90 V.",
+          "tolerance": 0.45
+        },
+        {
+          "variant": "n14",
+          "prompt": "An ideal 6:1 transformer receives 576 V. What voltage appears at the secondary?",
+          "numeric": 96,
+          "answer": "96 V",
+          "options": [
+            "96 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 576 ÷ 6 = 96 V.",
+          "tolerance": 0.48
+        },
+        {
+          "variant": "n15",
+          "prompt": "Primary voltage is 204 V and Np/Ns is 2. Find secondary voltage.",
+          "numeric": 102,
+          "answer": "102 V",
+          "options": [
+            "102 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 204 ÷ 2 = 102 V.",
+          "tolerance": 0.51
+        },
+        {
+          "variant": "n16",
+          "prompt": "An ideal 3:1 transformer receives 324 V. What voltage appears at the secondary?",
+          "numeric": 108,
+          "answer": "108 V",
+          "options": [
+            "108 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 324 ÷ 3 = 108 V.",
+          "tolerance": 0.54
+        },
+        {
+          "variant": "n17",
+          "prompt": "Primary voltage is 456 V and Np/Ns is 4. Find secondary voltage.",
+          "numeric": 114,
+          "answer": "114 V",
+          "options": [
+            "114 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 456 ÷ 4 = 114 V.",
+          "tolerance": 0.5700000000000001
+        },
+        {
+          "variant": "n18",
+          "prompt": "An ideal 5:1 transformer receives 600 V. What voltage appears at the secondary?",
+          "numeric": 120,
+          "answer": "120 V",
+          "options": [
+            "120 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 600 ÷ 5 = 120 V.",
+          "tolerance": 0.6
+        },
+        {
+          "variant": "n19",
+          "prompt": "Primary voltage is 756 V and Np/Ns is 6. Find secondary voltage.",
+          "numeric": 126,
+          "answer": "126 V",
+          "options": [
+            "126 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 756 ÷ 6 = 126 V.",
+          "tolerance": 0.63
+        },
+        {
+          "variant": "n20",
+          "prompt": "An ideal 2:1 transformer receives 264 V. What voltage appears at the secondary?",
+          "numeric": 132,
+          "answer": "132 V",
+          "options": [
+            "132 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 264 ÷ 2 = 132 V.",
+          "tolerance": 0.66
+        },
+        {
+          "variant": "n21",
+          "prompt": "Primary voltage is 414 V and Np/Ns is 3. Find secondary voltage.",
+          "numeric": 138,
+          "answer": "138 V",
+          "options": [
+            "138 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 414 ÷ 3 = 138 V.",
+          "tolerance": 0.6900000000000001
+        },
+        {
+          "variant": "n22",
+          "prompt": "An ideal 4:1 transformer receives 576 V. What voltage appears at the secondary?",
+          "numeric": 144,
+          "answer": "144 V",
+          "options": [
+            "144 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 576 ÷ 4 = 144 V.",
+          "tolerance": 0.72
+        },
+        {
+          "variant": "n23",
+          "prompt": "Primary voltage is 750 V and Np/Ns is 5. Find secondary voltage.",
+          "numeric": 150,
+          "answer": "150 V",
+          "options": [
+            "150 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 750 ÷ 5 = 150 V.",
+          "tolerance": 0.75
+        },
+        {
+          "variant": "n24",
+          "prompt": "An ideal 6:1 transformer receives 936 V. What voltage appears at the secondary?",
+          "numeric": 156,
+          "answer": "156 V",
+          "options": [
+            "156 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 936 ÷ 6 = 156 V.",
+          "tolerance": 0.78
+        },
+        {
+          "variant": "n25",
+          "prompt": "Primary voltage is 324 V and Np/Ns is 2. Find secondary voltage.",
+          "numeric": 162,
+          "answer": "162 V",
+          "options": [
+            "162 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 324 ÷ 2 = 162 V.",
+          "tolerance": 0.81
+        },
+        {
+          "variant": "n26",
+          "prompt": "An ideal 3:1 transformer receives 504 V. What voltage appears at the secondary?",
+          "numeric": 168,
+          "answer": "168 V",
+          "options": [
+            "168 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 504 ÷ 3 = 168 V.",
+          "tolerance": 0.84
+        },
+        {
+          "variant": "n27",
+          "prompt": "Primary voltage is 696 V and Np/Ns is 4. Find secondary voltage.",
+          "numeric": 174,
+          "answer": "174 V",
+          "options": [
+            "174 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 696 ÷ 4 = 174 V.",
+          "tolerance": 0.87
+        },
+        {
+          "variant": "n28",
+          "prompt": "An ideal 5:1 transformer receives 900 V. What voltage appears at the secondary?",
+          "numeric": 180,
+          "answer": "180 V",
+          "options": [
+            "180 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 900 ÷ 5 = 180 V.",
+          "tolerance": 0.9
+        },
+        {
+          "variant": "n29",
+          "prompt": "Primary voltage is 1116 V and Np/Ns is 6. Find secondary voltage.",
+          "numeric": 186,
+          "answer": "186 V",
+          "options": [
+            "186 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 1116 ÷ 6 = 186 V.",
+          "tolerance": 0.93
+        },
+        {
+          "variant": "n30",
+          "prompt": "An ideal 2:1 transformer receives 384 V. What voltage appears at the secondary?",
+          "numeric": 192,
+          "answer": "192 V",
+          "options": [
+            "192 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 384 ÷ 2 = 192 V.",
+          "tolerance": 0.96
+        },
+        {
+          "variant": "n31",
+          "prompt": "Primary voltage is 594 V and Np/Ns is 3. Find secondary voltage.",
+          "numeric": 198,
+          "answer": "198 V",
+          "options": [
+            "198 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 594 ÷ 3 = 198 V.",
+          "tolerance": 0.99
+        },
+        {
+          "variant": "n32",
+          "prompt": "An ideal 4:1 transformer receives 816 V. What voltage appears at the secondary?",
+          "numeric": 204,
+          "answer": "204 V",
+          "options": [
+            "204 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 816 ÷ 4 = 204 V.",
+          "tolerance": 1.02
+        },
+        {
+          "variant": "n33",
+          "prompt": "Primary voltage is 1050 V and Np/Ns is 5. Find secondary voltage.",
+          "numeric": 210,
+          "answer": "210 V",
+          "options": [
+            "210 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 1050 ÷ 5 = 210 V.",
+          "tolerance": 1.05
+        },
+        {
+          "variant": "n34",
+          "prompt": "An ideal 6:1 transformer receives 1296 V. What voltage appears at the secondary?",
+          "numeric": 216,
+          "answer": "216 V",
+          "options": [
+            "216 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 1296 ÷ 6 = 216 V.",
+          "tolerance": 1.08
+        },
+        {
+          "variant": "n35",
+          "prompt": "Primary voltage is 444 V and Np/Ns is 2. Find secondary voltage.",
+          "numeric": 222,
+          "answer": "222 V",
+          "options": [
+            "222 V"
+          ],
+          "explanation": "Vs = Vp ÷ TR = 444 ÷ 2 = 222 V.",
+          "tolerance": 1.11
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-37.jpg",
+          "page": 37,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 37,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "► The secondary output voltage of a transformer is calculated by dividing the primary voltage by the turns ratio 37"
+      }
+    },
+    {
+      "id": "calc-steady",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "source": "m",
+      "section": "Module 3 · VA calculations, slide 47",
+      "type": "formula",
+      "unit": "VA",
+      "variant": "n0",
+      "prompt": "Calculate steady apparent power for a 24 V control load drawing 0.25 A.",
+      "numeric": 6,
+      "answer": "6 VA",
+      "options": [
+        "6 VA"
+      ],
+      "explanation": "VA = secondary voltage × steady current = 24 × 0.25 = 6 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+      "tolerance": 0.03,
+      "variants": [
+        {
+          "variant": "n0",
+          "prompt": "Calculate steady apparent power for a 24 V control load drawing 0.25 A.",
+          "numeric": 6,
+          "answer": "6 VA",
+          "options": [
+            "6 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 0.25 = 6 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.03
+        },
+        {
+          "variant": "n1",
+          "prompt": "At 120 V, steady-state current is 0.5 A. Calculate the steady VA requirement.",
+          "numeric": 60,
+          "answer": "60 VA",
+          "options": [
+            "60 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 0.5 = 60 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.3
+        },
+        {
+          "variant": "n2",
+          "prompt": "Calculate steady apparent power for a 240 V control load drawing 0.75 A.",
+          "numeric": 180,
+          "answer": "180 VA",
+          "options": [
+            "180 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 0.75 = 180 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.9
+        },
+        {
+          "variant": "n3",
+          "prompt": "At 24 V, steady-state current is 1 A. Calculate the steady VA requirement.",
+          "numeric": 24,
+          "answer": "24 VA",
+          "options": [
+            "24 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 1 = 24 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.12
+        },
+        {
+          "variant": "n4",
+          "prompt": "Calculate steady apparent power for a 120 V control load drawing 1.25 A.",
+          "numeric": 150,
+          "answer": "150 VA",
+          "options": [
+            "150 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 1.25 = 150 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.75
+        },
+        {
+          "variant": "n5",
+          "prompt": "At 240 V, steady-state current is 1.5 A. Calculate the steady VA requirement.",
+          "numeric": 360,
+          "answer": "360 VA",
+          "options": [
+            "360 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 1.5 = 360 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 1.8
+        },
+        {
+          "variant": "n6",
+          "prompt": "Calculate steady apparent power for a 24 V control load drawing 1.75 A.",
+          "numeric": 42,
+          "answer": "42 VA",
+          "options": [
+            "42 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 1.75 = 42 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.21
+        },
+        {
+          "variant": "n7",
+          "prompt": "At 120 V, steady-state current is 2 A. Calculate the steady VA requirement.",
+          "numeric": 240,
+          "answer": "240 VA",
+          "options": [
+            "240 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 2 = 240 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 1.2
+        },
+        {
+          "variant": "n8",
+          "prompt": "Calculate steady apparent power for a 240 V control load drawing 2.25 A.",
+          "numeric": 540,
+          "answer": "540 VA",
+          "options": [
+            "540 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 2.25 = 540 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 2.7
+        },
+        {
+          "variant": "n9",
+          "prompt": "At 24 V, steady-state current is 2.5 A. Calculate the steady VA requirement.",
+          "numeric": 60,
+          "answer": "60 VA",
+          "options": [
+            "60 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 2.5 = 60 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.3
+        },
+        {
+          "variant": "n10",
+          "prompt": "Calculate steady apparent power for a 120 V control load drawing 2.75 A.",
+          "numeric": 330,
+          "answer": "330 VA",
+          "options": [
+            "330 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 2.75 = 330 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 1.6500000000000001
+        },
+        {
+          "variant": "n11",
+          "prompt": "At 240 V, steady-state current is 3 A. Calculate the steady VA requirement.",
+          "numeric": 720,
+          "answer": "720 VA",
+          "options": [
+            "720 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 3 = 720 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 3.6
+        },
+        {
+          "variant": "n12",
+          "prompt": "Calculate steady apparent power for a 24 V control load drawing 3.25 A.",
+          "numeric": 78,
+          "answer": "78 VA",
+          "options": [
+            "78 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 3.25 = 78 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.39
+        },
+        {
+          "variant": "n13",
+          "prompt": "At 120 V, steady-state current is 3.5 A. Calculate the steady VA requirement.",
+          "numeric": 420,
+          "answer": "420 VA",
+          "options": [
+            "420 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 3.5 = 420 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 2.1
+        },
+        {
+          "variant": "n14",
+          "prompt": "Calculate steady apparent power for a 240 V control load drawing 3.75 A.",
+          "numeric": 900,
+          "answer": "900 VA",
+          "options": [
+            "900 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 3.75 = 900 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 4.5
+        },
+        {
+          "variant": "n15",
+          "prompt": "At 24 V, steady-state current is 4 A. Calculate the steady VA requirement.",
+          "numeric": 96,
+          "answer": "96 VA",
+          "options": [
+            "96 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 4 = 96 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.48
+        },
+        {
+          "variant": "n16",
+          "prompt": "Calculate steady apparent power for a 120 V control load drawing 4.25 A.",
+          "numeric": 510,
+          "answer": "510 VA",
+          "options": [
+            "510 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 4.25 = 510 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 2.5500000000000003
+        },
+        {
+          "variant": "n17",
+          "prompt": "At 240 V, steady-state current is 4.5 A. Calculate the steady VA requirement.",
+          "numeric": 1080,
+          "answer": "1080 VA",
+          "options": [
+            "1080 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 4.5 = 1080 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 5.4
+        },
+        {
+          "variant": "n18",
+          "prompt": "Calculate steady apparent power for a 24 V control load drawing 4.75 A.",
+          "numeric": 114,
+          "answer": "114 VA",
+          "options": [
+            "114 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 4.75 = 114 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.5700000000000001
+        },
+        {
+          "variant": "n19",
+          "prompt": "At 120 V, steady-state current is 5 A. Calculate the steady VA requirement.",
+          "numeric": 600,
+          "answer": "600 VA",
+          "options": [
+            "600 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 5 = 600 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 3
+        },
+        {
+          "variant": "n20",
+          "prompt": "Calculate steady apparent power for a 240 V control load drawing 5.25 A.",
+          "numeric": 1260,
+          "answer": "1260 VA",
+          "options": [
+            "1260 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 5.25 = 1260 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 6.3
+        },
+        {
+          "variant": "n21",
+          "prompt": "At 24 V, steady-state current is 5.5 A. Calculate the steady VA requirement.",
+          "numeric": 132,
+          "answer": "132 VA",
+          "options": [
+            "132 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 5.5 = 132 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.66
+        },
+        {
+          "variant": "n22",
+          "prompt": "Calculate steady apparent power for a 120 V control load drawing 5.75 A.",
+          "numeric": 690,
+          "answer": "690 VA",
+          "options": [
+            "690 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 5.75 = 690 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 3.45
+        },
+        {
+          "variant": "n23",
+          "prompt": "At 240 V, steady-state current is 6 A. Calculate the steady VA requirement.",
+          "numeric": 1440,
+          "answer": "1440 VA",
+          "options": [
+            "1440 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 6 = 1440 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 7.2
+        },
+        {
+          "variant": "n24",
+          "prompt": "Calculate steady apparent power for a 24 V control load drawing 6.25 A.",
+          "numeric": 150,
+          "answer": "150 VA",
+          "options": [
+            "150 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 6.25 = 150 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.75
+        },
+        {
+          "variant": "n25",
+          "prompt": "At 120 V, steady-state current is 6.5 A. Calculate the steady VA requirement.",
+          "numeric": 780,
+          "answer": "780 VA",
+          "options": [
+            "780 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 6.5 = 780 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 3.9
+        },
+        {
+          "variant": "n26",
+          "prompt": "Calculate steady apparent power for a 240 V control load drawing 6.75 A.",
+          "numeric": 1620,
+          "answer": "1620 VA",
+          "options": [
+            "1620 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 6.75 = 1620 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 8.1
+        },
+        {
+          "variant": "n27",
+          "prompt": "At 24 V, steady-state current is 7 A. Calculate the steady VA requirement.",
+          "numeric": 168,
+          "answer": "168 VA",
+          "options": [
+            "168 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 7 = 168 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.84
+        },
+        {
+          "variant": "n28",
+          "prompt": "Calculate steady apparent power for a 120 V control load drawing 7.25 A.",
+          "numeric": 870,
+          "answer": "870 VA",
+          "options": [
+            "870 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 7.25 = 870 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 4.3500000000000005
+        },
+        {
+          "variant": "n29",
+          "prompt": "At 240 V, steady-state current is 7.5 A. Calculate the steady VA requirement.",
+          "numeric": 1800,
+          "answer": "1800 VA",
+          "options": [
+            "1800 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 7.5 = 1800 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 9
+        },
+        {
+          "variant": "n30",
+          "prompt": "Calculate steady apparent power for a 24 V control load drawing 7.75 A.",
+          "numeric": 186,
+          "answer": "186 VA",
+          "options": [
+            "186 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 7.75 = 186 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.93
+        },
+        {
+          "variant": "n31",
+          "prompt": "At 120 V, steady-state current is 8 A. Calculate the steady VA requirement.",
+          "numeric": 960,
+          "answer": "960 VA",
+          "options": [
+            "960 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 8 = 960 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 4.8
+        },
+        {
+          "variant": "n32",
+          "prompt": "Calculate steady apparent power for a 240 V control load drawing 8.25 A.",
+          "numeric": 1980,
+          "answer": "1980 VA",
+          "options": [
+            "1980 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 8.25 = 1980 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 9.9
+        },
+        {
+          "variant": "n33",
+          "prompt": "At 24 V, steady-state current is 8.5 A. Calculate the steady VA requirement.",
+          "numeric": 204,
+          "answer": "204 VA",
+          "options": [
+            "204 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 24 × 8.5 = 204 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 1.02
+        },
+        {
+          "variant": "n34",
+          "prompt": "Calculate steady apparent power for a 120 V control load drawing 8.75 A.",
+          "numeric": 1050,
+          "answer": "1050 VA",
+          "options": [
+            "1050 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 120 × 8.75 = 1050 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 5.25
+        },
+        {
+          "variant": "n35",
+          "prompt": "At 240 V, steady-state current is 9 A. Calculate the steady VA requirement.",
+          "numeric": 2160,
+          "answer": "2160 VA",
+          "options": [
+            "2160 VA"
+          ],
+          "explanation": "VA = secondary voltage × steady current = 240 × 9 = 2160 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 10.8
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-47.jpg",
+          "page": 47,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 47,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "► Steady state VA - secondary voltage multiplied by secondary current during steady state ► Max in-rush VA - secondary voltage multiplied by secondary current during in-rush on a machine which has a motor or other inductive load 47"
+      }
+    },
+    {
+      "id": "calc-inrush",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "source": "m",
+      "section": "Module 3 · VA calculations, slide 47",
+      "type": "formula",
+      "unit": "VA",
+      "variant": "n0",
+      "prompt": "Calculate inrush apparent power for a 24 V control load drawing 0.25 A.",
+      "numeric": 6,
+      "answer": "6 VA",
+      "options": [
+        "6 VA"
+      ],
+      "explanation": "VA = secondary voltage × inrush current = 24 × 0.25 = 6 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+      "tolerance": 0.03,
+      "variants": [
+        {
+          "variant": "n0",
+          "prompt": "Calculate inrush apparent power for a 24 V control load drawing 0.25 A.",
+          "numeric": 6,
+          "answer": "6 VA",
+          "options": [
+            "6 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 0.25 = 6 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.03
+        },
+        {
+          "variant": "n1",
+          "prompt": "At 120 V, inrush current is 0.5 A. Calculate the inrush VA requirement.",
+          "numeric": 60,
+          "answer": "60 VA",
+          "options": [
+            "60 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 0.5 = 60 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.3
+        },
+        {
+          "variant": "n2",
+          "prompt": "Calculate inrush apparent power for a 240 V control load drawing 0.75 A.",
+          "numeric": 180,
+          "answer": "180 VA",
+          "options": [
+            "180 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 0.75 = 180 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.9
+        },
+        {
+          "variant": "n3",
+          "prompt": "At 24 V, inrush current is 1 A. Calculate the inrush VA requirement.",
+          "numeric": 24,
+          "answer": "24 VA",
+          "options": [
+            "24 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 1 = 24 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.12
+        },
+        {
+          "variant": "n4",
+          "prompt": "Calculate inrush apparent power for a 120 V control load drawing 1.25 A.",
+          "numeric": 150,
+          "answer": "150 VA",
+          "options": [
+            "150 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 1.25 = 150 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.75
+        },
+        {
+          "variant": "n5",
+          "prompt": "At 240 V, inrush current is 1.5 A. Calculate the inrush VA requirement.",
+          "numeric": 360,
+          "answer": "360 VA",
+          "options": [
+            "360 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 1.5 = 360 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 1.8
+        },
+        {
+          "variant": "n6",
+          "prompt": "Calculate inrush apparent power for a 24 V control load drawing 1.75 A.",
+          "numeric": 42,
+          "answer": "42 VA",
+          "options": [
+            "42 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 1.75 = 42 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.21
+        },
+        {
+          "variant": "n7",
+          "prompt": "At 120 V, inrush current is 2 A. Calculate the inrush VA requirement.",
+          "numeric": 240,
+          "answer": "240 VA",
+          "options": [
+            "240 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 2 = 240 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 1.2
+        },
+        {
+          "variant": "n8",
+          "prompt": "Calculate inrush apparent power for a 240 V control load drawing 2.25 A.",
+          "numeric": 540,
+          "answer": "540 VA",
+          "options": [
+            "540 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 2.25 = 540 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 2.7
+        },
+        {
+          "variant": "n9",
+          "prompt": "At 24 V, inrush current is 2.5 A. Calculate the inrush VA requirement.",
+          "numeric": 60,
+          "answer": "60 VA",
+          "options": [
+            "60 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 2.5 = 60 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.3
+        },
+        {
+          "variant": "n10",
+          "prompt": "Calculate inrush apparent power for a 120 V control load drawing 2.75 A.",
+          "numeric": 330,
+          "answer": "330 VA",
+          "options": [
+            "330 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 2.75 = 330 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 1.6500000000000001
+        },
+        {
+          "variant": "n11",
+          "prompt": "At 240 V, inrush current is 3 A. Calculate the inrush VA requirement.",
+          "numeric": 720,
+          "answer": "720 VA",
+          "options": [
+            "720 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 3 = 720 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 3.6
+        },
+        {
+          "variant": "n12",
+          "prompt": "Calculate inrush apparent power for a 24 V control load drawing 3.25 A.",
+          "numeric": 78,
+          "answer": "78 VA",
+          "options": [
+            "78 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 3.25 = 78 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.39
+        },
+        {
+          "variant": "n13",
+          "prompt": "At 120 V, inrush current is 3.5 A. Calculate the inrush VA requirement.",
+          "numeric": 420,
+          "answer": "420 VA",
+          "options": [
+            "420 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 3.5 = 420 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 2.1
+        },
+        {
+          "variant": "n14",
+          "prompt": "Calculate inrush apparent power for a 240 V control load drawing 3.75 A.",
+          "numeric": 900,
+          "answer": "900 VA",
+          "options": [
+            "900 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 3.75 = 900 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 4.5
+        },
+        {
+          "variant": "n15",
+          "prompt": "At 24 V, inrush current is 4 A. Calculate the inrush VA requirement.",
+          "numeric": 96,
+          "answer": "96 VA",
+          "options": [
+            "96 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 4 = 96 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.48
+        },
+        {
+          "variant": "n16",
+          "prompt": "Calculate inrush apparent power for a 120 V control load drawing 4.25 A.",
+          "numeric": 510,
+          "answer": "510 VA",
+          "options": [
+            "510 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 4.25 = 510 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 2.5500000000000003
+        },
+        {
+          "variant": "n17",
+          "prompt": "At 240 V, inrush current is 4.5 A. Calculate the inrush VA requirement.",
+          "numeric": 1080,
+          "answer": "1080 VA",
+          "options": [
+            "1080 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 4.5 = 1080 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 5.4
+        },
+        {
+          "variant": "n18",
+          "prompt": "Calculate inrush apparent power for a 24 V control load drawing 4.75 A.",
+          "numeric": 114,
+          "answer": "114 VA",
+          "options": [
+            "114 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 4.75 = 114 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.5700000000000001
+        },
+        {
+          "variant": "n19",
+          "prompt": "At 120 V, inrush current is 5 A. Calculate the inrush VA requirement.",
+          "numeric": 600,
+          "answer": "600 VA",
+          "options": [
+            "600 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 5 = 600 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 3
+        },
+        {
+          "variant": "n20",
+          "prompt": "Calculate inrush apparent power for a 240 V control load drawing 5.25 A.",
+          "numeric": 1260,
+          "answer": "1260 VA",
+          "options": [
+            "1260 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 5.25 = 1260 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 6.3
+        },
+        {
+          "variant": "n21",
+          "prompt": "At 24 V, inrush current is 5.5 A. Calculate the inrush VA requirement.",
+          "numeric": 132,
+          "answer": "132 VA",
+          "options": [
+            "132 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 5.5 = 132 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.66
+        },
+        {
+          "variant": "n22",
+          "prompt": "Calculate inrush apparent power for a 120 V control load drawing 5.75 A.",
+          "numeric": 690,
+          "answer": "690 VA",
+          "options": [
+            "690 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 5.75 = 690 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 3.45
+        },
+        {
+          "variant": "n23",
+          "prompt": "At 240 V, inrush current is 6 A. Calculate the inrush VA requirement.",
+          "numeric": 1440,
+          "answer": "1440 VA",
+          "options": [
+            "1440 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 6 = 1440 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 7.2
+        },
+        {
+          "variant": "n24",
+          "prompt": "Calculate inrush apparent power for a 24 V control load drawing 6.25 A.",
+          "numeric": 150,
+          "answer": "150 VA",
+          "options": [
+            "150 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 6.25 = 150 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.75
+        },
+        {
+          "variant": "n25",
+          "prompt": "At 120 V, inrush current is 6.5 A. Calculate the inrush VA requirement.",
+          "numeric": 780,
+          "answer": "780 VA",
+          "options": [
+            "780 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 6.5 = 780 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 3.9
+        },
+        {
+          "variant": "n26",
+          "prompt": "Calculate inrush apparent power for a 240 V control load drawing 6.75 A.",
+          "numeric": 1620,
+          "answer": "1620 VA",
+          "options": [
+            "1620 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 6.75 = 1620 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 8.1
+        },
+        {
+          "variant": "n27",
+          "prompt": "At 24 V, inrush current is 7 A. Calculate the inrush VA requirement.",
+          "numeric": 168,
+          "answer": "168 VA",
+          "options": [
+            "168 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 7 = 168 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.84
+        },
+        {
+          "variant": "n28",
+          "prompt": "Calculate inrush apparent power for a 120 V control load drawing 7.25 A.",
+          "numeric": 870,
+          "answer": "870 VA",
+          "options": [
+            "870 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 7.25 = 870 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 4.3500000000000005
+        },
+        {
+          "variant": "n29",
+          "prompt": "At 240 V, inrush current is 7.5 A. Calculate the inrush VA requirement.",
+          "numeric": 1800,
+          "answer": "1800 VA",
+          "options": [
+            "1800 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 7.5 = 1800 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 9
+        },
+        {
+          "variant": "n30",
+          "prompt": "Calculate inrush apparent power for a 24 V control load drawing 7.75 A.",
+          "numeric": 186,
+          "answer": "186 VA",
+          "options": [
+            "186 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 7.75 = 186 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 0.93
+        },
+        {
+          "variant": "n31",
+          "prompt": "At 120 V, inrush current is 8 A. Calculate the inrush VA requirement.",
+          "numeric": 960,
+          "answer": "960 VA",
+          "options": [
+            "960 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 8 = 960 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 4.8
+        },
+        {
+          "variant": "n32",
+          "prompt": "Calculate inrush apparent power for a 240 V control load drawing 8.25 A.",
+          "numeric": 1980,
+          "answer": "1980 VA",
+          "options": [
+            "1980 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 8.25 = 1980 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 9.9
+        },
+        {
+          "variant": "n33",
+          "prompt": "At 24 V, inrush current is 8.5 A. Calculate the inrush VA requirement.",
+          "numeric": 204,
+          "answer": "204 VA",
+          "options": [
+            "204 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 24 × 8.5 = 204 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 1.02
+        },
+        {
+          "variant": "n34",
+          "prompt": "Calculate inrush apparent power for a 120 V control load drawing 8.75 A.",
+          "numeric": 1050,
+          "answer": "1050 VA",
+          "options": [
+            "1050 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 120 × 8.75 = 1050 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 5.25
+        },
+        {
+          "variant": "n35",
+          "prompt": "At 240 V, inrush current is 9 A. Calculate the inrush VA requirement.",
+          "numeric": 2160,
+          "answer": "2160 VA",
+          "options": [
+            "2160 VA"
+          ],
+          "explanation": "VA = secondary voltage × inrush current = 240 × 9 = 2160 VA. Evaluate steady and inrush requirements when selecting a transformer.",
+          "tolerance": 10.8
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-47.jpg",
+          "page": 47,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 47,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "► Steady state VA - secondary voltage multiplied by secondary current during steady state ► Max in-rush VA - secondary voltage multiplied by secondary current during in-rush on a machine which has a motor or other inductive load 47"
+      }
+    },
+    {
+      "id": "calc-overload-arithmetic",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "source": "m",
+      "section": "Module 2 · Lab arithmetic example, slide 31",
+      "type": "formula",
+      "unit": "A",
+      "variant": "n0",
+      "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 1 A. Find their product.",
+      "numeric": 1.35,
+      "answer": "1.35 A",
+      "options": [
+        "1.35 A"
+      ],
+      "explanation": "1 × 1.35 = 1.35 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+      "tolerance": 0.006750000000000001,
+      "variants": [
+        {
+          "variant": "n0",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 1 A. Find their product.",
+          "numeric": 1.35,
+          "answer": "1.35 A",
+          "options": [
+            "1.35 A"
+          ],
+          "explanation": "1 × 1.35 = 1.35 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.006750000000000001
+        },
+        {
+          "variant": "n1",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 1.2 A. Find their product.",
+          "numeric": 1.5,
+          "answer": "1.5 A",
+          "options": [
+            "1.5 A"
+          ],
+          "explanation": "1.2 × 1.25 = 1.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0075
+        },
+        {
+          "variant": "n2",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 1.4 A. Find their product.",
+          "numeric": 1.89,
+          "answer": "1.89 A",
+          "options": [
+            "1.89 A"
+          ],
+          "explanation": "1.4 × 1.35 = 1.89 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.00945
+        },
+        {
+          "variant": "n3",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 1.6 A. Find their product.",
+          "numeric": 2,
+          "answer": "2 A",
+          "options": [
+            "2 A"
+          ],
+          "explanation": "1.6 × 1.25 = 2 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.01
+        },
+        {
+          "variant": "n4",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 1.8 A. Find their product.",
+          "numeric": 2.43,
+          "answer": "2.43 A",
+          "options": [
+            "2.43 A"
+          ],
+          "explanation": "1.8 × 1.35 = 2.43 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.012150000000000001
+        },
+        {
+          "variant": "n5",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 2 A. Find their product.",
+          "numeric": 2.5,
+          "answer": "2.5 A",
+          "options": [
+            "2.5 A"
+          ],
+          "explanation": "2 × 1.25 = 2.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0125
+        },
+        {
+          "variant": "n6",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 2.2 A. Find their product.",
+          "numeric": 2.97,
+          "answer": "2.97 A",
+          "options": [
+            "2.97 A"
+          ],
+          "explanation": "2.2 × 1.35 = 2.97 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.014850000000000002
+        },
+        {
+          "variant": "n7",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 2.4 A. Find their product.",
+          "numeric": 3,
+          "answer": "3 A",
+          "options": [
+            "3 A"
+          ],
+          "explanation": "2.4 × 1.25 = 3 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.015
+        },
+        {
+          "variant": "n8",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 2.6 A. Find their product.",
+          "numeric": 3.51,
+          "answer": "3.51 A",
+          "options": [
+            "3.51 A"
+          ],
+          "explanation": "2.6 × 1.35 = 3.51 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.01755
+        },
+        {
+          "variant": "n9",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 2.8 A. Find their product.",
+          "numeric": 3.5,
+          "answer": "3.5 A",
+          "options": [
+            "3.5 A"
+          ],
+          "explanation": "2.8 × 1.25 = 3.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0175
+        },
+        {
+          "variant": "n10",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 3 A. Find their product.",
+          "numeric": 4.05,
+          "answer": "4.05 A",
+          "options": [
+            "4.05 A"
+          ],
+          "explanation": "3 × 1.35 = 4.05 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.02025
+        },
+        {
+          "variant": "n11",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 3.2 A. Find their product.",
+          "numeric": 4,
+          "answer": "4 A",
+          "options": [
+            "4 A"
+          ],
+          "explanation": "3.2 × 1.25 = 4 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.02
+        },
+        {
+          "variant": "n12",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 3.4 A. Find their product.",
+          "numeric": 4.59,
+          "answer": "4.59 A",
+          "options": [
+            "4.59 A"
+          ],
+          "explanation": "3.4 × 1.35 = 4.59 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.022949999999999998
+        },
+        {
+          "variant": "n13",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 3.6 A. Find their product.",
+          "numeric": 4.5,
+          "answer": "4.5 A",
+          "options": [
+            "4.5 A"
+          ],
+          "explanation": "3.6 × 1.25 = 4.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0225
+        },
+        {
+          "variant": "n14",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 3.8 A. Find their product.",
+          "numeric": 5.13,
+          "answer": "5.13 A",
+          "options": [
+            "5.13 A"
+          ],
+          "explanation": "3.8 × 1.35 = 5.13 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.02565
+        },
+        {
+          "variant": "n15",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 4 A. Find their product.",
+          "numeric": 5,
+          "answer": "5 A",
+          "options": [
+            "5 A"
+          ],
+          "explanation": "4 × 1.25 = 5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.025
+        },
+        {
+          "variant": "n16",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 4.2 A. Find their product.",
+          "numeric": 5.67,
+          "answer": "5.67 A",
+          "options": [
+            "5.67 A"
+          ],
+          "explanation": "4.2 × 1.35 = 5.67 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.02835
+        },
+        {
+          "variant": "n17",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 4.4 A. Find their product.",
+          "numeric": 5.5,
+          "answer": "5.5 A",
+          "options": [
+            "5.5 A"
+          ],
+          "explanation": "4.4 × 1.25 = 5.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0275
+        },
+        {
+          "variant": "n18",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 4.6 A. Find their product.",
+          "numeric": 6.21,
+          "answer": "6.21 A",
+          "options": [
+            "6.21 A"
+          ],
+          "explanation": "4.6 × 1.35 = 6.21 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.03105
+        },
+        {
+          "variant": "n19",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 4.8 A. Find their product.",
+          "numeric": 6,
+          "answer": "6 A",
+          "options": [
+            "6 A"
+          ],
+          "explanation": "4.8 × 1.25 = 6 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.03
+        },
+        {
+          "variant": "n20",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 5 A. Find their product.",
+          "numeric": 6.75,
+          "answer": "6.75 A",
+          "options": [
+            "6.75 A"
+          ],
+          "explanation": "5 × 1.35 = 6.75 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.03375
+        },
+        {
+          "variant": "n21",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 5.2 A. Find their product.",
+          "numeric": 6.5,
+          "answer": "6.5 A",
+          "options": [
+            "6.5 A"
+          ],
+          "explanation": "5.2 × 1.25 = 6.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0325
+        },
+        {
+          "variant": "n22",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 5.4 A. Find their product.",
+          "numeric": 7.29,
+          "answer": "7.29 A",
+          "options": [
+            "7.29 A"
+          ],
+          "explanation": "5.4 × 1.35 = 7.29 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.03645
+        },
+        {
+          "variant": "n23",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 5.6 A. Find their product.",
+          "numeric": 7,
+          "answer": "7 A",
+          "options": [
+            "7 A"
+          ],
+          "explanation": "5.6 × 1.25 = 7 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.035
+        },
+        {
+          "variant": "n24",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 5.8 A. Find their product.",
+          "numeric": 7.83,
+          "answer": "7.83 A",
+          "options": [
+            "7.83 A"
+          ],
+          "explanation": "5.8 × 1.35 = 7.83 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.039150000000000004
+        },
+        {
+          "variant": "n25",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 6 A. Find their product.",
+          "numeric": 7.5,
+          "answer": "7.5 A",
+          "options": [
+            "7.5 A"
+          ],
+          "explanation": "6 × 1.25 = 7.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0375
+        },
+        {
+          "variant": "n26",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 6.2 A. Find their product.",
+          "numeric": 8.37,
+          "answer": "8.37 A",
+          "options": [
+            "8.37 A"
+          ],
+          "explanation": "6.2 × 1.35 = 8.37 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.04185
+        },
+        {
+          "variant": "n27",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 6.4 A. Find their product.",
+          "numeric": 8,
+          "answer": "8 A",
+          "options": [
+            "8 A"
+          ],
+          "explanation": "6.4 × 1.25 = 8 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.04
+        },
+        {
+          "variant": "n28",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 6.6 A. Find their product.",
+          "numeric": 8.91,
+          "answer": "8.91 A",
+          "options": [
+            "8.91 A"
+          ],
+          "explanation": "6.6 × 1.35 = 8.91 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.04455
+        },
+        {
+          "variant": "n29",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 6.8 A. Find their product.",
+          "numeric": 8.5,
+          "answer": "8.5 A",
+          "options": [
+            "8.5 A"
+          ],
+          "explanation": "6.8 × 1.25 = 8.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0425
+        },
+        {
+          "variant": "n30",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 7 A. Find their product.",
+          "numeric": 9.45,
+          "answer": "9.45 A",
+          "options": [
+            "9.45 A"
+          ],
+          "explanation": "7 × 1.35 = 9.45 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.04725
+        },
+        {
+          "variant": "n31",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 7.2 A. Find their product.",
+          "numeric": 9,
+          "answer": "9 A",
+          "options": [
+            "9 A"
+          ],
+          "explanation": "7.2 × 1.25 = 9 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.045
+        },
+        {
+          "variant": "n32",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 7.4 A. Find their product.",
+          "numeric": 9.99,
+          "answer": "9.99 A",
+          "options": [
+            "9.99 A"
+          ],
+          "explanation": "7.4 × 1.35 = 9.99 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.04995
+        },
+        {
+          "variant": "n33",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 7.6 A. Find their product.",
+          "numeric": 9.5,
+          "answer": "9.5 A",
+          "options": [
+            "9.5 A"
+          ],
+          "explanation": "7.6 × 1.25 = 9.5 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.0475
+        },
+        {
+          "variant": "n34",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.35 with a listed current of 7.8 A. Find their product.",
+          "numeric": 10.53,
+          "answer": "10.53 A",
+          "options": [
+            "10.53 A"
+          ],
+          "explanation": "7.8 × 1.35 = 10.53 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.052649999999999995
+        },
+        {
+          "variant": "n35",
+          "prompt": "For this arithmetic exercise only, use the supplied multiplier 1.25 with a listed current of 8 A. Find their product.",
+          "numeric": 10,
+          "answer": "10 A",
+          "options": [
+            "10 A"
+          ],
+          "explanation": "8 × 1.25 = 10 A. This practices the slide’s multiplication; actual settings require the equipment instructions and applicable requirements.",
+          "tolerance": 0.05
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-31.jpg",
+          "page": 31,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 31,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "use it. Otherwise, use the equipment manual find the trip point setting. If the trip point is not known, use the motor nameplate: Motor nameplates usually list FLC (full load current)and SF(service factor). Amatrol Skill 5A - Set Trip Level of a Motor Starter …"
+      }
+    },
+    {
+      "id": "calc-speed",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "Shaft Speed and Torque of a Chain Drive, slide 82",
+      "type": "formula",
+      "unit": "RPM",
+      "variant": "n0",
+      "prompt": "A 10-tooth driver at 600 RPM drives a 20-tooth sprocket. Find output speed.",
+      "numeric": 300,
+      "answer": "300 RPM",
+      "options": [
+        "300 RPM"
+      ],
+      "explanation": "Ratio = driven ÷ driver = 2. Output speed = 600 ÷ 2 = 300 RPM.",
+      "tolerance": 1.5,
+      "variants": [
+        {
+          "variant": "n0",
+          "prompt": "A 10-tooth driver at 600 RPM drives a 20-tooth sprocket. Find output speed.",
+          "numeric": 300,
+          "answer": "300 RPM",
+          "options": [
+            "300 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 600 ÷ 2 = 300 RPM.",
+          "tolerance": 1.5
+        },
+        {
+          "variant": "n1",
+          "prompt": "A 11-tooth driver at 630 RPM drives a 33-tooth sprocket. Find output speed.",
+          "numeric": 210,
+          "answer": "210 RPM",
+          "options": [
+            "210 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 630 ÷ 3 = 210 RPM.",
+          "tolerance": 1.05
+        },
+        {
+          "variant": "n2",
+          "prompt": "A 12-tooth driver at 660 RPM drives a 48-tooth sprocket. Find output speed.",
+          "numeric": 165,
+          "answer": "165 RPM",
+          "options": [
+            "165 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 660 ÷ 4 = 165 RPM.",
+          "tolerance": 0.8250000000000001
+        },
+        {
+          "variant": "n3",
+          "prompt": "A 13-tooth driver at 690 RPM drives a 65-tooth sprocket. Find output speed.",
+          "numeric": 138,
+          "answer": "138 RPM",
+          "options": [
+            "138 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 690 ÷ 5 = 138 RPM.",
+          "tolerance": 0.6900000000000001
+        },
+        {
+          "variant": "n4",
+          "prompt": "A 14-tooth driver at 720 RPM drives a 28-tooth sprocket. Find output speed.",
+          "numeric": 360,
+          "answer": "360 RPM",
+          "options": [
+            "360 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 720 ÷ 2 = 360 RPM.",
+          "tolerance": 1.8
+        },
+        {
+          "variant": "n5",
+          "prompt": "A 15-tooth driver at 750 RPM drives a 45-tooth sprocket. Find output speed.",
+          "numeric": 250,
+          "answer": "250 RPM",
+          "options": [
+            "250 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 750 ÷ 3 = 250 RPM.",
+          "tolerance": 1.25
+        },
+        {
+          "variant": "n6",
+          "prompt": "A 16-tooth driver at 780 RPM drives a 64-tooth sprocket. Find output speed.",
+          "numeric": 195,
+          "answer": "195 RPM",
+          "options": [
+            "195 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 780 ÷ 4 = 195 RPM.",
+          "tolerance": 0.975
+        },
+        {
+          "variant": "n7",
+          "prompt": "A 17-tooth driver at 810 RPM drives a 85-tooth sprocket. Find output speed.",
+          "numeric": 162,
+          "answer": "162 RPM",
+          "options": [
+            "162 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 810 ÷ 5 = 162 RPM.",
+          "tolerance": 0.81
+        },
+        {
+          "variant": "n8",
+          "prompt": "A 18-tooth driver at 840 RPM drives a 36-tooth sprocket. Find output speed.",
+          "numeric": 420,
+          "answer": "420 RPM",
+          "options": [
+            "420 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 840 ÷ 2 = 420 RPM.",
+          "tolerance": 2.1
+        },
+        {
+          "variant": "n9",
+          "prompt": "A 19-tooth driver at 870 RPM drives a 57-tooth sprocket. Find output speed.",
+          "numeric": 290,
+          "answer": "290 RPM",
+          "options": [
+            "290 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 870 ÷ 3 = 290 RPM.",
+          "tolerance": 1.45
+        },
+        {
+          "variant": "n10",
+          "prompt": "A 20-tooth driver at 900 RPM drives a 80-tooth sprocket. Find output speed.",
+          "numeric": 225,
+          "answer": "225 RPM",
+          "options": [
+            "225 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 900 ÷ 4 = 225 RPM.",
+          "tolerance": 1.125
+        },
+        {
+          "variant": "n11",
+          "prompt": "A 21-tooth driver at 930 RPM drives a 105-tooth sprocket. Find output speed.",
+          "numeric": 186,
+          "answer": "186 RPM",
+          "options": [
+            "186 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 930 ÷ 5 = 186 RPM.",
+          "tolerance": 0.93
+        },
+        {
+          "variant": "n12",
+          "prompt": "A 22-tooth driver at 960 RPM drives a 44-tooth sprocket. Find output speed.",
+          "numeric": 480,
+          "answer": "480 RPM",
+          "options": [
+            "480 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 960 ÷ 2 = 480 RPM.",
+          "tolerance": 2.4
+        },
+        {
+          "variant": "n13",
+          "prompt": "A 23-tooth driver at 990 RPM drives a 69-tooth sprocket. Find output speed.",
+          "numeric": 330,
+          "answer": "330 RPM",
+          "options": [
+            "330 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 990 ÷ 3 = 330 RPM.",
+          "tolerance": 1.6500000000000001
+        },
+        {
+          "variant": "n14",
+          "prompt": "A 24-tooth driver at 1020 RPM drives a 96-tooth sprocket. Find output speed.",
+          "numeric": 255,
+          "answer": "255 RPM",
+          "options": [
+            "255 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 1020 ÷ 4 = 255 RPM.",
+          "tolerance": 1.2750000000000001
+        },
+        {
+          "variant": "n15",
+          "prompt": "A 25-tooth driver at 1050 RPM drives a 125-tooth sprocket. Find output speed.",
+          "numeric": 210,
+          "answer": "210 RPM",
+          "options": [
+            "210 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 1050 ÷ 5 = 210 RPM.",
+          "tolerance": 1.05
+        },
+        {
+          "variant": "n16",
+          "prompt": "A 26-tooth driver at 1080 RPM drives a 52-tooth sprocket. Find output speed.",
+          "numeric": 540,
+          "answer": "540 RPM",
+          "options": [
+            "540 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 1080 ÷ 2 = 540 RPM.",
+          "tolerance": 2.7
+        },
+        {
+          "variant": "n17",
+          "prompt": "A 27-tooth driver at 1110 RPM drives a 81-tooth sprocket. Find output speed.",
+          "numeric": 370,
+          "answer": "370 RPM",
+          "options": [
+            "370 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 1110 ÷ 3 = 370 RPM.",
+          "tolerance": 1.85
+        },
+        {
+          "variant": "n18",
+          "prompt": "A 28-tooth driver at 1140 RPM drives a 112-tooth sprocket. Find output speed.",
+          "numeric": 285,
+          "answer": "285 RPM",
+          "options": [
+            "285 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 1140 ÷ 4 = 285 RPM.",
+          "tolerance": 1.425
+        },
+        {
+          "variant": "n19",
+          "prompt": "A 29-tooth driver at 1170 RPM drives a 145-tooth sprocket. Find output speed.",
+          "numeric": 234,
+          "answer": "234 RPM",
+          "options": [
+            "234 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 1170 ÷ 5 = 234 RPM.",
+          "tolerance": 1.17
+        },
+        {
+          "variant": "n20",
+          "prompt": "A 30-tooth driver at 1200 RPM drives a 60-tooth sprocket. Find output speed.",
+          "numeric": 600,
+          "answer": "600 RPM",
+          "options": [
+            "600 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 1200 ÷ 2 = 600 RPM.",
+          "tolerance": 3
+        },
+        {
+          "variant": "n21",
+          "prompt": "A 31-tooth driver at 1230 RPM drives a 93-tooth sprocket. Find output speed.",
+          "numeric": 410,
+          "answer": "410 RPM",
+          "options": [
+            "410 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 1230 ÷ 3 = 410 RPM.",
+          "tolerance": 2.05
+        },
+        {
+          "variant": "n22",
+          "prompt": "A 32-tooth driver at 1260 RPM drives a 128-tooth sprocket. Find output speed.",
+          "numeric": 315,
+          "answer": "315 RPM",
+          "options": [
+            "315 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 1260 ÷ 4 = 315 RPM.",
+          "tolerance": 1.575
+        },
+        {
+          "variant": "n23",
+          "prompt": "A 33-tooth driver at 1290 RPM drives a 165-tooth sprocket. Find output speed.",
+          "numeric": 258,
+          "answer": "258 RPM",
+          "options": [
+            "258 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 1290 ÷ 5 = 258 RPM.",
+          "tolerance": 1.29
+        },
+        {
+          "variant": "n24",
+          "prompt": "A 34-tooth driver at 1320 RPM drives a 68-tooth sprocket. Find output speed.",
+          "numeric": 660,
+          "answer": "660 RPM",
+          "options": [
+            "660 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 1320 ÷ 2 = 660 RPM.",
+          "tolerance": 3.3000000000000003
+        },
+        {
+          "variant": "n25",
+          "prompt": "A 35-tooth driver at 1350 RPM drives a 105-tooth sprocket. Find output speed.",
+          "numeric": 450,
+          "answer": "450 RPM",
+          "options": [
+            "450 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 1350 ÷ 3 = 450 RPM.",
+          "tolerance": 2.25
+        },
+        {
+          "variant": "n26",
+          "prompt": "A 36-tooth driver at 1380 RPM drives a 144-tooth sprocket. Find output speed.",
+          "numeric": 345,
+          "answer": "345 RPM",
+          "options": [
+            "345 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 1380 ÷ 4 = 345 RPM.",
+          "tolerance": 1.725
+        },
+        {
+          "variant": "n27",
+          "prompt": "A 37-tooth driver at 1410 RPM drives a 185-tooth sprocket. Find output speed.",
+          "numeric": 282,
+          "answer": "282 RPM",
+          "options": [
+            "282 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 1410 ÷ 5 = 282 RPM.",
+          "tolerance": 1.41
+        },
+        {
+          "variant": "n28",
+          "prompt": "A 38-tooth driver at 1440 RPM drives a 76-tooth sprocket. Find output speed.",
+          "numeric": 720,
+          "answer": "720 RPM",
+          "options": [
+            "720 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 1440 ÷ 2 = 720 RPM.",
+          "tolerance": 3.6
+        },
+        {
+          "variant": "n29",
+          "prompt": "A 39-tooth driver at 1470 RPM drives a 117-tooth sprocket. Find output speed.",
+          "numeric": 490,
+          "answer": "490 RPM",
+          "options": [
+            "490 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 1470 ÷ 3 = 490 RPM.",
+          "tolerance": 2.45
+        },
+        {
+          "variant": "n30",
+          "prompt": "A 40-tooth driver at 1500 RPM drives a 160-tooth sprocket. Find output speed.",
+          "numeric": 375,
+          "answer": "375 RPM",
+          "options": [
+            "375 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 1500 ÷ 4 = 375 RPM.",
+          "tolerance": 1.875
+        },
+        {
+          "variant": "n31",
+          "prompt": "A 41-tooth driver at 1530 RPM drives a 205-tooth sprocket. Find output speed.",
+          "numeric": 306,
+          "answer": "306 RPM",
+          "options": [
+            "306 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 1530 ÷ 5 = 306 RPM.",
+          "tolerance": 1.53
+        },
+        {
+          "variant": "n32",
+          "prompt": "A 42-tooth driver at 1560 RPM drives a 84-tooth sprocket. Find output speed.",
+          "numeric": 780,
+          "answer": "780 RPM",
+          "options": [
+            "780 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 2. Output speed = 1560 ÷ 2 = 780 RPM.",
+          "tolerance": 3.9
+        },
+        {
+          "variant": "n33",
+          "prompt": "A 43-tooth driver at 1590 RPM drives a 129-tooth sprocket. Find output speed.",
+          "numeric": 530,
+          "answer": "530 RPM",
+          "options": [
+            "530 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 3. Output speed = 1590 ÷ 3 = 530 RPM.",
+          "tolerance": 2.65
+        },
+        {
+          "variant": "n34",
+          "prompt": "A 44-tooth driver at 1620 RPM drives a 176-tooth sprocket. Find output speed.",
+          "numeric": 405,
+          "answer": "405 RPM",
+          "options": [
+            "405 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 4. Output speed = 1620 ÷ 4 = 405 RPM.",
+          "tolerance": 2.025
+        },
+        {
+          "variant": "n35",
+          "prompt": "A 45-tooth driver at 1650 RPM drives a 225-tooth sprocket. Find output speed.",
+          "numeric": 330,
+          "answer": "330 RPM",
+          "options": [
+            "330 RPM"
+          ],
+          "explanation": "Ratio = driven ÷ driver = 5. Output speed = 1650 ÷ 5 = 330 RPM.",
+          "tolerance": 1.6500000000000001
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-82.jpg",
+          "page": 82,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 82,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in opposite directions If you halve speed, you double torque 82"
+      }
+    },
+    {
+      "id": "c201x-calc-series",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        36
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 36",
+      "prompt": "Resistors of 10, 20 and 30 Ω are in series. Find total resistance in Ω.",
+      "answer": "60 Ω",
+      "options": [
+        "60 Ω",
+        "120 Ω",
+        "30 Ω",
+        "600 Ω"
+      ],
+      "explanation": "R_T = 10 + 20 + 30 = 60 Ω.",
+      "numeric": 60,
+      "tolerance": 0.005,
+      "unit": "Ω",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "Resistors of 10, 20 and 30 Ω are in series. Find total resistance in Ω.",
+          "numeric": 60,
+          "tolerance": 0.005,
+          "answer": "60 Ω",
+          "options": [
+            "60 Ω",
+            "120 Ω",
+            "30 Ω",
+            "600 Ω"
+          ],
+          "explanation": "R_T = 10 + 20 + 30 = 60 Ω."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "Resistors of 15, 25 and 60 Ω are in series. Find total resistance in Ω.",
+          "numeric": 100,
+          "tolerance": 0.005,
+          "answer": "100 Ω",
+          "options": [
+            "100 Ω",
+            "200 Ω",
+            "50 Ω",
+            "1000 Ω"
+          ],
+          "explanation": "R_T = 15 + 25 + 60 = 100 Ω."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "Resistors of 40, 50 and 10 Ω are in series. Find total resistance in Ω.",
+          "numeric": 100,
+          "tolerance": 0.005,
+          "answer": "100 Ω",
+          "options": [
+            "100 Ω",
+            "200 Ω",
+            "50 Ω",
+            "1000 Ω"
+          ],
+          "explanation": "R_T = 40 + 50 + 10 = 100 Ω."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-36.jpg",
+          "page": 36,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 36,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "Total Series Resistance ● The total resistance in a circuit determines how much power the circuit draws ● If the loads are connected in series, add the individual resistances 36 17 SYLLABUS. AI-generated content may be incorrect."
+      }
+    },
+    {
+      "id": "c201x-calc-parallel",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        37
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 37",
+      "prompt": "Resistors of 30 Ω and 60 Ω are in parallel. Find equivalent resistance in Ω.",
+      "answer": "20 Ω",
+      "options": [
+        "20 Ω",
+        "40 Ω",
+        "10 Ω",
+        "200 Ω"
+      ],
+      "explanation": "R_eq = (30 × 60) / (30 + 60) = 20 Ω.",
+      "numeric": 20,
+      "tolerance": 0.005,
+      "unit": "Ω",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "Resistors of 30 Ω and 60 Ω are in parallel. Find equivalent resistance in Ω.",
+          "numeric": 20,
+          "tolerance": 0.005,
+          "answer": "20 Ω",
+          "options": [
+            "20 Ω",
+            "40 Ω",
+            "10 Ω",
+            "200 Ω"
+          ],
+          "explanation": "R_eq = (30 × 60) / (30 + 60) = 20 Ω."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "Resistors of 40 Ω and 40 Ω are in parallel. Find equivalent resistance in Ω.",
+          "numeric": 20,
+          "tolerance": 0.005,
+          "answer": "20 Ω",
+          "options": [
+            "20 Ω",
+            "40 Ω",
+            "10 Ω",
+            "200 Ω"
+          ],
+          "explanation": "R_eq = (40 × 40) / (40 + 40) = 20 Ω."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "Resistors of 60 Ω and 120 Ω are in parallel. Find equivalent resistance in Ω.",
+          "numeric": 40,
+          "tolerance": 0.005,
+          "answer": "40 Ω",
+          "options": [
+            "40 Ω",
+            "80 Ω",
+            "20 Ω",
+            "400 Ω"
+          ],
+          "explanation": "R_eq = (60 × 120) / (60 + 120) = 40 Ω."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-37.jpg",
+          "page": 37,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 37,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "● The total resistance decreases as you add more resistors ● Alternate (rearranged) formulas: Total Parallel Resistance 37 EXAMPLE: 60, 45 AND 35 OHM RESISTORS CONNECTED IN PARALLEL, WHAT IS THE TOTAL RESISTANCE"
+      }
+    },
+    {
+      "id": "c201x-calc-current",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        39
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 39",
+      "prompt": "A resistive circuit has 24 V across 80 Ω. Find current in A.",
+      "answer": "0.3 A",
+      "options": [
+        "0.3 A",
+        "0.6 A",
+        "0.15 A",
+        "3 A"
+      ],
+      "explanation": "I = V/R = 24/80 = 0.3 A.",
+      "numeric": 0.3,
+      "tolerance": 0.005,
+      "unit": "A",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "A resistive circuit has 24 V across 80 Ω. Find current in A.",
+          "numeric": 0.3,
+          "tolerance": 0.005,
+          "answer": "0.3 A",
+          "options": [
+            "0.3 A",
+            "0.6 A",
+            "0.15 A",
+            "3 A"
+          ],
+          "explanation": "I = V/R = 24/80 = 0.3 A."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "A resistive circuit has 12 V across 40 Ω. Find current in A.",
+          "numeric": 0.3,
+          "tolerance": 0.005,
+          "answer": "0.3 A",
+          "options": [
+            "0.3 A",
+            "0.6 A",
+            "0.15 A",
+            "3 A"
+          ],
+          "explanation": "I = V/R = 12/40 = 0.3 A."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "A resistive circuit has 48 V across 120 Ω. Find current in A.",
+          "numeric": 0.4,
+          "tolerance": 0.005,
+          "answer": "0.4 A",
+          "options": [
+            "0.4 A",
+            "0.8 A",
+            "0.2 A",
+            "4 A"
+          ],
+          "explanation": "I = V/R = 48/120 = 0.4 A."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-39.jpg",
+          "page": 39,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 39,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "● Voltage, current, and resistance are related to each other by Ohm’s Law ○ Applies to electrical circuits where the loads are only resistance-type loads ○ “One volt can push one amp through one ohm of resistance” 39"
+      }
+    },
+    {
+      "id": "c201x-calc-voltage",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        39
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 39",
+      "prompt": "Current of 0.3 A flows through 100 Ω. Find voltage in V.",
+      "answer": "30 V",
+      "options": [
+        "30 V",
+        "60 V",
+        "15 V",
+        "300 V"
+      ],
+      "explanation": "V = I × R = 0.3 × 100 = 30 V.",
+      "numeric": 30,
+      "tolerance": 0.005,
+      "unit": "V",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "Current of 0.3 A flows through 100 Ω. Find voltage in V.",
+          "numeric": 30,
+          "tolerance": 0.005,
+          "answer": "30 V",
+          "options": [
+            "30 V",
+            "60 V",
+            "15 V",
+            "300 V"
+          ],
+          "explanation": "V = I × R = 0.3 × 100 = 30 V."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "Current of 0.2 A flows through 40 Ω. Find voltage in V.",
+          "numeric": 8,
+          "tolerance": 0.005,
+          "answer": "8 V",
+          "options": [
+            "8 V",
+            "16 V",
+            "4 V",
+            "80 V"
+          ],
+          "explanation": "V = I × R = 0.2 × 40 = 8 V."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "Current of 0.5 A flows through 48 Ω. Find voltage in V.",
+          "numeric": 24,
+          "tolerance": 0.005,
+          "answer": "24 V",
+          "options": [
+            "24 V",
+            "48 V",
+            "12 V",
+            "240 V"
+          ],
+          "explanation": "V = I × R = 0.5 × 48 = 24 V."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-39.jpg",
+          "page": 39,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 39,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "● Voltage, current, and resistance are related to each other by Ohm’s Law ○ Applies to electrical circuits where the loads are only resistance-type loads ○ “One volt can push one amp through one ohm of resistance” 39"
+      }
+    },
+    {
+      "id": "c201x-calc-resistance",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        40
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 40",
+      "prompt": "A resistor draws 0.2 A at 24 V. Find resistance in Ω.",
+      "answer": "120 Ω",
+      "options": [
+        "120 Ω",
+        "240 Ω",
+        "60 Ω",
+        "1200 Ω"
+      ],
+      "explanation": "R = V/I = 24/0.2 = 120 Ω.",
+      "numeric": 120,
+      "tolerance": 0.005,
+      "unit": "Ω",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "A resistor draws 0.2 A at 24 V. Find resistance in Ω.",
+          "numeric": 120,
+          "tolerance": 0.005,
+          "answer": "120 Ω",
+          "options": [
+            "120 Ω",
+            "240 Ω",
+            "60 Ω",
+            "1200 Ω"
+          ],
+          "explanation": "R = V/I = 24/0.2 = 120 Ω."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "A resistor draws 0.5 A at 12 V. Find resistance in Ω.",
+          "numeric": 24,
+          "tolerance": 0.005,
+          "answer": "24 Ω",
+          "options": [
+            "24 Ω",
+            "48 Ω",
+            "12 Ω",
+            "240 Ω"
+          ],
+          "explanation": "R = V/I = 12/0.5 = 24 Ω."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "A resistor draws 0.4 A at 48 V. Find resistance in Ω.",
+          "numeric": 120,
+          "tolerance": 0.005,
+          "answer": "120 Ω",
+          "options": [
+            "120 Ω",
+            "240 Ω",
+            "60 Ω",
+            "1200 Ω"
+          ],
+          "explanation": "R = V/I = 48/0.4 = 120 Ω."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-40.jpg",
+          "page": 40,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 40,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "● With Ohm’s Law, any of the three values for voltage, current, or resistance can be calculated if the other two are known 40"
+      }
+    },
+    {
+      "id": "c201x-calc-kvl",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        41
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 41",
+      "prompt": "A 24 V series circuit has drops of 8 V and 10 V. Find the remaining drop in V.",
+      "answer": "6 V",
+      "options": [
+        "6 V",
+        "12 V",
+        "3 V",
+        "60 V"
+      ],
+      "explanation": "24 − 8 − 10 = 6 V.",
+      "numeric": 6,
+      "tolerance": 0.005,
+      "unit": "V",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "A 24 V series circuit has drops of 8 V and 10 V. Find the remaining drop in V.",
+          "numeric": 6,
+          "tolerance": 0.005,
+          "answer": "6 V",
+          "options": [
+            "6 V",
+            "12 V",
+            "3 V",
+            "60 V"
+          ],
+          "explanation": "24 − 8 − 10 = 6 V."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "A 48 V series circuit has drops of 12 V and 16 V. Find the remaining drop in V.",
+          "numeric": 20,
+          "tolerance": 0.005,
+          "answer": "20 V",
+          "options": [
+            "20 V",
+            "40 V",
+            "10 V",
+            "200 V"
+          ],
+          "explanation": "48 − 12 − 16 = 20 V."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "A 12 V series circuit has drops of 3 V and 4 V. Find the remaining drop in V.",
+          "numeric": 5,
+          "tolerance": 0.005,
+          "answer": "5 V",
+          "options": [
+            "5 V",
+            "10 V",
+            "2.5 V",
+            "50 V"
+          ],
+          "explanation": "12 − 3 − 4 = 5 V."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-41.jpg",
+          "page": 41,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 41,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "● Kirchhoff’s Voltage Law states that the total voltage in a series circuit is equal to the sum of the individual voltage drops in the circuit 41"
+      }
+    },
+    {
+      "id": "c201x-calc-kcl",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        42
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 42",
+      "prompt": "Parallel branches draw 0.25 A and 0.5 A. Find total current in A.",
+      "answer": "0.75 A",
+      "options": [
+        "0.75 A",
+        "1.5 A",
+        "0.375 A",
+        "7.5 A"
+      ],
+      "explanation": "I_T = 0.25 + 0.5 = 0.75 A.",
+      "numeric": 0.75,
+      "tolerance": 0.005,
+      "unit": "A",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "Parallel branches draw 0.25 A and 0.5 A. Find total current in A.",
+          "numeric": 0.75,
+          "tolerance": 0.005,
+          "answer": "0.75 A",
+          "options": [
+            "0.75 A",
+            "1.5 A",
+            "0.375 A",
+            "7.5 A"
+          ],
+          "explanation": "I_T = 0.25 + 0.5 = 0.75 A."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "Parallel branches draw 0.5 A and 1.25 A. Find total current in A.",
+          "numeric": 1.75,
+          "tolerance": 0.005,
+          "answer": "1.75 A",
+          "options": [
+            "1.75 A",
+            "3.5 A",
+            "0.875 A",
+            "17.5 A"
+          ],
+          "explanation": "I_T = 0.5 + 1.25 = 1.75 A."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "Parallel branches draw 1 A and 1.5 A. Find total current in A.",
+          "numeric": 2.5,
+          "tolerance": 0.005,
+          "answer": "2.5 A",
+          "options": [
+            "2.5 A",
+            "5 A",
+            "1.25 A",
+            "25 A"
+          ],
+          "explanation": "I_T = 1 + 1.5 = 2.5 A."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-42.jpg",
+          "page": 42,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 42,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "○ In a parallel circuit, the total current to/from the power supply is called the main line current 42"
+      }
+    },
+    {
+      "id": "c201x-calc-power",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        43
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 43",
+      "prompt": "A resistive load draws 2 A at 24 V. Find power in W.",
+      "answer": "48 W",
+      "options": [
+        "48 W",
+        "96 W",
+        "24 W",
+        "480 W"
+      ],
+      "explanation": "P = V × I = 24 × 2 = 48 W.",
+      "numeric": 48,
+      "tolerance": 0.005,
+      "unit": "W",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "A resistive load draws 2 A at 24 V. Find power in W.",
+          "numeric": 48,
+          "tolerance": 0.005,
+          "answer": "48 W",
+          "options": [
+            "48 W",
+            "96 W",
+            "24 W",
+            "480 W"
+          ],
+          "explanation": "P = V × I = 24 × 2 = 48 W."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "A resistive load draws 0.5 A at 12 V. Find power in W.",
+          "numeric": 6,
+          "tolerance": 0.005,
+          "answer": "6 W",
+          "options": [
+            "6 W",
+            "12 W",
+            "3 W",
+            "60 W"
+          ],
+          "explanation": "P = V × I = 12 × 0.5 = 6 W."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "A resistive load draws 0.25 A at 120 V. Find power in W.",
+          "numeric": 30,
+          "tolerance": 0.005,
+          "answer": "30 W",
+          "options": [
+            "30 W",
+            "60 W",
+            "15 W",
+            "300 W"
+          ],
+          "explanation": "P = V × I = 120 × 0.25 = 30 W."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-43.jpg",
+          "page": 43,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 43,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "● Power is the measure of the energy consumed by a circuit ● Measured in watts, abbreviated W ● “One watt is consumed when one volt pushes one amp through a circuit” ● Power = Current x Voltage 43"
+      }
+    },
+    {
+      "id": "c201x-calc-firm",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        56
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 56",
+      "prompt": "Using the course firm-divider guideline, find bleeder resistance for a 1000 Ω load. Answer in Ω.",
+      "answer": "100 Ω",
+      "options": [
+        "100 Ω",
+        "200 Ω",
+        "50 Ω",
+        "1000 Ω"
+      ],
+      "explanation": "R_bleeder = 1000/10 = 100 Ω.",
+      "numeric": 100,
+      "tolerance": 0.005,
+      "unit": "Ω",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "Using the course firm-divider guideline, find bleeder resistance for a 1000 Ω load. Answer in Ω.",
+          "numeric": 100,
+          "tolerance": 0.005,
+          "answer": "100 Ω",
+          "options": [
+            "100 Ω",
+            "200 Ω",
+            "50 Ω",
+            "1000 Ω"
+          ],
+          "explanation": "R_bleeder = 1000/10 = 100 Ω."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "Using the course firm-divider guideline, find bleeder resistance for a 2200 Ω load. Answer in Ω.",
+          "numeric": 220,
+          "tolerance": 0.005,
+          "answer": "220 Ω",
+          "options": [
+            "220 Ω",
+            "440 Ω",
+            "110 Ω",
+            "2200 Ω"
+          ],
+          "explanation": "R_bleeder = 2200/10 = 220 Ω."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "Using the course firm-divider guideline, find bleeder resistance for a 4700 Ω load. Answer in Ω.",
+          "numeric": 470,
+          "tolerance": 0.005,
+          "answer": "470 Ω",
+          "options": [
+            "470 Ω",
+            "940 Ω",
+            "235 Ω",
+            "4700 Ω"
+          ],
+          "explanation": "R_bleeder = 4700/10 = 470 Ω."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-56.jpg",
+          "page": 56,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 56,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "○ A firm voltage divider uses a bleeder resistor that is 1/10 the resistance of the load ■ Used if the load voltage does not need to be very constant ■ Does not consume as much power as the stiff voltage divider ○ A stiff voltage divider uses a bleeder resisto…"
+      }
+    },
+    {
+      "id": "c201x-calc-stiff",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        56
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 56",
+      "prompt": "Using the course stiff-divider guideline, find bleeder resistance for a 1000 Ω load. Answer in Ω.",
+      "answer": "10 Ω",
+      "options": [
+        "10 Ω",
+        "20 Ω",
+        "5 Ω",
+        "100 Ω"
+      ],
+      "explanation": "R_bleeder = 1000/100 = 10 Ω.",
+      "numeric": 10,
+      "tolerance": 0.005,
+      "unit": "Ω",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "Using the course stiff-divider guideline, find bleeder resistance for a 1000 Ω load. Answer in Ω.",
+          "numeric": 10,
+          "tolerance": 0.005,
+          "answer": "10 Ω",
+          "options": [
+            "10 Ω",
+            "20 Ω",
+            "5 Ω",
+            "100 Ω"
+          ],
+          "explanation": "R_bleeder = 1000/100 = 10 Ω."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "Using the course stiff-divider guideline, find bleeder resistance for a 2200 Ω load. Answer in Ω.",
+          "numeric": 22,
+          "tolerance": 0.005,
+          "answer": "22 Ω",
+          "options": [
+            "22 Ω",
+            "44 Ω",
+            "11 Ω",
+            "220 Ω"
+          ],
+          "explanation": "R_bleeder = 2200/100 = 22 Ω."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "Using the course stiff-divider guideline, find bleeder resistance for a 4700 Ω load. Answer in Ω.",
+          "numeric": 47,
+          "tolerance": 0.005,
+          "answer": "47 Ω",
+          "options": [
+            "47 Ω",
+            "94 Ω",
+            "23.5 Ω",
+            "470 Ω"
+          ],
+          "explanation": "R_bleeder = 4700/100 = 47 Ω."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-56.jpg",
+          "page": 56,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 56,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "○ A stiff voltage divider uses a bleeder resistor that is 1/100 the resistance of the load ■ Used when the load voltage must be more constant ○ Power wasted is 10-100X the load power ● Loaded voltage dividers are used if the load resistance is relatively low ○…"
+      }
+    },
+    {
+      "id": "c201x-calc-divider",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        57
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 57",
+      "prompt": "An unloaded divider has R1 = 100 Ω, R2 = 100 Ω and source 24 V. Find voltage across R2 in V.",
+      "answer": "12 V",
+      "options": [
+        "12 V",
+        "24 V",
+        "6 V",
+        "120 V"
+      ],
+      "explanation": "V_R2 = 24 × 100/(100 + 100) = 12 V.",
+      "numeric": 12,
+      "tolerance": 0.005,
+      "unit": "V",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "An unloaded divider has R1 = 100 Ω, R2 = 100 Ω and source 24 V. Find voltage across R2 in V.",
+          "numeric": 12,
+          "tolerance": 0.005,
+          "answer": "12 V",
+          "options": [
+            "12 V",
+            "24 V",
+            "6 V",
+            "120 V"
+          ],
+          "explanation": "V_R2 = 24 × 100/(100 + 100) = 12 V."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "An unloaded divider has R1 = 100 Ω, R2 = 200 Ω and source 12 V. Find voltage across R2 in V.",
+          "numeric": 8,
+          "tolerance": 0.005,
+          "answer": "8 V",
+          "options": [
+            "8 V",
+            "16 V",
+            "4 V",
+            "80 V"
+          ],
+          "explanation": "V_R2 = 12 × 200/(100 + 200) = 8 V."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "An unloaded divider has R1 = 200 Ω, R2 = 100 Ω and source 30 V. Find voltage across R2 in V.",
+          "numeric": 10,
+          "tolerance": 0.005,
+          "answer": "10 V",
+          "options": [
+            "10 V",
+            "20 V",
+            "5 V",
+            "100 V"
+          ],
+          "explanation": "V_R2 = 30 × 100/(200 + 100) = 10 V."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-57.jpg",
+          "page": 57,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 57,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "Firm and Stiff Voltage Divider Formulas ● Can be used to calculate the load voltage if you know the resistance ● Can also be used to size R1 if you know what the voltage needs to be ● Actually an approximation because it assumes RL is infinite 57"
+      }
+    },
+    {
+      "id": "c201x-calc-transformer",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        67
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 67",
+      "prompt": "An ideal transformer has 200 primary and 100 secondary turns, with 240 VAC input. Find secondary voltage in V.",
+      "answer": "120 V",
+      "options": [
+        "120 V",
+        "240 V",
+        "60 V",
+        "1200 V"
+      ],
+      "explanation": "V_s = V_p × N_s/N_p = 240 × 100/200 = 120 V.",
+      "numeric": 120,
+      "tolerance": 0.005,
+      "unit": "V",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "An ideal transformer has 200 primary and 100 secondary turns, with 240 VAC input. Find secondary voltage in V.",
+          "numeric": 120,
+          "tolerance": 0.005,
+          "answer": "120 V",
+          "options": [
+            "120 V",
+            "240 V",
+            "60 V",
+            "1200 V"
+          ],
+          "explanation": "V_s = V_p × N_s/N_p = 240 × 100/200 = 120 V."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "An ideal transformer has 400 primary and 100 secondary turns, with 480 VAC input. Find secondary voltage in V.",
+          "numeric": 120,
+          "tolerance": 0.005,
+          "answer": "120 V",
+          "options": [
+            "120 V",
+            "240 V",
+            "60 V",
+            "1200 V"
+          ],
+          "explanation": "V_s = V_p × N_s/N_p = 480 × 100/400 = 120 V."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "An ideal transformer has 100 primary and 200 secondary turns, with 120 VAC input. Find secondary voltage in V.",
+          "numeric": 240,
+          "tolerance": 0.005,
+          "answer": "240 V",
+          "options": [
+            "240 V",
+            "480 V",
+            "120 V",
+            "2400 V"
+          ],
+          "explanation": "V_s = V_p × N_s/N_p = 120 × 200/100 = 240 V."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-67.jpg",
+          "page": 67,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 67,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "● To determine output voltage you need only input voltage and turns ratio 67"
+      }
+    },
+    {
+      "id": "c201x-calc-va",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        70
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 70",
+      "prompt": "A transformer supplies 0.5 A at 120 V in steady state. Calculate VA before any inrush allowance.",
+      "answer": "60 VA",
+      "options": [
+        "60 VA",
+        "120 VA",
+        "30 VA",
+        "600 VA"
+      ],
+      "explanation": "VA = 120 × 0.5 = 60 VA. Selection must also account for inrush.",
+      "numeric": 60,
+      "tolerance": 0.005,
+      "unit": "VA",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "A transformer supplies 0.5 A at 120 V in steady state. Calculate VA before any inrush allowance.",
+          "numeric": 60,
+          "tolerance": 0.005,
+          "answer": "60 VA",
+          "options": [
+            "60 VA",
+            "120 VA",
+            "30 VA",
+            "600 VA"
+          ],
+          "explanation": "VA = 120 × 0.5 = 60 VA. Selection must also account for inrush."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "A transformer supplies 2 A at 24 V in steady state. Calculate VA before any inrush allowance.",
+          "numeric": 48,
+          "tolerance": 0.005,
+          "answer": "48 VA",
+          "options": [
+            "48 VA",
+            "96 VA",
+            "24 VA",
+            "480 VA"
+          ],
+          "explanation": "VA = 24 × 2 = 48 VA. Selection must also account for inrush."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "A transformer supplies 2 A at 120 V in steady state. Calculate VA before any inrush allowance.",
+          "numeric": 240,
+          "tolerance": 0.005,
+          "answer": "240 VA",
+          "options": [
+            "240 VA",
+            "480 VA",
+            "120 VA",
+            "2400 VA"
+          ],
+          "explanation": "VA = 120 × 2 = 240 VA. Selection must also account for inrush."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-70.jpg",
+          "page": 70,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 70,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "○ Output current required, both in-rush and steady-state ● With this information, you can use a catalog specification sheet ○ Safely and efficiently provide the maximum current that can be drawn by the load ○ Machines with motors or other high in-rush devices …"
+      }
+    },
+    {
+      "id": "c201x-calc-primary",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "formula",
+      "source": "full",
+      "sourcePages": [
+        77
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 77",
+      "prompt": "Ignoring losses, a transformer supplies 2 A at 120 V from a 240 V primary. Find primary current in A.",
+      "answer": "1 A",
+      "options": [
+        "1 A",
+        "2 A",
+        "0.5 A",
+        "10 A"
+      ],
+      "explanation": "I_p = V_s I_s/V_p = 120 × 2/240 = 1 A.",
+      "numeric": 1,
+      "tolerance": 0.005,
+      "unit": "A",
+      "variants": [
+        {
+          "variant": "values-0",
+          "prompt": "Ignoring losses, a transformer supplies 2 A at 120 V from a 240 V primary. Find primary current in A.",
+          "numeric": 1,
+          "tolerance": 0.005,
+          "answer": "1 A",
+          "options": [
+            "1 A",
+            "2 A",
+            "0.5 A",
+            "10 A"
+          ],
+          "explanation": "I_p = V_s I_s/V_p = 120 × 2/240 = 1 A."
+        },
+        {
+          "variant": "values-1",
+          "prompt": "Ignoring losses, a transformer supplies 4 A at 120 V from a 480 V primary. Find primary current in A.",
+          "numeric": 1,
+          "tolerance": 0.005,
+          "answer": "1 A",
+          "options": [
+            "1 A",
+            "2 A",
+            "0.5 A",
+            "10 A"
+          ],
+          "explanation": "I_p = V_s I_s/V_p = 120 × 4/480 = 1 A."
+        },
+        {
+          "variant": "values-2",
+          "prompt": "Ignoring losses, a transformer supplies 5 A at 24 V from a 120 V primary. Find primary current in A.",
+          "numeric": 1,
+          "tolerance": 0.005,
+          "answer": "1 A",
+          "options": [
+            "1 A",
+            "2 A",
+            "0.5 A",
+            "10 A"
+          ],
+          "explanation": "I_p = V_s I_s/V_p = 24 × 5/120 = 1 A."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-77.jpg",
+          "page": 77,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 77,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "Voltage and Current Relationship ● Input power and output power are equal ● If voltage goes up, current goes down 77"
+      }
+    },
+    {
+      "id": "c202x-voltage",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "formula",
+      "prompt": "An ideal 4:1 transformer receives 480 V. Find secondary voltage.",
+      "answer": "120 V",
+      "options": [
+        "120 V",
+        "240 V",
+        "60 V",
+        "220 V"
+      ],
+      "explanation": "480 / 4 = 120 V.",
+      "source": "m",
+      "sourcePages": [
+        37
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 37",
+      "numeric": 120,
+      "tolerance": 0.6,
+      "unit": "V",
+      "variants": [
+        {
+          "variant": "voltage-0",
+          "prompt": "An ideal 4:1 transformer receives 480 V. Find secondary voltage.",
+          "numeric": 120,
+          "tolerance": 0.6,
+          "answer": "120 V",
+          "options": [
+            "120 V",
+            "240 V",
+            "60 V",
+            "220 V"
+          ],
+          "explanation": "480 / 4 = 120 V."
+        },
+        {
+          "variant": "voltage-1",
+          "prompt": "An ideal 5:1 transformer receives 120 V. Find secondary voltage.",
+          "numeric": 24,
+          "tolerance": 0.12,
+          "answer": "24 V",
+          "options": [
+            "24 V",
+            "48 V",
+            "12 V",
+            "124 V"
+          ],
+          "explanation": "120 / 5 = 24 V."
+        },
+        {
+          "variant": "voltage-2",
+          "prompt": "An ideal 10:1 transformer receives 240 V. Find secondary voltage.",
+          "numeric": 24,
+          "tolerance": 0.12,
+          "answer": "24 V",
+          "options": [
+            "24 V",
+            "48 V",
+            "12 V",
+            "124 V"
+          ],
+          "explanation": "240 / 10 = 24 V."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-37.jpg",
+          "page": 37,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 37,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "► The secondary output voltage of a transformer is calculated by dividing the primary voltage by the turns ratio 37"
+      }
+    },
+    {
+      "id": "c202x-steady",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "formula",
+      "prompt": "A 120 V control load draws 0.5 A steadily. Find VA.",
+      "answer": "60 VA",
+      "options": [
+        "60 VA",
+        "120 VA",
+        "30 VA",
+        "160 VA"
+      ],
+      "explanation": "120 × 0.5 = 60 VA.",
+      "source": "m",
+      "sourcePages": [
+        47
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 47",
+      "numeric": 60,
+      "tolerance": 0.3,
+      "unit": "VA",
+      "variants": [
+        {
+          "variant": "steady-0",
+          "prompt": "A 120 V control load draws 0.5 A steadily. Find VA.",
+          "numeric": 60,
+          "tolerance": 0.3,
+          "answer": "60 VA",
+          "options": [
+            "60 VA",
+            "120 VA",
+            "30 VA",
+            "160 VA"
+          ],
+          "explanation": "120 × 0.5 = 60 VA."
+        },
+        {
+          "variant": "steady-1",
+          "prompt": "A 24 V control load draws 2 A steadily. Find VA.",
+          "numeric": 48,
+          "tolerance": 0.24,
+          "answer": "48 VA",
+          "options": [
+            "48 VA",
+            "96 VA",
+            "24 VA",
+            "148 VA"
+          ],
+          "explanation": "24 × 2 = 48 VA."
+        },
+        {
+          "variant": "steady-2",
+          "prompt": "A 120 V control load draws 0.75 A steadily. Find VA.",
+          "numeric": 90,
+          "tolerance": 0.45,
+          "answer": "90 VA",
+          "options": [
+            "90 VA",
+            "180 VA",
+            "45 VA",
+            "190 VA"
+          ],
+          "explanation": "120 × 0.75 = 90 VA."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-47.jpg",
+          "page": 47,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 47,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "machine which has a motor or other inductive load 47"
+      }
+    },
+    {
+      "id": "c202x-inrush",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "formula",
+      "prompt": "A 120 V coil draws 3 A during inrush. Find inrush VA.",
+      "answer": "360 VA",
+      "options": [
+        "360 VA",
+        "720 VA",
+        "180 VA",
+        "460 VA"
+      ],
+      "explanation": "120 × 3 = 360 VA.",
+      "source": "m",
+      "sourcePages": [
+        47
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 47",
+      "numeric": 360,
+      "tolerance": 1.8,
+      "unit": "VA",
+      "variants": [
+        {
+          "variant": "inrush-0",
+          "prompt": "A 120 V coil draws 3 A during inrush. Find inrush VA.",
+          "numeric": 360,
+          "tolerance": 1.8,
+          "answer": "360 VA",
+          "options": [
+            "360 VA",
+            "720 VA",
+            "180 VA",
+            "460 VA"
+          ],
+          "explanation": "120 × 3 = 360 VA."
+        },
+        {
+          "variant": "inrush-1",
+          "prompt": "A 24 V coil draws 5 A during inrush. Find inrush VA.",
+          "numeric": 120,
+          "tolerance": 0.6,
+          "answer": "120 VA",
+          "options": [
+            "120 VA",
+            "240 VA",
+            "60 VA",
+            "220 VA"
+          ],
+          "explanation": "24 × 5 = 120 VA."
+        },
+        {
+          "variant": "inrush-2",
+          "prompt": "A 120 V coil draws 2.5 A during inrush. Find inrush VA.",
+          "numeric": 300,
+          "tolerance": 1.5,
+          "answer": "300 VA",
+          "options": [
+            "300 VA",
+            "600 VA",
+            "150 VA",
+            "400 VA"
+          ],
+          "explanation": "120 × 2.5 = 300 VA."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-47.jpg",
+          "page": 47,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 47,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "► Steady state VA - secondary voltage multiplied by secondary current during steady state ► Max in-rush VA - secondary voltage multiplied by secondary current during in-rush on a machine which has a motor or other inductive load 47"
+      }
+    },
+    {
+      "id": "c202x-differential",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "formula",
+      "prompt": "Cutout is 100 psi and reset is 80 psi. Find deadband.",
+      "answer": "20 psi",
+      "options": [
+        "20 psi",
+        "40 psi",
+        "10 psi",
+        "120 psi"
+      ],
+      "explanation": "100 - 80 = 20 psi.",
+      "source": "m",
+      "sourcePages": [
+        117
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 117",
+      "numeric": 20,
+      "tolerance": 0.1,
+      "unit": "psi",
+      "variants": [
+        {
+          "variant": "differential-0",
+          "prompt": "Cutout is 100 psi and reset is 80 psi. Find deadband.",
+          "numeric": 20,
+          "tolerance": 0.1,
+          "answer": "20 psi",
+          "options": [
+            "20 psi",
+            "40 psi",
+            "10 psi",
+            "120 psi"
+          ],
+          "explanation": "100 - 80 = 20 psi."
+        },
+        {
+          "variant": "differential-1",
+          "prompt": "Cutout is 120 psi and reset is 90 psi. Find deadband.",
+          "numeric": 30,
+          "tolerance": 0.15,
+          "answer": "30 psi",
+          "options": [
+            "30 psi",
+            "60 psi",
+            "15 psi",
+            "130 psi"
+          ],
+          "explanation": "120 - 90 = 30 psi."
+        },
+        {
+          "variant": "differential-2",
+          "prompt": "Cutout is 85 psi and reset is 70 psi. Find deadband.",
+          "numeric": 15,
+          "tolerance": 0.075,
+          "answer": "15 psi",
+          "options": [
+            "15 psi",
+            "30 psi",
+            "7.5 psi",
+            "115 psi"
+          ],
+          "explanation": "85 - 70 = 15 psi."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-117.jpg",
+          "page": 117,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 117,
+        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "excerpt": "reset pressure is deadband or differential ► Prevents the switch from rapidly cycling on and off 117"
+      }
+    },
+    {
+      "id": "c201x-milliamp",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        23
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 23",
+      "prompt": "Convert 0.025 A to milliamperes.",
+      "answer": "25 mA",
+      "options": [
+        "25 mA",
+        "0.025 mA",
+        "250 mA",
+        "2.5 mA",
+        "None of these"
+      ],
+      "explanation": "0.025 × 1000 = 25 mA.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-23.jpg",
+          "page": 23,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 23,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Electrical current is the flow of electrons through a circuit ○ Can either flow in one direction (DC) or alternatively in two directions (AC) ○ Measured in units called amperes (amps) and abbreviated by the symbol A ○ Values can be very small (e.g. 0.001 A),…"
+      }
+    },
+    {
+      "id": "c201x-kilo",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        27
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 27",
+      "prompt": "Convert 4.7 kΩ to ohms.",
+      "answer": "4700 Ω",
+      "options": [
+        "4700 Ω",
+        "470 Ω",
+        "47 Ω",
+        "47000 Ω",
+        "None of these"
+      ],
+      "explanation": "Kilo means one thousand: 4.7 × 1000 = 4700 Ω.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-27.jpg",
+          "page": 27,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 27,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Higher values measured in kilo-ohms (kΩ) or mega-ohms (MΩ) 27"
+      }
+    },
+    {
+      "id": "c201x-kvl",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        41
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 41",
+      "prompt": "A 24 V series circuit has drops of 10 V and 5 V. What is the remaining drop?",
+      "answer": "9 V",
+      "options": [
+        "9 V",
+        "15 V",
+        "19 V",
+        "39 V",
+        "None of these"
+      ],
+      "explanation": "24 − 10 − 5 = 9 V by Kirchhoff’s voltage law.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-41.jpg",
+          "page": 41,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 41,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Kirchhoff’s Voltage Law states that the total voltage in a series circuit is equal to the sum of the individual voltage drops in the circuit 41"
+      }
+    },
+    {
+      "id": "c201x-parallel-section",
+      "world": "electrical",
+      "topic": "Module 5 · Combination Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        51
+      ],
+      "section": "Module 5 · Combination Circuits · C201 Electrical Systems 1.pdf · PDF page 51",
+      "prompt": "What is R2 in parallel with the R3–R4 branch equivalent to?",
+      "answer": "50 Ω",
+      "options": [
+        "50 Ω",
+        "100 Ω",
+        "200 Ω",
+        "25 Ω",
+        "None of these"
+      ],
+      "explanation": "Two 100 Ω branches in parallel give 50 Ω.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-combination",
+        "alt": "C-201 course diagram for this question",
+        "page": 51
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-51.jpg",
+          "page": 51,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 51,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solve a Combination Circuit Example 51"
+      }
+    },
+    {
+      "id": "c201x-rating",
+      "world": "electrical",
+      "topic": "Module 6 · Transformers",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        71
+      ],
+      "section": "Module 6 · Transformers · C201 Electrical Systems 1.pdf · PDF page 71",
+      "prompt": "Ratings available are 50, 75, 100 and 150 VA. A practice load requires 82 VA with no additional inrush requirement. Which rating follows the course rule?",
+      "answer": "100 VA",
+      "options": [
+        "100 VA",
+        "75 VA",
+        "50 VA",
+        "150 VA"
+      ],
+      "explanation": "Select the closest available rating above the requirement.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-71.jpg",
+          "page": 71,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 71,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Select a VA Rating that is above, but closest to, the required value ○ Never undersize a transformer Specification Sheet 71"
+      }
+    },
+    {
+      "id": "c202-safety-shock-convert",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "The shock-hazard slide gives 100 mA as an example of a current that can be fatal. What is 100 mA in amperes?",
+      "answer": "0.1 A",
+      "options": [
+        "0.1 A",
+        "0.01 A",
+        "1 A",
+        "10 A"
+      ],
+      "explanation": "There are 1,000 milliamperes in one ampere, so 100 ÷ 1,000 = 0.1 A. This is not a minimum-danger threshold.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look above the table for “100 mA (0.1 A)” and check the milliamp-to-amp conversion."
+      }
+    },
+    {
+      "id": "c202x-rating",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "A steady load needs 85 VA, with inrush already checked. Which available rating is above and closest to the required steady load?",
+      "answer": "100 VA",
+      "options": [
+        "100 VA",
+        "50 VA",
+        "75 VA",
+        "500 VA"
+      ],
+      "explanation": "Choose above, but closest to, the required rating while meeting inrush demand.",
+      "source": "m",
+      "sourcePages": [
+        48
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 48",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-48.jpg",
+          "page": 48,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 48,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Pick the one that is above but closest to the required value 48"
+      }
+    }
+  ]
+}

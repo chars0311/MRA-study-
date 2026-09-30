@@ -1,0 +1,806 @@
+{
+  "world": "motor",
+  "topic": "Module 7 · Automatic Input Devices",
+  "mathQuestionIds": [
+    "c202x-differential"
+  ],
+  "questions": [
+    {
+      "id": "q032",
+      "world": "motor",
+      "type": "quiz",
+      "prompt": "Which automatic input detects liquid level mechanically?",
+      "answer": "Float switch",
+      "options": [
+        "Float switch",
+        "Pushbutton",
+        "Selector switch",
+        "Pilot light"
+      ],
+      "explanation": "A float's movement with liquid level operates the switch contacts.",
+      "source": "m",
+      "section": "Float Switch",
+      "topic": "Module 7 · Automatic Input Devices",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-114.jpg",
+          "page": 114,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 114,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Float switches include a float device that senses the level of a liquid ► Upward or downward movement of the float device controls switch contacts 114"
+      }
+    },
+    {
+      "id": "q033",
+      "world": "motor",
+      "type": "quiz",
+      "prompt": "What is pressure-switch deadband?",
+      "answer": "Difference between cutout and reset pressures",
+      "options": [
+        "Difference between cutout and reset pressures",
+        "The maximum supply voltage",
+        "The diameter of the diaphragm",
+        "The timer preset"
+      ],
+      "explanation": "The differential separates switch actuation and reset pressures and prevents rapid cycling.",
+      "source": "m",
+      "section": "Pressure Switch",
+      "topic": "Module 7 · Automatic Input Devices",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-117.jpg",
+          "page": 117,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 117,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "reset pressure is deadband or differential ► Prevents the switch from rapidly cycling on and off 117"
+      }
+    },
+    {
+      "id": "mc-limit",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "Which input detects mechanical position?",
+      "answer": "Limit switch",
+      "options": [
+        "Limit switch",
+        "Float switch",
+        "Pilot light",
+        "Control transformer"
+      ],
+      "explanation": "Mechanical motion actuates a limit switch to indicate position.",
+      "source": "m",
+      "section": "Module 7 · Limit switches",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Which input detects mechanical position?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Which automatic switch responds to an object reaching a position?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-112.jpg",
+          "page": 112,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 112,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Mounted to detect position of a machine member or an item ► Two main components: ► Actuating Mechanism ► Lever arm that member or item presses against ► Contacts ► Provide path for the electrical signal ► N.O. - switch bar is drawn below the right-hand termi…"
+      }
+    },
+    {
+      "id": "mc-sequence",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "scenario",
+      "prompt": "Motor 2 must not start unless Motor 1 is running. What control concept is this?",
+      "answer": "Sequence control",
+      "options": [
+        "Sequence control",
+        "Random control",
+        "Transformer isolation",
+        "Overload calibration"
+      ],
+      "explanation": "Sequence control makes one operation depend on the state of an earlier operation.",
+      "source": "m",
+      "section": "Module 7 · Sequence control",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Motor 2 must not start unless Motor 1 is running. What control concept is this?"
+        },
+        {
+          "variant": "b",
+          "prompt": "A second motor is enabled only after the first runs. Which concept is demonstrated?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-118.jpg",
+          "page": 118,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 118,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Sequence Control ► Sequence control involves connecting motor starters so that the operation of one motor depends on the operating state of another motor ► In this example, motor 2 cannot start unless motor 1 is running 118 A38"
+      }
+    },
+    {
+      "id": "wb-19",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "wordbank",
+      "cloze": "A ___ detects liquid level through mechanical movement.",
+      "prompt": "A ___ detects liquid level through mechanical movement.",
+      "answer": "Float switch",
+      "options": [
+        "Float switch",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Float switch detects liquid level through mechanical movement.",
+      "source": "m",
+      "section": "Float Switch",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-114.jpg",
+          "page": 114,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 114,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Float switches include a float device that senses the level of a liquid ► Upward or downward movement of the float device controls switch contacts 114"
+      }
+    },
+    {
+      "id": "wb-20",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "wordbank",
+      "cloze": "A ___ responds to mechanical position.",
+      "prompt": "A ___ responds to mechanical position.",
+      "answer": "Limit switch",
+      "options": [
+        "Limit switch",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Limit switch responds to mechanical position.",
+      "source": "m",
+      "section": "Limit Switches",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-112.jpg",
+          "page": 112,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 112,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Mounted to detect position of a machine member or an item ► Two main components: ► Actuating Mechanism ► Lever arm that member or item presses against ► Contacts ► Provide path for the electrical signal ► N.O. - switch bar is drawn below the right-hand termi…"
+      }
+    },
+    {
+      "id": "wb-21",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "wordbank",
+      "cloze": "The difference between pressure-switch cutout and reset pressures is its ___.",
+      "prompt": "The difference between pressure-switch cutout and reset pressures is its ___.",
+      "answer": "Deadband",
+      "options": [
+        "Deadband",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "The difference between pressure-switch cutout and reset pressures is its Deadband.",
+      "source": "m",
+      "section": "Pressure Switch",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-117.jpg",
+          "page": 117,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 117,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "reset pressure is deadband or differential ► Prevents the switch from rapidly cycling on and off 117"
+      }
+    },
+    {
+      "id": "switch-limit-mechanism",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "source": "m",
+      "section": "7 · Automatic input devices · PDF page 112",
+      "type": "quiz",
+      "prompt": "A passing part pushes a limit-switch lever. Which part is the lever associated with?",
+      "answer": "The actuating mechanism",
+      "options": [
+        "The actuating mechanism",
+        "The overload heater",
+        "The source winding",
+        "The indicator lamp"
+      ],
+      "explanation": "The actuating mechanism transfers movement of the machine or item to the switch.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-112.jpg",
+          "page": 112,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 112,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Mounted to detect position of a machine member or an item ► Two main components: ► Actuating Mechanism ► Lever arm that member or item presses against ► Contacts ► Provide path for the electrical signal ► N.O. - switch bar is drawn below the right-hand termi…"
+      }
+    },
+    {
+      "id": "switch-guard",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "source": "m",
+      "section": "7 · Automatic input devices · PDF page 113",
+      "type": "quiz",
+      "prompt": "Which switch application detects whether a machine guard is in position?",
+      "answer": "A limit switch used as an interlock",
+      "options": [
+        "A limit switch used as an interlock",
+        "A selector used only to select speed",
+        "A float switch in a reservoir",
+        "A pressure switch in an air line"
+      ],
+      "explanation": "The slide gives guard-position detection as a limit-switch interlock application.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-113.jpg",
+          "page": 113,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 113,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+      }
+    },
+    {
+      "id": "switch-float",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "source": "m",
+      "section": "7 · Automatic input devices · PDF page 114",
+      "type": "quiz",
+      "prompt": "Which switch senses the level of a liquid?",
+      "answer": "Float switch",
+      "options": [
+        "Float switch",
+        "Limit switch operated by a cam",
+        "Selector switch",
+        "Knife switch"
+      ],
+      "explanation": "Movement of the float with liquid level changes the contacts.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-114.jpg",
+          "page": 114,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 114,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Float switches include a float device that senses the level of a liquid ► Upward or downward movement of the float device controls switch contacts 114"
+      }
+    },
+    {
+      "id": "switch-float-action",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "source": "m",
+      "section": "7 · Automatic input devices · PDF page 114",
+      "type": "quiz",
+      "prompt": "What directly operates the contacts in a mechanical float switch?",
+      "answer": "Upward or downward movement of the float",
+      "options": [
+        "Upward or downward movement of the float",
+        "Motor phase reversal",
+        "Resistor heating",
+        "A selector wafer turning"
+      ],
+      "explanation": "The floating element moves with liquid level and controls the contacts.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-114.jpg",
+          "page": 114,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 114,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Upward or downward movement of the float device controls switch contacts 114"
+      }
+    },
+    {
+      "id": "switch-pressure",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "source": "m",
+      "section": "7 · Automatic input devices · PDF page 116",
+      "type": "quiz",
+      "prompt": "Which switch signals that a fluid system has reached a set pressure?",
+      "answer": "Pressure switch",
+      "options": [
+        "Pressure switch",
+        "Float switch",
+        "Knife switch",
+        "Manual selector switch"
+      ],
+      "explanation": "A pressure switch changes its electrical output when system pressure reaches the switching point.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-116.jpg",
+          "page": 116,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 116,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A pressure switch provides an electrical signal when the pressure in a fluid system reaches a certain pressure ► Two basic parts: ► Actuating Mechanism - plunger attached to a diaphragm in direct contact with fluid or gas ► Electrical Switch - snap acting, s…"
+      }
+    },
+    {
+      "id": "switch-diaphragm",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "source": "m",
+      "section": "7 · Automatic input devices · PDF page 116",
+      "type": "quiz",
+      "prompt": "Which pressure-switch component is directly exposed to the fluid or gas?",
+      "answer": "The diaphragm of the actuating mechanism",
+      "options": [
+        "The diaphragm of the actuating mechanism",
+        "The manual selector knob",
+        "The overload heater",
+        "The motor shaft"
+      ],
+      "explanation": "The slide describes a plunger attached to a diaphragm in contact with the fluid or gas.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-116.jpg",
+          "page": 116,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 116,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Actuating Mechanism - plunger attached to a diaphragm in direct contact with fluid or gas ► Electrical Switch - snap acting, suddenly changes states when actuated 116"
+      }
+    },
+    {
+      "id": "switch-snap",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "source": "m",
+      "section": "7 · Automatic input devices · PDF page 116",
+      "type": "quiz",
+      "prompt": "What does snap action mean for the electrical part of a pressure switch?",
+      "answer": "Its contacts change state suddenly when actuated",
+      "options": [
+        "Its contacts change state suddenly when actuated",
+        "It gradually varies resistance like a potentiometer",
+        "It always stays open",
+        "It reverses the pressure source"
+      ],
+      "explanation": "The electrical switch makes a sudden state change when its mechanism actuates.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-116.jpg",
+          "page": 116,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 116,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Electrical Switch - snap acting, suddenly changes states when actuated 116"
+      }
+    },
+    {
+      "id": "c202x-fill",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "A fill tank reaches its upper set level. What should the float circuit do?",
+      "answer": "Open and stop filling",
+      "options": [
+        "Open and stop filling",
+        "Close and continue filling",
+        "Reverse two phases",
+        "Bypass the float"
+      ],
+      "explanation": "The fill example opens its NC float contact at high level.",
+      "source": "m",
+      "sourcePages": [
+        115
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 115",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-115.jpg",
+          "page": 115,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 115,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► When liquid level in the tank rises above the set level, the float switch will open the N.C. contacts and shut off the pump motor ► When the liquid level falls back below the set level, the contacts close again and start the motor ► Sump Operation ► When the…"
+      }
+    },
+    {
+      "id": "c202x-sump",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "Liquid rises above the desired level in a sump. What should happen?",
+      "answer": "The contact closes and the pump removes liquid",
+      "options": [
+        "The contact closes and the pump removes liquid",
+        "The pump stops and lets liquid rise",
+        "The motor phases reverse",
+        "The overload resets itself"
+      ],
+      "explanation": "The sump NO contact closes at high level and opens after the level falls.",
+      "source": "m",
+      "sourcePages": [
+        115
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 115",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-115.jpg",
+          "page": 115,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 115,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► When liquid level in the tank rises above the set level, the float switch will open the N.C. contacts and shut off the pump motor ► When the liquid level falls back below the set level, the contacts close again and start the motor ► Sump Operation ► When the…"
+      }
+    },
+    {
+      "id": "c202x-deadband",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "Why use different cutout and reset pressures?",
+      "answer": "Prevent rapid on-off cycling",
+      "options": [
+        "Prevent rapid on-off cycling",
+        "Eliminate the diaphragm",
+        "Reverse phase order",
+        "Sense temperature only"
+      ],
+      "explanation": "Deadband separates the actuation and reset thresholds.",
+      "source": "m",
+      "sourcePages": [
+        117
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 117",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-117.jpg",
+          "page": 117,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 117,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "reset pressure is deadband or differential ► Prevents the switch from rapidly cycling on and off 117"
+      }
+    },
+    {
+      "id": "c202x-sequence-stop",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Both motors run. What happens if Stop 1 opens?",
+      "answer": "Both M1 and M2 lose their supply path",
+      "options": [
+        "Both M1 and M2 lose their supply path",
+        "Only M2 stops",
+        "Both stay sealed in",
+        "M2 reverses"
+      ],
+      "explanation": "The M2 rung is fed downstream of the M1 control path.",
+      "source": "m",
+      "sourcePages": [
+        118
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 118",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-sequence",
+        "alt": "Original C-202 diagram for this question",
+        "page": 118
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-118.jpg",
+          "page": 118,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 118,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Sequence Control ► Sequence control involves connecting motor starters so that the operation of one motor depends on the operating state of another motor ► In this example, motor 2 cannot start unless motor 1 is running 118 A38"
+      }
+    },
+    {
+      "id": "c202x-limit-no",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which limit-switch state is shown?",
+      "answer": "Normally open, unoperated",
+      "options": [
+        "Normally open, unoperated",
+        "Normally closed, unoperated",
+        "Normally open, held closed",
+        "Normally closed, held open",
+        "None of these"
+      ],
+      "explanation": "The contact geometry shows normally open, unoperated.",
+      "source": "m",
+      "sourcePages": [
+        113
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-limit-no",
+        "alt": "Original C-202 diagram for this question",
+        "page": 113
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-113.jpg",
+          "page": 113,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 113,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+      }
+    },
+    {
+      "id": "c202x-limit-nc",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which limit-switch state is shown?",
+      "answer": "Normally closed, unoperated",
+      "options": [
+        "Normally closed, unoperated",
+        "Normally open, unoperated",
+        "Normally open, held closed",
+        "Normally closed, held open",
+        "None of these"
+      ],
+      "explanation": "The contact geometry shows normally closed, unoperated.",
+      "source": "m",
+      "sourcePages": [
+        113
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-limit-nc",
+        "alt": "Original C-202 diagram for this question",
+        "page": 113
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-113.jpg",
+          "page": 113,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 113,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+      }
+    },
+    {
+      "id": "c202x-limit-nohc",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which limit-switch state is shown?",
+      "answer": "Normally open, held closed",
+      "options": [
+        "Normally open, held closed",
+        "Normally open, unoperated",
+        "Normally closed, unoperated",
+        "Normally closed, held open",
+        "None of these"
+      ],
+      "explanation": "The contact geometry shows normally open, held closed.",
+      "source": "m",
+      "sourcePages": [
+        113
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-limit-nohc",
+        "alt": "Original C-202 diagram for this question",
+        "page": 113
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-113.jpg",
+          "page": 113,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 113,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+      }
+    },
+    {
+      "id": "c202x-limit-ncho",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which limit-switch state is shown?",
+      "answer": "Normally closed, held open",
+      "options": [
+        "Normally closed, held open",
+        "Normally open, unoperated",
+        "Normally closed, unoperated",
+        "Normally open, held closed",
+        "None of these"
+      ],
+      "explanation": "The contact geometry shows normally closed, held open.",
+      "source": "m",
+      "sourcePages": [
+        113
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-limit-ncho",
+        "alt": "Original C-202 diagram for this question",
+        "page": 113
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-113.jpg",
+          "page": 113,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 113,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+      }
+    },
+    {
+      "id": "c202x-float-no",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Normally open float switch",
+      "options": [
+        "Normally open float switch",
+        "Normally closed float switch",
+        "Pushbutton switch",
+        "Limit switch",
+        "None of these"
+      ],
+      "explanation": "The circle is the float operator; the contact is open.",
+      "source": "m",
+      "sourcePages": [
+        114
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 114",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-float-no",
+        "alt": "Original C-202 diagram for this question",
+        "page": 114
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-114.jpg",
+          "page": 114,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 114,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Upward or downward movement of the float device controls switch contacts 114"
+      }
+    },
+    {
+      "id": "c202x-float-nc",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "symbol",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Normally closed float switch",
+      "options": [
+        "Normally closed float switch",
+        "Normally open float switch",
+        "Pushbutton switch",
+        "Limit switch",
+        "None of these"
+      ],
+      "explanation": "The circle is the float operator; the contact is closed.",
+      "source": "m",
+      "sourcePages": [
+        114
+      ],
+      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 114",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-float-nc",
+        "alt": "Original C-202 diagram for this question",
+        "page": 114
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-114.jpg",
+          "page": 114,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 114,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Upward or downward movement of the float device controls switch contacts 114"
+      }
+    }
+  ]
+}

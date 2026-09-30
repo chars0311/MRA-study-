@@ -1,0 +1,36 @@
+{
+  "world": "alignment",
+  "topic": "Day 2 · Segment 3: Laser Shaft Alignment Analysis",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "module-check-9",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 3: Laser Shaft Alignment Analysis",
+      "type": "quiz",
+      "prompt": "Which documentation helps determine alignment tolerances for a particular coupling?",
+      "answer": "The coupling manufacturer’s specifications",
+      "options": [
+        "The coupling manufacturer’s specifications",
+        "The paint color",
+        "The longest available shim",
+        "The motor’s shipping weight"
+      ],
+      "explanation": "The slides call for comparison with the coupling manufacturer’s alignment specification; Day 2 Segment 3 covers tolerance selection.",
+      "source": "a",
+      "section": "Tolerances, slide 29; Day 2 Segment 3, slide 43",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-29.jpg",
+          "page": 29,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "If the coupling manufacturer’s datasheet doesn’t agree, pick the more appropriate. In our lab, the manufacturer’s alignment specification is much looser that the range built in here, so we choose this one. 29 A30 A36"
+      }
+    }
+  ]
+}

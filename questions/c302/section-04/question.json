@@ -1,0 +1,152 @@
+{
+  "world": "alignment",
+  "topic": "Day 1 · Laser alignment process",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q072",
+      "world": "alignment",
+      "type": "quiz",
+      "prompt": "What should correct vertical misalignment?",
+      "answer": "Shim adjustments",
+      "options": [
+        "Shim adjustments",
+        "Only jack bolts",
+        "Changing the power supply",
+        "Turning the laser brightness up"
+      ],
+      "explanation": "The course's live vertical screen guides shim corrections.",
+      "source": "a",
+      "section": "Live Vertical Screen, slide 37",
+      "topic": "Day 1 · Laser alignment process",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-37.jpg",
+          "page": 37,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 37,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Live Vertical Screen is displayed 1st Make shim adjustments now, with this screen. When in tolerance (two green checks) maybe an orange zig- zag), click the arrow to proceed to the horizontal alignment Emitters will be vertical (12 O’clock) 37"
+      }
+    },
+    {
+      "id": "q073",
+      "world": "alignment",
+      "type": "scenario",
+      "prompt": "The measurement countdown is running. What should happen to the shafts and measuring units?",
+      "answer": "Keep them stationary",
+      "options": [
+        "Keep them stationary",
+        "Rotate them continuously",
+        "Tap the emitters",
+        "Loosen their brackets"
+      ],
+      "explanation": "The countdown indicates active recording. Movement would distort the measurement.",
+      "source": "a",
+      "section": "Fine Alignment with Laser, slide 35",
+      "topic": "Day 1 · Laser alignment process",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-35.jpg",
+          "page": 35,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 35,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "The correct procedure is to keep everything stationary until the countdown finishes and the system confirms the measurement is complete. This ensures accurate alignment results and prevents vibration or motion errors. Adding and removing shims ruins horizontal…"
+      }
+    },
+    {
+      "id": "q074",
+      "world": "alignment",
+      "type": "scenario",
+      "prompt": "A laser measuring unit shifts after setup. What must happen before accurate measurements can continue?",
+      "answer": "Secure it and recalibrate before continuing",
+      "options": [
+        "Secure it and recalibrate before continuing",
+        "Ignore the movement if the beam is visible",
+        "Change only the display color",
+        "Skip the final measurement"
+      ],
+      "explanation": "A shifted sensor affects measurement accuracy even if the beam still appears in range.",
+      "source": "a",
+      "section": "If a Laser or Sensor Moves, slide 40",
+      "topic": "Day 1 · Laser alignment process",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-40.jpg",
+          "page": 40,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 40,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "When a laser or sensor unit moves—even slightly • it can affect measurement accuracy. • Even if the laser center appears within tolerance, the system’s calibration may no longer be valid. • The proper procedure is to secure the units, recalibrate using the dis…"
+      }
+    },
+    {
+      "id": "q075",
+      "world": "alignment",
+      "type": "quiz",
+      "prompt": "Why make vertical corrections before horizontal fine alignment?",
+      "answer": "Adding or removing shims can disturb horizontal alignment",
+      "options": [
+        "Adding or removing shims can disturb horizontal alignment",
+        "Horizontal alignment is never needed",
+        "Lasers only work vertically",
+        "Jack bolts change shim thickness"
+      ],
+      "explanation": "The guide emphasizes vertical first because shim changes can disturb the horizontal setting.",
+      "source": "a",
+      "section": "Fine Alignment with Laser, slide 35",
+      "topic": "Day 1 · Laser alignment process",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-35.jpg",
+          "page": 35,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 35,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Fine Alignment with Laser Vertical Angular Vertical Parallel Horizontal angular (with Jack Bolts) Horizontal Parallel (with Jack Bolts) 4 After soft foot, the TKSA will perform laser alignment. It will prompt you to move the emitters through a 180O range of ro…"
+      }
+    },
+    {
+      "id": "q076",
+      "world": "alignment",
+      "type": "quiz",
+      "prompt": "After making corrections, how is success checked?",
+      "answer": "Repeat alignment measurements",
+      "options": [
+        "Repeat alignment measurements",
+        "Assume green was permanent",
+        "Only check motor paint",
+        "Remove the measuring units immediately"
+      ],
+      "explanation": "The course requires another measurement set to verify the corrected alignment.",
+      "source": "a",
+      "section": "Live Horizontal Screen, slide 38",
+      "topic": "Day 1 · Laser alignment process",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-38.jpg",
+          "page": 38,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 38,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "the arrow to proceed and REPEAT all measurements. Emitters will be horizontal (3 or 9 O’clock) 38 A24"
+      }
+    }
+  ]
+}

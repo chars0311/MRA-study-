@@ -1,0 +1,36 @@
+{
+  "world": "conveyor",
+  "topic": "Flat Belt Conveyor Operation",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q084",
+      "world": "conveyor",
+      "type": "quiz",
+      "prompt": "Before startup, what should be inspected?",
+      "answer": "Belt, rollers, guards, and emergency stops",
+      "options": [
+        "Belt, rollers, guards, and emergency stops",
+        "Only the finished product",
+        "Only the room temperature",
+        "Only the belt color"
+      ],
+      "explanation": "The operation sequence begins with inspecting these conveyor elements.",
+      "source": "c",
+      "section": "Flat Belt Conveyor Operation, slide 5",
+      "topic": "Flat Belt Conveyor Operation",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-5.jpg",
+          "page": 5,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "1. Inspect belt, rollers, guards, and emergency stops 2. Switch on main power supply 3. Start conveyor and run empty briefly 4. Load materials evenly on the belt 5. Monitor for smooth, safe operation 6. Stop conveyor after transfer is complete 7. Power off and…"
+      }
+    }
+  ]
+}

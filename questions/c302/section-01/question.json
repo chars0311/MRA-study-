@@ -1,0 +1,65 @@
+{
+  "world": "alignment",
+  "topic": "Day 1 · Shaft alignment fundamentals",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q067",
+      "world": "alignment",
+      "type": "quiz",
+      "prompt": "What is the goal of shaft alignment?",
+      "answer": "Both shafts rotate about the same centerline",
+      "options": [
+        "Both shafts rotate about the same centerline",
+        "Both shafts have the same length",
+        "Both motors have the same voltage",
+        "The coupling has no fasteners"
+      ],
+      "explanation": "Aligned centerlines reduce vibration and unnecessary wear.",
+      "source": "a",
+      "section": "Purpose of Shaft Alignment, slide 3",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-3.jpg",
+          "page": 3,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Both shafts rotate around the exact same centerline. When the centerlines are aligned: • Bearings run cooler • Couplings last longer • Vibration drops • Energy efficiency improves • Machine life increases • This is the core principle behind all alignment work.…"
+      }
+    },
+    {
+      "id": "q068",
+      "world": "alignment",
+      "type": "quiz",
+      "prompt": "What are the three combinations of shaft-centerline misalignment?",
+      "answer": "Parallel, angular, and combined",
+      "options": [
+        "Parallel, angular, and combined",
+        "Series, parallel, and open",
+        "Sourcing and sinking",
+        "Voltage and current"
+      ],
+      "explanation": "Offset is parallel misalignment; angled centerlines are angular; both can occur together.",
+      "source": "a",
+      "section": "Removing Misalignment, slide 4",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-4.jpg",
+          "page": 4,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "parallel (offset), angular, combined We measure in both the: Vertical (think wall) Horizontal (think floor) 4"
+      }
+    }
+  ]
+}

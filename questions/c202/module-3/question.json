@@ -1,0 +1,524 @@
+{
+  "world": "motor",
+  "topic": "Module 3 · Control Transformers",
+  "mathQuestionIds": [
+    "calc-turns",
+    "calc-secondary",
+    "calc-steady",
+    "calc-inrush",
+    "c202x-voltage",
+    "c202x-steady",
+    "c202x-inrush",
+    "c202x-rating"
+  ],
+  "questions": [
+    {
+      "id": "mc-transformer",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "Why is a control transformer used?",
+      "answer": "Voltage reduction and isolation",
+      "options": [
+        "Voltage reduction and isolation",
+        "Speed reversal and braking",
+        "Overload reset and grounding",
+        "Jogging and sealing in"
+      ],
+      "explanation": "The control transformer steps voltage down and isolates the control circuit.",
+      "source": "m",
+      "section": "Module 3 · Control transformers, slide 39",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Why is a control transformer used?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Which pair of functions is provided by a control transformer?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-39.jpg",
+          "page": 39,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 39,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Control power is taken from power circuit using a control transformer to step down the voltage ► The control transformer also isolates the control circuit from the power circuit 39"
+      }
+    },
+    {
+      "id": "mc-sizing",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "Which current requirements matter when sizing a control transformer?",
+      "answer": "Both steady-state and inrush demand matter",
+      "options": [
+        "Both steady-state and inrush demand matter",
+        "Only the indicator color matters",
+        "Only motor RPM matters",
+        "Inrush demand is always zero"
+      ],
+      "explanation": "Sizing considers input/output voltage and both steady and inrush current requirements.",
+      "source": "m",
+      "section": "Module 3 · Sizing, slides 46–48",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Which current requirements matter when sizing a control transformer?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Why is checking only steady-state current insufficient for transformer sizing?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-46.jpg",
+          "page": 46,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 46,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Output current required, both in-rush and steady state 46"
+      }
+    },
+    {
+      "id": "wb-6",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "wordbank",
+      "cloze": "A ___ reduces control voltage and provides isolation.",
+      "prompt": "A ___ reduces control voltage and provides isolation.",
+      "answer": "Control transformer",
+      "options": [
+        "Control transformer",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Control transformer reduces control voltage and provides isolation.",
+      "source": "m",
+      "section": "Control transformers, slide 39",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-39.jpg",
+          "page": 39,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 39,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Function of a Control Transformer ► Line starting - power for the control circuit taken directly from one phase and neutral or two phases that feed the motor ► Separate control - power that is supplied to control circuit is different that power supplied to the…"
+      }
+    },
+    {
+      "id": "wb-7",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "wordbank",
+      "cloze": "Primary turns divided by secondary turns gives the ___.",
+      "prompt": "Primary turns divided by secondary turns gives the ___.",
+      "answer": "Turns ratio",
+      "options": [
+        "Turns ratio",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Primary turns divided by secondary turns gives the Turns ratio.",
+      "source": "m",
+      "section": "Turns ratio, slide 35",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-35.jpg",
+          "page": 35,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 35,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► The turns ratio is the number of turns in the primary coil divided by the number of turns in the secondary coil Turns Ratio 35 A09S A09"
+      }
+    },
+    {
+      "id": "wb-8",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "wordbank",
+      "cloze": "Multiplying secondary voltage by secondary current gives apparent power in ___.",
+      "prompt": "Multiplying secondary voltage by secondary current gives apparent power in ___.",
+      "answer": "Volt-amperes",
+      "options": [
+        "Volt-amperes",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Multiplying secondary voltage by secondary current gives apparent power in Volt-amperes.",
+      "source": "m",
+      "section": "VA calculations, slide 47",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-47.jpg",
+          "page": 47,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 47,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Steady state VA - secondary voltage multiplied by secondary current during steady state ► Max in-rush VA - secondary voltage multiplied by secondary current during in-rush on a machine which has a motor or other inductive load 47"
+      }
+    },
+    {
+      "id": "c202x-secondary",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "Can a transformer have multiple secondary windings?",
+      "answer": "Yes",
+      "options": [
+        "Yes",
+        "No, exactly one is required",
+        "Only with a DC primary",
+        "Only if windings are shorted"
+      ],
+      "explanation": "The slide shows several separate secondary coils.",
+      "source": "m",
+      "sourcePages": [
+        36
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 36",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-36.jpg",
+          "page": 36,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 36,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Multiple Secondary Coils ► A transformer can have more than one secondary coil 36"
+      }
+    },
+    {
+      "id": "c202x-dual",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "What winding arrangement is used in the dual-voltage control transformer?",
+      "answer": "Two primary coils and one secondary",
+      "options": [
+        "Two primary coils and one secondary",
+        "One primary and two mandatory secondaries",
+        "Three primary coils and no secondary",
+        "One DC coil only"
+      ],
+      "explanation": "The two primaries allow different input-voltage connections.",
+      "source": "m",
+      "sourcePages": [
+        40
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 40",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-40.jpg",
+          "page": 40,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 40,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A dual-voltage transformer has two primary coils and one secondary coil ► The two primary coils can be configured to be connected to two different voltage lines ► In most cases, it is used to reduce the main or line voltage of 240 VAC or 480 VAC to 120 VAC 4…"
+      }
+    },
+    {
+      "id": "c202x-parallel",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "symbol",
+      "prompt": "How are the two primary windings connected here?",
+      "answer": "In parallel",
+      "options": [
+        "In parallel",
+        "In series",
+        "Open-circuited",
+        "Three-phase delta",
+        "None of these"
+      ],
+      "explanation": "Both primaries are connected across the same supply.",
+      "source": "m",
+      "sourcePages": [
+        41
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 41",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-primary-parallel",
+        "alt": "Original C-202 diagram for this question",
+        "page": 41
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-41.jpg",
+          "page": 41,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 41,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Connected in parallel, the effective turns of the two primaries are 200 turns ► The turns ratio is then 2:1 Dual-Voltage Transformer (Parallel) 41"
+      }
+    },
+    {
+      "id": "c202x-series",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "symbol",
+      "prompt": "How are the two primary windings connected here?",
+      "answer": "In series",
+      "options": [
+        "In series",
+        "In parallel",
+        "Both shorted",
+        "Three-phase wye",
+        "None of these"
+      ],
+      "explanation": "The H2-H3 link joins the windings in series.",
+      "source": "m",
+      "sourcePages": [
+        42
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 42",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-primary-series",
+        "alt": "Original C-202 diagram for this question",
+        "page": 42
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-42.jpg",
+          "page": 42,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 42,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Dual-Voltage Transformer (Series) 42 A12"
+      }
+    },
+    {
+      "id": "c202x-taps",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "symbol",
+      "prompt": "What lets this transformer accept different line voltages?",
+      "answer": "Multiple winding taps",
+      "options": [
+        "Multiple winding taps",
+        "A reversing switch",
+        "A float contact",
+        "An oil dashpot"
+      ],
+      "explanation": "The taps select different numbers of winding turns.",
+      "source": "m",
+      "sourcePages": [
+        43
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 43",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-transformer-multi",
+        "alt": "Original C-202 diagram for this question",
+        "page": 43
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-43.jpg",
+          "page": 43,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 43,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A multi-tap transformer has multiple taps on the primary and/or secondary coil ► This allows the transformer to be connected to a variety of line voltages 43"
+      }
+    },
+    {
+      "id": "c202x-open",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "An isolated, de-energized transformer shows infinite resistance across one winding. What does that suggest?",
+      "answer": "An open winding",
+      "options": [
+        "An open winding",
+        "A normal closed winding",
+        "A primary-secondary short",
+        "A correct output voltage"
+      ],
+      "explanation": "The slide identifies infinity across a coil as an open.",
+      "source": "m",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 44",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-44.jpg",
+          "page": 44,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 44,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Opens in Coils - if any of the coils show infinity, the winding is open ► Shorts between Coils - should show infinite resistance between primary and secondary coils ► Shorts within Coils - effectively reduces the number of turns ► Coils Shorted to the Core -…"
+      }
+    },
+    {
+      "id": "c202x-isolated",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "What resistance is expected between separate primary and secondary windings on an isolated, de-energized transformer?",
+      "answer": "Infinite resistance",
+      "options": [
+        "Infinite resistance",
+        "Zero resistance",
+        "The rated secondary voltage",
+        "The motor full-load current"
+      ],
+      "explanation": "The windings should not have a conductive connection.",
+      "source": "m",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 44",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-44.jpg",
+          "page": 44,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 44,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Shorts between Coils - should show infinite resistance between primary and secondary coils ► Shorts within Coils - effectively reduces the number of turns ► Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens i…"
+      }
+    },
+    {
+      "id": "c202x-core",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "Unwanted continuity between an isolated winding and its core suggests what?",
+      "answer": "A winding-to-core fault",
+      "options": [
+        "A winding-to-core fault",
+        "Correct isolation",
+        "Correct turns ratio",
+        "Normal inrush"
+      ],
+      "explanation": "The expected reading is infinite resistance under the proper de-energized test procedure.",
+      "source": "m",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 44",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-44.jpg",
+          "page": 44,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 44,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens in Coils Shorts between Coils Shorts within Coils Coils Shorted to the Core 44"
+      }
+    },
+    {
+      "id": "c202x-turns",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "A short within a winding effectively reduces what?",
+      "answer": "Active turns",
+      "options": [
+        "Active turns",
+        "Supply frequency",
+        "Motor poles",
+        "Ground-wire length"
+      ],
+      "explanation": "The short bypasses some winding turns.",
+      "source": "m",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 44",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-44.jpg",
+          "page": 44,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 44,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Shorts within Coils - effectively reduces the number of turns ► Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens in Coils Shorts between Coils Shorts within Coils Coils Shorted to the Core 44"
+      }
+    },
+    {
+      "id": "c202x-size",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "Which data are needed for control-transformer sizing?",
+      "answer": "Input voltage, output voltage, steady and inrush current",
+      "options": [
+        "Input voltage, output voltage, steady and inrush current",
+        "Motor speed only",
+        "Pushbutton count only",
+        "Wire color only"
+      ],
+      "explanation": "Both steady and starting current demand matter.",
+      "source": "m",
+      "sourcePages": [
+        46
+      ],
+      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 46",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-46.jpg",
+          "page": 46,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 46,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Output current required, both in-rush and steady state 46"
+      }
+    }
+  ]
+}

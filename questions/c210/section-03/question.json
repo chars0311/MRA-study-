@@ -1,0 +1,36 @@
+{
+  "world": "mechanical",
+  "topic": "Day 3 · Belt drives & chain installation",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "module-check-5",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "type": "quiz",
+      "prompt": "Which belt-drive component is attached to the prime mover?",
+      "answer": "Driver sheave",
+      "options": [
+        "Driver sheave",
+        "Driven sheave",
+        "Idler gear",
+        "Bedplate"
+      ],
+      "explanation": "The driver sheave turns with the prime mover and transfers motion through the belt.",
+      "source": "g",
+      "section": "Day 3 · Three Basic Components of a Belt Drive, slide 103",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-103.jpg",
+          "page": 103,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 103,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "The DRIVER SHEAVE is a grooved disc that is attached to the shaft of the drive or prime mover. It turns with the drive shaft and causes the belt to move. The DRIVEN SHEAVE/ PULLEY, is a grooved disc that is attached to the driven shaft. It turns when the belt …"
+      }
+    }
+  ]
+}

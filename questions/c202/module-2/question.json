@@ -1,0 +1,554 @@
+{
+  "world": "motor",
+  "topic": "Module 2 · Manual Motor Control and Overload Protection",
+  "mathQuestionIds": [
+    "calc-overload-arithmetic"
+  ],
+  "questions": [
+    {
+      "id": "mc-starter",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "A motor controller includes overload protection. What is this combination called?",
+      "answer": "Motor starter",
+      "options": [
+        "Motor starter",
+        "Control transformer",
+        "Pilot light",
+        "Limit switch"
+      ],
+      "explanation": "A starter combines the motor controller and overload protection.",
+      "source": "m",
+      "section": "Module 2 · Motor starters, slides 17–18",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "A motor controller includes overload protection. What is this combination called?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Which assembly combines a controller with overload protection?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-18.jpg",
+          "page": 18,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 18,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Motor Controller and Motor Starter ► A motor controller opens and closes the feed lines to start and stop a motor ► Satisfies the controller requirement ► A motor starter is a motor controller that includes overload protection ► Satisfies the controller and ov…"
+      }
+    },
+    {
+      "id": "mc-short",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "scenario",
+      "prompt": "Does an overload relay replace short-circuit protection?",
+      "answer": "Short-circuit protection",
+      "options": [
+        "Short-circuit protection",
+        "No other protection",
+        "Only a pilot light",
+        "Only a timer"
+      ],
+      "explanation": "Overload protection responds to excessive current over time. The slides list short-circuit protection as a separate requirement.",
+      "source": "m",
+      "section": "Module 2 · Requirements, slides 16–17",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Does an overload relay replace short-circuit protection?"
+        },
+        {
+          "variant": "b",
+          "prompt": "A design has overload protection only. Which protection is still separately required?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-17.jpg",
+          "page": 17,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 17,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Overloads open when the motor has drawn excessive current over time ► An overload cannot react as quickly as a fuse or circuit breaker 17"
+      }
+    },
+    {
+      "id": "mc-bimetal",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "What makes a bimetal overload element bend when heated?",
+      "answer": "Its two metals expand at different rates",
+      "options": [
+        "Its two metals expand at different rates",
+        "A timer counts pulses",
+        "A float moves",
+        "Its two metals have identical expansion"
+      ],
+      "explanation": "The bonded metals expand differently, causing deflection and a trip.",
+      "source": "m",
+      "section": "Module 2 · Bimetal overload, slide 28",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "What makes a bimetal overload element bend when heated?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Why does a thermal bimetal element deflect?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-28.jpg",
+          "page": 28,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 28,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "consists of two different metals that are laminated together ► Heat caused by high current deflects the bimetallic element because the metals have different expansion rates ► This deflection causes the main contacts of the motor starter to open ► Allows you to…"
+      }
+    },
+    {
+      "id": "mc-magnetic",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "In a magnetic overload with adjustable time delay, which component adjusts the response time?",
+      "answer": "Dashpot",
+      "options": [
+        "Dashpot",
+        "Pilot light",
+        "Seal-in contact",
+        "Selector handle"
+      ],
+      "explanation": "The magnetic overload uses a sensing coil/core and a dashpot to adjust time response.",
+      "source": "m",
+      "section": "Module 2 · Magnetic overload, slide 29",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "In a magnetic overload with adjustable time delay, which component adjusts the response time?"
+        },
+        {
+          "variant": "b",
+          "prompt": "In a magnetic overload with adjustable time delay, which component adjusts the response time?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-29.jpg",
+          "page": 29,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
+      }
+    },
+    {
+      "id": "wb-2",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "wordbank",
+      "cloze": "A controller combined with overload protection is a ___.",
+      "prompt": "A controller combined with overload protection is a ___.",
+      "answer": "Motor starter",
+      "options": [
+        "Motor starter",
+        "Grounding",
+        "Tagout",
+        "Overload protection"
+      ],
+      "explanation": "A controller combined with overload protection is a Motor starter.",
+      "source": "m",
+      "section": "Motor starters, slides 17–18",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-18.jpg",
+          "page": 18,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 18,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Motor Controller and Motor Starter ► A motor controller opens and closes the feed lines to start and stop a motor ► Satisfies the controller requirement ► A motor starter is a motor controller that includes overload protection ► Satisfies the controller and ov…"
+      }
+    },
+    {
+      "id": "wb-3",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "wordbank",
+      "cloze": "___ responds to excessive motor current over time.",
+      "prompt": "___ responds to excessive motor current over time.",
+      "answer": "Overload protection",
+      "options": [
+        "Overload protection",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Overload protection responds to excessive motor current over time.",
+      "source": "m",
+      "section": "Requirements, slides 16–17",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-17.jpg",
+          "page": 17,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 17,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Overloads open when the motor has drawn excessive current over time ► An overload cannot react as quickly as a fuse or circuit breaker 17"
+      }
+    },
+    {
+      "id": "wb-4",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "wordbank",
+      "cloze": "A ___ overload element uses two bonded metals that expand differently when heated.",
+      "prompt": "A ___ overload element uses two bonded metals that expand differently when heated.",
+      "answer": "Bimetal",
+      "options": [
+        "Bimetal",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Bimetal overload element uses two bonded metals that expand differently when heated.",
+      "source": "m",
+      "section": "Bimetal overload, slide 28",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-28.jpg",
+          "page": 28,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 28,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A bimetallic thermal overload consists of two different metals that are laminated together ► Heat caused by high current deflects the bimetallic element because the metals have different expansion rates ► This deflection causes the main contacts of the motor…"
+      }
+    },
+    {
+      "id": "wb-5",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "wordbank",
+      "cloze": "A ___ adjusts the time response of the magnetic overload.",
+      "prompt": "A ___ adjusts the time response of the magnetic overload.",
+      "answer": "Dashpot",
+      "options": [
+        "Dashpot",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Dashpot adjusts the time response of the magnetic overload described in the slides.",
+      "source": "m",
+      "section": "Magnetic overload, slide 29",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-29.jpg",
+          "page": 29,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
+      }
+    },
+    {
+      "id": "c202x-disconnect",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "What must a three-phase disconnect open simultaneously?",
+      "answer": "All three ungrounded supply conductors",
+      "options": [
+        "All three ungrounded supply conductors",
+        "Only one phase",
+        "Only the ground wire",
+        "Only the secondary neutral"
+      ],
+      "explanation": "The slide calls for a three-pole disconnect.",
+      "source": "m",
+      "sourcePages": [
+        16
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 16",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-16.jpg",
+          "page": 16,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Must open all ungrounded circuit conductors simultaneously ► e.g. 3-phase power requires 3-pole disconnect 2. Short Circuit Protection ► Guards against short circuits and running C ► Usually a set of fuses or circuit breakers 3. Controller ► Opens and closes…"
+      }
+    },
+    {
+      "id": "c202x-combined",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "Must four motor-control requirements use four separate devices?",
+      "answer": "No; one device can satisfy more than one requirement",
+      "options": [
+        "No; one device can satisfy more than one requirement",
+        "Yes, always",
+        "No; an overload replaces all protection",
+        "No; a coil supplies every requirement"
+      ],
+      "explanation": "A suitably equipped breaker can provide disconnect and short-circuit functions.",
+      "source": "m",
+      "sourcePages": [
+        17
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 17",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-17.jpg",
+          "page": 17,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 17,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A single component can satisfy more than one of the requirements ► A circuit breaker that is equipped with an operating handle may satisfy both the disconnect and short-circuit requirements ► Overloads are not used as short circuit protection ► Overloads ope…"
+      }
+    },
+    {
+      "id": "c202x-fractional",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "Which motor fits the fractional-horsepower manual-starter category in the course?",
+      "answer": "Single-phase, 1 horsepower or less",
+      "options": [
+        "Single-phase, 1 horsepower or less",
+        "Three-phase, 10 horsepower",
+        "Any motor regardless of rating",
+        "Only motors above 1 horsepower"
+      ],
+      "explanation": "The slide specifies single-phase motors rated one horsepower or less.",
+      "source": "m",
+      "sourcePages": [
+        22
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 22",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-22.jpg",
+          "page": 22,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 22,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Fractional horsepower manual starters are used only for single-phase motors rated one horsepower or less ► Usually available in a toggle switch style, either single-pole or two-pole 22"
+      }
+    },
+    {
+      "id": "c202x-restart",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "A maintained manual starter stays ON during a power failure. What can happen when power returns?",
+      "answer": "The motor can restart automatically",
+      "options": [
+        "The motor can restart automatically",
+        "It always waits for Start",
+        "It reverses direction",
+        "It changes into a fuse"
+      ],
+      "explanation": "The manual contacts remain actuated.",
+      "source": "m",
+      "sourcePages": [
+        24
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 24",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-24.jpg",
+          "page": 24,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 24,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Since manual starters are operated by hand, the contacts will remain in the actuated position when power is lost ► The motor will automatically restart upon the return of power ► Sump pumps and refrigeration systems are examples where automatic restart is an…"
+      }
+    },
+    {
+      "id": "c202x-alloy",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "symbol",
+      "prompt": "Which overload mechanism is illustrated?",
+      "answer": "Melting-alloy thermal overload",
+      "options": [
+        "Melting-alloy thermal overload",
+        "Bimetallic overload",
+        "Dashpot magnetic overload",
+        "Electronic sensor",
+        "None of these"
+      ],
+      "explanation": "Heating melts the alloy and releases the ratchet.",
+      "source": "m",
+      "sourcePages": [
+        27
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 27",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-alloy",
+        "alt": "Original C-202 diagram for this question",
+        "page": 27
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-27.jpg",
+          "page": 27,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 27,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► The melting alloy type uses a solder pot and ratchet assembly ► When the pot is cool, the alloy is firm and holds the ratchet in place ► If high current flows through the heater, the alloy melts, releasing the ratchet ► Heaters are calibrated to various curr…"
+      }
+    },
+    {
+      "id": "c202x-bimetal",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "symbol",
+      "prompt": "What causes the element shown to deflect during overload?",
+      "answer": "Different expansion rates of the bonded metals",
+      "options": [
+        "Different expansion rates of the bonded metals",
+        "Phase reversal",
+        "Melting solder",
+        "A change in transformer ratio"
+      ],
+      "explanation": "Current produces heat and the two metals expand differently.",
+      "source": "m",
+      "sourcePages": [
+        28
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 28",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-bimetal",
+        "alt": "Original C-202 diagram for this question",
+        "page": 28
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-28.jpg",
+          "page": 28,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 28,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "metals have different expansion rates ► This deflection causes the main contacts of the motor starter to open ► Allows you to adjust the trip point for exactly the current level required Normal Position Tripped 28 A08"
+      }
+    },
+    {
+      "id": "c202x-adjust",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "Which pair can be adjusted on a time-delay magnetic overload?",
+      "answer": "Trip level and response time",
+      "options": [
+        "Trip level and response time",
+        "Only voltage and frequency",
+        "Only motor speed and direction",
+        "Only turns ratio and VA"
+      ],
+      "explanation": "The oil dashpot permits time adjustment.",
+      "source": "m",
+      "sourcePages": [
+        29
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 29",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-29.jpg",
+          "page": 29,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Time-delay magnetic overloads allow adjustment of both the trip level and the response time ► Instantaneous-trip relay acts like a magnetic overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
+      }
+    },
+    {
+      "id": "c202x-instant",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "What distinguishes an instantaneous-trip relay from a delayed magnetic overload?",
+      "answer": "No dashpot delay",
+      "options": [
+        "No dashpot delay",
+        "No sensing coil",
+        "A float replaces the coil",
+        "It must melt solder"
+      ],
+      "explanation": "The slide describes a magnetic overload without the dashpot.",
+      "source": "m",
+      "sourcePages": [
+        29
+      ],
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 29",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-29.jpg",
+          "page": 29,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Instantaneous-trip relay acts like a magnetic overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
+      }
+    }
+  ]
+}

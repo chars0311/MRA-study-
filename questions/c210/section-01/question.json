@@ -1,0 +1,224 @@
+{
+  "world": "mechanical",
+  "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+  "mathQuestionIds": [
+    "q131"
+  ],
+  "questions": [
+    {
+      "id": "q057",
+      "world": "mechanical",
+      "type": "quiz",
+      "prompt": "What is the driver in a transmission system?",
+      "answer": "The device supplying power",
+      "options": [
+        "The device supplying power",
+        "Only the largest gear",
+        "The device receiving power",
+        "The safety guard"
+      ],
+      "explanation": "The driver, or prime mover, supplies power to the driven device.",
+      "source": "g",
+      "section": "Function of a Mechanical Power Transmission System, slide 2",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-2.jpg",
+          "page": 2,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 2,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "A mechanical power transmission system is a device composed of linkages, shafts, bearings, gears, pulleys, or other components whose purpose is to transmit and control the force and motion from one device to another. The device from which the transmission syst…"
+      }
+    },
+    {
+      "id": "q058",
+      "world": "mechanical",
+      "type": "quiz",
+      "prompt": "Which pair provides axial shaft-to-shaft power transmission?",
+      "answer": "Coupling and clutch",
+      "options": [
+        "Coupling and clutch",
+        "Belt and chain",
+        "Gear and pulley",
+        "Filter and regulator"
+      ],
+      "explanation": "The guide places couplings and clutches in the axial category.",
+      "source": "g",
+      "section": "Five Methods of Rotary Power Transmission, slide 6",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-7.jpg",
+          "page": 7,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Category 1 - Axial Coupling, Clutch Category 2 - Shaft to Adjacent Shaft Belt, Chain, Gear Rotary Power Transmission 7"
+      }
+    },
+    {
+      "id": "q059",
+      "world": "mechanical",
+      "type": "quiz",
+      "prompt": "What is a bedplate used for?",
+      "answer": "A rigid, level machine mounting surface",
+      "options": [
+        "A rigid, level machine mounting surface",
+        "Measuring voltage",
+        "Filtering lubricant",
+        "Increasing belt friction"
+      ],
+      "explanation": "The bedplate supports secure mounting and helps maintain component alignment.",
+      "source": "g",
+      "section": "Function and Construction of a Bedplate, slide 14",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-14.jpg",
+          "page": 14,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 14,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "⮚ The bedplate is a solid piece of metal, usually made of steel. It provides a rigid, level surface for mounting, which helps with components' alignment. ⮚ The bedplate is anchored to the foundation with anchor bolts and is filled in with grout. Grout is a typ…"
+      }
+    },
+    {
+      "id": "q061",
+      "world": "mechanical",
+      "type": "scenario",
+      "prompt": "A motor wobbles because its feet do not sit evenly on the base. What is this condition?",
+      "answer": "Soft foot",
+      "options": [
+        "Soft foot",
+        "Seal-in",
+        "Deadband",
+        "Capacitive reactance"
+      ],
+      "explanation": "Uneven mounting feet or a nonflat base prevents stable contact at all four feet.",
+      "source": "g",
+      "section": "Mount and Level an Electric Motor, slide 35",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-35.jpg",
+          "page": 35,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 35,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "⮚ Soft foot occurs when mounting feet are not level with each other or the base is not flat. This causes the motor to wobble OR runout by not resting on all four feet ⮚ TO CORRECT SOFT FOOT, PLACE SHIMS UNDER ONE FOOT ONLY ⮚ Soft foot should not be greater tha…"
+      }
+    },
+    {
+      "id": "q062",
+      "world": "mechanical",
+      "type": "quiz",
+      "prompt": "What does RPM measure?",
+      "answer": "Revolutions per minute",
+      "options": [
+        "Revolutions per minute",
+        "Resistance per meter",
+        "Rotations per millisecond",
+        "Force per square inch"
+      ],
+      "explanation": "RPM expresses how many full shaft rotations occur in one minute.",
+      "source": "g",
+      "section": "Two Methods of Measuring Motor Shaft Speed, slide 38",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-38.jpg",
+          "page": 38,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 38,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "per minute or RPM. If a motor shaft is turning at one revolution per second, the speed is 60 RPM. Contact Tachometer - The rubber contact of the tachometer tip is placed on the end of the spinning shaft. It spins at the same speed as the shaft and it’s interna…"
+      }
+    },
+    {
+      "id": "visual-g-square",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "symbol",
+      "prompt": "Identify the shaft key pictured.",
+      "answer": "Square key",
+      "options": [
+        "Square key",
+        "Woodruff key",
+        "Saddle key",
+        "Gib-head key"
+      ],
+      "explanation": "The slide identifies this straight key with a square cross-section as a square key.",
+      "source": "g",
+      "section": "Day 1 · Introduction to Mechanical Drive Systems · PDF page 41",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "g-square",
+        "alt": "Course slide diagram for this question",
+        "page": 41
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-41.jpg",
+          "page": 41,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 41,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Know SIX TYPES OF KEYS 6 1 2 3 4 5 RECTANGULAR WOODRUFF SQUARE KEY GIB HEAD OFFSET SADDLE 41"
+      }
+    },
+    {
+      "id": "visual-g-woodruff",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "symbol",
+      "prompt": "Identify the shaft key pictured.",
+      "answer": "Woodruff key",
+      "options": [
+        "Woodruff key",
+        "Square key",
+        "Saddle key",
+        "Gib-head key"
+      ],
+      "explanation": "The half-disc shape identifies the Woodruff key in the slide comparison.",
+      "source": "g",
+      "section": "Day 1 · Introduction to Mechanical Drive Systems · PDF page 41",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "g-woodruff",
+        "alt": "Course slide diagram for this question",
+        "page": 41
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-41.jpg",
+          "page": 41,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 41,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Know SIX TYPES OF KEYS 6 1 2 3 4 5 RECTANGULAR WOODRUFF SQUARE KEY GIB HEAD OFFSET SADDLE 41"
+      }
+    }
+  ]
+}

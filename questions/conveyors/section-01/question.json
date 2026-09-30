@@ -1,0 +1,36 @@
+{
+  "world": "conveyor",
+  "topic": "Classification & types of conveyors",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q077",
+      "world": "conveyor",
+      "type": "quiz",
+      "prompt": "Which conveyor category moves loose grains or powder?",
+      "answer": "Bulk material conveyor",
+      "options": [
+        "Bulk material conveyor",
+        "Part/package conveyor",
+        "Only a passenger conveyor",
+        "A control relay"
+      ],
+      "explanation": "Bulk conveyors handle loose material; package conveyors move individual items such as boxes.",
+      "source": "c",
+      "section": "Classification of Conveyors, slide 3",
+      "topic": "Classification & types of conveyors",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-3.jpg",
+          "page": 3,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Bulk Material Conveyors – move loose materials (powder, grains, pellets). Part / Package Conveyors – transport discrete items (boxes, parts). 3"
+      }
+    }
+  ]
+}

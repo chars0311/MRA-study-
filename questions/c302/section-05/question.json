@@ -1,0 +1,41 @@
+{
+  "world": "alignment",
+  "topic": "Day 2 · Segment 1: Soft Foot Correction",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "module-check-7",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 1: Soft Foot Correction",
+      "type": "quiz",
+      "prompt": "After changing shims for soft foot, what should follow?",
+      "answer": "Recheck the feet",
+      "options": [
+        "Recheck the feet",
+        "Assume alignment is finished",
+        "Move the measuring units by hand",
+        "Skip the remaining feet"
+      ],
+      "explanation": "The slides describe repeating shim corrections and rechecks until all four feet are within tolerance.",
+      "source": "a",
+      "section": "Soft Foot Correction · Notes on Soft Foot, slide 34; Day 2 Segment 1, slide 43",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-32.jpg",
+          "page": 32,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        },
+        {
+          "url": "./review-slides/a-34.jpg",
+          "page": 34,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 34,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• When the results screen shows the need for shims under all 4 feet, it is correcting for vertical parallel misalignment by raising the movable machine (motor) • After adding shims and tightening, the soft foot can move to a different foot. This is just due to…"
+      }
+    }
+  ]
+}

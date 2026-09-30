@@ -1,0 +1,642 @@
+{
+  "world": "motor",
+  "topic": "Module 5 · Control Relays and Motor Starters",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q024",
+      "world": "motor",
+      "type": "quiz",
+      "prompt": "What protection does a magnetic motor starter include that a plain contactor does not?",
+      "answer": "Overload protection",
+      "options": [
+        "Overload protection",
+        "No coil",
+        "Only manual operation",
+        "No power contacts"
+      ],
+      "explanation": "The magnetic starter switches motor power and includes overload protection.",
+      "source": "m",
+      "section": "Magnetic Motor Starters",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-83.jpg",
+          "page": 83,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 83,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Includes overload protection ► Also provides memory logic through a set of auxiliary contacts ► It consists of one or more sets of normally-open contacts controlled by a coil Overloads Magnetic Starter 83"
+      }
+    },
+    {
+      "id": "q025",
+      "world": "motor",
+      "type": "quiz",
+      "prompt": "Which contact provides the seal-in path after Start is released?",
+      "answer": "Normally open auxiliary contact",
+      "options": [
+        "Normally open auxiliary contact",
+        "Grounding contact",
+        "An open overload contact",
+        "The neutral conductor"
+      ],
+      "explanation": "When energized, the auxiliary contact closes a parallel path around Start and keeps the coil energized.",
+      "source": "m",
+      "section": "Components; Memory Logic Operation",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-82.jpg",
+          "page": 82,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 82,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "2. Normally-open contacts 1CR-A will close, allowing current to flow through a parallel path to relay coil 3. When pushbutton PB1 is released, the relay coil stays energized through contacts 1CR- A 4. When stop pushbutton PB3 is pressed, its normally-closed co…"
+      }
+    },
+    {
+      "id": "q026",
+      "world": "motor",
+      "type": "scenario",
+      "prompt": "A three-wire starter loses supply power. When power returns, what should happen?",
+      "answer": "It waits for Start to be pressed again",
+      "options": [
+        "It waits for Start to be pressed again",
+        "It immediately restarts",
+        "It reverses automatically",
+        "Its overload resets the supply"
+      ],
+      "explanation": "Power loss drops out the coil and seal-in contact. Three-wire control provides low-voltage protection.",
+      "source": "m",
+      "section": "Three-Wire Control",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-87.jpg",
+          "page": 87,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 87,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A three-wire control circuit uses three wires to connect the input device to the coil of the magnetic starter, the 3 phases will be 360 / 3 or 12 0 degrees apart ► The third wire provides the seal-in or memory function ► Provides low-voltage protection ► If …"
+      }
+    },
+    {
+      "id": "q027",
+      "world": "motor",
+      "type": "scenario",
+      "prompt": "A maintained two-wire control stays closed during a supply outage. What happens when power returns?",
+      "answer": "The motor immediately restarts",
+      "options": [
+        "The motor immediately restarts",
+        "Start must always be pressed",
+        "The motor changes direction",
+        "The contact becomes normally open"
+      ],
+      "explanation": "The guide notes that two-wire control does not provide low-voltage protection.",
+      "source": "m",
+      "section": "Two-Wire Control",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-86.jpg",
+          "page": 86,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 86,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Does not provide low-voltage protection ► If there is power loss, pilot device contacts will remain closed ► When power returns, the motor will immediately restart 86"
+      }
+    },
+    {
+      "id": "mc-relay",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "What happens to a relay’s normally closed contact when its coil energizes?",
+      "answer": "Opens the contact",
+      "options": [
+        "Opens the contact",
+        "Keeps it closed",
+        "Removes its label",
+        "Changes it into a fuse"
+      ],
+      "explanation": "Energizing the relay changes its contacts from their normal state: NC opens and NO closes.",
+      "source": "m",
+      "section": "Module 5 · Relay operation, slide 77",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "What happens to a relay’s normally closed contact when its coil energizes?"
+        },
+        {
+          "variant": "b",
+          "prompt": "An NC relay contact is closed at rest. What does energizing the coil do?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-77.jpg",
+          "page": 77,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 77,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► In the normal or de-energized state, the spring holds the normally-closed contacts closed and the normally-open contacts open ► When energized, the solenoid attracts the armature, causing the normally-closed contacts to open and the normally-open contacts to…"
+      }
+    },
+    {
+      "id": "mc-seal-fault",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "scenario",
+      "prompt": "A three-wire circuit runs while Start is held but stops on release. Which path should be considered in the diagram?",
+      "answer": "Seal-in path around Start",
+      "options": [
+        "Seal-in path around Start",
+        "Grounding conductor as a holding path",
+        "Transformer primary as a holding path",
+        "A second overload setting"
+      ],
+      "explanation": "The auxiliary NO seal-in contact maintains the coil path after Start is released. An open holding path explains this symptom.",
+      "source": "m",
+      "section": "5 · Relays & motor starters · PDF page 87",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "A three-wire circuit runs while Start is held but stops on release. Which path should be considered in the diagram?"
+        },
+        {
+          "variant": "b",
+          "prompt": "The coil energizes with Start pressed, but will not stay energized. Which circuit function is missing?"
+        }
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-three-wire",
+        "page": 87,
+        "alt": "Course circuit diagram for this question"
+      },
+      "sourcePages": [
+        87
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-87.jpg",
+          "page": 87,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 87,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A three-wire control circuit uses three wires to connect the input device to the coil of the magnetic starter, the 3 phases will be 360 / 3 or 12 0 degrees apart ► The third wire provides the seal-in or memory function ► Provides low-voltage protection ► If …"
+      }
+    },
+    {
+      "id": "mc-label",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "How are a relay coil and its associated contacts identified?",
+      "answer": "The same component label",
+      "options": [
+        "The same component label",
+        "The same drawing position",
+        "Only their wire color",
+        "Identical voltage drops"
+      ],
+      "explanation": "Matching labels identify contacts operated by a given relay coil.",
+      "source": "m",
+      "section": "Module 5 · Relay labels, slides 78–80",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "How are a relay coil and its associated contacts identified?"
+        },
+        {
+          "variant": "b",
+          "prompt": "What connects detached coil/contact symbols in the schematic?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-78.jpg",
+          "page": 78,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 78,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Symbols for the contacts and coil of a control relay share the same label ► The label of each set of contacts usually has a letter added to identify it ► In memory logic, a relay continues to energize itself after a momentary input ► One set of contacts is w…"
+      }
+    },
+    {
+      "id": "wb-16",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "wordbank",
+      "cloze": "A ___ path keeps a starter coil energized after Start is released.",
+      "prompt": "A ___ path keeps a starter coil energized after Start is released.",
+      "answer": "Seal-in",
+      "options": [
+        "Seal-in",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Seal-in path keeps a starter coil energized after Start is released.",
+      "source": "m",
+      "section": "Memory logic, slides 78–82",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-82.jpg",
+          "page": 82,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 82,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "3. When pushbutton PB1 is released, the relay coil stays energized through contacts 1CR- A 4. When stop pushbutton PB3 is pressed, its normally-closed contacts open, stopping the flow of electricity to the relay coil 5. Normally-open contacts 1CR-A will return…"
+      }
+    },
+    {
+      "id": "wb-17",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "wordbank",
+      "cloze": "___ control waits for Start to be pressed again after supply power returns.",
+      "prompt": "___ control waits for Start to be pressed again after supply power returns.",
+      "answer": "Three-wire",
+      "options": [
+        "Three-wire",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Three-wire control waits for Start to be pressed again after supply power returns.",
+      "source": "m",
+      "section": "Three-Wire Control",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-87.jpg",
+          "page": 87,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 87,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Three-Wire Control ► A three-wire control circuit uses three wires to connect the input device to the coil of the magnetic starter, the 3 phases will be 360 / 3 or 12 0 degrees apart ► The third wire provides the seal-in or memory function ► Provides low-volta…"
+      }
+    },
+    {
+      "id": "visual-m-two-wire",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "symbol",
+      "prompt": "Which control arrangement connects the maintained input device to the starter coil in this diagram?",
+      "answer": "Two-wire control",
+      "options": [
+        "Two-wire control",
+        "Three-wire seal-in control",
+        "Reversing interlock control",
+        "On-delay sequencing"
+      ],
+      "explanation": "This is the two-wire control circuit. A maintained input contact controls the starter coil; there is no auxiliary seal-in branch around a momentary Start button.",
+      "source": "m",
+      "section": "5 · Relays & motor starters · PDF page 86",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-two-wire",
+        "alt": "Course slide diagram for this question",
+        "page": 86
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-86.jpg",
+          "page": 86,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 86,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A two-wire control circuit uses two wires to connect the input device to the power supply and to the coil of the magnetic starter ► Does not provide low-voltage protection ► If there is power loss, pilot device contacts will remain closed ► When power return…"
+      }
+    },
+    {
+      "id": "visual-m-three-wire",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "symbol",
+      "prompt": "What is the function of the auxiliary M contact connected around Start?",
+      "answer": "Keep the coil energized after Start is released",
+      "options": [
+        "Keep the coil energized after Start is released",
+        "Bypass the Stop button",
+        "Reverse the motor phases",
+        "Measure overload current"
+      ],
+      "explanation": "When M energizes, its auxiliary contact closes around Start and maintains the coil path. Stop and the overload contacts remain in the control path.",
+      "source": "m",
+      "section": "5 · Relays & motor starters · PDF page 87",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-three-wire",
+        "alt": "Course slide diagram for this question",
+        "page": 87
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-87.jpg",
+          "page": 87,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 87,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A three-wire control circuit uses three wires to connect the input device to the coil of the magnetic starter, the 3 phases will be 360 / 3 or 12 0 degrees apart ► The third wire provides the seal-in or memory function ► Provides low-voltage protection ► If …"
+      }
+    },
+    {
+      "id": "c202x-load-relay",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "Why use relay contacts between a small input device and a larger load?",
+      "answer": "The load may exceed the input device switching-current rating",
+      "options": [
+        "The load may exceed the input device switching-current rating",
+        "Relays always convert AC to DC",
+        "Relays replace overloads",
+        "Relay contacts generate power"
+      ],
+      "explanation": "The contacts switch load power while the input controls the coil.",
+      "source": "m",
+      "sourcePages": [
+        76
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 76",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-76.jpg",
+          "page": 76,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 76,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A control relay is a magnetic switching device designed to switch parts of a circuit on or off when it receives an electrical input ► Three types of applications: ► Energizing Larger Output Devices ► Some output devices draw more current than control devices…"
+      }
+    },
+    {
+      "id": "c202x-spring",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "What returns the relay armature when its coil turns off?",
+      "answer": "A spring",
+      "options": [
+        "A spring",
+        "A secondary winding",
+        "A grounding wire",
+        "A float"
+      ],
+      "explanation": "The armature is spring loaded.",
+      "source": "m",
+      "sourcePages": [
+        77
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 77",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-77.jpg",
+          "page": 77,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 77,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "a spring-loaded armature ► In the normal or de-energized state, the spring holds the normally-closed contacts closed and the normally-open contacts open ► When energized, the solenoid attracts the armature, causing the normally-closed contacts to open and the …"
+      }
+    },
+    {
+      "id": "c202x-heavy",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "Which relay category suits heavy-duty industrial use?",
+      "answer": "Machine-control relay",
+      "options": [
+        "Machine-control relay",
+        "General-purpose light-duty relay",
+        "Float switch",
+        "Manual fractional-horsepower switch"
+      ],
+      "explanation": "The course also calls it a heavy-duty industrial control relay.",
+      "source": "m",
+      "sourcePages": [
+        79
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 79",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-79.jpg",
+          "page": 79,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 79,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Also called a heavy-duty or industrial control relay General Purpose Machine Control 79"
+      }
+    },
+    {
+      "id": "c202x-detached",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "A coil and its contacts appear on separate rungs. What drawing method is this?",
+      "answer": "Detached symbology",
+      "options": [
+        "Detached symbology",
+        "Pictorial-only drawing",
+        "Series power wiring",
+        "Mechanical interlocking"
+      ],
+      "explanation": "Several symbols in different locations represent one component.",
+      "source": "m",
+      "sourcePages": [
+        80
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 80",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-80.jpg",
+          "page": 80,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 80,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Detached symbology is a method of representing one component with several symbols in various locations on a ladder diagram ► Contacts are considered input devices ► Coil, which is “energized,” is considered an output device 80"
+      }
+    },
+    {
+      "id": "c202x-reference",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "An underlined line number in a relay cross-reference indicates what?",
+      "answer": "A normally closed contact",
+      "options": [
+        "A normally closed contact",
+        "A normally open contact",
+        "An open-wire fault",
+        "A higher coil voltage"
+      ],
+      "explanation": "The underline denotes NC; no underline denotes NO.",
+      "source": "m",
+      "sourcePages": [
+        81
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 81",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-81.jpg",
+          "page": 81,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 81,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A dash “_” under a number indicates normally-closed contacts ► No dash indicates normally-open contacts 81"
+      }
+    },
+    {
+      "id": "c202x-poles",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "What is the minimum number of power-contact sets for switching a three-phase motor?",
+      "answer": "Three",
+      "options": [
+        "Three",
+        "One",
+        "Two",
+        "Six"
+      ],
+      "explanation": "Each phase needs its own contact set.",
+      "source": "m",
+      "sourcePages": [
+        84
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 84",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-84.jpg",
+          "page": 84,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 84,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A magnetic motor starter used to operate a three-phase motor must have at least three sets of power contacts ► A typical magnetic starter also includes: ► Thermal Overload ► Senses excessive current and opens its overload contact to turn off the motor coil ►…"
+      }
+    },
+    {
+      "id": "c202x-trip",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "When a starter thermal overload trips, what happens to its coil?",
+      "answer": "The control path opens and the coil de-energizes",
+      "options": [
+        "The control path opens and the coil de-energizes",
+        "It reverses direction",
+        "Its voltage doubles",
+        "It bypasses protection"
+      ],
+      "explanation": "The overload contact interrupts the coil circuit.",
+      "source": "m",
+      "sourcePages": [
+        84
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 84",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-84.jpg",
+          "page": 84,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 84,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Senses excessive current and opens its overload contact to turn off the motor coil ► Auxiliary Contact ► Extra set of normally-open contacts that can be used to provide a seal-in circuit ► Interlock Contact ► Used with reversing motor contactors to prevent b…"
+      }
+    },
+    {
+      "id": "c202x-pilot",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "symbol",
+      "prompt": "Which indicator device is shown?",
+      "answer": "Push-to-test pilot light",
+      "options": [
+        "Push-to-test pilot light",
+        "Standard two-terminal lamp",
+        "Off-delay timer",
+        "Pressure switch",
+        "None of these"
+      ],
+      "explanation": "The extra connection allows the bulb to be tested by pressing the lens.",
+      "source": "m",
+      "sourcePages": [
+        88
+      ],
+      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 88",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-push-test",
+        "alt": "Original C-202 diagram for this question",
+        "page": 88
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-88.jpg",
+          "page": 88,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 88,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A push-to-test pilot light comes on when its lens is pressed ► Allows operator to test the indicator bulb ► Third terminal connected directly to power 88"
+      }
+    }
+  ]
+}

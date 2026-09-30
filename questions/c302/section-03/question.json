@@ -1,0 +1,36 @@
+{
+  "world": "alignment",
+  "topic": "Day 1 · Rough alignment",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q071",
+      "world": "alignment",
+      "type": "quiz",
+      "prompt": "Why perform rough alignment before using the laser?",
+      "answer": "The laser tool has a limited measurement range",
+      "options": [
+        "The laser tool has a limited measurement range",
+        "It eliminates the need for all measurements",
+        "It replaces soft-foot checks",
+        "It increases laser power"
+      ],
+      "explanation": "Rough alignment brings the shafts within the laser system's useful range.",
+      "source": "a",
+      "section": "Rough Alignment 1, slide 23",
+      "topic": "Day 1 · Rough alignment",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-23.jpg",
+          "page": 23,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 23,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Laser alignment tools have limited range of adjustment, so rough alignment should always be done first with a straight edge or feeler gauge When performing shaft alignment—whether laser or rough—the recommended sequence is : .Angular — Correct the angular misa…"
+      }
+    }
+  ]
+}

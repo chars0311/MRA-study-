@@ -1,0 +1,326 @@
+{
+  "world": "motor",
+  "topic": "Troubleshooting Methods",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q034",
+      "world": "motor",
+      "type": "scenario",
+      "prompt": "A fault search begins near the middle of a large circuit. Which method is this?",
+      "answer": "Half-split",
+      "options": [
+        "Half-split",
+        "Output-back",
+        "Shotgun",
+        "Component substitution"
+      ],
+      "explanation": "Half-split tests near the middle to narrow the problem to the upstream or downstream portion.",
+      "source": "m",
+      "section": "System Troubleshooting Methods",
+      "topic": "Troubleshooting Methods",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-137.jpg",
+          "page": 137,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 137,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► This method begins by testing near the middle of a circuit. ► Assumes that if the reading is good, then the issue lies downstream. If the reading is bad, the issue is located upstream. ► Used to isolate problems in a large systems. 137"
+      }
+    },
+    {
+      "id": "c202x-system",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Finding which component caused a machine failure is what troubleshooting level?",
+      "answer": "System level",
+      "options": [
+        "System level",
+        "Internal component disassembly",
+        "Factory calibration",
+        "Preventive lubrication"
+      ],
+      "explanation": "System-level work identifies the failed component.",
+      "source": "m",
+      "sourcePages": [
+        127
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 127",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-127.jpg",
+          "page": 127,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 127,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "⮚ Methodical steps to identify failed component(s). ⮚ Most often used process. Component level ⮚ Determining what failed in a particular component. ⮚ May require component disassembly. ⮚ Typically performed on a bench. 127"
+      }
+    },
+    {
+      "id": "c202x-bench",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "A component is removed for bench testing. Which category is this?",
+      "answer": "Out-of-circuit",
+      "options": [
+        "Out-of-circuit",
+        "In-circuit",
+        "Half-split by definition",
+        "Output-back by definition"
+      ],
+      "explanation": "It has been removed from the machine circuit.",
+      "source": "m",
+      "sourcePages": [
+        128
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 128",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-128.jpg",
+          "page": 128,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 128,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Component Testing In-Circuit ⮚ Testing performed while component is still connected to machine. ⮚ May include DMM, gauges, sight, and sound. Out-of-Circuit ⮚ Performed after component has been removed. ⮚ Typically used to verify a component has gone bad. 128"
+      }
+    },
+    {
+      "id": "c202x-sequence-fault",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Machine steps occur in the wrong order. Which fault category fits?",
+      "answer": "Machine sequence fault",
+      "options": [
+        "Machine sequence fault",
+        "Performance fault only",
+        "Normal operation",
+        "A guaranteed winding short"
+      ],
+      "explanation": "Sequence faults concern operating steps.",
+      "source": "m",
+      "sourcePages": [
+        135
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 135",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-135.jpg",
+          "page": 135,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 135,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Machine sequence faults ► Malfunctions in the machine’s operations steps. ► Programmed actuator movements, pressure changes, speed changes. Performance faults ► Associated with actuator movement ► Speed, erratic movement, drift, output force. System faults ► R…"
+      }
+    },
+    {
+      "id": "c202x-performance",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "An actuator moves erratically and drifts. Which fault category fits?",
+      "answer": "Performance fault",
+      "options": [
+        "Performance fault",
+        "Sequence-order fault only",
+        "Normal input operation",
+        "Transformer ratio error by definition"
+      ],
+      "explanation": "Erratic movement and drift are performance symptoms.",
+      "source": "m",
+      "sourcePages": [
+        135
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 135",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-135.jpg",
+          "page": 135,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 135,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Performance faults ► Associated with actuator movement ► Speed, erratic movement, drift, output force. System faults ► Refers to the overall health of the system. ► Noisy operation, high/low pressure, no pressure, vibration or shock, system leaks. 135"
+      }
+    },
+    {
+      "id": "c202x-output-back",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Testing begins at a faulty actuator and moves upstream point by point. Which method is this?",
+      "answer": "Output-back",
+      "options": [
+        "Output-back",
+        "Half-split",
+        "Shotgun",
+        "Substitution"
+      ],
+      "explanation": "Output-back traces upstream from the affected output.",
+      "source": "m",
+      "sourcePages": [
+        138
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 138",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-138.jpg",
+          "page": 138,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 138,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► This troubleshooting method begins at the actuator showing symptoms. e.g. solenoid, cylinder ► Test every point upstream of the actuator until the source of the symptom is found. ► Effective, but it can be time consuming Shotgun ► Randomly testing various pa…"
+      }
+    },
+    {
+      "id": "c202x-shotgun",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Random testing of different circuit parts is which method?",
+      "answer": "Shotgun",
+      "options": [
+        "Shotgun",
+        "Output-back",
+        "Half-split",
+        "Structured flowchart"
+      ],
+      "explanation": "The slide describes random testing as often inefficient.",
+      "source": "m",
+      "sourcePages": [
+        138
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 138",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-138.jpg",
+          "page": 138,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 138,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Randomly testing various parts in a faulty circuit. ► Can be useful on small circuits, most often slow and the least efficient. 138"
+      }
+    },
+    {
+      "id": "c202x-diamond",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Which flowchart shape represents a branching question?",
+      "answer": "Diamond",
+      "options": [
+        "Diamond",
+        "Rectangle",
+        "Oval",
+        "Circle",
+        "Parallelogram"
+      ],
+      "explanation": "The answer determines the next branch.",
+      "source": "m",
+      "sourcePages": [
+        141
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 141",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-141.jpg",
+          "page": 141,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 141,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "diamond and provides a question ► The answer to that question determines which branch the troubleshooter follows. 141"
+      }
+    },
+    {
+      "id": "c202x-rectangle",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "Which flowchart shape represents an action or test?",
+      "answer": "Rectangle",
+      "options": [
+        "Rectangle",
+        "Diamond",
+        "Oval",
+        "Numbered circle",
+        "Parallelogram"
+      ],
+      "explanation": "An action box suggests a test or corrective action.",
+      "source": "m",
+      "sourcePages": [
+        142
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 142",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-142.jpg",
+          "page": 142,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 142,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► represented by a rectangle. ► Suggest course of action ► Course of action may include a correction (fix), or a test method. Data element ► Represented by a parallelogram ► Used on flow charts that troubleshoot pneumatic logic circuits (PLC). 142"
+      }
+    },
+    {
+      "id": "c202x-link",
+      "world": "motor",
+      "topic": "Troubleshooting Methods",
+      "type": "quiz",
+      "prompt": "What does a numbered circular flowchart connector do?",
+      "answer": "Links to a matching continuation",
+      "options": [
+        "Links to a matching continuation",
+        "Always ends troubleshooting",
+        "Means replace the motor",
+        "Specifies voltage"
+      ],
+      "explanation": "Match the number to continue elsewhere in the chart.",
+      "source": "m",
+      "sourcePages": [
+        143
+      ],
+      "section": "Troubleshooting Methods · C202 Electric Motor Controls.pdf · PDF page 143",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-143.jpg",
+          "page": 143,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 143,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "TROUBLESHOOTING FLOWCHART Linking element ► Represented by a circle with a number inside. ► Shows the troubleshooter where to go when the flow cart is too large for a single page. ► The troubleshooter matches the number on the next page of the flowchart. 143"
+      }
+    }
+  ]
+}

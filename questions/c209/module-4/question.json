@@ -1,0 +1,100 @@
+{
+  "world": "pneumatic",
+  "topic": "Module 4 · Pneumatic Speed Control Circuits",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q053",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does meter-out control restrict?",
+      "answer": "Air leaving the actuator",
+      "options": [
+        "Air leaving the actuator",
+        "Only air entering the compressor",
+        "Electrical current",
+        "Rod diameter"
+      ],
+      "explanation": "Restricting exhaust flow controls actuator speed using meter-out control.",
+      "source": "p",
+      "section": "Meter-Out Flow Control, slide 84",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-84.jpg",
+          "page": 84,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 84,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Controls speed by restricting the flow of air leaving the actuator. https://www.youtube.com/watch?v=4eCuPVxezzY 84"
+      }
+    },
+    {
+      "id": "q055",
+      "world": "pneumatic",
+      "type": "scenario",
+      "prompt": "A cylinder needs slow extension and fast retraction. Which control arrangement allows different speeds?",
+      "answer": "Independent speed control in each direction",
+      "options": [
+        "Independent speed control in each direction",
+        "One fixed speed in both directions",
+        "Remove the exhaust path",
+        "Use a larger gauge only"
+      ],
+      "explanation": "Separate flow controls allow extension and retraction speeds to be adjusted independently.",
+      "source": "p",
+      "section": "Independent Speed Control, slide 87",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-87.jpg",
+          "page": 87,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 87,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "INDEPENDENT SPEED CONTROL • This is when an actuators speed must be adjusted independently in each direction. • Slow approach/fast reset • Matching retraction and extension speeds. • In pneumatic systems, slowing a cylinder is achieved by restricting the exhau…"
+      }
+    },
+    {
+      "id": "visual-p-check",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "symbol",
+      "prompt": "Which pneumatic valve does this symbol represent?",
+      "answer": "Check valve",
+      "options": [
+        "Check valve",
+        "Needle valve",
+        "Pressure regulator",
+        "Shuttle valve"
+      ],
+      "explanation": "The check valve permits flow in one direction and blocks flow in the opposite direction.",
+      "source": "p",
+      "section": "Module 4 · Pneumatic Speed Control Circuits · PDF page 81",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "p-check",
+        "alt": "Course slide diagram for this question",
+        "page": 81
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-81.jpg",
+          "page": 81,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 81,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "blocks flow in the opposite direction. • Applications include: • Holding press. in receiver • Bypassing components • Quick-connect fittings •Ultrasonic: Use sound waves to calculate fluid velocity non-intrusively or inline. •Turbine: Use an internal spinning r…"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "world": "alignment",
+  "topic": "Day 2 · Segment 2: Laser Shaft Alignment Operation",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "module-check-8",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 2: Laser Shaft Alignment Operation",
+      "type": "quiz",
+      "prompt": "Which laser-alignment measurement method is appropriate when the two shafts are not coupled?",
+      "answer": "Multipoint readings",
+      "options": [
+        "Multipoint readings",
+        "A single point only",
+        "Continuous coupled sweep",
+        "No readings"
+      ],
+      "explanation": "Uncoupled shafts require individual static readings at multiple angular positions.",
+      "source": "a",
+      "section": "Day 2 · Laser Shaft Alignment Operation, slide 44",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-44.jpg",
+          "page": 44,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 44,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "When the shafts are not coupled, a laser alignment system cannot perform a continuous sweep because the shafts won’t rotate together. In this situation, the system requires you to take individual, static readings at multiple angular positions — which is exactl…"
+      }
+    }
+  ]
+}

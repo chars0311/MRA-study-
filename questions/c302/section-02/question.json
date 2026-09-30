@@ -1,0 +1,140 @@
+{
+  "world": "alignment",
+  "topic": "Day 1 · Measurement unit & jack bolts",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q069",
+      "world": "alignment",
+      "type": "quiz",
+      "prompt": "Jack bolts push a motor sideways on its mounting base. Which alignment plane do they adjust?",
+      "answer": "Horizontal",
+      "options": [
+        "Horizontal",
+        "Vertical only",
+        "Axial voltage",
+        "Laser wavelength"
+      ],
+      "explanation": "Jack bolts move the motor sideways. Vertical corrections use shims.",
+      "source": "a",
+      "section": "Jack Bolts, slide 18",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-20.jpg",
+          "page": 20,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        },
+        {
+          "url": "./review-slides/a-35.jpg",
+          "page": 35,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 35,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Horizontal angular (with Jack Bolts) Horizontal Parallel (with Jack Bolts) 4 After soft foot, the TKSA will perform laser alignment. It will prompt you to move the emitters through a 180O range of rotation1: 1/ 90O (3-O’clock) then 2/ 0O (12-O’clock) then 3/ -…"
+      }
+    },
+    {
+      "id": "q070",
+      "world": "alignment",
+      "type": "quiz",
+      "prompt": "Where is the measuring unit marked M mounted?",
+      "answer": "On the movable machine side",
+      "options": [
+        "On the movable machine side",
+        "Always on the stationary side",
+        "On the display case",
+        "On a guard only"
+      ],
+      "explanation": "M denotes movable; S denotes stationary.",
+      "source": "a",
+      "section": "Measuring units, slide 12",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-13.jpg",
+          "page": 13,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 13,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Emitters “talk” to each other and the display unit. They measure where the beams hit and transmit that back to the display unit. Movable Stationary USB cables Higher end units use Bluetooth (no cables) and can accept temperature targets for thermal compensatio…"
+      }
+    },
+    {
+      "id": "visual-a-angular",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "type": "symbol",
+      "prompt": "What type of alignment adjustment is indicated by the curved arrow?",
+      "answer": "Angular adjustment",
+      "options": [
+        "Angular adjustment",
+        "Parallel adjustment",
+        "Vertical shimming",
+        "Shaft runout measurement"
+      ],
+      "explanation": "The motor rotates to change its angle. The slide shows one jack bolt tightening and the opposite location loosening to make the angular move.",
+      "source": "a",
+      "section": "Day 1 · Measurement unit & jack bolts · PDF page 21",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "a-angular",
+        "alt": "Course slide diagram for this question",
+        "page": 21
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-21.jpg",
+          "page": 21,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 21,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Jack Bolts - Angular Move Tighten Jack Bolt Loosen Jack Bolt 21"
+      }
+    },
+    {
+      "id": "visual-a-parallel",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "type": "symbol",
+      "prompt": "What type of alignment adjustment is indicated by the straight arrow?",
+      "answer": "Parallel adjustment",
+      "options": [
+        "Parallel adjustment",
+        "Angular adjustment",
+        "Vertical shimming",
+        "Shaft runout measurement"
+      ],
+      "explanation": "The motor translates sideways without intentionally changing its angle. The slide shows the jack bolts on one side moving by the same number of turns.",
+      "source": "a",
+      "section": "Day 1 · Measurement unit & jack bolts · PDF page 22",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "a-parallel",
+        "alt": "Course slide diagram for this question",
+        "page": 22
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/a-22.jpg",
+          "page": 22,
+          "title": "C302 Laser Shaft Alignment.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 22,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Jack Bolts - Parallel Move Tighten Jack Bolts with same number of turns Loosen Jack Bolts 22 A11"
+      }
+    }
+  ]
+}

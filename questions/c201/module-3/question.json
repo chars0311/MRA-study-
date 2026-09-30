@@ -1,0 +1,480 @@
+{
+  "world": "electrical",
+  "topic": "Module 3 · Circuit Analysis",
+  "mathQuestionIds": [
+    "c201x-calc-series",
+    "c201x-calc-parallel",
+    "c201x-calc-current",
+    "c201x-calc-voltage",
+    "c201x-calc-resistance",
+    "c201x-calc-kvl",
+    "c201x-calc-kcl",
+    "c201x-calc-power",
+    "c201x-kvl"
+  ],
+  "questions": [
+    {
+      "id": "c201x-series-rule",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        36
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 36",
+      "prompt": "Which formula gives total series resistance?",
+      "answer": "R_T = R1 + R2 + R3",
+      "options": [
+        "R_T = R1 + R2 + R3",
+        "R_T = 1/(R1 + R2 + R3)",
+        "R_T = R1 × R2 × R3",
+        "R_T = the smallest resistor"
+      ],
+      "explanation": "Series resistances add.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-36.jpg",
+          "page": 36,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 36,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Total Series Resistance ● The total resistance in a circuit determines how much power the circuit draws ● If the loads are connected in series, add the individual resistances 36 17 SYLLABUS. AI-generated content may be incorrect."
+      }
+    },
+    {
+      "id": "c201x-parallel-rule",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        37
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 37",
+      "prompt": "Which formula gives the equivalent of two parallel resistors?",
+      "answer": "R_eq = (R1 × R2)/(R1 + R2)",
+      "options": [
+        "R_eq = (R1 × R2)/(R1 + R2)",
+        "R_eq = R1 + R2",
+        "R_eq = (R1 + R2)/(R1 × R2)",
+        "R_eq = R1 − R2"
+      ],
+      "explanation": "Product over sum is the two-resistor parallel formula.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-37.jpg",
+          "page": 37,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 37,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● The total resistance decreases as you add more resistors ● Alternate (rearranged) formulas: Total Parallel Resistance 37 EXAMPLE: 60, 45 AND 35 OHM RESISTORS CONNECTED IN PARALLEL, WHAT IS THE TOTAL RESISTANCE"
+      }
+    },
+    {
+      "id": "c201x-inverse",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        38
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 38",
+      "prompt": "At fixed voltage, doubling resistance does what to current?",
+      "answer": "Halves it",
+      "options": [
+        "Halves it",
+        "Doubles it",
+        "Leaves it unchanged",
+        "Always reduces it to zero"
+      ],
+      "explanation": "I = V/R, so current varies inversely with resistance at fixed voltage.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-38.jpg",
+          "page": 38,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 38,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Resistance and Current Relationship ● Current in series and parallel circuits is affected by changes in resistance ● An increase in resistance causes a decrease in current and vice versa 38"
+      }
+    },
+    {
+      "id": "c201x-ohms-i",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        39
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 39",
+      "prompt": "Which Ohm’s law form solves for current?",
+      "answer": "I = V/R",
+      "options": [
+        "I = V/R",
+        "I = V × R",
+        "I = R/V",
+        "I = V + R"
+      ],
+      "explanation": "Current is voltage divided by resistance.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-39.jpg",
+          "page": 39,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 39,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Voltage, current, and resistance are related to each other by Ohm’s Law ○ Applies to electrical circuits where the loads are only resistance-type loads ○ “One volt can push one amp through one ohm of resistance” 39"
+      }
+    },
+    {
+      "id": "c201x-ohms-r",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        39
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 39",
+      "prompt": "Which Ohm’s law form solves for resistance?",
+      "answer": "R = V/I",
+      "options": [
+        "R = V/I",
+        "R = V × I",
+        "R = I/V",
+        "R = V − I"
+      ],
+      "explanation": "Resistance is voltage divided by current.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-39.jpg",
+          "page": 39,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 39,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Voltage, current, and resistance are related to each other by Ohm’s Law ○ Applies to electrical circuits where the loads are only resistance-type loads ○ “One volt can push one amp through one ohm of resistance” 39"
+      }
+    },
+    {
+      "id": "c201x-ohms-image",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        40
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 40",
+      "prompt": "What current flows in the pictured circuit?",
+      "answer": "2.4 A",
+      "options": [
+        "2.4 A",
+        "0.24 A",
+        "24 A",
+        "240 A",
+        "None of these"
+      ],
+      "explanation": "I = 24 V / 10 Ω = 2.4 A.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-ohms-example",
+        "alt": "C-201 course diagram for this question",
+        "page": 40
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-40.jpg",
+          "page": 40,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 40,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● With Ohm’s Law, any of the three values for voltage, current, or resistance can be calculated if the other two are known 40"
+      }
+    },
+    {
+      "id": "c201x-kcl",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        42
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 42",
+      "prompt": "Parallel branches draw 0.3 A and 0.5 A. What is the total current?",
+      "answer": "0.8 A",
+      "options": [
+        "0.8 A",
+        "0.2 A",
+        "0.15 A",
+        "0.5 A",
+        "None of these"
+      ],
+      "explanation": "Branch currents add: 0.3 + 0.5 = 0.8 A.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-42.jpg",
+          "page": 42,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 42,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ In a parallel circuit, the total current to/from the power supply is called the main line current 42"
+      }
+    },
+    {
+      "id": "c201x-power-unit",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        43
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 43",
+      "prompt": "Which quantity is measured in watts?",
+      "answer": "Power",
+      "options": [
+        "Power",
+        "Current",
+        "Resistance",
+        "Potential difference"
+      ],
+      "explanation": "Watts measure power. For the resistive examples, P = V × I.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-43.jpg",
+          "page": 43,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 43,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Power is the measure of the energy consumed by a circuit ● Measured in watts, abbreviated W ● “One watt is consumed when one volt pushes one amp through a circuit” ● Power = Current x Voltage 43"
+      }
+    },
+    {
+      "id": "c201x-overcurrent",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        44
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 44",
+      "prompt": "Which is the complete set of listed high-current causes?",
+      "answer": "Both excessive connected load and a low-resistance short",
+      "options": [
+        "Both excessive connected load and a low-resistance short",
+        "Excessive load only",
+        "A low-resistance short only",
+        "Neither of these"
+      ],
+      "explanation": "The slides list excessive load and short circuits.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-44.jpg",
+          "page": 44,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 44,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● High current can damage electrical components ○ Too many loads connected to circuit ○ Short circuit - direct path with little or no resistance ● Two types of devices: ○ Fuse - used where a problem rarely occurs e.g. a car’s light system ○ Circuit Breaker - u…"
+      }
+    },
+    {
+      "id": "c201x-fuse",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        45
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 45",
+      "prompt": "Which symbol is shown?",
+      "answer": "Fuse",
+      "options": [
+        "Fuse",
+        "Resistor",
+        "Thermal circuit breaker",
+        "Knife switch",
+        "None of these"
+      ],
+      "explanation": "The fuse element melts and opens under excessive current.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-fuse",
+        "alt": "C-201 course diagram for this question",
+        "page": 45
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-45.jpg",
+          "page": 45,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 45,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● When current flow exceeds the rated value of the fuse, the wire or foil strip melts and opens the circuit ○ If a fuse is good, it has continuity; if a fuse is blown, there is no continuity and therefore no current flow Schematic Symbol Good Blown 45"
+      }
+    },
+    {
+      "id": "c201x-fuse-state",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        45
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 45",
+      "prompt": "Which correctly compares a good and a blown fuse?",
+      "answer": "Good: continuity; blown: open",
+      "options": [
+        "Good: continuity; blown: open",
+        "Good: open; blown: continuity",
+        "Both read infinite resistance",
+        "Both reset without replacing an element"
+      ],
+      "explanation": "A blown fuse has a broken conductive element.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-45.jpg",
+          "page": 45,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 45,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ If a fuse is good, it has continuity; if a fuse is blown, there is no continuity and therefore no current flow Schematic Symbol Good Blown 45"
+      }
+    },
+    {
+      "id": "c201x-breaker",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        46
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 46",
+      "prompt": "Which feature distinguishes the breaker from the fuse described?",
+      "answer": "It can be reset after tripping",
+      "options": [
+        "It can be reset after tripping",
+        "It stays closed under overcurrent",
+        "It must be replaced after each trip",
+        "It protects only against low voltage"
+      ],
+      "explanation": "Both interrupt excess current, but a breaker is resettable.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-46.jpg",
+          "page": 46,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 46,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Performs the same protective service as a fuse, but can be reset ● Just as a fuse blows, a circuit breaker trips if there is excessive current ● Two types ○ Thermally Triggered - trips due to heat caused by excessive current ■ Has a lag time (delay) before i…"
+      }
+    },
+    {
+      "id": "c201x-thermal",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        46
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 46",
+      "prompt": "Why does the thermal trip described have a delay?",
+      "answer": "Its element must heat up",
+      "options": [
+        "Its element must heat up",
+        "It waits for polarity reversal",
+        "It counts motor revolutions",
+        "It waits for a manual selector"
+      ],
+      "explanation": "Temperature takes time to rise under excess current.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-46.jpg",
+          "page": 46,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 46,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "■ Has a lag time (delay) before it trips because the temperature must increase ○ Magnetically Triggered - trips due to strength of magnetic field created by excessive current ■ Trips immediately when a surge of excessive current is present ■ A slow increase in…"
+      }
+    },
+    {
+      "id": "c201x-combined",
+      "world": "electrical",
+      "topic": "Module 3 · Circuit Analysis",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        46
+      ],
+      "section": "Module 3 · Circuit Analysis · C201 Electrical Systems 1.pdf · PDF page 46",
+      "prompt": "What does thermomagnetic protection combine?",
+      "answer": "Thermal and magnetic trip mechanisms",
+      "options": [
+        "Thermal and magnetic trip mechanisms",
+        "A fuse and a voltage divider",
+        "A selector and a transformer tap",
+        "A buzzer and a lamp"
+      ],
+      "explanation": "The course describes combined thermal and magnetic overcurrent response.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-46.jpg",
+          "page": 46,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 46,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "of magnetic field created by excessive current ■ Trips immediately when a surge of excessive current is present ■ A slow increase in current may not trip the breaker ○ Thermomagnetic - a combination of both 46"
+      }
+    }
+  ]
+}

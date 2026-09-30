@@ -1,0 +1,641 @@
+{
+  "world": "sensor",
+  "topic": "Electronic Sensors · introduction & proximity sensors",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q038",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "Which proximity sensor detects only metal targets?",
+      "answer": "Inductive",
+      "options": [
+        "Inductive",
+        "Capacitive",
+        "Magnetic reed",
+        "Photoelectric"
+      ],
+      "explanation": "Inductive sensing uses a magnetic field and detects metals, with steel and iron especially suitable in the guide.",
+      "source": "s",
+      "section": "Inductive Proximity Sensor, slide 54",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-54.jpg",
+          "page": 54,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 54,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Inductive Proximity Sensor Uses an AC current flowing through a coil to create a magnetic field. When metal nears the head, some of the magnetic energy is absorbed Five things that affect performance: • Target material • Target Size • Target Distance • Sensor …"
+      }
+    },
+    {
+      "id": "q039",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "Which proximity sensor can detect metal and nonmetal objects?",
+      "answer": "Capacitive",
+      "options": [
+        "Capacitive",
+        "Inductive",
+        "A mechanical relay coil",
+        "A fuse"
+      ],
+      "explanation": "Capacitive sensing responds to changes in an electrostatic field and can detect both categories.",
+      "source": "s",
+      "section": "Capacitive Proximity Sensor, slide 55",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-55.jpg",
+          "page": 55,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 55,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Capacitive Proximity Sensor Uses an AC current flowing to two plates to create an electrostatic field (a voltage difference). When an object nears the head, this field changes Five things that affect performance: • Target material • Target Size • Target Distan…"
+      }
+    },
+    {
+      "id": "q040",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "Does a PNP sensor source or sink current?",
+      "answer": "Sourcing",
+      "options": [
+        "Sourcing",
+        "Sinking",
+        "Mechanical latching",
+        "AC-only switching"
+      ],
+      "explanation": "PNP supplies a high signal when activated; the course calls this sourcing.",
+      "source": "s",
+      "section": "Two Transistor-Switching Technologies, slide 52",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-52.jpg",
+          "page": 52,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 52,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "PNP = Current “Sourcing” Used in circuits that require a high signal (+12V, +24V etc.) when activated/energized NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just …"
+      }
+    },
+    {
+      "id": "q041",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "Does an NPN sensor source or sink current?",
+      "answer": "Sinking",
+      "options": [
+        "Sinking",
+        "Sourcing",
+        "Mechanical locking",
+        "Voltage transformation"
+      ],
+      "explanation": "NPN provides a low signal when activated and is described as sinking.",
+      "source": "s",
+      "section": "Two Transistor-Switching Technologies, slide 52",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-52.jpg",
+          "page": 52,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 52,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just solid-state switches! 52 A12 A27"
+      }
+    },
+    {
+      "id": "wb-24",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "wordbank",
+      "cloze": "An ___ proximity sensor detects metal targets.",
+      "prompt": "An ___ proximity sensor detects metal targets.",
+      "answer": "Inductive",
+      "options": [
+        "Inductive",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "An Inductive proximity sensor detects metal targets.",
+      "source": "s",
+      "section": "Inductive Proximity Sensor, slide 54",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-54.jpg",
+          "page": 54,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 54,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Inductive Proximity Sensor Uses an AC current flowing through a coil to create a magnetic field. When metal nears the head, some of the magnetic energy is absorbed Five things that affect performance: • Target material • Target Size • Target Distance • Sensor …"
+      }
+    },
+    {
+      "id": "wb-25",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "wordbank",
+      "cloze": "A ___ proximity sensor responds to changes in an electrostatic field.",
+      "prompt": "A ___ proximity sensor responds to changes in an electrostatic field.",
+      "answer": "Capacitive",
+      "options": [
+        "Capacitive",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Capacitive proximity sensor responds to changes in an electrostatic field.",
+      "source": "s",
+      "section": "Capacitive Proximity Sensor, slide 55",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-55.jpg",
+          "page": 55,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 55,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Capacitive Proximity Sensor Uses an AC current flowing to two plates to create an electrostatic field (a voltage difference). When an object nears the head, this field changes Five things that affect performance: • Target material • Target Size • Target Distan…"
+      }
+    },
+    {
+      "id": "wb-29",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "wordbank",
+      "cloze": "___ is the current-sourcing transistor technology.",
+      "prompt": "___ is the current-sourcing transistor technology.",
+      "answer": "PNP",
+      "options": [
+        "PNP",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "PNP is the current-sourcing transistor technology described in the slides.",
+      "source": "s",
+      "section": "Transistor switching, slide 52",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-52.jpg",
+          "page": 52,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 52,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "PNP = Current “Sourcing” Used in circuits that require a high signal (+12V, +24V etc.) when activated/energized NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just …"
+      }
+    },
+    {
+      "id": "wb-30",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "wordbank",
+      "cloze": "___ is the current-sinking transistor technology.",
+      "prompt": "___ is the current-sinking transistor technology.",
+      "answer": "NPN",
+      "options": [
+        "NPN",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "NPN is the current-sinking transistor technology described in the slides.",
+      "source": "s",
+      "section": "Transistor switching, slide 52",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-52.jpg",
+          "page": 52,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 52,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just solid-state switches! 52 A12 A27"
+      }
+    },
+    {
+      "id": "c205x-electronic-benefit",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "Which is an advantage of electronic sensors over simple mechanical limit switches?",
+      "answer": "Detecting a target without physical contact",
+      "options": [
+        "Detecting a target without physical contact",
+        "Higher load-current capacity in every application",
+        "Simpler control requirements in every application",
+        "Complete immunity to electrical noise"
+      ],
+      "explanation": "Electronic sensors can detect targets without touching them and can operate faster. The slide also lists output-capacity and control-system limitations.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 48",
+      "sourcePages": [
+        48
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-48.jpg",
+          "page": 48,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 48,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Require a more complex control system than simple mechanical switches • Usually have a low power (voltage and current) handling capacity • Require optical isolation to protect against electrical noise 48 A03 A07"
+      }
+    },
+    {
+      "id": "c205x-electronic-limit",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "Which is a limitation of the electronic sensors described?",
+      "answer": "Usually low voltage/current handling capacity",
+      "options": [
+        "Usually low voltage/current handling capacity",
+        "A mechanical contact must touch every target",
+        "Only slower operation than mechanical switches is possible",
+        "Every sensor has a moving contact that wears out"
+      ],
+      "explanation": "The slide notes limited power handling and a more complex control system compared with simple switches.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 48",
+      "sourcePages": [
+        48
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-48.jpg",
+          "page": 48,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 48,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Usually have a low power (voltage and current) handling capacity • Require optical isolation to protect against electrical noise 48 A03 A07"
+      }
+    },
+    {
+      "id": "c205x-mechanical-exception",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "Which listed sensor is the mechanical-switch exception to transistor switching?",
+      "answer": "Magnetic reed switch",
+      "options": [
+        "Magnetic reed switch",
+        "Inductive proximity sensor",
+        "Capacitive proximity sensor",
+        "Hall-effect sensor",
+        "Photoelectric sensor"
+      ],
+      "explanation": "The reed switch uses moving contacts, even though it is included among the sensor types in this section.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 49",
+      "sourcePages": [
+        49
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-49.jpg",
+          "page": 49,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 49,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Magnetic Reed Switch Hall Effect Sensor Photelectric Sensor The major difference between mechanical and electronic sensors (except for the reed switch) is that electronic sensors use transistors as switches and much faster 49 A02"
+      }
+    },
+    {
+      "id": "c205x-source-diagram",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "symbol",
+      "prompt": "Which switching arrangement is shown by the positive supply being switched toward the load?",
+      "answer": "PNP sourcing",
+      "options": [
+        "PNP sourcing",
+        "NPN sinking",
+        "Mechanical reed contact",
+        "AC-only timer contact",
+        "None of these"
+      ],
+      "explanation": "The conducting path supplies positive voltage from the sensor to the load, matching the PNP sourcing diagram.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 50",
+      "sourcePages": [
+        50
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-sourcing",
+        "alt": "C-205 slide diagram for this question",
+        "page": 50
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-50.jpg",
+          "page": 50,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 50,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Two Transistor-Switching Technologies used in electronic switches PNP “Source” 50"
+      }
+    },
+    {
+      "id": "c205x-sink-diagram",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "symbol",
+      "prompt": "Which switching arrangement is shown by the output being connected toward 0 V?",
+      "answer": "NPN sinking",
+      "options": [
+        "NPN sinking",
+        "PNP sourcing",
+        "Mechanical reed contact",
+        "Normally closed timer contact",
+        "None of these"
+      ],
+      "explanation": "The transistor provides the path toward common/0 V, matching the NPN sinking diagram.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 51",
+      "sourcePages": [
+        51
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-sinking",
+        "alt": "C-205 slide diagram for this question",
+        "page": 51
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-51.jpg",
+          "page": 51,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Use the labeled components and operating conditions on the review slide to follow the explanation above."
+      }
+    },
+    {
+      "id": "c205x-high-signal",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "A controller needs a positive/high input signal when the sensor operates. Which output technology matches the course description?",
+      "answer": "PNP sourcing",
+      "options": [
+        "PNP sourcing",
+        "NPN sinking",
+        "A sinking output assumed to be sourcing without changing wiring",
+        "Either PNP or NPN regardless of the receiving input"
+      ],
+      "explanation": "PNP sourcing supplies a high signal; NPN sinking pulls the signal toward 0 V.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 52",
+      "sourcePages": [
+        52
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-52.jpg",
+          "page": 52,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 52,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "PNP = Current “Sourcing” Used in circuits that require a high signal (+12V, +24V etc.) when activated/energized NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just …"
+      }
+    },
+    {
+      "id": "c205x-low-signal",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "A controller expects the active signal to be pulled low toward 0 V. Which technology matches?",
+      "answer": "NPN sinking",
+      "options": [
+        "NPN sinking",
+        "PNP sourcing",
+        "A sourcing output assumed to be sinking without changing wiring",
+        "Either PNP or NPN regardless of the receiving input"
+      ],
+      "explanation": "The slide associates NPN sinking with a low active signal.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 52",
+      "sourcePages": [
+        52
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-52.jpg",
+          "page": 52,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 52,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just solid-state switches! 52 A12 A27"
+      }
+    },
+    {
+      "id": "c205x-inductive-field",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "What field does an inductive proximity sensor use to detect metal?",
+      "answer": "A magnetic field generated by an AC-driven coil",
+      "options": [
+        "A magnetic field generated by an AC-driven coil",
+        "An electrostatic field between two plates",
+        "A light beam between optical heads",
+        "A mechanically held contact"
+      ],
+      "explanation": "The sensor coil produces a magnetic field affected by a nearby metal target.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 54",
+      "sourcePages": [
+        54
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-54.jpg",
+          "page": 54,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 54,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Inductive Proximity Sensor Uses an AC current flowing through a coil to create a magnetic field. When metal nears the head, some of the magnetic energy is absorbed Five things that affect performance: • Target material • Target Size • Target Distance • Sensor …"
+      }
+    },
+    {
+      "id": "c205x-inductive-target",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "Which target material does the course identify as especially suitable for inductive detection?",
+      "answer": "Steel or iron",
+      "options": [
+        "Steel or iron",
+        "Dry paper",
+        "Clear glass",
+        "Unfilled plastic"
+      ],
+      "explanation": "The slide identifies ferrous metals such as steel and iron as the best metal targets in its discussion.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 54",
+      "sourcePages": [
+        54
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-54.jpg",
+          "page": 54,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 54,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Ferrous (steel and iron) are by far the best metals for detection. 54 A19"
+      }
+    },
+    {
+      "id": "c205x-inductive-factors",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "Which is the complete group of listed factors affecting inductive performance?",
+      "answer": "All three: target material, target distance, and sensor mounting",
+      "options": [
+        "All three: target material, target distance, and sensor mounting",
+        "Target material only",
+        "Target distance only",
+        "Sensor mounting only",
+        "None of these"
+      ],
+      "explanation": "The slide includes all three, along with target size and sensor-head size.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 54",
+      "sourcePages": [
+        54
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-54.jpg",
+          "page": 54,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 54,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Sensor head size • Sensor mounting Inductive sensors can only sense metals! Ferrous (steel and iron) are by far the best metals for detection. 54 A19"
+      }
+    },
+    {
+      "id": "c205x-capacitive-field",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "Which sensing principle distinguishes capacitive from inductive proximity sensing?",
+      "answer": "Changes in an electrostatic field between plates",
+      "options": [
+        "Changes in an electrostatic field between plates",
+        "Changes in a magnetic coil field only",
+        "A moving reed closing in a magnet",
+        "A broken light beam between heads"
+      ],
+      "explanation": "Capacitive sensing responds to changes in the electrostatic field, enabling detection of metallic and nonmetallic targets.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 55",
+      "sourcePages": [
+        55
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-55.jpg",
+          "page": 55,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 55,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Capacitive Proximity Sensor Uses an AC current flowing to two plates to create an electrostatic field (a voltage difference). When an object nears the head, this field changes Five things that affect performance: • Target material • Target Size • Target Distan…"
+      }
+    },
+    {
+      "id": "c205x-three-wire",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "In the three-wire proximity-sensor arrangement described, what does the third wire do after the two supply wires are connected?",
+      "answer": "Carries the output signal to the controller",
+      "options": [
+        "Carries the output signal to the controller",
+        "Acts as a second protective earth only",
+        "Mechanically resets the sensor",
+        "Supplies compressed air"
+      ],
+      "explanation": "Two wires power the sensor; the remaining wire carries its switched output.",
+      "source": "s",
+      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 55",
+      "sourcePages": [
+        55
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-55.jpg",
+          "page": 55,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 55,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "3 wires go to the power supply and the third outputs sends a signal to a controller when it senses something. 55 A15 A04 A01"
+      }
+    }
+  ]
+}

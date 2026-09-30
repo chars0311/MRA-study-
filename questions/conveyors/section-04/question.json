@@ -1,0 +1,36 @@
+{
+  "world": "conveyor",
+  "topic": "Prepare Belt Ends",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q086",
+      "world": "conveyor",
+      "type": "scenario",
+      "prompt": "A conveyor belt’s factory edge may be uneven. Which reference should be used to plan a square end cut?",
+      "answer": "A marked belt centerline",
+      "options": [
+        "A marked belt centerline",
+        "The curved edge alone",
+        "The nearest roller color",
+        "The motor nameplate"
+      ],
+      "explanation": "The course explains that slit edges can be curvy and describes marking a centerline for squaring the cut.",
+      "source": "c",
+      "section": "Prepare Belt Ends, slides 20–21",
+      "topic": "Prepare Belt Ends",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-20.jpg",
+          "page": 20,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 20,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "always slit from wider stock and the edges can be curvy. 20"
+      }
+    }
+  ]
+}

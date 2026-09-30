@@ -1,0 +1,1227 @@
+{
+  "world": "electrical",
+  "topic": "Module 2 · Electrical Measurements",
+  "mathQuestionIds": [
+    "c201x-milliamp",
+    "c201x-kilo"
+  ],
+  "questions": [
+    {
+      "id": "q009",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "A series circuit has how many current paths?",
+      "answer": "One",
+      "options": [
+        "One",
+        "Two or more",
+        "None",
+        "One per load"
+      ],
+      "explanation": "All current passes through the same path and through each series component.",
+      "source": "e",
+      "section": "Module 2: Types of Electrical Circuits",
+      "topic": "Module 2 · Electrical Measurements",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-16.jpg",
+          "page": 16,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Series - one path for current to flow ■ Total current flows through each component ○ Parallel - more than one path for current to flow ■ Current splits between branch A and branch B at node 1 and rejoins at node 2 Types of Electrical Circuits Series Parallel…"
+      }
+    },
+    {
+      "id": "q010",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "Which quantity is the same across parallel branches?",
+      "answer": "Voltage",
+      "options": [
+        "Voltage",
+        "Branch current in every case",
+        "Branch resistance in every case",
+        "Number of loads"
+      ],
+      "explanation": "Each parallel branch connects across the same two supply points and receives the same voltage.",
+      "source": "e",
+      "section": "Module 2: Voltage in a Parallel Circuit",
+      "topic": "Module 2 · Electrical Measurements",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-22.jpg",
+          "page": 22,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 22,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● In a parallel circuit, the same voltage is available to each of the branches ○ Voltage drop across each branch is the same"
+      }
+    },
+    {
+      "id": "q011",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "How is a voltmeter connected to measure a component's voltage drop?",
+      "answer": "In parallel with the component",
+      "options": [
+        "In parallel with the component",
+        "In series with the component",
+        "In place of the power supply",
+        "Without test leads"
+      ],
+      "explanation": "Voltage is a difference between two points, so the leads go across the component.",
+      "source": "e",
+      "section": "Module 2: Measuring Voltage",
+      "topic": "Module 2 · Electrical Measurements",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-19.jpg",
+          "page": 19,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 19,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Leads are connected across the component (in parallel)"
+      }
+    },
+    {
+      "id": "q012",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "How is an ammeter connected to measure component current?",
+      "answer": "In series with the component",
+      "options": [
+        "In series with the component",
+        "In parallel with the supply",
+        "Across an open switch",
+        "Only to ground"
+      ],
+      "explanation": "The current being measured must pass through the ammeter.",
+      "source": "e",
+      "section": "Module 2: Measuring Current",
+      "topic": "Module 2 · Electrical Measurements",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-24.jpg",
+          "page": 24,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 24,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● To measure current, the ammeter is placed in series with the component ○ Different than measuring voltage or resistance where leads are connected across the component (in parallel)"
+      }
+    },
+    {
+      "id": "q013",
+      "world": "electrical",
+      "type": "scenario",
+      "prompt": "Before measuring an individual resistor in a training circuit, how should its power and connections be prepared?",
+      "answer": "Power off and disconnect one terminal",
+      "options": [
+        "Power off and disconnect one terminal",
+        "Leave power on",
+        "Measure current first with the ohms range",
+        "Connect the resistor to a larger supply"
+      ],
+      "explanation": "The resistance section specifies power off and one component terminal disconnected, avoiding an energized measurement and other paths.",
+      "source": "e",
+      "section": "Module 2: Measuring Resistance",
+      "topic": "Module 2 · Electrical Measurements",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-28.jpg",
+          "page": 28,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 28,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Turn off the power to the circuit and disconnect one terminal of the component Schematic Symbol"
+      }
+    },
+    {
+      "id": "q014",
+      "world": "electrical",
+      "type": "scenario",
+      "prompt": "One load opens in a simple series circuit. What happens to the other loads?",
+      "answer": "All lose current",
+      "options": [
+        "All lose current",
+        "All receive more current",
+        "Only the failed load loses current",
+        "Their voltages become identical"
+      ],
+      "explanation": "An open in the single series path stops current through every load.",
+      "source": "e",
+      "section": "Module 2: Current Flow (Series)",
+      "topic": "Module 2 · Electrical Measurements",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-25.jpg",
+          "page": 25,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 25,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Current does not change as it flows through a series circuit ● It is not common to connect loads in series ○ If one of the loads fails, all of the loads will lose power ○ Many older holiday lights were connected in series; when one burned out, they were all …"
+      }
+    },
+    {
+      "id": "q015",
+      "world": "electrical",
+      "type": "scenario",
+      "prompt": "One parallel load branch opens while the supply stays healthy. What happens to intact branches?",
+      "answer": "They can continue operating",
+      "options": [
+        "They can continue operating",
+        "Every branch must stop",
+        "They automatically short circuit",
+        "Their resistance becomes zero"
+      ],
+      "explanation": "Parallel branches have separate current paths, so an open in one does not break the others.",
+      "source": "e",
+      "section": "Module 2: Current Flow (Parallel)",
+      "topic": "Module 2 · Electrical Measurements",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-26.jpg",
+          "page": 26,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 26,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Current in a parallel circuit is divided among the branches ○ Amount of current that flows in each branch depends on the resistance in that branch ○ If one of the loads fails, the others will continue to work ○ Newer holiday lights are connected in parallel …"
+      }
+    },
+    {
+      "id": "visual-e-series",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "prompt": "How are the three resistors connected?",
+      "answer": "In series",
+      "options": [
+        "In series",
+        "In parallel",
+        "In a series-parallel combination",
+        "As a transformer"
+      ],
+      "explanation": "The resistors form one path. Current through one resistor must also pass through the other two.",
+      "source": "full",
+      "section": "Module 2 · Electrical Measurements · PDF page 16",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-series",
+        "alt": "Course slide diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-16.jpg",
+          "page": 16,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Series - one path for current to flow ■ Total current flows through each component ○ Parallel - more than one path for current to flow ■ Current splits between branch A and branch B at node 1 and rejoins at node 2 ○ OHMS LAW --- VOLTAGE = CURRENT times RESIS…"
+      }
+    },
+    {
+      "id": "visual-e-parallel",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "prompt": "How are R1 and R2 connected?",
+      "answer": "In parallel",
+      "options": [
+        "In parallel",
+        "In series",
+        "As an open switch",
+        "As transformer windings"
+      ],
+      "explanation": "Both resistors connect across the same two nodes. Current splits between the branches and rejoins at the other node.",
+      "source": "full",
+      "section": "Module 2 · Electrical Measurements · PDF page 16",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-parallel",
+        "alt": "Course slide diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-16.jpg",
+          "page": 16,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "■ Current splits between branch A and branch B at node 1 and rejoins at node 2 ○ OHMS LAW --- VOLTAGE = CURRENT times RESISTANCE therefore if CURRENT = .3 amps and RESISTANCE = 100 ohms, VOLTAGE = .3 x 100 = 30 amps. Others, R=V/I or I=V/R and Power = V x I Ty…"
+      }
+    },
+    {
+      "id": "visual-e-parallel-voltage",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "prompt": "The source is 10 V. What voltage is across R2 in this circuit?",
+      "answer": "10 V",
+      "options": [
+        "10 V",
+        "5 V",
+        "20 V",
+        "0 V"
+      ],
+      "explanation": "R2 connects directly across the same two nodes as the 10 V source, so its voltage equals the source voltage.",
+      "source": "full",
+      "section": "Module 2 · Electrical Measurements · PDF page 16",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-parallel",
+        "alt": "Course slide diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-16.jpg",
+          "page": 16,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● All electrical circuits are made up of a combination of two types ○ Series - one path for current to flow ■ Total current flows through each component ○ Parallel - more than one path for current to flow ■ Current splits between branch A and branch B at node …"
+      }
+    },
+    {
+      "id": "visual-e-voltmeter",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "prompt": "How is this meter connected to the resistor being measured?",
+      "answer": "In parallel across the resistor",
+      "options": [
+        "In parallel across the resistor",
+        "In series with the resistor",
+        "Across an open fuse only",
+        "As a short around the entire supply"
+      ],
+      "explanation": "Voltage is measured between two points. The leads connect across the resistor, making the meter connection parallel to it.",
+      "source": "full",
+      "section": "Module 2 · Electrical Measurements · PDF page 19",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-voltmeter",
+        "alt": "Course slide diagram for this question",
+        "page": 19
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-19.jpg",
+          "page": 19,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 19,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Leads are connected across the component (in parallel) 19"
+      }
+    },
+    {
+      "id": "visual-e-ammeter",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "prompt": "How is this meter connected to measure circuit current?",
+      "answer": "In series in the current path",
+      "options": [
+        "In series in the current path",
+        "In parallel across the source",
+        "Across both ends of one resistor",
+        "Without connection to the circuit"
+      ],
+      "explanation": "The circuit path passes through the meter. An ammeter is placed in series to measure current through that path.",
+      "source": "full",
+      "section": "Module 2 · Electrical Measurements · PDF page 24",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-ammeter",
+        "alt": "Course slide diagram for this question",
+        "page": 24
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-24.jpg",
+          "page": 24,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 24,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● To measure current, the ammeter is placed in series with the component ○ Different than measuring voltage or resistance where leads are connected across the component (in parallel) 24"
+      }
+    },
+    {
+      "id": "c201x-series-path",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        16
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 16",
+      "prompt": "How many paths through the loads does this series arrangement provide?",
+      "answer": "One",
+      "options": [
+        "One",
+        "Two independent paths",
+        "One separate path per load",
+        "Unlimited branches"
+      ],
+      "explanation": "The loads share one series path.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-series",
+        "alt": "C-201 course diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-16.jpg",
+          "page": 16,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Series - one path for current to flow ■ Total current flows through each component ○ Parallel - more than one path for current to flow ■ Current splits between branch A and branch B at node 1 and rejoins at node 2 ○ OHMS LAW --- VOLTAGE = CURRENT times RESIS…"
+      }
+    },
+    {
+      "id": "c201x-parallel-path",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        16
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 16",
+      "prompt": "At Node 1, what happens to the current?",
+      "answer": "It divides between resistor branches",
+      "options": [
+        "It divides between resistor branches",
+        "It is used up before R2",
+        "It must all pass through R1 then R2",
+        "It changes from DC to AC"
+      ],
+      "explanation": "The branches split current and rejoin at Node 2.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-parallel",
+        "alt": "C-201 course diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-16.jpg",
+          "page": 16,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "■ Current splits between branch A and branch B at node 1 and rejoins at node 2 ○ OHMS LAW --- VOLTAGE = CURRENT times RESISTANCE therefore if CURRENT = .3 amps and RESISTANCE = 100 ohms, VOLTAGE = .3 x 100 = 30 amps. Others, R=V/I or I=V/R and Power = V x I Ty…"
+      }
+    },
+    {
+      "id": "c201x-analogy",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        17
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 17",
+      "prompt": "In the water-column analogy, greater column height increases what?",
+      "answer": "Pressure from potential energy",
+      "options": [
+        "Pressure from potential energy",
+        "Conductor resistance",
+        "The number of branches",
+        "AC frequency"
+      ],
+      "explanation": "The higher column illustrates greater pressure or available potential.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-17.jpg",
+          "page": 17,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 17,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ A column of water exerts a force, increasing with height (potential energy) Potential Energy Pressure (Force) 17"
+      }
+    },
+    {
+      "id": "c201x-voltage",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        18
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 18",
+      "prompt": "What does a voltage measurement compare?",
+      "answer": "Electrical potential at two points",
+      "options": [
+        "Electrical potential at two points",
+        "Current at only one point",
+        "The number of electrons in a wire",
+        "Only the physical length of the wire"
+      ],
+      "explanation": "Voltage is a potential difference between two points.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-18.jpg",
+          "page": 18,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 18,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Measure as a difference in potential (force) between two points ○ Unit of measure is the Volt represented by E (electromotive force) or V (voltage) ○ V is most often used in schematics ● Type of voltage depends on if it produces direct current or alternating…"
+      }
+    },
+    {
+      "id": "c201x-voltmeter",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        19
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 19",
+      "prompt": "How is the meter connected to measure the resistor voltage?",
+      "answer": "In parallel across its terminals",
+      "options": [
+        "In parallel across its terminals",
+        "In series in the only path",
+        "To only one terminal",
+        "In place of the source"
+      ],
+      "explanation": "The two leads compare potential across the resistor.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-voltmeter",
+        "alt": "C-201 course diagram for this question",
+        "page": 19
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-19.jpg",
+          "page": 19,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 19,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Leads are connected across the component (in parallel) 19"
+      }
+    },
+    {
+      "id": "c201x-points",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        20
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 20",
+      "prompt": "Why can moving one voltage probe to another node change the reading?",
+      "answer": "The selected potential difference changes",
+      "options": [
+        "The selected potential difference changes",
+        "All nodes must have the same potential",
+        "The probe converts AC to DC",
+        "Voltage is independent of probe location"
+      ],
+      "explanation": "The reading depends on the two points being compared.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-20.jpg",
+          "page": 20,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 20,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Two points are needed to measure voltage ○ Value measured depends on which two points you use ● A power supply provides a source of both high and low potential ● Three points of interest: ○ Point A - highest potential because it is closest to the high potent…"
+      }
+    },
+    {
+      "id": "c201x-series-drops",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        21
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 21",
+      "prompt": "How does source voltage relate to series-load drops?",
+      "answer": "It equals their sum",
+      "options": [
+        "It equals their sum",
+        "It equals every drop regardless of resistance",
+        "It divides equally even for unequal resistors",
+        "It is unrelated to the drops"
+      ],
+      "explanation": "Series loads share the total voltage; each drop depends on resistance.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-21.jpg",
+          "page": 21,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 21,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ The amount of voltage that used by each load (its voltage drop) depends on its resistance 21"
+      }
+    },
+    {
+      "id": "c201x-branch-voltage",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        22,
+        16
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 22 · diagram on page 16",
+      "prompt": "What voltage relationship holds across parallel branches sharing two nodes?",
+      "answer": "Each branch has the same voltage",
+      "options": [
+        "Each branch has the same voltage",
+        "Voltage divides equally between branches",
+        "The smallest resistor has zero voltage",
+        "Only one branch receives source voltage"
+      ],
+      "explanation": "Shared endpoints have the same potential difference.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-parallel",
+        "alt": "C-201 course diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-22.jpg",
+          "page": 22,
+          "title": "C201 Electrical Systems 1.pdf"
+        },
+        {
+          "url": "./review-slides/full-16.jpg",
+          "page": 16,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 22,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● In a parallel circuit, the same voltage is available to each of the branches ○ Voltage drop across each branch is the same 22"
+      }
+    },
+    {
+      "id": "c201x-current-unit",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        23
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 23",
+      "prompt": "Which unit measures current?",
+      "answer": "Ampere",
+      "options": [
+        "Ampere",
+        "Volt",
+        "Ohm",
+        "Watt"
+      ],
+      "explanation": "Current is measured in amperes (A).",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-23.jpg",
+          "page": 23,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 23,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Measured in units called amperes (amps) and abbreviated by the symbol A ○ Values can be very small (e.g. 0.001 A), in which case the unit is milliamp or mA 23 03"
+      }
+    },
+    {
+      "id": "c201x-ammeter",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        24
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 24",
+      "prompt": "Why is this ammeter connected in series?",
+      "answer": "The measured current must pass through it",
+      "options": [
+        "The measured current must pass through it",
+        "It measures only potential difference",
+        "It must bridge the load without carrying current",
+        "It eliminates the source voltage"
+      ],
+      "explanation": "A series connection routes circuit current through the ammeter.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-ammeter",
+        "alt": "C-201 course diagram for this question",
+        "page": 24
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-24.jpg",
+          "page": 24,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 24,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● To measure current, the ammeter is placed in series with the component ○ Different than measuring voltage or resistance where leads are connected across the component (in parallel) 24"
+      }
+    },
+    {
+      "id": "c201x-series-current",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        25
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 25",
+      "prompt": "If 0.4 A flows through the first series resistor, what flows through the third?",
+      "answer": "0.4 A",
+      "options": [
+        "0.4 A",
+        "0.2 A",
+        "1.2 A",
+        "0 A"
+      ],
+      "explanation": "Current is the same throughout one series path.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-25.jpg",
+          "page": 25,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 25,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Current does not change as it flows through a series circuit ● It is not common to connect loads in series ○ If one of the loads fails, all of the loads will lose power ○ Many older holiday lights were connected in series; when one burned out, they were all …"
+      }
+    },
+    {
+      "id": "c201x-series-open",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        25
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 25",
+      "prompt": "A series load fails open. What happens to current in the other loads in that path?",
+      "answer": "It stops",
+      "options": [
+        "It stops",
+        "It doubles",
+        "It continues unchanged",
+        "It bypasses the open automatically"
+      ],
+      "explanation": "The open breaks the only current path.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-25.jpg",
+          "page": 25,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 25,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Current Flow (Series) ● Current does not change as it flows through a series circuit ● It is not common to connect loads in series ○ If one of the loads fails, all of the loads will lose power ○ Many older holiday lights were connected in series; when one burn…"
+      }
+    },
+    {
+      "id": "c201x-branch-open",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        26
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 26",
+      "prompt": "A parallel load branch fails open while the source and other branches remain intact. What happens?",
+      "answer": "Other branches can keep operating",
+      "options": [
+        "Other branches can keep operating",
+        "All branches must open",
+        "Total current must increase",
+        "The failed branch becomes a short"
+      ],
+      "explanation": "Each remaining branch retains its own current path.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-26.jpg",
+          "page": 26,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 26,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Current in a parallel circuit is divided among the branches ○ Amount of current that flows in each branch depends on the resistance in that branch ○ If one of the loads fails, the others will continue to work ○ Newer holiday lights are connected in parallel …"
+      }
+    },
+    {
+      "id": "c201x-ohms",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        27
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 27",
+      "prompt": "What does Ω represent?",
+      "answer": "Ohms, the resistance unit",
+      "options": [
+        "Ohms, the resistance unit",
+        "Amperes, the current unit",
+        "Volts, the potential-difference unit",
+        "Watts, the power unit"
+      ],
+      "explanation": "Resistance is measured in ohms.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-27.jpg",
+          "page": 27,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 27,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Higher values measured in kilo-ohms (kΩ) or mega-ohms (MΩ) 27"
+      }
+    },
+    {
+      "id": "c201x-meter-symbol",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        28
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 28",
+      "prompt": "Which instrument symbol is shown?",
+      "answer": "Ohmmeter",
+      "options": [
+        "Ohmmeter",
+        "Ammeter",
+        "Voltmeter",
+        "Wattmeter",
+        "None of these"
+      ],
+      "explanation": "Omega identifies a resistance meter.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-ohmmeter",
+        "alt": "C-201 course diagram for this question",
+        "page": 28
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-28.jpg",
+          "page": 28,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 28,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● An ohmmeter measures the resistance between two points in a circuit ○ Test leads are placed in parallel with the component to be measured ○ Turn off the power to the circuit and disconnect one terminal of the component Schematic Symbol 28"
+      }
+    },
+    {
+      "id": "c201x-resistance-setup",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        28
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 28",
+      "prompt": "How should a component be prepared before measuring its resistance with an ohmmeter?",
+      "answer": "Turn off circuit power and disconnect one component terminal",
+      "options": [
+        "Turn off circuit power and disconnect one component terminal",
+        "Keep power on and add a parallel path",
+        "Measure only while the load is energized",
+        "Substitute the meter for a live source"
+      ],
+      "explanation": "The course specifies power off and one disconnected terminal to avoid other circuit paths.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-28.jpg",
+          "page": 28,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 28,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Turn off the power to the circuit and disconnect one terminal of the component Schematic Symbol 28"
+      }
+    },
+    {
+      "id": "c201x-color-value",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        29
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 29",
+      "prompt": "Using the chart, what resistance do brown-black-red bands specify?",
+      "answer": "1000 Ω",
+      "options": [
+        "1000 Ω",
+        "100 Ω",
+        "10000 Ω",
+        "120 Ω",
+        "None of these"
+      ],
+      "explanation": "Brown-black gives 10; red multiplies by 100.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-colors",
+        "alt": "C-201 course diagram for this question",
+        "page": 29
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-29.jpg",
+          "page": 29,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Resistance Color Coding 29"
+      }
+    },
+    {
+      "id": "c201x-tolerance",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        29
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 29",
+      "prompt": "In the tolerance position, what does gold specify?",
+      "answer": "±5%",
+      "options": [
+        "±5%",
+        "±10%",
+        "±1%",
+        "±2%"
+      ],
+      "explanation": "Gold is ±5% on the slide chart.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-29.jpg",
+          "page": 29,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Resistance Color Coding 29"
+      }
+    },
+    {
+      "id": "c201x-color-value2",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        29
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 29",
+      "prompt": "Using the chart, what resistance do yellow-violet-orange bands specify?",
+      "answer": "47 kΩ",
+      "options": [
+        "47 kΩ",
+        "4.7 kΩ",
+        "470 Ω",
+        "47 Ω",
+        "None of these"
+      ],
+      "explanation": "Yellow-violet gives 47; orange multiplies by 1000.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-colors",
+        "alt": "C-201 course diagram for this question",
+        "page": 29
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-29.jpg",
+          "page": 29,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Resistance Color Coding 29"
+      }
+    },
+    {
+      "id": "c201x-add-series",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        30
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 30",
+      "prompt": "A fourth 10 Ω resistor is added in series to this circuit. What is the new total?",
+      "answer": "40 Ω",
+      "options": [
+        "40 Ω",
+        "30 Ω",
+        "10 Ω",
+        "2.5 Ω",
+        "None of these"
+      ],
+      "explanation": "Four series 10 Ω resistors total 40 Ω.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-series-resistors",
+        "alt": "C-201 course diagram for this question",
+        "page": 30
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-30.jpg",
+          "page": 30,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 30,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● In series, individual resistances add together to increase the total resistance 30"
+      }
+    },
+    {
+      "id": "c201x-parallel-total",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        31
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 31",
+      "prompt": "What is the equivalent resistance of these three branches?",
+      "answer": "About 3.33 Ω",
+      "options": [
+        "About 3.33 Ω",
+        "30 Ω",
+        "10 Ω",
+        "5 Ω",
+        "None of these"
+      ],
+      "explanation": "Three equal 10 Ω branches give 10/3 ≈ 3.33 Ω.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-parallel-resistors",
+        "alt": "C-201 course diagram for this question",
+        "page": 31
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-31.jpg",
+          "page": 31,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 31,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Resistance (Parallel) ● In parallel, total resistance decreases when more resistors are added 31"
+      }
+    },
+    {
+      "id": "c201x-toll",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        32
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 32",
+      "prompt": "Why do parallel lanes in the toll analogy represent lower equivalent resistance?",
+      "answer": "They offer more simultaneous paths",
+      "options": [
+        "They offer more simultaneous paths",
+        "They force all traffic through every restriction in sequence",
+        "They remove the source of flow",
+        "They increase every individual restriction"
+      ],
+      "explanation": "More parallel paths allow more total flow for the same driving difference.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-32.jpg",
+          "page": 32,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 32,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Toll Booth Analogy A Single Resistor Three Resistors in Series Three Resistors in Parallel 32"
+      }
+    },
+    {
+      "id": "c201x-continuity",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        33
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 33",
+      "prompt": "Which isolated-wire reading best indicates continuity?",
+      "answer": "Very low resistance, such as 0.01 Ω",
+      "options": [
+        "Very low resistance, such as 0.01 Ω",
+        "Infinite resistance",
+        "An open/out-of-range indication",
+        "Very high resistance, such as 10 MΩ"
+      ],
+      "explanation": "A complete wire path normally has very low resistance.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-33.jpg",
+          "page": 33,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 33,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "■ If a conductor has continuity, display shows a very small resistance value (0.01 Ω) ■ If there is an open in the conductor, the display shows an out-of-range indication ○ Using a Continuity(circuit) Tester ■ Indicates continuity with a buzzing sound ■ Compos…"
+      }
+    },
+    {
+      "id": "c201x-buzzer",
+      "world": "electrical",
+      "topic": "Module 2 · Electrical Measurements",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        33
+      ],
+      "section": "Module 2 · Electrical Measurements · C201 Electrical Systems 1.pdf · PDF page 33",
+      "prompt": "What does the described continuity tester use to indicate a complete path?",
+      "answer": "A buzzing sound",
+      "options": [
+        "A buzzing sound",
+        "A supply-voltage increase",
+        "A frequency change",
+        "A fixed 100 Ω reading"
+      ],
+      "explanation": "The complete path operates the tester sounding device.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-33.jpg",
+          "page": 33,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 33,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "■ Indicates continuity with a buzzing sound ■ Composed of a power source and a sounding device ■ Placing test leads across a conductor with continuity completes the circuit 33"
+      }
+    }
+  ]
+}

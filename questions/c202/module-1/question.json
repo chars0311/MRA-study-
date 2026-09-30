@@ -1,0 +1,938 @@
+{
+  "world": "motor",
+  "topic": "Module 1 · Introduction to Electric Motor Control",
+  "mathQuestionIds": [
+    "c202-safety-shock-convert"
+  ],
+  "questions": [
+    {
+      "id": "mc-ground",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why are metal equipment enclosures grounded?",
+      "answer": "Reduce electric-shock risk",
+      "options": [
+        "Reduce electric-shock risk",
+        "Increase motor speed",
+        "Replace overload protection",
+        "Raise control voltage"
+      ],
+      "explanation": "Grounding helps reduce shock risk; it does not replace protective devices or safe work procedures.",
+      "source": "m",
+      "section": "Module 1 · Grounding, slides 4–5",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Why are metal equipment enclosures grounded?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Which purpose does grounding a metal enclosure serve?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-5.jpg",
+          "page": 5,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► The purpose of equipment grounding is to reduce the risk of shock ► If a current-carrying conductor makes contact with a metal chassis that does not have a grounding conductor, the chassis will become 🗲energized ► Touching the metal chassis provides a path …"
+      }
+    },
+    {
+      "id": "mc-tag",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "How does a warning tag differ from a physical lock?",
+      "answer": "A tag warns but does not physically restrain operation",
+      "options": [
+        "A tag warns but does not physically restrain operation",
+        "A tag physically blocks every energy source",
+        "A tag measures voltage",
+        "A tag replaces each worker’s lock"
+      ],
+      "explanation": "A lock provides a physical restraint; a tag communicates a warning.",
+      "source": "m",
+      "section": "Module 1 · Lockout/tagout, slides 10–11",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "How does a warning tag differ from a physical lock?"
+        },
+        {
+          "variant": "b",
+          "prompt": "How does a warning tag differ from a physical lock?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-10.jpg",
+          "page": 10,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Not a physical restraint like a lockout 10"
+      }
+    },
+    {
+      "id": "wb-0",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "wordbank",
+      "cloze": "___ helps reduce shock risk from metal equipment enclosures.",
+      "prompt": "___ helps reduce shock risk from metal equipment enclosures.",
+      "answer": "Grounding",
+      "options": [
+        "Grounding",
+        "Tagout",
+        "Motor starter",
+        "Overload protection"
+      ],
+      "explanation": "Grounding helps reduce shock risk from metal equipment enclosures.",
+      "source": "m",
+      "section": "Grounding, slides 4–5",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-5.jpg",
+          "page": 5,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► The purpose of equipment grounding is to reduce the risk of shock ► If a current-carrying conductor makes contact with a metal chassis that does not have a grounding conductor, the chassis will become 🗲energized ► Touching the metal chassis provides a path …"
+      }
+    },
+    {
+      "id": "wb-1",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "wordbank",
+      "cloze": "___ warns against operation but does not physically restrain it.",
+      "prompt": "___ warns against operation but does not physically restrain it.",
+      "answer": "Tagout",
+      "options": [
+        "Tagout",
+        "Grounding",
+        "Motor starter",
+        "Overload protection"
+      ],
+      "explanation": "Tagout warns against operation but does not physically restrain it.",
+      "source": "m",
+      "section": "Lockout/tagout, slides 10–11",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-10.jpg",
+          "page": 10,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Tagout involves placing a tag on a power source that states “Do Not Operate” ► Not a physical restraint like a lockout 10"
+      }
+    },
+    {
+      "id": "c202x-ground-parts",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Which parts are included in equipment grounding?",
+      "answer": "Metal enclosures, conduit and transformer cases",
+      "options": [
+        "Metal enclosures, conduit and transformer cases",
+        "Only motor windings",
+        "Only normal load-current conductors",
+        "Only plastic covers"
+      ],
+      "explanation": "These are metal parts that do not normally carry current.",
+      "source": "m",
+      "sourcePages": [
+        4
+      ],
+      "section": "Module 1 · Introduction to Electric Motor Control · C202 Electric Motor Controls.pdf · PDF page 4",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-4.jpg",
+          "page": 4,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Equipment Grounding involves connecting all metal parts of an electrical system that do not normally carry current to earth ground ● These parts include: ○ Metal Conduit ○ Raceways ○ Metal Enclosures ○ Transformer Cases ● This is accomplished by connecting the…"
+      }
+    },
+    {
+      "id": "c202x-wet",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why does a wet floor increase shock risk?",
+      "answer": "It lowers resistance between a person and ground",
+      "options": [
+        "It lowers resistance between a person and ground",
+        "It raises insulation resistance",
+        "It converts AC to DC",
+        "It changes motor phase order"
+      ],
+      "explanation": "Reduced resistance increases the shock hazard.",
+      "source": "m",
+      "sourcePages": [
+        8
+      ],
+      "section": "Module 1 · Introduction to Electric Motor Control · C202 Electric Motor Controls.pdf · PDF page 8",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-8.jpg",
+          "page": 8,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 8,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Rings, Watches, Bracelets, and Necklaces have low resistance and increase shock hazards ► Be Aware of Conditions before Working on a Piece of Equipment ► Make sure the power has been completely shut off before working on equipment ► Do Not Relay on Safety De…"
+      }
+    },
+    {
+      "id": "c202x-locks",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Several people service one machine. Which lockout arrangement is described?",
+      "answer": "Each person has their own lockout",
+      "options": [
+        "Each person has their own lockout",
+        "One shared key for everyone",
+        "Only the last worker locks out",
+        "Tags replace all locks"
+      ],
+      "explanation": "Each worker has their own lockout under the required procedure.",
+      "source": "m",
+      "sourcePages": [
+        11
+      ],
+      "section": "Module 1 · Introduction to Electric Motor Control · C202 Electric Motor Controls.pdf · PDF page 11",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-11.jpg",
+          "page": 11,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► When several people service a piece of equipment, a multiple lockout is used ► Each person should have their own lockout ► Power cannot be restored until all of the locks have been removed 11 A03"
+      }
+    },
+    {
+      "id": "c202-safety-nec",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s safety-standards overview, which code or organization is associated with installing and maintaining electrical systems and equipment?",
+      "answer": "NEC",
+      "options": [
+        "NEC",
+        "NEMA",
+        "IEC",
+        "UL",
+        "OSHA"
+      ],
+      "explanation": "NEC is the entry associated with installing and maintaining electrical systems and equipment in the slide. The other entries serve different roles.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-6.jpg",
+          "page": 6,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find NEC on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
+      }
+    },
+    {
+      "id": "c202-safety-nema",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s safety-standards overview, which code or organization is associated with publishing standards for a wide range of motor-control equipment?",
+      "answer": "NEMA",
+      "options": [
+        "NEMA",
+        "NEC",
+        "IEC",
+        "UL",
+        "OSHA"
+      ],
+      "explanation": "NEMA is the entry associated with publishing standards for a wide range of motor-control equipment in the slide. The other entries serve different roles.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-6.jpg",
+          "page": 6,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find NEMA on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
+      }
+    },
+    {
+      "id": "c202-safety-iec",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s safety-standards overview, which code or organization is associated with publishing international standards for electrical equipment, including motor-control devices?",
+      "answer": "IEC",
+      "options": [
+        "IEC",
+        "NEC",
+        "NEMA",
+        "UL",
+        "OSHA"
+      ],
+      "explanation": "IEC is the entry associated with publishing international standards for electrical equipment, including motor-control devices in the slide. The other entries serve different roles.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-6.jpg",
+          "page": 6,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find IEC on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
+      }
+    },
+    {
+      "id": "c202-safety-ul",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s safety-standards overview, which code or organization is associated with independent product safety testing and certification?",
+      "answer": "UL",
+      "options": [
+        "UL",
+        "NEC",
+        "NEMA",
+        "IEC",
+        "OSHA"
+      ],
+      "explanation": "UL is the entry associated with independent product safety testing and certification in the slide. The other entries serve different roles.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-6.jpg",
+          "page": 6,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find UL on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
+      }
+    },
+    {
+      "id": "c202-safety-osha",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s safety-standards overview, which code or organization is associated with establishing and enforcing workplace health and safety rules?",
+      "answer": "OSHA",
+      "options": [
+        "OSHA",
+        "NEC",
+        "NEMA",
+        "IEC",
+        "UL"
+      ],
+      "explanation": "OSHA is the entry associated with establishing and enforcing workplace health and safety rules in the slide. The other entries serve different roles.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-6.jpg",
+          "page": 6,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find OSHA on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
+      }
+    },
+    {
+      "id": "c202-safety-jewelry",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why do the safety rules say to remove metal jewelry?",
+      "answer": "Metal jewelry has low resistance and increases shock hazards",
+      "options": [
+        "Metal jewelry has low resistance and increases shock hazards",
+        "Jewelry raises the resistance of the grounding conductor",
+        "Jewelry prevents overload relays from operating",
+        "Only magnetic jewelry can create a hazard"
+      ],
+      "explanation": "Rings, watches, bracelets, and necklaces can provide a conductive path. The slide connects their low resistance with increased shock hazards.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 8",
+      "sourcePages": [
+        8
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-8.jpg",
+          "page": 8,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find “Remove All Metal Jewelry” and the explanation about low resistance."
+      }
+    },
+    {
+      "id": "c202-safety-power",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "What equipment condition should be established before working on it, according to the safety-rules slide?",
+      "answer": "The power has been completely shut off",
+      "options": [
+        "The power has been completely shut off",
+        "The Start button has been released",
+        "The overload relay is installed",
+        "The indicator lamp has been removed"
+      ],
+      "explanation": "The rule says to make sure power has been completely shut off. A released control button or installed protective device does not establish that condition.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 8",
+      "sourcePages": [
+        8
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-8.jpg",
+          "page": 8,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find “Be Aware of Conditions” and its instruction about completely shutting off power."
+      }
+    },
+    {
+      "id": "c202-safety-devices",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why should fuses, relays, and interlocks not be relied on as personal protection?",
+      "answer": "Those devices might fail",
+      "options": [
+        "Those devices might fail",
+        "They always increase circuit voltage",
+        "They replace the equipment grounding conductor",
+        "They guarantee that all energy sources are isolated"
+      ],
+      "explanation": "The slide explicitly states that fuses, relays, and interlocks might fail, so their presence is not proof that equipment is safe to work on.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 8",
+      "sourcePages": [
+        8
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-8.jpg",
+          "page": 8,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find “Do Not Rely on Safety Devices” and the list of devices that might fail."
+      }
+    },
+    {
+      "id": "c202-safety-prong",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why must the grounding prong on an AC plug remain intact?",
+      "answer": "Removing it eliminates the equipment ground and creates a shock hazard",
+      "options": [
+        "Removing it eliminates the equipment ground and creates a shock hazard",
+        "Removing it changes AC into DC",
+        "It is used only to hold the plug in place",
+        "It controls the overload relay’s trip setting"
+      ],
+      "explanation": "The grounding prong provides the equipment-ground connection. Removing it removes that connection rather than fixing a plug-fit problem.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 8",
+      "sourcePages": [
+        8
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-8.jpg",
+          "page": 8,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find “Never Remove the Grounding Prong” and the consequence listed beneath it."
+      }
+    },
+    {
+      "id": "c202-safety-tools",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why should tools and test equipment be kept organized?",
+      "answer": "Disorganized tools increase shock and short-circuit risks",
+      "options": [
+        "Disorganized tools increase shock and short-circuit risks",
+        "Organized tools increase available fault current",
+        "Organization eliminates the need for lockout",
+        "Tool placement changes the supply frequency"
+      ],
+      "explanation": "An unorganized pile of tools and components increases the risk of unintended electrical contact, shocks, and short circuits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 8",
+      "sourcePages": [
+        8
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-8.jpg",
+          "page": 8,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the rule about organized tools and the two risks listed under it."
+      }
+    },
+    {
+      "id": "c202-safety-hand",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "What risk is the course’s one-hand rule intended to reduce?",
+      "answer": "Current passing through the body between the hands",
+      "options": [
+        "Current passing through the body between the hands",
+        "Current flowing inside an insulated test lead",
+        "A motor changing direction",
+        "An overload relay cooling too slowly"
+      ],
+      "explanation": "The slide describes avoiding a current path through the body between the hands. This rule does not replace shutting off power or lockout.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 9",
+      "sourcePages": [
+        9
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-9.jpg",
+          "page": 9,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find “Work with One Hand” and the explanation of the hand-to-hand current path."
+      }
+    },
+    {
+      "id": "c202-safety-movement",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why do the electrical safety rules call for slow, deliberate movement?",
+      "answer": "Rapid or careless movement can lead to accidental shock",
+      "options": [
+        "Rapid or careless movement can lead to accidental shock",
+        "Slow movement increases insulation resistance permanently",
+        "Rapid movement always trips circuit breakers",
+        "Slow movement removes stored energy"
+      ],
+      "explanation": "The rule links rapid or careless movements with accidental shock; controlled movement reduces accidental contact.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 9",
+      "sourcePages": [
+        9
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-9.jpg",
+          "page": 9,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find “Always Move Slowly and Deliberately” and its stated reason."
+      }
+    },
+    {
+      "id": "c202-safety-alone",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Why does the slide advise against working alone?",
+      "answer": "Another person can shut off power or call for medical attention",
+      "options": [
+        "Another person can shut off power or call for medical attention",
+        "A second person replaces the need to shut off power",
+        "Two people can share a single personal lock",
+        "A second person prevents every electrical fault"
+      ],
+      "explanation": "The slide identifies assistance with shutting off power or calling for medical attention as the reason. It does not say a second person replaces electrical precautions.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 9",
+      "sourcePages": [
+        9
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-9.jpg",
+          "page": 9,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find “Do Not Work Alone” and the two forms of assistance described."
+      }
+    },
+    {
+      "id": "c202-safety-distractions",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Which situation conflicts with the safety rule about avoiding distractions?",
+      "answer": "Unauthorized people nearby distracting the person working",
+      "options": [
+        "Unauthorized people nearby distracting the person working",
+        "Tools arranged neatly before work",
+        "Power completely shut off before work",
+        "Slow and deliberate movements"
+      ],
+      "explanation": "The slide specifically warns about unauthorized personnel who could distract the worker.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 9",
+      "sourcePages": [
+        9
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-9.jpg",
+          "page": 9,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find “Avoid Distractions” and its reference to unauthorized personnel."
+      }
+    },
+    {
+      "id": "c202-safety-sources",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "Which energy sources are included in the lockout discussion?",
+      "answer": "Electrical, mechanical, pneumatic, and hydraulic sources",
+      "options": [
+        "Electrical, mechanical, pneumatic, and hydraulic sources",
+        "Only electrical power",
+        "Only the controller’s signal circuit",
+        "Only the motor starter coil"
+      ],
+      "explanation": "The slide lists several types of power sources. Locking out electrical power alone does not address every type listed.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 11",
+      "sourcePages": [
+        11
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-11.jpg",
+          "page": 11,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the “Power sources include” bullet and read all four examples."
+      }
+    },
+    {
+      "id": "c202-safety-shock-tingle",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s Shock Hazard Table, which current range is paired with “Mild sensation or tingling”?",
+      "answer": "Up to 1 mA",
+      "options": [
+        "Up to 1 mA",
+        "1–5 mA",
+        "5–15 mA",
+        "Above 200 mA"
+      ],
+      "explanation": "The table pairs Up to 1 mA with mild sensation or tingling. These are the slide’s study categories, not guaranteed effects or safe exposure limits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the Up to 1 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
+      }
+    },
+    {
+      "id": "c202-safety-shock-pronounced",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s Shock Hazard Table, which current range is paired with “More pronounced sensation, usually not painful”?",
+      "answer": "1–5 mA",
+      "options": [
+        "1–5 mA",
+        "5–15 mA",
+        "15–20 mA",
+        "Up to 1 mA"
+      ],
+      "explanation": "The table pairs 1–5 mA with more pronounced sensation, usually not painful. These are the slide’s study categories, not guaranteed effects or safe exposure limits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the 1–5 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
+      }
+    },
+    {
+      "id": "c202-safety-shock-reflex",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s Shock Hazard Table, which current range is paired with “Painful shock with a reflex pull-away action”?",
+      "answer": "5–15 mA",
+      "options": [
+        "5–15 mA",
+        "15–20 mA",
+        "20–50 mA",
+        "1–5 mA"
+      ],
+      "explanation": "The table pairs 5–15 mA with painful shock with a reflex pull-away action. These are the slide’s study categories, not guaranteed effects or safe exposure limits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the 5–15 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
+      }
+    },
+    {
+      "id": "c202-safety-shock-letgo",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s Shock Hazard Table, which current range is paired with “Painful shock and loss of muscle control, including inability to let go”?",
+      "answer": "15–20 mA",
+      "options": [
+        "15–20 mA",
+        "20–50 mA",
+        "50–100 mA",
+        "5–15 mA"
+      ],
+      "explanation": "The table pairs 15–20 mA with painful shock and loss of muscle control, including inability to let go. These are the slide’s study categories, not guaranteed effects or safe exposure limits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the 15–20 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
+      }
+    },
+    {
+      "id": "c202-safety-shock-breathing",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s Shock Hazard Table, which current range is paired with “Severe shock and muscular contractions with labored breathing”?",
+      "answer": "20–50 mA",
+      "options": [
+        "20–50 mA",
+        "50–100 mA",
+        "100–200 mA",
+        "15–20 mA"
+      ],
+      "explanation": "The table pairs 20–50 mA with severe shock and muscular contractions with labored breathing. These are the slide’s study categories, not guaranteed effects or safe exposure limits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the 20–50 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
+      }
+    },
+    {
+      "id": "c202-safety-shock-fibrillation",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s Shock Hazard Table, which current range is paired with “Possible ventricular fibrillation and extreme difficulty breathing”?",
+      "answer": "50–100 mA",
+      "options": [
+        "50–100 mA",
+        "100–200 mA",
+        "Above 200 mA",
+        "20–50 mA"
+      ],
+      "explanation": "The table pairs 50–100 mA with possible ventricular fibrillation and extreme difficulty breathing. These are the slide’s study categories, not guaranteed effects or safe exposure limits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the 50–100 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
+      }
+    },
+    {
+      "id": "c202-safety-shock-failure",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s Shock Hazard Table, which current range is paired with “Almost certain heart failure and possible death if not immediately treated”?",
+      "answer": "100–200 mA",
+      "options": [
+        "100–200 mA",
+        "Above 200 mA",
+        "Up to 1 mA",
+        "50–100 mA"
+      ],
+      "explanation": "The table pairs 100–200 mA with almost certain heart failure and possible death if not immediately treated. These are the slide’s study categories, not guaranteed effects or safe exposure limits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the 100–200 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
+      }
+    },
+    {
+      "id": "c202-safety-shock-burns",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "In the course’s Shock Hazard Table, which current range is paired with “Severe burns, convulsions, heart failure, and respiratory arrest”?",
+      "answer": "Above 200 mA",
+      "options": [
+        "Above 200 mA",
+        "Up to 1 mA",
+        "1–5 mA",
+        "100–200 mA"
+      ],
+      "explanation": "The table pairs Above 200 mA with severe burns, convulsions, heart failure, and respiratory arrest. These are the slide’s study categories, not guaranteed effects or safe exposure limits.",
+      "source": "m",
+      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the Above 200 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
+      }
+    }
+  ]
+}

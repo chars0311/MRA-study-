@@ -1,0 +1,135 @@
+{
+  "world": "pneumatic",
+  "topic": "Cylinders & directional control valves",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q052",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "A single-acting cylinder is powered by compressed air in how many directions?",
+      "answer": "One",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      "explanation": "A spring, gravity, or another force provides the return movement.",
+      "source": "p",
+      "section": "Single-Acting Cylinders, slide 42",
+      "topic": "Cylinders & directional control valves",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-42.jpg",
+          "page": 42,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 42,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "POWERED BY COMPRESSED AIR IN ONE DIRECTION ONLY. • TO MOVE IN ANOTHER DIRECTION, ANOTHER FORCE SUCH AS GRAVITY OR A SPRING IS USED. • THESE CYLINDERS ARE USED IN APPLICATIONS WHERE THE WILL CAUSE IT TO RETURN OR, IF THE IS LIGHT ENOUGH, A SPRING CAN BE USED TO…"
+      }
+    },
+    {
+      "id": "q054",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Where is a pneumatic muffler normally fitted to reduce noise?",
+      "answer": "At an exhaust port",
+      "options": [
+        "At an exhaust port",
+        "Inside the electric supply cable",
+        "Under a motor foot",
+        "On a voltmeter"
+      ],
+      "explanation": "A muffler or silencer reduces noise from exhausted air.",
+      "source": "p",
+      "section": "Mufflers, slide 49",
+      "topic": "Cylinders & directional control valves",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-49.jpg",
+          "page": 49,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 49,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• MUFFLER, OR SILENCERS ARE PLACED ON THE EXHAUST PORT OF THE DCV OR THE COMPONENT ITSELF TO REDUCE NOISE. • REDUCES NOISE LEVELS IN THE SAME MANNER AS THE MUFFLER DOES IN AN AUTOMOBILE. • THE SKEMATIC SYMBOL IS SHOW ON THE RIIGHT 49"
+      }
+    },
+    {
+      "id": "visual-p-double",
+      "world": "pneumatic",
+      "topic": "Cylinders & directional control valves",
+      "type": "symbol",
+      "prompt": "Which cylinder type has the two air ports shown?",
+      "answer": "Double-acting cylinder",
+      "options": [
+        "Double-acting cylinder",
+        "Spring-return single-acting cylinder",
+        "Rotary air motor",
+        "Pressure regulator"
+      ],
+      "explanation": "Air can act at the cap end or rod end. Pressure at the cap end extends the rod; pressure at the rod end retracts it.",
+      "source": "p",
+      "section": "Cylinders & directional control valves · PDF page 28",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "p-double",
+        "alt": "Course slide diagram for this question",
+        "page": 28
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-28.jpg",
+          "page": 28,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 28,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "double-acting cylinder. ► Consists of two ports. ► When pressurized air enters the cap end, the cylinder rod extends ► When pressure enters the rod end, it retracts. 28"
+      }
+    },
+    {
+      "id": "visual-p-single",
+      "world": "pneumatic",
+      "topic": "Cylinders & directional control valves",
+      "type": "symbol",
+      "prompt": "Which actuator arrangement is illustrated?",
+      "answer": "Spring-return single-acting cylinder",
+      "options": [
+        "Spring-return single-acting cylinder",
+        "Double-acting cylinder without a spring",
+        "Rotary air motor",
+        "Air receiver"
+      ],
+      "explanation": "Air drives the piston in one direction and the spring provides the return force. That is the single-acting arrangement shown in the slides.",
+      "source": "p",
+      "section": "Cylinders & directional control valves · PDF page 42",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "p-single",
+        "alt": "Course slide diagram for this question",
+        "page": 42
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-42.jpg",
+          "page": 42,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 42,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SINGLE-ACTING CYLINDERS FUNCTION • THIS TYPE OF PNEUMATIC CYLINDER IS POWERED BY COMPRESSED AIR IN ONE DIRECTION ONLY. • TO MOVE IN ANOTHER DIRECTION, ANOTHER FORCE SUCH AS GRAVITY OR A SPRING IS USED. • THESE CYLINDERS ARE USED IN APPLICATIONS WHERE THE WILL …"
+      }
+    }
+  ]
+}

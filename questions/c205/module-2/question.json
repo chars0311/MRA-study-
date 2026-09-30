@@ -1,0 +1,952 @@
+{
+  "world": "sensor",
+  "topic": "Module 2 · Valves and Relays",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q043",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "What does 5/3 describe on a directional control valve?",
+      "answer": "Five ports and three positions",
+      "options": [
+        "Five ports and three positions",
+        "Five volts and three amps",
+        "Three ports and five positions",
+        "Five cylinders and three motors"
+      ],
+      "explanation": "The notation counts ports first, then spool positions.",
+      "source": "s",
+      "section": "Directional Control Valves, slide 15",
+      "topic": "Module 2 · Valves and Relays",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-15.jpg",
+          "page": 15,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 15,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Directional Control Valves Operator Type ► The operator is used to shift a DCV’s spool to a different position. ► The most common are: ► Solenoid ► Manual ► Pneumatic pilot ► Cam-operated ► Not all DCVs used spools! Solenoid Manual Pneumatic Pilot Body Spool (…"
+      }
+    },
+    {
+      "id": "q046",
+      "world": "sensor",
+      "type": "scenario",
+      "prompt": "A relay stays on after Start is released. Its own contact bypasses Start. Is that necessarily a fault?",
+      "answer": "No, it is normal seal-in behavior",
+      "options": [
+        "No, it is normal seal-in behavior",
+        "Yes, every relay must drop out immediately",
+        "Yes, it proves a short to ground",
+        "No, because Stop is unnecessary"
+      ],
+      "explanation": "The auxiliary contact is the intended memory path. Stop opens the circuit to drop out the relay.",
+      "source": "s",
+      "section": "Control Relay as a memory circuit, slide 25",
+      "topic": "Module 2 · Valves and Relays",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-25.jpg",
+          "page": 25,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 25,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "CONTROL RELAY as a memory circuit When Start 1PB is pressed, 1CR is energized and closes 1CRA. When 1PB is released, 1CRA keeps 1CR energized. A momentary press of 1PB keeps 1CR permanently on! The circuit is killed by pressing 2PB, also called the eStop 25 A1…"
+      }
+    },
+    {
+      "id": "wb-31",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "wordbank",
+      "cloze": "A ___ relay uses electronic switching with no moving parts.",
+      "prompt": "A ___ relay uses electronic switching with no moving parts.",
+      "answer": "Solid-state",
+      "options": [
+        "Solid-state",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Solid-state relay uses electronic switching with no moving parts.",
+      "source": "s",
+      "section": "Relays, slide 26",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-26.jpg",
+          "page": 26,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 26,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solid State (SSR)– No moving parts, with switching done by transistors Electromechanical (EMR)– A magnetized coil moves switch contacts EMR SSR 26"
+      }
+    },
+    {
+      "id": "wb-32",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "wordbank",
+      "cloze": "An ___ relay uses a magnetized coil to move contacts.",
+      "prompt": "An ___ relay uses a magnetized coil to move contacts.",
+      "answer": "Electromechanical",
+      "options": [
+        "Electromechanical",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "An Electromechanical relay uses a magnetized coil to move contacts.",
+      "source": "s",
+      "section": "Relays, slide 26",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-26.jpg",
+          "page": 26,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 26,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Relays can be either: Solid State (SSR)– No moving parts, with switching done by transistors Electromechanical (EMR)– A magnetized coil moves switch contacts EMR SSR 26"
+      }
+    },
+    {
+      "id": "visual-s-seal",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "symbol",
+      "prompt": "After Start 1PB is released, which contact maintains power to 1CR?",
+      "answer": "1CRA",
+      "options": [
+        "1CRA",
+        "2PB alone",
+        "1PB alone",
+        "The 1CR coil acts as a switch"
+      ],
+      "explanation": "The energized relay closes 1CRA, providing the parallel holding path around Start. Pressing Stop 2PB breaks the series path.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · PDF page 25",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-seal",
+        "alt": "Course slide diagram for this question",
+        "page": 25
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-25.jpg",
+          "page": 25,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 25,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "1CRA. When 1PB is released, 1CRA keeps 1CR energized. A momentary press of 1PB keeps 1CR permanently on! The circuit is killed by pressing 2PB, also called the eStop 25 A15 A18 A30"
+      }
+    },
+    {
+      "id": "visual-s-relay",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "symbol",
+      "prompt": "When 1CR energizes, how do the red and green lamps change?",
+      "answer": "Red turns on; green turns off",
+      "options": [
+        "Red turns on; green turns off",
+        "Red turns off; green turns on",
+        "Both turn on",
+        "Both turn off"
+      ],
+      "explanation": "1CRA is normally open and closes to energize the red lamp. 1CRB is normally closed and opens to de-energize the green lamp.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · PDF page 23",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-relay",
+        "alt": "Course slide diagram for this question",
+        "page": 23
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-23.jpg",
+          "page": 23,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 23,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "energized, it closes and turns the red light on. This 1 CRB is the normally closed contact. When 1CR is energized, it opens and turns the green light off. 23 A29"
+      }
+    },
+    {
+      "id": "c205x-dcv-function",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "What does a directional control valve primarily control?",
+      "answer": "Which ports receive air or hydraulic fluid",
+      "options": [
+        "Which ports receive air or hydraulic fluid",
+        "Only the maximum downstream pressure",
+        "Only the rate of flow in one fixed path",
+        "Only whether electrical control voltage is present"
+      ],
+      "explanation": "A DCV routes pneumatic or hydraulic flow to different ports.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 14",
+      "sourcePages": [
+        14
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-14.jpg",
+          "page": 14,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 14,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "DCV – Directional Control Valve Valves and Relays Controls the flow of air (pneumatic) or fluid (hydraulic) to different ports (pressurized lines) Are operated by: • Hand (manual) • Electric (solenoid) • Air/Hydraulic (pilot) • Cam (like a limit switch) 14 MOD…"
+      }
+    },
+    {
+      "id": "c205x-dcv-operators",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "Which is the complete set of operator types listed here for DCVs?",
+      "answer": "Manual, solenoid, pilot and cam",
+      "options": [
+        "Manual, solenoid, pilot and cam",
+        "Manual and solenoid only",
+        "Pilot and cam only",
+        "Solenoid only",
+        "None of these"
+      ],
+      "explanation": "The slide includes hand, electric, air/hydraulic pilot, and cam operation.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 14",
+      "sourcePages": [
+        14
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-14.jpg",
+          "page": 14,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 14,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Air/Hydraulic (pilot) • Cam (like a limit switch) 14 MODULE 2"
+      }
+    },
+    {
+      "id": "c205x-spool",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "In the spool-type DCV shown in the course, what does the operator move?",
+      "answer": "The spool to a different position",
+      "options": [
+        "The spool to a different position",
+        "Only the return spring, with no change in flow paths",
+        "The valve pressure setting instead of its flow paths",
+        "The cylinder piston directly, without changing valve connections"
+      ],
+      "explanation": "The operator shifts the spool so its internal connections align with different ports.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · PDF page 15",
+      "sourcePages": [
+        15
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "repair-spool",
+        "page": 15,
+        "alt": "Course circuit diagram for this question"
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-15.jpg",
+          "page": 15,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 15,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "spool to a different position. ► The most common are: ► Solenoid ► Manual ► Pneumatic pilot ► Cam-operated ► Not all DCVs used spools! Solenoid Manual Pneumatic Pilot Body Spool (slides back and forth) Solenoids move the spool Lever moves the spool Ports 15 Th…"
+      }
+    },
+    {
+      "id": "c205x-five-three",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "A valve is designated 5/3. What do the numbers describe?",
+      "answer": "Five ports and three positions",
+      "options": [
+        "Five ports and three positions",
+        "Five positions and three ports",
+        "Five coils and three springs",
+        "Five pressure settings and three exhausts",
+        "None of these"
+      ],
+      "explanation": "The slide identifies the valve as five ports with three positions.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 15",
+      "sourcePages": [
+        15
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-15.jpg",
+          "page": 15,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 15,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "This is a 5/3 DCV: 5 ports with 3 positions"
+      }
+    },
+    {
+      "id": "c205x-dcv-a-path",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "symbol",
+      "prompt": "Which port connections are shown in this operated position?",
+      "answer": "P to A, and B to S",
+      "options": [
+        "P to A, and B to S",
+        "P to B, and A to R",
+        "P to R, and A to B",
+        "P to S, and A to R",
+        "None of these"
+      ],
+      "explanation": "With solenoid A energized in this example, the slide identifies A–P and B–S connections.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 16",
+      "sourcePages": [
+        16
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-dcv-a",
+        "alt": "C-205 slide diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-16.jpg",
+          "page": 16,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solenoid A energized, spool slides right. A-P and B-S are connected Solenoid B energized, spool slides left. A-R and B-P are connected 16"
+      }
+    },
+    {
+      "id": "c205x-dcv-b-path",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "symbol",
+      "prompt": "Which port connections are shown in this operated position?",
+      "answer": "P to B, and A to R",
+      "options": [
+        "P to B, and A to R",
+        "P to A, and B to S",
+        "P to R, and A to S",
+        "A to B, and R to S",
+        "None of these"
+      ],
+      "explanation": "With solenoid B energized in this example, the slide identifies A–R and B–P connections.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 16",
+      "sourcePages": [
+        16
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-dcv-b",
+        "alt": "C-205 slide diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-16.jpg",
+          "page": 16,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solenoid A energized, spool slides right. A-P and B-S are connected Solenoid B energized, spool slides left. A-R and B-P are connected 16"
+      }
+    },
+    {
+      "id": "c205x-dcv-neutral",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "symbol",
+      "prompt": "In the centered valve example, both solenoids are unenergized. What flow condition does the slide specify?",
+      "answer": "No flow through the centered valve",
+      "options": [
+        "No flow through the centered valve",
+        "Pressure always goes to A",
+        "Pressure always goes to B",
+        "Both solenoids automatically energize"
+      ],
+      "explanation": "This particular example is described as centered with no flow. It is not a claim about every 5/3 center configuration.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 16",
+      "sourcePages": [
+        16
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-dcv-center",
+        "alt": "C-205 slide diagram for this question",
+        "page": 16
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-16.jpg",
+          "page": 16,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Unoperated: Both solenoids are unenergized, spool is in the center, no flow Pressure Pressure PressureExhaust Exhaust Solenoid A energized, spool slides right. A-P and B-S are connected Solenoid B energized, spool slides left. A-R and B-P are connected 16"
+      }
+    },
+    {
+      "id": "c205x-five-two",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "How does a 5/2 DCV differ from a 5/3 DCV by designation?",
+      "answer": "It has two positions instead of three",
+      "options": [
+        "It has two positions instead of three",
+        "It has two ports instead of five",
+        "It has only two electrical wires",
+        "It uses only two exhaust silencers"
+      ],
+      "explanation": "The first number counts ports; the second counts positions. Both have five ports.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 17",
+      "sourcePages": [
+        17
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-17.jpg",
+          "page": 17,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 17,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "How to “read” a DCV on a power diagram This is a 5/2 DCV: 5 ports with 2 positions Only the spool is shown on power diagrams Non - Energized: The spring pushes the spool to the left Energized: The solenoid pushes the spool to the right A is pressurized ( red )…"
+      }
+    },
+    {
+      "id": "c205x-spring-return",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "In a single-solenoid 5/2 directional-control valve with a mechanical return, what returns the spool when the solenoid is de-energized?",
+      "answer": "The spring",
+      "options": [
+        "The spring",
+        "The opposite electrical solenoid",
+        "The lamp circuit",
+        "A timer contact"
+      ],
+      "explanation": "The mechanical return spring moves the spool back when the solenoid is de-energized.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 17",
+      "sourcePages": [
+        17
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-17.jpg",
+          "page": 17,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 17,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Energized: The spring pushes the spool to the left Energized: The solenoid pushes the spool to the right A is pressurized ( red ), retracting the cylinder B is pressurized ( red ), extending the cylinder"
+      }
+    },
+    {
+      "id": "c205x-manual-override",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "What is the purpose of a manual override on an electrically operated directional-control valve?",
+      "answer": "Actuate the valve independently of its electrical switch signal",
+      "options": [
+        "Actuate the valve independently of its electrical switch signal",
+        "Permanently bypass the machine guard",
+        "Change a 5/2 valve into a 5/3 valve",
+        "Increase the coil voltage rating"
+      ],
+      "explanation": "The override permits checking valve operation without the usual electrical command. This is a feature-identification question, not an instruction to bypass machine safeguards.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 19",
+      "sourcePages": [
+        19
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-19.jpg",
+          "page": 19,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 19,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "These are useful for troubleshooting the valves. The tech can activate the valve without needing to operate a switch or even have power. A ball-point pen or small Phillips screwdriver is used Solenoid-operated pneumatic valves have manual overrides Solenoid Ha…"
+      }
+    },
+    {
+      "id": "c205x-relay-command",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "What makes a relay an electrically operated switch?",
+      "answer": "An electrical input changes its output contact state",
+      "options": [
+        "An electrical input changes its output contact state",
+        "Machine motion must press its lever directly",
+        "Fluid pressure must move its diaphragm directly",
+        "An operator must rotate its contact wafer"
+      ],
+      "explanation": "A relay receives an electrical signal and changes its switching state.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 20",
+      "sourcePages": [
+        20
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-20.jpg",
+          "page": 20,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 20,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Relays are electrically operated switches that open and close their circuits by receiving electrical signals from outside sources. Relays are usually heavier duty than pushbuttons and manual switches: they can carry a higher electrical current and hold up to m…"
+      }
+    },
+    {
+      "id": "c205x-relay-duty",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "Which relay category is described for heavy-duty industrial operation over long periods?",
+      "answer": "Machine control relay",
+      "options": [
+        "Machine control relay",
+        "General-purpose light-duty relay",
+        "Manual pushbutton",
+        "Two-position selector"
+      ],
+      "explanation": "The slide contrasts the heavy-duty machine control relay with the low-cost, light-duty general-purpose relay.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 21",
+      "sourcePages": [
+        21
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-21.jpg",
+          "page": 21,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 21,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Machine Control Relay Parts of a relay What a relay looks like on a ladder diagram outlined in yellow 21"
+      }
+    },
+    {
+      "id": "c205x-detached",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "A relay coil and its contacts appear on different rungs. What does this represent?",
+      "answer": "Detached symbols for parts of the same relay",
+      "options": [
+        "Detached symbols for parts of the same relay",
+        "A drawing fault because every relay part must be adjacent",
+        "Several unrelated relays with identical labels",
+        "A pneumatic-only drawing convention"
+      ],
+      "explanation": "The slide explicitly shows coil and contact symbols on different rungs as detached symbology.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 22",
+      "sourcePages": [
+        22
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-22.jpg",
+          "page": 22,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 22,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Machine Control Relay Many switches and different combinations of switches can be ganged together within a relay 22"
+      }
+    },
+    {
+      "id": "c205x-relay-nc",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "symbol",
+      "prompt": "Which contact is normally closed in the pictured relay circuit?",
+      "answer": "1CRB",
+      "options": [
+        "1CRB",
+        "1CRA",
+        "1PB",
+        "The coil marked 1CR"
+      ],
+      "explanation": "1CRB opens when the relay energizes, switching the green lamp off. 1CRA is normally open.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 23",
+      "sourcePages": [
+        23
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-relay",
+        "alt": "C-205 slide diagram for this question",
+        "page": 23
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-23.jpg",
+          "page": 23,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 23,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "This 1 CRB is the normally closed contact. When 1CR is energized, it opens and turns the green light off. 23 A29"
+      }
+    },
+    {
+      "id": "c205x-relay-reset",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "symbol",
+      "prompt": "When this relay coil drops out, what happens to its NO and NC contacts?",
+      "answer": "NO opens and NC closes",
+      "options": [
+        "NO opens and NC closes",
+        "NO closes and NC opens",
+        "Both close",
+        "Both open"
+      ],
+      "explanation": "De-energizing restores the contacts to their normal states. The pictured relay uses both NO and NC contacts.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 24 · diagram on page 23",
+      "sourcePages": [
+        24,
+        23
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-relay",
+        "alt": "C-205 slide diagram for this question",
+        "page": 23
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-24.jpg",
+          "page": 24,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-23.jpg",
+          "page": 23,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 23,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "energized, it closes and turns the red light on. This 1 CRB is the normally closed contact. When 1CR is energized, it opens and turns the green light off. 23 A29"
+      }
+    },
+    {
+      "id": "c205x-seal-release",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "symbol",
+      "prompt": "The relay is sealed in. What happens when Stop 2PB is pressed?",
+      "answer": "1CR de-energizes and its holding contact opens",
+      "options": [
+        "1CR de-energizes and its holding contact opens",
+        "1CR stays on because 1CRA bypasses Stop",
+        "Only the Start button changes state",
+        "The coil changes to a timed output"
+      ],
+      "explanation": "Stop is in series with both Start and its bypass contact, so it interrupts the holding circuit.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 25",
+      "sourcePages": [
+        25
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-seal",
+        "alt": "C-205 slide diagram for this question",
+        "page": 25
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-25.jpg",
+          "page": 25,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 25,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "CONTROL RELAY as a memory circuit When Start 1PB is pressed, 1CR is energized and closes 1CRA. When 1PB is released, 1CRA keeps 1CR energized. A momentary press of 1PB keeps 1CR permanently on! The circuit is killed by pressing 2PB, also called the eStop 25 A1…"
+      }
+    },
+    {
+      "id": "c205x-ssr-emr",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "Which comparison correctly distinguishes SSR and EMR operation?",
+      "answer": "SSR uses transistors; EMR uses a magnetized coil to move contacts",
+      "options": [
+        "SSR uses transistors; EMR uses a magnetized coil to move contacts",
+        "SSR moves mechanical contacts; EMR has no moving parts",
+        "Both use only pneumatic pilots",
+        "Both are manual selector switches"
+      ],
+      "explanation": "The slide contrasts solid-state switching with electromechanical contact movement.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 26",
+      "sourcePages": [
+        26
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-26.jpg",
+          "page": 26,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 26,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solid State (SSR)– No moving parts, with switching done by transistors Electromechanical (EMR)– A magnetized coil moves switch contacts EMR SSR 26"
+      }
+    },
+    {
+      "id": "c205x-relay-selection",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "Which is the complete set of selection checks among these choices?",
+      "answer": "All three: mounting, AC/DC compatibility, and input/output ratings",
+      "options": [
+        "All three: mounting, AC/DC compatibility, and input/output ratings",
+        "Mounting only",
+        "AC/DC compatibility only",
+        "Input/output ratings only",
+        "None of these"
+      ],
+      "explanation": "The selection slide includes mounting, AC/DC operation, and input/output voltage and current ratings.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 27",
+      "sourcePages": [
+        27
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-27.jpg",
+          "page": 27,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 27,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "o Output Voltage o Input Voltage o Output Current o Input Current 27"
+      }
+    },
+    {
+      "id": "c205x-ssr-rating",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "Can an AC-rated SSR always be substituted for a DC-rated SSR?",
+      "answer": "No; its AC/DC rating must match the application",
+      "options": [
+        "No; its AC/DC rating must match the application",
+        "Yes; all SSRs are interchangeable",
+        "Yes; if the case dimensions match",
+        "Yes; if the input LED illuminates"
+      ],
+      "explanation": "The slide cautions that AC and DC SSRs are not interchangeable.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 28",
+      "sourcePages": [
+        28
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-28.jpg",
+          "page": 28,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 28,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SSRs are specified for AC or DC, they’re not interchangeable Testing a Solid-State Relay Usually, a few voltage checks can determine is an SSR is good: • With the control voltage is applied to the SSR, does the output change state? • Is the line voltage that s…"
+      }
+    },
+    {
+      "id": "c205x-ssr-line",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "scenario",
+      "prompt": "An SSR circuit has no proper line voltage feeding its load. What should be checked before condemning the SSR?",
+      "answer": "The load supply and its connections",
+      "options": [
+        "The load supply and its connections",
+        "The control input alone, ignoring the missing load supply",
+        "The SSR output alone, without restoring its supply",
+        "The relay mounting style rather than its supply"
+      ],
+      "explanation": "The slide checks the line supply first. Missing supply voltage prevents normal operation even with a good SSR.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 29",
+      "sourcePages": [
+        29
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-29.jpg",
+          "page": 29,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Is the line voltage that supplies the load good? This diagram is for an AC circuit with a “sinking” SSR (covered later). With a DC SSR or a sourcing SSR, current flow direction will change where you measure. If no or low voltage is measured here, the problem i…"
+      }
+    },
+    {
+      "id": "c205x-ssr-switch",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "scenario",
+      "prompt": "Control voltage is present before a closed command switch but absent after it at the SSR input. Which item is implicated?",
+      "answer": "The command switch or its connection",
+      "options": [
+        "The command switch or its connection",
+        "The SSR load-side output before its command input",
+        "The load voltage rating alone",
+        "The SSR mounting method"
+      ],
+      "explanation": "The course checks voltage after the closed switch because a failed switch or connection can prevent the control signal from reaching the SSR.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 30",
+      "sourcePages": [
+        30
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-30.jpg",
+          "page": 30,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 30,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Is the control voltage good? With the switch closed, measure after the switch too. Switches are always a source of problems. If no or low voltage is measured in either spot, the problem is not the SSR. The switch is bad if no voltage is measured at the SSR whe…"
+      }
+    },
+    {
+      "id": "c205x-ssr-output",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "scenario",
+      "prompt": "Correct line and control voltages are present, but the SSR fails to switch its output as expected. Which component is now suspect?",
+      "answer": "The SSR",
+      "options": [
+        "The SSR",
+        "The command switch even though its input signal is verified",
+        "The power supply even though its voltage is verified",
+        "The mounting method instead of electrical operation"
+      ],
+      "explanation": "After confirming the required supply and command, failure of the expected output state points to the SSR.",
+      "source": "s",
+      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 31",
+      "sourcePages": [
+        31
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-31.jpg",
+          "page": 31,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 31,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "here, the problem is the SSR. 31"
+      }
+    }
+  ]
+}

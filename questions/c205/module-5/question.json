@@ -1,0 +1,133 @@
+{
+  "world": "sensor",
+  "topic": "Module 5 · Advanced Systems",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "module-check-2",
+      "world": "sensor",
+      "topic": "Module 5 · Advanced Systems",
+      "type": "quiz",
+      "prompt": "A momentary pushbutton 1PB directly commands solenoid 1-Sol in jog mode, with no seal-in path. When is 1-Sol energized?",
+      "answer": "While 1PB is pressed",
+      "options": [
+        "While 1PB is pressed",
+        "Continuously after one press",
+        "Only after power is removed",
+        "Only when the cylinder is disconnected"
+      ],
+      "explanation": "The advanced-systems slide distinguishes continuous automatic operation from jogging while 1PB is pressed.",
+      "source": "s",
+      "section": "Module 5 · Two Modes of Operation, slide 46",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-46.jpg",
+          "page": 46,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 46,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Two Modes of Operation: Automatic and Jog (manual) Automatic Mode runs continuously after a momentary press of 1PB. Jog mode: 1-Sol only energizes when 1PB is pressed. 46"
+      }
+    },
+    {
+      "id": "c205x-cylinder-sync",
+      "world": "sensor",
+      "topic": "Module 5 · Advanced Systems",
+      "type": "quiz",
+      "prompt": "What mechanical arrangement can help cylinders move together when they must work in parallel?",
+      "answer": "Attach them to the same machine part",
+      "options": [
+        "Attach them to the same machine part",
+        "Operate one without a load",
+        "Use unrelated timer presets only",
+        "Remove both position inputs"
+      ],
+      "explanation": "The slide suggests mechanically linking parallel cylinders to the same machine part; other arrangements use flow controls and limit switches.",
+      "source": "s",
+      "section": "Module 5 · Advanced Systems · C205 Sensor Logic Systems.pdf · PDF page 45",
+      "sourcePages": [
+        45
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-45.jpg",
+          "page": 45,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 45,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "them to the same machine part. For any other arrangement, flow control valves and limit switches are used. Multiple Cylinders in a Machine 45 MODULE 5 ADVANCED SYSTEMS DAY 3"
+      }
+    },
+    {
+      "id": "c205x-jog-auto",
+      "world": "sensor",
+      "topic": "Module 5 · Advanced Systems",
+      "type": "quiz",
+      "prompt": "Which comparison matches the course operating modes?",
+      "answer": "Automatic continues after a momentary Start; jog requires the button to remain pressed",
+      "options": [
+        "Automatic continues after a momentary Start; jog requires the button to remain pressed",
+        "Jog always seals in; automatic never seals in",
+        "Both modes require a latched limit switch",
+        "Both modes stop immediately when Start is released"
+      ],
+      "explanation": "The slide contrasts continuous automatic operation with hold-to-run jog operation.",
+      "source": "s",
+      "section": "Module 5 · Advanced Systems · C205 Sensor Logic Systems.pdf · PDF page 46",
+      "sourcePages": [
+        46
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-46.jpg",
+          "page": 46,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 46,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Two Modes of Operation: Automatic and Jog (manual) Automatic Mode runs continuously after a momentary press of 1PB. Jog mode: 1-Sol only energizes when 1PB is pressed. 46"
+      }
+    },
+    {
+      "id": "c205x-manual-guidance",
+      "world": "sensor",
+      "topic": "Module 5 · Advanced Systems",
+      "type": "quiz",
+      "prompt": "Which is the complete group of manual-control practices listed in the course?",
+      "answer": "All three: slow jogging, mode lockouts, and pushbutton jogging",
+      "options": [
+        "All three: slow jogging, mode lockouts, and pushbutton jogging",
+        "Slow jogging only",
+        "Mode lockouts only",
+        "Pushbutton jogging only",
+        "None of these"
+      ],
+      "explanation": "All three appear in the manual-control guidance, which also specifies relay control of solenoids and no manual overrides in that operating context.",
+      "source": "s",
+      "section": "Module 5 · Advanced Systems · C205 Sensor Logic Systems.pdf · PDF page 47",
+      "sourcePages": [
+        47
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-47.jpg",
+          "page": 47,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 47,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "No manual overrides! Jog at slow speeds Use mode lockouts Use only pushbuttons to jog 47"
+      }
+    }
+  ]
+}

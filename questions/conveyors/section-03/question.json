@@ -1,0 +1,156 @@
+{
+  "world": "conveyor",
+  "topic": "Conveyor Belt Splicing",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q078",
+      "world": "conveyor",
+      "type": "quiz",
+      "prompt": "What does conveyor belt splicing do?",
+      "answer": "Joins the two belt ends",
+      "options": [
+        "Joins the two belt ends",
+        "Measures motor voltage",
+        "Adds a new drive motor",
+        "Removes all belt tension permanently"
+      ],
+      "explanation": "A splice joins the ends into a continuous belt.",
+      "source": "c",
+      "section": "Conveyor Belt Splicing, slide 9",
+      "topic": "Conveyor Belt Splicing",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-9.jpg",
+          "page": 9,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 9,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Conveyor Belt Splicing Conveyor belt splicing is the process of joining two ends of a conveyor belt to ensure continuous operation. Proper splicing improves performance, safety, and longevity of the belt. The splice is often the weakest link in a belt system; …"
+      }
+    },
+    {
+      "id": "q079",
+      "world": "conveyor",
+      "type": "quiz",
+      "prompt": "Which splicing method uses fasteners?",
+      "answer": "Mechanical splicing",
+      "options": [
+        "Mechanical splicing",
+        "Vulcanized splicing",
+        "Cold bonding",
+        "Welding the rollers"
+      ],
+      "explanation": "Mechanical splicing joins belt ends with fasteners for quick installation.",
+      "source": "c",
+      "section": "Types of Splicing, slide 11",
+      "topic": "Conveyor Belt Splicing",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-11.jpg",
+          "page": 11,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "1. Mechanical Splicing – Uses metal fasteners for quick installation. 2. Vulcanized Splicing – Uses heat and pressure for a seamless joint. 3. Cold Bond Splicing – Uses chemical adhesives instead of heat. 11 VIDEO OF MECHANICAL SPLICING USING A METAL Clipper® …"
+      }
+    },
+    {
+      "id": "q080",
+      "world": "conveyor",
+      "type": "quiz",
+      "prompt": "Which splicing method uses heat and pressure?",
+      "answer": "Vulcanized splicing",
+      "options": [
+        "Vulcanized splicing",
+        "Cold bonding",
+        "Mechanical lacing",
+        "A hinge pin alone"
+      ],
+      "explanation": "Vulcanizing uses heat and pressure; cold bonding uses adhesive.",
+      "source": "c",
+      "section": "Types of Splicing, slide 11",
+      "topic": "Conveyor Belt Splicing",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-11.jpg",
+          "page": 11,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "2. Vulcanized Splicing – Uses heat and pressure for a seamless joint. 3. Cold Bond Splicing – Uses chemical adhesives instead of heat. 11 VIDEO OF MECHANICAL SPLICING USING A METAL Clipper® Wire Hook Fastener Installation On Conveyor Belt"
+      }
+    },
+    {
+      "id": "q081",
+      "world": "conveyor",
+      "type": "quiz",
+      "prompt": "What locks together the ends of a mechanical splice?",
+      "answer": "Hinge pin or clip",
+      "options": [
+        "Hinge pin or clip",
+        "A capacitor",
+        "A pressure gauge",
+        "A photoelectric lens"
+      ],
+      "explanation": "The hinge pin or clip secures the intermeshed fastener ends.",
+      "source": "c",
+      "section": "Components of a Mechanical Splice, slide 16",
+      "topic": "Conveyor Belt Splicing",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-16.jpg",
+          "page": 16,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 16,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "- Hinge pin or clip locking the joint - Optional protective covers 16"
+      }
+    },
+    {
+      "id": "visual-c-splice",
+      "world": "conveyor",
+      "topic": "Conveyor Belt Splicing",
+      "type": "symbol",
+      "prompt": "Which conveyor-belt joining method is pictured?",
+      "answer": "Mechanical splice using wire-hook fasteners",
+      "options": [
+        "Mechanical splice using wire-hook fasteners",
+        "Vulcanized splice",
+        "Cold-bond adhesive splice",
+        "Welded roller chain"
+      ],
+      "explanation": "The photograph shows interlocking wire hooks at the belt joint. These are mechanical fasteners, rather than a bonded or vulcanized joint.",
+      "source": "c",
+      "section": "Conveyor Belt Splicing · PDF page 10",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c-splice",
+        "alt": "Course slide diagram for this question",
+        "page": 10
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/c-10.jpg",
+          "page": 10,
+          "title": "Conveyors.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Use the labeled components and operating conditions on the review slide to follow the explanation above."
+      }
+    }
+  ]
+}

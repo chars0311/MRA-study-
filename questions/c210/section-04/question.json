@@ -1,0 +1,36 @@
+{
+  "world": "mechanical",
+  "topic": "Day 4 · Drive-train calculations & shaft alignment",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "module-check-6",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "type": "quiz",
+      "prompt": "In drive-train calculations, what effect must still be considered for idler gears?",
+      "answer": "Direction of rotation",
+      "options": [
+        "Direction of rotation",
+        "An added final speed ratio",
+        "An added final torque ratio",
+        "Transformer voltage"
+      ],
+      "explanation": "The Day 4 review says to ignore idlers for speed and torque ratio, but include their effect on direction.",
+      "source": "g",
+      "section": "Day 4 · Drive-train calculation review, slide 139",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/g-139.jpg",
+          "page": 139,
+          "title": "C210 Mechanical Power Sys.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 139,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "To calculate speed, direction and torque of gears throughout a drive train: ⮚ Start with the speed, torque and direction of the motor as the 1st driven or input gear. ⮚ Ignore idlers, except for direction change. They do not affect torque or speed ⮚ Use the Ge…"
+      }
+    }
+  ]
+}

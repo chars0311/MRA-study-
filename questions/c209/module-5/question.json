@@ -1,0 +1,36 @@
+{
+  "world": "pneumatic",
+  "topic": "Module 5 · Pneumatic DCV Applications",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "module-check-3",
+      "world": "pneumatic",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "type": "quiz",
+      "prompt": "What is another name for a cam-operated valve?",
+      "answer": "Roller-operated valve",
+      "options": [
+        "Roller-operated valve",
+        "Pressure gauge",
+        "Air filter",
+        "Compressor"
+      ],
+      "explanation": "The slide calls a cam-operated valve a roller-operated valve and describes mechanical actuation.",
+      "source": "p",
+      "section": "Module 5 · Cam-operated valves, slide 90",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-90.jpg",
+          "page": 90,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 90,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Also known as a roller operated valve. ► Designed to function similar to an electrical limit switch. ► It is a two-position DCV mechanically actuated by the extension or ion of the cylinder rod. ► slowing a cylinder is achieved by restricting the exhaust air…"
+      }
+    }
+  ]
+}

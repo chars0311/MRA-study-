@@ -1,0 +1,1364 @@
+{
+  "world": "motor",
+  "topic": "Module 4 · Control Ladder Logic",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "mc-and",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Two normally open contacts in series represent which logic?",
+      "answer": "AND",
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "NAND"
+      ],
+      "explanation": "Series NO contacts require both input paths to close.",
+      "source": "m",
+      "section": "Module 4 · AND logic, slides 67–68",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Two normally open contacts in series represent which logic?"
+        },
+        {
+          "variant": "b",
+          "prompt": "An output needs both NO inputs closed. Which logic is represented?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-68.jpg",
+          "page": 68,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 68,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Application: a two hand circuit requires both hands to start a machine ► The red lamp turns on only when PB1 AND PB2 are pressed 68 A31 A32 A33 A32 A3S A36"
+      }
+    },
+    {
+      "id": "mc-or",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Two normally open contacts in parallel represent which logic?",
+      "answer": "OR",
+      "options": [
+        "OR",
+        "AND",
+        "NOR",
+        "NOT"
+      ],
+      "explanation": "Parallel NO contacts let either input complete the circuit.",
+      "source": "m",
+      "section": "Module 4 · OR logic, slides 67–69",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Two normally open contacts in parallel represent which logic?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Either NO input can complete a path to the output. Which logic is this?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-69.jpg",
+          "page": 69,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 69,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Two normally-open switches wires in parallel ► Closing either of the switches will energize the output ► Closing both switches will also energize the output ► Application: remote-start button ► The red lamp turns on when PB1 OR PB2 is pressed 69"
+      }
+    },
+    {
+      "id": "mc-nor",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Two normally closed contacts in series represent which logic?",
+      "answer": "NOR",
+      "options": [
+        "NOR",
+        "OR",
+        "AND",
+        "Memory"
+      ],
+      "explanation": "Series NC contacts conduct only while neither input is actuated.",
+      "source": "m",
+      "section": "Module 4 · NOR logic, slides 67–71",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Two normally closed contacts in series represent which logic?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Either input opening its NC contact turns the output off. Which logic is this?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-71.jpg",
+          "page": 71,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 71,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Two normally-closed switches in series ► Opening either of the switches will de-energize the output ► Opening both of the switches will also de-energize the output ► Application: remote-stop button 71"
+      }
+    },
+    {
+      "id": "mc-nand",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Two normally closed contacts in parallel represent which logic?",
+      "answer": "NAND",
+      "options": [
+        "NAND",
+        "AND",
+        "NOR",
+        "Memory"
+      ],
+      "explanation": "With parallel NC contacts, both must open before all output paths are interrupted.",
+      "source": "m",
+      "section": "Module 4 · NAND logic, slides 67–72",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Two normally closed contacts in parallel represent which logic?"
+        },
+        {
+          "variant": "b",
+          "prompt": "An output turns off only when both parallel NC paths open. Which logic is this?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-72.jpg",
+          "page": 72,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 72,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Two normally-closed switches in parallel ► Opening either of the switches will have no effect on the circuit; the output remains energized ► It is necessary to open all of the switches to de-energize the output 72"
+      }
+    },
+    {
+      "id": "mc-momentary",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "What happens when a momentary pushbutton is released?",
+      "answer": "It returns to its normal position",
+      "options": [
+        "It returns to its normal position",
+        "It stays latched indefinitely",
+        "It changes supply frequency",
+        "It resets the overload setting"
+      ],
+      "explanation": "A momentary operator returns when released; a maintained operator holds its position.",
+      "source": "m",
+      "section": "Module 4 · Pushbuttons, slide 59",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "What happens when a momentary pushbutton is released?"
+        },
+        {
+          "variant": "b",
+          "prompt": "Which behavior identifies a momentary operator?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-59.jpg",
+          "page": 59,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 59,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A momentary switch returns to its original position once released ► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted acro…"
+      }
+    },
+    {
+      "id": "mc-ladder",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Where are outputs normally placed on a ladder rung?",
+      "answer": "Right side",
+      "options": [
+        "Right side",
+        "Left supply rail",
+        "Above both supply rails",
+        "Anywhere without a label"
+      ],
+      "explanation": "The course places inputs on the left and outputs on the right.",
+      "source": "m",
+      "section": "Module 4 · Ladder rules, slides 63–64",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Where are outputs normally placed on a ladder rung?"
+        },
+        {
+          "variant": "b",
+          "prompt": "On which side of a ladder rung is the output normally drawn?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-64.jpg",
+          "page": 64,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 64,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Left to right and top to bottom ► Wires connected to L1 are “1” ► Wires connected to N are “2” ► Conductors joined together directly share the same number 3. All Lines Must Be Numbered 4. Only Show Control Devices ► Control devices include switches, solenoid…"
+      }
+    },
+    {
+      "id": "wb-9",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "wordbank",
+      "cloze": "Two normally open contacts in series implement ___ logic.",
+      "prompt": "Two normally open contacts in series implement ___ logic.",
+      "answer": "AND",
+      "options": [
+        "AND",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Two normally open contacts in series implement AND logic.",
+      "source": "m",
+      "section": "Control logic, slides 67–68",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-68.jpg",
+          "page": 68,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 68,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Two normally-open switches wired in series ► Both switches must be closed to energize the output ► Application: a two hand circuit requires both hands to start a machine ► The red lamp turns on only when PB1 AND PB2 are pressed 68 A31 A32 A33 A32 A3S A36"
+      }
+    },
+    {
+      "id": "wb-10",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "wordbank",
+      "cloze": "Two normally open contacts in parallel implement ___ logic.",
+      "prompt": "Two normally open contacts in parallel implement ___ logic.",
+      "answer": "OR",
+      "options": [
+        "OR",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Two normally open contacts in parallel implement OR logic.",
+      "source": "m",
+      "section": "Control logic, slides 67–69",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-69.jpg",
+          "page": 69,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 69,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Two normally-open switches wires in parallel ► Closing either of the switches will energize the output ► Closing both switches will also energize the output ► Application: remote-start button ► The red lamp turns on when PB1 OR PB2 is pressed 69"
+      }
+    },
+    {
+      "id": "wb-11",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "wordbank",
+      "cloze": "A single normally closed contact implements ___ logic.",
+      "prompt": "A single normally closed contact implements ___ logic.",
+      "answer": "NOT",
+      "options": [
+        "NOT",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A single normally closed contact implements NOT logic.",
+      "source": "m",
+      "section": "Control logic, slides 67–70",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-70.jpg",
+          "page": 70,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 70,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► The red lamp is on when PB1 is NOT pressed 70 A37"
+      }
+    },
+    {
+      "id": "wb-12",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "wordbank",
+      "cloze": "Two normally closed contacts in series implement ___ logic.",
+      "prompt": "Two normally closed contacts in series implement ___ logic.",
+      "answer": "NOR",
+      "options": [
+        "NOR",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Two normally closed contacts in series implement NOR logic.",
+      "source": "m",
+      "section": "Control logic, slides 67–71",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-71.jpg",
+          "page": 71,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 71,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Two normally-closed switches in series ► Opening either of the switches will de-energize the output ► Opening both of the switches will also de-energize the output ► Application: remote-stop button 71"
+      }
+    },
+    {
+      "id": "wb-13",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "wordbank",
+      "cloze": "Two normally closed contacts in parallel implement ___ logic.",
+      "prompt": "Two normally closed contacts in parallel implement ___ logic.",
+      "answer": "NAND",
+      "options": [
+        "NAND",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Two normally closed contacts in parallel implement NAND logic.",
+      "source": "m",
+      "section": "Control logic, slides 67–72",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-72.jpg",
+          "page": 72,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 72,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Two normally-closed switches in parallel ► Opening either of the switches will have no effect on the circuit; the output remains energized ► It is necessary to open all of the switches to de-energize the output 72"
+      }
+    },
+    {
+      "id": "wb-14",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "wordbank",
+      "cloze": "A ___ pushbutton returns to its normal position when released.",
+      "prompt": "A ___ pushbutton returns to its normal position when released.",
+      "answer": "Momentary",
+      "options": [
+        "Momentary",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Momentary pushbutton returns to its normal position when released.",
+      "source": "m",
+      "section": "Pushbuttons, slide 59",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-59.jpg",
+          "page": 59,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 59,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A momentary switch returns to its original position once released ► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted acro…"
+      }
+    },
+    {
+      "id": "wb-15",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "wordbank",
+      "cloze": "A ___ operator holds its selected position after release.",
+      "prompt": "A ___ operator holds its selected position after release.",
+      "answer": "Maintained",
+      "options": [
+        "Maintained",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "A Maintained operator holds its selected position after release.",
+      "source": "m",
+      "section": "Pushbuttons, slide 59",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-59.jpg",
+          "page": 59,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 59,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted across the contacts Knife Pushbutton / Selector Momentary Maintained Lim…"
+      }
+    },
+    {
+      "id": "visual-m-and",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "AND",
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "NOR",
+        "NAND"
+      ],
+      "explanation": "The two normally open contacts are in series. Both must close to complete the path to the lamp.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 68",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-and",
+        "alt": "Course slide diagram for this question",
+        "page": 68
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-68.jpg",
+          "page": 68,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for two normally open contacts in series. Both pushbuttons must close to complete the path to the lamp."
+      }
+    },
+    {
+      "id": "visual-m-or",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "OR",
+      "options": [
+        "OR",
+        "AND",
+        "NOT",
+        "NOR",
+        "NAND"
+      ],
+      "explanation": "The two normally open contacts are in parallel. Either branch can complete the path to the lamp.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 69",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-or",
+        "alt": "Course slide diagram for this question",
+        "page": 69
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-69.jpg",
+          "page": 69,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for two normally open contacts in parallel. Either pushbutton can complete a path to the lamp."
+      }
+    },
+    {
+      "id": "visual-m-not",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "NOT",
+      "options": [
+        "NOT",
+        "AND",
+        "OR",
+        "NOR",
+        "NAND"
+      ],
+      "explanation": "One normally closed contact controls the lamp. Pressing the button opens the path and turns the lamp off.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 70",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-not",
+        "alt": "Course slide diagram for this question",
+        "page": 70
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-70.jpg",
+          "page": 70,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for one normally closed contact. Operating it opens the path and turns the output off."
+      }
+    },
+    {
+      "id": "visual-m-nor",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "NOR",
+      "options": [
+        "NOR",
+        "AND",
+        "OR",
+        "NOT",
+        "NAND"
+      ],
+      "explanation": "The normally closed contacts are in series. Operating either button opens the only path to the lamp.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 71",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-nor",
+        "alt": "Course slide diagram for this question",
+        "page": 71
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-71.jpg",
+          "page": 71,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for normally closed contacts in series. Opening either contact breaks the only path and turns the lamp off."
+      }
+    },
+    {
+      "id": "slide-nand-motor",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "NAND",
+      "options": [
+        "NAND",
+        "AND",
+        "OR",
+        "NOT",
+        "NOR"
+      ],
+      "explanation": "The normally closed contacts are in parallel. Both must open to remove every path to the lamp.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 72",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-nand",
+        "alt": "Course slide diagram for this question",
+        "page": 72
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-72.jpg",
+          "page": 72,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for normally closed contacts in parallel. One closed branch keeps the lamp on; both contacts must open to turn it off."
+      }
+    },
+    {
+      "id": "visual-m-and-operation",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "Starting with both buttons released, what must happen to light the lamp?",
+      "answer": "Both PB1 and PB2 must be pressed",
+      "options": [
+        "Both PB1 and PB2 must be pressed",
+        "Only PB1 must be pressed",
+        "Only PB2 must be pressed",
+        "Both buttons must remain released"
+      ],
+      "explanation": "The two normally open contacts are in series. Both must close to complete the path to the lamp.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 68",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-and",
+        "alt": "Course slide diagram for this question",
+        "page": 68
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-68.jpg",
+          "page": 68,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for two normally open contacts in series. Both pushbuttons must close to complete the path to the lamp."
+      }
+    },
+    {
+      "id": "visual-m-or-operation",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "If only PB2 is pressed and PB1 stays released, what happens to the lamp?",
+      "answer": "It energizes through the PB2 branch",
+      "options": [
+        "It energizes through the PB2 branch",
+        "It stays off until PB1 is also pressed",
+        "It loses power because PB2 opens",
+        "It flashes once and stays off"
+      ],
+      "explanation": "The two normally open contacts are in parallel. Either branch can complete the path to the lamp.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 69",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-or",
+        "alt": "Course slide diagram for this question",
+        "page": 69
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-69.jpg",
+          "page": 69,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for two normally open contacts in parallel. Either pushbutton can complete a path to the lamp."
+      }
+    },
+    {
+      "id": "visual-m-nand-operation",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "If PB1 is pressed but PB2 remains released, what happens to the lamp?",
+      "answer": "It stays on through the PB2 branch",
+      "options": [
+        "It stays on through the PB2 branch",
+        "It turns off immediately",
+        "Both branches become open",
+        "The circuit changes to a seal-in circuit"
+      ],
+      "explanation": "The normally closed contacts are in parallel. Both must open to remove every path to the lamp.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 72",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-nand",
+        "alt": "Course slide diagram for this question",
+        "page": 72
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-72.jpg",
+          "page": 72,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for normally closed contacts in parallel. One closed branch keeps the lamp on; both contacts must open to turn it off."
+      }
+    },
+    {
+      "id": "visual-m-no",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "What pushbutton contact is represented by this symbol?",
+      "answer": "Normally open",
+      "options": [
+        "Normally open",
+        "Normally closed",
+        "Normally open timed close",
+        "Normally closed timed open"
+      ],
+      "explanation": "The contact bar is separated from the terminals in its normal state. Pressing the pushbutton closes the circuit.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 60",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-no",
+        "alt": "Course slide diagram for this question",
+        "page": 60
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-60.jpg",
+          "page": 60,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 60,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► In a normally open switch, pressing the button closes the switch and allows current to flow ► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
+      }
+    },
+    {
+      "id": "visual-m-nc",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "What pushbutton contact is represented by this symbol?",
+      "answer": "Normally closed",
+      "options": [
+        "Normally closed",
+        "Normally open",
+        "Normally open timed close",
+        "Normally closed timed open"
+      ],
+      "explanation": "The bar bridges the terminals in its normal state. Pressing the pushbutton breaks the connection.",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 60",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-nc",
+        "alt": "Course slide diagram for this question",
+        "page": 60
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-60.jpg",
+          "page": 60,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 60,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
+      }
+    },
+    {
+      "id": "switch-maintained",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 59",
+      "type": "quiz",
+      "prompt": "A switch stays in its selected position after the operator lets go. Which behavior is this?",
+      "answer": "Maintained",
+      "options": [
+        "Maintained",
+        "Momentary",
+        "Timed close",
+        "Timed open"
+      ],
+      "explanation": "A maintained switch holds its selected position; a momentary switch returns when released.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-59.jpg",
+          "page": 59,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 59,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted across the contacts Knife Pushbutton / Selector Momentary Maintained Lim…"
+      }
+    },
+    {
+      "id": "switch-momentary-use",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 59",
+      "type": "quiz",
+      "prompt": "Which switch behavior suits a button that must return as soon as the operator releases it?",
+      "answer": "Momentary",
+      "options": [
+        "Momentary",
+        "Maintained",
+        "Latched indefinitely",
+        "Pressure-operated only"
+      ],
+      "explanation": "Momentary refers to returning to the original position after release.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-59.jpg",
+          "page": 59,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 59,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A momentary switch returns to its original position once released ► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted acro…"
+      }
+    },
+    {
+      "id": "switch-no-press",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 60",
+      "type": "quiz",
+      "prompt": "What happens to a normally open pushbutton contact when pressed?",
+      "answer": "It closes",
+      "options": [
+        "It closes",
+        "It opens",
+        "It stays open",
+        "It becomes a timer"
+      ],
+      "explanation": "The pushbutton moves the contact bar to bridge the terminals and permit current.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-60.jpg",
+          "page": 60,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 60,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► In a normally open switch, pressing the button closes the switch and allows current to flow ► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
+      }
+    },
+    {
+      "id": "switch-nc-press",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 60",
+      "type": "quiz",
+      "prompt": "What happens to a normally closed pushbutton contact when pressed?",
+      "answer": "It opens",
+      "options": [
+        "It opens",
+        "It closes",
+        "It remains closed",
+        "It generates voltage"
+      ],
+      "explanation": "Pressing moves the contact bar away from the terminals, breaking the path.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-60.jpg",
+          "page": 60,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 60,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
+      }
+    },
+    {
+      "id": "switch-no-release",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 60",
+      "type": "quiz",
+      "prompt": "A momentary normally open pushbutton is pressed and then released. What is its final contact state?",
+      "answer": "Open",
+      "options": [
+        "Open",
+        "Closed",
+        "Permanently latched",
+        "Timed closed"
+      ],
+      "explanation": "Release returns a momentary switch to its normal state. For a normally open contact, that state is open.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-60.jpg",
+          "page": 60,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 60,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► In a normally open switch, pressing the button closes the switch and allows current to flow ► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
+      }
+    },
+    {
+      "id": "switch-nc-release",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 60",
+      "type": "quiz",
+      "prompt": "A momentary normally closed pushbutton is pressed and then released. What is its final contact state?",
+      "answer": "Closed",
+      "options": [
+        "Closed",
+        "Open",
+        "Permanently latched open",
+        "Dependent only on motor speed"
+      ],
+      "explanation": "Release restores the normally closed contact to its closed state.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-60.jpg",
+          "page": 60,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 60,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
+      }
+    },
+    {
+      "id": "switch-selector-wafer",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 61",
+      "type": "quiz",
+      "prompt": "What does rotating a selector-switch knob move inside the switch?",
+      "answer": "A conducting wafer",
+      "options": [
+        "A conducting wafer",
+        "A float",
+        "A pressure diaphragm",
+        "A timer piston"
+      ],
+      "explanation": "The knob rotates a conducting wafer to select the appropriate circuit connection.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-61.jpg",
+          "page": 61,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 61,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A selector switch consists of a conducting wafer that is rotated by a knob ► Available in two, three, or four positions ► Operator types: knob, lever, and keylock ► Typical applications: on/off, manual/automatic, run/jog, and forward/reverse ► Can be momenta…"
+      }
+    },
+    {
+      "id": "switch-selector-behavior",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 61",
+      "type": "quiz",
+      "prompt": "Must every selector switch be maintained?",
+      "answer": "No; selector switches can be momentary or maintained",
+      "options": [
+        "No; selector switches can be momentary or maintained",
+        "Yes; a selector can never return by itself",
+        "No; all selectors are momentary",
+        "Only four-position selectors can be maintained"
+      ],
+      "explanation": "The course describes both momentary and maintained selector switches.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-61.jpg",
+          "page": 61,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 61,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Can be momentary (e.g. ignition) or maintained (e.g. washing machine) ► A different circuit is connected to each terminal or position ► In a three-position switch, the center position does not operate any contacts Common Control Devices - Selector Switch 61 …"
+      }
+    },
+    {
+      "id": "switch-selector-operators",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "source": "m",
+      "section": "4 · Control ladder logic · PDF page 61",
+      "type": "quiz",
+      "prompt": "Which group lists the selector operators described in the course?",
+      "answer": "Knob, lever and keylock",
+      "options": [
+        "Knob, lever and keylock",
+        "Float, diaphragm and piston",
+        "Fuse, breaker and overload",
+        "Coil, resistor and capacitor"
+      ],
+      "explanation": "Selector switches can use a knob, lever or keylock operator.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-61.jpg",
+          "page": 61,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 61,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Operator types: knob, lever, and keylock ► Typical applications: on/off, manual/automatic, run/jog, and forward/reverse ► Can be momentary (e.g. ignition) or maintained (e.g. washing machine) ► A different circuit is connected to each terminal or position ► …"
+      }
+    },
+    {
+      "id": "c202x-semi",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "An operator starts a cycle that then finishes without further input. Which classification fits?",
+      "answer": "Semiautomatic",
+      "options": [
+        "Semiautomatic",
+        "Manual",
+        "Automatic initiation",
+        "None of these"
+      ],
+      "explanation": "Manual input starts the otherwise automatic cycle.",
+      "source": "m",
+      "sourcePages": [
+        53
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 53",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-53.jpg",
+          "page": 53,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 53,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Semiautomatic - manual input to begin operation, no further manual input e.g. washing machine ► Automatic - no manual input, operated by automatic input (or “pilot”) devices e.g. thermostat 53"
+      }
+    },
+    {
+      "id": "c202x-schematic",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "What does a schematic primarily show?",
+      "answer": "Electrical connections using standard symbols",
+      "options": [
+        "Electrical connections using standard symbols",
+        "Exact physical routing",
+        "Only photographs",
+        "Only operating schedules"
+      ],
+      "explanation": "It shows interconnections rather than physical placement.",
+      "source": "m",
+      "sourcePages": [
+        55
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 55",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-55.jpg",
+          "page": 55,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 55,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► An electrical schematic uses standard symbols to show the interconnections between components of a circuit, but not how they are physically connected Pictorial Schematic 55 A28 A29"
+      }
+    },
+    {
+      "id": "c202x-step",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Which three parts make up a sequence step?",
+      "answer": "Input, logic and output",
+      "options": [
+        "Input, logic and output",
+        "Voltage, current and resistance",
+        "Start, fuse and ground",
+        "Primary, secondary and core"
+      ],
+      "explanation": "Input signals the step, logic decides, and output acts.",
+      "source": "m",
+      "sourcePages": [
+        56
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 56",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-56.jpg",
+          "page": 56,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 56,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Input - indicates that it is time to perform a step ► Logic - decision on what action to take ► Output - action carried out 56 A15"
+      }
+    },
+    {
+      "id": "c202x-lamp",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "symbol",
+      "prompt": "Which device is represented by this symbol?",
+      "answer": "Red indicator lamp",
+      "options": [
+        "Red indicator lamp",
+        "Resistor",
+        "Relay coil",
+        "NO pushbutton",
+        "None of these"
+      ],
+      "explanation": "The rays identify a lamp; R indicates red.",
+      "source": "m",
+      "sourcePages": [
+        58
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 58",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-lamp",
+        "alt": "Original C-202 diagram for this question",
+        "page": 58
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-58.jpg",
+          "page": 58,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 58,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Common Control Devices - Indicator Lamp ► An indicator lamp tells the operating status of the machine ► The letter in the center of the circle indicates the color of the lamp ► Check voltage rating before use Schematic Symbol 58"
+      }
+    },
+    {
+      "id": "c202x-center",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "For a three-position selector with an inactive center position, what does selecting center do?",
+      "answer": "Operates no contacts",
+      "options": [
+        "Operates no contacts",
+        "Closes every contact",
+        "Always reverses the motor",
+        "Trips the overload"
+      ],
+      "explanation": "The example has an inactive center position.",
+      "source": "m",
+      "sourcePages": [
+        61
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 61",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-61.jpg",
+          "page": 61,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 61,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► In a three-position switch, the center position does not operate any contacts Common Control Devices - Selector Switch 61 A16"
+      }
+    },
+    {
+      "id": "c202x-rails",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Which labels identify transformer-supplied control rails?",
+      "answer": "X1 and X2",
+      "options": [
+        "X1 and X2",
+        "T1 and T3",
+        "PB1 and PB2",
+        "NO and NC"
+      ],
+      "explanation": "X1 and X2 identify the secondary supply terminals.",
+      "source": "m",
+      "sourcePages": [
+        63
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 63",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-63.jpg",
+          "page": 63,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 63,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► If supply is from a control transformer, labeled as X1 and X2 ► Input Devices - connected between L1 and output devices ► Perform the logic functions that control output devices ► Output Devices - located between input devices and N ► Cause the machine to pe…"
+      }
+    },
+    {
+      "id": "c202x-numbers",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "Directly joined conductors with no intervening component have what numbering?",
+      "answer": "The same number",
+      "options": [
+        "The same number",
+        "Always different numbers",
+        "No numbers",
+        "The coil voltage as a number"
+      ],
+      "explanation": "They form one electrical node.",
+      "source": "m",
+      "sourcePages": [
+        64
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 64",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-64.jpg",
+          "page": 64,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 64,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Conductors joined together directly share the same number 3. All Lines Must Be Numbered 4. Only Show Control Devices ► Control devices include switches, solenoids, and relays ► Should not show power devices such as valves, motors, and cylinders 5. Place Only…"
+      }
+    },
+    {
+      "id": "c202x-loads",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "How should separate output loads be arranged under the course ladder rules?",
+      "answer": "On separate parallel rungs",
+      "options": [
+        "On separate parallel rungs",
+        "All in series on one rung",
+        "Only on the left rail",
+        "Without labels"
+      ],
+      "explanation": "The course specifies one load per line, with outputs on the right.",
+      "source": "m",
+      "sourcePages": [
+        64
+      ],
+      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 64",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-64.jpg",
+          "page": 64,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 64,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "5. Place Only One Load Per Line ► Load is simply another name for an output device ► Loads should be wired in parallel on different lines, never in series on the same line 6. Output Devices Located on Right 64 A38"
+      }
+    }
+  ]
+}

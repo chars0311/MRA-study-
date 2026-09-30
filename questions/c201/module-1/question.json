@@ -1,0 +1,1324 @@
+{
+  "world": "electrical",
+  "topic": "Module 1 · Basic Electrical Circuits",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q001",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "What does an electrical power supply provide?",
+      "answer": "Energy to create current",
+      "options": [
+        "Energy to create current",
+        "A mechanical load",
+        "Only resistance",
+        "A broken current path"
+      ],
+      "explanation": "The power supply provides electrical energy; input devices control it and loads use it.",
+      "source": "e",
+      "section": "Module 1: Four Basic Components",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-7.jpg",
+          "page": 7,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Supplies the energy to create an electrical current ● Input Device ○ Controls flow of current ○ Common input device is a switch ● Output Device ○ Consumes electrical energy ○ Also referred to as a load ● Conductor ○ Connects all the components ○ Allows curre…"
+      }
+    },
+    {
+      "id": "q004",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "Which device produces rotary mechanical motion?",
+      "answer": "Motor",
+      "options": [
+        "Motor",
+        "Solenoid",
+        "Buzzer",
+        "Resistor"
+      ],
+      "explanation": "The motor rotates a shaft. A solenoid produces linear motion, a buzzer sound, and a resistor limits current.",
+      "source": "e",
+      "section": "Module 1: Output Devices",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-12.jpg",
+          "page": 12,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Motor - produces rotary mechanical motion"
+      }
+    },
+    {
+      "id": "q005",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "Which device produces linear mechanical motion?",
+      "answer": "Solenoid",
+      "options": [
+        "Solenoid",
+        "Motor",
+        "Lamp",
+        "Resistor"
+      ],
+      "explanation": "Current through a solenoid coil moves its armature in a straight line.",
+      "source": "e",
+      "section": "Module 1: Solenoid",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-13.jpg",
+          "page": 13,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 13,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A solenoid has an armature that moves in a linear motion when current is applied to its coil Schematic Symbol"
+      }
+    },
+    {
+      "id": "q006",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "What makes a circuit closed?",
+      "answer": "A complete path for current",
+      "options": [
+        "A complete path for current",
+        "A disconnected wire",
+        "An open switch",
+        "A missing load connection"
+      ],
+      "explanation": "Closed means the current path is complete. An interruption makes it open.",
+      "source": "e",
+      "section": "Module 1: Open and Closed Circuits",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-9.jpg",
+          "page": 9,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 9,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A circuit is closed is there is a complete path for current to flow ● A circuit is open if the path is broken in some way"
+      }
+    },
+    {
+      "id": "q007",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "What is the unoperated state of a normally open contact?",
+      "answer": "Open",
+      "options": [
+        "Open",
+        "Closed",
+        "Always energized",
+        "Shorted to ground"
+      ],
+      "explanation": "Normally open contacts are open until the operator acts on them.",
+      "source": "e",
+      "section": "Module 1: Switch",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-10.jpg",
+          "page": 10,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "■ Normally Open (N.O.) - Open until acted on by the operator ■ Normally Closed (N.C.) - Closed until acted on by the operator"
+      }
+    },
+    {
+      "id": "q008",
+      "world": "electrical",
+      "type": "quiz",
+      "prompt": "Which current repeatedly reverses direction?",
+      "answer": "Alternating current",
+      "options": [
+        "Alternating current",
+        "Direct current",
+        "Resistance",
+        "Capacitance"
+      ],
+      "explanation": "AC alternates direction; DC flows in one direction.",
+      "source": "e",
+      "section": "Module 1: Types of Electrical Current",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/e-4.jpg",
+          "page": 4,
+          "title": "2026 Electrical Systems 1 Condensed.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Alternating Current (AC) - flows alternatively in one direction and then the other [source link omitted]"
+      }
+    },
+    {
+      "id": "visual-e-schematic",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "prompt": "What type of electrical diagram is shown?",
+      "answer": "Schematic diagram",
+      "options": [
+        "Schematic diagram",
+        "Pictorial diagram",
+        "Mechanical assembly drawing",
+        "Conveyor layout"
+      ],
+      "explanation": "The circuit uses standard symbols for its source, switch and lamp instead of photographs of the components.",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 8",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "e-schematic",
+        "alt": "Course slide diagram for this question",
+        "page": 8
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-8.jpg",
+          "page": 8,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 8,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Electrical schematic diagrams represent components by standard symbols ■ Do not show physical connections ■ Many diagrams show electrical parameters such as voltage, current, and resistance 8"
+      }
+    },
+    {
+      "id": "switch-operator",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 10",
+      "type": "quiz",
+      "prompt": "Which part of a switch causes its contacts to change state?",
+      "answer": "The operator",
+      "options": [
+        "The operator",
+        "The load",
+        "The conductor insulation",
+        "The power supply"
+      ],
+      "explanation": "The operator actuates the switch. The contacts make or break the electrical path.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-10.jpg",
+          "page": 10,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "■ Normally Open (N.O.) - Open until acted on by the operator ■ Normally Closed (N.C.) - Closed until acted on by the operator 10"
+      }
+    },
+    {
+      "id": "switch-contacts",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 10",
+      "type": "quiz",
+      "prompt": "Which parts of a switch make or break the electrical path?",
+      "answer": "The contacts",
+      "options": [
+        "The contacts",
+        "The enclosure",
+        "The mounting screws",
+        "The label"
+      ],
+      "explanation": "Contacts open or close the circuit when the operator is actuated.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-10.jpg",
+          "page": 10,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Contacts - open or close the circuit when operator is activated ■ Normally Open (N.O.) - Open until acted on by the operator ■ Normally Closed (N.C.) - Closed until acted on by the operator 10"
+      }
+    },
+    {
+      "id": "switch-nc-state",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 10",
+      "type": "quiz",
+      "prompt": "A normally closed switch is unoperated. What is its contact state?",
+      "answer": "Closed",
+      "options": [
+        "Closed",
+        "Open",
+        "Alternating continuously",
+        "Determined by supply voltage"
+      ],
+      "explanation": "Normally closed describes the contact before its operator acts on it.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-10.jpg",
+          "page": 10,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "■ Normally Closed (N.C.) - Closed until acted on by the operator 10"
+      }
+    },
+    {
+      "id": "switch-open-path",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 10",
+      "type": "quiz",
+      "prompt": "A switch opens the only path in a simple lamp circuit. What happens?",
+      "answer": "The lamp loses current and turns off",
+      "options": [
+        "The lamp loses current and turns off",
+        "The lamp draws twice the current",
+        "The voltage source reverses",
+        "The lamp stays on through the open contacts"
+      ],
+      "explanation": "Opening the switch breaks the complete path needed for current flow.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-10.jpg",
+          "page": 10,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A simple method for opening and closing a circuit is to use a switch ○ When the switch is closed, the circuit is closed and electricity flows ○ When the switch is open, the circuit is open ● Two main components: ○ Operator - causes the switch to activate ○ C…"
+      }
+    },
+    {
+      "id": "switch-knife",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 11",
+      "type": "quiz",
+      "prompt": "Which manual switch offers visible confirmation of its open or closed state?",
+      "answer": "Knife switch",
+      "options": [
+        "Knife switch",
+        "Float switch",
+        "Pressure switch",
+        "Electronic proximity sensor"
+      ],
+      "explanation": "The slide identifies the visible state of the knife switch as a useful feature, including for a main disconnect.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selector Switch - often used to change machine mode 11"
+      }
+    },
+    {
+      "id": "switch-mode",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 11",
+      "type": "quiz",
+      "prompt": "Which manual switch is commonly used to select a machine operating mode?",
+      "answer": "Selector switch",
+      "options": [
+        "Selector switch",
+        "Float switch",
+        "Pressure switch",
+        "Limit switch"
+      ],
+      "explanation": "A selector switch lets the operator select a circuit or operating mode.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Selector Switch - often used to change machine mode 11"
+      }
+    },
+    {
+      "id": "switch-manual",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 11",
+      "type": "quiz",
+      "prompt": "Which example is manually operated?",
+      "answer": "A person pressing a Start pushbutton",
+      "options": [
+        "A person pressing a Start pushbutton",
+        "A cam depressing a limit switch",
+        "Liquid lifting a float",
+        "Pressure actuating a diaphragm"
+      ],
+      "explanation": "Manual operators are activated by a person; automatic operators respond to the machine, a sensor or another device.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Automatically Operated - activated by a sensor, machine, or other device ● Three manually operated switches: ○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selec…"
+      }
+    },
+    {
+      "id": "switch-automatic",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "source": "full",
+      "section": "Module 1 · Basic Electrical Circuits · PDF page 11",
+      "type": "quiz",
+      "prompt": "A moving machine part actuates a switch. What operator category is this?",
+      "answer": "Automatically operated",
+      "options": [
+        "Automatically operated",
+        "Manually operated",
+        "Always momentary by definition",
+        "Always normally closed"
+      ],
+      "explanation": "The machine supplies the action, so this is automatic operation. This alone does not specify the contact normal state.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Automatically Operated - activated by a sensor, machine, or other device ● Three manually operated switches: ○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selec…"
+      }
+    },
+    {
+      "id": "c201x-electron",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        3
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 3",
+      "prompt": "What charge does an electron have?",
+      "answer": "Negative",
+      "options": [
+        "Negative",
+        "Positive",
+        "Neutral",
+        "Alternates between positive and negative"
+      ],
+      "explanation": "Electrons are negatively charged particles.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-3.jpg",
+          "page": 3,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Electrons - negatively (-) charged particles in an atom ○ Flow of electrons, also called current, can deliver energy to a point of use"
+      }
+    },
+    {
+      "id": "c201x-ac-dc",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        4
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 4",
+      "prompt": "Which comparison describes AC and DC?",
+      "answer": "DC flows one way; AC repeatedly reverses direction",
+      "options": [
+        "DC flows one way; AC repeatedly reverses direction",
+        "DC reverses; AC flows one way",
+        "Both always flow one way",
+        "Both must reverse at 60 Hz"
+      ],
+      "explanation": "The distinction is current direction, not a particular voltage.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-4.jpg",
+          "page": 4,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Direct Current (DC) - flows in one direction ● Alternating Current (AC) - flows alternatively in one direction and then the other [source link omitted] 4"
+      }
+    },
+    {
+      "id": "c201x-conventional",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        5
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 5",
+      "prompt": "Under the conventional-current model, in which direction does external DC current flow?",
+      "answer": "Positive toward negative",
+      "options": [
+        "Positive toward negative",
+        "Negative toward positive",
+        "Earth toward both terminals",
+        "Toward the positive terminal from both sides"
+      ],
+      "explanation": "The slide uses conventional current, from higher positive potential toward lower negative potential.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-5.jpg",
+          "page": 5,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Using conventional theory, the power supply creates flow from the highest potential (positive (+) terminal) to the lowest potential (negative (-) terminal) ○ Power supply provides both the lowest and highest potential points ○ Circuit - path that allows elec…"
+      }
+    },
+    {
+      "id": "c201x-dc-source",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        5
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 5",
+      "prompt": "Which is the complete set of DC sources among these choices?",
+      "answer": "Both a battery and an AC-to-DC power supply",
+      "options": [
+        "Both a battery and an AC-to-DC power supply",
+        "A battery only",
+        "An AC-to-DC supply only",
+        "Neither of these"
+      ],
+      "explanation": "Both sources are listed in the slide.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-5.jpg",
+          "page": 5,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Sources: battery, DC power supply (converts from AC) 5"
+      }
+    },
+    {
+      "id": "c201x-frequency",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        6
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 6",
+      "prompt": "What does 60 Hz mean?",
+      "answer": "60 cycles per second",
+      "options": [
+        "60 cycles per second",
+        "60 volts per second",
+        "60 amperes per cycle",
+        "One cycle every 60 seconds"
+      ],
+      "explanation": "Hertz measures cycles per second.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-6.jpg",
+          "page": 6,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● AC electricity in the U.S. cycles 60 times per second (60 Hz) 1 Hz 6"
+      }
+    },
+    {
+      "id": "c201x-ac-symbol",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        7
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 7",
+      "prompt": "Which supply symbol is shown?",
+      "answer": "AC power supply",
+      "options": [
+        "AC power supply",
+        "DC power supply",
+        "Resistor",
+        "Lamp",
+        "None of these"
+      ],
+      "explanation": "The sinusoidal mark identifies the alternating-current source.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-ac",
+        "alt": "C-201 course diagram for this question",
+        "page": 7
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-7.jpg",
+          "page": 7,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Supplies the energy to create an electrical current ● Input Device ○ Controls flow of current ○ Common input device is a switch ● Output Device ○ Consumes electrical energy ○ Also referred to as a load ● Conductor ○ Connects all the components ○ Allows curre…"
+      }
+    },
+    {
+      "id": "c201x-dc-symbol",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        7
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 7",
+      "prompt": "Which supply symbol is shown?",
+      "answer": "DC power supply",
+      "options": [
+        "DC power supply",
+        "AC power supply",
+        "Fuse",
+        "Open switch",
+        "None of these"
+      ],
+      "explanation": "Unequal parallel lines and polarity marks identify the DC source used in the slide.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-dc",
+        "alt": "C-201 course diagram for this question",
+        "page": 7
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-7.jpg",
+          "page": 7,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Copper wire most often used Input Device Conductor Output Device Power Supply 7"
+      }
+    },
+    {
+      "id": "c201x-roles",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        7
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 7",
+      "prompt": "Which set lists the four basic circuit roles?",
+      "answer": "Supply, input, output, conductor",
+      "options": [
+        "Supply, input, output, conductor",
+        "Supply, transformer, fuse, breaker",
+        "Input, output, timer, relay",
+        "Voltage, current, resistance, power"
+      ],
+      "explanation": "These supply energy, control the path, consume energy, and connect the components.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-7.jpg",
+          "page": 7,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Four Basic Components ● Power Supply ○ Supplies the energy to create an electrical current ● Input Device ○ Controls flow of current ○ Common input device is a switch ● Output Device ○ Consumes electrical energy ○ Also referred to as a load ● Conductor ○ Conne…"
+      }
+    },
+    {
+      "id": "c201x-load",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        7
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 7",
+      "prompt": "Which circuit role is also called the load?",
+      "answer": "Output device",
+      "options": [
+        "Output device",
+        "Power supply",
+        "Input device",
+        "Conductor"
+      ],
+      "explanation": "A load consumes electrical energy.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-7.jpg",
+          "page": 7,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Consumes electrical energy ○ Also referred to as a load ● Conductor ○ Connects all the components ○ Allows current to flow ○ Copper wire most often used Input Device Conductor Output Device Power Supply 7"
+      }
+    },
+    {
+      "id": "c201x-pictorial",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        8
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 8",
+      "prompt": "Which diagram uses component pictures rather than standard symbols?",
+      "answer": "Pictorial diagram",
+      "options": [
+        "Pictorial diagram",
+        "Schematic diagram",
+        "Voltage/current formula",
+        "Resistance color-code table"
+      ],
+      "explanation": "Pictorial drawings show pictures; schematics use standard symbols.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-8.jpg",
+          "page": 8,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 8,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Pictorial diagrams use pictures of components ■ Become time-consuming to draw and hard to read as circuits become more complex ○ Electrical schematic diagrams represent components by standard symbols ■ Do not show physical connections ■ Many diagrams show el…"
+      }
+    },
+    {
+      "id": "c201x-open",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        9
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 9",
+      "prompt": "What makes a circuit open?",
+      "answer": "A break in its current path",
+      "options": [
+        "A break in its current path",
+        "A complete load path",
+        "A closed switch in its only path",
+        "An intact source and complete load path"
+      ],
+      "explanation": "An open circuit has a broken current path.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-9.jpg",
+          "page": 9,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 9,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A circuit is open if the path is broken in some way 9"
+      }
+    },
+    {
+      "id": "c201x-switch-parts",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "quiz",
+      "source": "full",
+      "sourcePages": [
+        10
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 10",
+      "prompt": "What are the two main switch components?",
+      "answer": "Operator and contacts",
+      "options": [
+        "Operator and contacts",
+        "Armature and secondary winding",
+        "Core and bleeder resistor",
+        "Fuse element and thermal trip"
+      ],
+      "explanation": "The operator actuates the switch; the contacts make or break its path.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-10.jpg",
+          "page": 10,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● Two main components: ○ Operator - causes the switch to activate ○ Contacts - open or close the circuit when operator is activated ■ Normally Open (N.O.) - Open until acted on by the operator ■ Normally Closed (N.C.) - Closed until acted on by the operator 10…"
+      }
+    },
+    {
+      "id": "c201x-switch-knife",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        11
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 11",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Knife switch",
+      "options": [
+        "Knife switch",
+        "Normally open pushbutton",
+        "Normally closed pushbutton",
+        "Normally open selector switch",
+        "Normally closed selector switch"
+      ],
+      "explanation": "The pivoting blade is the knife-switch symbol.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-knife",
+        "alt": "C-201 course diagram for this question",
+        "page": 11
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selector Switch - often used to change machine mode 11"
+      }
+    },
+    {
+      "id": "c201x-switch-no",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        11
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 11",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Normally open pushbutton",
+      "options": [
+        "Normally open pushbutton",
+        "Knife switch",
+        "Normally closed pushbutton",
+        "Normally open selector switch",
+        "Normally closed selector switch"
+      ],
+      "explanation": "The pushbutton bar is separated from its terminals in its normal state.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-no",
+        "alt": "C-201 course diagram for this question",
+        "page": 11
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selector Switch - often used to change machine mode 11"
+      }
+    },
+    {
+      "id": "c201x-switch-nc",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        11
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 11",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Normally closed pushbutton",
+      "options": [
+        "Normally closed pushbutton",
+        "Knife switch",
+        "Normally open pushbutton",
+        "Normally open selector switch",
+        "Normally closed selector switch"
+      ],
+      "explanation": "The pushbutton bar connects its terminals in its normal state.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-nc",
+        "alt": "C-201 course diagram for this question",
+        "page": 11
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selector Switch - often used to change machine mode 11"
+      }
+    },
+    {
+      "id": "c201x-switch-selector-no",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        11
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 11",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Normally open selector switch",
+      "options": [
+        "Normally open selector switch",
+        "Knife switch",
+        "Normally open pushbutton",
+        "Normally closed pushbutton",
+        "Normally closed selector switch"
+      ],
+      "explanation": "The selector operator is drawn over normally open contacts.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-selector-no",
+        "alt": "C-201 course diagram for this question",
+        "page": 11
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Selector Switch - often used to change machine mode 11"
+      }
+    },
+    {
+      "id": "c201x-switch-selector-nc",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        11
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 11",
+      "prompt": "Which switch symbol is shown?",
+      "answer": "Normally closed selector switch",
+      "options": [
+        "Normally closed selector switch",
+        "Knife switch",
+        "Normally open pushbutton",
+        "Normally closed pushbutton",
+        "Normally open selector switch"
+      ],
+      "explanation": "The selector operator is drawn over normally closed contacts.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-selector-nc",
+        "alt": "C-201 course diagram for this question",
+        "page": 11
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-11.jpg",
+          "page": 11,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "○ Selector Switch - often used to change machine mode 11"
+      }
+    },
+    {
+      "id": "c201x-output-lamp",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        12
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 12",
+      "prompt": "Which output symbol is shown?",
+      "answer": "Lamp",
+      "options": [
+        "Lamp",
+        "Resistor",
+        "Buzzer",
+        "Solenoid",
+        "Motor"
+      ],
+      "explanation": "A lamp produces light.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-lamp",
+        "alt": "C-201 course diagram for this question",
+        "page": 12
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-12.jpg",
+          "page": 12,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Lamp - gives off light when electrical current passes through its resistive element Resistor - limits the flow of electrical current Buzzer - produces sound Solenoid - produces linear mechanical motion Motor - produces rotary mechanical motion 12"
+      }
+    },
+    {
+      "id": "c201x-output-resistor",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        12
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 12",
+      "prompt": "Which output symbol is shown?",
+      "answer": "Resistor",
+      "options": [
+        "Resistor",
+        "Lamp",
+        "Buzzer",
+        "Solenoid",
+        "Motor"
+      ],
+      "explanation": "The zigzag resistor limits current.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-resistor",
+        "alt": "C-201 course diagram for this question",
+        "page": 12
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-12.jpg",
+          "page": 12,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Resistor - limits the flow of electrical current Buzzer - produces sound Solenoid - produces linear mechanical motion Motor - produces rotary mechanical motion 12"
+      }
+    },
+    {
+      "id": "c201x-output-buzzer",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        12
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 12",
+      "prompt": "Which output symbol is shown?",
+      "answer": "Buzzer",
+      "options": [
+        "Buzzer",
+        "Lamp",
+        "Resistor",
+        "Solenoid",
+        "Motor"
+      ],
+      "explanation": "The pictured buzzer produces sound.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-buzzer",
+        "alt": "C-201 course diagram for this question",
+        "page": 12
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-12.jpg",
+          "page": 12,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Buzzer - produces sound Solenoid - produces linear mechanical motion Motor - produces rotary mechanical motion 12"
+      }
+    },
+    {
+      "id": "c201x-output-solenoid",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        12
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 12",
+      "prompt": "Which output symbol is shown?",
+      "answer": "Solenoid",
+      "options": [
+        "Solenoid",
+        "Lamp",
+        "Resistor",
+        "Buzzer",
+        "Motor"
+      ],
+      "explanation": "The coil-and-armature solenoid produces linear motion.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-solenoid",
+        "alt": "C-201 course diagram for this question",
+        "page": 12
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-12.jpg",
+          "page": 12,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solenoid - produces linear mechanical motion Motor - produces rotary mechanical motion 12"
+      }
+    },
+    {
+      "id": "c201x-output-motor",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        12
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 12",
+      "prompt": "Which output symbol is shown?",
+      "answer": "Motor",
+      "options": [
+        "Motor",
+        "Lamp",
+        "Resistor",
+        "Buzzer",
+        "Solenoid"
+      ],
+      "explanation": "The M identifies a motor producing rotary motion.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-motor",
+        "alt": "C-201 course diagram for this question",
+        "page": 12
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-12.jpg",
+          "page": 12,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Motor - produces rotary mechanical motion 12"
+      }
+    },
+    {
+      "id": "c201x-linear",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        13,
+        12
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 13 · diagram on page 12",
+      "prompt": "What motion does this energized device produce?",
+      "answer": "Linear armature motion",
+      "options": [
+        "Linear armature motion",
+        "Rotary shaft motion",
+        "Only sound",
+        "No mechanical motion"
+      ],
+      "explanation": "A solenoid moves its armature in a straight line.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-solenoid",
+        "alt": "C-201 course diagram for this question",
+        "page": 12
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-13.jpg",
+          "page": 13,
+          "title": "C201 Electrical Systems 1.pdf"
+        },
+        {
+          "url": "./review-slides/full-12.jpg",
+          "page": 12,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 13,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● A solenoid has an armature that moves in a linear motion when current is applied to its coil Schematic Symbol 13"
+      }
+    },
+    {
+      "id": "c201x-rotary",
+      "world": "electrical",
+      "topic": "Module 1 · Basic Electrical Circuits",
+      "type": "symbol",
+      "source": "full",
+      "sourcePages": [
+        14,
+        12
+      ],
+      "section": "Module 1 · Basic Electrical Circuits · C201 Electrical Systems 1.pdf · PDF page 14 · diagram on page 12",
+      "prompt": "What motion does this device produce?",
+      "answer": "Rotary shaft motion",
+      "options": [
+        "Rotary shaft motion",
+        "Linear armature motion",
+        "Only a contact-state change",
+        "Only audible vibration"
+      ],
+      "explanation": "A motor uses magnetic action to rotate its shaft.",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c201-motor",
+        "alt": "C-201 course diagram for this question",
+        "page": 12
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/full-14.jpg",
+          "page": 14,
+          "title": "C201 Electrical Systems 1.pdf"
+        },
+        {
+          "url": "./review-slides/full-12.jpg",
+          "page": 12,
+          "title": "C201 Electrical Systems 1.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 14,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● When electricity is applied to a motor, a magnetic field is set up, causing a shaft inside the motor to rotate Schematic Symbol 14"
+      }
+    }
+  ]
+}

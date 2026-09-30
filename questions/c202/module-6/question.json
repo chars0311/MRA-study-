@@ -1,0 +1,565 @@
+{
+  "world": "motor",
+  "topic": "Module 6 · Reversing Motor Control",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q028",
+      "world": "motor",
+      "type": "quiz",
+      "prompt": "How is three-phase motor rotation reversed electrically?",
+      "answer": "Interchange any two supply lines",
+      "options": [
+        "Interchange any two supply lines",
+        "Interchange all three cyclically",
+        "Remove the ground",
+        "Reduce only the voltage"
+      ],
+      "explanation": "Swapping two phases reverses phase sequence and motor rotation.",
+      "source": "m",
+      "section": "Manual Motor Reversing",
+      "topic": "Module 6 · Reversing Motor Control",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-91.jpg",
+          "page": 91,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 91,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Reverse the rotation of a three-phase motor by interchanging any two of the three power supply lines ► NEMA and IEC standard is to reverse motor connections T1 and T3 91Manual Motor Reversing"
+      }
+    },
+    {
+      "id": "q029",
+      "world": "motor",
+      "type": "quiz",
+      "prompt": "What is the purpose of forward/reverse interlocking?",
+      "answer": "Prevent both coils energizing together",
+      "options": [
+        "Prevent both coils energizing together",
+        "Make both coils energize together",
+        "Increase motor speed",
+        "Remove overload protection"
+      ],
+      "explanation": "Interlocking prevents the forward and reverse commands being active at the same time.",
+      "source": "m",
+      "section": "Interlocking",
+      "topic": "Module 6 · Reversing Motor Control",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-99.jpg",
+          "page": 99,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 99,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Application: prevent both forward and reverse coils from being energized at the same time ► Three methods: ► Auxiliary Contact Interlock - electrical method ► Pushbutton Interlock - electrical method ► Mechanical Interlock - mechanical method 99 A18 A19"
+      }
+    },
+    {
+      "id": "mc-jog",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "Why is seal-in inhibited during jogging?",
+      "answer": "The motor should run only while the jog command is held",
+      "options": [
+        "The motor should run only while the jog command is held",
+        "The motor must reverse every time",
+        "The overload is removed",
+        "Both direction coils must energize"
+      ],
+      "explanation": "Jogging prevents the holding path from sustaining operation after the command is released.",
+      "source": "m",
+      "section": "Module 6 · Jog control",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Why is seal-in inhibited during jogging?"
+        },
+        {
+          "variant": "b",
+          "prompt": "How does jog operation differ from continuous run in the holding circuit?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-106.jpg",
+          "page": 106,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 106,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► The stop button is held open in this “jog” mode, preventing the seal-in ► Application: industrial robot being jogged into position 106"
+      }
+    },
+    {
+      "id": "mc-interlock",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "Which auxiliary contact is used to inhibit the opposite direction coil?",
+      "answer": "Normally closed auxiliary contact",
+      "options": [
+        "Normally closed auxiliary contact",
+        "Normally open pilot lamp",
+        "A parallel fuse",
+        "The grounding terminal"
+      ],
+      "explanation": "An NC auxiliary contact opens when its contactor energizes, interrupting the opposite coil path.",
+      "source": "m",
+      "section": "Module 6 · Auxiliary interlocking",
+      "variants": [
+        {
+          "variant": "a",
+          "prompt": "Which auxiliary contact is used to inhibit the opposite direction coil?"
+        },
+        {
+          "variant": "b",
+          "prompt": "A reversing control uses electrical interlocking. Which contact goes in the opposite coil path?"
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-100.jpg",
+          "page": 100,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 100,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "forward contactor’s normally-closed interlock contacts are opened, preventing current from reaching the reverse coil ► If the reverse coil is energized, the reverse contactor’s normally-closed interlock contacts are opened, preventing current from reaching the…"
+      }
+    },
+    {
+      "id": "wb-18",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "wordbank",
+      "cloze": "___ prevents forward and reverse contactors from being commanded on together.",
+      "prompt": "___ prevents forward and reverse contactors from being commanded on together.",
+      "answer": "Interlocking",
+      "options": [
+        "Interlocking",
+        "Grounding",
+        "Tagout",
+        "Motor starter"
+      ],
+      "explanation": "Interlocking prevents forward and reverse contactors from being commanded on together.",
+      "source": "m",
+      "section": "Interlocking",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-99.jpg",
+          "page": 99,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 99,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Interlocking - prevent one event from occurring before another event or while another event is in progress ► Application: prevent both forward and reverse coils from being energized at the same time ► Three methods: ► Auxiliary Contact Interlock - electrical…"
+      }
+    },
+    {
+      "id": "visual-m-interlock",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "Which contact blocks the reverse coil when the forward contactor is energized?",
+      "answer": "The normally closed F contact in the reverse rung",
+      "options": [
+        "The normally closed F contact in the reverse rung",
+        "The normally open F holding contact",
+        "The forward pushbutton contact",
+        "The normally closed R contact in the forward rung"
+      ],
+      "explanation": "Energizing F opens its normally closed interlock in series with the R coil. This prevents the reverse coil from energizing at the same time.",
+      "source": "m",
+      "section": "6 · Reversing motor control · PDF page 100",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "m-interlock",
+        "alt": "Course slide diagram for this question",
+        "page": 100
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-100.jpg",
+          "page": 100,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 100,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "forward contactor’s normally-closed interlock contacts are opened, preventing current from reaching the reverse coil ► If the reverse coil is energized, the reverse contactor’s normally-closed interlock contacts are opened, preventing current from reaching the…"
+      }
+    },
+    {
+      "id": "c202x-drum",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "Which manual control device is pictured?",
+      "answer": "Drum switch",
+      "options": [
+        "Drum switch",
+        "Magnetic overload",
+        "Float switch",
+        "Control transformer",
+        "None of these"
+      ],
+      "explanation": "Movable contacts on a rotating insulated shaft select power paths.",
+      "source": "m",
+      "sourcePages": [
+        93
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 93",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-drum",
+        "alt": "Original C-202 diagram for this question",
+        "page": 93
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-93.jpg",
+          "page": 93,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 93,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Multiple moveable contacts on an insulated rotating shaft ► Operates by changing the path for electrical power to flow through the switch 93"
+      }
+    },
+    {
+      "id": "c202x-reverser",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "What makes up a reversing magnetic starter?",
+      "answer": "Two contactors plus overload protection",
+      "options": [
+        "Two contactors plus overload protection",
+        "One contactor without overload",
+        "Two transformers only",
+        "One unprotected drum switch"
+      ],
+      "explanation": "One contactor controls each direction.",
+      "source": "m",
+      "sourcePages": [
+        96
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 96",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-96.jpg",
+          "page": 96,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 96,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A reversing magnetic motor starter consists of two magnetic contactors and overload protection ► Each contactor controls a different motor direction ► Independent Contacts - each contactor has its own set of contacts (forward and reverse) 96 Reversing Magnet…"
+      }
+    },
+    {
+      "id": "c202x-both",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "Both direction buttons are pressed in the pushbutton-interlocked circuit. What should happen?",
+      "answer": "Neither coil energizes",
+      "options": [
+        "Neither coil energizes",
+        "Both coils energize",
+        "Reverse always wins",
+        "Forward always wins"
+      ],
+      "explanation": "Each button also interrupts the opposing path.",
+      "source": "m",
+      "sourcePages": [
+        101
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 101",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-101.jpg",
+          "page": 101,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 101,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► If both forward and reverse pushbuttons are pressed at the same time, neither coil is energized ► Can change direction without first pressing the stop pushbutton, but this is not recommended ► Stop the motor before changing directions 101"
+      }
+    },
+    {
+      "id": "c202x-mechanical",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "How does a mechanical interlock block simultaneous contactor operation?",
+      "answer": "A lever blocks the other armature",
+      "options": [
+        "A lever blocks the other armature",
+        "A timer delays both supplies",
+        "A fuse swaps phases",
+        "A float opens neutral"
+      ],
+      "explanation": "It physically prevents the other armature moving.",
+      "source": "m",
+      "sourcePages": [
+        102
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 102",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-102.jpg",
+          "page": 102,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 102,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Mechanical interlocking uses a lever that physically prevents the armature of one of the coils from moving when the other is energized 102"
+      }
+    },
+    {
+      "id": "c202x-blocked",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "Why combine auxiliary electrical and mechanical interlocking?",
+      "answer": "A powered coil with a blocked armature can draw excessive current",
+      "options": [
+        "A powered coil with a blocked armature can draw excessive current",
+        "Mechanical interlocks supply voltage",
+        "Electrical interlocks replace overloads",
+        "They reverse all three phases"
+      ],
+      "explanation": "The slide warns of damage from energizing a mechanically blocked coil.",
+      "source": "m",
+      "sourcePages": [
+        103
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 103",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-103.jpg",
+          "page": 103,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 103,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Applying power to the coil with the mechanically blocked armature causes excess current draw as the coil attempts to pull in the armature, potentially damaging or burning out the coil 103 A21 A23"
+      }
+    },
+    {
+      "id": "c202x-jog",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "With the selector branch open as drawn, what happens when Start is released?",
+      "answer": "F de-energizes",
+      "options": [
+        "F de-energizes",
+        "F stays sealed in",
+        "The motor reverses",
+        "The overload is bypassed"
+      ],
+      "explanation": "The open selector prevents the auxiliary contact from holding the coil.",
+      "source": "m",
+      "sourcePages": [
+        107
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 107",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-jog-selector",
+        "alt": "Original C-202 diagram for this question",
+        "page": 107
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-107.jpg",
+          "page": 107,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 107,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A simple jogging with mode selection circuit using a two position selector which posioion switch selector switch: ► In the “Run” mode, the switch is closed and the seal-in circuit is complete ► In the “Jog” mode, the seal-in circuit is open ► Application: CN…"
+      }
+    },
+    {
+      "id": "c202x-run",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "What must the selector do to permit holding after Start is released?",
+      "answer": "Close the holding branch",
+      "options": [
+        "Close the holding branch",
+        "Open the holding branch",
+        "Hold Stop open",
+        "Bypass the overload"
+      ],
+      "explanation": "Run mode completes the branch through the F auxiliary contact.",
+      "source": "m",
+      "sourcePages": [
+        107
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 107",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-jog-selector",
+        "alt": "Original C-202 diagram for this question",
+        "page": 107
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-107.jpg",
+          "page": 107,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 107,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► A simple jogging with mode selection circuit using a two position selector which posioion switch selector switch: ► In the “Run” mode, the switch is closed and the seal-in circuit is complete ► In the “Jog” mode, the seal-in circuit is open ► Application: CN…"
+      }
+    },
+    {
+      "id": "c202x-auto",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "In Auto mode, what provides the operating command for M?",
+      "answer": "The automatic input devices",
+      "options": [
+        "The automatic input devices",
+        "The Hand branch alone",
+        "The overload heater alone",
+        "The grounding wire"
+      ],
+      "explanation": "Auto routes the command through the input-device path.",
+      "source": "m",
+      "sourcePages": [
+        108
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 108",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-hoa",
+        "alt": "Original C-202 diagram for this question",
+        "page": 108
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-108.jpg",
+          "page": 108,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 108,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Another type of mode circuit is the Hand-Off-Automatic motor control circuit ► Uses a three-position selector switch ► Three functions: ► Hand (Manual) Mode ► Motor will run continuously ► Off Mode ► Prevents any of the input devices from energizing the circ…"
+      }
+    },
+    {
+      "id": "c202x-off",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "What does Off do in this circuit?",
+      "answer": "Prevents both command paths from energizing M",
+      "options": [
+        "Prevents both command paths from energizing M",
+        "Runs M continuously",
+        "Reverses M",
+        "Changes transformer ratio"
+      ],
+      "explanation": "Neither operating path is selected.",
+      "source": "m",
+      "sourcePages": [
+        108
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 108",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-hoa",
+        "alt": "Original C-202 diagram for this question",
+        "page": 108
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-108.jpg",
+          "page": 108,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 108,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Prevents any of the input devices from energizing the circuit ► Automatic Mode ► Rely on the input devices to energize the coil to the motor ► Will not run until certain conditions are met ► Application: irrigation system for crops ► Hand - pump continuously…"
+      }
+    },
+    {
+      "id": "c202x-hand",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "symbol",
+      "prompt": "With protection healthy, what does Hand command?",
+      "answer": "Continuous motor operation",
+      "options": [
+        "Continuous motor operation",
+        "Only automatic-input operation",
+        "A delayed shutdown",
+        "Automatic reversal"
+      ],
+      "explanation": "Hand selects the manual continuous-run path.",
+      "source": "m",
+      "sourcePages": [
+        108
+      ],
+      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 108",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c202-hoa",
+        "alt": "Original C-202 diagram for this question",
+        "page": 108
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-108.jpg",
+          "page": 108,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 108,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Another type of mode circuit is the Hand-Off-Automatic motor control circuit ► Uses a three-position selector switch ► Three functions: ► Hand (Manual) Mode ► Motor will run continuously ► Off Mode ► Prevents any of the input devices from energizing the circ…"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "world": "pneumatic",
+  "topic": "Module 6 · Air Logic",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "module-check-4",
+      "world": "pneumatic",
+      "topic": "Module 6 · Air Logic",
+      "type": "quiz",
+      "prompt": "What holds a detented DCV spool in its shifted position?",
+      "answer": "Detents",
+      "options": [
+        "Detents",
+        "A filter element",
+        "A muffler",
+        "A pressure gauge"
+      ],
+      "explanation": "Detents grip the spool and hold it in the shifted position.",
+      "source": "p",
+      "section": "Module 6 · Detented Valves, slide 103",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-103.jpg",
+          "page": 103,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 103,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Detents grip the DCV spool in a manner and holds it in the shifted position. 103 A26"
+      }
+    }
+  ]
+}

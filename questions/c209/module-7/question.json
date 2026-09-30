@@ -1,0 +1,36 @@
+{
+  "world": "pneumatic",
+  "topic": "Module 7 · Automatic Input Devices 1",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q056",
+      "world": "pneumatic",
+      "type": "scenario",
+      "prompt": "What effect do increased compressed-air leaks have on a pneumatic system?",
+      "answer": "Higher energy costs and lower efficiency",
+      "options": [
+        "Higher energy costs and lower efficiency",
+        "Free extra power",
+        "Lower total air use",
+        "More precise motion automatically"
+      ],
+      "explanation": "Leaked compressed air wastes energy and can reduce tool efficiency and productivity.",
+      "source": "p",
+      "section": "Air leaks: Effects, slide 155",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-155.jpg",
+          "page": 155,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 155,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Tool efficiency ► Decreased productivity Note: ► Leakage rates can often account for 40% of total air consumption. 155 A33"
+      }
+    }
+  ]
+}

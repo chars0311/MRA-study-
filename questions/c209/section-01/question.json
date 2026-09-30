@@ -1,0 +1,158 @@
+{
+  "world": "pneumatic",
+  "topic": "Introduction & basic components",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q047",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What medium transmits power in a pneumatic system?",
+      "answer": "Air or another gas",
+      "options": [
+        "Air or another gas",
+        "Only hydraulic oil",
+        "Electric current only",
+        "A belt"
+      ],
+      "explanation": "Pneumatics uses compressed gas to perform work.",
+      "source": "p",
+      "section": "Introduction to Pneumatics",
+      "topic": "Introduction & basic components",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-2.jpg",
+          "page": 2,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 2,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► The use of air or other gases to perform work. Manufacturing ► Robotics ► Power Tools ► Painting Transportation ► Truck Brakes ► Air Shock Absorbers ► Vehicle Control Devices Construction ► Rock Drills ► Pneumatic drill ► Air Chisel 2"
+      }
+    },
+    {
+      "id": "q048",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which component converts pneumatic power into mechanical motion?",
+      "answer": "Actuator",
+      "options": [
+        "Actuator",
+        "Filter",
+        "Supply hose",
+        "Storage tank"
+      ],
+      "explanation": "Cylinders create linear motion; air motors create rotary motion.",
+      "source": "p",
+      "section": "Basic Components: Power Output Devices",
+      "topic": "Introduction & basic components",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-7.jpg",
+          "page": 7,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "► Actuators can either be cylinders, which produce linear motion. ► Actuators can also be motors, which produce rotary motion. 7"
+      }
+    },
+    {
+      "id": "q050",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What is the pressure regulator's main role?",
+      "answer": "Reduce and control downstream pressure",
+      "options": [
+        "Reduce and control downstream pressure",
+        "Increase air contamination",
+        "Store all exhaust air",
+        "Measure shaft speed"
+      ],
+      "explanation": "The regulator adjusts the pressure supplied to control and power circuits.",
+      "source": "p",
+      "section": "Pressure Regulator in a Circuit, slide 21",
+      "topic": "Introduction & basic components",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-21.jpg",
+          "page": 21,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 21,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Pressure Regulator in a Circuit ► As shown, the regulator with the pressure gauge us used to reduce the supply pressure to the control and power circuit of the machine. ► Normally it is located in the circuit between a filter and the control valves. ► A pressu…"
+      }
+    },
+    {
+      "id": "q051",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does an air filter remove from supply air?",
+      "answer": "Particles and water droplets",
+      "options": [
+        "Particles and water droplets",
+        "All nitrogen",
+        "All pressure",
+        "Every gas molecule"
+      ],
+      "explanation": "Ambient air contains contaminants; the filter cleans particles and water droplets from it.",
+      "source": "p",
+      "section": "Air Filter, slide 22",
+      "topic": "Introduction & basic components",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-22.jpg",
+          "page": 22,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 22,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "will also remove water droplets from the air supply. ► All pneumatic system should be installed with one or more air filters to keep them working properly. 22"
+      }
+    },
+    {
+      "id": "visual-p-regulator",
+      "world": "pneumatic",
+      "topic": "Introduction & basic components",
+      "type": "symbol",
+      "prompt": "Which pneumatic component does this symbol represent?",
+      "answer": "Pressure regulator",
+      "options": [
+        "Pressure regulator",
+        "Check valve",
+        "Double-acting cylinder",
+        "Air motor"
+      ],
+      "explanation": "The slide shows an adjustable spring, a pressure-sensing pilot line and the regulating flow path. These are features of the pressure-regulator symbol.",
+      "source": "p",
+      "section": "Introduction & basic components · PDF page 20",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "p-regulator",
+        "alt": "Course slide diagram for this question",
+        "page": 20
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/p-20.jpg",
+          "page": 20,
+          "title": "C209 Pneumatic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 20,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Pressure Regulators Schematic Symbol Flow Line -The flow line connecting the inlet and outlet shows that these ports are connected. Pilot Line - The dashed line represents a pilot line inside the valve body which senses downstream pressure. Spring - the spring…"
+      }
+    }
+  ]
+}

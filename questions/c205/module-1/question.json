@@ -1,0 +1,1506 @@
+{
+  "world": "sensor",
+  "topic": "Module 1 · Control Logic",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q035",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "Two normally open switches in series implement which logic?",
+      "answer": "AND",
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "Memory"
+      ],
+      "explanation": "Both series switches must close to complete the path.",
+      "source": "s",
+      "section": "Control Logic 2, slide 8",
+      "topic": "Module 1 · Control Logic",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 8,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "AND logic requires two switches in series to be closed OR logic requires one of two switches in parallel to be closed NOT logic requires one normally closed switched to be open 8Control Logic 2 A13 A24"
+      }
+    },
+    {
+      "id": "q036",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "Two normally open switches in parallel implement which logic?",
+      "answer": "OR",
+      "options": [
+        "OR",
+        "AND",
+        "NOT",
+        "Timing"
+      ],
+      "explanation": "Either branch can complete the path, which implements OR.",
+      "source": "s",
+      "section": "Control Logic 2, slide 8",
+      "topic": "Module 1 · Control Logic",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 8,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "OR logic requires one of two switches in parallel to be closed NOT logic requires one normally closed switched to be open 8Control Logic 2 A13 A24"
+      }
+    },
+    {
+      "id": "q037",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "What does memory logic do?",
+      "answer": "Keeps an output on after a momentary input ends",
+      "options": [
+        "Keeps an output on after a momentary input ends",
+        "Erases the output whenever Start is released",
+        "Measures resistance",
+        "Reverses every input"
+      ],
+      "explanation": "Memory or seal-in logic maintains the output through its own contact path.",
+      "source": "s",
+      "section": "Control Logic 3, slide 9",
+      "topic": "Module 1 · Control Logic",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 9,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Memory Logic is used to keep an output energized after the Input signal that turned it on is removed Also known as a seal-in circuit 9Control Logic 3"
+      }
+    },
+    {
+      "id": "q045",
+      "world": "sensor",
+      "type": "quiz",
+      "prompt": "How should a ladder diagram be read?",
+      "answer": "Left to right, then top to bottom",
+      "options": [
+        "Left to right, then top to bottom",
+        "Bottom to top only",
+        "Right to left only",
+        "By following wire colors"
+      ],
+      "explanation": "The course starts at the first rung, reads across, then proceeds to the next rung.",
+      "source": "s",
+      "section": "Reading a Ladder Diagram, slide 13",
+      "topic": "Module 1 · Control Logic",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-13.jpg",
+          "page": 13,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 13,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Read left to right and then top-down Ladder Diagram 13"
+      }
+    },
+    {
+      "id": "visual-s-and",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "AND",
+      "options": [
+        "AND",
+        "OR",
+        "NOT",
+        "NOR",
+        "NAND"
+      ],
+      "explanation": "The two normally open contacts are in series. Both must close to complete the path to the lamp.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 8",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-and",
+        "alt": "Course slide diagram for this question",
+        "page": 8
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for two normally open contacts in series. Trace the single current path: both contacts must close for the lamp to turn on."
+      }
+    },
+    {
+      "id": "visual-s-or",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "OR",
+      "options": [
+        "OR",
+        "AND",
+        "NOT",
+        "NOR",
+        "NAND"
+      ],
+      "explanation": "The two normally open contacts are in parallel. Either branch can complete the path to the lamp.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 8",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-or",
+        "alt": "Course slide diagram for this question",
+        "page": 8
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for two normally open contacts in parallel. Either closed branch can complete the path to the lamp."
+      }
+    },
+    {
+      "id": "visual-s-not",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "NOT",
+      "options": [
+        "NOT",
+        "AND",
+        "OR",
+        "NOR",
+        "NAND"
+      ],
+      "explanation": "One normally closed contact controls the lamp. Pressing the button opens the path and turns the lamp off.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 8",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-not",
+        "alt": "Course slide diagram for this question",
+        "page": 8
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for one normally closed contact. Operating it opens the path and turns the output off."
+      }
+    },
+    {
+      "id": "visual-s-nor",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "NOR",
+      "options": [
+        "NOR",
+        "AND",
+        "OR",
+        "NOT",
+        "NAND"
+      ],
+      "explanation": "The normally closed contacts are in series. Operating either button opens the only path to the lamp.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 9",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-nor",
+        "alt": "Course slide diagram for this question",
+        "page": 9
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for normally closed contacts in series. Opening either contact breaks the only path and turns the lamp off."
+      }
+    },
+    {
+      "id": "slide-nand-sensor",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which control-logic arrangement does this slide diagram show?",
+      "answer": "NAND",
+      "options": [
+        "NAND",
+        "AND",
+        "OR",
+        "NOT",
+        "NOR"
+      ],
+      "explanation": "The normally closed contacts are in parallel. Both must open to remove every path to the lamp.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 9",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-nand",
+        "alt": "Course slide diagram for this question",
+        "page": 9
+      },
+      "variants": [
+        {
+          "variant": "identify",
+          "prompt": "Which control-logic arrangement does this slide diagram show?"
+        },
+        {
+          "variant": "name",
+          "prompt": "Identify the logic implemented by the pictured switch circuit."
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for normally closed contacts in parallel. One closed branch keeps the lamp on; both contacts must open to turn it off."
+      }
+    },
+    {
+      "id": "visual-s-nor-operation",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "In this circuit, what happens when either one of the normally closed pushbuttons is operated?",
+      "answer": "The lamp turns off",
+      "options": [
+        "The lamp turns off",
+        "The other branch keeps the lamp on",
+        "The lamp turns on only after a delay",
+        "The lamp stays on until both buttons are pressed"
+      ],
+      "explanation": "The normally closed contacts are in series. Operating either button opens the only path to the lamp.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 9",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-nor",
+        "alt": "Course slide diagram for this question",
+        "page": 9
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for normally closed contacts in series. Opening either contact breaks the only path and turns the lamp off."
+      }
+    },
+    {
+      "id": "visual-s-memory",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "What control arrangement is shown by the parallel 1CRA contact around 1PB?",
+      "answer": "Memory / seal-in logic",
+      "options": [
+        "Memory / seal-in logic",
+        "NAND logic",
+        "A voltage divider",
+        "A timer-only circuit"
+      ],
+      "explanation": "After 1PB energizes 1CR, auxiliary contact 1CRA closes and maintains the current path when 1PB is released.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 9",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-memory",
+        "alt": "Course slide diagram for this question",
+        "page": 9
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the 1CRA contact wired around the Start pushbutton. Trace how that parallel contact keeps the relay energized after Start is released, and how Stop breaks the path."
+      }
+    },
+    {
+      "id": "switch-spst",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 3",
+      "type": "quiz",
+      "prompt": "What does SPST stand for?",
+      "answer": "Single pole, single throw",
+      "options": [
+        "Single pole, single throw",
+        "Single phase, single terminal",
+        "Series pole, series throw",
+        "Single pressure, single timer"
+      ],
+      "explanation": "The manual-switch slide defines SPST as single pole, single throw.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "switch-normal",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 5",
+      "type": "quiz",
+      "prompt": "What does the normal state of a switch contact mean?",
+      "answer": "Its unoperated or unenergized state",
+      "options": [
+        "Its unoperated or unenergized state",
+        "Its state during every running cycle",
+        "Its state with the largest current",
+        "Its state after a timer finishes"
+      ],
+      "explanation": "Normal describes the contact before operation or energization, not necessarily the machine’s running condition.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-5.jpg",
+          "page": 5,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "switch is unoperated or unenergized. Switches with multiple contacts can have various combinations of NO and NC. NC Contacts NO Contacts 5"
+      }
+    },
+    {
+      "id": "switch-mixed",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "source": "s",
+      "section": "Module 1 · Control Logic · PDF page 5",
+      "type": "quiz",
+      "prompt": "Can one switch have both normally open and normally closed contacts?",
+      "answer": "Yes; multiple-contact switches can combine NO and NC",
+      "options": [
+        "Yes; multiple-contact switches can combine NO and NC",
+        "No; all contacts must be NO",
+        "No; all contacts must be NC",
+        "Only if the contacts are faulty"
+      ],
+      "explanation": "The slide explicitly allows combinations of NO and NC contacts within a switch.",
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-5.jpg",
+          "page": 5,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Switches with multiple contacts can have various combinations of NO and NC. NC Contacts NO Contacts 5"
+      }
+    },
+    {
+      "id": "c205x-spst-single",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
+      "answer": "SPST — single pole, single throw",
+      "options": [
+        "SPST — single pole, single throw",
+        "SPDT — single pole, double throw",
+        "DPST — double pole, single throw",
+        "DPDT — double pole, double throw",
+        "None of these"
+      ],
+      "explanation": "This is SPST — single pole, single throw. The slide shows its single-break version; break count does not change the pole-and-throw designation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-spst-single",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-spst-double",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
+      "answer": "SPST — single pole, single throw",
+      "options": [
+        "SPST — single pole, single throw",
+        "SPDT — single pole, double throw",
+        "DPST — double pole, single throw",
+        "DPDT — double pole, double throw",
+        "None of these"
+      ],
+      "explanation": "This is SPST — single pole, single throw. The slide shows its double-break version; break count does not change the pole-and-throw designation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-spst-double",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-spdt-single",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
+      "answer": "SPDT — single pole, double throw",
+      "options": [
+        "SPDT — single pole, double throw",
+        "SPST — single pole, single throw",
+        "DPST — double pole, single throw",
+        "DPDT — double pole, double throw",
+        "None of these"
+      ],
+      "explanation": "This is SPDT — single pole, double throw. The slide shows its single-break version; break count does not change the pole-and-throw designation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-spdt-single",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-spdt-double",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
+      "answer": "SPDT — single pole, double throw",
+      "options": [
+        "SPDT — single pole, double throw",
+        "SPST — single pole, single throw",
+        "DPST — double pole, single throw",
+        "DPDT — double pole, double throw",
+        "None of these"
+      ],
+      "explanation": "This is SPDT — single pole, double throw. The slide shows its double-break version; break count does not change the pole-and-throw designation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-spdt-double",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-dpst-single",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
+      "answer": "DPST — double pole, single throw",
+      "options": [
+        "DPST — double pole, single throw",
+        "SPST — single pole, single throw",
+        "SPDT — single pole, double throw",
+        "DPDT — double pole, double throw",
+        "None of these"
+      ],
+      "explanation": "This is DPST — double pole, single throw. The slide shows its single-break version; break count does not change the pole-and-throw designation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-dpst-single",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-dpst-double",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
+      "answer": "DPST — double pole, single throw",
+      "options": [
+        "DPST — double pole, single throw",
+        "SPST — single pole, single throw",
+        "SPDT — single pole, double throw",
+        "DPDT — double pole, double throw",
+        "None of these"
+      ],
+      "explanation": "This is DPST — double pole, single throw. The slide shows its double-break version; break count does not change the pole-and-throw designation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-dpst-double",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-dpdt-single",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
+      "answer": "DPDT — double pole, double throw",
+      "options": [
+        "DPDT — double pole, double throw",
+        "SPST — single pole, single throw",
+        "SPDT — single pole, double throw",
+        "DPST — double pole, single throw",
+        "None of these"
+      ],
+      "explanation": "This is DPDT — double pole, double throw. The slide shows its single-break version; break count does not change the pole-and-throw designation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-dpdt-single",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-dpdt-double",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
+      "answer": "DPDT — double pole, double throw",
+      "options": [
+        "DPDT — double pole, double throw",
+        "SPST — single pole, single throw",
+        "SPDT — single pole, double throw",
+        "DPST — double pole, single throw",
+        "None of these"
+      ],
+      "explanation": "This is DPDT — double pole, double throw. The slide shows its double-break version; break count does not change the pole-and-throw designation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-dpdt-double",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-double-break",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "What is the complete classification of this switch symbol?",
+      "answer": "SPST, double break",
+      "options": [
+        "SPST, double break",
+        "SPST, single break",
+        "SPDT, double break",
+        "DPST, double break",
+        "DPDT, single break"
+      ],
+      "explanation": "The slide labels this one-pole, one-throw contact-bar symbol as SPST double break.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
+      "sourcePages": [
+        3
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-spst-double",
+        "alt": "C-205 slide diagram for this question",
+        "page": 3
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-3.jpg",
+          "page": 3,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+      }
+    },
+    {
+      "id": "c205x-solid-state",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "What distinguishes the transistor switch from a mechanical limit switch?",
+      "answer": "It switches without moving contacts",
+      "options": [
+        "It switches without moving contacts",
+        "It requires physical movement of a lever",
+        "It always has two mechanical poles",
+        "It is only a maintained selector"
+      ],
+      "explanation": "The slide describes a transistor as solid-state: it has no moving parts.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 4",
+      "sourcePages": [
+        4
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-4.jpg",
+          "page": 4,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "billions or over a trillion in your phone or computer. A transistor is solid-state: it has no moving parts like a limit switch or button. Below are the symbols for transistors: Used in control circuits, a Transistor is just an SPST switch, either on or off! So…"
+      }
+    },
+    {
+      "id": "c205x-transistor-use",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "In the control-circuit model used here, a transistor acts primarily as what?",
+      "answer": "An on/off switch",
+      "options": [
+        "An on/off switch",
+        "A continuously variable resistor in this circuit model",
+        "A mechanically operated contact",
+        "An electromagnetic relay coil"
+      ],
+      "explanation": "The slides model the transistor as an electronic on/off switch used by solid-state relays and sensors.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 4",
+      "sourcePages": [
+        4
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-4.jpg",
+          "page": 4,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Solid state relays and sensors use transistors as switches Electricity Flow 4"
+      }
+    },
+    {
+      "id": "c205x-mixed-contacts",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "A switch has one NO contact and one NC contact. Which statement is correct?",
+      "answer": "The two contacts can have different normal states within the same switch",
+      "options": [
+        "The two contacts can have different normal states within the same switch",
+        "All contacts in one switch must be NO",
+        "All contacts must become NO when power is removed",
+        "An NC contact makes the whole switch a timer"
+      ],
+      "explanation": "Multiple contacts can combine NO and NC; normal refers to their unoperated state.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 5",
+      "sourcePages": [
+        5
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-5.jpg",
+          "page": 5,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Each contact within any switch has a normal state. The normal state is when the switch is unoperated or unenergized. Switches with multiple contacts can have various combinations of NO and NC. NC Contacts NO Contacts 5"
+      }
+    },
+    {
+      "id": "c205x-selector-identify",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Which switch operator is shown?",
+      "answer": "Two-position selector switch",
+      "options": [
+        "Two-position selector switch",
+        "Momentary pushbutton",
+        "On-delay timer contact",
+        "Magnetic reed contact",
+        "None of these"
+      ],
+      "explanation": "The two-position operator is shown with a solid arrow for the unoperated position and a dotted arrow for the other position.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-selector",
+        "alt": "C-205 slide diagram for this question",
+        "page": 6
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-6.jpg",
+          "page": 6,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● In a two-position switch, the solid arrow shows the unoperated state Switch States 2 Switch is open in the left position, closed in the right 6"
+      }
+    },
+    {
+      "id": "c205x-selector-arrow",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "What does the solid arrow indicate on this two-position selector symbol?",
+      "answer": "The unoperated position",
+      "options": [
+        "The unoperated position",
+        "The direction of current",
+        "The timed position",
+        "The pressure supply connection"
+      ],
+      "explanation": "The slide specifies that the solid arrow identifies the unoperated state.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-selector",
+        "alt": "C-205 slide diagram for this question",
+        "page": 6
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-6.jpg",
+          "page": 6,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● In a two-position switch, the solid arrow shows the unoperated state Switch States 2 Switch is open in the left position, closed in the right 6"
+      }
+    },
+    {
+      "id": "c205x-selector-center",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "What are the states of the two contacts shown?",
+      "answer": "Both left and right NO contacts are open",
+      "options": [
+        "Both left and right NO contacts are open",
+        "Left NO contact closed; right NO contact open",
+        "Left NO contact open; right NO contact closed",
+        "Both left and right NO contacts are closed",
+        "None of these"
+      ],
+      "explanation": "At the center position, neither of the two NO contacts is operated.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-selector-center",
+        "alt": "C-205 slide diagram for this question",
+        "page": 6
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-6.jpg",
+          "page": 6,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "● In a three-position switch, the center position does not operate any contacts ● In a two-position switch, the solid arrow shows the unoperated state Switch States 2 Switch is open in the left position, closed in the right 6"
+      }
+    },
+    {
+      "id": "c205x-selector-left",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "What are the states of the two contacts shown?",
+      "answer": "Left NO contact closed; right NO contact open",
+      "options": [
+        "Left NO contact closed; right NO contact open",
+        "Both left and right NO contacts are open",
+        "Left NO contact open; right NO contact closed",
+        "Both left and right NO contacts are closed",
+        "None of these"
+      ],
+      "explanation": "The left position closes the left contact while the right contact stays open.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-selector-left",
+        "alt": "C-205 slide diagram for this question",
+        "page": 6
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-6.jpg",
+          "page": 6,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "position, closed in the right 6"
+      }
+    },
+    {
+      "id": "c205x-selector-right",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "What are the states of the two contacts shown?",
+      "answer": "Left NO contact open; right NO contact closed",
+      "options": [
+        "Left NO contact open; right NO contact closed",
+        "Both left and right NO contacts are open",
+        "Left NO contact closed; right NO contact open",
+        "Both left and right NO contacts are closed",
+        "None of these"
+      ],
+      "explanation": "The right position closes the right contact while the left contact stays open.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 6",
+      "sourcePages": [
+        6
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c205-selector-right",
+        "alt": "C-205 slide diagram for this question",
+        "page": 6
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-6.jpg",
+          "page": 6,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "position, closed in the right 6"
+      }
+    },
+    {
+      "id": "c205x-logic-purpose",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "What is the purpose of control logic?",
+      "answer": "Connect switches so their conditions determine machine operation",
+      "options": [
+        "Connect switches so their conditions determine machine operation",
+        "Show only the physical location of each wire",
+        "Replace every output device with a sensor",
+        "Set the mechanical alignment of shafts"
+      ],
+      "explanation": "The slides describe control logic as connecting switches to make decisions about machine operation.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 7",
+      "sourcePages": [
+        7
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-7.jpg",
+          "page": 7,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "make decisions that control a machine’s operation. 7"
+      }
+    },
+    {
+      "id": "c205x-and-one",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Only 1PB is operated in this series-switch arrangement. What must also happen to complete the lamp path?",
+      "answer": "2PB must also close",
+      "options": [
+        "2PB must also close",
+        "2PB must open",
+        "The two contacts must be rewired as NC",
+        "Neither button may be operated"
+      ],
+      "explanation": "Both series contacts must close for the AND path to be complete.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 8",
+      "sourcePages": [
+        8
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-and",
+        "alt": "C-205 slide diagram for this question",
+        "page": 8
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for two normally open contacts in series. Trace the single current path: both contacts must close for the lamp to turn on."
+      }
+    },
+    {
+      "id": "c205x-or-both",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "Both normally open pushbuttons close in this parallel arrangement. What happens to the lamp?",
+      "answer": "It remains energized",
+      "options": [
+        "It remains energized",
+        "It switches off because both paths are closed",
+        "It requires a timer to turn on",
+        "It can energize only if exactly one contact is closed"
+      ],
+      "explanation": "OR permits either or both branches to complete the circuit.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 8",
+      "sourcePages": [
+        8
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-or",
+        "alt": "C-205 slide diagram for this question",
+        "page": 8
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for two normally open contacts in parallel. Either closed branch can complete the path to the lamp."
+      }
+    },
+    {
+      "id": "c205x-nand-both",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "What contact condition removes every current path to the lamp in this arrangement?",
+      "answer": "Both normally closed contacts are opened",
+      "options": [
+        "Both normally closed contacts are opened",
+        "Only 1PB opens while 2PB stays closed",
+        "Only 2PB opens while 1PB stays closed",
+        "Both contacts stay closed"
+      ],
+      "explanation": "The two contacts are parallel. Both paths must be open to de-energize the NAND output.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 9",
+      "sourcePages": [
+        9
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-nand",
+        "alt": "C-205 slide diagram for this question",
+        "page": 9
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Look for normally closed contacts in parallel. One closed branch keeps the lamp on; both contacts must open to turn it off."
+      }
+    },
+    {
+      "id": "c205x-memory-stop",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "symbol",
+      "prompt": "In this memory circuit, which input breaks the holding path?",
+      "answer": "2PB",
+      "options": [
+        "2PB",
+        "1PB after release",
+        "1CRA when it closes",
+        "The L1 rail label"
+      ],
+      "explanation": "2PB is in series with both the Start path and the auxiliary holding path.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 9",
+      "sourcePages": [
+        9
+      ],
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "s-memory",
+        "alt": "C-205 slide diagram for this question",
+        "page": 9
+      },
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "text": "Find the 1CRA contact wired around the Start pushbutton. Trace how that parallel contact keeps the relay energized after Start is released, and how Stop breaks the path."
+      }
+    },
+    {
+      "id": "c205x-control-v-power",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "Which type of electrical drawing represents control logic using rungs and control-device symbols?",
+      "answer": "Ladder diagram",
+      "options": [
+        "Ladder diagram",
+        "Power diagram",
+        "Pictorial equipment layout",
+        "Mechanical connection drawing"
+      ],
+      "explanation": "The course uses a ladder diagram for the control circuit and a separate power diagram for power connections.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 10",
+      "sourcePages": [
+        10
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-10.jpg",
+          "page": 10,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Ladder Diagrams and Power Diagrams Ladder Diagrams show the control and power devices Power wiring is shown on a separate diagram, called the Power Diagram The design of a control circuit with logic elements like PLCs or other control logic components is calle…"
+      }
+    },
+    {
+      "id": "c205x-power-purpose",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "Which information belongs on a power diagram?",
+      "answer": "Overall power connections to motors and other actuators",
+      "options": [
+        "Overall power connections to motors and other actuators",
+        "Only the command sequence and holding contacts",
+        "Only timer contact delays",
+        "Only control-device rung numbers"
+      ],
+      "explanation": "Power diagrams show overall system connections to motors and actuators.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 11",
+      "sourcePages": [
+        11
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-11.jpg",
+          "page": 11,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Power diagrams show overall electrical system connections to motors and other actuators. 11"
+      }
+    },
+    {
+      "id": "c205x-ladder-position",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "Where are inputs and outputs arranged under the course ladder rules?",
+      "answer": "Inputs on the left; outputs on the right",
+      "options": [
+        "Inputs on the left; outputs on the right",
+        "Inputs on the right; outputs on the left",
+        "Both only on the left rail",
+        "Inputs only on the bottom rung"
+      ],
+      "explanation": "The course convention puts input devices to the left and output devices to the right.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 12",
+      "sourcePages": [
+        12
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-12.jpg",
+          "page": 12,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Inputs are on left, outputs are on right Ladder Diagram Ladder Diagram Components • Shows only 4 types of components • Power supply ∙ Input devices ∙ Output devices ∙ Conductors 12 A09"
+      }
+    },
+    {
+      "id": "c205x-ladder-number",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "Which is the complete labeling requirement in the course ladder rules?",
+      "answer": "All three: label components, number conductors, and number rungs",
+      "options": [
+        "All three: label components, number conductors, and number rungs",
+        "Label components only",
+        "Number conductors only",
+        "Number rungs only",
+        "None of these"
+      ],
+      "explanation": "The slide requires component labels and numbers for both conductors and rungs.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 12",
+      "sourcePages": [
+        12
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-12.jpg",
+          "page": 12,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "Ladder Diagram Rules: • All components must be labeled • All conductors must be numbered • All rungs must be numbered • Only control devices are shown • Only one load per rung is allowed • Read left to right and then top-down • Inputs are on left, outputs are …"
+      }
+    },
+    {
+      "id": "c205x-load-per-rung",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "Under the one-load-per-rung convention, how many output loads belong on each ladder rung?",
+      "answer": "One",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Any number as long as they are in series"
+      ],
+      "explanation": "The slide lists one load per rung as its drawing rule.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 12",
+      "sourcePages": [
+        12
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-12.jpg",
+          "page": 12,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Only one load per rung is allowed • Read left to right and then top-down • Inputs are on left, outputs are on right Ladder Diagram Ladder Diagram Components • Shows only 4 types of components • Power supply ∙ Input devices ∙ Output devices ∙ Conductors 12 A0…"
+      }
+    },
+    {
+      "id": "c205x-next-rung",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "After reading the first rung from left to right, what is the next step?",
+      "answer": "Move down to the next rung and read left to right",
+      "options": [
+        "Move down to the next rung and read left to right",
+        "Read the same rung backward",
+        "Skip directly to the last output",
+        "Follow only the right rail upward"
+      ],
+      "explanation": "Read each rung left to right and proceed from top to bottom.",
+      "source": "s",
+      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 13",
+      "sourcePages": [
+        13
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-13.jpg",
+          "page": 13,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 13,
+        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "excerpt": "• Read left to right and then top-down Ladder Diagram 13"
+      }
+    }
+  ]
+}
