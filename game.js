@@ -255,32 +255,18 @@ function reviewGuidance(q) {
 }
 function reviewSlides(q) {
   const pages = q.reviewSlides || [];
-  if (!pages.length)
-    return '<p class="small">Review the source and section listed above.</p>';
   return (
     reviewGuidance(q) +
-    '<section class="review-slides"><h3>Review this slide</h3>' +
-    pages
-      .map(
-        (s) =>
-          '<figure><a href="' +
-          escape(s.url) +
-          '" target="_blank" rel="noopener"><img src="' +
-          escape(s.url) +
-          '" alt="Review slide: ' +
-          escape(s.title) +
-          " — PDF page " +
-          s.page +
-          '" loading="lazy"></a><figcaption>' +
-          escape(s.title) +
-          " · PDF page " +
-          s.page +
-          " · Select image to enlarge</figcaption></figure>",
-      )
-      .join("") +
-    "</section>"
+    '<section class="review-slides"><h3>Where to review</h3>' +
+    (pages.length
+      ? '<ul>' + pages.map((s) =>
+          '<li>' + escape(s.title) + ' · PDF page ' + escape(String(s.page)) + '</li>'
+        ).join('') + '</ul>'
+      : '<p class="small">Review the source and section listed above.</p>') +
+    '</section>'
   );
 }
+
 const lastAnswers = () =>
   Object.fromEntries(
     events
