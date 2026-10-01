@@ -6,19 +6,26 @@
     {
       "id": "q038",
       "world": "sensor",
-      "type": "quiz",
-      "prompt": "Which proximity sensor detects only metal targets?",
-      "answer": "Inductive",
-      "options": [
-        "Inductive",
-        "Capacitive",
-        "Magnetic reed",
-        "Photoelectric"
-      ],
-      "explanation": "Inductive sensing uses a magnetic field and detects metals, with steel and iron especially suitable in the guide.",
-      "source": "s",
-      "section": "Inductive Proximity Sensor, slide 54",
       "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ Which sensor detects only ferrous and non-ferrous metals?",
+      "options": [
+        "Photoelectric switch",
+        "Inductive proximity switch",
+        "All listed switches",
+        "None of the above"
+      ],
+      "answer": "Inductive proximity switch",
+      "explanation": "Inductive proximity sensors respond to metal targets. Ferrous and non-ferrous metals can both be detected, with different sensing ranges.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 14",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 14
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-54.jpg",
@@ -27,27 +34,33 @@
         }
       ],
       "reviewCue": {
-        "page": 54,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Inductive Proximity Sensor Uses an AC current flowing through a coil to create a magnetic field. When metal nears the head, some of the magnetic energy is absorbed Five things that affect performance: • Target material • Target Size • Target Distance • Sensor …"
+        "page": 14,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 14. Inductive proximity sensors respond to metal targets. Ferrous and non-ferrous metals can both be detected, with different sensing ranges."
       }
     },
     {
       "id": "q039",
       "world": "sensor",
-      "type": "quiz",
-      "prompt": "Which proximity sensor can detect metal and nonmetal objects?",
-      "answer": "Capacitive",
-      "options": [
-        "Capacitive",
-        "Inductive",
-        "A mechanical relay coil",
-        "A fuse"
-      ],
-      "explanation": "Capacitive sensing responds to changes in an electrostatic field and can detect both categories.",
-      "source": "s",
-      "section": "Capacitive Proximity Sensor, slide 55",
       "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ For the quiz application, which is the best listed sensor to detect clear plastic water bottles on a conveyor?",
+      "options": [
+        "Photoelectric sensor",
+        "Inductive proximity sensor",
+        "All listed sensors",
+        "Capacitive sensor"
+      ],
+      "answer": "Capacitive sensor",
+      "explanation": "Capacitive proximity sensing detects nonmetallic material through changes in its electrostatic field. Inductive sensing is limited to metals.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 5
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-55.jpg",
@@ -56,9 +69,8 @@
         }
       ],
       "reviewCue": {
-        "page": 55,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Capacitive Proximity Sensor Uses an AC current flowing to two plates to create an electrostatic field (a voltage difference). When an object nears the head, this field changes Five things that affect performance: • Target material • Target Size • Target Distan…"
+        "page": 5,
+        "text": "Review Sensor 6-7.pdf, PDF page 5. Capacitive proximity sensing detects nonmetallic material through changes in its electrostatic field. Inductive sensing is limited to metals."
       }
     },
     {
@@ -417,19 +429,21 @@
       "world": "sensor",
       "topic": "Electronic Sensors · introduction & proximity sensors",
       "type": "quiz",
-      "prompt": "A controller needs a positive/high input signal when the sensor operates. Which output technology matches the course description?",
-      "answer": "PNP sourcing",
+      "prompt": "★ A PLC requires a high signal when the electronic sensor operates. Which output design provides it?",
       "options": [
-        "PNP sourcing",
-        "NPN sinking",
-        "A sinking output assumed to be sourcing without changing wiring",
-        "Either PNP or NPN regardless of the receiving input"
+        "PNP transistor design",
+        "NPN transistor design"
       ],
-      "explanation": "PNP sourcing supplies a high signal; NPN sinking pulls the signal toward 0 V.",
+      "answer": "PNP transistor design",
+      "explanation": "PNP sources current toward the load and provides the positive/high signal described in the course.",
       "source": "s",
-      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 52",
-      "sourcePages": [
-        52
+      "section": "Sensor 6-7.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 2
+        }
       ],
       "reviewSlides": [
         {
@@ -439,9 +453,8 @@
         }
       ],
       "reviewCue": {
-        "page": 52,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "PNP = Current “Sourcing” Used in circuits that require a high signal (+12V, +24V etc.) when activated/energized NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just …"
+        "page": 2,
+        "text": "Review Sensor 6-7.pdf, PDF page 2. PNP sources current toward the load and provides the positive/high signal described in the course."
       }
     },
     {
@@ -449,19 +462,23 @@
       "world": "sensor",
       "topic": "Electronic Sensors · introduction & proximity sensors",
       "type": "quiz",
-      "prompt": "A controller expects the active signal to be pulled low toward 0 V. Which technology matches?",
-      "answer": "NPN sinking",
+      "prompt": "★ A PLC requires a low signal when a sensor operates. Which output design supplies it?",
       "options": [
-        "NPN sinking",
-        "PNP sourcing",
-        "A sourcing output assumed to be sinking without changing wiring",
-        "Either PNP or NPN regardless of the receiving input"
+        "PNP transistor design",
+        "NPN transistor design",
+        "Control relay only",
+        "Seal-in circuit"
       ],
-      "explanation": "The slide associates NPN sinking with a low active signal.",
+      "answer": "NPN transistor design",
+      "explanation": "NPN sinks the output toward ground, providing the low signal described in the course.",
       "source": "s",
-      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 52",
-      "sourcePages": [
-        52
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 17",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 17
+        }
       ],
       "reviewSlides": [
         {
@@ -471,9 +488,8 @@
         }
       ],
       "reviewCue": {
-        "page": 52,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just solid-state switches! 52 A12 A27"
+        "page": 17,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 17. NPN sinks the output toward ground, providing the low signal described in the course."
       }
     },
     {
@@ -513,19 +529,23 @@
       "world": "sensor",
       "topic": "Electronic Sensors · introduction & proximity sensors",
       "type": "quiz",
-      "prompt": "Which target material does the course identify as especially suitable for inductive detection?",
-      "answer": "Steel or iron",
+      "prompt": "★ An inductive sensor is best at detecting which listed target?",
       "options": [
-        "Steel or iron",
-        "Dry paper",
-        "Clear glass",
-        "Unfilled plastic"
+        "A capacitive object",
+        "A ferrous object",
+        "A non-ferrous object",
+        "A shiny object"
       ],
-      "explanation": "The slide identifies ferrous metals such as steel and iron as the best metal targets in its discussion.",
+      "answer": "A ferrous object",
+      "explanation": "The slide identifies steel and iron as especially suitable targets. Inductive sensors also detect non-ferrous metals, but target material affects sensing distance.",
       "source": "s",
-      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 54",
-      "sourcePages": [
-        54
+      "section": "Sensor 6-7.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 4
+        }
       ],
       "reviewSlides": [
         {
@@ -535,9 +555,8 @@
         }
       ],
       "reviewCue": {
-        "page": 54,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Ferrous (steel and iron) are by far the best metals for detection. 54 A19"
+        "page": 4,
+        "text": "Review Sensor 6-7.pdf, PDF page 4. The slide identifies steel and iron as especially suitable targets. Inductive sensors also detect non-ferrous metals, but target material affects sensing distance."
       }
     },
     {
@@ -610,19 +629,356 @@
       "world": "sensor",
       "topic": "Electronic Sensors · introduction & proximity sensors",
       "type": "quiz",
-      "prompt": "In the three-wire proximity-sensor arrangement described, what does the third wire do after the two supply wires are connected?",
-      "answer": "Carries the output signal to the controller",
+      "prompt": "★ Which device normally receives a sensor’s output signal?",
       "options": [
-        "Carries the output signal to the controller",
-        "Acts as a second protective earth only",
-        "Mechanically resets the sensor",
-        "Supplies compressed air"
+        "Transformer",
+        "PLC input or other control logic",
+        "Power supply",
+        "Circuit breaker"
       ],
-      "explanation": "Two wires power the sensor; the remaining wire carries its switched output.",
+      "answer": "PLC input or other control logic",
+      "explanation": "The sensor output conveys the detected state to a controller input or other control logic. It is separate from the sensor supply connections.",
       "source": "s",
-      "section": "Electronic Sensors · introduction & proximity sensors · C205 Sensor Logic Systems.pdf · PDF page 55",
-      "sourcePages": [
-        55
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 17",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 17
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-62.jpg",
+          "page": 62,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 17,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 17. The sensor output conveys the detected state to a controller input or other control logic. It is separate from the sensor supply connections."
+      }
+    },
+    {
+      "id": "c205-quiz-fast-sensor",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ You must count cooling-fan blades as they spin quickly by. Which sensor type is capable of this?",
+      "options": [
+        "Mechanical switch",
+        "Electronic sensor"
+      ],
+      "answer": "Electronic sensor",
+      "explanation": "Electronic sensors can switch rapidly without the moving-contact limitations of a mechanical switch.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 1
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-48.jpg",
+          "page": 48,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 1,
+        "text": "Review Sensor 6-7.pdf, PDF page 1. Electronic sensors can switch rapidly without the moving-contact limitations of a mechanical switch."
+      }
+    },
+    {
+      "id": "c205-quiz-high-current",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ In the quiz scenario, a removed belt-drive guard must activate a high-current 120 V buzzer. Which listed sensor is selected?",
+      "options": [
+        "Photoelectric sensor",
+        "Magnetic reed switch",
+        "Mechanical limit switch",
+        "Inductive proximity sensor"
+      ],
+      "answer": "Mechanical limit switch",
+      "explanation": "The quiz selects a mechanical limit switch for its switching capacity, in contrast to low-current electronic sensors. The actual switch must be rated for the load.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-39.jpg",
+          "page": 39,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-48.jpg",
+          "page": 48,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review Sensor 6-7.pdf, PDF page 2. The quiz selects a mechanical limit switch for its switching capacity, in contrast to low-current electronic sensors. The actual switch must be rated for the load."
+      }
+    },
+    {
+      "id": "c205-quiz-pnp-test",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ Which voltage change identifies an activated PNP sensor in the course test?",
+      "options": [
+        "Voltage from +V to ground goes to zero",
+        "Voltage from ground to output goes to zero",
+        "Voltage from +V to output goes to approximately zero",
+        "Voltage from +V to ground stays unchanged"
+      ],
+      "answer": "Voltage from +V to output goes to approximately zero",
+      "explanation": "An active PNP output rises near +V, so the difference between +V and output is approximately zero. An unchanged supply voltage alone does not identify PNP.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 3
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-50.jpg",
+          "page": 50,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-52.jpg",
+          "page": 52,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review Sensor 6-7.pdf, PDF page 3. An active PNP output rises near +V, so the difference between +V and output is approximately zero. An unchanged supply voltage alone does not identify PNP."
+      }
+    },
+    {
+      "id": "c205-quiz-isolation",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ What provides electrical isolation against noise passing from sensor inputs into control electronics?",
+      "options": [
+        "Optical isolation",
+        "Using noise-suppressing cables alone",
+        "Grounding all cables",
+        "Coating connections in noise-absorbing paste"
+      ],
+      "answer": "Optical isolation",
+      "explanation": "Optical isolation transfers the signal with light across an electrical separation. The quiz identifies this as the isolation method; ordinary cable changes do not create that separation.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 4
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review Sensor 6-7.pdf, PDF page 4. Optical isolation transfers the signal with light across an electrical separation. The quiz identifies this as the isolation method; ordinary cable changes do not create that separation."
+      }
+    },
+    {
+      "id": "c205-quiz-no-leds",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ An object is beside a capacitive sensor, neither LED is lit, and the controller input indicator is off. Which measurement comes next in the quiz?",
+      "options": [
+        "Controller input voltage in the distant cabinet",
+        "Controller supply voltage",
+        "Sensor power-supply voltage",
+        "Sensor output voltage to ground"
+      ],
+      "answer": "Sensor power-supply voltage",
+      "explanation": "With neither sensor LED lit, first establish whether the sensor is receiving its supply. This differs from the question where both sensor LEDs are already lit.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 5
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-62.jpg",
+          "page": 62,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review Sensor 6-7.pdf, PDF page 5. With neither sensor LED lit, first establish whether the sensor is receiving its supply. This differs from the question where both sensor LEDs are already lit."
+      }
+    },
+    {
+      "id": "c205-quiz-ncho-output",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ What does a normally closed, held open (NCHO) sensor output mean?",
+      "options": [
+        "The circuit closes when an object is present",
+        "The circuit is always energized",
+        "The contact is normally closed, but a sensed object is holding it open",
+        "The contact is normally open and the object closes it"
+      ],
+      "answer": "The contact is normally closed, but a sensed object is holding it open",
+      "explanation": "NCHO distinguishes the normal closed state from the present held-open condition. Removing the actuating object lets the contact return to its normal state.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 6
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-35.jpg",
+          "page": 35,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Review Sensor 6-7.pdf, PDF page 6. NCHO distinguishes the normal closed state from the present held-open condition. Removing the actuating object lets the contact return to its normal state."
+      }
+    },
+    {
+      "id": "c205-quiz-cap-load",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ In this sensor diagram, does the control load belong in line A or B?",
+      "options": [
+        "A",
+        "B"
+      ],
+      "answer": "B",
+      "explanation": "A is the continuous supply return for the sensor electronics. B is the switched output branch, so the control load belongs there.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 7
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-62.jpg",
+          "page": 62,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review Sensor 6-7.pdf, PDF page 7. A is the continuous supply return for the sensor electronics. B is the switched output branch, so the control load belongs there."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s67-7",
+        "alt": "Unanswered diagram from Sensor 6-7.pdf, page 7",
+        "page": 7
+      }
+    },
+    {
+      "id": "c205-quiz-cap-active",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ With the control load in line B, what happens to it when this sensor is triggered?",
+      "options": [
+        "Energized",
+        "De-energized"
+      ],
+      "answer": "Energized",
+      "explanation": "The illustrated normally open output closes on detection and completes the B load path.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 8
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-62.jpg",
+          "page": 62,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 8,
+        "text": "Review Sensor 6-7.pdf, PDF page 8. The illustrated normally open output closes on detection and completes the B load path."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s67-8",
+        "alt": "Unanswered diagram from Sensor 6-7.pdf, page 8",
+        "page": 8
+      }
+    },
+    {
+      "id": "c205-quiz-cap-range",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ Which sensor detects metal farther away than nonmetal materials in the course comparison?",
+      "options": [
+        "Hall-effect sensor",
+        "Limit switch",
+        "Capacitive proximity sensor",
+        "Magnetic sensor"
+      ],
+      "answer": "Capacitive proximity sensor",
+      "explanation": "The capacitive sensor can detect both metal and nonmetal targets. Its sensing distance varies with the target material; the course comparison gives metals the longer range.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 1
+        }
       ],
       "reviewSlides": [
         {
@@ -632,9 +988,48 @@
         }
       ],
       "reviewCue": {
-        "page": 55,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "3 wires go to the power supply and the third outputs sends a signal to a controller when it senses something. 55 A15 A04 A01"
+        "page": 1,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 1. The capacitive sensor can detect both metal and nonmetal targets. Its sensing distance varies with the target material; the course comparison gives metals the longer range."
+      }
+    },
+    {
+      "id": "c205-quiz-npn-test",
+      "world": "sensor",
+      "topic": "Electronic Sensors · introduction & proximity sensors",
+      "type": "quiz",
+      "prompt": "★ Which voltage change identifies an activated NPN sensor in the course test?",
+      "options": [
+        "Voltage from +V to ground goes to zero",
+        "Voltage from ground to output goes to approximately zero",
+        "Voltage from +V to output goes to zero",
+        "Supply voltage stays unchanged"
+      ],
+      "answer": "Voltage from ground to output goes to approximately zero",
+      "explanation": "An active NPN output sinks toward ground, so its voltage relative to ground falls near zero.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 7
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-51.jpg",
+          "page": 51,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-52.jpg",
+          "page": 52,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 7. An active NPN output sinks toward ground, so its voltage relative to ground falls near zero."
       }
     }
   ]

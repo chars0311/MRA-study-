@@ -37,19 +37,23 @@
       "world": "sensor",
       "topic": "Module 5 · Advanced Systems",
       "type": "quiz",
-      "prompt": "What mechanical arrangement can help cylinders move together when they must work in parallel?",
-      "answer": "Attach them to the same machine part",
+      "prompt": "★ How many limit switches are needed if the cylinders to be synchronized are attached to the same machine member?",
       "options": [
-        "Attach them to the same machine part",
-        "Operate one without a load",
-        "Use unrelated timer presets only",
-        "Remove both position inputs"
+        "One",
+        "Two",
+        "Three",
+        "Four"
       ],
-      "explanation": "The slide suggests mechanically linking parallel cylinders to the same machine part; other arrangements use flow controls and limit switches.",
+      "answer": "One",
+      "explanation": "The shared machine member makes the cylinders move together, so one position switch can sense that shared motion.",
       "source": "s",
-      "section": "Module 5 · Advanced Systems · C205 Sensor Logic Systems.pdf · PDF page 45",
-      "sourcePages": [
-        45
+      "section": "Sensor 3-5.pdf · PDF page 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 1
+        }
       ],
       "reviewSlides": [
         {
@@ -59,9 +63,8 @@
         }
       ],
       "reviewCue": {
-        "page": 45,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "them to the same machine part. For any other arrangement, flow control valves and limit switches are used. Multiple Cylinders in a Machine 45 MODULE 5 ADVANCED SYSTEMS DAY 3"
+        "page": 1,
+        "text": "Review Sensor 3-5.pdf, PDF page 1. The shared machine member makes the cylinders move together, so one position switch can sense that shared motion."
       }
     },
     {

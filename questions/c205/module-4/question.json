@@ -68,28 +68,25 @@
       "id": "c205x-timer-notc",
       "world": "sensor",
       "topic": "Module 4 · Timers",
-      "type": "symbol",
-      "prompt": "Which timed contact does this symbol represent?",
-      "answer": "Normally open, timed close (on-delay)",
+      "type": "quiz",
+      "prompt": "★ Identify timed-contact symbol C.",
       "options": [
-        "Normally open, timed close (on-delay)",
-        "Normally closed, timed open (on-delay)",
-        "Normally open, timed open (off-delay)",
-        "Normally closed, timed close (off-delay)",
-        "Ordinary untimed limit-switch contact"
+        "On-delay NO",
+        "Off-delay NC",
+        "On-delay NC",
+        "Off-delay NO"
       ],
-      "explanation": "The NO on-delay contact closes after the energization delay.",
+      "answer": "On-delay NO",
+      "explanation": "The quiz identifies C as On-delay NO. First identify whether the resting contact is open or closed, then use the timing mark to distinguish on-delay from off-delay.",
       "source": "s",
-      "section": "Module 4 · Timers · C205 Sensor Logic Systems.pdf · PDF page 41",
-      "sourcePages": [
-        41
+      "section": "Sensor 3-5.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 3
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-timer-notc",
-        "alt": "C-205 slide diagram for this question",
-        "page": 41
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-41.jpg",
@@ -98,37 +95,39 @@
         }
       ],
       "reviewCue": {
-        "page": 41,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "A Time-Delay Relay will operate in one of two ways: • On-Delay • Off-Delay On-Delay Ladder Symbols Off-Delay Ladder Symbols 41"
+        "page": 3,
+        "text": "Review Sensor 3-5.pdf, PDF page 3. The quiz identifies C as On-delay NO. First identify whether the resting contact is open or closed, then use the timing mark to distinguish on-delay from off-delay."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-3",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 3",
+        "page": 3
       }
     },
     {
       "id": "c205x-timer-ncto",
       "world": "sensor",
       "topic": "Module 4 · Timers",
-      "type": "symbol",
-      "prompt": "Which timed contact does this symbol represent?",
-      "answer": "Normally closed, timed open (on-delay)",
+      "type": "quiz",
+      "prompt": "★ Identify timed-contact symbol D.",
       "options": [
-        "Normally closed, timed open (on-delay)",
-        "Normally open, timed close (on-delay)",
-        "Normally open, timed open (off-delay)",
-        "Normally closed, timed close (off-delay)",
-        "Ordinary untimed limit-switch contact"
+        "On-delay NO",
+        "Off-delay NC",
+        "On-delay NC",
+        "Off-delay NO"
       ],
-      "explanation": "The NC on-delay contact opens after the energization delay.",
+      "answer": "On-delay NC",
+      "explanation": "The quiz identifies D as On-delay NC. First identify whether the resting contact is open or closed, then use the timing mark to distinguish on-delay from off-delay.",
       "source": "s",
-      "section": "Module 4 · Timers · C205 Sensor Logic Systems.pdf · PDF page 41",
-      "sourcePages": [
-        41
+      "section": "Sensor 3-5.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 3
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-timer-ncto",
-        "alt": "C-205 slide diagram for this question",
-        "page": 41
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-41.jpg",
@@ -137,37 +136,39 @@
         }
       ],
       "reviewCue": {
-        "page": 41,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "A Time-Delay Relay will operate in one of two ways: • On-Delay • Off-Delay On-Delay Ladder Symbols Off-Delay Ladder Symbols 41"
+        "page": 3,
+        "text": "Review Sensor 3-5.pdf, PDF page 3. The quiz identifies D as On-delay NC. First identify whether the resting contact is open or closed, then use the timing mark to distinguish on-delay from off-delay."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-3",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 3",
+        "page": 3
       }
     },
     {
       "id": "c205x-timer-noto",
       "world": "sensor",
       "topic": "Module 4 · Timers",
-      "type": "symbol",
-      "prompt": "Which timed contact does this symbol represent?",
-      "answer": "Normally open, timed open (off-delay)",
+      "type": "quiz",
+      "prompt": "★ Identify timed-contact symbol A.",
       "options": [
-        "Normally open, timed open (off-delay)",
-        "Normally open, timed close (on-delay)",
-        "Normally closed, timed open (on-delay)",
-        "Normally closed, timed close (off-delay)",
-        "Ordinary untimed limit-switch contact"
+        "On-delay NO",
+        "Off-delay NC",
+        "On-delay NC",
+        "Off-delay NO"
       ],
-      "explanation": "The NO off-delay contact closes on energization, then opens after the de-energization delay.",
+      "answer": "Off-delay NO",
+      "explanation": "The quiz identifies A as Off-delay NO. First identify whether the resting contact is open or closed, then use the timing mark to distinguish on-delay from off-delay.",
       "source": "s",
-      "section": "Module 4 · Timers · C205 Sensor Logic Systems.pdf · PDF page 41",
-      "sourcePages": [
-        41
+      "section": "Sensor 3-5.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 3
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-timer-noto",
-        "alt": "C-205 slide diagram for this question",
-        "page": 41
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-41.jpg",
@@ -176,37 +177,39 @@
         }
       ],
       "reviewCue": {
-        "page": 41,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Off-Delay Ladder Symbols 41"
+        "page": 3,
+        "text": "Review Sensor 3-5.pdf, PDF page 3. The quiz identifies A as Off-delay NO. First identify whether the resting contact is open or closed, then use the timing mark to distinguish on-delay from off-delay."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-3",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 3",
+        "page": 3
       }
     },
     {
       "id": "c205x-timer-nctc",
       "world": "sensor",
       "topic": "Module 4 · Timers",
-      "type": "symbol",
-      "prompt": "Which timed contact does this symbol represent?",
-      "answer": "Normally closed, timed close (off-delay)",
+      "type": "quiz",
+      "prompt": "★ Identify timed-contact symbol B.",
       "options": [
-        "Normally closed, timed close (off-delay)",
-        "Normally open, timed close (on-delay)",
-        "Normally closed, timed open (on-delay)",
-        "Normally open, timed open (off-delay)",
-        "Ordinary untimed limit-switch contact"
+        "On-delay NO",
+        "Off-delay NC",
+        "On-delay NC",
+        "Off-delay NO"
       ],
-      "explanation": "The NC off-delay contact opens on energization, then closes after the de-energization delay.",
+      "answer": "Off-delay NC",
+      "explanation": "The quiz identifies B as Off-delay NC. First identify whether the resting contact is open or closed, then use the timing mark to distinguish on-delay from off-delay.",
       "source": "s",
-      "section": "Module 4 · Timers · C205 Sensor Logic Systems.pdf · PDF page 41",
-      "sourcePages": [
-        41
+      "section": "Sensor 3-5.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 3
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-timer-nctc",
-        "alt": "C-205 slide diagram for this question",
-        "page": 41
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-41.jpg",
@@ -215,9 +218,14 @@
         }
       ],
       "reviewCue": {
-        "page": 41,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Off-Delay Ladder Symbols 41"
+        "page": 3,
+        "text": "Review Sensor 3-5.pdf, PDF page 3. The quiz identifies B as Off-delay NC. First identify whether the resting contact is open or closed, then use the timing mark to distinguish on-delay from off-delay."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-3",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 3",
+        "page": 3
       }
     },
     {
@@ -540,6 +548,215 @@
         "page": 44,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "This Ladder Diagram starts three motors, but not at the same time. Pressing start starts motor M1, timer 1TR and seals in the timer and motor. After a time delay set that was set on 1TR, the 1TR on-delay relay closes and starts motor M2 and timer 2TR After a t…"
+      }
+    },
+    {
+      "id": "c205-quiz-offdelay-start",
+      "world": "sensor",
+      "topic": "Module 4 · Timers",
+      "type": "quiz",
+      "prompt": "★ What happens when 1PB is pressed momentarily in this off-delay circuit?",
+      "options": [
+        "Only SOL-A energizes; 1TRA stays open",
+        "Only SOL-A and SOL-B energize; 1TRA stays open",
+        "SOL-A and SOL-B energize only while the button is held",
+        "SOL-A and 1TR energize and stay energized; 1TRA closes and energizes SOL-B"
+      ],
+      "answer": "SOL-A and 1TR energize and stay energized; 1TRA closes and energizes SOL-B",
+      "explanation": "1CR seals in through 1CRA. 1CRB then supplies SOL-A and 1TR. An off-delay NO contact closes immediately on energization, so 1TRA powers SOL-B.",
+      "source": "s",
+      "section": "Sensor 3-5.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 6
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-43.jpg",
+          "page": 43,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Review Sensor 3-5.pdf, PDF page 6. 1CR seals in through 1CRA. 1CRB then supplies SOL-A and 1TR. An off-delay NO contact closes immediately on energization, so 1TRA powers SOL-B."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-6",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 6",
+        "page": 6
+      }
+    },
+    {
+      "id": "c205-quiz-offdelay-stop",
+      "world": "sensor",
+      "topic": "Module 4 · Timers",
+      "type": "quiz",
+      "prompt": "★ With 1CR energized, what happens when 2PB is pressed momentarily?",
+      "options": [
+        "Everything de-energizes and shuts off immediately",
+        "SOL-B waits the time set on 1TR and then energizes",
+        "Everything de-energizes except SOL-B, which stays on until the off-delay expires and 1TRA opens",
+        "Everything shuts off, then re-energizes when 2PB is released"
+      ],
+      "answer": "Everything de-energizes except SOL-B, which stays on until the off-delay expires and 1TRA opens",
+      "explanation": "2PB breaks the seal-in circuit. SOL-A and the timer coil lose power, but the off-delay 1TRA contact stays closed for its preset interval before switching SOL-B off.",
+      "source": "s",
+      "section": "Sensor 3-5.pdf · PDF page 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 8
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-43.jpg",
+          "page": 43,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 8,
+        "text": "Review Sensor 3-5.pdf, PDF page 8. 2PB breaks the seal-in circuit. SOL-A and the timer coil lose power, but the off-delay 1TRA contact stays closed for its preset interval before switching SOL-B off."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-8",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 8",
+        "page": 8
+      }
+    },
+    {
+      "id": "c205-quiz-timer-memory",
+      "world": "sensor",
+      "topic": "Module 4 · Timers",
+      "type": "quiz",
+      "prompt": "★ What is the term for the group 1PB, 1CR and 1CRA on the first two rungs?",
+      "options": [
+        "Relay",
+        "Jog circuit",
+        "Interlock",
+        "Memory or seal-in circuit"
+      ],
+      "answer": "Memory or seal-in circuit",
+      "explanation": "1CRA is wired around 1PB. Once 1CR energizes, that contact holds the circuit on after the momentary Start button is released.",
+      "source": "s",
+      "section": "Sensor 3-5.pdf · PDF page 10",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 10
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-25.jpg",
+          "page": 25,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Review Sensor 3-5.pdf, PDF page 10. 1CRA is wired around 1PB. Once 1CR energizes, that contact holds the circuit on after the momentary Start button is released."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-10",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 10",
+        "page": 10
+      }
+    },
+    {
+      "id": "c205-quiz-timer-lamps",
+      "world": "sensor",
+      "topic": "Module 4 · Timers",
+      "type": "quiz",
+      "prompt": "★ What happens when 1PB is held pressed and the timer has finished timing?",
+      "options": [
+        "Green light is on",
+        "Both red and green lights are on",
+        "Both red and green lights are off",
+        "Green light is off; red light is on"
+      ],
+      "answer": "Green light is off; red light is on",
+      "explanation": "After the on-delay, NO timed contact 1TRA closes to power red, and NC timed contact 1TRB opens to remove power from green.",
+      "source": "s",
+      "section": "Sensor 3-5.pdf · PDF page 11",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 11
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-42.jpg",
+          "page": 42,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Review Sensor 3-5.pdf, PDF page 11. After the on-delay, NO timed contact 1TRA closes to power red, and NC timed contact 1TRB opens to remove power from green."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-11",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 11",
+        "page": 11
+      }
+    },
+    {
+      "id": "c205-quiz-sequence-read",
+      "world": "sensor",
+      "topic": "Module 4 · Timers",
+      "type": "quiz",
+      "prompt": "★ To follow the recommended ladder-reading order, which listed components do you read first?",
+      "options": [
+        "Start 1PB, 1CRA, 1CRB, 1TRA",
+        "Start 1PB, 1TRA, 1CRA, 1CRB",
+        "Start 1PB, 1TRA, 1CR, 1CRA",
+        "Start 1PB, 1CRA, 1TRA, 1CR"
+      ],
+      "answer": "Start 1PB, 1TRA, 1CR, 1CRA",
+      "explanation": "Read the first rung left to right: 1PB, 1TRA and 1CR. Then move down to the 1CRA holding branch.",
+      "source": "s",
+      "section": "Sensor 3-5.pdf · PDF page 12",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 12
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 5
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-13.jpg",
+          "page": 13,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review Sensor 3-5.pdf, PDF page 12. Read the first rung left to right: 1PB, 1TRA and 1CR. Then move down to the 1CRA holding branch."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-12",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 12",
+        "page": 12
       }
     }
   ]

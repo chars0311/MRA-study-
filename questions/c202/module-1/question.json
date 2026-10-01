@@ -933,6 +933,213 @@
       "reviewCue": {
         "text": "Find the Above 200 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
       }
+    },
+    {
+      "id": "c202-quiz-safety",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which of these safety considerations are included in the course electrical-safety rules?",
+      "options": [
+        "Never work alone",
+        "Work one-handed when possible",
+        "Ensure the system is locked out before making changes",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "All three are included in the course rules. The one-hand precaution does not replace shutting off power and following lockout procedures before changes.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 1
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-8.jpg",
+          "page": 8,
+          "title": "C202 Electric Motor Controls.pdf"
+        },
+        {
+          "url": "./review-slides/m-9.jpg",
+          "page": 9,
+          "title": "C202 Electric Motor Controls.pdf"
+        },
+        {
+          "url": "./review-slides/m-10.jpg",
+          "page": 10,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 1,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 1. All three are included in the course rules. The one-hand precaution does not replace shutting off power and following lockout procedures before changes."
+      }
+    },
+    {
+      "id": "c202-quiz-fatal-current",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which listed current is the small potentially fatal current identified in the teacher quiz?",
+      "options": [
+        "200 A",
+        "100 A",
+        "1000 mA",
+        "100 mA"
+      ],
+      "answer": "100 mA",
+      "explanation": "The quiz identifies 100 mA (0.1 A). The shock table also lists dangerous effects at lower currents; 100 mA is not a safe/unsafe boundary.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-7.jpg",
+          "page": 7,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 2. The quiz identifies 100 mA (0.1 A). The shock table also lists dangerous effects at lower currents; 100 mA is not a safe/unsafe boundary."
+      }
+    },
+    {
+      "id": "c202-quiz-loto-purpose",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ Lockout/tagout procedures are designed to:",
+      "options": [
+        "Prevent accidental equipment startup",
+        "Protect workers servicing equipment",
+        "Help avoid accidents",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "Controlling hazardous energy helps prevent unexpected startup and protect people servicing the equipment. Each listed purpose applies.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-10.jpg",
+          "page": 10,
+          "title": "C202 Electric Motor Controls.pdf"
+        },
+        {
+          "url": "./review-slides/m-11.jpg",
+          "page": 11,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 2. Controlling hazardous energy helps prevent unexpected startup and protect people servicing the equipment. Each listed purpose applies."
+      }
+    },
+    {
+      "id": "c202-quiz-wye",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ In a 480 VAC three-phase wye system with a neutral, what are the phase-to-phase and phase-to-neutral voltages?",
+      "options": [
+        "480 VAC and 240 VAC",
+        "480 VAC and 277 VAC",
+        "240 VAC and 120 VAC",
+        "240 VAC and 277 VAC"
+      ],
+      "answer": "480 VAC and 277 VAC",
+      "explanation": "The quiz answer is 480 VAC line-to-line and approximately 277 VAC line-to-neutral. In a balanced wye system, 480 divided by the square root of 3 is approximately 277.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 2. The quiz answer is 480 VAC line-to-line and approximately 277 VAC line-to-neutral. In a balanced wye system, 480 divided by the square root of 3 is approximately 277."
+      }
+    },
+    {
+      "id": "c202-quiz-motor-parts",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ An AC electric motor has which two main parts?",
+      "options": [
+        "Rotor and stator",
+        "Armature and brushes",
+        "Stator and slip rings",
+        "Disconnect switch and fuses"
+      ],
+      "answer": "Rotor and stator",
+      "explanation": "The stator is the stationary motor part and the rotor is the rotating part. The other choices do not identify that basic pair.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 3
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 3. The stator is the stationary motor part and the rotor is the rotating part. The other choices do not identify that basic pair."
+      }
+    },
+    {
+      "id": "c202-quiz-synchronous",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ What is motor synchronous speed?",
+      "options": [
+        "The speed at which the stator turns",
+        "The speed at which the rotor turns",
+        "The speed at which the magnetic field rotates",
+        "None of the above"
+      ],
+      "answer": "The speed at which the magnetic field rotates",
+      "explanation": "Synchronous speed describes the rotating magnetic field. It is not a statement that an induction motor rotor always turns at that exact speed.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 3
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 3. Synchronous speed describes the rotating magnetic field. It is not a statement that an induction motor rotor always turns at that exact speed."
+      }
     }
   ]
 }

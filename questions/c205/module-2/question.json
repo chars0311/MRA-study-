@@ -160,24 +160,25 @@
       "id": "visual-s-relay",
       "world": "sensor",
       "topic": "Module 2 · Valves and Relays",
-      "type": "symbol",
-      "prompt": "When 1CR energizes, how do the red and green lamps change?",
-      "answer": "Red turns on; green turns off",
+      "type": "quiz",
+      "prompt": "★ What happens when you press 1PB?",
       "options": [
-        "Red turns on; green turns off",
-        "Red turns off; green turns on",
-        "Both turn on",
-        "Both turn off"
+        "Both lights turn off",
+        "Both lights turn on",
+        "The red light turns on and green turns off",
+        "The green light turns on and red turns off"
       ],
-      "explanation": "1CRA is normally open and closes to energize the red lamp. 1CRB is normally closed and opens to de-energize the green lamp.",
+      "answer": "The red light turns on and green turns off",
+      "explanation": "1PB energizes 1CR. Its normally open 1CRA contact closes to power red, while normally closed 1CRB opens the green-lamp path.",
       "source": "s",
-      "section": "Module 2 · Valves and Relays · PDF page 23",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-relay",
-        "alt": "Course slide diagram for this question",
-        "page": 23
-      },
+      "section": "Sensor 1-2.pdf · PDF page 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 8
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-23.jpg",
@@ -186,9 +187,14 @@
         }
       ],
       "reviewCue": {
-        "page": 23,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "energized, it closes and turns the red light on. This 1 CRB is the normally closed contact. When 1CR is energized, it opens and turns the green light off. 23 A29"
+        "page": 8,
+        "text": "Review Sensor 1-2.pdf, PDF page 8. 1PB energizes 1CR. Its normally open 1CRA contact closes to power red, while normally closed 1CRB opens the green-lamp path."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-8",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 8",
+        "page": 8
       }
     },
     {
@@ -512,19 +518,23 @@
       "world": "sensor",
       "topic": "Module 2 · Valves and Relays",
       "type": "quiz",
-      "prompt": "What is the purpose of a manual override on an electrically operated directional-control valve?",
-      "answer": "Actuate the valve independently of its electrical switch signal",
+      "prompt": "★ In this quiz troubleshooting example, 1PB does not extend the cylinder. Which check tests whether the valve can shift independently of the electrical command?",
       "options": [
-        "Actuate the valve independently of its electrical switch signal",
-        "Permanently bypass the machine guard",
-        "Change a 5/2 valve into a 5/3 valve",
-        "Increase the coil voltage rating"
+        "Measure pressure in both lines",
+        "Use the orange manual override to check valve movement",
+        "Measure only line 3 voltage",
+        "Jumper 1SOL"
       ],
-      "explanation": "The override permits checking valve operation without the usual electrical command. This is a feature-identification question, not an instruction to bypass machine safeguards.",
+      "answer": "Use the orange manual override to check valve movement",
+      "explanation": "The manual override mechanically operates the valve independently of the electrical switch signal, separating valve operation from the command circuit. Use only the authorized safe test procedure for the equipment.",
       "source": "s",
-      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 19",
-      "sourcePages": [
-        19
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 9",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 9
+        }
       ],
       "reviewSlides": [
         {
@@ -534,9 +544,14 @@
         }
       ],
       "reviewCue": {
-        "page": 19,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "These are useful for troubleshooting the valves. The tech can activate the valve without needing to operate a switch or even have power. A ball-point pen or small Phillips screwdriver is used Solenoid-operated pneumatic valves have manual overrides Solenoid Ha…"
+        "page": 9,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 9. The manual override mechanically operates the valve independently of the electrical switch signal, separating valve operation from the command circuit. Use only the authorized safe test procedure for the equipment."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-pre-9",
+        "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 9",
+        "page": 9
       }
     },
     {
@@ -920,20 +935,24 @@
       "id": "c205x-ssr-output",
       "world": "sensor",
       "topic": "Module 2 · Valves and Relays",
-      "type": "scenario",
-      "prompt": "Correct line and control voltages are present, but the SSR fails to switch its output as expected. Which component is now suspect?",
-      "answer": "The SSR",
+      "type": "quiz",
+      "prompt": "★ After confirming the proper supply and control input, what output behavior makes a relay suspect?",
       "options": [
-        "The SSR",
-        "The command switch even though its input signal is verified",
-        "The power supply even though its voltage is verified",
-        "The mounting method instead of electrical operation"
+        "A normal change of state",
+        "No state change when the control input changes",
+        "The specified switching response",
+        "Normal return to its unenergized state"
       ],
-      "explanation": "After confirming the required supply and command, failure of the expected output state points to the SSR.",
+      "answer": "No state change when the control input changes",
+      "explanation": "The relay output should respond to its input. If the correct input and supply are present but the output does not change, the relay is suspect.",
       "source": "s",
-      "section": "Module 2 · Valves and Relays · C205 Sensor Logic Systems.pdf · PDF page 31",
-      "sourcePages": [
-        31
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 16",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 16
+        }
       ],
       "reviewSlides": [
         {
@@ -943,9 +962,170 @@
         }
       ],
       "reviewCue": {
-        "page": 31,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "here, the problem is the SSR. 31"
+        "page": 16,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 16. The relay output should respond to its input. If the correct input and supply are present but the output does not change, the relay is suspect."
+      }
+    },
+    {
+      "id": "c205-quiz-jog-motor",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "★ Starting with 1CR de-energized, what happens if JOG PB2 is pressed in this circuit?",
+      "options": [
+        "The motor will not run",
+        "The motor starts and continues after JOG is released",
+        "The motor runs until JOG is released",
+        "The motor does not run until JOG is released"
+      ],
+      "answer": "The motor runs until JOG is released",
+      "explanation": "JOG PB2 completes the path to F without energizing the separate 1CR holding relay. Releasing JOG opens that path.",
+      "source": "s",
+      "section": "Sensor 1-2.pdf · PDF page 7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 7
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-25.jpg",
+          "page": 25,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review Sensor 1-2.pdf, PDF page 7. JOG PB2 completes the path to F without energizing the separate 1CR holding relay. Releasing JOG opens that path."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-7",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 7",
+        "page": 7
+      }
+    },
+    {
+      "id": "c205-quiz-sol-extend",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "★ What does energizing SOL do in this diagram?",
+      "options": [
+        "Extend the cylinder",
+        "Retract the cylinder"
+      ],
+      "answer": "Extend the cylinder",
+      "explanation": "Energizing SOL shifts the valve to the opposite position, sending pressure to the cylinder cap end and exhausting the rod end, extending the rod.",
+      "source": "s",
+      "section": "Sensor 1-2.pdf · PDF page 11",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 11
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-17.jpg",
+          "page": 17,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Review Sensor 1-2.pdf, PDF page 11. Energizing SOL shifts the valve to the opposite position, sending pressure to the cylinder cap end and exhausting the rod end, extending the rod."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-11",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 11",
+        "page": 11
+      }
+    },
+    {
+      "id": "c205-quiz-motor-interlock",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "★ How do you start M2 without starting M1 in this circuit?",
+      "options": [
+        "Press Start 1, then Start 2",
+        "Press Start 1, Start 2, then Stop 1",
+        "Press Start 2 alone",
+        "You cannot; M2 can run only while the M1 circuit is on"
+      ],
+      "answer": "You cannot; M2 can run only while the M1 circuit is on",
+      "explanation": "The M2 branch is supplied downstream of the M1 start/holding path. Without that path energized, M2 has no supply.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 10",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 10
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-25.jpg",
+          "page": 25,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 10,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 10. The M2 branch is supplied downstream of the M1 start/holding path. Without that path energized, M2 has no supply."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-pre-10",
+        "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 10",
+        "page": 10
+      }
+    },
+    {
+      "id": "c205-quiz-coil-b",
+      "world": "sensor",
+      "topic": "Module 2 · Valves and Relays",
+      "type": "quiz",
+      "prompt": "★ What happens when Coil B is energized in this valve diagram?",
+      "options": [
+        "Cylinder extends",
+        "Cylinder retracts",
+        "Cylinder remains blocked",
+        "Cylinder reciprocates"
+      ],
+      "answer": "Cylinder retracts",
+      "explanation": "The Coil B position routes pressure to the rod end and exhausts the cap end, pulling the rod inward.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 11",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 11
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-16.jpg",
+          "page": 16,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 11,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 11. The Coil B position routes pressure to the rod end and exhausts the cap end, pulling the rod inward."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-pre-11",
+        "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 11",
+        "page": 11
       }
     }
   ]

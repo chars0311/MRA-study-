@@ -382,20 +382,24 @@
       "world": "motor",
       "topic": "Module 2 · Manual Motor Control and Overload Protection",
       "type": "quiz",
-      "prompt": "A maintained manual starter stays ON during a power failure. What can happen when power returns?",
-      "answer": "The motor can restart automatically",
+      "prompt": "★ Which protection on a manual starter prevents automatic motor restart after a power loss?",
       "options": [
-        "The motor can restart automatically",
-        "It always waits for Start",
-        "It reverses direction",
-        "It changes into a fuse"
+        "Undervoltage",
+        "Transient spike",
+        "Overcurrent",
+        "All of the above"
       ],
-      "explanation": "The manual contacts remain actuated.",
+      "answer": "Undervoltage",
+      "explanation": "Undervoltage (low-voltage) protection prevents the starter from simply resuming operation when power returns. It requires a new start command.",
       "source": "m",
-      "sourcePages": [
-        24
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 6
+        }
       ],
-      "section": "Module 2 · Manual Motor Control and Overload Protection · C202 Electric Motor Controls.pdf · PDF page 24",
       "reviewSlides": [
         {
           "url": "./review-slides/m-24.jpg",
@@ -404,9 +408,8 @@
         }
       ],
       "reviewCue": {
-        "page": 24,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Since manual starters are operated by hand, the contacts will remain in the actuated position when power is lost ► The motor will automatically restart upon the return of power ► Sump pumps and refrigeration systems are examples where automatic restart is an…"
+        "page": 6,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 6. Undervoltage (low-voltage) protection prevents the starter from simply resuming operation when power returns. It requires a new start command."
       }
     },
     {
@@ -548,6 +551,284 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Instantaneous-trip relay acts like a magnetic overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
+      }
+    },
+    {
+      "id": "c202-quiz-ampacity",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ The maximum current a conductor can carry continuously without exceeding its temperature rating is called what?",
+      "options": [
+        "Voltage",
+        "Ampacity",
+        "Rating",
+        "Safety"
+      ],
+      "answer": "Ampacity",
+      "explanation": "Ampacity names the allowable continuous current under the applicable conditions. Voltage describes electrical potential rather than current-carrying capacity.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 3
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 3. Ampacity names the allowable continuous current under the applicable conditions. Voltage describes electrical potential rather than current-carrying capacity."
+      }
+    },
+    {
+      "id": "c202-quiz-installation",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ Which of the following is a basic requirement for a typical motor installation?",
+      "options": [
+        "Controller",
+        "Short-circuit protection",
+        "Disconnect",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "Each listed function is required in the course overview. The complete set also includes overload protection; one device may perform more than one function.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 4
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-16.jpg",
+          "page": 16,
+          "title": "C202 Electric Motor Controls.pdf"
+        },
+        {
+          "url": "./review-slides/m-17.jpg",
+          "page": 17,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 4. Each listed function is required in the course overview. The complete set also includes overload protection; one device may perform more than one function."
+      }
+    },
+    {
+      "id": "c202-quiz-starter-parts",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ Which listed item is a component of a magnetic motor starter?",
+      "options": [
+        "Auxiliary contacts",
+        "Overload",
+        "Coil",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "The starter uses a coil to operate contacts, includes overload protection, and can include auxiliary contacts for control functions.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 4
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-21.jpg",
+          "page": 21,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 4. The starter uses a coil to operate contacts, includes overload protection, and can include auxiliary contacts for control functions."
+      }
+    },
+    {
+      "id": "c202-quiz-power-contacts",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ Which part provides the switched power path to the motor in a magnetic motor starter?",
+      "options": [
+        "Contacts",
+        "Overload protection",
+        "Springs",
+        "Coils"
+      ],
+      "answer": "Contacts",
+      "explanation": "The main contacts carry and switch the motor power. The coil operates the mechanism; overload protection detects sustained excessive current.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 4
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-21.jpg",
+          "page": 21,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 4. The main contacts carry and switch the motor power. The coil operates the mechanism; overload protection detects sustained excessive current."
+      }
+    },
+    {
+      "id": "c202-quiz-starter-types",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ Magnetic, manual, fractional and integral are examples or categories of what?",
+      "options": [
+        "Overloads",
+        "Motor starters",
+        "Control relays",
+        "Buttons"
+      ],
+      "answer": "Motor starters",
+      "explanation": "These terms name starter types or starter horsepower categories in the course motor-starter overview.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 5
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-19.jpg",
+          "page": 19,
+          "title": "C202 Electric Motor Controls.pdf"
+        },
+        {
+          "url": "./review-slides/m-20.jpg",
+          "page": 20,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 5. These terms name starter types or starter horsepower categories in the course motor-starter overview."
+      }
+    },
+    {
+      "id": "c202-quiz-integral",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ Which statement describes integral-horsepower manual starters in the teacher quiz?",
+      "options": [
+        "They are used only on single-phase motors",
+        "They include a coil that opens and closes contacts",
+        "They do not include overload protection",
+        "They are generally designed to start three-phase motors up to 10 hp"
+      ],
+      "answer": "They are generally designed to start three-phase motors up to 10 hp",
+      "explanation": "The quiz gives the three-phase, up-to-10-hp description. Manual starters are operated mechanically and include overload protection; the actual device rating still governs its use.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 5
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 5. The quiz gives the three-phase, up-to-10-hp description. Manual starters are operated mechanically and include overload protection; the actual device rating still governs its use."
+      }
+    },
+    {
+      "id": "c202-quiz-tamperproof",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ Which overload type is virtually tamperproof by design in the course?",
+      "options": [
+        "Melting alloy",
+        "Bimetallic",
+        "Solid state",
+        "Magnetic"
+      ],
+      "answer": "Melting alloy",
+      "explanation": "Melting-alloy heaters are calibrated at the factory. The slide calls them virtually tamperproof in the field for that reason.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 5
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-27.jpg",
+          "page": 27,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 5. Melting-alloy heaters are calibrated at the factory. The slide calls them virtually tamperproof in the field for that reason."
+      }
+    },
+    {
+      "id": "c202-quiz-overload-setup",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ How do you determine the proper setup of an adjustable overload?",
+      "options": [
+        "Increase the current setting until trips stop",
+        "Use maximum motor amperage times service factor in every case",
+        "Determine the setting from motor FLA and service factor",
+        "Always use 1.15 times motor FLA"
+      ],
+      "answer": "Determine the setting from motor FLA and service factor",
+      "explanation": "The quiz requires motor full-load amperage and service factor. Review the nameplate, equipment instructions and the course setup procedure rather than assuming one multiplier always applies.",
+      "source": "m",
+      "section": "Quiz 1 (EMC 1-2).pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Quiz 1 (EMC 1-2).pdf",
+          "page": 6
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-31.jpg",
+          "page": 31,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 6,
+        "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 6. The quiz requires motor full-load amperage and service factor. Review the nameplate, equipment instructions and the course setup procedure rather than assuming one multiplier always applies."
       }
     }
   ]

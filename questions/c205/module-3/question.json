@@ -8,17 +8,24 @@
       "world": "sensor",
       "topic": "Module 3 · Limit Switches",
       "type": "quiz",
-      "prompt": "What does a limit switch detect?",
-      "answer": "Mechanical position",
+      "prompt": "★ What is the purpose of a limit switch?",
       "options": [
-        "Mechanical position",
-        "Ambient humidity",
-        "Transformer turns ratio",
-        "Lubricant viscosity"
+        "Detect temperature changes",
+        "Detect object presence using light",
+        "Detect mechanical movement through physical contact",
+        "Detect magnetic fields"
       ],
-      "explanation": "Limit switches operate in response to the position of a machine part or product.",
+      "answer": "Detect mechanical movement through physical contact",
+      "explanation": "A moving machine part operates the switch mechanically, changing its contacts to indicate position.",
       "source": "s",
-      "section": "Module 3 · Limit Switches, slide 33",
+      "section": "Sensor 3-5.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 4
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-33.jpg",
@@ -27,33 +34,33 @@
         }
       ],
       "reviewCue": {
-        "page": 33,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "on the position of another part of the machine or the product. They are simple, low cost, reliable and extremely common 33"
+        "page": 4,
+        "text": "Review Sensor 3-5.pdf, PDF page 4. A moving machine part operates the switch mechanically, changing its contacts to indicate position."
       }
     },
     {
       "id": "visual-s-sequence",
       "world": "sensor",
       "topic": "Module 3 · Limit Switches",
-      "type": "symbol",
-      "prompt": "Which limit switch energizes 2-SOL when cylinder 1 reaches full extension?",
-      "answer": "2LS",
+      "type": "quiz",
+      "prompt": "★ The closure of which device causes Cylinder 2 to extend in this diagram?",
       "options": [
-        "2LS",
-        "1LS",
-        "3LS",
-        "4LS"
+        "Start button",
+        "2-LS",
+        "SOL A",
+        "1-LS"
       ],
-      "explanation": "The ladder places 2LS in the 2-SOL rung. Cylinder 1 operates 2LS at full extension, energizing 2-SOL for cylinder 2.",
+      "answer": "1-LS",
+      "explanation": "In this particular drawing, 1-LS closes the rung feeding SOL C. SOL C operates V2 to extend Cylinder 2. Follow the labels on this diagram rather than memorizing a switch number from another circuit.",
       "source": "s",
-      "section": "Module 3 · Limit Switches · PDF page 36",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-sequence",
-        "alt": "Course slide diagram for this question",
-        "page": 36
-      },
+      "section": "Sensor 3-5.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 4
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-36.jpg",
@@ -62,9 +69,14 @@
         }
       ],
       "reviewCue": {
-        "page": 36,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "operates 2LS which energizes 2-SOL An energized 2-SOL causes cylinder 2 to extend. If 2LS opens cylinder 2 retracts. Reading Ladder Diagrams 1 36 A16"
+        "page": 4,
+        "text": "Review Sensor 3-5.pdf, PDF page 4. In this particular drawing, 1-LS closes the rung feeding SOL C. SOL C operates V2 to extend Cylinder 2. Follow the labels on this diagram rather than memorizing a switch number from another circuit."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-4",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 4",
+        "page": 4
       }
     },
     {
@@ -258,28 +270,25 @@
       "id": "c205x-limit-no",
       "world": "sensor",
       "topic": "Module 3 · Limit Switches",
-      "type": "symbol",
-      "prompt": "Which limit-switch state does this symbol represent?",
-      "answer": "Normally open (NO)",
+      "type": "quiz",
+      "prompt": "★ Identify limit-switch symbol A.",
       "options": [
-        "Normally open (NO)",
-        "Normally closed (NC)",
-        "Normally open, held closed (NOHC)",
-        "Normally closed, held open (NCHO)",
-        "None of these"
+        "NC",
+        "NCHO",
+        "NOHC",
+        "NO"
       ],
-      "explanation": "The unoperated contact is open; the actuator symbol is the NO form.",
+      "answer": "NO",
+      "explanation": "A represents normally open. Compare the contact gap and actuator position with the four states on the slide.",
       "source": "s",
-      "section": "Module 3 · Limit Switches · C205 Sensor Logic Systems.pdf · PDF page 35",
-      "sourcePages": [
-        35
+      "section": "Sensor 3-5.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 2
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-limit-no",
-        "alt": "C-205 slide diagram for this question",
-        "page": 35
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-35.jpg",
@@ -288,37 +297,39 @@
         }
       ],
       "reviewCue": {
-        "page": 35,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
+        "page": 2,
+        "text": "Review Sensor 3-5.pdf, PDF page 2. A represents normally open. Compare the contact gap and actuator position with the four states on the slide."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-2",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 2",
+        "page": 2
       }
     },
     {
       "id": "c205x-limit-nc",
       "world": "sensor",
       "topic": "Module 3 · Limit Switches",
-      "type": "symbol",
-      "prompt": "Which limit-switch state does this symbol represent?",
-      "answer": "Normally closed (NC)",
+      "type": "quiz",
+      "prompt": "★ Identify limit-switch symbol C.",
       "options": [
-        "Normally closed (NC)",
-        "Normally open (NO)",
-        "Normally open, held closed (NOHC)",
-        "Normally closed, held open (NCHO)",
-        "None of these"
+        "NC",
+        "NCHO",
+        "NOHC",
+        "NO"
       ],
-      "explanation": "The unoperated contact is closed; the actuator symbol is the NC form.",
+      "answer": "NC",
+      "explanation": "C represents normally closed. Compare the contact gap and actuator position with the four states on the slide.",
       "source": "s",
-      "section": "Module 3 · Limit Switches · C205 Sensor Logic Systems.pdf · PDF page 35",
-      "sourcePages": [
-        35
+      "section": "Sensor 3-5.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 2
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-limit-nc",
-        "alt": "C-205 slide diagram for this question",
-        "page": 35
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-35.jpg",
@@ -327,37 +338,39 @@
         }
       ],
       "reviewCue": {
-        "page": 35,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
+        "page": 2,
+        "text": "Review Sensor 3-5.pdf, PDF page 2. C represents normally closed. Compare the contact gap and actuator position with the four states on the slide."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-2",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 2",
+        "page": 2
       }
     },
     {
       "id": "c205x-limit-nohc",
       "world": "sensor",
       "topic": "Module 3 · Limit Switches",
-      "type": "symbol",
-      "prompt": "Which limit-switch state does this symbol represent?",
-      "answer": "Normally open, held closed (NOHC)",
+      "type": "quiz",
+      "prompt": "★ Identify limit-switch symbol B.",
       "options": [
-        "Normally open, held closed (NOHC)",
-        "Normally open (NO)",
-        "Normally closed (NC)",
-        "Normally closed, held open (NCHO)",
-        "None of these"
+        "NC",
+        "NCHO",
+        "NOHC",
+        "NO"
       ],
-      "explanation": "This is an NO contact held in its operated, closed position by a cam or cylinder.",
+      "answer": "NOHC",
+      "explanation": "B represents normally open, held closed. Compare the contact gap and actuator position with the four states on the slide.",
       "source": "s",
-      "section": "Module 3 · Limit Switches · C205 Sensor Logic Systems.pdf · PDF page 35",
-      "sourcePages": [
-        35
+      "section": "Sensor 3-5.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 2
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-limit-nohc",
-        "alt": "C-205 slide diagram for this question",
-        "page": 35
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-35.jpg",
@@ -366,37 +379,39 @@
         }
       ],
       "reviewCue": {
-        "page": 35,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
+        "page": 2,
+        "text": "Review Sensor 3-5.pdf, PDF page 2. B represents normally open, held closed. Compare the contact gap and actuator position with the four states on the slide."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-2",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 2",
+        "page": 2
       }
     },
     {
       "id": "c205x-limit-ncho",
       "world": "sensor",
       "topic": "Module 3 · Limit Switches",
-      "type": "symbol",
-      "prompt": "Which limit-switch state does this symbol represent?",
-      "answer": "Normally closed, held open (NCHO)",
+      "type": "quiz",
+      "prompt": "★ Identify limit-switch symbol D.",
       "options": [
-        "Normally closed, held open (NCHO)",
-        "Normally open (NO)",
-        "Normally closed (NC)",
-        "Normally open, held closed (NOHC)",
-        "None of these"
+        "NC",
+        "NCHO",
+        "NOHC",
+        "NO"
       ],
-      "explanation": "This is an NC contact held in its operated, open position by a cam or cylinder.",
+      "answer": "NCHO",
+      "explanation": "D represents normally closed, held open. Compare the contact gap and actuator position with the four states on the slide.",
       "source": "s",
-      "section": "Module 3 · Limit Switches · C205 Sensor Logic Systems.pdf · PDF page 35",
-      "sourcePages": [
-        35
+      "section": "Sensor 3-5.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 2
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-limit-ncho",
-        "alt": "C-205 slide diagram for this question",
-        "page": 35
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-35.jpg",
@@ -405,9 +420,14 @@
         }
       ],
       "reviewCue": {
-        "page": 35,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
+        "page": 2,
+        "text": "Review Sensor 3-5.pdf, PDF page 2. D represents normally closed, held open. Compare the contact gap and actuator position with the four states on the slide."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-2",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 2",
+        "page": 2
       }
     },
     {
@@ -567,27 +587,25 @@
       "id": "c205x-one-cycle",
       "world": "sensor",
       "topic": "Module 3 · Limit Switches",
-      "type": "symbol",
-      "prompt": "Which behavior does this ladder implement after a momentary Start command?",
-      "answer": "One extension/retraction cycle",
+      "type": "quiz",
+      "prompt": "★ What happens when you momentarily press 1PB in this diagram?",
       "options": [
-        "One extension/retraction cycle",
-        "Continuous cycling until power is removed",
-        "Motion only while Start stays pressed",
-        "A timed start of three motors"
+        "The cylinder extends only while 1PB is held",
+        "The cylinder extends to 1LS and stops there",
+        "The cylinder extends to 1LS, then retracts",
+        "The cylinder extends and retracts continuously"
       ],
-      "explanation": "At extension, the NC limit contact breaks the seal-in, dropping the relay so the cylinder retracts.",
+      "answer": "The cylinder extends to 1LS, then retracts",
+      "explanation": "1CRA seals in the relay until the extending cylinder operates 1LS. That opens the holding path, drops SOL and lets the spring-return valve retract the cylinder.",
       "source": "s",
-      "section": "Module 3 · Limit Switches · C205 Sensor Logic Systems.pdf · PDF page 37",
-      "sourcePages": [
-        37
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 19",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 19
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-single-cycle",
-        "alt": "C-205 slide diagram for this question",
-        "page": 37
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-37.jpg",
@@ -596,9 +614,14 @@
         }
       ],
       "reviewCue": {
-        "page": 37,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "operates 2LS which breaks the seal-in. 1CR is de-energized and the cylinder retracts. Reading Ladder Diagrams 2 37"
+        "page": 19,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 19. 1CRA seals in the relay until the extending cylinder operates 1LS. That opens the holding path, drops SOL and lets the spring-return valve retract the cylinder."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-pre-19",
+        "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 19",
+        "page": 19
       }
     },
     {
@@ -713,6 +736,101 @@
         "page": 39,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "If a guard is removed, power to the machine is killed. 39"
+      }
+    },
+    {
+      "id": "c205-quiz-limit-lamps",
+      "world": "sensor",
+      "topic": "Module 3 · Limit Switches",
+      "type": "quiz",
+      "prompt": "★ Start PB1 has been pressed momentarily. What happens when the limit switch closes?",
+      "options": [
+        "The green and red lights turn on",
+        "The green and red lights turn off",
+        "The green light turns on and red turns off",
+        "The green light turns off and red turns on"
+      ],
+      "answer": "The green light turns on and red turns off",
+      "explanation": "1CR is held by 1CR-A. Closing LS energizes 2CR through 1CR-B. Then 2CR-A closes the green path and 2CR-B opens the red path.",
+      "source": "s",
+      "section": "Sensor 3-5.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 3-5.pdf",
+          "page": 5
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 13
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-23.jpg",
+          "page": 23,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-25.jpg",
+          "page": 25,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-33.jpg",
+          "page": 33,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review Sensor 3-5.pdf, PDF page 5. 1CR is held by 1CR-A. Closing LS energizes 2CR through 1CR-B. Then 2CR-A closes the green path and 2CR-B opens the red path."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s35-5",
+        "alt": "Unanswered diagram from Sensor 3-5.pdf, page 5",
+        "page": 5
+      }
+    },
+    {
+      "id": "c205-quiz-full-extension",
+      "world": "sensor",
+      "topic": "Module 3 · Limit Switches",
+      "type": "quiz",
+      "prompt": "★ In the course end-of-stroke example, the cylinder retracts when it reaches a limit switch near which extension point?",
+      "options": [
+        "Half",
+        "Full",
+        "Zero",
+        "Three-quarter"
+      ],
+      "answer": "Full",
+      "explanation": "The limit switch detects the end of the extension stroke and changes the control state to start retraction.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 12",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 12
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-36.jpg",
+          "page": 36,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-37.jpg",
+          "page": 37,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 12. The limit switch detects the end of the extension stroke and changes the control state to start retraction."
       }
     }
   ]

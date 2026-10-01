@@ -6,19 +6,30 @@
     {
       "id": "q035",
       "world": "sensor",
-      "type": "quiz",
-      "prompt": "Two normally open switches in series implement which logic?",
-      "answer": "AND",
-      "options": [
-        "AND",
-        "OR",
-        "NOT",
-        "Memory"
-      ],
-      "explanation": "Both series switches must close to complete the path.",
-      "source": "s",
-      "section": "Control Logic 2, slide 8",
       "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "★ In logic systems, an AND function requires:",
+      "options": [
+        "Any input to be ON",
+        "All inputs to be ON",
+        "Only one input to be OFF",
+        "All inputs to be OFF"
+      ],
+      "answer": "All inputs to be ON",
+      "explanation": "Every required input must be true. In the contact version, all normally open series contacts must close.",
+      "source": "s",
+      "section": "Sensor 1-2.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 6
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 16
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-8.jpg",
@@ -27,9 +38,8 @@
         }
       ],
       "reviewCue": {
-        "page": 8,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "AND logic requires two switches in series to be closed OR logic requires one of two switches in parallel to be closed NOT logic requires one normally closed switched to be open 8Control Logic 2 A13 A24"
+        "page": 6,
+        "text": "Review Sensor 1-2.pdf, PDF page 6. Every required input must be true. In the contact version, all normally open series contacts must close."
       }
     },
     {
@@ -93,19 +103,26 @@
     {
       "id": "q045",
       "world": "sensor",
-      "type": "quiz",
-      "prompt": "How should a ladder diagram be read?",
-      "answer": "Left to right, then top to bottom",
-      "options": [
-        "Left to right, then top to bottom",
-        "Bottom to top only",
-        "Right to left only",
-        "By following wire colors"
-      ],
-      "explanation": "The course starts at the first rung, reads across, then proceeds to the next rung.",
-      "source": "s",
-      "section": "Reading a Ladder Diagram, slide 13",
       "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "★ When following this ladder from its first rung, which listed order follows the diagram?",
+      "options": [
+        "Rotary switch, then PB3, PB1, then solenoid F",
+        "Rotary switch, solenoid F, switch F, back to rotary switch",
+        "Rotary switch top, rotary switch bottom, PB3, PB1",
+        "Rotary switch, solenoid F, PB3, PB1"
+      ],
+      "answer": "Rotary switch, solenoid F, PB3, PB1",
+      "explanation": "Read left to right on the first rung: selector contact then F. Then move down and follow the lower Start/Stop branch, including PB3 and PB1.",
+      "source": "s",
+      "section": "Sensor 1-2.pdf · PDF page 10",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 10
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-13.jpg",
@@ -114,177 +131,215 @@
         }
       ],
       "reviewCue": {
-        "page": 13,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "• Read left to right and then top-down Ladder Diagram 13"
+        "page": 10,
+        "text": "Review Sensor 1-2.pdf, PDF page 10. Read left to right on the first rung: selector contact then F. Then move down and follow the lower Start/Stop branch, including PB3 and PB1."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-10",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 10",
+        "page": 10
       }
     },
     {
       "id": "visual-s-and",
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
-      "type": "symbol",
-      "prompt": "Which control-logic arrangement does this slide diagram show?",
-      "answer": "AND",
+      "type": "quiz",
+      "prompt": "★ Which logic element is labeled A in the diagram?",
       "options": [
         "AND",
         "OR",
         "NOT",
-        "NOR",
-        "NAND"
+        "Memory",
+        "NAND",
+        "NOR"
       ],
-      "explanation": "The two normally open contacts are in series. Both must close to complete the path to the lamp.",
+      "answer": "AND",
+      "explanation": "The two normally open contacts are in series, so both must close.",
       "source": "s",
-      "section": "Module 1 · Control Logic · PDF page 8",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-and",
-        "alt": "Course slide diagram for this question",
-        "page": 8
-      },
-      "variants": [
+      "section": "Sensor 1-2.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "identify",
-          "prompt": "Which control-logic arrangement does this slide diagram show?"
-        },
-        {
-          "variant": "name",
-          "prompt": "Identify the logic implemented by the pictured switch circuit."
+          "file": "Sensor 1-2.pdf",
+          "page": 4
         }
       ],
       "reviewSlides": [
         {
+          "url": "./review-slides/s-7.jpg",
+          "page": 7,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
           "url": "./review-slides/s-8.jpg",
           "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
           "title": "C205 Sensor Logic Systems.pdf"
         }
       ],
       "reviewCue": {
-        "text": "Look for two normally open contacts in series. Trace the single current path: both contacts must close for the lamp to turn on."
+        "page": 4,
+        "text": "Review Sensor 1-2.pdf, PDF page 4. The two normally open contacts are in series, so both must close."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-4",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
+        "page": 4
       }
     },
     {
       "id": "visual-s-or",
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
-      "type": "symbol",
-      "prompt": "Which control-logic arrangement does this slide diagram show?",
-      "answer": "OR",
+      "type": "quiz",
+      "prompt": "★ Which logic element is labeled B in the diagram?",
       "options": [
-        "OR",
         "AND",
+        "OR",
         "NOT",
-        "NOR",
-        "NAND"
+        "Memory",
+        "NAND",
+        "NOR"
       ],
-      "explanation": "The two normally open contacts are in parallel. Either branch can complete the path to the lamp.",
+      "answer": "OR",
+      "explanation": "The normally open contacts are parallel, so either branch can complete the path.",
       "source": "s",
-      "section": "Module 1 · Control Logic · PDF page 8",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-or",
-        "alt": "Course slide diagram for this question",
-        "page": 8
-      },
-      "variants": [
+      "section": "Sensor 1-2.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "identify",
-          "prompt": "Which control-logic arrangement does this slide diagram show?"
+          "file": "Sensor 1-2.pdf",
+          "page": 4
         },
         {
-          "variant": "name",
-          "prompt": "Identify the logic implemented by the pictured switch circuit."
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 8
         }
       ],
       "reviewSlides": [
         {
+          "url": "./review-slides/s-7.jpg",
+          "page": 7,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
           "url": "./review-slides/s-8.jpg",
           "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
           "title": "C205 Sensor Logic Systems.pdf"
         }
       ],
       "reviewCue": {
-        "text": "Look for two normally open contacts in parallel. Either closed branch can complete the path to the lamp."
+        "page": 4,
+        "text": "Review Sensor 1-2.pdf, PDF page 4. The normally open contacts are parallel, so either branch can complete the path."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-4",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
+        "page": 4
       }
     },
     {
       "id": "visual-s-not",
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
-      "type": "symbol",
-      "prompt": "Which control-logic arrangement does this slide diagram show?",
-      "answer": "NOT",
+      "type": "quiz",
+      "prompt": "★ Which logic element is labeled C in the diagram?",
       "options": [
-        "NOT",
         "AND",
         "OR",
-        "NOR",
-        "NAND"
+        "NOT",
+        "Memory",
+        "NAND",
+        "NOR"
       ],
-      "explanation": "One normally closed contact controls the lamp. Pressing the button opens the path and turns the lamp off.",
+      "answer": "NOT",
+      "explanation": "Operating the normally closed contact opens the path.",
       "source": "s",
-      "section": "Module 1 · Control Logic · PDF page 8",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-not",
-        "alt": "Course slide diagram for this question",
-        "page": 8
-      },
-      "variants": [
+      "section": "Sensor 1-2.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "identify",
-          "prompt": "Which control-logic arrangement does this slide diagram show?"
-        },
-        {
-          "variant": "name",
-          "prompt": "Identify the logic implemented by the pictured switch circuit."
+          "file": "Sensor 1-2.pdf",
+          "page": 4
         }
       ],
       "reviewSlides": [
         {
+          "url": "./review-slides/s-7.jpg",
+          "page": 7,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
           "url": "./review-slides/s-8.jpg",
           "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-9.jpg",
+          "page": 9,
           "title": "C205 Sensor Logic Systems.pdf"
         }
       ],
       "reviewCue": {
-        "text": "Look for one normally closed contact. Operating it opens the path and turns the output off."
+        "page": 4,
+        "text": "Review Sensor 1-2.pdf, PDF page 4. Operating the normally closed contact opens the path."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-4",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
+        "page": 4
       }
     },
     {
       "id": "visual-s-nor",
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
-      "type": "symbol",
-      "prompt": "Which control-logic arrangement does this slide diagram show?",
-      "answer": "NOR",
+      "type": "quiz",
+      "prompt": "★ Which logic element is labeled F in the diagram?",
       "options": [
-        "NOR",
         "AND",
         "OR",
         "NOT",
-        "NAND"
+        "Memory",
+        "NAND",
+        "NOR"
       ],
-      "explanation": "The normally closed contacts are in series. Operating either button opens the only path to the lamp.",
+      "answer": "NOR",
+      "explanation": "Series normally closed contacts retain a path only while neither input is operated.",
       "source": "s",
-      "section": "Module 1 · Control Logic · PDF page 9",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-nor",
-        "alt": "Course slide diagram for this question",
-        "page": 9
-      },
-      "variants": [
+      "section": "Sensor 1-2.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "identify",
-          "prompt": "Which control-logic arrangement does this slide diagram show?"
-        },
-        {
-          "variant": "name",
-          "prompt": "Identify the logic implemented by the pictured switch circuit."
+          "file": "Sensor 1-2.pdf",
+          "page": 4
         }
       ],
       "reviewSlides": [
+        {
+          "url": "./review-slides/s-7.jpg",
+          "page": 7,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
         {
           "url": "./review-slides/s-9.jpg",
           "page": 9,
@@ -292,43 +347,52 @@
         }
       ],
       "reviewCue": {
-        "text": "Look for normally closed contacts in series. Opening either contact breaks the only path and turns the lamp off."
+        "page": 4,
+        "text": "Review Sensor 1-2.pdf, PDF page 4. Series normally closed contacts retain a path only while neither input is operated."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-4",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
+        "page": 4
       }
     },
     {
       "id": "slide-nand-sensor",
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
-      "type": "symbol",
-      "prompt": "Which control-logic arrangement does this slide diagram show?",
-      "answer": "NAND",
+      "type": "quiz",
+      "prompt": "★ Which logic element is labeled E in the diagram?",
       "options": [
-        "NAND",
         "AND",
         "OR",
         "NOT",
+        "Memory",
+        "NAND",
         "NOR"
       ],
-      "explanation": "The normally closed contacts are in parallel. Both must open to remove every path to the lamp.",
+      "answer": "NAND",
+      "explanation": "Parallel normally closed contacts retain a path unless both inputs open their contacts.",
       "source": "s",
-      "section": "Module 1 · Control Logic · PDF page 9",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-nand",
-        "alt": "Course slide diagram for this question",
-        "page": 9
-      },
-      "variants": [
+      "section": "Sensor 1-2.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "identify",
-          "prompt": "Which control-logic arrangement does this slide diagram show?"
-        },
-        {
-          "variant": "name",
-          "prompt": "Identify the logic implemented by the pictured switch circuit."
+          "file": "Sensor 1-2.pdf",
+          "page": 4
         }
       ],
       "reviewSlides": [
+        {
+          "url": "./review-slides/s-7.jpg",
+          "page": 7,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
         {
           "url": "./review-slides/s-9.jpg",
           "page": 9,
@@ -336,7 +400,14 @@
         }
       ],
       "reviewCue": {
-        "text": "Look for normally closed contacts in parallel. One closed branch keeps the lamp on; both contacts must open to turn it off."
+        "page": 4,
+        "text": "Review Sensor 1-2.pdf, PDF page 4. Parallel normally closed contacts retain a path unless both inputs open their contacts."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-4",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
+        "page": 4
       }
     },
     {
@@ -376,25 +447,38 @@
       "id": "visual-s-memory",
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
-      "type": "symbol",
-      "prompt": "What control arrangement is shown by the parallel 1CRA contact around 1PB?",
-      "answer": "Memory / seal-in logic",
+      "type": "quiz",
+      "prompt": "★ Which logic element is labeled D in the diagram?",
       "options": [
-        "Memory / seal-in logic",
-        "NAND logic",
-        "A voltage divider",
-        "A timer-only circuit"
+        "AND",
+        "OR",
+        "NOT",
+        "Memory",
+        "NAND",
+        "NOR"
       ],
-      "explanation": "After 1PB energizes 1CR, auxiliary contact 1CRA closes and maintains the current path when 1PB is released.",
+      "answer": "Memory",
+      "explanation": "The auxiliary contact bypasses Start to maintain the energized state.",
       "source": "s",
-      "section": "Module 1 · Control Logic · PDF page 9",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "s-memory",
-        "alt": "Course slide diagram for this question",
-        "page": 9
-      },
+      "section": "Sensor 1-2.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 4
+        }
+      ],
       "reviewSlides": [
+        {
+          "url": "./review-slides/s-7.jpg",
+          "page": 7,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
         {
           "url": "./review-slides/s-9.jpg",
           "page": 9,
@@ -402,7 +486,14 @@
         }
       ],
       "reviewCue": {
-        "text": "Find the 1CRA contact wired around the Start pushbutton. Trace how that parallel contact keeps the relay energized after Start is released, and how Stop breaks the path."
+        "page": 4,
+        "text": "Review Sensor 1-2.pdf, PDF page 4. The auxiliary contact bypasses Start to maintain the energized state."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-4",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
+        "page": 4
       }
     },
     {
@@ -496,28 +587,29 @@
       "id": "c205x-spst-single",
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
-      "type": "symbol",
-      "prompt": "Which pole-and-throw arrangement does this switch symbol show?",
-      "answer": "SPST — single pole, single throw",
+      "type": "quiz",
+      "prompt": "★ What types of components are shown at A and B?",
       "options": [
-        "SPST — single pole, single throw",
-        "SPDT — single pole, double throw",
-        "DPST — double pole, single throw",
-        "DPDT — double pole, double throw",
-        "None of these"
+        "A is a single-pad switch; B is a double-pad switch",
+        "A is an SPST switch; B is an SPDT switch",
+        "A is a single-position limit switch; B is a two-position limit switch",
+        "A is a single-pad selector switch; B is a double-pad selector switch"
       ],
-      "explanation": "This is SPST — single pole, single throw. The slide shows its single-break version; break count does not change the pole-and-throw designation.",
+      "answer": "A is an SPST switch; B is an SPDT switch",
+      "explanation": "A has one switched path (single pole, single throw). B has one common contact that selects between two paths (single pole, double throw).",
       "source": "s",
-      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 3",
-      "sourcePages": [
-        3
+      "section": "Sensor 1-2.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 5
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 6
+        }
       ],
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c205-spst-single",
-        "alt": "C-205 slide diagram for this question",
-        "page": 3
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/s-3.jpg",
@@ -526,9 +618,14 @@
         }
       ],
       "reviewCue": {
-        "page": 3,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
+        "page": 5,
+        "text": "Review Sensor 1-2.pdf, PDF page 5. A has one switched path (single pole, single throw). B has one common contact that selects between two paths (single pole, double throw)."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-5",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 5",
+        "page": 5
       }
     },
     {
@@ -1314,31 +1411,45 @@
       "world": "sensor",
       "topic": "Module 1 · Control Logic",
       "type": "quiz",
-      "prompt": "Which type of electrical drawing represents control logic using rungs and control-device symbols?",
-      "answer": "Ladder diagram",
+      "prompt": "★ Using the course drawing names, what are A and B?",
       "options": [
-        "Ladder diagram",
-        "Power diagram",
-        "Pictorial equipment layout",
-        "Mechanical connection drawing"
+        "A is a control circuit; B is a pneumatic system",
+        "A is a ladder diagram; B is a power diagram",
+        "A is a solenoid switch; B is a hydraulic cylinder",
+        "A is an input device; B is an output device"
       ],
-      "explanation": "The course uses a ladder diagram for the control circuit and a separate power diagram for power connections.",
+      "answer": "A is a ladder diagram; B is a power diagram",
+      "explanation": "A presents the electrical command as a ladder rung. B is the power diagram showing the valve and cylinder flow connections. The quiz asks for the drawing names.",
       "source": "s",
-      "section": "Module 1 · Control Logic · C205 Sensor Logic Systems.pdf · PDF page 10",
-      "sourcePages": [
-        10
+      "section": "Sensor 1-2.pdf · PDF page 9",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 9
+        }
       ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-10.jpg",
           "page": 10,
           "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-11.jpg",
+          "page": 11,
+          "title": "C205 Sensor Logic Systems.pdf"
         }
       ],
       "reviewCue": {
-        "page": 10,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Ladder Diagrams and Power Diagrams Ladder Diagrams show the control and power devices Power wiring is shown on a separate diagram, called the Power Diagram The design of a control circuit with logic elements like PLCs or other control logic components is calle…"
+        "page": 9,
+        "text": "Review Sensor 1-2.pdf, PDF page 9. A presents the electrical command as a ladder rung. B is the power diagram showing the valve and cylinder flow connections. The quiz asks for the drawing names."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-9",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 9",
+        "page": 9
       }
     },
     {
@@ -1500,6 +1611,164 @@
         "page": 13,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Read left to right and then top-down Ladder Diagram 13"
+      }
+    },
+    {
+      "id": "c205-quiz-selector-hold",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "★ Using only one button or switch, how do you activate solenoid F so that it stays on?",
+      "options": [
+        "Press Start PB1",
+        "Turn the rotary switch to the right position",
+        "Turn the rotary switch to the center position",
+        "Turn the rotary switch to the left position"
+      ],
+      "answer": "Turn the rotary switch to the left position",
+      "explanation": "The left selector contact completes the upper path directly to F. The right position enables the separate Start/Stop holding circuit.",
+      "source": "s",
+      "section": "Sensor 1-2.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-6.jpg",
+          "page": 6,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review Sensor 1-2.pdf, PDF page 2. The left selector contact completes the upper path directly to F. The right position enables the separate Start/Stop holding circuit."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-s12-2",
+        "alt": "Unanswered diagram from Sensor 1-2.pdf, page 2",
+        "page": 2
+      }
+    },
+    {
+      "id": "c205-quiz-ladder-components",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "★ Which of these is one of the four basic components represented in a ladder circuit?",
+      "options": [
+        "Output device",
+        "Conductor",
+        "Power supply",
+        "Input device",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "A complete circuit needs a supply, conducting paths, an input device and an output device. Each listed item belongs to that set.",
+      "source": "s",
+      "section": "Sensor 1-2.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 3
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-10.jpg",
+          "page": 10,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-12.jpg",
+          "page": 12,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review Sensor 1-2.pdf, PDF page 3. A complete circuit needs a supply, conducting paths, an input device and an output device. Each listed item belongs to that set."
+      }
+    },
+    {
+      "id": "c205-quiz-digital",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "★ Which logic system operates on two states only?",
+      "options": [
+        "Analog",
+        "Digital",
+        "Linear",
+        "Mechanical"
+      ],
+      "answer": "Digital",
+      "explanation": "Digital logic uses two states, such as ON/OFF or true/false.",
+      "source": "s",
+      "section": "Sensor 1-2.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 1-2.pdf",
+          "page": 5
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-7.jpg",
+          "page": 7,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review Sensor 1-2.pdf, PDF page 5. Digital logic uses two states, such as ON/OFF or true/false."
+      }
+    },
+    {
+      "id": "c205-quiz-either-start",
+      "world": "sensor",
+      "topic": "Module 1 · Control Logic",
+      "type": "quiz",
+      "prompt": "★ With the Stop contacts in their shown states, which action energizes F?",
+      "options": [
+        "Press PB1 or PB2",
+        "Place Stop 2 in the left position",
+        "Press Stop 1",
+        "Press Stop 1 and put Stop 2 in the center position"
+      ],
+      "answer": "Press PB1 or PB2",
+      "explanation": "PB1 and PB2 provide parallel normally open start paths. Either can complete the circuit through the closed Stop contacts.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 18",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 18
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-8.jpg",
+          "page": 8,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 18,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 18. PB1 and PB2 provide parallel normally open start paths. Either can complete the circuit through the closed Stop contacts."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-pre-18",
+        "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 18",
+        "page": 18
       }
     }
   ]

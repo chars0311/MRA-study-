@@ -6,19 +6,26 @@
     {
       "id": "q042",
       "world": "sensor",
-      "type": "quiz",
-      "prompt": "Which sensor is a mechanical contact operated by a magnetic field?",
-      "answer": "Reed switch",
-      "options": [
-        "Reed switch",
-        "Inductive sensor",
-        "Capacitive sensor",
-        "Photoelectric sensor"
-      ],
-      "explanation": "A reed switch has two leads and closes mechanically in a magnetic field.",
-      "source": "s",
-      "section": "Magnetic Reed Switch, slide 56",
       "topic": "Module 7 · Electronic sensor applications",
+      "type": "quiz",
+      "prompt": "★ Which listed sensor is typically used to detect magnetic fields?",
+      "options": [
+        "Photoelectric",
+        "Inductive",
+        "Capacitive",
+        "Reed"
+      ],
+      "answer": "Reed",
+      "explanation": "A magnetic field operates the reed switch contacts. Hall-effect sensors also sense magnetic fields, but are not one of these choices.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 6
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-56.jpg",
@@ -27,27 +34,33 @@
         }
       ],
       "reviewCue": {
-        "page": 56,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "The reed switch is purely mechanical. It has only two leads and acts as a single-pole, single throw switch (SPST) that closes in a magnetic field. It needs no external power and is connected in series with the power supply and then the load or controller input…"
+        "page": 6,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 6. A magnetic field operates the reed switch contacts. Hall-effect sensors also sense magnetic fields, but are not one of these choices."
       }
     },
     {
       "id": "q044",
       "world": "sensor",
-      "type": "scenario",
-      "prompt": "A sensor detects its target, but the controller input indicator stays off. Which signal measurement would help locate the problem?",
-      "answer": "Check controller input voltage",
-      "options": [
-        "Check controller input voltage",
-        "Assume the target is absent",
-        "Replace every sensor",
-        "Increase the target size first"
-      ],
-      "explanation": "The sensor may detect the target while its output signal is not reaching the controller correctly.",
-      "source": "s",
-      "section": "Tips for Wiring Sensors, slide 62",
       "topic": "Module 7 · Electronic sensor applications",
+      "type": "quiz",
+      "prompt": "★ An inductive proximity sensor has output voltage, but the controller input light is off. What should you check next?",
+      "options": [
+        "Voltage at the controller input",
+        "Whether cables are run in pairs",
+        "Ground all cables",
+        "Replace the sensor without measuring"
+      ],
+      "answer": "Voltage at the controller input",
+      "explanation": "The output is already present at the sensor. Check whether that signal reaches the controller input to distinguish wiring/input trouble from a sensor fault.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 2
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-62.jpg",
@@ -56,9 +69,8 @@
         }
       ],
       "reviewCue": {
-        "page": 62,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "controller input doesn’t light, check the controller input voltage . 62 A21"
+        "page": 2,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 2. The output is already present at the sensor. Check whether that signal reaches the controller input to distinguish wiring/input trouble from a sensor fault."
       }
     },
     {
@@ -125,19 +137,25 @@
       "id": "wb-28",
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
-      "type": "wordbank",
-      "cloze": "A ___ sensor uses light to detect a target.",
-      "prompt": "A ___ sensor uses light to detect a target.",
-      "answer": "Photoelectric",
+      "type": "quiz",
+      "prompt": "★ Which sensor detects objects using light?",
       "options": [
+        "Inductive",
+        "Capacitive",
         "Photoelectric",
-        "Grounding",
-        "Tagout",
-        "Motor starter"
+        "Magnetic reed"
       ],
-      "explanation": "A Photoelectric sensor uses light to detect a target.",
+      "answer": "Photoelectric",
+      "explanation": "Photoelectric sensors use a light source and receiver, with the received light controlling the electrical output.",
       "source": "s",
-      "section": "Photoelectric Sensors, slide 60",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 16",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 16
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-60.jpg",
@@ -146,9 +164,8 @@
         }
       ],
       "reviewCue": {
-        "page": 60,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "A Photoelectric Sensor energizes it’s output when it sees light. It is a Solid-State device that uses the principle of Photoconduction. ( The ability of a material to conduct electrical current when struck by Light. It has 3 components: ● Light source (transmi…"
+        "page": 16,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 16. Photoelectric sensors use a light source and receiver, with the received light controlling the electrical output."
       }
     },
     {
@@ -186,31 +203,43 @@
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
       "type": "quiz",
-      "prompt": "How many leads does the reed switch described in C-205 have?",
-      "answer": "Two",
+      "prompt": "★ Which sensor has only two wires in the course examples?",
       "options": [
-        "Two",
-        "Three",
-        "Four",
-        "Five"
+        "Photoelectric",
+        "Capacitive proximity",
+        "Magnetic reed",
+        "Inductive proximity"
       ],
-      "explanation": "The slide describes a two-lead mechanical SPST switch that closes in a magnetic field.",
+      "answer": "Magnetic reed",
+      "explanation": "The basic reed switch has two leads and needs no separate power for sensing electronics. This describes the course devices, not every commercial sensor model.",
       "source": "s",
-      "section": "Module 7 · Electronic sensor applications · C205 Sensor Logic Systems.pdf · PDF page 56",
-      "sourcePages": [
-        56
+      "section": "Sensor 6-7.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 6
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 15
+        }
       ],
       "reviewSlides": [
         {
           "url": "./review-slides/s-56.jpg",
           "page": 56,
           "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-63.jpg",
+          "page": 63,
+          "title": "C205 Sensor Logic Systems.pdf"
         }
       ],
       "reviewCue": {
-        "page": 56,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "The reed switch is purely mechanical. It has only two leads and acts as a single-pole, single throw switch (SPST) that closes in a magnetic field. It needs no external power and is connected in series with the power supply and then the load or controller input…"
+        "page": 6,
+        "text": "Review Sensor 6-7.pdf, PDF page 6. The basic reed switch has two leads and needs no separate power for sensing electronics. This describes the course devices, not every commercial sensor model."
       }
     },
     {
@@ -250,31 +279,34 @@
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
       "type": "quiz",
-      "prompt": "How should the LED test load be connected with the reed switch?",
-      "answer": "In series with the switch and supply",
+      "prompt": "★ In the course two-wire reed-switch circuit, one lead goes to the controller input. Where does the other lead go?",
       "options": [
-        "In series with the switch and supply",
-        "Directly shorted out by the switch across the supply",
-        "Across the reed with no series load",
-        "With both switch leads on the positive terminal"
+        "Controller output",
+        "Ground",
+        "The supply terminal that is not ground",
+        "An unrelated logic circuit"
       ],
-      "explanation": "A load in series limits current. Closing the reed directly across the supply can create a damaging short.",
+      "answer": "The supply terminal that is not ground",
+      "explanation": "The course connects the reed switch in series between the supply and the load/controller input. Closing it completes that input path.",
       "source": "s",
-      "section": "Module 7 · Electronic sensor applications · C205 Sensor Logic Systems.pdf · PDF page 57",
-      "sourcePages": [
-        57
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 4
+        }
       ],
       "reviewSlides": [
         {
-          "url": "./review-slides/s-57.jpg",
-          "page": 57,
+          "url": "./review-slides/s-56.jpg",
+          "page": 56,
           "title": "C205 Sensor Logic Systems.pdf"
         }
       ],
       "reviewCue": {
-        "page": 57,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Magnetic Reed Switch: The reed switch, when closed, provides a short. A short across a power supply produces a huge current that welds the switch shut. The LED lamp or another load must be in series. It cannot be directly wired across the power supply! 57"
+        "page": 4,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 4. The course connects the reed switch in series between the supply and the load/controller input. Closing it completes that input path."
       }
     },
     {
@@ -443,19 +475,23 @@
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
       "type": "quiz",
-      "prompt": "Which external influence may require shielding for a photoelectric sensor?",
-      "answer": "Sunlight or other unwanted light",
+      "prompt": "★ What is most likely to falsely trigger a photo-reflective detector?",
       "options": [
-        "Sunlight or other unwanted light",
-        "Only the target distance, never surrounding illumination",
-        "Only the target size, never surrounding illumination",
-        "Only the supply voltage, never surrounding illumination"
+        "Sunlight reflected from a shiny surface into the detector",
+        "A shiny surface angled away at 45 degrees",
+        "A flat-black surface",
+        "A cardboard box several feet away"
       ],
-      "explanation": "Unwanted illumination can interfere with optical sensing, so the course discusses shielding from external light.",
+      "answer": "Sunlight reflected from a shiny surface into the detector",
+      "explanation": "Unwanted light entering the receiver can imitate the intended reflected beam. The slide discusses shielding against external light.",
       "source": "s",
-      "section": "Module 7 · Electronic sensor applications · C205 Sensor Logic Systems.pdf · PDF page 61",
-      "sourcePages": [
-        61
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 3
+        }
       ],
       "reviewSlides": [
         {
@@ -465,9 +501,8 @@
         }
       ],
       "reviewCue": {
-        "page": 61,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "sensors, but may need to be shielded from sunlight and other sources of light. Retro-Reflective sensors can be called proximity or diffused detection. They are compact and only have one small, usually water-resistant plastic shell to be mounted. Retro-Reflecti…"
+        "page": 3,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 3. Unwanted light entering the receiver can imitate the intended reflected beam. The slide discusses shielding against external light."
       }
     },
     {
@@ -475,19 +510,23 @@
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
       "type": "quiz",
-      "prompt": "In a photoelectric sensor system with a reflector, why can angling a shiny target away from perpendicular to the beam help prevent false reflections?",
-      "answer": "To reduce light reflected straight back toward the sensor",
+      "prompt": "★ Which is least likely to trigger the photo-reflective detector in the quiz?",
       "options": [
-        "To reduce light reflected straight back toward the sensor",
-        "To increase the strength of a magnetic field",
-        "To make the target physically touch the sensor",
-        "To reverse the supply polarity"
+        "A shiny surface tilted to reflect the beam toward the ceiling",
+        "A large cardboard box passing close by",
+        "A surface painted with dark paint",
+        "Loose shrink-wrap passing close by"
       ],
-      "explanation": "The slide discusses target orientation so a shiny surface does not return misleading light directly to the receiver.",
+      "answer": "A shiny surface tilted to reflect the beam toward the ceiling",
+      "explanation": "The tilted shiny surface sends the reflected beam away from the receiver. Detection depends on returned light, not just whether the target looks shiny.",
       "source": "s",
-      "section": "Module 7 · Electronic sensor applications · C205 Sensor Logic Systems.pdf · PDF page 61",
-      "sourcePages": [
-        61
+      "section": "Sensor 6-7.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 6
+        }
       ],
       "reviewSlides": [
         {
@@ -497,29 +536,32 @@
         }
       ],
       "reviewCue": {
-        "page": 61,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "amount of light reflected back from a mirror to sense an object: Shiny, reflective objects need to be far from the perpendicular to the beam (near ~45O) to ensure beam doesn’t reflect back to the sensor. Other factors that influence sensitivity are the target …"
+        "page": 6,
+        "text": "Review Sensor 6-7.pdf, PDF page 6. The tilted shiny surface sends the reflected beam away from the receiver. Detection depends on returned light, not just whether the target looks shiny."
       }
     },
     {
       "id": "c205x-detected-no-input",
       "world": "sensor",
       "topic": "Module 7 · Electronic sensor applications",
-      "type": "scenario",
-      "prompt": "The sensor detection indicator responds, but the controller input does not. What should be checked next?",
-      "answer": "Output signal and controller input voltage",
+      "type": "quiz",
+      "prompt": "★ An object is beside a capacitive sensor and both LEDs are lit, but the distant controller input is off. What should you measure next at the sensor?",
       "options": [
-        "Output signal and controller input voltage",
-        "Only move the target closer without checking the signal",
-        "Only replace the sensor despite its detection indicator",
-        "Only adjust sensitivity and ignore the receiving circuit"
+        "Controller resistance",
+        "Controller supply voltage only",
+        "Sensor supply input only",
+        "Sensor output voltage to ground"
       ],
-      "explanation": "The course calls for checking the controller input voltage when the sensor detects but the receiving input does not respond.",
+      "answer": "Sensor output voltage to ground",
+      "explanation": "Lit indicators show power/detection but do not prove a usable output signal. Measure the output at the sensor before following the signal toward the controller.",
       "source": "s",
-      "section": "Module 7 · Electronic sensor applications · C205 Sensor Logic Systems.pdf · PDF page 62",
-      "sourcePages": [
-        62
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 15",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 15
+        }
       ],
       "reviewSlides": [
         {
@@ -529,9 +571,8 @@
         }
       ],
       "reviewCue": {
-        "page": 62,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "controller input voltage . 62 A21"
+        "page": 15,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 15. Lit indicators show power/detection but do not prove a usable output signal. Measure the output at the sensor before following the signal toward the controller."
       }
     },
     {
@@ -564,6 +605,168 @@
         "page": 63,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "check supply voltages and output voltage 63 AC and DC. A05"
+      }
+    },
+    {
+      "id": "c205-quiz-hall-target",
+      "world": "sensor",
+      "topic": "Module 7 · Electronic sensor applications",
+      "type": "quiz",
+      "prompt": "★ Which listed sensor detects a magnetic field?",
+      "options": [
+        "Hall-effect sensor",
+        "Limit switch",
+        "Capacitive proximity sensor",
+        "Photoelectric sensor"
+      ],
+      "answer": "Hall-effect sensor",
+      "explanation": "Hall-effect sensing responds to a magnetic field through a small voltage change in the sensing material.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 3
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 3
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-59.jpg",
+          "page": 59,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review Sensor 6-7.pdf, PDF page 3. Hall-effect sensing responds to a magnetic field through a small voltage change in the sensing material."
+      }
+    },
+    {
+      "id": "c205-quiz-ac-dc",
+      "world": "sensor",
+      "topic": "Module 7 · Electronic sensor applications",
+      "type": "quiz",
+      "prompt": "★ According to the C-205 slides, which switches can be designed and rated to handle AC or DC?",
+      "options": [
+        "Hall-effect switches only",
+        "Reed switches only",
+        "Both Hall-effect and reed switches",
+        "Neither type"
+      ],
+      "answer": "Both Hall-effect and reed switches",
+      "explanation": "Slides 56 and 58 state that reed switches handle AC or DC. Slide 59 says Hall-effect switches can use AC or DC. Use a device with the appropriate rating. The Sensor 6–7 quiz key conflicts with these slides; this answer follows the slides.",
+      "source": "s",
+      "section": "Sensor 6-7.pdf · PDF page 7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Sensor 6-7.pdf",
+          "page": 7
+        },
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 3
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-56.jpg",
+          "page": 56,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-58.jpg",
+          "page": 58,
+          "title": "C205 Sensor Logic Systems.pdf"
+        },
+        {
+          "url": "./review-slides/s-59.jpg",
+          "page": 59,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review Sensor 6-7.pdf, PDF page 7. Slides 56 and 58 state that reed switches handle AC or DC. Slide 59 says Hall-effect switches can use AC or DC. Use a device with the appropriate rating. The Sensor 6–7 quiz key conflicts with these slides; this answer follows the slides."
+      }
+    },
+    {
+      "id": "c205-quiz-hall-test",
+      "world": "sensor",
+      "topic": "Module 7 · Electronic sensor applications",
+      "type": "quiz",
+      "prompt": "★ Which check tests a Hall sensor’s response to its target?",
+      "options": [
+        "Verify supply voltage only",
+        "Check output voltage while a magnet is placed beside the sensor",
+        "Check output with a steel chip alone",
+        "Shine light into the sensor"
+      ],
+      "answer": "Check output voltage while a magnet is placed beside the sensor",
+      "explanation": "A magnet supplies the magnetic field that Hall sensing responds to. Checking the output change tests sensing action; supply voltage alone does not.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 14",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 14
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-59.jpg",
+          "page": 59,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 14,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 14. A magnet supplies the magnetic field that Hall sensing responds to. Checking the output change tests sensing action; supply voltage alone does not."
+      }
+    },
+    {
+      "id": "c205-quiz-hall-load",
+      "world": "sensor",
+      "topic": "Module 7 · Electronic sensor applications",
+      "type": "quiz",
+      "prompt": "★ Where should the control load be wired in this Hall sensor diagram?",
+      "options": [
+        "At A, with B connected straight to +12 VDC",
+        "At B, with A connected straight to +12 VDC"
+      ],
+      "answer": "At B, with A connected straight to +12 VDC",
+      "explanation": "A feeds the Hall sensing electronics continuously. B is the switched output branch, where the controller input/load belongs.",
+      "source": "s",
+      "section": "PRE-TEST Sensor Logic Systems.pdf · PDF page 20",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "PRE-TEST Sensor Logic Systems.pdf",
+          "page": 20
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/s-63.jpg",
+          "page": 63,
+          "title": "C205 Sensor Logic Systems.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 20,
+        "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 20. A feeds the Hall sensing electronics continuously. B is the switched output branch, where the controller input/load belongs."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-pre-20",
+        "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 20",
+        "page": 20
       }
     }
   ]
