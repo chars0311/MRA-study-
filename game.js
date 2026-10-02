@@ -76,29 +76,15 @@ try {
   hideMastered = localStorage.getItem("mra-hide-mastered") !== "false";
 } catch {}
 function retiredIds() {
-  const counts = {},
-    seen = new Set();
-  for (const e of events) {
-    const key = e.run + "/" + e.qid;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    counts[e.qid] = e.correct ? (counts[e.qid] || 0) + 1 : 0;
-  }
-  return new Set(Object.keys(counts).filter((id) => counts[id] >= 3));
+  return new Set([...learningStates()].filter(([,s]) => s.streak >= 3 && !s.isDue).map(([id]) => id));
 }
 function practicePool() {
   const retired = retiredIds();
-  return pool().filter((q) => !hideMastered || !retired.has(q.id));
+  return pool().filter(q => !hideMastered || !retired.has(q.id) || q.starred);
 }
 function masteryPanel() {
-  const count = pool().filter((q) => retiredIds().has(q.id)).length;
-  return (
-    '<section class="topic-panel"><label><input id="hide-mastered" type="checkbox" ' +
-    (hideMastered ? "checked" : "") +
-    '> Hide mastered questions from practice</label><p class="small">' +
-    count +
-    " retired in this selection. Three consecutive correct answers in separate sessions retire a question and its wording / number variations. A wrong answer brings it back. Simple Test includes mastered questions from checked modules. Boss exams include the whole course, regardless of module selections. Uncheck to practice everything. Saved in this browser only.</p></section>"
-  );
+  const p = learningProgress(pool());
+  return '<section class="topic-panel"><label><input id="hide-mastered" type="checkbox" '+(hideMastered?'checked':'')+'> Focus practice on new and due questions</label><p class="small">'+p.due+' due for review. Confident correct answers schedule review after 1, 3, 7, 14, then 30 days. After three consecutive successes, questions rest until due. Mistakes and guesses return next session. Starred teacher questions can return sooner to meet the test quota. Simple Test and boss exams include mastered questions. Progress stays saved in this browser.</p></section>';
 }
 function suggestionPanel() {
   const loc = globalThis.location;
@@ -170,8 +156,8 @@ function topicPicker() {
                 "><span>" +
                 escape(t) +
                 "<small>" +
-                qs.length +
-                " questions</small></span></label>"
+                learningProgress(qs).earned + " / " + qs.length +
+                " mastered · " + learningProgress(qs).due + " due</small>" + progress(learningProgress(qs).earned, qs.length, t + " progress") + "</span></label>"
               );
             })
             .join("") +
@@ -290,7 +276,7 @@ function stats() {
     streak,
     best,
     level: 1 + Math.floor(xp / 250),
-    mastered: Object.values(latest).filter(Boolean).length,
+    mastered: learningProgress(bank.questions).earned,
     missed: Object.keys(latest).filter((k) => !latest[k]),
   };
 }
@@ -314,7 +300,7 @@ function diagram(q) {
   if (q.diagram?.kind !== "slide-image") return "";
   const img = bank.slideImages?.[q.diagram.imageKey];
   return img
-    ? `<figure class="slide-question-image"><img src="${img}" alt="${escape(q.diagram.alt || "Course slide diagram for this question")}" decoding="async"><figcaption>${q.custom ? "Contributor-supplied course image" : "Original course slide diagram"}</figcaption></figure>`
+    ? `<figure class="slide-question-image"><img src="${img}" alt="${escape(q.diagram.alt || "Course slide diagram for this question")}" decoding="async"><figcaption>${q.custom ? "Contributor-supplied course image" : "Original course / teacher-quiz diagram"}</figcaption></figure>`
     : "";
 }
 
@@ -424,7 +410,7 @@ function questionPoolBrowser() {
           .map((q) => {
             const form = q.variants?.[poolForms[q.id] || 0],
               v = { ...q, ...form };
-            return `<article class="pool-question"><p class="eyebrow">${escape(bank.worlds.find((w) => w.id === q.world)?.name || "")} · ${escape(q.type)}</p><p class="small">${escape(q.topic)}${q.examEligible === false ? " · Excluded from tests: setup image needed" : ""}</p><h3>${escape(v.prompt)}</h3>${diagram(v)}${q.variants?.length > 1 ? `<label>Question variation <select data-pool-form="${q.id}">${q.variants.map((_, i) => `<option value="${i}" ${(poolForms[q.id] || 0) === i ? "selected" : ""}>${i + 1} of ${q.variants.length}</option>`).join("")}</select></label>` : ""}<details><summary>Reveal answer & explanation</summary><p><strong>${escape(v.answer)}</strong></p><p>${escape(v.explanation)}</p><div class="source">${source(v)}</div></details></article>`;
+            return `<article class="pool-question"><p class="eyebrow">${escape(bank.worlds.find((w) => w.id === q.world)?.name || "")} · ${escape(q.type)}</p><p class="small">${escape(q.topic)}${q.examEligible === false ? " · Excluded from tests: setup image needed" : ""}</p><h3>${escape(v.prompt)}</h3>${diagram(v)}${flagControl(q)}${q.variants?.length > 1 ? `<label>Question variation <select data-pool-form="${q.id}">${q.variants.map((_, i) => `<option value="${i}" ${(poolForms[q.id] || 0) === i ? "selected" : ""}>${i + 1} of ${q.variants.length}</option>`).join("")}</select></label>` : ""}<details><summary>Reveal answer & explanation</summary><p><strong>${escape(v.answer)}</strong></p><p>${escape(v.explanation)}</p><div class="source">${source(v)}</div></details></article>`;
           })
           .join("")}</div></div>`
       : ""
@@ -437,7 +423,7 @@ function home() {
     t = stats(),
     latest = lastAnswers(),
     n = questions.filter((q) => latest[q.id]).length;
-  return `<div class="course-jump"><label for="course-jump">Your course</label><select id="course-jump">${bank.worlds.map((x) => `<option value="${x.id}" ${x.id === selected ? "selected" : ""}>${escape(x.code + " · " + x.name)}</option>`).join("")}</select><span>${questions.length} questions in your pool</span></div><section class="board"><div class="board-copy"><p class="eyebrow">${selected === "electrical" ? "START HERE · " : ""}${escape(w.code)}</p><h1>${escape(w.name)}</h1><p>${escape(w.description)}</p><div class="mission-meta"><span>♥ ♥ ♥ <b>3 lives per mission</b></span><span>${questions.length} concepts</span></div><button class="primary" data-mode="mission" ${!loaded || !questions.length ? "disabled" : ""}>${n ? "Continue training" : "Start " + (selected === "electrical" ? "electrical " : "") + "mission"} <span>→</span></button><p class="small">${Math.min(8, questions.length)} questions · instant explanations · earn XP</p></div><div class="world-emblem" aria-hidden="true">${escape(w.icon)}<span>${escape(w.code)}</span></div></section>${topicPicker()}<div class="section-heading"><div><p class="eyebrow">PRACTICE YOUR WAY</p><h2>Choose a study mode</h2></div><span>Simple Test: checked modules · Boss: whole course</span></div><section class="training-modes" aria-label="Practice modes">${[
+  return `<div class="course-jump"><label for="course-jump">Your course</label><select id="course-jump">${bank.worlds.map((x) => `<option value="${x.id}" ${x.id === selected ? "selected" : ""}>${escape(x.code + " · " + x.name)}</option>`).join("")}</select><span>${questions.length} questions in your pool</span></div><section class="board"><div class="board-copy"><p class="eyebrow">${selected === "electrical" ? "START HERE · " : ""}${escape(w.code)}</p><h1>${escape(w.name)}</h1><p>${escape(w.description)}</p><div class="mission-meta"><span>♥ ♥ ♥ <b>3 lives per mission</b></span><span>${questions.length} concepts</span></div><button class="primary" data-mode="mission" ${!loaded || !questions.length ? "disabled" : ""}>${n ? "Continue training" : "Start " + (selected === "electrical" ? "electrical " : "") + "mission"} <span>→</span></button><p class="small">${Math.min(8, questions.length)} questions · instant explanations · earn XP</p></div><div class="world-emblem" aria-hidden="true">${escape(w.icon)}<span>${escape(w.code)}</span></div></section>${courseProgressPanel()}${topicPicker()}<div class="section-heading"><div><p class="eyebrow">PRACTICE YOUR WAY</p><h2>Choose a study mode</h2></div><span>Simple Test: checked modules · Boss: whole course</span></div><section class="training-modes" aria-label="Practice modes">${[
     [
       "symbol",
       "✓",
@@ -470,9 +456,9 @@ function home() {
     [
       "review",
       "↺",
-      "Retry mistakes",
-      `${questions.filter((q) => t.missed.includes(q.id)).length} to revisit`,
-      questions.some((q) => t.missed.includes(q.id)),
+      "Review due & unsure",
+      `${questions.filter(q => learningStates().get(q.id)?.isDue || learningStates().get(q.id)?.latest?.guessed).length} to revisit`,
+      questions.some(q => learningStates().get(q.id)?.isDue || learningStates().get(q.id)?.latest?.guessed),
     ],
   ]
     .map(
@@ -481,10 +467,10 @@ function home() {
     )
     .join(
       "",
-    )}</section>${masteryPanel()}${questionPoolBrowser()}${suggestionPanel()}<div class="section-heading"><div><p class="eyebrow">EXPLORE THE CURRICULUM</p><h2>Choose your world</h2></div><span>All worlds unlocked</span></div><section class="world-grid">${bank.worlds
+    )}</section>${masteryPanel()}${weakTopicPanel()}${questionPoolBrowser()}${suggestionPanel()}<div class="section-heading"><div><p class="eyebrow">EXPLORE THE CURRICULUM</p><h2>Choose your world</h2></div><span>All worlds unlocked</span></div><section class="world-grid">${bank.worlds
     .map((w, i) => {
       const qs = courseQuestions(w.id),
-        done = qs.filter((q) => latest[q.id]).length;
+        done = learningProgress(qs).earned;
       return `<button class="world-card ${w.id === selected ? "selected" : ""}" data-world="${w.id}" aria-pressed="${w.id === selected}"><div class="card-top"><span class="world-icon">${escape(w.icon)}</span><span class="small">${escape(w.code)} ${badges().includes(w.id) ? "★" : ""}</span></div><h3>${escape(w.name)}</h3><p>${escape(w.description)}</p>${progress(done, qs.length, w.name + " mastery")}<div class="card-bottom"><span>${done}/${qs.length} mastered</span><span>${w.id === selected ? "Selected" : "Explore →"}</span></div></button>`;
     })
     .join("")}</section>`;
@@ -493,15 +479,15 @@ function progressPage() {
   const t = stats(),
     won = new Set(badges()),
     latest = lastAnswers();
-  return `<section class="page-heading"><p class="eyebrow">YOUR FIELD RECORD</p><h1>Progress that stays with you.</h1><p>Progress saves in this browser. It does not sync between devices. Clearing browser data resets your progress.</p></section><div class="metric-grid"><article><span>Total XP</span><b>${t.xp}</b></article><article><span>Best answer streak</span><b>${t.best}</b></article><article><span>Boss worlds passed</span><b>${won.size}</b></article><article><span>Questions to revisit</span><b>${t.missed.length}</b></article></div><h2>Course mastery</h2><section class="mastery-list">${bank.worlds
+  return `<section class="page-heading"><p class="eyebrow">YOUR FIELD RECORD</p><h1>Progress that stays with you.</h1><p>Progress saves in this browser. It does not sync between devices. Clearing browser data resets your progress.</p></section><div class="metric-grid"><article><span>Total XP</span><b>${t.xp}</b></article><article><span>Best answer streak</span><b>${t.best}</b></article><article><span>Boss worlds passed</span><b>${won.size}</b></article><article><span>Questions to revisit</span><b>${learningProgress(bank.questions).due}</b></article></div><h2>Course mastery</h2><section class="mastery-list">${bank.worlds
     .map((w) => {
       const qs = courseQuestions(w.id),
-        n = qs.filter((q) => latest[q.id]).length;
+        n = learningProgress(qs).earned;
       return `<button data-world="${w.id}"><span class="world-icon">${escape(w.icon)}</span><div><b>${escape(w.name)}</b>${progress(n, qs.length, w.name + " mastery")}</div><span>${n}/${qs.length}</span><span>${won.has(w.id) ? "★ Passed" : "Train →"}</span></button>`;
     })
     .join(
       "",
-    )}</section><section class="rules"><h2>How scoring works</h2><p>Correct answers earn 10 XP plus a streak bonus of 2–10 XP. Every 250 XP raises your level. A wrong answer resets the streak and costs a mission life. Each new mission starts with 3 lives.</p><p>Simple Test draws 10 questions across every checked module with eligible questions, using more than 10 if needed to cover every selected module. It provides immediate explanations without a life cutoff. Boss exams draw up to 20 questions from the entire selected course, regardless of checkboxes, and require 75% to pass (15 of 20). Smaller selected pools produce shorter sessions. Boss answers stay editable until you lock in and grade. Flashcards are unscored. Mastery reflects your latest scored answer to each question.</p></section>`;
+    )}</section>${courseProgressPanel()}${topicPicker()}${weakTopicPanel()}<section class="rules"><h2>How scoring works</h2><p>Correct answers earn 10 XP plus a streak bonus of 2–10 XP. Every 250 XP raises your level. A wrong answer resets the streak and costs a mission life. Each new mission starts with 3 lives.</p><p>Simple Test draws 10 questions across every checked module with eligible questions, using more than 10 if needed to cover every selected module. It provides immediate explanations without a life cutoff. Boss exams draw up to 20 questions from the entire selected course, regardless of checkboxes, and require 75% to pass (15 of 20). Smaller selected pools produce shorter sessions. Boss answers stay editable until you lock in and grade. Flashcards are unscored. Mastery records questions answered correctly without guessing, including existing progress. Wrong answers and guesses bring questions back for review without erasing earned progress. Older answers have unknown confidence.</p></section>`;
 }
 function library() {
   const w = world();
@@ -528,11 +514,11 @@ function bossPool() {
   return courseQuestions().filter((q) => q.examEligible !== false && !q.cloze);
 }
 function examPool() {
-  const qs = balancedQuestions(bossPool(), 20);
+  const qs = learningSelection(bossPool(), 20, 3);
   return {
     qs,
     note:
-      "Whole-course boss exam: module checkboxes and Hide mastered do not limit this exam." +
+      "Whole-course boss exam: module checkboxes do not limit this exam." + starredNote(qs,3) +
       (qs.length < 20
         ? " Only " +
           qs.length +
@@ -557,13 +543,14 @@ function start(mode) {
   )
     return;
   const latest = lastAnswers();
+  const states = learningStates();
   let qs = (
     mode === "boss" ? bossPool() : mode === "symbol" ? pool() : practicePool()
   ).filter((q) => !q.cloze || mode === "cards" || mode === "review");
   if (mode === "symbol") qs = qs.filter((q) => q.examEligible !== false);
   if (mode === "formula") qs = qs.filter((q) => q.type === "formula");
   if (mode === "scenario") qs = qs.filter((q) => q.type === "scenario");
-  if (mode === "review") qs = qs.filter((q) => latest[q.id] === false);
+  if (mode === "review") qs = qs.filter(q => latest[q.id] === false || states.get(q.id)?.latest?.guessed || states.get(q.id)?.isDue || q.starred);
   if (!qs.length) {
     error =
       "No questions available for this selection. Check modules or turn off Hide mastered questions for practice.";
@@ -577,13 +564,13 @@ function start(mode) {
     note = exam.note;
   } else if (mode === "symbol") {
     const count = new Set(qs.map((q) => q.world + "|" + q.topic)).size;
-    qs = balancedQuestions(qs, Math.max(10, count));
+    qs = learningSelection(qs, Math.max(10, count), 2, true);
     note =
       qs.length +
-      " questions · every checked module with eligible questions · immediate explanations · no life cutoff. Mastered questions are included.";
+      " questions · every checked module with eligible questions · immediate explanations · no life cutoff. Mastered questions are included." + starredNote(qs,2);
   } else {
-    qs = shuffle(qs).map(freshQuestion);
-    if (mode !== "cards") qs = qs.slice(0, 8);
+    qs = mode === "cards" ? shuffle(qs).map(freshQuestion) : learningSelection(qs, 8, ["mission", "review"].includes(mode) ? 2 : 0);
+    if (["mission", "review"].includes(mode)) note = starredNote(qs,2);
   }
   qs = qs.map((q) => ({ ...q, choices: shuffle(q.options) }));
   run = {
@@ -596,6 +583,7 @@ function start(mode) {
     index: 0,
     answers: [],
     feedback: null,
+    guesses: {},
     finished: false,
     lives: 3,
     flipped: false,
@@ -628,7 +616,7 @@ function examNavigator() {
 function examPage() {
   run.drafts ??= {};
   const q = run.qs[run.index];
-  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit" ${run.locked ? "disabled" : ""}>← Leave session</button><span>${escape(world().code)} · ${run.mode === "boss" ? "BOSS EXAM" : "TEST"}</span></div><p>${escape(run.examNote || "")}</p><div class="exam-layout">${examNavigator()}<div class="exam-main"><p class="eyebrow">QUESTION ${run.index + 1} OF ${run.qs.length}</p><p class="small">${q.recap ? "↺ Earlier-section review · " : ""}${escape(q.topic)}</p><h1 id="question-heading" tabindex="-1">${escape(q.prompt)}</h1>${diagram(q)}${q.numeric !== undefined ? `<label for="exam-number">Your answer in ${escape(q.unit)}</label><input id="exam-number" type="text" inputmode="decimal" autocomplete="off" value="${escape(run.drafts[q.id] || "")}" ${run.locked ? "disabled" : ""}><p class="small">Enter a number only; round to within 0.5%. Your answer stays editable.</p>` : `<div class="answer-grid">${q.choices.map((a, i) => `<button class="answer ${run.drafts[q.id] === a ? "draft-selected" : ""}" data-exam-answer="${i}" aria-pressed="${run.drafts[q.id] === a}" ${run.locked ? "disabled" : ""}><span class="answer-letter">${"ABCDEF"[i]}</span><span>${escape(a)}</span></button>`).join("")}</div>`}<div class="exam-controls"><button data-exam-goto="${run.index - 1}" ${run.locked || run.index === 0 ? "disabled" : ""}>← Previous</button><button id="exam-clear" ${run.locked ? "disabled" : ""}>Clear answer</button><button data-exam-goto="${run.index + 1}" ${run.locked || run.index === run.qs.length - 1 ? "disabled" : ""}>Next / skip →</button><button id="exam-unanswered" ${run.locked || run.qs.every(draftValid) ? "disabled" : ""}>Next unanswered</button></div><p role="status">${run.locked ? "Grading your locked answers…" : "Selections are drafts. Nothing is graded until you lock in the whole test."}</p></div></div></section>`;
+  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit" ${run.locked ? "disabled" : ""}>← Leave session</button><span>${escape(world().code)} · ${run.mode === "boss" ? "BOSS EXAM" : "TEST"}</span></div><p>${escape(run.examNote || "")}</p><div class="exam-layout">${examNavigator()}<div class="exam-main"><p class="eyebrow">QUESTION ${run.index + 1} OF ${run.qs.length}</p><p class="small">${q.recap ? "↺ Earlier-section review · " : ""}${escape(q.topic)}</p><h1 id="question-heading" tabindex="-1">${escape(q.prompt)}</h1>${diagram(q)}${flagControl(q)}${confidenceControl(q)}${q.numeric !== undefined ? `<label for="exam-number">Your answer in ${escape(q.unit)}</label><input id="exam-number" type="text" inputmode="decimal" autocomplete="off" value="${escape(run.drafts[q.id] || "")}" ${run.locked ? "disabled" : ""}><p class="small">Enter a number only; round to within 0.5%. Your answer stays editable.</p>` : `<div class="answer-grid">${q.choices.map((a, i) => `<button class="answer ${run.drafts[q.id] === a ? "draft-selected" : ""}" data-exam-answer="${i}" aria-pressed="${run.drafts[q.id] === a}" ${run.locked ? "disabled" : ""}><span class="answer-letter">${"ABCDEF"[i]}</span><span>${escape(a)}</span></button>`).join("")}</div>`}<div class="exam-controls"><button data-exam-goto="${run.index - 1}" ${run.locked || run.index === 0 ? "disabled" : ""}>← Previous</button><button id="exam-clear" ${run.locked ? "disabled" : ""}>Clear answer</button><button data-exam-goto="${run.index + 1}" ${run.locked || run.index === run.qs.length - 1 ? "disabled" : ""}>Next / skip →</button><button id="exam-unanswered" ${run.locked || run.qs.every(draftValid) ? "disabled" : ""}>Next unanswered</button></div><p role="status">${run.locked ? "Grading your locked answers…" : "Selections are drafts. Nothing is graded until you lock in the whole test."}</p></div></div></section>`;
 }
 function setExamDraft(q, value, redraw = true) {
   if (!isExam() || run.locked) return;
@@ -721,7 +709,7 @@ function play() {
   if (run.mode === "match") return matching();
   const q = run.qs[run.index],
     boss = ["boss", "test"].includes(run.mode);
-  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit">← Leave session</button><span>${escape(world().code)} · ${run.mode === "boss" ? "BOSS EXAM" : run.mode === "symbol" ? "SIMPLE TEST" : run.mode.toUpperCase()}</span><span class="hearts">${boss ? "★ " + Math.round((run.answers.filter((a) => a.correct).length / Math.max(1, run.answers.length)) * 100) + "%" : run.mode === "symbol" ? "PRACTICE" : "♥ ".repeat(run.lives) + "♡ ".repeat(3 - run.lives)}</span></div>${run.examNote ? `<p class="small">${escape(run.examNote)}</p>` : ""}${progress(run.index, run.qs.length, "Session progress")}<div class="question-meta"><span>CHALLENGE ${run.index + 1} OF ${run.qs.length}</span><span>${q.diagram ? "◇ SYMBOL" : q.type === "formula" ? "∑ FORMULA" : q.type === "scenario" ? "⌕ TROUBLESHOOTING" : "KNOWLEDGE CHECK"}</span></div><p class="small">${q.recap ? "↺ Earlier-section review · " : ""}${escape(bank.worlds.find((w) => w.id === q.world)?.code || "")} · ${escape(q.topic || q.section)}</p><h1 id="question-heading" tabindex="-1">${escape(q.prompt)}</h1>${diagram(q)}${boss ? '<p class="small">Exam mode: explanations appear in your final review.</p>' : ""}${q.numeric !== undefined ? `<form id="numeric-form"><label for="numeric-answer">Your answer in ${escape(q.unit)}</label><div class="number-row"><input id="numeric-answer" name="answer" type="text" inputmode="decimal" autocomplete="off" placeholder="Enter a number" ${run.feedback || busy ? "disabled" : ""} required><span>${escape(q.unit)}</span><button class="primary" type="submit" ${run.feedback || busy ? "disabled" : ""}>Check answer</button></div><p class="small">Enter the number only. Decimals accepted; round to within 0.5%.</p></form>` : `<div class="answer-grid">${q.choices.map((a, i) => `<button data-answer="${i}" class="answer ${run.feedback && !boss && (a === q.answer ? "correct" : a === run.feedback.answer ? "incorrect" : "")}" ${run.feedback || busy ? "disabled" : ""}><span class="answer-letter">${"ABCDEF"[i]}</span><span>${escape(a)}</span>${run.feedback && !boss && a === q.answer ? "<span>✓</span>" : ""}</button>`).join("")}</div>`}${run.feedback ? `<section class="feedback ${boss ? "" : run.feedback.correct ? "good" : "bad"}" aria-live="polite">${boss ? "<h2>Answer saved</h2>" : `<h2>${run.feedback.correct ? "✓ Correct" : "Let’s work through it"}</h2><h3>Why the correct answer is correct</h3><p><b>${escape(q.answer)}</b></p><p>${escape(q.explanation)}</p><div class="source">${source(q)}</div>${!run.feedback.correct ? reviewSlides(q) : ""}`}<button class="primary" data-action="next">${run.index + 1 === run.qs.length || (!boss && run.mode !== "symbol" && run.lives === 0) ? "See results" : "Next challenge"} →</button></section>` : ""}${busy ? '<p role="status">Saving your answer…</p>' : ""}</section>`;
+  return `<section class="play-shell"><div class="play-top"><button class="quiet" data-action="exit">← Leave session</button><span>${escape(world().code)} · ${run.mode === "boss" ? "BOSS EXAM" : run.mode === "symbol" ? "SIMPLE TEST" : run.mode.toUpperCase()}</span><span class="hearts">${boss ? "★ " + Math.round((run.answers.filter((a) => a.correct).length / Math.max(1, run.answers.length)) * 100) + "%" : run.mode === "symbol" ? "PRACTICE" : "♥ ".repeat(run.lives) + "♡ ".repeat(3 - run.lives)}</span></div>${run.examNote ? `<p class="small">${escape(run.examNote)}</p>` : ""}${progress(run.index, run.qs.length, "Session progress")}<div class="question-meta"><span>CHALLENGE ${run.index + 1} OF ${run.qs.length}</span><span>${q.diagram ? "◇ SYMBOL" : q.type === "formula" ? "∑ FORMULA" : q.type === "scenario" ? "⌕ TROUBLESHOOTING" : "KNOWLEDGE CHECK"}</span></div><p class="small">${q.recap ? "↺ Earlier-section review · " : ""}${escape(bank.worlds.find((w) => w.id === q.world)?.code || "")} · ${escape(q.topic || q.section)}</p><h1 id="question-heading" tabindex="-1">${escape(q.prompt)}</h1>${diagram(q)}${flagControl(q)}${confidenceControl(q)}${boss ? '<p class="small">Exam mode: explanations appear in your final review.</p>' : ""}${q.numeric !== undefined ? `<form id="numeric-form"><label for="numeric-answer">Your answer in ${escape(q.unit)}</label><div class="number-row"><input id="numeric-answer" name="answer" type="text" inputmode="decimal" autocomplete="off" placeholder="Enter a number" ${run.feedback || busy ? "disabled" : ""} required><span>${escape(q.unit)}</span><button class="primary" type="submit" ${run.feedback || busy ? "disabled" : ""}>Check answer</button></div><p class="small">Enter the number only. Decimals accepted; round to within 0.5%.</p></form>` : `<div class="answer-grid">${q.choices.map((a, i) => `<button data-answer="${i}" class="answer ${run.feedback && !boss && (a === q.answer ? "correct" : a === run.feedback.answer ? "incorrect" : "")}" ${run.feedback || busy ? "disabled" : ""}><span class="answer-letter">${"ABCDEF"[i]}</span><span>${escape(a)}</span>${run.feedback && !boss && a === q.answer ? "<span>✓</span>" : ""}</button>`).join("")}</div>`}${run.feedback ? `<section class="feedback ${boss ? "" : run.feedback.correct ? "good" : "bad"}" aria-live="polite">${boss ? "<h2>Answer saved</h2>" : `<h2>${run.feedback.correct ? "✓ Correct" : "Let’s work through it"}</h2><h3>Why the correct answer is correct</h3><p><b>${escape(q.answer)}</b></p><p>${escape(q.explanation)}</p><div class="source">${source(q)}</div>${run.guesses?.[q.id] ? '<p>Marked as guessed — this question will return for review.</p>' : ""}${!run.feedback.correct || run.guesses?.[q.id] ? reviewSlides(q) : ""}`}<button class="primary" data-action="next">${run.index + 1 === run.qs.length || (!boss && run.mode !== "symbol" && run.lives === 0) ? "See results" : "Next challenge"} →</button></section>` : ""}${busy ? '<p role="status">Saving your answer…</p>' : ""}</section>`;
 }
 function cards() {
   const q = run.qs[run.index];
@@ -737,10 +725,10 @@ function summary() {
     percent = Math.round((100 * correct) / total),
     passed = correct / total >= 0.75,
     wasBoss = run.mode === "boss";
-  return `<section class="results"><p class="eyebrow">${escape(world().code)} · SESSION COMPLETE</p><div class="result-symbol">${wasBoss && passed ? "★" : correct ? "ϟ" : "↺"}</div><h1>${wasBoss ? (passed ? "Boss cleared." : "Keep building your skills.") : run.lives === 0 ? "Time to recharge." : "Good work, technician."}</h1><p>${correct} correct out of ${run.answers.length} answered${run.answers.length < total ? ` · ${total - run.answers.length} remaining` : ""}. ${["boss", "test"].includes(run.mode) ? `Score: ${percent}%. Pass mark: 75%.` : "Every explanation is another chance to learn."}</p><div class="result-stats"><span><b>+${stats().xp - run.startXP}</b> XP earned</span><span><b>${stats().level}</b> current level</span><span><b>${run.answers.filter((a) => !a.correct).length}</b> to revisit</span></div><div class="result-actions"><button class="primary" data-action="home">Back to worlds →</button><button data-action="again">New ${wasBoss ? "boss exam" : run.mode === "wordbank" ? "word bank" : run.mode === "symbol" ? "Simple Test" : run.mode === "test" ? "test" : "mission"}</button></div></section><section class="review-list"><h2>Session review</h2>${run.answers
+  return `<section class="results"><p class="eyebrow">${escape(world().code)} · SESSION COMPLETE</p><div class="result-symbol">${wasBoss && passed ? "★" : correct ? "ϟ" : "↺"}</div><h1>${wasBoss ? (passed ? "Boss cleared." : "Keep building your skills.") : run.lives === 0 ? "Time to recharge." : "Good work, technician."}</h1><p>${correct} correct out of ${run.answers.length} answered${run.answers.length < total ? ` · ${total - run.answers.length} remaining` : ""}. ${["boss", "test"].includes(run.mode) ? `Score: ${percent}%. Pass mark: 75%.` : "Every explanation is another chance to learn."}</p><div class="result-stats"><span><b>+${stats().xp - run.startXP}</b> XP earned</span><span><b>${stats().level}</b> current level</span><span><b>${run.answers.filter((a) => !a.correct || a.guessed).length}</b> to revisit</span></div><div class="result-actions"><button class="primary" data-action="home">Back to worlds →</button><button data-action="again">New ${wasBoss ? "boss exam" : run.mode === "wordbank" ? "word bank" : run.mode === "symbol" ? "Simple Test" : run.mode === "test" ? "test" : "mission"}</button></div></section>${weakTopicPanel(run.answers, run.qs)}<section class="review-list"><h2>Session review</h2>${run.answers
     .map((a) => {
       const q = run.qs.find((q) => q.id === a.qid);
-      return `<article><span class="review-tag ${a.correct ? "right" : "wrong"}">${a.correct ? "✓ Correct" : "↺ Review"}</span><h3>${escape(q.prompt)}</h3>${diagram(q)}<h3>Why the correct answer is correct</h3><p><b>${escape(q.answer)}</b></p><p>${escape(q.explanation)}</p><div class="source">${source(q)}</div>${!a.correct ? reviewSlides(q) : ""}</article>`;
+      return `<article><span class="review-tag ${a.correct ? "right" : "wrong"}">${a.correct ? "✓ Correct" : "↺ Review"}</span><h3>${escape(q.prompt)}</h3>${diagram(q)}${flagControl(q)}${a.guessed ? '<p class="small">Marked as guessed — scheduled for review.</p>' : a.guessed === undefined ? '<p class="small">Confidence unknown (older answer).</p>' : ""}<h3>Why the correct answer is correct</h3><p><b>${escape(q.answer)}</b></p><p>${escape(q.explanation)}</p><div class="source">${source(q)}</div>${!a.correct ? reviewSlides(q) : ""}</article>`;
     })
     .join("")}</section>`;
 }
@@ -768,6 +756,7 @@ async function submit(q, answer) {
     variant: q.variant,
     topic: run.topic,
     answer,
+    guessed: run.guesses?.[q.id] === true,
     run: run.id,
     world: run.world,
     mode: run.mode,
@@ -837,6 +826,7 @@ function leave() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 function bind() {
+  bindLearning();
   if (el("course-jump"))
     el("course-jump").onchange = (e) => {
       selected = e.target.value;

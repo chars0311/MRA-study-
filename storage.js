@@ -18,6 +18,8 @@ try {
     )
       throw Error("Invalid progress");
     portableEvents = parsed;
+    // Keep a one-time copy before adding optional confidence fields.
+    try { if (!localStorage.getItem("mra-progress-before-learning")) localStorage.setItem("mra-progress-before-learning", previous); } catch {}
   }
   localStorage.setItem(progressKey, JSON.stringify(portableEvents));
 } catch {
@@ -66,6 +68,7 @@ const fetch = async (url, options = {}) => {
       mode: b.mode,
       total: b.total,
       correct,
+      guessed: b.guessed === true,
       at: new Date().toISOString(),
     };
     portableEvents.push(event);

@@ -1467,3 +1467,18 @@ body {
 .review-guidance p:last-child {
   margin-bottom: 0;
 }
+/* Learning progress and question reports work on touch screens and desktops. */
+.course-progress progress, .module-checks progress { width: 100%; height: 12px; }
+.module-checks label > span { min-width: 0; width: 100%; }
+.module-checks small { display: block; margin: .4rem 0; }
+.confidence { display: flex; gap: .65rem; align-items: center; padding: .8rem 0; cursor: pointer; }
+.confidence input { width: 22px; height: 22px; flex-shrink: 0; }
+.confidence-help { margin-top: 0; }
+.question-flag { margin: .75rem 0; border-top: 1px solid #344754; padding: .8rem 0; }
+.question-flag summary, .weak-topics summary { cursor: pointer; padding: .4rem 0; }
+.question-flag form { display: grid; gap: .75rem; max-width: 650px; margin-top: .75rem; }
+.question-flag label { display: grid; gap: .4rem; }
+.question-flag textarea, .question-flag select { width: 100%; box-sizing: border-box; padding: .8rem; color: inherit; background: #142431; border: 1px solid #617786; border-radius: 8px; font: inherit; }
+.question-flag a { color: #c0fb79; text-decoration: underline; }
+.weak-topics article + article { border-top: 1px solid #344754; margin-top: 1rem; padding-top: .5rem; }
+.weak-topics li { overflow-wrap: anywhere; margin-bottom: .5rem; }
