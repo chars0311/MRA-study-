@@ -35,8 +35,18 @@ const fetch = async (url, options = {}) => {
     if (!embeddedBank) embeddedBank = await loadQuestionBank();
     return portableResponse(embeddedBank);
   }
-  if (url === "/api/progress")
+  if (url === "/api/progress") {
+    if (globalThis.MRAAuth) {
+      try {
+        portableEvents = await globalThis.MRAAuth.mergeWithCloud(portableEvents);
+        if (portablePersistent)
+          localStorage.setItem(progressKey, JSON.stringify(portableEvents));
+      } catch (e) {
+        console.warn("Cloud progress sync unavailable; continuing in browser.", e);
+      }
+    }
     return portableResponse({ events: portableEvents });
+  }
   if (url === "/api/answer") {
     const b = JSON.parse(options.body),
       base = embeddedBank.questions.find((q) => q.id === b.qid);
@@ -77,6 +87,13 @@ const fetch = async (url, options = {}) => {
         localStorage.setItem(progressKey, JSON.stringify(portableEvents));
       } catch {
         portablePersistent = false;
+      }
+    }
+    if (globalThis.MRAAuth) {
+      try {
+        await globalThis.MRAAuth.saveCloudEvents([event]);
+      } catch (e) {
+        console.warn("Answer saved locally; cloud sync will retry on next sign-in/load.", e);
       }
     }
     return portableResponse({ event });
