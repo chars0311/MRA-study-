@@ -4349,6 +4349,35 @@
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Pick the one that is above but closest to the required value 48"
       }
+    },
+    {
+      "id": "c202-quiz-primary-turns",
+      "world": "motor",
+      "topic": "Module 3 · Control Transformers",
+      "type": "quiz",
+      "prompt": "★ A multi-tap transformer must produce 24 V from a 120 V supply. The secondary has 400 turns. Which primary tap should be used?",
+      "options": [
+        "1,000 turns",
+        "1,200 turns",
+        "1,500 turns",
+        "2,000 turns"
+      ],
+      "answer": "2,000 turns",
+      "explanation": "The voltage ratio is 120 ÷ 24 = 5:1. Primary turns = 400 × 5 = 2,000. Look for the primary-to-secondary turns and voltage relationship.",
+      "source": "m",
+      "section": "Module 3 · Motors 3-4.pdf · PDF page 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Motors 3-4.pdf",
+          "page": 1
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 1,
+        "text": "Review Motors 3-4.pdf, PDF page 1. The voltage ratio is 120 ÷ 24 = 5:1. Primary turns = 400 × 5 = 2,000. Look for the primary-to-secondary turns and voltage relationship."
+      }
     }
   ]
 }

@@ -9,7 +9,8 @@
     "c202x-voltage",
     "c202x-steady",
     "c202x-inrush",
-    "c202x-rating"
+    "c202x-rating",
+    "c202-quiz-primary-turns"
   ],
   "questions": [
     {

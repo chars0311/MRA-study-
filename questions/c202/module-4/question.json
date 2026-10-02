@@ -8,38 +8,28 @@
       "world": "motor",
       "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
-      "prompt": "Two normally open contacts in series represent which logic?",
-      "answer": "AND",
+      "prompt": "★ Which logic circuit consists of two normally open switches wired in series?",
       "options": [
-        "AND",
         "OR",
+        "AND",
         "NOT",
-        "NAND"
+        "NOR"
       ],
-      "explanation": "Series NO contacts require both input paths to close.",
+      "answer": "AND",
+      "explanation": "Both normally open contacts must close to complete the series path. Look for two contacts in the same current path.",
       "source": "m",
-      "section": "Module 4 · AND logic, slides 67–68",
-      "variants": [
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "a",
-          "prompt": "Two normally open contacts in series represent which logic?"
-        },
-        {
-          "variant": "b",
-          "prompt": "An output needs both NO inputs closed. Which logic is represented?"
+          "file": "Motors 3-4.pdf",
+          "page": 3
         }
       ],
-      "reviewSlides": [
-        {
-          "url": "./review-slides/m-68.jpg",
-          "page": 68,
-          "title": "C202 Electric Motor Controls.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 68,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Application: a two hand circuit requires both hands to start a machine ► The red lamp turns on only when PB1 AND PB2 are pressed 68 A31 A32 A33 A32 A3S A36"
+        "page": 3,
+        "text": "Review Motors 3-4.pdf, PDF page 3. Both normally open contacts must close to complete the series path. Look for two contacts in the same current path."
       }
     },
     {
@@ -47,38 +37,28 @@
       "world": "motor",
       "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
-      "prompt": "Two normally open contacts in parallel represent which logic?",
-      "answer": "OR",
+      "prompt": "★ You need a remote start button in addition to the existing start button. Which logic allows either button to start the circuit?",
       "options": [
-        "OR",
         "AND",
         "NOR",
+        "OR",
         "NOT"
       ],
-      "explanation": "Parallel NO contacts let either input complete the circuit.",
+      "answer": "OR",
+      "explanation": "Parallel normally open start contacts implement OR: either button can complete a path. Look for parallel start branches.",
       "source": "m",
-      "section": "Module 4 · OR logic, slides 67–69",
-      "variants": [
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "a",
-          "prompt": "Two normally open contacts in parallel represent which logic?"
-        },
-        {
-          "variant": "b",
-          "prompt": "Either NO input can complete a path to the output. Which logic is this?"
+          "file": "Motors 3-4.pdf",
+          "page": 3
         }
       ],
-      "reviewSlides": [
-        {
-          "url": "./review-slides/m-69.jpg",
-          "page": 69,
-          "title": "C202 Electric Motor Controls.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 69,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Two normally-open switches wires in parallel ► Closing either of the switches will energize the output ► Closing both switches will also energize the output ► Application: remote-start button ► The red lamp turns on when PB1 OR PB2 is pressed 69"
+        "page": 3,
+        "text": "Review Motors 3-4.pdf, PDF page 3. Parallel normally open start contacts implement OR: either button can complete a path. Look for parallel start branches."
       }
     },
     {
@@ -86,38 +66,28 @@
       "world": "motor",
       "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
-      "prompt": "Two normally closed contacts in series represent which logic?",
-      "answer": "NOR",
+      "prompt": "★ Which logic circuit uses two normally closed switches wired in series?",
       "options": [
+        "NOT",
+        "ON",
         "NOR",
-        "OR",
-        "AND",
-        "Memory"
+        "NAND"
       ],
-      "explanation": "Series NC contacts conduct only while neither input is actuated.",
+      "answer": "NOR",
+      "explanation": "The series path conducts only while neither input operates its normally closed contact. Operating either opens the path: NOR.",
       "source": "m",
-      "section": "Module 4 · NOR logic, slides 67–71",
-      "variants": [
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "a",
-          "prompt": "Two normally closed contacts in series represent which logic?"
-        },
-        {
-          "variant": "b",
-          "prompt": "Either input opening its NC contact turns the output off. Which logic is this?"
+          "file": "Motors 3-4.pdf",
+          "page": 3
         }
       ],
-      "reviewSlides": [
-        {
-          "url": "./review-slides/m-71.jpg",
-          "page": 71,
-          "title": "C202 Electric Motor Controls.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 71,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Two normally-closed switches in series ► Opening either of the switches will de-energize the output ► Opening both of the switches will also de-energize the output ► Application: remote-stop button 71"
+        "page": 3,
+        "text": "Review Motors 3-4.pdf, PDF page 3. The series path conducts only while neither input operates its normally closed contact. Operating either opens the path: NOR."
       }
     },
     {
@@ -125,38 +95,28 @@
       "world": "motor",
       "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
-      "prompt": "Two normally closed contacts in parallel represent which logic?",
-      "answer": "NAND",
+      "prompt": "★ An automobile’s interior light turns on when any door opens and turns off only when all doors close. Which logic does this quiz identify?",
       "options": [
         "NAND",
-        "AND",
         "NOR",
-        "Memory"
+        "NOT",
+        "AND"
       ],
-      "explanation": "With parallel NC contacts, both must open before all output paths are interrupted.",
+      "answer": "NAND",
+      "explanation": "The quiz identifies NAND: the light is off only when all door-closed conditions are true. Opening any door makes that combined condition false and turns the light on. Look for the input convention: door closed is true.",
       "source": "m",
-      "section": "Module 4 · NAND logic, slides 67–72",
-      "variants": [
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "a",
-          "prompt": "Two normally closed contacts in parallel represent which logic?"
-        },
-        {
-          "variant": "b",
-          "prompt": "An output turns off only when both parallel NC paths open. Which logic is this?"
+          "file": "Motors 3-4.pdf",
+          "page": 4
         }
       ],
-      "reviewSlides": [
-        {
-          "url": "./review-slides/m-72.jpg",
-          "page": 72,
-          "title": "C202 Electric Motor Controls.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 72,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Two normally-closed switches in parallel ► Opening either of the switches will have no effect on the circuit; the output remains energized ► It is necessary to open all of the switches to de-energize the output 72"
+        "page": 4,
+        "text": "Review Motors 3-4.pdf, PDF page 4. The quiz identifies NAND: the light is off only when all door-closed conditions are true. Opening any door makes that combined condition false and turns the light on. Look for the input convention: door closed is true."
       }
     },
     {
@@ -1166,31 +1126,28 @@
       "world": "motor",
       "topic": "Module 4 · Control Ladder Logic",
       "type": "quiz",
-      "prompt": "Which three parts make up a sequence step?",
-      "answer": "Input, logic and output",
+      "prompt": "★ A logic machine’s process includes outputs, inputs, and what third part?",
       "options": [
-        "Input, logic and output",
-        "Voltage, current and resistance",
-        "Start, fuse and ground",
-        "Primary, secondary and core"
+        "Ladder diagrams or function charts",
+        "Logic or controller functions",
+        "Resistance or inductance",
+        "Voltage"
       ],
-      "explanation": "Input signals the step, logic decides, and output acts.",
+      "answer": "Logic or controller functions",
+      "explanation": "Inputs provide conditions, logic evaluates them, and outputs perform the resulting actions. Look for the input–logic–output breakdown.",
       "source": "m",
-      "sourcePages": [
-        56
-      ],
-      "section": "Module 4 · Control Ladder Logic · C202 Electric Motor Controls.pdf · PDF page 56",
-      "reviewSlides": [
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-56.jpg",
-          "page": 56,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "Motors 3-4.pdf",
+          "page": 2
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 56,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Input - indicates that it is time to perform a step ► Logic - decision on what action to take ► Output - action carried out 56 A15"
+        "page": 2,
+        "text": "Review Motors 3-4.pdf, PDF page 2. Inputs provide conditions, logic evaluates them, and outputs perform the resulting actions. Look for the input–logic–output breakdown."
       }
     },
     {
@@ -1358,6 +1315,134 @@
         "page": 64,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "5. Place Only One Load Per Line ► Load is simply another name for an output device ► Loads should be wired in parallel on different lines, never in series on the same line 6. Output Devices Located on Right 64 A38"
+      }
+    },
+    {
+      "id": "c202-quiz-sequence",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "★ What is the series of moves a machine makes to perform a task called?",
+      "options": [
+        "Sequence of operation",
+        "Control process",
+        "Automated sequence",
+        "Logical progression"
+      ],
+      "answer": "Sequence of operation",
+      "explanation": "A sequence of operation describes the ordered moves needed to complete the task. Look for the order of the machine actions.",
+      "source": "m",
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Motors 3-4.pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review Motors 3-4.pdf, PDF page 2. A sequence of operation describes the ordered moves needed to complete the task. Look for the order of the machine actions."
+      }
+    },
+    {
+      "id": "c202-quiz-ladder-function",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "★ Which diagrams represent the function of a control circuit and its associated devices?",
+      "options": [
+        "Ladder diagrams",
+        "Connection diagrams",
+        "Power diagrams",
+        "Pictorial diagrams"
+      ],
+      "answer": "Ladder diagrams",
+      "explanation": "Ladder diagrams show how control contacts and output devices work together. Look for the control rungs and their conditions.",
+      "source": "m",
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Motors 3-4.pdf",
+          "page": 2
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review Motors 3-4.pdf, PDF page 2. Ladder diagrams show how control contacts and output devices work together. Look for the control rungs and their conditions."
+      }
+    },
+    {
+      "id": "c202-quiz-relay-expression",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "★ Which statement describes the logic in this diagram?",
+      "options": [
+        "If (CR1 and CR2 and CR3) or (CR4 and not CR5), then CR6",
+        "If (CR1 or CR2 or CR3) and (CR4 and not CR5), then CR6",
+        "If (CR1 or CR4) and (CR2 and CR3) and not CR5, then CR6",
+        "If (CR1 and CR4) or (CR2 or CR3), then CR6"
+      ],
+      "answer": "If (CR1 and CR2 and CR3) or (CR4 and not CR5), then CR6",
+      "explanation": "The top branch has CR1, CR2 and CR3 in series. The lower parallel branch has CR4 in series with normally closed CR5. Either branch can energize CR6. Look for series AND, parallel OR, and the diagonal mark on CR5.",
+      "source": "m",
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Motors 3-4.pdf",
+          "page": 4
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review Motors 3-4.pdf, PDF page 4. The top branch has CR1, CR2 and CR3 in series. The lower parallel branch has CR4 in series with normally closed CR5. Either branch can energize CR6. Look for series AND, parallel OR, and the diagonal mark on CR5."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-m34-4",
+        "alt": "Relay ladder circuit from the Motors 3–4 quiz",
+        "page": 4
+      }
+    },
+    {
+      "id": "c202-quiz-pushbutton-e",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "★ With the other pushbuttons unpressed, which statement is true when pushbutton E in this diagram is pressed?",
+      "options": [
+        "The green light turns on",
+        "The red light turns on",
+        "The blue light turns on",
+        "Both the green and blue lights turn on"
+      ],
+      "answer": "The green light turns on",
+      "explanation": "E energizes CR3, which closes the CR3 contact feeding the green lamp. CR1 and CR2 remain off, so the red and blue paths are incomplete. Trace E to CR3, then each lamp rung.",
+      "source": "m",
+      "section": "Module 4 · Motors 3-4.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "Motors 3-4.pdf",
+          "page": 5
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review Motors 3-4.pdf, PDF page 5. E energizes CR3, which closes the CR3 contact feeding the green lamp. CR1 and CR2 remain off, so the red and blue paths are incomplete. Trace E to CR3, then each lamp rung."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-m34-5",
+        "alt": "Relay ladder circuit from the Motors 3–4 quiz",
+        "page": 5
       }
     }
   ]
