@@ -374,7 +374,9 @@ function bindWordbank() {
 
 function gameHeader() {
   const t = stats();
-  return `<header><button class="brand" data-action="home" aria-label="MRA Tech Quest home"><b class="brand-mark">ϟ</b><span>MRA <b>TECH QUEST</b></span></button><div class="rank"><span class="rank-label">LEVEL ${t.level}</span><b>${["Apprentice", "Circuit Scout", "Field Technician", "Systems Specialist", "Master Technician"][Math.min(4, Math.floor((t.level - 1) / 3))]}</b>${progress(t.xp % 250, 250, "Progress to next level")}</div></header><div class="status-strip"><span><b>ϟ ${t.xp}</b> XP</span><span><b>${t.streak}</b> answer streak</span><span><b>${t.mastered}/${bank.questions.length}</b> mastered</span><span class="save-status">${busy ? "Saving…" : loaded ? (portablePersistent ? "✓ Saved in this browser" : "Session only — progress will not be saved") : error ? "Progress unavailable" : "Loading progress…"}</span></div>`;
+  const accountLabel = globalThis.MRAAuth?.label?.() || "Guest mode";
+  const saveLabel = globalThis.MRAAuth?.syncLabel?.() || (portablePersistent ? "✓ Saved in this browser" : "Session only — progress will not be saved");
+  return `<header><button class="brand" data-action="home" aria-label="MRA Tech Quest home"><b class="brand-mark">ϟ</b><span>MRA <b>TECH QUEST</b></span></button><div class="header-actions"><button class="account-button" id="account-button" type="button">${escape(accountLabel)}</button><div class="rank"><span class="rank-label">LEVEL ${t.level}</span><b>${["Apprentice", "Circuit Scout", "Field Technician", "Systems Specialist", "Master Technician"][Math.min(4, Math.floor((t.level - 1) / 3))]}</b>${progress(t.xp % 250, 250, "Progress to next level")}</div></div></header><div class="status-strip"><span><b>ϟ ${t.xp}</b> XP</span><span><b>${t.streak}</b> answer streak</span><span><b>${t.mastered}/${bank.questions.length}</b> mastered</span><span class="save-status">${busy ? "Saving…" : loaded ? saveLabel : error ? "Progress unavailable" : "Loading progress…"}</span></div>`;
 }
 function notice() {
   return error
@@ -827,6 +829,8 @@ function leave() {
 }
 function bind() {
   bindLearning();
+  if (el("account-button"))
+    el("account-button").onclick = () => globalThis.MRAAuth?.openDialog?.();
   if (el("course-jump"))
     el("course-jump").onchange = (e) => {
       selected = e.target.value;
