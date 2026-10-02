@@ -1,6 +1,6 @@
 // Public client configuration for Supabase.
-// The anon/publishable key is intended for browser use. NEVER place a service-role key here.
+// Browser-safe publishable key only. Never use a service-role key here.
 window.MRA_SUPABASE = {
-  url: "",
-  anonKey: "",
+  url: "https://xcqtbyazouascevjaqvk.supabase.co",
+  anonKey: "sb_publishable_FEvHJqpcCtqW0fSM_eVtyg_tt7xpGa7",
 };
