@@ -125,19 +125,26 @@
       "id": "wb-7",
       "world": "motor",
       "topic": "Module 3 · Control Transformers",
-      "type": "wordbank",
-      "cloze": "Primary turns divided by secondary turns gives the ___.",
-      "prompt": "Primary turns divided by secondary turns gives the ___.",
-      "answer": "Turns ratio",
+      "type": "quiz",
+      "prompt": "★ The relationship between a transformer’s input and output voltages is based on what?",
       "options": [
         "Turns ratio",
-        "Grounding",
-        "Tagout",
-        "Motor starter"
+        "Core resistance",
+        "Wire resistance",
+        "Type of wire"
       ],
-      "explanation": "Primary turns divided by secondary turns gives the Turns ratio.",
+      "answer": "Turns ratio",
+      "explanation": "For the ideal transformer, primary-to-secondary voltage ratio equals primary-to-secondary turns ratio. Look for Np/Ns = Vp/Vs.",
       "source": "m",
-      "section": "Turns ratio, slide 35",
+      "section": "Module 3 · Control Transformers · C-202 EMC Pretest.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 4,
+          "question": 9
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/m-35.jpg",
@@ -147,8 +154,7 @@
       ],
       "reviewCue": {
         "page": 35,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► The turns ratio is the number of turns in the primary coil divided by the number of turns in the secondary coil Turns Ratio 35 A09S A09"
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 4. Also see C202 Electric Motor Controls.pdf, PDF page 35. For the ideal transformer, primary-to-secondary voltage ratio equals primary-to-secondary turns ratio. Look for Np/Ns = Vp/Vs."
       }
     },
     {
@@ -249,28 +255,24 @@
       "id": "c202x-parallel",
       "world": "motor",
       "topic": "Module 3 · Control Transformers",
-      "type": "symbol",
-      "prompt": "How are the two primary windings connected here?",
-      "answer": "In parallel",
+      "type": "quiz",
+      "prompt": "★ To obtain 120 VAC from the course’s 240/480 V dual-primary transformer on 240 VAC, the primary windings must be in series. True or false?",
       "options": [
-        "In parallel",
-        "In series",
-        "Open-circuited",
-        "Three-phase delta",
-        "None of these"
+        "True",
+        "False"
       ],
-      "explanation": "Both primaries are connected across the same supply.",
+      "answer": "False",
+      "explanation": "At the lower 240 V supply, the two primary coils are connected in parallel. Series is used for 480 V.",
       "source": "m",
-      "sourcePages": [
-        41
+      "section": "Module 3 · Control Transformers · C-202 EMC Pretest.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 5,
+          "question": 12
+        }
       ],
-      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 41",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-primary-parallel",
-        "alt": "Original C-202 diagram for this question",
-        "page": 41
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/m-41.jpg",
@@ -280,36 +282,31 @@
       ],
       "reviewCue": {
         "page": 41,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Connected in parallel, the effective turns of the two primaries are 200 turns ► The turns ratio is then 2:1 Dual-Voltage Transformer (Parallel) 41"
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 5. Also see C202 Electric Motor Controls.pdf, PDF page 41. At the lower 240 V supply, the two primary coils are connected in parallel. Series is used for 480 V."
       }
     },
     {
       "id": "c202x-series",
       "world": "motor",
       "topic": "Module 3 · Control Transformers",
-      "type": "symbol",
-      "prompt": "How are the two primary windings connected here?",
-      "answer": "In series",
+      "type": "quiz",
+      "prompt": "★ To obtain 120 VAC from the course’s dual-primary control transformer on 480 VAC, the primaries must be in series. True or false?",
       "options": [
-        "In series",
-        "In parallel",
-        "Both shorted",
-        "Three-phase wye",
-        "None of these"
+        "True",
+        "False"
       ],
-      "explanation": "The H2-H3 link joins the windings in series.",
+      "answer": "True",
+      "explanation": "Series connection divides the higher supply voltage between the two primary windings. Compare the series and parallel primary diagrams.",
       "source": "m",
-      "sourcePages": [
-        42
+      "section": "Module 3 · Control Transformers · C-202 EMC Pretest.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 6,
+          "question": 13
+        }
       ],
-      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 42",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-primary-series",
-        "alt": "Original C-202 diagram for this question",
-        "page": 42
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/m-42.jpg",
@@ -319,8 +316,7 @@
       ],
       "reviewCue": {
         "page": 42,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Dual-Voltage Transformer (Series) 42 A12"
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 6. Also see C202 Electric Motor Controls.pdf, PDF page 42. Series connection divides the higher supply voltage between the two primary windings. Compare the series and parallel primary diagrams."
       }
     },
     {

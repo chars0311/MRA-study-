@@ -238,35 +238,36 @@
       "id": "visual-m-ncto",
       "world": "motor",
       "topic": "Module 8 · Basic Timer Control",
-      "type": "symbol",
-      "prompt": "Which timer-contact symbol is shown?",
-      "answer": "Normally closed, timed open (NCTO)",
+      "type": "quiz",
+      "prompt": "★ Which timer contact is shown?",
       "options": [
-        "Normally closed, timed open (NCTO)",
-        "Normally open, timed close (NOTC)",
-        "Ordinary normally closed pushbutton",
-        "Ordinary normally open pushbutton"
+        "N.O. on-delay",
+        "N.C. on-delay",
+        "N.O. off-delay",
+        "N.C. off-delay"
       ],
-      "explanation": "This on-delay contact is normally closed. It opens after the energized timer reaches its preset delay.",
+      "answer": "N.C. on-delay",
+      "explanation": "This is a normally closed on-delay contact (normally closed, timed open). It delays opening after the timer coil energizes. Compare its timing mark with the off-delay symbol.",
       "source": "m",
-      "section": "8 · Basic timer control · PDF page 122",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "m-ncto",
-        "alt": "Course slide diagram for this question",
-        "page": 122
-      },
-      "reviewSlides": [
+      "section": "Module 8 · Basic Timer Control · C-202 EMC Pretest.pdf · PDF page 29",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-122.jpg",
-          "page": 122,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 29,
+          "question": 45
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 122,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Once preset time delay is reached, contacts move to their energized states ► Contacts remain in energized states until coil is de-energized 122"
+        "page": 29,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 29. This is a normally closed on-delay contact (normally closed, timed open). It delays opening after the timer coil energizes. Compare its timing mark with the off-delay symbol."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p29-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 29
       }
     },
     {
@@ -408,39 +409,36 @@
       "id": "c202x-timer-nctc",
       "world": "motor",
       "topic": "Module 8 · Basic Timer Control",
-      "type": "symbol",
-      "prompt": "Which timed-contact symbol is shown?",
-      "answer": "Normally closed, timed closed (NCTC)",
+      "type": "quiz",
+      "prompt": "★ Which timer contact is shown?",
       "options": [
-        "Normally closed, timed closed (NCTC)",
-        "Normally open, timed open (NOTO)",
-        "Normally open, timed closed (NOTC)",
-        "Normally closed, timed open (NCTO)",
-        "Untimed normally open contact"
+        "N.O. on-delay",
+        "N.C. on-delay",
+        "N.O. off-delay",
+        "N.C. off-delay"
       ],
-      "explanation": "This contact opens immediately on energization and closes after the off-delay.",
+      "answer": "N.C. off-delay",
+      "explanation": "This is a normally closed off-delay contact (normally closed, timed close). It opens when energized and returns closed after the off-delay. Look at the normal closed contact and timing direction mark.",
       "source": "m",
-      "sourcePages": [
-        123
-      ],
-      "section": "Module 8 · Basic Timer Control · C202 Electric Motor Controls.pdf · PDF page 123",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-timer-nctc",
-        "alt": "Original C-202 diagram for this question",
-        "page": 123
-      },
-      "reviewSlides": [
+      "section": "Module 8 · Basic Timer Control · C-202 EMC Pretest.pdf · PDF page 28",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-123.jpg",
-          "page": 123,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 28,
+          "question": 44
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 123,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Off-Delay Timer Operation ► When coil is energized, timer’s contacts immediately move to their energized states, but timing mechanism does not operate until coil is de-energized ► Once coil is de-energized, timer starts running, and contacts remain held in the…"
+        "page": 28,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 28. This is a normally closed off-delay contact (normally closed, timed close). It opens when energized and returns closed after the off-delay. Look at the normal closed contact and timing direction mark."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p28-img1",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 28
       }
     }
   ]

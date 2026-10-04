@@ -195,19 +195,26 @@
       "id": "wb-3",
       "world": "motor",
       "topic": "Module 2 · Manual Motor Control and Overload Protection",
-      "type": "wordbank",
-      "cloze": "___ responds to excessive motor current over time.",
-      "prompt": "___ responds to excessive motor current over time.",
-      "answer": "Overload protection",
+      "type": "quiz",
+      "prompt": "★ Which motor-control requirement specifically protects the motor against sustained overload?",
       "options": [
-        "Overload protection",
-        "Grounding",
-        "Tagout",
-        "Motor starter"
+        "Disconnect",
+        "Short-circuit protection",
+        "Controller",
+        "Overload protection"
       ],
-      "explanation": "Overload protection responds to excessive motor current over time.",
+      "answer": "Overload protection",
+      "explanation": "Overload protection responds to excessive motor current over time. Short-circuit protection serves a different fault condition.",
       "source": "m",
-      "section": "Requirements, slides 16–17",
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C-202 EMC Pretest.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 6,
+          "question": 14
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/m-17.jpg",
@@ -217,8 +224,7 @@
       ],
       "reviewCue": {
         "page": 17,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Overloads open when the motor has drawn excessive current over time ► An overload cannot react as quickly as a fuse or circuit breaker 17"
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 6. Also see C202 Electric Motor Controls.pdf, PDF page 17. Overload protection responds to excessive motor current over time. Short-circuit protection serves a different fault condition."
       }
     },
     {
@@ -829,6 +835,77 @@
       "reviewCue": {
         "page": 6,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 6. The quiz requires motor full-load amperage and service factor. Review the nameplate, equipment instructions and the course setup procedure rather than assuming one multiplier always applies."
+      }
+    },
+    {
+      "id": "c202-quiz-magnetic-sense",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ Which overload type uses a coil to sense motor current?",
+      "options": [
+        "Solid-state overload",
+        "Magnetic overload",
+        "Thermal overload",
+        "None of the above"
+      ],
+      "answer": "Magnetic overload",
+      "explanation": "A magnetic overload senses current through a coil. At the trip level its magnetic force operates the mechanism.",
+      "source": "m",
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C-202 EMC Pretest.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 3,
+          "question": 7
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-29.jpg",
+          "page": 29,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 3. Also see C202 Electric Motor Controls.pdf, PDF page 29. A magnetic overload senses current through a coil. At the trip level its magnetic force operates the mechanism."
+      }
+    },
+    {
+      "id": "c202-quiz-thermal-delay",
+      "world": "motor",
+      "topic": "Module 2 · Manual Motor Control and Overload Protection",
+      "type": "quiz",
+      "prompt": "★ Which listed overload type provides the heat-related time delay emphasized in this quiz?",
+      "options": [
+        "Solid-state overload",
+        "Thermal overload",
+        "None of the above"
+      ],
+      "answer": "Thermal overload",
+      "explanation": "Thermal overload operation depends on heating over time. The course also describes delayed magnetic overloads; this question asks about the listed thermal mechanism.",
+      "source": "m",
+      "section": "Module 2 · Manual Motor Control and Overload Protection · C-202 EMC Pretest.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 4,
+          "question": 8
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-29.jpg",
+          "page": 29,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 29,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 4. Also see C202 Electric Motor Controls.pdf, PDF page 29. Thermal overload operation depends on heating over time. The course also describes delayed magnetic overloads; this question asks about the listed thermal mechanism."
       }
     }
   ]

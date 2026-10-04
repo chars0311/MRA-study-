@@ -1338,6 +1338,11 @@
         {
           "file": "Motors 3-4.pdf",
           "page": 2
+        },
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 6,
+          "question": 15
         }
       ],
       "reviewSlides": [],
@@ -1443,6 +1448,149 @@
         "imageKey": "teacher-m34-5",
         "alt": "Relay ladder circuit from the Motors 3–4 quiz",
         "page": 5
+      }
+    },
+    {
+      "id": "c202-quiz-input",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "★ Which circuit component controls when current flows?",
+      "options": [
+        "Conductor",
+        "Power supply",
+        "Output device",
+        "Input device"
+      ],
+      "answer": "Input device",
+      "explanation": "Input devices such as switches control when or how current flows. Outputs use the electricity; conductors carry it.",
+      "source": "m",
+      "section": "Module 4 · Control Ladder Logic · C-202 EMC Pretest.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 4,
+          "question": 10
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-54.jpg",
+          "page": 54,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 54,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 4. Also see C202 Electric Motor Controls.pdf, PDF page 54. Input devices such as switches control when or how current flows. Outputs use the electricity; conductors carry it."
+      }
+    },
+    {
+      "id": "c202-quiz-selector-mode",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "★ Which switch is commonly used to change a machine between automatic and manual operating modes?",
+      "options": [
+        "Pushbutton switch",
+        "Selector switch",
+        "Drum switch",
+        "Relay"
+      ],
+      "answer": "Selector switch",
+      "explanation": "A selector switch selects the operating mode, for example Hand–Off–Automatic. Look for its labeled positions.",
+      "source": "m",
+      "section": "Module 4 · Control Ladder Logic · C-202 EMC Pretest.pdf · PDF page 11",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 11,
+          "question": 22
+        },
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 7,
+          "question": 16
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 11,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 11. A selector switch selects the operating mode, for example Hand–Off–Automatic. Look for its labeled positions."
+      }
+    },
+    {
+      "id": "c202-pre-pb-lamps",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "★ What happens to the lamps when PB1 in this diagram is pressed?",
+      "options": [
+        "Lamp 1 ON, Lamp 2 ON",
+        "Lamp 1 ON, Lamp 2 OFF",
+        "Lamp 1 OFF, Lamp 2 ON",
+        "Lamp 1 OFF, Lamp 2 OFF"
+      ],
+      "answer": "Lamp 1 ON, Lamp 2 OFF",
+      "explanation": "The linked pushbutton closes the normally open Lamp 1 contact and opens the normally closed Lamp 2 contact.",
+      "source": "m",
+      "section": "Module 4 · Control Ladder Logic · C-202 EMC Pretest.pdf · PDF page 18",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 18,
+          "question": 31
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 18,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 18. The linked pushbutton closes the normally open Lamp 1 contact and opens the normally closed Lamp 2 contact."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p18-img1",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 18
+      }
+    },
+    {
+      "id": "c202-pre-parallel-lamps",
+      "world": "motor",
+      "topic": "Module 4 · Control Ladder Logic",
+      "type": "quiz",
+      "prompt": "★ What happens when PB1 in this diagram is pressed?",
+      "options": [
+        "Red lamp ON only",
+        "Green lamp ON only",
+        "Both lamps ON",
+        "Both lamps OFF"
+      ],
+      "answer": "Both lamps ON",
+      "explanation": "PB1 supplies the conductor feeding both parallel lamps. Both lamp branches have a return path to N.",
+      "source": "m",
+      "section": "Module 4 · Control Ladder Logic · C-202 EMC Pretest.pdf · PDF page 19",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 19,
+          "question": 32
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 19,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 19. PB1 supplies the conductor feeding both parallel lamps. Both lamp branches have a return path to N."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p19-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 19
       }
     }
   ]

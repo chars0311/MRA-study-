@@ -6,48 +6,60 @@
     {
       "id": "q028",
       "world": "motor",
-      "type": "quiz",
-      "prompt": "How is three-phase motor rotation reversed electrically?",
-      "answer": "Interchange any two supply lines",
-      "options": [
-        "Interchange any two supply lines",
-        "Interchange all three cyclically",
-        "Remove the ground",
-        "Reduce only the voltage"
-      ],
-      "explanation": "Swapping two phases reverses phase sequence and motor rotation.",
-      "source": "m",
-      "section": "Manual Motor Reversing",
       "topic": "Module 6 · Reversing Motor Control",
-      "reviewSlides": [
+      "type": "quiz",
+      "prompt": "★ Which change reverses the rotation of a three-phase motor?",
+      "options": [
+        "Rotate the motor frame 180 degrees",
+        "Interlock the contactors",
+        "Swap T1 and T3",
+        "Reconnect for high voltage"
+      ],
+      "answer": "Swap T1 and T3",
+      "explanation": "Swapping any two phase connections reverses the phase sequence and motor rotation. T1 and T3 are one such pair.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · motor 5-6.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-91.jpg",
-          "page": 91,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "motor 5-6.pdf",
+          "page": 5,
+          "question": 11
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 91,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Reverse the rotation of a three-phase motor by interchanging any two of the three power supply lines ► NEMA and IEC standard is to reverse motor connections T1 and T3 91Manual Motor Reversing"
+        "page": 5,
+        "text": "Review motor 5-6.pdf, PDF page 5. Swapping any two phase connections reverses the phase sequence and motor rotation. T1 and T3 are one such pair."
       }
     },
     {
       "id": "q029",
       "world": "motor",
-      "type": "quiz",
-      "prompt": "What is the purpose of forward/reverse interlocking?",
-      "answer": "Prevent both coils energizing together",
-      "options": [
-        "Prevent both coils energizing together",
-        "Make both coils energize together",
-        "Increase motor speed",
-        "Remove overload protection"
-      ],
-      "explanation": "Interlocking prevents the forward and reverse commands being active at the same time.",
-      "source": "m",
-      "section": "Interlocking",
       "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ Interlocking is used to energize both forward and reverse contactors at the same time. True or false?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False",
+      "explanation": "Interlocking prevents simultaneous forward and reverse operation. Look for the contact or mechanical device that blocks the opposite direction.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · motor 5-6.pdf · PDF page 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 8,
+          "question": 15
+        },
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 9,
+          "question": 19
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/m-99.jpg",
@@ -57,8 +69,7 @@
       ],
       "reviewCue": {
         "page": 99,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Application: prevent both forward and reverse coils from being energized at the same time ► Three methods: ► Auxiliary Contact Interlock - electrical method ► Pushbutton Interlock - electrical method ► Mechanical Interlock - mechanical method 99 A18 A19"
+        "text": "Review motor 5-6.pdf, PDF page 8. Also see C202 Electric Motor Controls.pdf, PDF page 99. Interlocking prevents simultaneous forward and reverse operation. Look for the contact or mechanical device that blocks the opposite direction."
       }
     },
     {
@@ -66,38 +77,35 @@
       "world": "motor",
       "topic": "Module 6 · Reversing Motor Control",
       "type": "quiz",
-      "prompt": "Why is seal-in inhibited during jogging?",
-      "answer": "The motor should run only while the jog command is held",
+      "prompt": "★ Starting from the stopped state, what happens while the JOG pushbutton in this diagram is pressed?",
       "options": [
-        "The motor should run only while the jog command is held",
-        "The motor must reverse every time",
-        "The overload is removed",
-        "Both direction coils must energize"
+        "The motor will not run",
+        "The motor starts and stays running after JOG is released",
+        "The motor runs until JOG is released",
+        "The motor runs only after JOG is released"
       ],
-      "explanation": "Jogging prevents the holding path from sustaining operation after the command is released.",
+      "answer": "The motor runs until JOG is released",
+      "explanation": "JOG directly energizes F while held. It does not energize and seal in 1CR, so releasing JOG opens the motor-control path.",
       "source": "m",
-      "section": "Module 6 · Jog control",
-      "variants": [
+      "section": "Module 6 · Reversing Motor Control · C-202 EMC Pretest.pdf · PDF page 12",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "a",
-          "prompt": "Why is seal-in inhibited during jogging?"
-        },
-        {
-          "variant": "b",
-          "prompt": "How does jog operation differ from continuous run in the holding circuit?"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 12,
+          "question": 24
         }
       ],
-      "reviewSlides": [
-        {
-          "url": "./review-slides/m-106.jpg",
-          "page": 106,
-          "title": "C202 Electric Motor Controls.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 106,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► The stop button is held open in this “jog” mode, preventing the seal-in ► Application: industrial robot being jogged into position 106"
+        "page": 12,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 12. JOG directly energizes F while held. It does not energize and seal in 1CR, so releasing JOG opens the motor-control path."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p12-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 12
       }
     },
     {
@@ -208,39 +216,28 @@
       "id": "c202x-drum",
       "world": "motor",
       "topic": "Module 6 · Reversing Motor Control",
-      "type": "symbol",
-      "prompt": "Which manual control device is pictured?",
-      "answer": "Drum switch",
+      "type": "quiz",
+      "prompt": "★ A drum switch provides an automatic method of changing motor direction. True or false?",
       "options": [
-        "Drum switch",
-        "Magnetic overload",
-        "Float switch",
-        "Control transformer",
-        "None of these"
+        "False",
+        "True"
       ],
-      "explanation": "Movable contacts on a rotating insulated shaft select power paths.",
+      "answer": "False",
+      "explanation": "The drum switch is operated manually to change the motor connections. Look for its forward, off and reverse positions.",
       "source": "m",
-      "sourcePages": [
-        93
-      ],
-      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 93",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-drum",
-        "alt": "Original C-202 diagram for this question",
-        "page": 93
-      },
-      "reviewSlides": [
+      "section": "Module 6 · Reversing Motor Control · motor 5-6.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-93.jpg",
-          "page": 93,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "motor 5-6.pdf",
+          "page": 6,
+          "question": 13
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 93,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Multiple moveable contacts on an insulated rotating shaft ► Operates by changing the path for electrical power to flow through the switch 93"
+        "page": 6,
+        "text": "Review motor 5-6.pdf, PDF page 6. The drum switch is operated manually to change the motor connections. Look for its forward, off and reverse positions."
       }
     },
     {
@@ -312,20 +309,25 @@
       "world": "motor",
       "topic": "Module 6 · Reversing Motor Control",
       "type": "quiz",
-      "prompt": "How does a mechanical interlock block simultaneous contactor operation?",
-      "answer": "A lever blocks the other armature",
+      "prompt": "★ Which interlocking method uses a lever to physically block the other contactor armature?",
       "options": [
-        "A lever blocks the other armature",
-        "A timer delays both supplies",
-        "A fuse swaps phases",
-        "A float opens neutral"
+        "Mechanical",
+        "Pushbutton",
+        "Crosswired",
+        "Auxiliary contact"
       ],
-      "explanation": "It physically prevents the other armature moving.",
+      "answer": "Mechanical",
+      "explanation": "Mechanical interlocking physically prevents the second armature moving when the first is engaged.",
       "source": "m",
-      "sourcePages": [
-        102
+      "section": "Module 6 · Reversing Motor Control · motor 5-6.pdf · PDF page 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 8,
+          "question": 16
+        }
       ],
-      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 102",
       "reviewSlides": [
         {
           "url": "./review-slides/m-102.jpg",
@@ -335,8 +337,7 @@
       ],
       "reviewCue": {
         "page": 102,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Mechanical interlocking uses a lever that physically prevents the armature of one of the coils from moving when the other is energized 102"
+        "text": "Review motor 5-6.pdf, PDF page 8. Also see C202 Electric Motor Controls.pdf, PDF page 102. Mechanical interlocking physically prevents the second armature moving when the first is engaged."
       }
     },
     {
@@ -344,20 +345,23 @@
       "world": "motor",
       "topic": "Module 6 · Reversing Motor Control",
       "type": "quiz",
-      "prompt": "Why combine auxiliary electrical and mechanical interlocking?",
-      "answer": "A powered coil with a blocked armature can draw excessive current",
+      "prompt": "★ Mechanical interlocking should be combined with electrical interlocking so a mechanically blocked coil cannot remain energized. True or false?",
       "options": [
-        "A powered coil with a blocked armature can draw excessive current",
-        "Mechanical interlocks supply voltage",
-        "Electrical interlocks replace overloads",
-        "They reverse all three phases"
+        "True",
+        "False"
       ],
-      "explanation": "The slide warns of damage from energizing a mechanically blocked coil.",
+      "answer": "True",
+      "explanation": "A powered coil with a mechanically blocked armature can draw excessive current and be damaged. Electrical interlocking interrupts that coil’s current path.",
       "source": "m",
-      "sourcePages": [
-        103
+      "section": "Module 6 · Reversing Motor Control · C-202 EMC Pretest.pdf · PDF page 11",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 11,
+          "question": 23
+        }
       ],
-      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 103",
       "reviewSlides": [
         {
           "url": "./review-slides/m-103.jpg",
@@ -367,8 +371,7 @@
       ],
       "reviewCue": {
         "page": 103,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Applying power to the coil with the mechanically blocked armature causes excess current draw as the coil attempts to pull in the armature, potentially damaging or burning out the coil 103 A21 A23"
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 11. Also see C202 Electric Motor Controls.pdf, PDF page 103. A powered coil with a mechanically blocked armature can draw excessive current and be damaged. Electrical interlocking interrupts that coil’s current path."
       }
     },
     {
@@ -527,27 +530,25 @@
       "id": "c202x-hand",
       "world": "motor",
       "topic": "Module 6 · Reversing Motor Control",
-      "type": "symbol",
-      "prompt": "With protection healthy, what does Hand command?",
-      "answer": "Continuous motor operation",
+      "type": "quiz",
+      "prompt": "★ Which selector position runs the motor continuously in this Hand–Off–Automatic circuit?",
       "options": [
-        "Continuous motor operation",
-        "Only automatic-input operation",
-        "A delayed shutdown",
-        "Automatic reversal"
+        "Automatic (right)",
+        "Hand (left)",
+        "Off (center)"
       ],
-      "explanation": "Hand selects the manual continuous-run path.",
+      "answer": "Hand (left)",
+      "explanation": "The left Hand position closes the direct command path to F. The center is Off and the right path uses the other input devices.",
       "source": "m",
-      "sourcePages": [
-        108
+      "section": "Module 6 · Reversing Motor Control · C-202 EMC Pretest.pdf · PDF page 27",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 27,
+          "question": 42
+        }
       ],
-      "section": "Module 6 · Reversing Motor Control · C202 Electric Motor Controls.pdf · PDF page 108",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-hoa",
-        "alt": "Original C-202 diagram for this question",
-        "page": 108
-      },
       "reviewSlides": [
         {
           "url": "./review-slides/m-108.jpg",
@@ -557,8 +558,342 @@
       ],
       "reviewCue": {
         "page": 108,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Another type of mode circuit is the Hand-Off-Automatic motor control circuit ► Uses a three-position selector switch ► Three functions: ► Hand (Manual) Mode ► Motor will run continuously ► Off Mode ► Prevents any of the input devices from energizing the circ…"
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 27. Also see C202 Electric Motor Controls.pdf, PDF page 108. The left Hand position closes the direct command path to F. The center is Off and the right path uses the other input devices."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p27-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 27
+      }
+    },
+    {
+      "id": "c202-quiz-reverse-method",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which is NOT a common method of reversing a three-phase motor in the course?",
+      "options": [
+        "Reversing magnetic motor starter",
+        "Drum switch",
+        "Reversing relay position",
+        "None of the above"
+      ],
+      "answer": "Reversing relay position",
+      "explanation": "The listed reversing devices are a drum switch and a reversing magnetic starter. Reversing the physical position of a relay does not exchange motor phase connections.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · motor 5-6.pdf · PDF page 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 6,
+          "question": 12
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 6,
+        "text": "Review motor 5-6.pdf, PDF page 6. The listed reversing devices are a drum switch and a reversing magnetic starter. Reversing the physical position of a relay does not exchange motor phase connections."
+      }
+    },
+    {
+      "id": "c202-quiz-drum-reverse",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ In this drum-switch diagram, which connections result in the REVERSE position?",
+      "options": [
+        "L1–T2, L2–T1, L3–T3",
+        "L1–T1, L2–T3, L3–T2",
+        "L1–T3, L2–T2, L3–T1",
+        "L1–T1, L2–T2, L3–T3"
+      ],
+      "answer": "L1–T2, L2–T1, L3–T3",
+      "explanation": "Trace reverse bridges 1–3, 2–4 and 5–6. The first two phases exchange motor terminals; L3 still connects to T3.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · motor 5-6.pdf · PDF page 7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 7,
+          "question": 14
+        },
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 8,
+          "question": 18
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review motor 5-6.pdf, PDF page 7. Trace reverse bridges 1–3, 2–4 and 5–6. The first two phases exchange motor terminals; L3 still connects to T3."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-m56-p7-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 7
+      }
+    },
+    {
+      "id": "c202-quiz-pb-interlock",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which interlocking method uses two double-pole, single-throw pushbuttons in the course?",
+      "options": [
+        "Pushbutton",
+        "Mechanical",
+        "Automatic",
+        "Auxiliary-contact"
+      ],
+      "answer": "Pushbutton",
+      "explanation": "Pushbutton interlocking uses the pushbuttons’ normally open and normally closed contacts to block the opposite command. Compare these with contacts labeled for the contactor coils.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · motor 5-6.pdf · PDF page 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 8,
+          "question": 17
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-101.jpg",
+          "page": 101,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 101,
+        "text": "Review motor 5-6.pdf, PDF page 8. Also see C202 Electric Motor Controls.pdf, PDF page 101. Pushbutton interlocking uses the pushbuttons’ normally open and normally closed contacts to block the opposite command. Compare these with contacts labeled for the contactor coils."
+      }
+    },
+    {
+      "id": "c202-quiz-jog-definition",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ What is operating one of a machine’s actuators in manual mode called?",
+      "options": [
+        "Sequence of operation",
+        "Jogging",
+        "Posturing",
+        "Automatic cycling"
+      ],
+      "answer": "Jogging",
+      "explanation": "The course defines jogging as operating an individual actuator in manual mode, such as moving it into position.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · motor 5-6.pdf · PDF page 9",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 9,
+          "question": 18
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-105.jpg",
+          "page": 105,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 105,
+        "text": "Review motor 5-6.pdf, PDF page 9. Also see C202 Electric Motor Controls.pdf, PDF page 105. The course defines jogging as operating an individual actuator in manual mode, such as moving it into position."
+      }
+    },
+    {
+      "id": "c202-pre-interlock-diagram",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which interlocking methods are shown in this circuit?",
+      "options": [
+        "Auxiliary-contact only",
+        "Pushbutton only",
+        "Mechanical only",
+        "Pushbutton and mechanical",
+        "Auxiliary-contact and mechanical"
+      ],
+      "answer": "Auxiliary-contact and mechanical",
+      "explanation": "The normally closed R and F contacts are operated by the opposite contactor coils, so they provide auxiliary-contact interlocking. The dotted linkage between F and R denotes mechanical interlocking. The pretest key says pushbutton and mechanical, but the diagram and course slides 100–103 support auxiliary-contact and mechanical.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · C-202 EMC Pretest.pdf · PDF page 10",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 10,
+          "question": 21
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-103.jpg",
+          "page": 103,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 103,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 10. Also see C202 Electric Motor Controls.pdf, PDF page 103. The normally closed R and F contacts are operated by the opposite contactor coils, so they provide auxiliary-contact interlocking. The dotted linkage between F and R denotes mechanical interlocking. The pretest key says pushbutton and mechanical, but the diagram and course slides 100–103 support auxiliary-contact and mechanical."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p10-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 10
+      }
+    },
+    {
+      "id": "c202-pre-selector-right",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ In the shown circuit, turning SS1 right closes its contact. What happens to the motor?",
+      "options": [
+        "Runs forward",
+        "Runs in reverse",
+        "Stops"
+      ],
+      "answer": "Runs forward",
+      "explanation": "The closed SS1 contact energizes the F coil through the healthy overload contact. F commands forward operation; there is no reverse coil on this rung.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · C-202 EMC Pretest.pdf · PDF page 24",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 24,
+          "question": 38
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 24,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 24. The closed SS1 contact energizes the F coil through the healthy overload contact. F commands forward operation; there is no reverse coil on this rung."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p24-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 24
+      }
+    },
+    {
+      "id": "c202-pre-selector-left",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ In the shown circuit, turning SS1 left closes its contact. What happens to the motor?",
+      "options": [
+        "Nothing",
+        "Runs forward",
+        "Runs in reverse",
+        "Stops"
+      ],
+      "answer": "Runs forward",
+      "explanation": "Closing SS1 energizes the F coil. The letter F determines the forward command, not the physical direction the selector handle is turned.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · C-202 EMC Pretest.pdf · PDF page 24",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 24,
+          "question": 39
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 24,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 24. Closing SS1 energizes the F coil. The letter F determines the forward command, not the physical direction the selector handle is turned."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p24-img1",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 24
+      }
+    },
+    {
+      "id": "c202-pre-forward-jog",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ What happens when PB1 is pressed with the selector in the right (JOG) position? Use this diagram.",
+      "options": [
+        "Runs forward momentarily",
+        "Runs forward continuously",
+        "Runs in reverse momentarily",
+        "Runs in reverse continuously"
+      ],
+      "answer": "Runs forward momentarily",
+      "explanation": "Right/JOG energizes 1CR, opening the NC holding contacts. PB1 runs F only while the button is held.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · C-202 EMC Pretest.pdf · PDF page 25",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 25,
+          "question": 40
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 25,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 25. Right/JOG energizes 1CR, opening the NC holding contacts. PB1 runs F only while the button is held."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p25-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 25
+      }
+    },
+    {
+      "id": "c202-pre-reverse-run",
+      "world": "motor",
+      "topic": "Module 6 · Reversing Motor Control",
+      "type": "quiz",
+      "prompt": "★ What happens when PB2 is pressed with the selector in the left (RUN) position? Use this diagram.",
+      "options": [
+        "Runs forward momentarily",
+        "Runs forward continuously",
+        "Runs in reverse momentarily",
+        "Runs in reverse continuously"
+      ],
+      "answer": "Runs in reverse continuously",
+      "explanation": "Left/RUN leaves the NC 1CR holding contacts closed. PB2 energizes R and its auxiliary contact holds the reverse command after release.",
+      "source": "m",
+      "section": "Module 6 · Reversing Motor Control · C-202 EMC Pretest.pdf · PDF page 26",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 26,
+          "question": 41
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 26,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 26. Left/RUN leaves the NC 1CR holding contacts closed. PB2 energizes R and its auxiliary contact holds the reverse command after release."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p26-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 26
       }
     }
   ]

@@ -106,39 +106,34 @@
       "id": "mc-sequence",
       "world": "motor",
       "topic": "Module 7 · Automatic Input Devices",
-      "type": "scenario",
-      "prompt": "Motor 2 must not start unless Motor 1 is running. What control concept is this?",
-      "answer": "Sequence control",
+      "type": "quiz",
+      "prompt": "★ According to this circuit, motor 2 must be started before motor 1. True or false?",
       "options": [
-        "Sequence control",
-        "Random control",
-        "Transformer isolation",
-        "Overload calibration"
+        "True",
+        "False"
       ],
-      "explanation": "Sequence control makes one operation depend on the state of an earlier operation.",
+      "answer": "False",
+      "explanation": "Motor 1 starts first. The supply path for Motor 2 passes through the Motor 1 start/holding path. Trace the branch feeding Stop 2.",
       "source": "m",
-      "section": "Module 7 · Sequence control",
-      "variants": [
+      "section": "Module 7 · Automatic Input Devices · C-202 EMC Pretest.pdf · PDF page 14",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "a",
-          "prompt": "Motor 2 must not start unless Motor 1 is running. What control concept is this?"
-        },
-        {
-          "variant": "b",
-          "prompt": "A second motor is enabled only after the first runs. Which concept is demonstrated?"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 14,
+          "question": 26
         }
       ],
-      "reviewSlides": [
-        {
-          "url": "./review-slides/m-118.jpg",
-          "page": 118,
-          "title": "C202 Electric Motor Controls.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 118,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Sequence Control ► Sequence control involves connecting motor starters so that the operation of one motor depends on the operating state of another motor ► In this example, motor 2 cannot start unless motor 1 is running 118 A38"
+        "page": 14,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 14. Motor 1 starts first. The supply path for Motor 2 passes through the Motor 1 start/holding path. Trace the branch feeding Stop 2."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p14-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 14
       }
     },
     {
@@ -572,156 +567,144 @@
       "id": "c202x-limit-no",
       "world": "motor",
       "topic": "Module 7 · Automatic Input Devices",
-      "type": "symbol",
-      "prompt": "Which limit-switch state is shown?",
-      "answer": "Normally open, unoperated",
+      "type": "quiz",
+      "prompt": "★ Which limit-switch symbol in this image is normally open and unoperated?",
       "options": [
-        "Normally open, unoperated",
-        "Normally closed, unoperated",
-        "Normally open, held closed",
-        "Normally closed, held open",
-        "None of these"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "explanation": "The contact geometry shows normally open, unoperated.",
+      "answer": "A",
+      "explanation": "Symbol A is normally open and unoperated. Compare the contact gap and actuator position; normal state means no external actuation.",
       "source": "m",
-      "sourcePages": [
-        113
-      ],
-      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-limit-no",
-        "alt": "Original C-202 diagram for this question",
-        "page": 113
-      },
-      "reviewSlides": [
+      "section": "Module 7 · Automatic Input Devices · C-202 EMC Pretest.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-113.jpg",
-          "page": 113,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 5,
+          "question": 11
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 113,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+        "page": 5,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 5. Symbol A is normally open and unoperated. Compare the contact gap and actuator position; normal state means no external actuation."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p5-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 5
       }
     },
     {
       "id": "c202x-limit-nc",
       "world": "motor",
       "topic": "Module 7 · Automatic Input Devices",
-      "type": "symbol",
-      "prompt": "Which limit-switch state is shown?",
-      "answer": "Normally closed, unoperated",
+      "type": "quiz",
+      "prompt": "★ Which limit-switch symbol in this image is normally closed and unoperated?",
       "options": [
-        "Normally closed, unoperated",
-        "Normally open, unoperated",
-        "Normally open, held closed",
-        "Normally closed, held open",
-        "None of these"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "explanation": "The contact geometry shows normally closed, unoperated.",
+      "answer": "C",
+      "explanation": "Symbol C is normally closed and unoperated. Compare the contact gap and actuator position; normal state means no external actuation.",
       "source": "m",
-      "sourcePages": [
-        113
-      ],
-      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-limit-nc",
-        "alt": "Original C-202 diagram for this question",
-        "page": 113
-      },
-      "reviewSlides": [
+      "section": "Module 7 · Automatic Input Devices · C-202 EMC Pretest.pdf · PDF page 13",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-113.jpg",
-          "page": 113,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 13,
+          "question": 25
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 113,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+        "page": 13,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 13. Symbol C is normally closed and unoperated. Compare the contact gap and actuator position; normal state means no external actuation."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p5-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 13
       }
     },
     {
       "id": "c202x-limit-nohc",
       "world": "motor",
       "topic": "Module 7 · Automatic Input Devices",
-      "type": "symbol",
-      "prompt": "Which limit-switch state is shown?",
-      "answer": "Normally open, held closed",
+      "type": "quiz",
+      "prompt": "★ Which limit-switch symbol in this image is normally open and operated (held closed)?",
       "options": [
-        "Normally open, held closed",
-        "Normally open, unoperated",
-        "Normally closed, unoperated",
-        "Normally closed, held open",
-        "None of these"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "explanation": "The contact geometry shows normally open, held closed.",
+      "answer": "B",
+      "explanation": "Symbol B is normally open and operated (held closed). Compare the contact gap and actuator position; normal state means no external actuation.",
       "source": "m",
-      "sourcePages": [
-        113
-      ],
-      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-limit-nohc",
-        "alt": "Original C-202 diagram for this question",
-        "page": 113
-      },
-      "reviewSlides": [
+      "section": "Module 7 · Automatic Input Devices · C-202 EMC Pretest.pdf · PDF page 9",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-113.jpg",
-          "page": 113,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 9,
+          "question": 20
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 113,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+        "page": 9,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 9. Symbol B is normally open and operated (held closed). Compare the contact gap and actuator position; normal state means no external actuation."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p5-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 9
       }
     },
     {
       "id": "c202x-limit-ncho",
       "world": "motor",
       "topic": "Module 7 · Automatic Input Devices",
-      "type": "symbol",
-      "prompt": "Which limit-switch state is shown?",
-      "answer": "Normally closed, held open",
+      "type": "quiz",
+      "prompt": "★ Which limit-switch symbol in this image is normally closed and operated (held open)?",
       "options": [
-        "Normally closed, held open",
-        "Normally open, unoperated",
-        "Normally closed, unoperated",
-        "Normally open, held closed",
-        "None of these"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "explanation": "The contact geometry shows normally closed, held open.",
+      "answer": "D",
+      "explanation": "Symbol D is normally closed and operated (held open). Compare the contact gap and actuator position; normal state means no external actuation.",
       "source": "m",
-      "sourcePages": [
-        113
-      ],
-      "section": "Module 7 · Automatic Input Devices · C202 Electric Motor Controls.pdf · PDF page 113",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-limit-ncho",
-        "alt": "Original C-202 diagram for this question",
-        "page": 113
-      },
-      "reviewSlides": [
+      "section": "Module 7 · Automatic Input Devices · C-202 EMC Pretest.pdf · PDF page 23",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-113.jpg",
-          "page": 113,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 23,
+          "question": 37
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 113,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
+        "page": 23,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 23. Symbol D is normally closed and operated (held open). Compare the contact gap and actuator position; normal state means no external actuation."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p5-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 23
       }
     },
     {
@@ -800,6 +783,73 @@
         "page": 114,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Upward or downward movement of the float device controls switch contacts 114"
+      }
+    },
+    {
+      "id": "c202-pre-sequence-apps",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "★ Which is an application of motor sequence control?",
+      "options": [
+        "High-pressure lubricator on a milling machine",
+        "Conveyor system",
+        "Cooling fan on a machine",
+        "All of the above",
+        "None of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "All three can require coordinated operation in a defined sequence, such as lubrication before the main motor or a fan before the process.",
+      "source": "m",
+      "section": "Module 7 · Automatic Input Devices · C-202 EMC Pretest.pdf · PDF page 15",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 15,
+          "question": 27
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 15,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 15. All three can require coordinated operation in a defined sequence, such as lubrication before the main motor or a fan before the process."
+      }
+    },
+    {
+      "id": "c202-pre-pressure-main",
+      "world": "motor",
+      "topic": "Module 7 · Automatic Input Devices",
+      "type": "quiz",
+      "prompt": "★ Once the oil-pump circuit is enabled, which device directly controls whether the Main Motor is on or off in this diagram?",
+      "options": [
+        "PB1",
+        "CR1",
+        "CR1-B",
+        "PS-1"
+      ],
+      "answer": "PS-1",
+      "explanation": "PS-1 is the pressure switch in series with the Main Motor coil F. It must close after the oil pump establishes pressure.",
+      "source": "m",
+      "section": "Module 7 · Automatic Input Devices · C-202 EMC Pretest.pdf · PDF page 28",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 28,
+          "question": 43
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 28,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 28. PS-1 is the pressure switch in series with the Main Motor coil F. It must close after the oil pump establishes pressure."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p28-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 28
       }
     }
   ]

@@ -3807,65 +3807,23 @@
       "world": "motor",
       "topic": "Module 3 · Control Transformers",
       "type": "formula",
-      "prompt": "An ideal 4:1 transformer receives 480 V. Find secondary voltage.",
-      "answer": "120 V",
+      "prompt": "★ What is the secondary voltage of the transformer shown?",
       "options": [
-        "120 V",
-        "240 V",
-        "60 V",
-        "220 V"
+        "240 VAC",
+        "120 VAC",
+        "60 VAC",
+        "30 VAC"
       ],
-      "explanation": "480 / 4 = 120 V.",
+      "answer": "60 VAC",
+      "explanation": "Vp = 120 V, Np = 100 and Ns = 50. Vs = 120 × 50/100 = 60 V. Read the turns on each side before calculating.",
       "source": "m",
-      "sourcePages": [
-        37
-      ],
-      "section": "Module 3 · Control Transformers · C202 Electric Motor Controls.pdf · PDF page 37",
-      "numeric": 120,
-      "tolerance": 0.6,
-      "unit": "V",
-      "variants": [
+      "section": "Module 3 · Control Transformers · C-202 EMC Pretest.pdf · PDF page 18",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "variant": "voltage-0",
-          "prompt": "An ideal 4:1 transformer receives 480 V. Find secondary voltage.",
-          "numeric": 120,
-          "tolerance": 0.6,
-          "answer": "120 V",
-          "options": [
-            "120 V",
-            "240 V",
-            "60 V",
-            "220 V"
-          ],
-          "explanation": "480 / 4 = 120 V."
-        },
-        {
-          "variant": "voltage-1",
-          "prompt": "An ideal 5:1 transformer receives 120 V. Find secondary voltage.",
-          "numeric": 24,
-          "tolerance": 0.12,
-          "answer": "24 V",
-          "options": [
-            "24 V",
-            "48 V",
-            "12 V",
-            "124 V"
-          ],
-          "explanation": "120 / 5 = 24 V."
-        },
-        {
-          "variant": "voltage-2",
-          "prompt": "An ideal 10:1 transformer receives 240 V. Find secondary voltage.",
-          "numeric": 24,
-          "tolerance": 0.12,
-          "answer": "24 V",
-          "options": [
-            "24 V",
-            "48 V",
-            "12 V",
-            "124 V"
-          ],
-          "explanation": "240 / 10 = 24 V."
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 18,
+          "question": 30
         }
       ],
       "reviewSlides": [
@@ -3877,8 +3835,13 @@
       ],
       "reviewCue": {
         "page": 37,
-        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
-        "excerpt": "► The secondary output voltage of a transformer is calculated by dividing the primary voltage by the turns ratio 37"
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 18. Also see C202 Electric Motor Controls.pdf, PDF page 37. Vp = 120 V, Np = 100 and Ns = 50. Vs = 120 × 50/100 = 60 V. Read the turns on each side before calculating."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p18-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 18
       }
     },
     {

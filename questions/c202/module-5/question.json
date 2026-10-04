@@ -6,19 +6,25 @@
     {
       "id": "q024",
       "world": "motor",
-      "type": "quiz",
-      "prompt": "What protection does a magnetic motor starter include that a plain contactor does not?",
-      "answer": "Overload protection",
-      "options": [
-        "Overload protection",
-        "No coil",
-        "Only manual operation",
-        "No power contacts"
-      ],
-      "explanation": "The magnetic starter switches motor power and includes overload protection.",
-      "source": "m",
-      "section": "Magnetic Motor Starters",
       "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "★ A motor starter includes overload protection, such as an overload relay, unlike a plain control relay. True or false?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "The motor starter combines switching with overload protection for the motor. Look for the overload device associated with the starter.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 3,
+          "question": 5
+        }
+      ],
       "reviewSlides": [
         {
           "url": "./review-slides/m-83.jpg",
@@ -28,8 +34,7 @@
       ],
       "reviewCue": {
         "page": 83,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Includes overload protection ► Also provides memory logic through a set of auxiliary contacts ► It consists of one or more sets of normally-open contacts controlled by a coil Overloads Magnetic Starter 83"
+        "text": "Review motor 5-6.pdf, PDF page 3. Also see C202 Electric Motor Controls.pdf, PDF page 83. The motor starter combines switching with overload protection for the motor. Look for the overload device associated with the starter."
       }
     },
     {
@@ -64,59 +69,59 @@
     {
       "id": "q026",
       "world": "motor",
-      "type": "scenario",
-      "prompt": "A three-wire starter loses supply power. When power returns, what should happen?",
-      "answer": "It waits for Start to be pressed again",
-      "options": [
-        "It waits for Start to be pressed again",
-        "It immediately restarts",
-        "It reverses automatically",
-        "Its overload resets the supply"
-      ],
-      "explanation": "Power loss drops out the coil and seal-in contact. Three-wire control provides low-voltage protection.",
-      "source": "m",
-      "section": "Three-Wire Control",
       "topic": "Module 5 · Control Relays and Motor Starters",
-      "reviewSlides": [
+      "type": "quiz",
+      "prompt": "★ What is the primary benefit of three-wire motor control over ordinary two-wire control after a power failure?",
+      "options": [
+        "Balances the load across phases",
+        "Allows starting only from multiple locations",
+        "Requires a three-position maintained switch",
+        "Prevents automatic restart when power returns"
+      ],
+      "answer": "Prevents automatic restart when power returns",
+      "explanation": "Loss of power drops the coil and opens the seal-in contact. A fresh Start command is needed after power returns.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-87.jpg",
-          "page": 87,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "motor 5-6.pdf",
+          "page": 4,
+          "question": 9
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 87,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► A three-wire control circuit uses three wires to connect the input device to the coil of the magnetic starter, the 3 phases will be 360 / 3 or 12 0 degrees apart ► The third wire provides the seal-in or memory function ► Provides low-voltage protection ► If …"
+        "page": 4,
+        "text": "Review motor 5-6.pdf, PDF page 4. Loss of power drops the coil and opens the seal-in contact. A fresh Start command is needed after power returns."
       }
     },
     {
       "id": "q027",
       "world": "motor",
-      "type": "scenario",
-      "prompt": "A maintained two-wire control stays closed during a supply outage. What happens when power returns?",
-      "answer": "The motor immediately restarts",
-      "options": [
-        "The motor immediately restarts",
-        "Start must always be pressed",
-        "The motor changes direction",
-        "The contact becomes normally open"
-      ],
-      "explanation": "The guide notes that two-wire control does not provide low-voltage protection.",
-      "source": "m",
-      "section": "Two-Wire Control",
       "topic": "Module 5 · Control Relays and Motor Starters",
-      "reviewSlides": [
+      "type": "quiz",
+      "prompt": "★ A maintained two-wire motor control can automatically restart after a power failure when its input remains closed. True or false?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True",
+      "explanation": "When supply returns, the maintained closed input again completes the coil circuit. The control has not required a new momentary Start command.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-86.jpg",
-          "page": 86,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "motor 5-6.pdf",
+          "page": 4,
+          "question": 8
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 86,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Does not provide low-voltage protection ► If there is power loss, pilot device contacts will remain closed ► When power returns, the motor will immediately restart 86"
+        "page": 4,
+        "text": "Review motor 5-6.pdf, PDF page 4. When supply returns, the maintained closed input again completes the coil circuit. The control has not required a new momentary Start command."
       }
     },
     {
@@ -249,30 +254,35 @@
       "id": "wb-16",
       "world": "motor",
       "topic": "Module 5 · Control Relays and Motor Starters",
-      "type": "wordbank",
-      "cloze": "A ___ path keeps a starter coil energized after Start is released.",
-      "prompt": "A ___ path keeps a starter coil energized after Start is released.",
-      "answer": "Seal-in",
+      "type": "quiz",
+      "prompt": "★ What circuit keeps a relay energized after a momentary start input is removed?",
       "options": [
-        "Seal-in",
-        "Grounding",
-        "Tagout",
-        "Motor starter"
+        "Seal-in circuit / memory",
+        "Repeating circuit",
+        "Lock-out circuit",
+        "Remote start"
       ],
-      "explanation": "A Seal-in path keeps a starter coil energized after Start is released.",
+      "answer": "Seal-in circuit / memory",
+      "explanation": "A normally open auxiliary contact closes around the momentary Start contact and maintains the coil current. Look for the holding branch.",
       "source": "m",
-      "section": "Memory logic, slides 78–82",
-      "reviewSlides": [
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 4",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-82.jpg",
-          "page": 82,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "motor 5-6.pdf",
+          "page": 4,
+          "question": 7
+        },
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 7,
+          "question": 17
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 82,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "3. When pushbutton PB1 is released, the relay coil stays energized through contacts 1CR- A 4. When stop pushbutton PB3 is pressed, its normally-closed contacts open, stopping the flow of electricity to the relay coil 5. Normally-open contacts 1CR-A will return…"
+        "page": 4,
+        "text": "Review motor 5-6.pdf, PDF page 4. A normally open auxiliary contact closes around the momentary Start contact and maintains the coil current. Look for the holding branch."
       }
     },
     {
@@ -444,31 +454,29 @@
       "world": "motor",
       "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "quiz",
-      "prompt": "Which relay category suits heavy-duty industrial use?",
-      "answer": "Machine-control relay",
+      "prompt": "★ Which type of control relay is used for heavy-duty applications?",
       "options": [
+        "General-purpose relay",
         "Machine-control relay",
-        "General-purpose light-duty relay",
-        "Float switch",
-        "Manual fractional-horsepower switch"
+        "Rheostat",
+        "Potentiometer"
       ],
-      "explanation": "The course also calls it a heavy-duty industrial control relay.",
+      "answer": "Machine-control relay",
+      "explanation": "Machine-control relays are the heavy-duty industrial category. A rheostat and potentiometer are variable resistors.",
       "source": "m",
-      "sourcePages": [
-        79
-      ],
-      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 79",
-      "reviewSlides": [
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-79.jpg",
-          "page": 79,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "motor 5-6.pdf",
+          "page": 2,
+          "question": 4
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 79,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Also called a heavy-duty or industrial control relay General Purpose Machine Control 79"
+        "page": 2,
+        "text": "Review motor 5-6.pdf, PDF page 2. Machine-control relays are the heavy-duty industrial category. A rheostat and potentiometer are variable resistors."
       }
     },
     {
@@ -476,20 +484,25 @@
       "world": "motor",
       "topic": "Module 5 · Control Relays and Motor Starters",
       "type": "quiz",
-      "prompt": "A coil and its contacts appear on separate rungs. What drawing method is this?",
-      "answer": "Detached symbology",
+      "prompt": "★ What method represents one component with several symbols in different locations on a ladder diagram?",
       "options": [
+        "Pictorial symbology",
         "Detached symbology",
-        "Pictorial-only drawing",
-        "Series power wiring",
-        "Mechanical interlocking"
+        "Random symbology",
+        "None of the above"
       ],
-      "explanation": "Several symbols in different locations represent one component.",
+      "answer": "Detached symbology",
+      "explanation": "Detached symbology separates the coil and contacts on the drawing while their shared label identifies the same relay.",
       "source": "m",
-      "sourcePages": [
-        80
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 2,
+          "question": 3
+        }
       ],
-      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 80",
       "reviewSlides": [
         {
           "url": "./review-slides/m-80.jpg",
@@ -499,8 +512,7 @@
       ],
       "reviewCue": {
         "page": 80,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Detached symbology is a method of representing one component with several symbols in various locations on a ladder diagram ► Contacts are considered input devices ► Coil, which is “energized,” is considered an output device 80"
+        "text": "Review motor 5-6.pdf, PDF page 2. Also see C202 Electric Motor Controls.pdf, PDF page 80. Detached symbology separates the coil and contacts on the drawing while their shared label identifies the same relay."
       }
     },
     {
@@ -603,39 +615,276 @@
       "id": "c202x-pilot",
       "world": "motor",
       "topic": "Module 5 · Control Relays and Motor Starters",
-      "type": "symbol",
-      "prompt": "Which indicator device is shown?",
-      "answer": "Push-to-test pilot light",
+      "type": "quiz",
+      "prompt": "★ Which device has a third terminal connected directly to power so pressing it can light the lamp for a test?",
       "options": [
-        "Push-to-test pilot light",
-        "Standard two-terminal lamp",
-        "Off-delay timer",
-        "Pressure switch",
-        "None of these"
+        "NAND circuit",
+        "Push-to-test indicator light",
+        "Control relay",
+        "Thermal overload"
       ],
-      "explanation": "The extra connection allows the bulb to be tested by pressing the lens.",
+      "answer": "Push-to-test indicator light",
+      "explanation": "Pressing a push-to-test indicator temporarily supplies its lamp through the test connection. Look for the third terminal and test action.",
       "source": "m",
-      "sourcePages": [
-        88
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 5,
+          "question": 10
+        }
       ],
-      "section": "Module 5 · Control Relays and Motor Starters · C202 Electric Motor Controls.pdf · PDF page 88",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c202-push-test",
-        "alt": "Original C-202 diagram for this question",
-        "page": 88
-      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review motor 5-6.pdf, PDF page 5. Pressing a push-to-test indicator temporarily supplies its lamp through the test connection. Look for the third terminal and test action."
+      }
+    },
+    {
+      "id": "c202-quiz-relay-control",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "★ Which device is typically used to control one circuit with contacts in another circuit?",
+      "options": [
+        "Motor",
+        "Limit switch",
+        "Control relay",
+        "Pushbutton switch"
+      ],
+      "answer": "Control relay",
+      "explanation": "The relay coil operates contacts that can switch another circuit. Look for the coil and its associated contacts.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 1,
+          "question": 1
+        }
+      ],
       "reviewSlides": [
         {
-          "url": "./review-slides/m-88.jpg",
-          "page": 88,
+          "url": "./review-slides/m-77.jpg",
+          "page": 77,
           "title": "C202 Electric Motor Controls.pdf"
         }
       ],
       "reviewCue": {
-        "page": 88,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► A push-to-test pilot light comes on when its lens is pressed ► Allows operator to test the indicator bulb ► Third terminal connected directly to power 88"
+        "page": 77,
+        "text": "Review motor 5-6.pdf, PDF page 1. Also see C202 Electric Motor Controls.pdf, PDF page 77. The relay coil operates contacts that can switch another circuit. Look for the coil and its associated contacts."
+      }
+    },
+    {
+      "id": "c202-quiz-coil-output",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "★ The coil of a relay is classified as what type of device?",
+      "options": [
+        "Input device",
+        "Output device",
+        "Both input and output",
+        "None of the above"
+      ],
+      "answer": "Output device",
+      "explanation": "The coil uses electrical energy to operate the relay, so it is an output. The relay contacts act as inputs in the circuits they control.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 2,
+          "question": 2
+        }
+      ],
+      "reviewSlides": [
+        {
+          "url": "./review-slides/m-80.jpg",
+          "page": 80,
+          "title": "C202 Electric Motor Controls.pdf"
+        }
+      ],
+      "reviewCue": {
+        "page": 80,
+        "text": "Review motor 5-6.pdf, PDF page 2. Also see C202 Electric Motor Controls.pdf, PDF page 80. The coil uses electrical energy to operate the relay, so it is an output. The relay contacts act as inputs in the circuits they control."
+      }
+    },
+    {
+      "id": "c202-quiz-three-overloads",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "★ How many overload sensing elements are needed for the three-phase induction motor in this course?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3",
+      "explanation": "The course calls for three overload elements, one for each phase. Count the three current paths to the motor.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · motor 5-6.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "motor 5-6.pdf",
+          "page": 3,
+          "question": 6
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review motor 5-6.pdf, PDF page 3. The course calls for three overload elements, one for each phase. Count the three current paths to the motor."
+      }
+    },
+    {
+      "id": "c202-pre-relay-initial",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "★ Initially, with PB1 released and 1CR de-energized, what are the lamp states? Use the diagram shown.",
+      "options": [
+        "Red ON, Green ON",
+        "Red ON, Green OFF",
+        "Red OFF, Green ON",
+        "Red OFF, Green OFF"
+      ],
+      "answer": "Red OFF, Green ON",
+      "explanation": "The NO 1CR-A contact keeps red off; the NC 1CR-B contact supplies green.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · C-202 EMC Pretest.pdf · PDF page 19",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 19,
+          "question": 33
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 19,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 19. The NO 1CR-A contact keeps red off; the NC 1CR-B contact supplies green."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p19-img1",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 19
+      }
+    },
+    {
+      "id": "c202-pre-relay-held",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "★ What are the lamp states while PB1 is pressed and held? Use the diagram shown.",
+      "options": [
+        "Red ON, Green ON",
+        "Red ON, Green OFF",
+        "Red OFF, Green ON",
+        "Red OFF, Green OFF"
+      ],
+      "answer": "Red ON, Green OFF",
+      "explanation": "PB1 energizes 1CR. Its NO contact closes for red and its NC contact opens to turn green off.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · C-202 EMC Pretest.pdf · PDF page 20",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 20,
+          "question": 34
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 20,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 20. PB1 energizes 1CR. Its NO contact closes for red and its NC contact opens to turn green off."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p20-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 20
+      }
+    },
+    {
+      "id": "c202-pre-seal-initial",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "★ In the initial stopped state, what are the lamp states? Use the diagram shown.",
+      "options": [
+        "Red ON, Green ON",
+        "Red ON, Green OFF",
+        "Red OFF, Green ON",
+        "Red OFF, Green OFF"
+      ],
+      "answer": "Red OFF, Green ON",
+      "explanation": "With 1CR off, red has no supply through Start/holding contacts. The NC 1CR-B contact supplies green.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · C-202 EMC Pretest.pdf · PDF page 21",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 21,
+          "question": 35
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 21,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 21. With 1CR off, red has no supply through Start/holding contacts. The NC 1CR-B contact supplies green."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p21-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 21
+      }
+    },
+    {
+      "id": "c202-pre-seal-running",
+      "world": "motor",
+      "topic": "Module 5 · Control Relays and Motor Starters",
+      "type": "quiz",
+      "prompt": "★ What are the lamp states after PB1 is pressed momentarily and released? Use the diagram shown.",
+      "options": [
+        "Red ON, Green ON",
+        "Red ON, Green OFF",
+        "Red OFF, Green ON",
+        "Red OFF, Green OFF"
+      ],
+      "answer": "Red ON, Green OFF",
+      "explanation": "1CR-A seals around Start, keeping 1CR and red on. Energized 1CR opens NC 1CR-B, turning green off.",
+      "source": "m",
+      "section": "Module 5 · Control Relays and Motor Starters · C-202 EMC Pretest.pdf · PDF page 22",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 22,
+          "question": 36
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 22,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 22. 1CR-A seals around Start, keeping 1CR and red on. Energized 1CR opens NC 1CR-B, turning green off."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p22-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 22
       }
     }
   ]

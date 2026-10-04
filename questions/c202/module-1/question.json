@@ -148,31 +148,29 @@
       "world": "motor",
       "topic": "Module 1 · Introduction to Electric Motor Control",
       "type": "quiz",
-      "prompt": "Which parts are included in equipment grounding?",
-      "answer": "Metal enclosures, conduit and transformer cases",
+      "prompt": "★ Which parts of an electrical system should be connected to equipment ground?",
       "options": [
-        "Metal enclosures, conduit and transformer cases",
-        "Only motor windings",
-        "Only normal load-current conductors",
-        "Only plastic covers"
+        "Metal conduit",
+        "Metal enclosures",
+        "Both metal conduit and metal enclosures",
+        "Neither of these"
       ],
-      "explanation": "These are metal parts that do not normally carry current.",
+      "answer": "Both metal conduit and metal enclosures",
+      "explanation": "The course includes metal conduit and metal enclosures in equipment grounding. Look for the exposed metal parts that could become energized by a fault.",
       "source": "m",
-      "sourcePages": [
-        4
-      ],
-      "section": "Module 1 · Introduction to Electric Motor Control · C202 Electric Motor Controls.pdf · PDF page 4",
-      "reviewSlides": [
+      "section": "Module 1 · Introduction to Electric Motor Control · C-202 EMC Pretest.pdf · PDF page 1",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-4.jpg",
-          "page": 4,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 1,
+          "question": 1
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "page": 4,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Equipment Grounding involves connecting all metal parts of an electrical system that do not normally carry current to earth ground ● These parts include: ○ Metal Conduit ○ Raceways ○ Metal Enclosures ○ Transformer Cases ● This is accomplished by connecting the…"
+        "page": 1,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 1. The course includes metal conduit and metal enclosures in equipment grounding. Look for the exposed metal parts that could become energized by a fault."
       }
     },
     {
@@ -609,29 +607,29 @@
       "world": "motor",
       "topic": "Module 1 · Introduction to Electric Motor Control",
       "type": "quiz",
-      "prompt": "Why does the slide advise against working alone?",
-      "answer": "Another person can shut off power or call for medical attention",
+      "prompt": "★ Which is NOT a basic electrical-safety rule in the course?",
       "options": [
-        "Another person can shut off power or call for medical attention",
-        "A second person replaces the need to shut off power",
-        "Two people can share a single personal lock",
-        "A second person prevents every electrical fault"
+        "Remove metal jewelry",
+        "Keep tools and test equipment organized",
+        "Always work by yourself",
+        "Work with one hand when possible"
       ],
-      "explanation": "The slide identifies assistance with shutting off power or calling for medical attention as the reason. It does not say a second person replaces electrical precautions.",
+      "answer": "Always work by yourself",
+      "explanation": "The course advises against working alone so someone can shut off power or call for help. The other choices are listed safety rules, not substitutes for isolation.",
       "source": "m",
-      "section": "Module 1 · C202 Electric Motor Controls.pdf · PDF page 9",
-      "sourcePages": [
-        9
-      ],
-      "reviewSlides": [
+      "section": "Module 1 · Introduction to Electric Motor Control · C-202 EMC Pretest.pdf · PDF page 1",
+      "starred": true,
+      "teacherQuizSources": [
         {
-          "url": "./review-slides/m-9.jpg",
-          "page": 9,
-          "title": "C202 Electric Motor Controls.pdf"
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 1,
+          "question": 2
         }
       ],
+      "reviewSlides": [],
       "reviewCue": {
-        "text": "Find “Do Not Work Alone” and the two forms of assistance described."
+        "page": 1,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 1. The course advises against working alone so someone can shut off power or call for help. The other choices are listed safety rules, not substitutes for isolation."
       }
     },
     {
@@ -1139,6 +1137,198 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 3. Synchronous speed describes the rotating magnetic field. It is not a statement that an induction motor rotor always turns at that exact speed."
+      }
+    },
+    {
+      "id": "c202-quiz-loto-remove",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ Under the normal lockout/tagout procedure taught in the course, who removes a personal lockout/tagout?",
+      "options": [
+        "The person who installed it",
+        "Anyone who needs the equipment",
+        "Only the machine manufacturer",
+        "Any supervisor"
+      ],
+      "answer": "The person who installed it",
+      "explanation": "The normal course rule is that the person who applied the personal lock removes it. Follow the instructor’s procedure; this question does not authorize removing another person’s lock.",
+      "source": "m",
+      "section": "Module 1 · Introduction to Electric Motor Control · C-202 EMC Pretest.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 2,
+          "question": 3
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 2. The normal course rule is that the person who applied the personal lock removes it. Follow the instructor’s procedure; this question does not authorize removing another person’s lock."
+      }
+    },
+    {
+      "id": "c202-quiz-phase-angle",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ The phases of three-phase power are separated by how many electrical degrees?",
+      "options": [
+        "60°",
+        "120°",
+        "90°",
+        "100°"
+      ],
+      "answer": "120°",
+      "explanation": "Three equally spaced phases divide a 360° cycle into three: 360 ÷ 3 = 120°.",
+      "source": "m",
+      "section": "Module 1 · Introduction to Electric Motor Control · C-202 EMC Pretest.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 2,
+          "question": 4
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 2. Three equally spaced phases divide a 360° cycle into three: 360 ÷ 3 = 120°."
+      }
+    },
+    {
+      "id": "c202-quiz-service-factor",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which motor-nameplate item indicates how much output above rated output is permitted under the specified conditions?",
+      "options": [
+        "Frame",
+        "Ambient temperature",
+        "Service factor",
+        "Insulation class"
+      ],
+      "answer": "Service factor",
+      "explanation": "Service factor is the multiplier associated with allowable loading above rated output under the specified conditions. It is not the frame size or insulation class.",
+      "source": "m",
+      "section": "Module 1 · Introduction to Electric Motor Control · C-202 EMC Pretest.pdf · PDF page 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 2,
+          "question": 5
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 2. Service factor is the multiplier associated with allowable loading above rated output under the specified conditions. It is not the frame size or insulation class."
+      }
+    },
+    {
+      "id": "c202-quiz-high-voltage",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which is NOT a result listed for connecting a dual-voltage motor to the higher rated voltage?",
+      "options": [
+        "Increased current draw",
+        "Reduced line losses",
+        "Better efficiency",
+        "Reduced operating costs"
+      ],
+      "answer": "Increased current draw",
+      "explanation": "For comparable motor power, the higher rated supply voltage reduces line current; it does not increase it. Look for the high-voltage versus low-voltage current relationship.",
+      "source": "m",
+      "section": "Module 1 · Introduction to Electric Motor Control · C-202 EMC Pretest.pdf · PDF page 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 3,
+          "question": 6
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 3. For comparable motor power, the higher rated supply voltage reduces line current; it does not increase it. Look for the high-voltage versus low-voltage current relationship."
+      }
+    },
+    {
+      "id": "c202-pre-wye-low",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which motor connection is shown in these wiring and schematic diagrams?",
+      "options": [
+        "Dual-voltage wye, low voltage",
+        "Dual-voltage wye, high voltage",
+        "Dual-voltage delta, low voltage",
+        "Dual-voltage delta, high voltage"
+      ],
+      "answer": "Dual-voltage wye, low voltage",
+      "explanation": "Look for the wye winding arrangement and terminal groups. T4, T5 and T6 are tied together, and line pairs are T1/T7, T2/T8 and T3/T9.",
+      "source": "m",
+      "section": "Module 1 · Introduction to Electric Motor Control · C-202 EMC Pretest.pdf · PDF page 16",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 16,
+          "question": 28
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 16,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 16. Look for the wye winding arrangement and terminal groups. T4, T5 and T6 are tied together, and line pairs are T1/T7, T2/T8 and T3/T9."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p16-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 16
+      }
+    },
+    {
+      "id": "c202-pre-wye-high",
+      "world": "motor",
+      "topic": "Module 1 · Introduction to Electric Motor Control",
+      "type": "quiz",
+      "prompt": "★ Which motor connection is shown in these wiring and schematic diagrams?",
+      "options": [
+        "Dual-voltage wye, low voltage",
+        "Dual-voltage wye, high voltage",
+        "Dual-voltage delta, low voltage",
+        "Dual-voltage delta, high voltage"
+      ],
+      "answer": "Dual-voltage wye, high voltage",
+      "explanation": "Look for the wye winding arrangement and terminal groups. The winding sections are in series: T4/T7, T5/T8 and T6/T9 are joined, with lines on T1, T2 and T3.",
+      "source": "m",
+      "section": "Module 1 · Introduction to Electric Motor Control · C-202 EMC Pretest.pdf · PDF page 17",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-202 EMC Pretest.pdf",
+          "page": 17,
+          "question": 29
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 17,
+        "text": "Review C-202 EMC Pretest.pdf, PDF page 17. Look for the wye winding arrangement and terminal groups. The winding sections are in series: T4/T7, T5/T8 and T6/T9 are joined, with lines on T1, T2 and T3."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "teacher-mpre-p17-img0",
+        "alt": "Original teacher-quiz circuit or symbol diagram",
+        "page": 17
       }
     }
   ]
