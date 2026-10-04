@@ -1549,3 +1549,18 @@ body {
   .account-button { padding: 8px 10px; font-size: 12px; }
   .account-modal { padding: 21px; }
 }
+
+
+/* Compact course selection above the active world's content. */
+.world-picker { margin: 0 0 24px; }
+.world-picker-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:12px; }
+.world-picker-heading h2 { font-size:18px; margin:0; }
+.compact-world-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; }
+.compact-world { display:flex; align-items:center; gap:10px; min-height:66px; padding:10px 12px; text-align:left; background:#132230; border:1px solid var(--line); border-radius:12px; }
+.compact-world.selected { border-color:var(--lime); background:#21382d; box-shadow:inset 3px 0 var(--lime); }
+.compact-world-icon { font-size:23px; color:var(--lime); flex-shrink:0; }
+.compact-world-code { display:block; color:var(--muted); font-size:11px; margin-bottom:3px; }
+.compact-world-name { display:block; font-size:13px; font-weight:650; line-height:1.25; }
+.compact-world:focus-visible { outline:2px solid var(--lime); outline-offset:3px; }
+@media(max-width:760px) { .compact-world-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:420px) { .world-picker-heading .small { display:none; } .compact-world { padding:9px; gap:7px; } .compact-world-name { font-size:12px; } }

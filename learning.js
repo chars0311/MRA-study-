@@ -120,3 +120,19 @@ function bindLearning() {
     };
   });
 }
+
+
+// Fixed target mix; never duplicate a question or borrow from unchecked modules.
+function teacherSelection(items, target = 10) {
+  const eligible = [...new Map(items.filter(q => !q.cloze && q.examEligible !== false).map(q => [q.id,q])).values()];
+  const teachers = shuffle(eligible.filter(q => q.starred));
+  const regular = shuffle(eligible.filter(q => !q.starred));
+  if (!teachers.length) return { qs: [], note: 'No teacher questions in the checked modules yet.' };
+  const size = Math.min(target, eligible.length);
+  let teacherCount = Math.min(teachers.length, Math.ceil(size * .8));
+  let regularCount = Math.min(regular.length, size - teacherCount);
+  teacherCount = Math.min(teachers.length, size - regularCount);
+  regularCount = Math.min(regular.length, size - teacherCount);
+  const qs = shuffle([...teachers.slice(0,teacherCount), ...regular.slice(0,regularCount)]).map(freshQuestion);
+  return { qs, note: `${qs.length} questions · ${teacherCount} starred teacher + ${regularCount} regular study · checked modules only · immediate explanations · no life cutoff.` + (teacherCount !== 8 || regularCount !== 2 ? ' The mix is adjusted to the questions available in your checked modules.' : '') };
+}

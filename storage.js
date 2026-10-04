@@ -98,8 +98,6 @@ const fetch = async (url, options = {}) => {
     }
     return portableResponse({ event });
   }
-  return portableResponse(
-    { error: "Not available in this offline edition." },
-    404,
-  );
+  return globalThis.fetch(url, options);
 };
+
