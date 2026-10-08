@@ -19,17 +19,205 @@
       "explanation": "Detents grip the spool and hold it in the shifted position.",
       "source": "p",
       "section": "Module 6 · Detented Valves, slide 103",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/p-103.jpg",
-          "page": 103,
-          "title": "C209 Pneumatic Systems.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 103,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Detents grip the DCV spool in a manner and holds it in the shifted position. 103 A26"
+        "text": "Review C209 Pneumatic Systems.pdf, slide 103. Look for Module 6 · Detented Valves, slide 103.",
+        "excerpt": "Detented Valves\n► Detented DCV’s are used with an actuator that must stay \nenergized after input is energized. \n► Detents grip the DCV spool in a manner and holds it in \nthe shifted position.\n103\nA26"
+      }
+    },
+    {
+      "id": "c209-p104-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which set lists the four DCV construction types in the course?",
+      "answer": "Sliding spool, disc, sliding plate, and dual poppet",
+      "options": [
+        "Sliding spool, disc, sliding plate, and dual poppet",
+        "Needle, globe, gate, and ball",
+        "Reed, Hall, optical, and inductive",
+        "Axial, radial, vane, and gear"
+      ],
+      "explanation": "Sliding spool, disc, sliding plate, and dual poppet. The course explains: DCVs Design Types Sliding spool Disc Sliding plate Dual poppet",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 104",
+      "topic": "Module 6 · Air Logic",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 104,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 104. Look for the explanation of Which set lists the four DCV construction types in the course.",
+        "excerpt": "DCVs\nDesign Types\n► Sliding spool \n► Disc\n► Sliding plate\n► Dual poppet\n104"
+      }
+    },
+    {
+      "id": "c209-p107-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "In a packed-bore spool valve, where are the seals located?",
+      "answer": "Stationary in the bore",
+      "options": [
+        "Stationary in the bore",
+        "Bonded to the moving spool",
+        "Only in the exhaust muffler",
+        "In the pneumatic motor shaft"
+      ],
+      "explanation": "Stationary in the bore. The course explains: Sliding Spool Packed Spool- minimizes leaks, seals bonded to spool. Packed Bore- seals are stationary while spool moves. Lapped Spool- has no seals between spool and bore and rely on tight tolerances minimize.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 107",
+      "topic": "Module 6 · Air Logic",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 107,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 107. Look for the explanation of In a packed-bore spool valve, where are the seals located.",
+        "excerpt": "Sliding Spool\nPacked Spool- minimizes leaks, seals \nbonded to spool.\nPacked Bore- seals are stationary while \nspool moves.\nLapped Spool- has no seals between \nspool and bore and rely on tight \ntolerances minimize.\n107"
+      }
+    },
+    {
+      "id": "c209-p109-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What shifts an externally air-piloted DCV?",
+      "answer": "Pilot air acting on small pistons",
+      "options": [
+        "Pilot air acting on small pistons",
+        "An overload heater",
+        "A rotameter ball",
+        "A lubricator wick"
+      ],
+      "explanation": "Pilot air acting on small pistons. The course explains: Externally Air-Piloted DCV Schematic Symbols Use air lines and small pistons to operate the spool. These valves consists of an additional port(s) for a remote pilot source. These symbols also show manual override ability.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 109",
+      "topic": "Module 6 · Air Logic",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 109,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 109. Look for the explanation of What shifts an externally air-piloted DCV.",
+        "excerpt": "Externally Air-Piloted DCV\nSchematic Symbols\nUse air lines and small pistons to operate the \nspool.\n► These valves consists of an additional port(s) \nfor a remote pilot source.\n► These symbols also show manual override\nability. \n109\nA37"
+      }
+    },
+    {
+      "id": "c209-p111-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does air logic use to control pneumatic power circuits?",
+      "answer": "Pneumatic control devices",
+      "options": [
+        "Pneumatic control devices",
+        "Only electrical relays",
+        "Only hydraulic pumps",
+        "Mechanical belts"
+      ],
+      "explanation": "Pneumatic control devices. The course explains: Air Logic Applications Air logic uses pneumatic devices to control pneumatic power circuits. Works similar to electrical control circuits. Used in oil industry and food processing.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 111",
+      "topic": "Module 6 · Air Logic",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 111,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 111. Look for the explanation of What does air logic use to control pneumatic power circuits.",
+        "excerpt": "Air Logic\nApplications\n► Air logic uses pneumatic devices \nto control pneumatic power \ncircuits.\n► Works similar to electrical control \ncircuits.\n► Used in oil industry and food \nprocessing.\n111"
+      }
+    },
+    {
+      "id": "c209-p115-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which logic function does a shuttle valve provide?",
+      "answer": "OR",
+      "options": [
+        "OR",
+        "AND",
+        "NOT",
+        "Exclusive OR"
+      ],
+      "explanation": "OR. The course explains: Shuttle Valves Function A 3-way valve commonly used in air logic circuits. Provides OR logic therefore generate an output when any input is applied Air logic circuits also use shuttle valves to latch in spring off-set",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 115",
+      "topic": "Module 6 · Air Logic",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 115,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 115. Look for the explanation of Which logic function does a shuttle valve provide.",
+        "excerpt": "Shuttle Valves\nFunction\n► A 3-way valve commonly used in air \nlogic circuits.\n► Provides OR logic therefore generate \nan output when any input is applied\n► Air logic circuits also use shuttle \nvalves to latch in spring off-set\n115\nA24"
+      }
+    },
+    {
+      "id": "c209-p118-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "How is the air-logic seal-in circuit unlatched in the slides?",
+      "answer": "Remove supply pressure from the power valve",
+      "options": [
+        "Remove supply pressure from the power valve",
+        "Increase regulator pressure",
+        "Remove the cylinder rod",
+        "Close the lubricator adjustment"
+      ],
+      "explanation": "Remove supply pressure from the power valve. The course explains: Shuttle Valves Seal-In Circuit (Unlatching) Supply pressure must be removed from the power valve. A 3/2 valve used to achieve unlatching.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 118",
+      "topic": "Module 6 · Air Logic",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 118,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 118. Look for the explanation of How is the air-logic seal-in circuit unlatched in the slides.",
+        "excerpt": "Shuttle Valves\nSeal-In Circuit (Unlatching)\n► Supply pressure must be removed from the \npower valve.\n► A 3/2 valve used to achieve unlatching.\n118"
+      }
+    },
+    {
+      "id": "c209-p103-diagram",
+      "world": "pneumatic",
+      "type": "symbol",
+      "prompt": "What do the notches at the right of these valve symbols represent?",
+      "answer": "Detents holding selected spool positions",
+      "options": [
+        "Detents holding selected spool positions",
+        "Exhaust mufflers",
+        "Pilot pressure gauges",
+        "Filter elements"
+      ],
+      "explanation": "Detents holding selected spool positions. The course explains: Detented Valves Detented DCV’s are used with an actuator that must stay energized after input is energized. Detents grip the DCV spool in a manner and holds it in the shifted position.",
+      "source": "p",
+      "section": "Slide 103",
+      "topic": "Module 6 · Air Logic",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-slide-103-7",
+        "alt": "Original pneumatic component diagram from the course slide"
+      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 103,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 103. Compare the diagram with the component description.",
+        "excerpt": "Detented Valves\n► Detented DCV’s are used with an actuator that must stay \nenergized after input is energized. \n► Detents grip the DCV spool in a manner and holds it in \nthe shifted position.\n103\nA26"
+      }
+    },
+    {
+      "id": "c209-p115-diagram",
+      "world": "pneumatic",
+      "type": "symbol",
+      "prompt": "What logic operation does this pneumatic valve perform?",
+      "answer": "OR",
+      "options": [
+        "OR",
+        "AND",
+        "NOT",
+        "Exclusive OR"
+      ],
+      "explanation": "OR. The course explains: Shuttle Valves Function A 3-way valve commonly used in air logic circuits. Provides OR logic therefore generate an output when any input is applied Air logic circuits also use shuttle valves to latch in spring off-set",
+      "source": "p",
+      "section": "Slide 115",
+      "topic": "Module 6 · Air Logic",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-slide-115-7",
+        "alt": "Original pneumatic component diagram from the course slide"
+      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 115,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 115. Compare the diagram with the component description.",
+        "excerpt": "Shuttle Valves\nFunction\n► A 3-way valve commonly used in air \nlogic circuits.\n► Provides OR logic therefore generate \nan output when any input is applied\n► Air logic circuits also use shuttle \nvalves to latch in spring off-set\n115\nA24"
       }
     }
   ]

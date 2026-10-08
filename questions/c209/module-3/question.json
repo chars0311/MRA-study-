@@ -1,0 +1,196 @@
+{
+  "world": "pneumatic",
+  "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+  "mathQuestionIds": [
+    "c209-math-force",
+    "c209-math-pressure",
+    "c209-math-retract",
+    "c209-math-leverage"
+  ],
+  "questions": [
+    {
+      "id": "c209-p60-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which formula gives theoretical cylinder force?",
+      "answer": "Force = pressure × area",
+      "options": [
+        "Force = pressure × area",
+        "Force = pressure ÷ area",
+        "Force = area ÷ pressure",
+        "Force = pressure + area"
+      ],
+      "explanation": "Force = pressure × area. The course explains: Calculating Force Extending Force Equation The theoretical amount of force created by the cylinder can be calculated using the pressure and the area of the piston. To find the area of the circular piston, use the formula for the area of the circle.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 60",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 60,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 60. Look for the explanation of Which formula gives theoretical cylinder force.",
+        "excerpt": "Calculating Force\nExtending Force Equation\n► The theoretical amount of force \ncreated by the cylinder can be \ncalculated using the pressure \nand the area of the piston.\n► To find the area of the circular \npiston, use the formula for the \narea of the circle.\n60"
+      }
+    },
+    {
+      "id": "c209-p61-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Why is retracting force lower than extending force at the same pressure?",
+      "answer": "The rod reduces the effective piston area",
+      "options": [
+        "The rod reduces the effective piston area",
+        "The cap end has no piston seal",
+        "Pressure cannot reach the rod end",
+        "The rod adds pressure"
+      ],
+      "explanation": "The rod reduces the effective piston area. The course explains: Calculating Force Calculating Force The pressure cannot be exerted over all the surfaces inside the rod end of the cylinder. The pressure only acts on the “donut” or annular area.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 61",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 61,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 61. Look for the explanation of Why is retracting force lower than extending force at the same pressure.",
+        "excerpt": "Calculating Force\nCalculating Force\n► The pressure cannot be exerted \nover all the surfaces inside the \nrod end of the cylinder. \n► The pressure only acts on the \n“donut” or annular area.\n61"
+      }
+    },
+    {
+      "id": "c209-p62-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does Pascal’s law state about pressure in a confined fluid?",
+      "answer": "Pressure acts equally throughout and in all directions",
+      "options": [
+        "Pressure acts equally throughout and in all directions",
+        "Pressure exists only at the inlet",
+        "Pressure decreases to zero at the outlet",
+        "Pressure acts only downward"
+      ],
+      "explanation": "Pressure acts equally throughout and in all directions. The course explains: Pascal’s Law Pascal’s Law States that in a confined container the same pressure exists throughout the entire volume of the fluid and acts perpendicular to all internal surfaces. Fluid flowing in a pipe is not confined because the pipe is not closed on all sides.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 62",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 62,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 62. Look for the explanation of What does Pascal’s law state about pressure in a confined fluid.",
+        "excerpt": "Pascal’s Law\nPascal’s Law\n► States that in a confined \ncontainer the same pressure \nexists throughout the entire \nvolume of the fluid and acts \nperpendicular to all internal \nsurfaces.\n► Fluid flowing in a pipe is not \nconfined because the pipe is \nnot closed on all sides.\n62\nA14"
+      }
+    },
+    {
+      "id": "c209-p64-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "How does pneumatic leverage produce a larger output force?",
+      "answer": "Apply the same pressure to a larger output piston area",
+      "options": [
+        "Apply the same pressure to a larger output piston area",
+        "Reduce the output piston area",
+        "Increase rod friction",
+        "Remove the output piston seal"
+      ],
+      "explanation": "Apply the same pressure to a larger output piston area. The course explains: Pneumatic Leverage Example If a force of 10 lbs. is applied over a small piston with 1 square- inch area, a pressure of 10 psi is created in the confined fluid. In accordance with Pascal’s law, the same 10 psi acts on a larger 10 in. piston creating 100 lbs. on the larger piston. https://www.youtube.com/watch?v=aoMCRG4zM2s",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 64",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 64,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 64. Look for the explanation of How does pneumatic leverage produce a larger output force.",
+        "excerpt": "Pneumatic Leverage\nExample\n► If a force of 10 lbs. is applied \nover a small piston with 1 square-\ninch area, a pressure of 10 psi is \ncreated in the confined fluid.\n► In accordance with Pascal’s \nlaw, the same 10 psi acts on a \nlarger 10 in. piston creating 100 \nlbs. on the larger piston.\nhttps://www.youtube.com/watch?v=aoMCRG4zM2s\n64"
+      }
+    },
+    {
+      "id": "c209-p66-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does gauge pressure measure?",
+      "answer": "Pressure above atmospheric pressure",
+      "options": [
+        "Pressure above atmospheric pressure",
+        "Pressure above a perfect vacuum",
+        "Only atmospheric pressure",
+        "Air volume per minute"
+      ],
+      "explanation": "Pressure above atmospheric pressure. The course explains: Representing Pressure Gauge Pressure Indicates the amount of pressure above atmospheric pressure. Majority of pressure gauges are designed to indicate gauge pressure. They are adjusted to read 0 psi/kPa when exposed to atmospheric pressure.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 66",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 66,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 66. Look for the explanation of What does gauge pressure measure.",
+        "excerpt": "Representing Pressure\nGauge Pressure\n► Indicates the amount of pressure above \natmospheric pressure.\n► Majority of pressure gauges are designed to \nindicate gauge pressure.\n► They are adjusted to read 0 psi/kPa when \nexposed to atmospheric pressure.\n66"
+      }
+    },
+    {
+      "id": "c209-p69-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "At constant temperature, what happens when the volume of a fixed amount of air decreases?",
+      "answer": "Its absolute pressure increases",
+      "options": [
+        "Its absolute pressure increases",
+        "Its absolute pressure decreases",
+        "Its pressure must become zero",
+        "Its mass doubles"
+      ],
+      "explanation": "Its absolute pressure increases. The course explains: Pressure Boyle’s Law The air compressor creates air pressure by reducing its volume. The formula used to calculate the exact effect a change in volume has on pressure is called Boyle’s law Created by Robert Boyle in 1662. Pressure is inversely proportional to volume.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 69",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 69,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 69. Look for the explanation of At constant temperature, what happens when the volume of a fixed amount of air decreases.",
+        "excerpt": "Pressure\nBoyle’s Law\n► The air compressor creates air \npressure by reducing its volume.\n► The formula used to calculate \nthe exact effect a change in \nvolume has on pressure is called \nBoyle’s law\n► Created by Robert Boyle in 1662.\n► Pressure is inversely proportional \nto volume.\n69\nA11"
+      }
+    },
+    {
+      "id": "c209-p70-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What causes air to flow between connected areas?",
+      "answer": "A pressure difference",
+      "options": [
+        "A pressure difference",
+        "Equal pressure everywhere",
+        "The color of the tubing",
+        "The size of the pressure gauge"
+      ],
+      "explanation": "A pressure difference. The course explains: Air Flow and Resistance A characteristic of air is that a difference in pressure causes air flow to occur. Air flows from areas of high pressure to areas of low pressure until pressure is the same throughout.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 70",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 70,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 70. Look for the explanation of What causes air to flow between connected areas.",
+        "excerpt": "Air Flow and Resistance\n► A characteristic of air is that a difference in \npressure causes air flow to occur.\n► Air flows from areas of high pressure to \nareas of low pressure until pressure is the \nsame throughout.\n70"
+      }
+    },
+    {
+      "id": "c209-p71-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which factors affect airflow through an opening in the slide example?",
+      "answer": "Temperature, pressure difference, and orifice size",
+      "options": [
+        "Temperature, pressure difference, and orifice size",
+        "Voltage, frequency, and phase angle",
+        "Rod color, gauge diameter, and hose label",
+        "Only the number of cylinder seals"
+      ],
+      "explanation": "Temperature, pressure difference, and orifice size. The course explains: Air Flow and Resistance Example If two containers at different pressures are connected together the air will flow from the higher pressure container to the lower pressure when the valve is opened. Rate of flow depends on: Temperature Difference in pressure Size of orifice.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 71",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 71,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 71. Look for the explanation of Which factors affect airflow through an opening in the slide example.",
+        "excerpt": "Air Flow and Resistance\nExample\n► If two containers at different pressures are \nconnected together the air will flow from the \nhigher pressure container to the lower pressure \nwhen the valve is opened.\n► Rate of flow depends on:\n► Temperature \n► Difference in pressure \n► Size of orifice. \n71"
+      }
+    }
+  ]
+}

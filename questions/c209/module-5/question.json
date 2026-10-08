@@ -19,17 +19,195 @@
       "explanation": "The slide calls a cam-operated valve a roller-operated valve and describes mechanical actuation.",
       "source": "p",
       "section": "Module 5 · Cam-operated valves, slide 90",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/p-90.jpg",
-          "page": 90,
-          "title": "C209 Pneumatic Systems.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 90,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Also known as a roller operated valve. ► Designed to function similar to an electrical limit switch. ► It is a two-position DCV mechanically actuated by the extension or ion of the cylinder rod. ► slowing a cylinder is achieved by restricting the exhaust air…"
+        "text": "Review C209 Pneumatic Systems.pdf, slide 90. Look for Module 5 · Cam-operated valves, slide 90.",
+        "excerpt": "Cam-operated valves\n► Also known as a roller operated valve.\n► Designed to function similar to an electrical limit \nswitch.\n► It is a two-position DCV mechanically actuated by \nthe extension or ion of the cylinder rod.\n► slowing a cylinder is achieved by restricting the \nexhaust air flow rather than the incoming air.\n► Used in applications where electrical switches are \nnot safe.\n► Petroleum refineries use this valve type\n90\nA19\nCam or \nRoller \nOperator \nA21 A22"
+      }
+    },
+    {
+      "id": "c209-p90-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What actuates a cam-operated pneumatic valve?",
+      "answer": "Mechanical contact with a cam or roller",
+      "options": [
+        "Mechanical contact with a cam or roller",
+        "An electrical overload heater",
+        "A filter drain",
+        "A pressure gauge pointer"
+      ],
+      "explanation": "Mechanical contact with a cam or roller. The course explains: Cam-operated valves Also known as a roller operated valve. Designed to function similar to an electrical limit switch. It is a two-position DCV mechanically actuated by the extension or ion of the cylinder rod. slowing a cylinder is achieved by restricting the exhaust air flow rather than the incoming air. Used in applications where electrical switches are not safe. Petroleum refineries use this valve type Cam or Roller Operator A21 A22",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 90",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 90,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 90. Look for the explanation of What actuates a cam-operated pneumatic valve.",
+        "excerpt": "Cam-operated valves\n► Also known as a roller operated valve.\n► Designed to function similar to an electrical limit \nswitch.\n► It is a two-position DCV mechanically actuated by \nthe extension or ion of the cylinder rod.\n► slowing a cylinder is achieved by restricting the \nexhaust air flow rather than the incoming air.\n► Used in applications where electrical switches are \nnot safe.\n► Petroleum refineries use this valve type\n90\nA19\nCam or \nRoller \nOperator \nA21 A22"
+      }
+    },
+    {
+      "id": "c209-p92-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What is used for power braking in the two-speed circuit?",
+      "answer": "A pressure regulator applies high back pressure",
+      "options": [
+        "A pressure regulator applies high back pressure",
+        "A transformer applies high voltage",
+        "A lubricator eliminates exhaust pressure",
+        "A tee fitting disconnects the supply"
+      ],
+      "explanation": "A pressure regulator applies high back pressure. The course explains: Two-speed circuits Power Braking/Cam-Valve Uses a pressure regulator to apply high back pressure. Used for higher speeds that require a greater force to decelerate the .",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 92",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 92,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 92. Look for the explanation of What is used for power braking in the two-speed circuit.",
+        "excerpt": "Two-speed circuits\nPower Braking/Cam-Valve\n► Uses a pressure regulator to apply high \nback pressure.\n► Used for higher speeds that require a \ngreater force to decelerate the .\n92"
+      }
+    },
+    {
+      "id": "c209-p93-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which component can absorb motion externally at the end of travel?",
+      "answer": "Shock absorber",
+      "options": [
+        "Shock absorber",
+        "Shuttle valve",
+        "Flowmeter",
+        "Air filter"
+      ],
+      "explanation": "Shock absorber. The course explains: Two-speed circuits Shock Absorbers This method uses external shock absorbers. Works for any application with properly sized shock absorbers for the application. Internal (cushioning)",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 93",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 93,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 93. Look for the explanation of Which component can absorb motion externally at the end of travel.",
+        "excerpt": "Two-speed circuits\nShock Absorbers\n► This method uses external shock absorbers.\n► Works for any application with properly sized \nshock absorbers for the application.\n► Internal (cushioning)\n93"
+      }
+    },
+    {
+      "id": "c209-p94-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "How many ports does a two-way valve have?",
+      "answer": "Two",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "explanation": "Two. The course explains: Two-way valves Function Has two ports, inlet/outlet. Controls flow in either direction. Used to control volume or function as on/off valves. Types Needle Plug Ball Globe Gate",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 94",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 94,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 94. Look for the explanation of How many ports does a two-way valve have.",
+        "excerpt": "Two-way valves\nFunction\n► Has two ports, inlet/outlet.\n► Controls flow in either direction.\n► Used to control volume or \nfunction as on/off valves.\nTypes\n► Needle\n► Plug\n► Ball\n► Globe\n► Gate \n94"
+      }
+    },
+    {
+      "id": "c209-p95-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which two-way valve provides fine adjustment of flow?",
+      "answer": "Needle",
+      "options": [
+        "Needle",
+        "Ball",
+        "Plug",
+        "Gate"
+      ],
+      "explanation": "Needle. The course explains: Two-way valves Needle Used to control volume of flow. Generally considered to be a speed control valve. Allows for fine tuning. Control varies by design of the needle.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 95",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 95,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 95. Look for the explanation of Which two-way valve provides fine adjustment of flow.",
+        "excerpt": "Two-way valves\nNeedle\n► Used to control volume of flow.\n► Generally considered to be a speed \ncontrol valve.\n► Allows for fine tuning.\n► Control varies by design of the \nneedle.\n95"
+      }
+    },
+    {
+      "id": "c209-p96-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What is the usual function of a plug valve?",
+      "answer": "On/off control",
+      "options": [
+        "On/off control",
+        "Precise continuous flow measurement",
+        "Automatic oil metering",
+        "Air drying"
+      ],
+      "explanation": "On/off control. The course explains: Two-way valves Plug Usually restricted to on/off function. Coarse-adjustment can be achieved with intermediate positioning. The plug consists of a hole which can be aligned with ports",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 96",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 96,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 96. Look for the explanation of What is the usual function of a plug valve.",
+        "excerpt": "Two-way valves\nPlug\n► Usually restricted to on/off \nfunction.\n► Coarse-adjustment can be \nachieved with intermediate \npositioning.\n► The plug consists of a hole which \ncan be aligned with ports\n96"
+      }
+    },
+    {
+      "id": "c209-p97-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which valve uses a ball with a hole through its diameter?",
+      "answer": "Ball valve",
+      "options": [
+        "Ball valve",
+        "Globe valve",
+        "Gate valve",
+        "Needle valve"
+      ],
+      "explanation": "Ball valve. The course explains: Two-way valves Ball Similar to a plug style. Uses a ball a hole through its diameter. Typically used for on/off only",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 97",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 97,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 97. Look for the explanation of Which valve uses a ball with a hole through its diameter.",
+        "excerpt": "Two-way valves\nBall\n► Similar to a plug style.\n► Uses a ball a hole through its \ndiameter.\n► Typically used for on/off only\n97"
+      }
+    },
+    {
+      "id": "c209-p99-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which valve uses a wedge that moves into the flow path?",
+      "answer": "Gate valve",
+      "options": [
+        "Gate valve",
+        "Ball valve",
+        "Needle valve",
+        "Shuttle valve"
+      ],
+      "explanation": "Gate valve. The course explains: Two-way valves Gate Similar to globe valves, uses in general piping and process control. Requires many turns to open/close. The wedge action of the gate allows for easy shearing of high flows.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 99",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 99,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 99. Look for the explanation of Which valve uses a wedge that moves into the flow path.",
+        "excerpt": "Two-way valves\nGate\n► Similar to globe valves, uses in \ngeneral piping and process \ncontrol.\n► Requires many turns to \nopen/close.\n► The wedge action of the gate \nallows for easy shearing of high \nflows.\n99"
       }
     }
   ]

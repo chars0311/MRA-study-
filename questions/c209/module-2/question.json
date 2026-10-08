@@ -1,0 +1,288 @@
+{
+  "world": "pneumatic",
+  "topic": "Module 2 · Basic Pneumatic Circuits",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q052",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "A single-acting cylinder is powered by compressed air in how many directions?",
+      "answer": "One",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      "explanation": "A spring, gravity, or another force provides the return movement.",
+      "source": "p",
+      "section": "Single-Acting Cylinders, slide 42",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 42,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 42. Look for Single-Acting Cylinders, slide 42.",
+        "excerpt": "SINGLE-ACTING CYLINDERS\nFUNCTION\n• THIS TYPE OF PNEUMATIC CYLINDER IS \nPOWERED BY COMPRESSED AIR IN ONE \nDIRECTION ONLY.\n• TO MOVE IN ANOTHER DIRECTION, \nANOTHER FORCE SUCH AS GRAVITY OR A \nSPRING IS USED.\n• THESE CYLINDERS ARE USED IN \nAPPLICATIONS WHERE THE  WILL CAUSE IT \nTO RETURN OR, IF THE  IS LIGHT ENOUGH, A \nSPRING CAN BE USED TO RETURN THE ROD.\n42"
+      }
+    },
+    {
+      "id": "q054",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Where is a pneumatic muffler normally fitted to reduce noise?",
+      "answer": "At an exhaust port",
+      "options": [
+        "At an exhaust port",
+        "Inside the electric supply cable",
+        "Under a motor foot",
+        "On a voltmeter"
+      ],
+      "explanation": "A muffler or silencer reduces noise from exhausted air.",
+      "source": "p",
+      "section": "Mufflers, slide 49",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 49,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 49. Look for Mufflers, slide 49.",
+        "excerpt": "BASIC MOTOR CIRCUITS\nMUFFLERS\n• AIR MOTORS, ESPECIALLY AT HIGH SPEEDS ARE \nCONSIDERABLY LOUDER THAN ELECTRICAL AND HYDRAULIC \nMOTORS.\n• MUFFLER, OR SILENCERS ARE PLACED ON THE EXHAUST PORT \nOF THE DCV OR THE COMPONENT ITSELF TO REDUCE NOISE.\n• REDUCES NOISE LEVELS IN THE SAME MANNER AS THE \nMUFFLER DOES IN AN AUTOMOBILE.\n• THE SKEMATIC SYMBOL IS SHOW ON THE RIIGHT\n49"
+      }
+    },
+    {
+      "id": "c209-p42-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What returns a single-acting cylinder in its unpowered direction?",
+      "answer": "A spring or external force such as gravity",
+      "options": [
+        "A spring or external force such as gravity",
+        "Compressed air applied to both ports",
+        "A transformer",
+        "A second piston seal"
+      ],
+      "explanation": "A spring or external force such as gravity. The course explains: SINGLE-ACTING CYLINDERS FUNCTION THIS TYPE OF PNEUMATIC CYLINDER IS POWERED BY COMPRESSED AIR IN ONE DIRECTION ONLY. TO MOVE IN ANOTHER DIRECTION, ANOTHER FORCE SUCH AS GRAVITY OR A SPRING IS USED. THESE CYLINDERS ARE USED IN APPLICATIONS WHERE THE  WILL CAUSE IT TO RETURN OR, IF THE  IS LIGHT ENOUGH, A SPRING CAN BE USED TO RETURN THE ROD.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 42",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 42,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 42. Look for the explanation of What returns a single-acting cylinder in its unpowered direction.",
+        "excerpt": "SINGLE-ACTING CYLINDERS\nFUNCTION\n• THIS TYPE OF PNEUMATIC CYLINDER IS \nPOWERED BY COMPRESSED AIR IN ONE \nDIRECTION ONLY.\n• TO MOVE IN ANOTHER DIRECTION, \nANOTHER FORCE SUCH AS GRAVITY OR A \nSPRING IS USED.\n• THESE CYLINDERS ARE USED IN \nAPPLICATIONS WHERE THE  WILL CAUSE IT \nTO RETURN OR, IF THE  IS LIGHT ENOUGH, A \nSPRING CAN BE USED TO RETURN THE ROD.\n42"
+      }
+    },
+    {
+      "id": "c209-p44-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which valve is normally used to operate a single-acting cylinder?",
+      "answer": "3/2 DCV",
+      "options": [
+        "3/2 DCV",
+        "5/3 DCV",
+        "Shuttle valve",
+        "Pressure regulator"
+      ],
+      "explanation": "3/2 DCV. The course explains: 3/2 PNEUMATIC DCV FUNCTION A 3-PORT DCV IS NORMALLY USED TO OPERATE A SINGLE-ACTING CYLINDER DESIGNED TO TAKE ADVANTAGE OF THE FACT THAT A SINGLE-ACTING CYLINDER IS POWERED IN ONLY ONE DIRECTION. ALLOWS THE MACHINE OPERATOR TO POWER A CYLINDER IN ONE DIRECTION AND EXHAUST AIR TO RETURN. THE 3 PORT DCV IS HELD IN THE ENERGIZED POSITION BY THE OPERATOR",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 44",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 44,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 44. Look for the explanation of Which valve is normally used to operate a single-acting cylinder.",
+        "excerpt": "3/2 PNEUMATIC DCV\nFUNCTION\n• A 3-PORT DCV IS NORMALLY USED TO \nOPERATE A SINGLE-ACTING CYLINDER\n• DESIGNED TO TAKE ADVANTAGE OF THE \nFACT THAT A SINGLE-ACTING CYLINDER IS \nPOWERED IN ONLY ONE DIRECTION.\n• ALLOWS THE MACHINE OPERATOR TO \nPOWER A CYLINDER IN ONE DIRECTION \nAND EXHAUST AIR TO RETURN.\n• THE 3 PORT DCV IS HELD IN THE ENERGIZED \nPOSITION BY THE OPERATOR\n44\nA08"
+      }
+    },
+    {
+      "id": "c209-p46-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which actuator produces rotary motion from compressed air?",
+      "answer": "Pneumatic motor",
+      "options": [
+        "Pneumatic motor",
+        "Single-acting cylinder",
+        "Double-acting cylinder",
+        "Pressure gauge"
+      ],
+      "explanation": "Pneumatic motor. The course explains: MOTORS PNEUMATIC MOTOR AN ACTUATOR THAT CONVERTS COMPRESSED AIR INTO ROTARY MOTION IS A PNEUMATIC MOTOR. AN AIR MOTOR IS USED WHEN LOW FORCE, ROTARY OUTPUT IS NEEDED SUCH AS: PNEUMATIC DRILL MIXING MOTOR SMALL WINCHES",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 46",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 46,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 46. Look for the explanation of Which actuator produces rotary motion from compressed air.",
+        "excerpt": "MOTORS\nPNEUMATIC MOTOR\n• AN ACTUATOR THAT CONVERTS COMPRESSED AIR \nINTO ROTARY MOTION IS A PNEUMATIC MOTOR.\n• AN AIR MOTOR IS USED WHEN LOW FORCE, ROTARY \nOUTPUT IS NEEDED SUCH AS:\n• PNEUMATIC DRILL\n• MIXING MOTOR\n• SMALL WINCHES\n46"
+      }
+    },
+    {
+      "id": "c209-p47-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which air-motor part provides the mechanical power output?",
+      "answer": "Shaft",
+      "options": [
+        "Shaft",
+        "Vane slot",
+        "Inlet filter",
+        "Exhaust muffler"
+      ],
+      "explanation": "Shaft. The course explains: BASIC MOTOR CIRCUITS ROTOR – THE ROTOR IS CONNECTED TO THE SHAFT AND HAS SLOTS FOR THE VANES. SHAFT – THE SHAFT IS THE POWER OUTPUT OF THE AIR MOTOR. VANES – THE VANES MOVE IN/OUT OF THE SLOTS ON THE ROTOR AND ARE PUSHED BY THE COMPRESSED AIR. Rotor Shaft Vanes",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 47",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 47,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 47. Look for the explanation of Which air-motor part provides the mechanical power output.",
+        "excerpt": "BASIC MOTOR CIRCUITS\nROTOR – THE ROTOR IS CONNECTED TO THE \nSHAFT AND HAS SLOTS FOR THE VANES.\nSHAFT – THE SHAFT IS THE POWER OUTPUT OF \nTHE AIR MOTOR.\nVANES – THE VANES MOVE IN/OUT OF THE \nSLOTS ON THE ROTOR AND ARE PUSHED BY \nTHE COMPRESSED AIR. \nRotor\nShaft\nVanes\n47"
+      }
+    },
+    {
+      "id": "c209-p48-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does uni-directional mean for an air motor?",
+      "answer": "It turns in only one direction",
+      "options": [
+        "It turns in only one direction",
+        "It has only one vane",
+        "It operates at only one pressure",
+        "It requires two supply lines"
+      ],
+      "explanation": "It turns in only one direction. The course explains: BASIC MOTOR CIRCUITS UNI/BI-DIRECTIONAL MOTOR MOST AIR MOTORS ARE UNI-DIRECTIONAL, MEANING THEY TURN IN ONLY ONE DIRECTION. BI-DIRECTIONAL TURN IN EITHER DIRECTION.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 48",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 48,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 48. Look for the explanation of What does uni-directional mean for an air motor.",
+        "excerpt": "BASIC MOTOR CIRCUITS\nUNI/BI-DIRECTIONAL MOTOR\n• MOST AIR MOTORS ARE UNI-DIRECTIONAL, \nMEANING THEY TURN IN ONLY ONE \nDIRECTION.\n• BI-DIRECTIONAL TURN IN EITHER DIRECTION.\n48"
+      }
+    },
+    {
+      "id": "c209-p49-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What is the purpose of a pneumatic exhaust muffler?",
+      "answer": "Reduce exhaust noise",
+      "options": [
+        "Reduce exhaust noise",
+        "Increase cylinder force",
+        "Reverse motor rotation",
+        "Store exhaust air"
+      ],
+      "explanation": "Reduce exhaust noise. The course explains: BASIC MOTOR CIRCUITS MUFFLERS AIR MOTORS, ESPECIALLY AT HIGH SPEEDS ARE CONSIDERABLY LOUDER THAN ELECTRICAL AND HYDRAULIC MOTORS. MUFFLER, OR SILENCERS ARE PLACED ON THE EXHAUST PORT OF THE DCV OR THE COMPONENT ITSELF TO REDUCE NOISE. REDUCES NOISE LEVELS IN THE SAME MANNER AS THE MUFFLER DOES IN AN AUTOMOBILE. THE SKEMATIC SYMBOL IS SHOW ON THE RIIGHT",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 49",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 49,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 49. Look for the explanation of What is the purpose of a pneumatic exhaust muffler.",
+        "excerpt": "BASIC MOTOR CIRCUITS\nMUFFLERS\n• AIR MOTORS, ESPECIALLY AT HIGH SPEEDS ARE \nCONSIDERABLY LOUDER THAN ELECTRICAL AND HYDRAULIC \nMOTORS.\n• MUFFLER, OR SILENCERS ARE PLACED ON THE EXHAUST PORT \nOF THE DCV OR THE COMPONENT ITSELF TO REDUCE NOISE.\n• REDUCES NOISE LEVELS IN THE SAME MANNER AS THE \nMUFFLER DOES IN AN AUTOMOBILE.\n• THE SKEMATIC SYMBOL IS SHOW ON THE RIIGHT\n49"
+      }
+    },
+    {
+      "id": "c209-p50-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which set lists the three air-motor designs in the slides?",
+      "answer": "Vane, axial piston, and radial piston",
+      "options": [
+        "Vane, axial piston, and radial piston",
+        "Induction, synchronous, and DC",
+        "Needle, globe, and gate",
+        "Single-acting, double-acting, and telescoping"
+      ],
+      "explanation": "Vane, axial piston, and radial piston. The course explains: PNEUMATIC MOTORS COMMON TYPES VANE/ROTOR AXIAL PISTON RADIAL PISTON",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 50",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 50,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 50. Look for the explanation of Which set lists the three air-motor designs in the slides.",
+        "excerpt": "PNEUMATIC MOTORS\nCOMMON TYPES\n• VANE/ROTOR\n• AXIAL PISTON\n• RADIAL PISTON\n50\nA07"
+      }
+    },
+    {
+      "id": "c209-p52-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What happens to most schematic symbols when rotated without changing connections?",
+      "answer": "Their meaning stays the same",
+      "options": [
+        "Their meaning stays the same",
+        "They become electrical symbols",
+        "They always reverse the actuator",
+        "They indicate a different pressure"
+      ],
+      "explanation": "Their meaning stays the same. The course explains: PNEUMATIC SCHEMATICS ROTATED OR REVERSED MOST SYMBOLS MAY BE DRAWN EITHER HORIZONTAL OR VERTICAL WITHOUT ALTERING THEIR MEANING. HORIZONTAL/VERTICAL LINES ARE SHOWN EITHER HORIZONTALLY OR VERTICALLY ON THE SCHEMATIC DIAGRAM. DIAGONAL LINES SHOULD NOT BE USED.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 52",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 52,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 52. Look for the explanation of What happens to most schematic symbols when rotated without changing connections.",
+        "excerpt": "PNEUMATIC SCHEMATICS\nROTATED OR REVERSED\n• MOST SYMBOLS MAY BE DRAWN EITHER \nHORIZONTAL OR VERTICAL WITHOUT \nALTERING THEIR MEANING.\n52\nHORIZONTAL/VERTICAL\n• LINES ARE SHOWN EITHER HORIZONTALLY \nOR VERTICALLY ON THE SCHEMATIC \nDIAGRAM.\n• DIAGONAL LINES SHOULD NOT BE USED.\n"
+      }
+    },
+    {
+      "id": "c209-p54-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "In what condition should components be shown on pneumatic schematics?",
+      "answer": "De-energized",
+      "options": [
+        "De-energized",
+        "At maximum pressure",
+        "During maximum cylinder speed",
+        "Only while extending"
+      ],
+      "explanation": "De-energized. The course explains: PNEUMATIC SCHEMATICS DRAW EACH SYMBOL TO SHOW DE-ENERGIZED CONDITION EACH SYMBOL IS DRAWN TO SHOW THE CONDITION OF THE COMPONENT WHILE THE SYSTEM IS DE-ENERGIZED. THE ONLY EXCEPTION IS WHEN MULTIPLE DIAGRAMS ARE DRAWN SHOWING VARIOUS PHASES OF A CIRCUIT’S OPERATION.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 54",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 54,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 54. Look for the explanation of In what condition should components be shown on pneumatic schematics.",
+        "excerpt": "PNEUMATIC SCHEMATICS\nDRAW EACH SYMBOL TO SHOW DE-ENERGIZED \nCONDITION\n• EACH SYMBOL IS DRAWN TO SHOW THE CONDITION OF THE \nCOMPONENT WHILE THE SYSTEM IS DE-ENERGIZED.\n• THE ONLY EXCEPTION IS WHEN MULTIPLE DIAGRAMS ARE \nDRAWN SHOWING VARIOUS PHASES OF A CIRCUIT’S \nOPERATION. \n54"
+      }
+    },
+    {
+      "id": "visual-p-single",
+      "world": "pneumatic",
+      "type": "symbol",
+      "prompt": "What returns the rod toward its unpowered position in this cylinder?",
+      "answer": "The spring",
+      "options": [
+        "The spring",
+        "Air applied to a second cylinder port",
+        "An electric motor",
+        "A shuttle valve"
+      ],
+      "explanation": "The spring. Look at the symbol features shown in the diagram and compare them with the descriptions on the source slide.",
+      "source": "p",
+      "section": "Slide 43",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-slide-43-7",
+        "alt": "Original pneumatic component diagram from the course slide"
+      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 43,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 43. Compare the diagram with the component description.",
+        "excerpt": "SINGLE-ACTING CYLINDERS\n43"
+      }
+    }
+  ]
+}

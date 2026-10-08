@@ -19,17 +19,356 @@
       "source": "p",
       "section": "Air leaks: Effects, slide 155",
       "topic": "Module 7 · Automatic Input Devices 1",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/p-155.jpg",
-          "page": 155,
-          "title": "C209 Pneumatic Systems.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 155,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "► Tool efficiency ► Decreased productivity Note: ► Leakage rates can often account for 40% of total air consumption. 155 A33"
+        "text": "Review C209 Pneumatic Systems.pdf, slide 155. Look for Air leaks: Effects, slide 155.",
+        "excerpt": "Air leaks\nEffects\n► Energy costs\n► Tool efficiency\n► Decreased productivity\nNote:\n► Leakage rates can often account \nfor 40% of total air consumption.\n155\nA33"
+      }
+    },
+    {
+      "id": "c209-p122-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which contaminants can enter a compressed-air system?",
+      "answer": "Dirt, pollen, and water vapor",
+      "options": [
+        "Dirt, pollen, and water vapor",
+        "Only clean dry air",
+        "Only hydraulic oil",
+        "Only metal chips from the actuator"
+      ],
+      "explanation": "Dirt, pollen, and water vapor. The course explains: Contamination Air filtration Compressed systems are sometimes contaminated. Dirt, pollen, and water vapor. Sources Air taken in through compressor inlet. During system construction. Compression and heat. Seals around actuators.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 122",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 122,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 122. Look for the explanation of Which contaminants can enter a compressed-air system.",
+        "excerpt": "Contamination\nAir filtration\n► Compressed systems are \nsometimes contaminated.\n► Dirt, pollen, and water vapor.\nSources\n► Air taken in through compressor \ninlet.\n► During system construction.\n► Compression and heat.\n► Seals around actuators.\n122"
+      }
+    },
+    {
+      "id": "c209-p123-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which maintenance helps prevent contamination problems?",
+      "answer": "Change filters, drain water, and inspect the system",
+      "options": [
+        "Change filters, drain water, and inspect the system",
+        "Increase supply pressure indefinitely",
+        "Remove every filter element",
+        "Plug all drain ports"
+      ],
+      "explanation": "Change filters, drain water, and inspect the system. The course explains: Contamination Effects Rust Blockages Unusual wear Pre-mature failure Preventive Maintenance Change filters Drain water Inspect equipment",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 123",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 123,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 123. Look for the explanation of Which maintenance helps prevent contamination problems.",
+        "excerpt": "Contamination\nEffects\n► Rust\n► Blockages\n► Unusual wear\n► Pre-mature failure\nPreventive Maintenance\n► Change filters\n► Drain water\n► Inspect equipment \n123"
+      }
+    },
+    {
+      "id": "c209-p125-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which filter is a depth-type element made from fired bronze beads?",
+      "answer": "Sintered bronze",
+      "options": [
+        "Sintered bronze",
+        "Synthetic layered",
+        "Wick venturi",
+        "Coalescing trap"
+      ],
+      "explanation": "Sintered bronze. The course explains: Filter Elements Sintered Bronze Made by firing tiny beads at high temperature. Known as a depth-type element Cleaned by back flushing",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 125",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 125,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 125. Look for the explanation of Which filter is a depth-type element made from fired bronze beads.",
+        "excerpt": "Filter Elements\nSintered Bronze\n► Made by firing tiny beads at high \ntemperature.\n► Known as a depth-type element\n► Cleaned by back flushing\n125"
+      }
+    },
+    {
+      "id": "c209-p126-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which filter element is described as non-reusable?",
+      "answer": "Synthetic layered",
+      "options": [
+        "Synthetic layered",
+        "Sintered bronze",
+        "Porous plastic",
+        "Regenerative desiccant"
+      ],
+      "explanation": "Synthetic layered. The course explains: Filter Elements Synthetic Layered Made of interweaved plastic threads. Known as an edge-type filter. Non-reusable",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 126",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 126,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 126. Look for the explanation of Which filter element is described as non-reusable.",
+        "excerpt": "Filter Elements\nSynthetic Layered\n► Made of interweaved plastic \nthreads.\n► Known as an edge-type filter.\n► Non-reusable \n126\nA35"
+      }
+    },
+    {
+      "id": "c209-p128-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does a coalescing filter collect?",
+      "answer": "Fine oil and water droplets",
+      "options": [
+        "Fine oil and water droplets",
+        "Only large bolts",
+        "Only electrical current",
+        "Only dry nitrogen"
+      ],
+      "explanation": "Fine oil and water droplets. The course explains: Coalescing Filters Removes very small particles and almost all water. Collects oil and water droplets. Typically located ahead of sensitive devices. Operates in stages: First stage filters bulk water and particulates. Second stage eliminates atomized oils, mists, and fine particles. Third stages removes organic vapors and odors.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 128",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 128,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 128. Look for the explanation of What does a coalescing filter collect.",
+        "excerpt": "Coalescing Filters\n► Removes very small particles and \nalmost all water.\n► Collects oil and water droplets.\n► Typically located ahead of \nsensitive devices.\n► Operates in stages:\n► First stage filters bulk water \nand particulates.\n► Second stage eliminates \natomized oils, mists, and fine \nparticles.\n► Third stages removes organic \nvapors and odors.  \n128"
+      }
+    },
+    {
+      "id": "c209-p130-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What is dew point?",
+      "answer": "The temperature at which water vapor begins to condense",
+      "options": [
+        "The temperature at which water vapor begins to condense",
+        "The maximum compressor voltage",
+        "The cylinder’s maximum speed",
+        "The oil’s flash point"
+      ],
+      "explanation": "The temperature at which water vapor begins to condense. The course explains: Water Removal Relative Humidity- the ratio of the amount of water the air current holds to the total amount it could hold. Dew Point- air that has reached 100% relative humidity.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 130",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 130,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 130. Look for the explanation of What is dew point.",
+        "excerpt": "Water Removal \nRelative Humidity- the ratio of the \namount of water the air current holds \nto the total amount it could hold.\nDew Point- air that has reached 100% \nrelative humidity.\n130"
+      }
+    },
+    {
+      "id": "c209-p133-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which problem can condensed water cause?",
+      "answer": "Rust, scale, and pipe freezing",
+      "options": [
+        "Rust, scale, and pipe freezing",
+        "Higher motor efficiency in all cases",
+        "Permanent removal of air leaks",
+        "Improved lubrication in all cases"
+      ],
+      "explanation": "Rust, scale, and pipe freezing. The course explains: Condensation Effects Loss lubrication Rust and scale Product defects Pipe freezing",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 133",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 133,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 133. Look for the explanation of Which problem can condensed water cause.",
+        "excerpt": "Condensation\nEffects\n► Loss lubrication\n► Rust and scale\n► Product defects\n► Pipe freezing\n133"
+      }
+    },
+    {
+      "id": "c209-p138-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which set lists the dryer types in the course?",
+      "answer": "Refrigeration, chemical, and regenerative desiccant",
+      "options": [
+        "Refrigeration, chemical, and regenerative desiccant",
+        "Needle, globe, and gate",
+        "Packed bore, packed spool, and lapped spool",
+        "Vane, axial, and radial"
+      ],
+      "explanation": "Refrigeration, chemical, and regenerative desiccant. The course explains: Water Removal Dryer types Refrigeration Chemical Regenerative desiccant",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 138",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 138,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 138. Look for the explanation of Which set lists the dryer types in the course.",
+        "excerpt": "Water Removal\nDryer types\n► Refrigeration \n► Chemical\n► Regenerative desiccant \n138"
+      }
+    },
+    {
+      "id": "c209-p141-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which materials are used in a regenerative desiccant dryer?",
+      "answer": "Silica gel or aluminum oxide",
+      "options": [
+        "Silica gel or aluminum oxide",
+        "SAE motor oil",
+        "Copper wire",
+        "Filter drain water"
+      ],
+      "explanation": "Silica gel or aluminum oxide. The course explains: Water Removal Regenerative Desiccant Uses desiccant such as silica gel or aluminum oxide. Regenerating Best method = Most expensive Dew point -40 °F A31 A32",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 141",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 141,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 141. Look for the explanation of Which materials are used in a regenerative desiccant dryer.",
+        "excerpt": "Water Removal\nRegenerative Desiccant\n► Uses desiccant such as silica gel \nor aluminum oxide.\n► Regenerating \n► Best method = Most expensive\n► Dew point -40 °F \n141\nA31 A32"
+      }
+    },
+    {
+      "id": "c209-p142-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does an automatic pneumatic trap do?",
+      "answer": "Remove water continuously while minimizing air loss",
+      "options": [
+        "Remove water continuously while minimizing air loss",
+        "Store oil in the cylinder",
+        "Reverse the DCV",
+        "Increase supply voltage"
+      ],
+      "explanation": "Remove water continuously while minimizing air loss. The course explains: Water Removal Pneumatic Trap Automatic ➢ Works continuously ➢ Minimizes air loss ➢ Float-type https://www.youtube.com/watch?v=d6lIgiYWcfM Manual ➢ Discharged by opening or cracking a valve periodically. ➢ Wastes air and energy https://www.youtube.com/shorts/qh1Pf097ERI",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 142",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 142,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 142. Look for the explanation of What does an automatic pneumatic trap do.",
+        "excerpt": "Water Removal\nPneumatic Trap\n► Automatic\n➢ Works continuously \n➢ Minimizes air loss\n➢ Float-type\nhttps://www.youtube.com/watch?v=d6lIgiYWcfM\n► Manual\n➢ Discharged by opening or cracking a valve \nperiodically.\n➢ Wastes air and energy\nhttps://www.youtube.com/shorts/qh1Pf097ERI\n142"
+      }
+    },
+    {
+      "id": "c209-p144-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Why lubricate pneumatic components?",
+      "answer": "Reduce friction and heat",
+      "options": [
+        "Reduce friction and heat",
+        "Increase contamination",
+        "Block the exhaust",
+        "Raise dew point"
+      ],
+      "explanation": "Reduce friction and heat. The course explains: Lubrication Purpose Eliminate friction Reduce heat Methods Pre-lubrication (assembly lubrication) Self-lubrication Aerosol lubrication",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 144",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 144,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 144. Look for the explanation of Why lubricate pneumatic components.",
+        "excerpt": "Lubrication\nPurpose\n► Eliminate friction\n► Reduce heat \nMethods\n► Pre-lubrication (assembly \nlubrication)\n► Self-lubrication\n► Aerosol lubrication\n144"
+      }
+    },
+    {
+      "id": "c209-p147-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "How does aerosol lubrication distribute oil?",
+      "answer": "Mix oil with compressed air and carry it through the system",
+      "options": [
+        "Mix oil with compressed air and carry it through the system",
+        "Send oil through electrical wiring",
+        "Place dry beads in the air line",
+        "Store oil only in the pressure gauge"
+      ],
+      "explanation": "Mix oil with compressed air and carry it through the system. The course explains: Lubrication Aerosol Lubrication Mixes oil with compressed air Oil is carried throughout the system by air.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 147",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 147,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 147. Look for the explanation of How does aerosol lubrication distribute oil.",
+        "excerpt": "Lubrication\nAerosol Lubrication\n► Mixes oil with compressed air\n► Oil is carried throughout the \nsystem by air.\n147\nA45"
+      }
+    },
+    {
+      "id": "c209-p152-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Why use fine particles in a micro-aerosol lubricator?",
+      "answer": "They travel farther through the system",
+      "options": [
+        "They travel farther through the system",
+        "They stop all air movement",
+        "They increase dew point",
+        "They create electrical insulation"
+      ],
+      "explanation": "They travel farther through the system. The course explains: Lubrication Micro-Aerosol Produces fine particles Smaller particles travel further through the system. Larger particles are redirected back to the bowl.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 152",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 152,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 152. Look for the explanation of Why use fine particles in a micro-aerosol lubricator.",
+        "excerpt": "Lubrication\nMicro-Aerosol\n► Produces fine particles \n► Smaller particles travel further \nthrough the system.\n► Larger particles are redirected \nback to the bowl.\n152"
+      }
+    },
+    {
+      "id": "c209-p154-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "How are pressure gauges calibrated in the slides?",
+      "answer": "Compare readings with a dead-weight test machine",
+      "options": [
+        "Compare readings with a dead-weight test machine",
+        "Compare tubing color",
+        "Count motor revolutions",
+        "Measure valve lever length"
+      ],
+      "explanation": "Compare readings with a dead-weight test machine. The course explains: Calibration Gauges Gauges are only as good as their accuracy. Calibrated by checking readings against dead weight test machines. Smaller companies outsource their calibration needs. Calibration Video",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 154",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 154,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 154. Look for the explanation of How are pressure gauges calibrated in the slides.",
+        "excerpt": "Calibration\nGauges\n► Gauges are only as good as their \naccuracy.\n► Calibrated by checking readings \nagainst dead weight test \nmachines. \n► Smaller companies outsource \ntheir calibration needs. \n► Calibration Video\n154"
+      }
+    },
+    {
+      "id": "c209-p156-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which symptom can indicate a major air leak?",
+      "answer": "The compressor runs continuously or more frequently",
+      "options": [
+        "The compressor runs continuously or more frequently",
+        "The gauge scale changes color",
+        "The cylinder rod diameter grows",
+        "The motor changes phase sequence"
+      ],
+      "explanation": "The compressor runs continuously or more frequently. The course explains: Air Leaks Most Common Locations Flange connections Fittings Traps and drains Filters Hoses Operating valves If a compressor is cycling too frequently, the minimum pressure must be adjusted A40 A34 Filter",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 156",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 156,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 156. Look for the explanation of Which symptom can indicate a major air leak.",
+        "excerpt": "Air Leaks \nMost Common Locations\n► Flange connections\n► Fittings\n► Traps and drains\n► Filters\n► Hoses\n► Operating valves\n► If a compressor is cycling too \nfrequently, the minimum pressure \nmust be adjusted\n156\nA40 A34\nFilter\nA46"
       }
     }
   ]

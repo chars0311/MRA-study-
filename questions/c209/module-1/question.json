@@ -1,0 +1,524 @@
+{
+  "world": "pneumatic",
+  "topic": "Module 1 · Pneumatic Power Systems",
+  "mathQuestionIds": [],
+  "questions": [
+    {
+      "id": "q047",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What medium transmits power in a pneumatic system?",
+      "answer": "Air or another gas",
+      "options": [
+        "Air or another gas",
+        "Only hydraulic oil",
+        "Electric current only",
+        "A belt"
+      ],
+      "explanation": "Pneumatics uses compressed gas to perform work.",
+      "source": "p",
+      "section": "Introduction to Pneumatics",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 2. Look for Introduction to Pneumatics.",
+        "excerpt": "Introduction to Pneumatics\nDefinition\n► The use of air or other gases to perform \nwork.\nManufacturing\n► Robotics\n► Power Tools\n► Painting\nTransportation\n► Truck Brakes\n► Air Shock Absorbers\n► Vehicle Control Devices \nConstruction\n► Rock Drills\n► Pneumatic drill\n► Air Chisel\n2"
+      }
+    },
+    {
+      "id": "q048",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which component converts pneumatic power into mechanical motion?",
+      "answer": "Actuator",
+      "options": [
+        "Actuator",
+        "Filter",
+        "Supply hose",
+        "Storage tank"
+      ],
+      "explanation": "Cylinders create linear motion; air motors create rotary motion.",
+      "source": "p",
+      "section": "Basic Components: Power Output Devices",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 7. Look for Basic Components: Power Output Devices.",
+        "excerpt": "Basic Components\nPower Output Devices\n► The power output device is \nwhere pneumatic power is \nconverted to mechanical power.\n► These output devices are called \nActuators.\n► Actuators can either be cylinders, \nwhich produce linear motion.\n► Actuators can also be motors, \nwhich produce rotary motion.\n7"
+      }
+    },
+    {
+      "id": "q050",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What is the pressure regulator's main role?",
+      "answer": "Reduce and control downstream pressure",
+      "options": [
+        "Reduce and control downstream pressure",
+        "Increase air contamination",
+        "Store all exhaust air",
+        "Measure shaft speed"
+      ],
+      "explanation": "The regulator adjusts the pressure supplied to control and power circuits.",
+      "source": "p",
+      "section": "Pressure Regulator in a Circuit, slide 21",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 21,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 21. Look for Pressure Regulator in a Circuit, slide 21.",
+        "excerpt": "Pressure Regulator in a Circuit\n► As shown, the regulator with the pressure \ngauge us used to reduce the supply pressure \nto the control and power circuit of the \nmachine.\n► Normally it is located in the circuit between a \nfilter and the control valves.\n► A pressure regulator contains:\n► Adjustment knob\n► Spring (loading element)\n► Diaphragm or piston (sensing element)\n► Poppet/seat (control valve)\n► Optional relief valve\n► A needle valve is not one of these \ncomponents. It is a separate flow-control \ndevice, not a pressure-reducing \nmechanism.\n21\nA05"
+      }
+    },
+    {
+      "id": "q051",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does an air filter remove from supply air?",
+      "answer": "Particles and water droplets",
+      "options": [
+        "Particles and water droplets",
+        "All nitrogen",
+        "All pressure",
+        "Every gas molecule"
+      ],
+      "explanation": "Ambient air contains contaminants; the filter cleans particles and water droplets from it.",
+      "source": "p",
+      "section": "Air Filter, slide 22",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 22,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 22. Look for Air Filter, slide 22.",
+        "excerpt": "Air Filter\nFunction\n► The air used in pneumatics is ambient air. That \nmeans that the air can contain dust, \npollution, and other particles which are to \nsmall to see.\n► If a particle is large enough it can prevent \nclose fitting parts from working smoothly.\n► An air filter is a device designed to clean the \nair before it enters the pneumatic system. It \nwill also remove water droplets from the air \nsupply. \n► All pneumatic system should be installed with \none or more air filters to keep them working \nproperly.\n22"
+      }
+    },
+    {
+      "id": "visual-p-regulator",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "symbol",
+      "prompt": "Which pneumatic component does this symbol represent?",
+      "answer": "Pressure regulator",
+      "options": [
+        "Pressure regulator",
+        "Check valve",
+        "Double-acting cylinder",
+        "Air motor"
+      ],
+      "explanation": "The slide shows an adjustable spring, a pressure-sensing pilot line and the regulating flow path. These are features of the pressure-regulator symbol.",
+      "source": "p",
+      "section": "Introduction & basic components · PDF page 20",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "p-regulator",
+        "alt": "Course slide diagram for this question",
+        "page": 20
+      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 20,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 20. Look for Introduction & basic components · PDF page 20.",
+        "excerpt": "Pressure Regulators\nSchematic Symbol\nFlow Line -The flow line connecting the inlet \nand outlet shows that these ports are \nconnected.\nPilot Line - The dashed line represents a pilot \nline inside the valve body which senses \ndownstream pressure.\nSpring - the spring shows that it opposes \ndownstream pressure. *The arrow through \nthe spring shows that it is adjustable.*\nPressure Gauge - This regulator is shown with \na pressure gauge. Many regulators are \nmade with a port for a pressure gauge.\nSelf Bleeding - the triangle on the inlet side \nshows that this regulator is self bleeding \n(venting). This means it automatically drops \nthe outlet pressure when the pressure \nadjustment is decreased.\nSpring\nPressure \nGauge\nPilot Line\nFlow Line\nSelf \nBleeding \nFeature\n20"
+      }
+    },
+    {
+      "id": "c209-p5-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which three components make up the pneumatic power input device?",
+      "answer": "Electric motor, compressor, and storage tank",
+      "options": [
+        "Electric motor, compressor, and storage tank",
+        "Cylinder, valve, and muffler",
+        "Filter, regulator, and lubricator",
+        "Motor, transformer, and relay"
+      ],
+      "explanation": "Electric motor, compressor, and storage tank. The course explains: Basic Components Power Input device Most pneumatic power input devices consist of: Electric motor Compressor Storage tank Supply line The electric motor turns the pump, or air compressor. The compressor draws ambient air and compresses it. Compressed air is stored in a tank and transported via supply lines throughout the system.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 5",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 5. Look for the explanation of Which three components make up the pneumatic power input device.",
+        "excerpt": "Basic Components\nPower Input device\n► Most pneumatic power input devices \nconsist of:\n► Electric motor\n► Compressor\n► Storage tank \n► Supply line\n► The electric motor turns the pump, or air \ncompressor.\n► The compressor draws ambient air and \ncompresses it.\n► Compressed air is stored in a tank and \ntransported via supply lines throughout the \nsystem. \n5"
+      }
+    },
+    {
+      "id": "c209-p6-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which device controls direction, pressure, or flow in a pneumatic circuit?",
+      "answer": "Valve",
+      "options": [
+        "Valve",
+        "Actuator",
+        "Storage tank",
+        "Supply hose"
+      ],
+      "explanation": "Valve. The course explains: Basic Components Control Devices Valves control direction, pressure, and flow of the pressurized gas in the actuator lines of the pneumatic system. Three examples of the many types of valves are: Flow control valves Directional control valves Pressure regulator valves",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 6",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 6,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 6. Look for the explanation of Which device controls direction, pressure, or flow in a pneumatic circuit.",
+        "excerpt": "Basic Components\nControl Devices\n► Valves control direction, pressure, \nand flow of the pressurized gas in \nthe actuator lines of the \npneumatic system.\n► Three examples of the many \ntypes of valves are:\n► Flow control valves\n► Directional control valves\n► Pressure regulator valves\n6"
+      }
+    },
+    {
+      "id": "c209-p8-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What connects the air supply to the rest of the pneumatic circuit?",
+      "answer": "Supply line",
+      "options": [
+        "Supply line",
+        "Exhaust port",
+        "Piston rod",
+        "Pilot spring"
+      ],
+      "explanation": "Supply line. The course explains: Basic Components Conductors Conductors (hose/pipe) are needed to transmit air between pneumatic system components. The Supply Line connects the compressed air source to the control devices. The Actuator line carries the air to and from the control devices to the actuator. Returned air is exhausted back into the atmosphere through an exhaust port.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 8",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 8,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 8. Look for the explanation of What connects the air supply to the rest of the pneumatic circuit.",
+        "excerpt": "Basic Components\nConductors\n► Conductors (hose/pipe) are \nneeded to transmit air between \npneumatic system components.\n► The Supply Line connects the \ncompressed air source to the \ncontrol devices.\n► The Actuator line carries the air to \nand from the control devices to the \nactuator.\n► Returned air is exhausted back into \nthe atmosphere through an exhaust \nport. \n8"
+      }
+    },
+    {
+      "id": "c209-p12-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does a pneumatic pressure gauge indicate?",
+      "answer": "System pressure",
+      "options": [
+        "System pressure",
+        "Air flow rate",
+        "Cylinder speed",
+        "Tank volume"
+      ],
+      "explanation": "System pressure. The course explains: Pressure Gauges Functionality Indicates the amount of pressure in a pneumatic system. Technicians read these gauges to determine if the machine is operating properly. Most gauges have a face plate graduated in either US customary (Psi), or Si units (Pascals). A pointer rotates around the scaled face plate as the pressure changes to indicate the pressure in the system. Pressure Gauge error Manufacturers state the error of the gauge in their catalogs as a percent of the full scale reading. A small percentage of gauge error is always possible.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 12",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 12. Look for the explanation of What does a pneumatic pressure gauge indicate.",
+        "excerpt": "Pressure Gauges\nFunctionality\n► Indicates the amount of pressure in a \npneumatic system.\n► Technicians read these gauges to \ndetermine if the machine is operating \nproperly.\n► Most gauges have a face plate \ngraduated in either US customary (Psi), or \nSi units (Pascals).\n► A pointer rotates around the scaled face \nplate as the pressure changes to \nindicate the pressure in the system. \nPressure Gauge error\n► Manufacturers state the error of the \ngauge in their catalogs as a percent of \nthe full scale reading.\n► A small percentage of gauge error is \nalways possible.\n12"
+      }
+    },
+    {
+      "id": "c209-p14-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which organizations are listed for pneumatic schematic symbol standards?",
+      "answer": "NFPA, ANSI, and ISO",
+      "options": [
+        "NFPA, ANSI, and ISO",
+        "OSHA, NEC, and UL",
+        "SAE, NEMA, and IEEE",
+        "EPA, DOT, and FCC"
+      ],
+      "explanation": "NFPA, ANSI, and ISO. The course explains: Standards Organizations The three standards most often referenced for symbols are those developed by the following organizations: National Fluid Power Association (NFPA) American National Standards Institute (ANSI) International Organization for Standardization (ISO) !!We Use All Three!!",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 14",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 14,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 14. Look for the explanation of Which organizations are listed for pneumatic schematic symbol standards.",
+        "excerpt": "Standards Organizations\n► The three standards most often \nreferenced for symbols are those \ndeveloped by the following \norganizations:\n► National Fluid Power \nAssociation (NFPA)\n► American National Standards \nInstitute (ANSI)\n► International Organization for \nStandardization (ISO)\n!!We Use All Three!!\n14"
+      }
+    },
+    {
+      "id": "c209-p15-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which practice follows the compressed-air safety rules in this course?",
+      "answer": "Secure hoses and keep compressed air away from the body",
+      "options": [
+        "Secure hoses and keep compressed air away from the body",
+        "Use compressed air to clean skin",
+        "Aim air at the ear to check flow",
+        "Disconnect a hose while pressurized"
+      ],
+      "explanation": "Secure hoses and keep compressed air away from the body. The course explains: Safety Rules Do not point compressed air at eyes, ears, nose, mouth, or skin. Properly secure any hose or device that contains compressed ai to prevent whipping if the hose breaks. Use proper pressure when cleaning with air. Wear safety glasses. Use containers strong enough to safely hold compressed air. Avoid continuous noise pressure.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 15",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 15,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 15. Look for the explanation of Which practice follows the compressed-air safety rules in this course.",
+        "excerpt": "Safety Rules\n► Do not point compressed air at \neyes, ears, nose, mouth, or skin.\n► Properly secure any hose or \ndevice that contains compressed \nai to prevent whipping if the hose \nbreaks.\n► Use proper pressure when \ncleaning with air.\n► Wear safety glasses.\n► Use containers strong enough to \nsafely hold compressed air.\n► Avoid continuous noise pressure.\n15\nA47"
+      }
+    },
+    {
+      "id": "c209-p18-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which regulator component restricts airflow to control downstream pressure?",
+      "answer": "Poppet",
+      "options": [
+        "Poppet",
+        "Filter element",
+        "Cylinder piston seal",
+        "Lubricator wick"
+      ],
+      "explanation": "Poppet. The course explains: Pressure Regulators The poppet controls downstream pressure by restricting the airflow. The piston is attached to one end of the poppet to provide a surface for the spring to push on. The adjustment spring allows for smooth adjustment of the regulator. The adjustment knob changes the compression on the spring which controls the level of downstream pressure.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 18",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 18,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 18. Look for the explanation of Which regulator component restricts airflow to control downstream pressure.",
+        "excerpt": "Pressure Regulators\n► The poppet controls downstream pressure by \nrestricting the airflow.\n18\n► The piston is attached to one end of the \npoppet to provide a surface for the spring to \npush on.\n► The adjustment spring allows for smooth \nadjustment of the regulator.\n► The adjustment knob changes the compression \non the spring which controls the level of \ndownstream pressure."
+      }
+    },
+    {
+      "id": "c209-p19-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does the regulator pilot hole allow outlet pressure to act on?",
+      "answer": "Piston",
+      "options": [
+        "Piston",
+        "Exhaust muffler",
+        "Filter deflector",
+        "Cylinder rod"
+      ],
+      "explanation": "Piston. The course explains: Pressure Regulators Vent holes keep the pressure from building too high inside the regulator. The pilot hole allows the outlet pressure to push on the bottom of the piston.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 19",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 19,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 19. Look for the explanation of What does the regulator pilot hole allow outlet pressure to act on.",
+        "excerpt": "Pressure Regulators\n► Vent holes keep the pressure from \nbuilding too high inside the regulator.\n► The pilot hole allows the outlet \npressure to push on the bottom of \nthe piston.\n19"
+      }
+    },
+    {
+      "id": "c209-p23-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What is the purpose of the filter deflector plate?",
+      "answer": "Spin the incoming air",
+      "options": [
+        "Spin the incoming air",
+        "Store compressed air",
+        "Lubricate the cylinder",
+        "Open the regulator poppet"
+      ],
+      "explanation": "Spin the incoming air. The course explains: Air Filter Inlet Port – Air enters filter through inlet port. Deflector Plate – The deflector plate causes the air to spin inside the filter bowl. Filter element – The filter element traps the remaining small particles. Baffle – The baffle controls the path of the air flow. Bowl – The bowl collects the water and dirt particles and serves as the outer casing of the air filter. Manual drain – The drain plug allows the collected water and dirt particles to be drained. Water should be drained before it reaches the bottom of the baffle. Outlet Port – The air exits the filter through the outlet port. Inlet Port Outlet Port Deflector Plate Filter Element Baffle Bowl Manual Drain A01 A38",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 23",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 23,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 23. Look for the explanation of What is the purpose of the filter deflector plate.",
+        "excerpt": "Air Filter\n► Inlet Port – Air enters filter through inlet \nport.\n► Deflector Plate – The deflector plate \ncauses the air to spin inside the filter \nbowl.\n► Filter element – The filter element traps \nthe remaining small particles. \n► Baffle – The baffle controls the path of \nthe air flow. \n► Bowl – The bowl collects the water and \ndirt particles and serves as the outer \ncasing of the air filter.\n► Manual drain – The drain plug allows the \ncollected water and dirt particles to be \ndrained. Water should be drained \nbefore it reaches the bottom of the \nbaffle.\n► Outlet Port – The air exits the filter \nthrough the outlet port.\nInlet Port Outlet Port\nDeflector \nPlate\nFilter \nElement\nBaffle\nBowl\nManual Drain\n23\nA01 A38"
+      }
+    },
+    {
+      "id": "c209-p24-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "When is a quick-connect fitting especially useful?",
+      "answer": "A hose must be disconnected frequently",
+      "options": [
+        "A hose must be disconnected frequently",
+        "A permanent welded joint is needed",
+        "A cylinder must change stroke",
+        "A motor must change voltage"
+      ],
+      "explanation": "A hose must be disconnected frequently. The course explains: Quick-Connect Fittings Quick Connect fittings are used where it is necessary to frequently disconnect a hose. A quick connect fitting consists of: Male fitting Female connect These two fittings snap together without any special tools.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 24",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 24,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 24. Look for the explanation of When is a quick-connect fitting especially useful.",
+        "excerpt": "Quick-Connect Fittings\n► Quick Connect fittings are used \nwhere it is necessary to frequently \ndisconnect a hose.\n► A quick connect fitting consists of:\n► Male fitting\n► Female connect\n► These two fittings snap together \nwithout any special tools.\n24\n"
+      }
+    },
+    {
+      "id": "c209-p25-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does a tee fitting connect to a supply line?",
+      "answer": "Two branch circuits",
+      "options": [
+        "Two branch circuits",
+        "Three branch circuits",
+        "No branch circuits",
+        "Only an exhaust muffler"
+      ],
+      "explanation": "Two branch circuits. The course explains: Tee and Cross Fittings Symbol Connects two different circuits to the same supply line. Uses a single fitting called a tee. A tee symbol is use to show the branching connections in a pneumatic circuit. Gauge Block Tees Gauge block tees do the same thing as loose fitting tees. Machined from blocks of aluminum. Tees are often directly connected to pressure gauges because they allow easy connection of a pressure gauge to monitor the pressure in a line.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 25",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 25,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 25. Look for the explanation of What does a tee fitting connect to a supply line.",
+        "excerpt": "Tee and Cross Fittings\nSymbol\n► Connects two different circuits to the same \nsupply line.\n► Uses a single fitting called a tee.\n► A tee symbol is use to show the branching \nconnections in a pneumatic circuit.\nGauge Block Tees\n► Gauge block tees do the same thing as loose \nfitting tees.\n► Machined from blocks of aluminum.\n► Tees are often directly connected to pressure \ngauges because they allow easy connection \nof a pressure gauge to monitor the pressure in a \nline.\n25"
+      }
+    },
+    {
+      "id": "c209-p26-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "How many branch circuits can a cross fitting connect to the supply?",
+      "answer": "Three",
+      "options": [
+        "Three",
+        "Two",
+        "One",
+        "Four"
+      ],
+      "explanation": "Three. The course explains: Cross Fitting A cross is shaped like a plus sign and is used to provide connections to three branch circuits instead of two. The cross symbol is used to show connections to three branch circuits.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 26",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 26,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 26. Look for the explanation of How many branch circuits can a cross fitting connect to the supply.",
+        "excerpt": "Cross Fitting\n► A cross is shaped like a plus sign and is \nused to provide connections to three \nbranch circuits instead of two.\n► The cross symbol is used to show \nconnections to three branch circuits. \n26"
+      }
+    },
+    {
+      "id": "c209-p29-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What do piston seals separate in a double-acting cylinder?",
+      "answer": "The two cylinder chambers",
+      "options": [
+        "The two cylinder chambers",
+        "The supply and storage tank",
+        "The motor and compressor",
+        "The regulator inlet and vent"
+      ],
+      "explanation": "The two cylinder chambers. The course explains: Double-Acting Pneumatic Cylinder Piston seals – piston seals are used to separate the chambers of the cylinder. These seals allow pressure to build and reduce leakage inside the cylinder. Rod seals – A flexible seal, called a rod seal, is placed around the piston rod to prevent external leakage. Rod bushing – a bushing holds the piston in place and helps support the rod as it extends. Piston Seal Rod seal Bushing",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 29",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 29,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 29. Look for the explanation of What do piston seals separate in a double-acting cylinder.",
+        "excerpt": "Double-Acting Pneumatic Cylinder\nPiston seals – piston seals are used to \nseparate the chambers of the cylinder. \nThese seals allow pressure to build and \nreduce leakage inside the cylinder. \nRod seals – A flexible seal, called a rod \nseal, is placed around the piston rod to \nprevent external leakage.\nRod bushing – a bushing holds the piston \nin place and helps support the rod as it \nextends. \nPiston Seal\nRod seal\nBushing\n29"
+      }
+    },
+    {
+      "id": "c209-p33-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does each envelope in a DCV symbol represent?",
+      "answer": "One possible valve position",
+      "options": [
+        "One possible valve position",
+        "One actuator speed",
+        "One filter element",
+        "One pressure measurement"
+      ],
+      "explanation": "One possible valve position. The course explains: Directional Control Valves Schematic Each envelope represents a possible valve position. DCV classification is by the number of ports and number of positions. This valve for example is a 2/2 DCV because in addition to the two positions its also has 2 ports for fluid flow.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 33",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 33,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 33. Look for the explanation of What does each envelope in a DCV symbol represent.",
+        "excerpt": "Directional Control Valves\nSchematic\n► Each envelope represents a \npossible valve position.\n► DCV classification is by the \nnumber of ports and number of \npositions.\n► This valve for example is a 2/2 \nDCV because in addition to the \ntwo positions its also has 2 ports \nfor fluid flow.\n33"
+      }
+    },
+    {
+      "id": "c209-p36-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Which DCV port is connected to the air supply?",
+      "answer": "P",
+      "options": [
+        "P",
+        "A",
+        "B",
+        "EA"
+      ],
+      "explanation": "P. The course explains: 5-Port, 3-Postion DCV Valve body – the valve body has ports to provide flow paths for the fluid. Each of the ports is labeled according to its connection. Operator – The operator is the device that moves the spool. An operator can be a lever, electrical solenoid, a manual push button, or other control device. Spool – The spool is designed with lands that channel the flow through he valve to specific ports. Shifting positions changes flow paths. Springs – a 3-postion valve usually has a spring on either side of the spool to position it in the middle when not energized. P-Port E-Ports A/B-PortsSprings Operator Body",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 36",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 36,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 36. Look for the explanation of Which DCV port is connected to the air supply.",
+        "excerpt": "5-Port, 3-Postion DCV\nValve body – the valve body has ports \nto provide flow paths for the fluid. Each \nof the ports is labeled according to its \nconnection.\nOperator – The operator is the device \nthat moves the spool. An operator can \nbe a lever, electrical solenoid, a manual \npush button, or other control device.\nSpool – The spool is designed with lands \nthat channel the flow through he valve \nto specific ports. Shifting positions \nchanges flow paths.\nSprings – a 3-postion valve usually has a \nspring on either side of the spool to \nposition it in the middle when not \nenergized. \nP-Port\nE-Ports\nA/B-PortsSprings\nOperator\nBody\n36"
+      }
+    },
+    {
+      "id": "c209-p37-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What happens in the blocked center position of the 5/3 valve shown in the course?",
+      "answer": "All ports are blocked and the cylinder holds position",
+      "options": [
+        "All ports are blocked and the cylinder holds position",
+        "Both cylinder ports receive unrestricted supply",
+        "The rod always extends",
+        "All ports are connected to exhaust"
+      ],
+      "explanation": "All ports are blocked and the cylinder holds position. The course explains: 5-Port, 3-Postion DCV A 5/3 DCV is usually connected to air cylinder so that port A extends the rod and port B s it. P connects to the air supply, and EA and EB exhaust to the atmosphere. When the spool is in the middle position, air flow is blocked between all ports. This causes the cylinder to hold its position.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 37",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 37,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 37. Look for the explanation of What happens in the blocked center position of the 5/3 valve shown in the course.",
+        "excerpt": "5-Port, 3-Postion DCV\n► A 5/3 DCV is usually connected to air \ncylinder so that port A extends the rod and \nport B s it. P connects to the air supply, and \nEA and EB exhaust to the atmosphere.\n► When the spool is in the middle position, air \nflow is blocked between all ports. This \ncauses the cylinder to hold its position. \n37"
+      }
+    },
+    {
+      "id": "visual-p-double",
+      "world": "pneumatic",
+      "type": "symbol",
+      "prompt": "Which cylinder construction is illustrated?",
+      "answer": "Double-acting cylinder",
+      "options": [
+        "Double-acting cylinder",
+        "Single-acting spring-return cylinder",
+        "Pneumatic motor",
+        "Pressure regulator"
+      ],
+      "explanation": "Double-acting cylinder. Look at the symbol features shown in the diagram and compare them with the descriptions on the source slide.",
+      "source": "p",
+      "section": "Slide 28",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-slide-28-7",
+        "alt": "Original pneumatic component diagram from the course slide"
+      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 28,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 28. Compare the diagram with the component description.",
+        "excerpt": "Double-Acting Pneumatic Cylinder\n► A pneumatic cylinder consists of a \npiston/rod assembly that moves inside a \nbarrel-shaped body.\n► The rod of the cylinder is attached to part \nof the machine and transmits the \nmechanical force into straight line motion.\n► The piston is the part on which the fluid \nexerts its pressure. It converts fluid power to \nmechanical power.\n► The most common type if cylinder is a \ndouble-acting cylinder.\n► Consists of two ports.\n► When pressurized air enters the cap end, \nthe cylinder rod extends\n► When pressure enters the rod end, it \nretracts.\n28"
+      }
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 {
   "world": "pneumatic",
   "topic": "Module 4 · Pneumatic Speed Control Circuits",
-  "mathQuestionIds": [],
+  "mathQuestionIds": [
+    "c209-math-flow"
+  ],
   "questions": [
     {
       "id": "q053",
@@ -19,17 +21,11 @@
       "source": "p",
       "section": "Meter-Out Flow Control, slide 84",
       "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/p-84.jpg",
-          "page": 84,
-          "title": "C209 Pneumatic Systems.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 84,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "• Controls speed by restricting the flow of air leaving the actuator. https://www.youtube.com/watch?v=4eCuPVxezzY 84"
+        "text": "Review C209 Pneumatic Systems.pdf, slide 84. Look for Meter-Out Flow Control, slide 84.",
+        "excerpt": "METER-OUT FLOW CONTROL \n• Controls speed by restricting the flow of air leaving the actuator.\nhttps://www.youtube.com/watch?v=4eCuPVxezzY\n84"
       }
     },
     {
@@ -48,52 +44,279 @@
       "source": "p",
       "section": "Independent Speed Control, slide 87",
       "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/p-87.jpg",
-          "page": 87,
-          "title": "C209 Pneumatic Systems.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 87,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "INDEPENDENT SPEED CONTROL • This is when an actuators speed must be adjusted independently in each direction. • Slow approach/fast reset • Matching retraction and extension speeds. • In pneumatic systems, slowing a cylinder is achieved by restricting the exhau…"
+        "text": "Review C209 Pneumatic Systems.pdf, slide 87. Look for Independent Speed Control, slide 87.",
+        "excerpt": "INDEPENDENT SPEED CONTROL\n• This is when an actuators speed must be adjusted \nindependently in each direction.\n• Slow approach/fast reset\n• Matching retraction and extension speeds.\n• In pneumatic systems, slowing a cylinder is \nachieved by restricting the exhaust air flow rather \nthan the incoming air.\n• This technique is called meter-out control, where \nthe flow control valve is placed on the exhaust \nside of the actuator.\n• By switching to a slower flow control speed, the \ncylinder’s motion becomes smoother and more \ncontrolled during deceleration.\n87"
+      }
+    },
+    {
+      "id": "c209-p76-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "How does a needle valve restrict flow?",
+      "answer": "In both directions",
+      "options": [
+        "In both directions",
+        "In only one direction with free reverse flow",
+        "Only when the air is dry",
+        "Only at an exhaust muffler"
+      ],
+      "explanation": "In both directions. The course explains: NEEDLE VALVE Consists of two ports with a connecting passage. A needle valve is bi-directional. Creates restriction regardless of direction of air flow.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 76",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 76,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 76. Look for the explanation of How does a needle valve restrict flow.",
+        "excerpt": "NEEDLE VALVE\n• Consists of two ports with a connecting \npassage.\n• A needle valve is bi-directional.\n• Creates restriction regardless of \ndirection of air flow.\n76\n"
+      }
+    },
+    {
+      "id": "c209-p77-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does airflow rate describe?",
+      "answer": "Air volume passing a point per unit time",
+      "options": [
+        "Air volume passing a point per unit time",
+        "Force per unit area",
+        "Cylinder stroke length",
+        "Air temperature per unit pressure"
+      ],
+      "explanation": "Air volume passing a point per unit time. The course explains: FLOW RATE Flow rate of air indicates the amount of air that passes through a system or past a point in a specific time period. In pneumatics flow is most often measure by volume.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 77",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 77,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 77. Look for the explanation of What does airflow rate describe.",
+        "excerpt": "FLOW RATE\n• Flow rate of air indicates the amount of air \nthat passes through a system or past a point in \na specific time period.\n• In pneumatics flow is most often measure by \nvolume.\n77"
+      }
+    },
+    {
+      "id": "c209-p80-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "How is the lab rotameter read?",
+      "answer": "Use the ball position against the calibrated scale",
+      "options": [
+        "Use the ball position against the calibrated scale",
+        "Count the cylinder cycles",
+        "Read the regulator spring turns",
+        "Measure the hose diameter"
+      ],
+      "explanation": "Use the ball position against the calibrated scale. The course explains: Rotameters Consists of an acrylic tube and ball. Ball is the required size and weight to match the calibration for standard flow. To read the rotameter, observe where the middle of the ball meets the scale",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 80",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 80,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 80. Look for the explanation of How is the lab rotameter read.",
+        "excerpt": "Rotameters\n• Consists of an acrylic tube and ball.\n• Ball is the required size and weight to match \nthe calibration for standard flow.\n• To read the rotameter, observe where the \nmiddle of the ball meets the scale\n80"
+      }
+    },
+    {
+      "id": "c209-p81-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does a check valve do?",
+      "answer": "Allow flow one way and block reverse flow",
+      "options": [
+        "Allow flow one way and block reverse flow",
+        "Restrict equally in both directions",
+        "Regulate pressure both ways",
+        "Hold all ports blocked"
+      ],
+      "explanation": "Allow flow one way and block reverse flow. The course explains: CHECK VALVES Common Types Ball Poppet Free-Flow Non-Free Flow Considered a one-way DCV. Allows flow in one direction, but blocks flow in the opposite direction. Applications include: Holding press. in receiver Bypassing components Quick-connect fittings Ultrasonic: Use sound waves to calculate fluid velocity non-intrusively or inline. Turbine: Use an internal spinning rotor whose speed matches the fluid velocity. Variable Area (Rotameters)",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 81",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 81,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 81. Look for the explanation of What does a check valve do.",
+        "excerpt": "CHECK VALVES\nCommon Types\n• Ball\n• Poppet\nFree-Flow\nNon-Free Flow\n81\n• Considered a one-way DCV.\n• Allows flow in one direction, but \nblocks flow in the opposite direction. \n• Applications include:\n• Holding press. in receiver\n• Bypassing components\n• Quick-connect fittings\n•Ultrasonic: Use sound waves to calculate fluid velocity non-intrusively or inline.\n•Turbine: Use an internal spinning rotor whose speed matches the fluid velocity.\n•Variable Area (Rotameters)"
+      }
+    },
+    {
+      "id": "c209-p82-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What distinguishes a flow-control valve from a basic needle valve?",
+      "answer": "A check-valve bypass permits free flow in one direction",
+      "options": [
+        "A check-valve bypass permits free flow in one direction",
+        "It has no adjustable restriction",
+        "It converts air into rotary motion",
+        "It stores air in a tank"
+      ],
+      "explanation": "A check-valve bypass permits free flow in one direction. The course explains: FLOW CONTROL VALVES Inlet Outlet Spring Check valve poppet/ball Adjustment Screw A18A16 A27A17 Restricted Flow Unrestricted Flow Restricts flow in one direction and allows free flow in the other. Used with bi-directional actuators to make speed different from one direction to the other. A flow control valve is a combinaton of needle valve and a check valve",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 82",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 82,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 82. Look for the explanation of What distinguishes a flow-control valve from a basic needle valve.",
+        "excerpt": "FLOW CONTROL VALVES\nInlet Outlet\nSpring Check valve \npoppet/ball\nAdjustment Screw\n82\nA18A16 A27A17\nRestricted Flow\nUnrestricted Flow\n• Restricts flow in one direction and allows free flow in \nthe other.\n• Used with bi-directional actuators to make speed \ndifferent from one direction to the other.\nA flow control valve is a \ncombinaton of needle valve \nand a check valve"
+      }
+    },
+    {
+      "id": "c209-p83-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "What does meter-in control restrict?",
+      "answer": "Air entering the actuator",
+      "options": [
+        "Air entering the actuator",
+        "Air leaving the actuator",
+        "Compressor electrical current",
+        "The piston rod area"
+      ],
+      "explanation": "Air entering the actuator. The course explains: METER-IN FLOW CONTROL A flow-control valve placed at the inlet of an actuator is called a meter-in flow control circuit. Meter-in circuit can be used to control the extend or speed. Meter-in should be used only to control speeds when a  opposes movement.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 83",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 83,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 83. Look for the explanation of What does meter-in control restrict.",
+        "excerpt": "METER-IN FLOW CONTROL\n• A flow-control valve placed at the inlet of an \nactuator is called a meter-in flow control circuit.\n• Meter-in circuit can be used to control the extend or  \nspeed.\n• Meter-in should be used only to control speeds \nwhen a  opposes movement.\n83"
+      }
+    },
+    {
+      "id": "c209-p85-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Where is a valve installed for exhaust-port speed control?",
+      "answer": "At the DCV exhaust port",
+      "options": [
+        "At the DCV exhaust port",
+        "Across the pressure gauge",
+        "Inside the compressor motor",
+        "In the regulator pilot hole"
+      ],
+      "explanation": "At the DCV exhaust port. The course explains: EXHAUST PORT SPEED CONTROL Most pneumatic DCV’s have exhaust ports which allow lines to be connected. A speed control valve is placed within this line. Commonly used with single-acting cylinders to control return speed.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 85",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 85,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 85. Look for the explanation of Where is a valve installed for exhaust-port speed control.",
+        "excerpt": "EXHAUST PORT SPEED CONTROL\n• Most pneumatic DCV’s have exhaust ports \nwhich allow lines to be connected.\n• A speed control valve is placed within this line.\n• Commonly used with single-acting cylinders to \ncontrol return speed. \n85"
+      }
+    },
+    {
+      "id": "c209-p86-concept",
+      "world": "pneumatic",
+      "type": "quiz",
+      "prompt": "Where is the restriction installed for pressure-port speed control?",
+      "answer": "In the supply line to the DCV",
+      "options": [
+        "In the supply line to the DCV",
+        "Only on the cylinder rod",
+        "Inside a muffler after every fitting",
+        "Across the storage tank gauge"
+      ],
+      "explanation": "In the supply line to the DCV. The course explains: PRESSURE PORT SPEED CONTROL Another method of speed control places a needle valve or flow control valve in the pressure line of the DCV. In a bi-directional application, speed is affected in both directions. Used in double-acting cylinder applications.",
+      "source": "p",
+      "section": "C209 Pneumatic Systems, slide 86",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 86,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 86. Look for the explanation of Where is the restriction installed for pressure-port speed control.",
+        "excerpt": "PRESSURE PORT SPEED CONTROL\n• Another method of speed control places a needle valve or flow control valve in the \npressure line of the DCV.\n• In a bi-directional application, speed is affected in both directions.\n• Used in double-acting cylinder applications.\n86"
+      }
+    },
+    {
+      "id": "c209-p76-diagram",
+      "world": "pneumatic",
+      "type": "symbol",
+      "prompt": "Which component does this adjustable restriction symbol represent?",
+      "answer": "Needle valve",
+      "options": [
+        "Needle valve",
+        "Check valve",
+        "Shuttle valve",
+        "Air motor"
+      ],
+      "explanation": "Needle valve. The course explains: NEEDLE VALVE Consists of two ports with a connecting passage. A needle valve is bi-directional. Creates restriction regardless of direction of air flow.",
+      "source": "p",
+      "section": "Slide 76",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-slide-76-7",
+        "alt": "Original pneumatic component diagram from the course slide"
+      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 76,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 76. Compare the diagram with the component description.",
+        "excerpt": "NEEDLE VALVE\n• Consists of two ports with a connecting \npassage.\n• A needle valve is bi-directional.\n• Creates restriction regardless of \ndirection of air flow.\n76\n"
       }
     },
     {
       "id": "visual-p-check",
       "world": "pneumatic",
-      "topic": "Module 4 · Pneumatic Speed Control Circuits",
       "type": "symbol",
-      "prompt": "Which pneumatic valve does this symbol represent?",
+      "prompt": "Which component is represented by this one-way flow symbol?",
       "answer": "Check valve",
       "options": [
         "Check valve",
         "Needle valve",
-        "Pressure regulator",
-        "Shuttle valve"
+        "Shuttle valve",
+        "Pressure gauge"
       ],
-      "explanation": "The check valve permits flow in one direction and blocks flow in the opposite direction.",
+      "explanation": "Check valve. Look at the symbol features shown in the diagram and compare them with the descriptions on the source slide.",
       "source": "p",
-      "section": "Module 4 · Pneumatic Speed Control Circuits · PDF page 81",
+      "section": "Slide 81",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
       "diagram": {
         "kind": "slide-image",
-        "imageKey": "p-check",
-        "alt": "Course slide diagram for this question",
-        "page": 81
+        "imageKey": "c209-slide-81-8",
+        "alt": "Original pneumatic component diagram from the course slide"
       },
-      "reviewSlides": [
-        {
-          "url": "./review-slides/p-81.jpg",
-          "page": 81,
-          "title": "C209 Pneumatic Systems.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 81,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "blocks flow in the opposite direction. • Applications include: • Holding press. in receiver • Bypassing components • Quick-connect fittings •Ultrasonic: Use sound waves to calculate fluid velocity non-intrusively or inline. •Turbine: Use an internal spinning r…"
+        "text": "Review C209 Pneumatic Systems.pdf, slide 81. Compare the diagram with the component description.",
+        "excerpt": "CHECK VALVES\nCommon Types\n• Ball\n• Poppet\nFree-Flow\nNon-Free Flow\n81\n• Considered a one-way DCV.\n• Allows flow in one direction, but \nblocks flow in the opposite direction. \n• Applications include:\n• Holding press. in receiver\n• Bypassing components\n• Quick-connect fittings\n•Ultrasonic: Use sound waves to calculate fluid velocity non-intrusively or inline.\n•Turbine: Use an internal spinning rotor whose speed matches the fluid velocity.\n•Variable Area (Rotameters)"
+      }
+    },
+    {
+      "id": "c209-p82-diagram",
+      "world": "pneumatic",
+      "type": "symbol",
+      "prompt": "What do the restriction and check valve in one body represent?",
+      "answer": "Flow-control valve",
+      "options": [
+        "Flow-control valve",
+        "Pressure regulator",
+        "Shuttle valve",
+        "Air filter"
+      ],
+      "explanation": "Flow-control valve. The course explains: FLOW CONTROL VALVES Inlet Outlet Spring Check valve poppet/ball Adjustment Screw A18A16 A27A17 Restricted Flow Unrestricted Flow Restricts flow in one direction and allows free flow in the other. Used with bi-directional actuators to make speed different from one direction to the other. A flow control valve is a combinaton of needle valve and a check valve",
+      "source": "p",
+      "section": "Slide 82",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-slide-82-7",
+        "alt": "Original pneumatic component diagram from the course slide"
+      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 82,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 82. Compare the diagram with the component description.",
+        "excerpt": "FLOW CONTROL VALVES\nInlet Outlet\nSpring Check valve \npoppet/ball\nAdjustment Screw\n82\nA18A16 A27A17\nRestricted Flow\nUnrestricted Flow\n• Restricts flow in one direction and allows free flow in \nthe other.\n• Used with bi-directional actuators to make speed \ndifferent from one direction to the other.\nA flow control valve is a \ncombinaton of needle valve \nand a check valve"
       }
     }
   ]
