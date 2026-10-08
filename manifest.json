@@ -131,42 +131,6 @@
       "path": "questions/c205/module-7/question.json"
     },
     {
-      "id": "c209/section-01",
-      "world": "pneumatic",
-      "topic": "Introduction & basic components",
-      "path": "questions/c209/section-01/question.json"
-    },
-    {
-      "id": "c209/section-02",
-      "world": "pneumatic",
-      "topic": "Cylinders & directional control valves",
-      "path": "questions/c209/section-02/question.json"
-    },
-    {
-      "id": "c209/module-4",
-      "world": "pneumatic",
-      "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "path": "questions/c209/module-4/question.json"
-    },
-    {
-      "id": "c209/module-5",
-      "world": "pneumatic",
-      "topic": "Module 5 · Pneumatic DCV Applications",
-      "path": "questions/c209/module-5/question.json"
-    },
-    {
-      "id": "c209/module-6",
-      "world": "pneumatic",
-      "topic": "Module 6 · Air Logic",
-      "path": "questions/c209/module-6/question.json"
-    },
-    {
-      "id": "c209/module-7",
-      "world": "pneumatic",
-      "topic": "Module 7 · Automatic Input Devices 1",
-      "path": "questions/c209/module-7/question.json"
-    },
-    {
       "id": "c210/section-01",
       "world": "mechanical",
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
@@ -267,6 +231,48 @@
       "world": "conveyor",
       "topic": "Splice limitations & troubleshooting",
       "path": "questions/conveyors/section-06/question.json"
+    },
+    {
+      "id": "c209/module-1",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "path": "questions/c209/module-1/question.json"
+    },
+    {
+      "id": "c209/module-2",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "path": "questions/c209/module-2/question.json"
+    },
+    {
+      "id": "c209/module-3",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "path": "questions/c209/module-3/question.json"
+    },
+    {
+      "id": "c209/module-4",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "path": "questions/c209/module-4/question.json"
+    },
+    {
+      "id": "c209/module-5",
+      "world": "pneumatic",
+      "topic": "Module 5 · Pneumatic DCV Applications",
+      "path": "questions/c209/module-5/question.json"
+    },
+    {
+      "id": "c209/module-6",
+      "world": "pneumatic",
+      "topic": "Module 6 · Air Logic",
+      "path": "questions/c209/module-6/question.json"
+    },
+    {
+      "id": "c209/module-7",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "path": "questions/c209/module-7/question.json"
     }
   ]
 }
