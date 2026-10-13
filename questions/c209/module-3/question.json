@@ -5,7 +5,12 @@
     "c209-math-force",
     "c209-math-pressure",
     "c209-math-retract",
-    "c209-math-leverage"
+    "c209-math-leverage",
+    "c209-math-diameter",
+    "c209-math-absolute",
+    "c209-math-boyle",
+    "c209-math-final-absolute",
+    "c209-math-final-pa"
   ],
   "questions": [
     {
@@ -55,29 +60,6 @@
       }
     },
     {
-      "id": "c209-p62-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "What does Pascal’s law state about pressure in a confined fluid?",
-      "answer": "Pressure acts equally throughout and in all directions",
-      "options": [
-        "Pressure acts equally throughout and in all directions",
-        "Pressure exists only at the inlet",
-        "Pressure decreases to zero at the outlet",
-        "Pressure acts only downward"
-      ],
-      "explanation": "Pressure acts equally throughout and in all directions. The course explains: Pascal’s Law Pascal’s Law States that in a confined container the same pressure exists throughout the entire volume of the fluid and acts perpendicular to all internal surfaces. Fluid flowing in a pipe is not confined because the pipe is not closed on all sides.",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 62",
-      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 62,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 62. Look for the explanation of What does Pascal’s law state about pressure in a confined fluid.",
-        "excerpt": "Pascal’s Law\nPascal’s Law\n► States that in a confined \ncontainer the same pressure \nexists throughout the entire \nvolume of the fluid and acts \nperpendicular to all internal \nsurfaces.\n► Fluid flowing in a pipe is not \nconfined because the pipe is \nnot closed on all sides.\n62\nA14"
-      }
-    },
-    {
       "id": "c209-p64-concept",
       "world": "pneumatic",
       "type": "quiz",
@@ -124,29 +106,6 @@
       }
     },
     {
-      "id": "c209-p69-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "At constant temperature, what happens when the volume of a fixed amount of air decreases?",
-      "answer": "Its absolute pressure increases",
-      "options": [
-        "Its absolute pressure increases",
-        "Its absolute pressure decreases",
-        "Its pressure must become zero",
-        "Its mass doubles"
-      ],
-      "explanation": "Its absolute pressure increases. The course explains: Pressure Boyle’s Law The air compressor creates air pressure by reducing its volume. The formula used to calculate the exact effect a change in volume has on pressure is called Boyle’s law Created by Robert Boyle in 1662. Pressure is inversely proportional to volume.",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 69",
-      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 69,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 69. Look for the explanation of At constant temperature, what happens when the volume of a fixed amount of air decreases.",
-        "excerpt": "Pressure\nBoyle’s Law\n► The air compressor creates air \npressure by reducing its volume.\n► The formula used to calculate \nthe exact effect a change in \nvolume has on pressure is called \nBoyle’s law\n► Created by Robert Boyle in 1662.\n► Pressure is inversely proportional \nto volume.\n69\nA11"
-      }
-    },
-    {
       "id": "c209-p70-concept",
       "world": "pneumatic",
       "type": "quiz",
@@ -190,6 +149,397 @@
         "page": 71,
         "text": "Review C209 Pneumatic Systems.pdf, slide 71. Look for the explanation of Which factors affect airflow through an opening in the slide example.",
         "excerpt": "Air Flow and Resistance\nExample\n► If two containers at different pressures are \nconnected together the air will flow from the \nhigher pressure container to the lower pressure \nwhen the valve is opened.\n► Rate of flow depends on:\n► Temperature \n► Difference in pressure \n► Size of orifice. \n71"
+      }
+    },
+    {
+      "id": "c209-p69-concept",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ At constant temperature, Boyle’s law states that pressure is what relative to volume?",
+      "answer": "Inversely proportional",
+      "options": [
+        "Inversely proportional",
+        "Directly proportional",
+        "Always equal",
+        "Independent"
+      ],
+      "explanation": "For a fixed quantity of gas at constant temperature, P1V1 = P2V2 using absolute pressure. Decreasing volume increases pressure.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 2,
+          "question": 1
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 69,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 1; C209 Pneumatic Systems.pdf, slide 69. For a fixed quantity of gas at constant temperature, P1V1 = P2V2 using absolute pressure. Decreasing volume increases pressure."
+      }
+    },
+    {
+      "id": "c209-teacher-absolute",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ At standard atmospheric pressure, which conversions from gauge to absolute pressure are correct?",
+      "answer": "All of the above",
+      "options": [
+        "All of the above",
+        "Add atmospheric pressure to gauge pressure",
+        "Add 14.7 psi to psig",
+        "Add 101.3 kPa to gauge kPa"
+      ],
+      "explanation": "All listed methods express Pabsolute = Pgauge + Patmospheric. The numerical values are the standard-atmosphere approximations used by the course.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 2,
+          "question": 2
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 65,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 2; C209 Pneumatic Systems.pdf, slide 65. All listed methods express Pabsolute = Pgauge + Patmospheric. The numerical values are the standard-atmosphere approximations used by the course."
+      }
+    },
+    {
+      "id": "c209-teacher-diameter",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ In F = P × 0.7854 × ___, what belongs in the blank for cylinder extension?",
+      "answer": "Piston diameter squared",
+      "options": [
+        "Piston diameter squared",
+        "Rod area",
+        "Annular area squared",
+        "Travel distance"
+      ],
+      "explanation": "A circular piston has area 0.7854D². Multiplying that area by pressure gives theoretical extension force.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 3,
+          "question": 3
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 60,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 3; C209 Pneumatic Systems.pdf, slide 60. A circular piston has area 0.7854D². Multiplying that area by pressure gives theoretical extension force."
+      }
+    },
+    {
+      "id": "c209-p62-concept",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ Pascal’s law says confined-fluid pressure is equal throughout and acts perpendicular to internal surfaces. True or false?",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "The pressure is transmitted equally and acts normal, or perpendicular, to the surfaces.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 3,
+          "question": 4
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 62,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 4; C209 Pneumatic Systems.pdf, slide 62. The pressure is transmitted equally and acts normal, or perpendicular, to the surfaces."
+      }
+    },
+    {
+      "id": "c209-teacher-pascal-parallel",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ Pascal’s law says pressure acts parallel to internal surfaces. True or false?",
+      "answer": "False",
+      "options": [
+        "False",
+        "True"
+      ],
+      "explanation": "Pressure acts perpendicular to a surface, not along the surface. Look for the direction of force in the Pascal’s law slide.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 4,
+          "question": 5
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 62,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 5; C209 Pneumatic Systems.pdf, slide 62. Pressure acts perpendicular to a surface, not along the surface. Look for the direction of force in the Pascal’s law slide."
+      }
+    },
+    {
+      "id": "c209-teacher-load",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ If actuator load changes, what happens to the pressure required to move it?",
+      "answer": "It also changes",
+      "options": [
+        "It also changes",
+        "It remains the same",
+        "It compensates the DCV",
+        "It always causes the vane to stall"
+      ],
+      "explanation": "The actuator must generate force sufficient to oppose its load. For fixed effective area, required pressure follows P = F/A.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 4,
+          "question": 6
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 59,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 6; C209 Pneumatic Systems.pdf, slide 59. The actuator must generate force sufficient to oppose its load. For fixed effective area, required pressure follows P = F/A."
+      }
+    },
+    {
+      "id": "c209-final-si",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ Which unit commonly appears on SI pneumatic pressure gauges?",
+      "answer": "Kilopascals (kPa)",
+      "options": [
+        "Kilopascals (kPa)",
+        "Kilo per cm",
+        "Pascals per square metre",
+        "Newtons per mm"
+      ],
+      "explanation": "The pressure unit on the course SI gauges is kPa. A pascal is already force per area.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 2,
+          "question": 6
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 66,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 6; C209 Pneumatic Systems.pdf, slide 66. The pressure unit on the course SI gauges is kPa. A pascal is already force per area."
+      }
+    },
+    {
+      "id": "c209-final-compressor-switch",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ Which device automatically stops a reciprocating compressor when receiver pressure reaches its setting?",
+      "answer": "Pressure switch",
+      "options": [
+        "Pressure switch",
+        "PLC output only",
+        "Flow switch",
+        "Pushbutton switch"
+      ],
+      "explanation": "A pressure switch responds to receiver pressure and controls compressor cycling. The setpoint controls stopping and restarting.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 14",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 3,
+          "question": 14
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 68,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 14; C209 Pneumatic Systems.pdf, slide 68. A pressure switch responds to receiver pressure and controls compressor cycling. The setpoint controls stopping and restarting."
+      }
+    },
+    {
+      "id": "c209-final-piston",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ How do most small reciprocating air compressors compress air?",
+      "answer": "Piston movement",
+      "options": [
+        "Piston movement",
+        "Impeller rotation",
+        "Inlet-valve motion alone",
+        "Screw rotation"
+      ],
+      "explanation": "A reciprocating piston reduces the volume of trapped air, raising its pressure.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 16",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 3,
+          "question": 16
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 68,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 16; C209 Pneumatic Systems.pdf, slide 68. A reciprocating piston reduces the volume of trapped air, raising its pressure."
+      }
+    },
+    {
+      "id": "c209-final-friction",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ What is the effect of airflow friction and resistance?",
+      "answer": "Pressure drops along the flow path",
+      "options": [
+        "Pressure drops along the flow path",
+        "Pressure always increases",
+        "Actuator speed necessarily increases",
+        "The mechanical load disappears"
+      ],
+      "explanation": "Flow through restrictions consumes pressure difference; compare upstream and downstream pressures.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 18",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 4,
+          "question": 18
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 70,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 18; C209 Pneumatic Systems.pdf, slide 70. Flow through restrictions consumes pressure difference; compare upstream and downstream pressures."
+      }
+    },
+    {
+      "id": "c209-final-delta",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ What does ΔP mean in a pneumatic circuit?",
+      "answer": "Pressure difference between two points",
+      "options": [
+        "Pressure difference between two points",
+        "Pressure difference between three points",
+        "Difference between cylinder and rod dimensions",
+        "Absolute pressure minus gauge pressure only"
+      ],
+      "explanation": "Delta denotes a difference. Compare pressures at the two points to find ΔP; friction and load create pressure differences.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 39",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 8,
+          "question": 39
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 70,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 39; C209 Pneumatic Systems.pdf, slide 70. Delta denotes a difference. Compare pressures at the two points to find ΔP; friction and load create pressure differences."
+      }
+    },
+    {
+      "id": "c209-final-load-backpressure",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "prompt": "★ Besides the external load and internal friction, what opposes a double-acting cylinder’s motion?",
+      "answer": "Back pressure",
+      "options": [
+        "Back pressure",
+        "Spring compression in every double-acting cylinder",
+        "Front pressure as an added external load",
+        "Gauge scale error"
+      ],
+      "explanation": "Pressure in the exhausting chamber acts against the piston. The net available force must overcome load, friction, and this opposing pressure.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 44",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 8,
+          "question": 44
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 59,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 44; C209 Pneumatic Systems.pdf, slide 59. Pressure in the exhausting chamber acts against the piston. The net available force must overcome load, friction, and this opposing pressure."
+      }
+    },
+    {
+      "id": "c209-final-static",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "symbol",
+      "prompt": "★ Gauge 2 reads 850 kPa. With this valve centered and de-energized, what does Gauge 3 read?",
+      "answer": "850 kPa — the same",
+      "options": [
+        "850 kPa — the same",
+        "Lower than Gauge 2",
+        "Higher than Gauge 2",
+        "Cannot determine"
+      ],
+      "explanation": "All three gauges connect to the same supply line. In the blocked-center state there is no downstream flow or flow-related pressure drop between them.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test2.pdf · question 47",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test2.pdf",
+          "page": 8,
+          "question": 47
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 70,
+        "text": "Review C-209 Interactive Practice Test2.pdf, question 47; C209 Pneumatic Systems.pdf, slide 70. All three gauges connect to the same supply line. In the blocked-center state there is no downstream flow or flow-related pressure drop between them."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final2-8-0",
+        "alt": "Original pneumatic quiz diagram"
       }
     }
   ]

@@ -2,32 +2,10 @@
   "world": "pneumatic",
   "topic": "Module 4 · Pneumatic Speed Control Circuits",
   "mathQuestionIds": [
-    "c209-math-flow"
+    "c209-math-flow",
+    "c209-math-flow-hour"
   ],
   "questions": [
-    {
-      "id": "q053",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "What does meter-out control restrict?",
-      "answer": "Air leaving the actuator",
-      "options": [
-        "Air leaving the actuator",
-        "Only air entering the compressor",
-        "Electrical current",
-        "Rod diameter"
-      ],
-      "explanation": "Restricting exhaust flow controls actuator speed using meter-out control.",
-      "source": "p",
-      "section": "Meter-Out Flow Control, slide 84",
-      "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 84,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 84. Look for Meter-Out Flow Control, slide 84.",
-        "excerpt": "METER-OUT FLOW CONTROL \n• Controls speed by restricting the flow of air leaving the actuator.\nhttps://www.youtube.com/watch?v=4eCuPVxezzY\n84"
-      }
-    },
     {
       "id": "q055",
       "world": "pneumatic",
@@ -49,52 +27,6 @@
         "page": 87,
         "text": "Review C209 Pneumatic Systems.pdf, slide 87. Look for Independent Speed Control, slide 87.",
         "excerpt": "INDEPENDENT SPEED CONTROL\n• This is when an actuators speed must be adjusted \nindependently in each direction.\n• Slow approach/fast reset\n• Matching retraction and extension speeds.\n• In pneumatic systems, slowing a cylinder is \nachieved by restricting the exhaust air flow rather \nthan the incoming air.\n• This technique is called meter-out control, where \nthe flow control valve is placed on the exhaust \nside of the actuator.\n• By switching to a slower flow control speed, the \ncylinder’s motion becomes smoother and more \ncontrolled during deceleration.\n87"
-      }
-    },
-    {
-      "id": "c209-p76-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "How does a needle valve restrict flow?",
-      "answer": "In both directions",
-      "options": [
-        "In both directions",
-        "In only one direction with free reverse flow",
-        "Only when the air is dry",
-        "Only at an exhaust muffler"
-      ],
-      "explanation": "In both directions. The course explains: NEEDLE VALVE Consists of two ports with a connecting passage. A needle valve is bi-directional. Creates restriction regardless of direction of air flow.",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 76",
-      "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 76,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 76. Look for the explanation of How does a needle valve restrict flow.",
-        "excerpt": "NEEDLE VALVE\n• Consists of two ports with a connecting \npassage.\n• A needle valve is bi-directional.\n• Creates restriction regardless of \ndirection of air flow.\n76\n"
-      }
-    },
-    {
-      "id": "c209-p77-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "What does airflow rate describe?",
-      "answer": "Air volume passing a point per unit time",
-      "options": [
-        "Air volume passing a point per unit time",
-        "Force per unit area",
-        "Cylinder stroke length",
-        "Air temperature per unit pressure"
-      ],
-      "explanation": "Air volume passing a point per unit time. The course explains: FLOW RATE Flow rate of air indicates the amount of air that passes through a system or past a point in a specific time period. In pneumatics flow is most often measure by volume.",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 77",
-      "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 77,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 77. Look for the explanation of What does airflow rate describe.",
-        "excerpt": "FLOW RATE\n• Flow rate of air indicates the amount of air \nthat passes through a system or past a point in \na specific time period.\n• In pneumatics flow is most often measure by \nvolume.\n77"
       }
     },
     {
@@ -141,29 +73,6 @@
         "page": 81,
         "text": "Review C209 Pneumatic Systems.pdf, slide 81. Look for the explanation of What does a check valve do.",
         "excerpt": "CHECK VALVES\nCommon Types\n• Ball\n• Poppet\nFree-Flow\nNon-Free Flow\n81\n• Considered a one-way DCV.\n• Allows flow in one direction, but \nblocks flow in the opposite direction. \n• Applications include:\n• Holding press. in receiver\n• Bypassing components\n• Quick-connect fittings\n•Ultrasonic: Use sound waves to calculate fluid velocity non-intrusively or inline.\n•Turbine: Use an internal spinning rotor whose speed matches the fluid velocity.\n•Variable Area (Rotameters)"
-      }
-    },
-    {
-      "id": "c209-p82-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "What distinguishes a flow-control valve from a basic needle valve?",
-      "answer": "A check-valve bypass permits free flow in one direction",
-      "options": [
-        "A check-valve bypass permits free flow in one direction",
-        "It has no adjustable restriction",
-        "It converts air into rotary motion",
-        "It stores air in a tank"
-      ],
-      "explanation": "A check-valve bypass permits free flow in one direction. The course explains: FLOW CONTROL VALVES Inlet Outlet Spring Check valve poppet/ball Adjustment Screw A18A16 A27A17 Restricted Flow Unrestricted Flow Restricts flow in one direction and allows free flow in the other. Used with bi-directional actuators to make speed different from one direction to the other. A flow control valve is a combinaton of needle valve and a check valve",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 82",
-      "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 82,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 82. Look for the explanation of What distinguishes a flow-control valve from a basic needle valve.",
-        "excerpt": "FLOW CONTROL VALVES\nInlet Outlet\nSpring Check valve \npoppet/ball\nAdjustment Screw\n82\nA18A16 A27A17\nRestricted Flow\nUnrestricted Flow\n• Restricts flow in one direction and allows free flow in \nthe other.\n• Used with bi-directional actuators to make speed \ndifferent from one direction to the other.\nA flow control valve is a \ncombinaton of needle valve \nand a check valve"
       }
     },
     {
@@ -236,34 +145,6 @@
       }
     },
     {
-      "id": "c209-p76-diagram",
-      "world": "pneumatic",
-      "type": "symbol",
-      "prompt": "Which component does this adjustable restriction symbol represent?",
-      "answer": "Needle valve",
-      "options": [
-        "Needle valve",
-        "Check valve",
-        "Shuttle valve",
-        "Air motor"
-      ],
-      "explanation": "Needle valve. The course explains: NEEDLE VALVE Consists of two ports with a connecting passage. A needle valve is bi-directional. Creates restriction regardless of direction of air flow.",
-      "source": "p",
-      "section": "Slide 76",
-      "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c209-slide-76-7",
-        "alt": "Original pneumatic component diagram from the course slide"
-      },
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 76,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 76. Compare the diagram with the component description.",
-        "excerpt": "NEEDLE VALVE\n• Consists of two ports with a connecting \npassage.\n• A needle valve is bi-directional.\n• Creates restriction regardless of \ndirection of air flow.\n76\n"
-      }
-    },
-    {
       "id": "visual-p-check",
       "world": "pneumatic",
       "type": "symbol",
@@ -292,31 +173,385 @@
       }
     },
     {
-      "id": "c209-p82-diagram",
+      "id": "c209-p82-concept",
       "world": "pneumatic",
-      "type": "symbol",
-      "prompt": "What do the restriction and check valve in one body represent?",
-      "answer": "Flow-control valve",
-      "options": [
-        "Flow-control valve",
-        "Pressure regulator",
-        "Shuttle valve",
-        "Air filter"
-      ],
-      "explanation": "Flow-control valve. The course explains: FLOW CONTROL VALVES Inlet Outlet Spring Check valve poppet/ball Adjustment Screw A18A16 A27A17 Restricted Flow Unrestricted Flow Restricts flow in one direction and allows free flow in the other. Used with bi-directional actuators to make speed different from one direction to the other. A flow control valve is a combinaton of needle valve and a check valve",
-      "source": "p",
-      "section": "Slide 82",
       "topic": "Module 4 · Pneumatic Speed Control Circuits",
-      "diagram": {
-        "kind": "slide-image",
-        "imageKey": "c209-slide-82-7",
-        "alt": "Original pneumatic component diagram from the course slide"
-      },
+      "type": "quiz",
+      "prompt": "★ A flow-control valve combines which components?",
+      "answer": "Needle valve and check valve",
+      "options": [
+        "Needle valve and check valve",
+        "Flowmeter and check valve",
+        "DCV and check valve",
+        "Needle valve and restrictor valve"
+      ],
+      "explanation": "The adjustable restriction meters flow one way; the check-valve bypass permits free flow in the other direction.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 5,
+          "question": 7
+        }
+      ],
       "reviewSlides": [],
       "reviewCue": {
         "page": 82,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 82. Compare the diagram with the component description.",
-        "excerpt": "FLOW CONTROL VALVES\nInlet Outlet\nSpring Check valve \npoppet/ball\nAdjustment Screw\n82\nA18A16 A27A17\nRestricted Flow\nUnrestricted Flow\n• Restricts flow in one direction and allows free flow in \nthe other.\n• Used with bi-directional actuators to make speed \ndifferent from one direction to the other.\nA flow control valve is a \ncombinaton of needle valve \nand a check valve"
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 7; C209 Pneumatic Systems.pdf, slide 82. The adjustable restriction meters flow one way; the check-valve bypass permits free flow in the other direction."
+      }
+    },
+    {
+      "id": "c209-p77-concept",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "quiz",
+      "prompt": "★ Airflow rate is the amount of air passing through a system under which condition?",
+      "answer": "In a certain amount of time",
+      "options": [
+        "In a certain amount of time",
+        "At a given temperature only",
+        "Without returning to atmosphere",
+        "Before the compressor starts"
+      ],
+      "explanation": "Flow rate is volume divided by elapsed time, such as CFM or cubic metres per minute.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 5,
+          "question": 8
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 77,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 8; C209 Pneumatic Systems.pdf, slide 77. Flow rate is volume divided by elapsed time, such as CFM or cubic metres per minute."
+      }
+    },
+    {
+      "id": "c209-p76-diagram",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "symbol",
+      "prompt": "★ Which component does this symbol represent?",
+      "answer": "Needle valve",
+      "options": [
+        "Needle valve",
+        "Pressure-reducing valve",
+        "DCV",
+        "None of the above"
+      ],
+      "explanation": "The adjustable restriction arrow identifies a needle valve. There is no parallel check-valve bypass.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 9",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 6,
+          "question": 9
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 76,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 9; C209 Pneumatic Systems.pdf, slide 76. The adjustable restriction arrow identifies a needle valve. There is no parallel check-valve bypass."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-q2-6-0",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-p82-diagram",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "symbol",
+      "prompt": "★ Which component does this symbol represent?",
+      "answer": "Flow-control valve",
+      "options": [
+        "Flow-control valve",
+        "Pressure-relief valve",
+        "Needle valve",
+        "None of the above"
+      ],
+      "explanation": "The diagram combines an adjustable restriction with a check valve in parallel, allowing restricted flow one way and free reverse flow.",
+      "source": "p",
+      "section": "FP QUIZ-2 Pneumatic Systems 3-4.pdf · question 10",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-2 Pneumatic Systems 3-4.pdf",
+          "page": 7,
+          "question": 10
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 82,
+        "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 10; C209 Pneumatic Systems.pdf, slide 82. The diagram combines an adjustable restriction with a check valve in parallel, allowing restricted flow one way and free reverse flow."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-q2-7-0",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-final-speed",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "quiz",
+      "prompt": "★ Which listed factors influence pneumatic cylinder speed?",
+      "answer": "Load, piston size, and piston pressure difference",
+      "options": [
+        "Load, piston size, and piston pressure difference",
+        "Load, piston size, and stroke length",
+        "Just the load",
+        "Only load and piston size"
+      ],
+      "explanation": "Cylinder movement depends on available pressure difference and load, while airflow and effective area determine speed.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 1,
+          "question": 3
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 83,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 3; C209 Pneumatic Systems.pdf, slide 83. Cylinder movement depends on available pressure difference and load, while airflow and effective area determine speed."
+      }
+    },
+    {
+      "id": "c209-p76-concept",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "quiz",
+      "prompt": "★ What is the role of a needle valve?",
+      "answer": "Control flow rate",
+      "options": [
+        "Control flow rate",
+        "Block reverse flow only",
+        "Measure flow rate",
+        "Regulate pressure directly"
+      ],
+      "explanation": "Its adjustable restriction changes airflow and therefore actuator speed. A needle valve restricts both directions.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 21",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 4,
+          "question": 21
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 75,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 21; C209 Pneumatic Systems.pdf, slide 75. Its adjustable restriction changes airflow and therefore actuator speed. A needle valve restricts both directions."
+      }
+    },
+    {
+      "id": "c209-final-meter-out-placement",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "symbol",
+      "prompt": "★ Which valve and location give meter-out control during cylinder extension?",
+      "answer": "Valve 1 in location 1",
+      "options": [
+        "Valve 1 in location 1",
+        "Valve 2 in location 1",
+        "Valve 1 in location 2",
+        "Valve 2 in location 2"
+      ],
+      "explanation": "During extension, the rod end exhausts through location 1. Valve 1 allows incoming flow toward the cylinder freely and restricts outgoing exhaust, giving meter-out extension.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 2,
+          "question": 8
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 84,
+        "text": "During extension, the rod end exhausts through location 1. Valve 1 allows incoming flow toward the cylinder freely and restricts outgoing exhaust, giving meter-out extension. Review the complete practice-test circuit and the meter-in/meter-out slides."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final-1-1",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-final-meter-in",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "symbol",
+      "prompt": "★ What flow-control arrangement is depicted during the shown valve actuation?",
+      "answer": "Meter-in retract",
+      "options": [
+        "Meter-in retract",
+        "Meter-out extend",
+        "Meter-in extend",
+        "Meter-out retract"
+      ],
+      "explanation": "The upper line feeds the rod end through the flow-control restriction. Air entering the rod end retracts the cylinder, so this is meter-in retraction.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 23",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 4,
+          "question": 23
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 83,
+        "text": "The upper line feeds the rod end through the flow-control restriction. Air entering the rod end retracts the cylinder, so this is meter-in retraction. Review the complete practice-test circuit and the meter-in/meter-out slides."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final-1-4",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-final-check-in-flow",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "quiz",
+      "prompt": "★ Which component is included in a one-way pneumatic flow-control valve?",
+      "answer": "Check valve",
+      "options": [
+        "Check valve",
+        "Spool",
+        "Regulator",
+        "Solenoid"
+      ],
+      "explanation": "The check-valve bypass allows free reverse flow around the adjustable restriction.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 36",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 7,
+          "question": 36
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 82,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 36; C209 Pneumatic Systems.pdf, slide 82. The check-valve bypass allows free reverse flow around the adjustable restriction."
+      }
+    },
+    {
+      "id": "q053",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "quiz",
+      "prompt": "★ How does meter-out control regulate actuator speed?",
+      "answer": "Restrict exhaust to create back pressure",
+      "options": [
+        "Restrict exhaust to create back pressure",
+        "Restrict only incoming supply",
+        "Reduce regulator pressure only",
+        "Exhaust excess air without restriction"
+      ],
+      "explanation": "The restriction meters air leaving the actuator. This creates back pressure on the exhaust side and controls motion.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 43",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 8,
+          "question": 43
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 84,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 43; C209 Pneumatic Systems.pdf, slide 84. The restriction meters air leaving the actuator. This creates back pressure on the exhaust side and controls motion."
+      }
+    },
+    {
+      "id": "c209-final-photo-flow",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "symbol",
+      "prompt": "★ According to the valve’s depicted orientation, which direction permits unrestricted flow?",
+      "answer": "Right to left",
+      "options": [
+        "Right to left",
+        "Left to right",
+        "Both directions",
+        "Neither direction"
+      ],
+      "explanation": "The supplied answered practice test identifies right-to-left free flow. The check-valve bypass opens in that direction; opposite flow passes the adjustable restriction.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test2.pdf · question 17",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test2.pdf",
+          "page": 3,
+          "question": 17
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 82,
+        "text": "Review C-209 Interactive Practice Test2.pdf, question 17; C209 Pneumatic Systems.pdf, slide 82. The supplied answered practice test identifies right-to-left free flow. The check-valve bypass opens in that direction; opposite flow passes the adjustable restriction."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final2-3-0",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-rotameter-scale-units",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "source": "p",
+      "type": "symbol",
+      "prompt": "What quantity and units does this rotameter scale show?",
+      "answer": "Volumetric airflow in cubic metres per hour",
+      "options": [
+        "Volumetric airflow in cubic metres per hour",
+        "Air pressure in kilopascals",
+        "Air velocity in metres per second",
+        "Air temperature in degrees Celsius"
+      ],
+      "explanation": "The scale is labeled M³/hour, a volume of air per unit time. The original practice question’s specific float reading is ambiguous, so this question asks about the clearly printed scale instead.",
+      "section": "Rotameter scale and airflow units",
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-rotameter-scale",
+        "alt": "Original rotameter scale from the supplied practice test"
+      },
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 80,
+        "text": "Review C209 Pneumatic Systems.pdf, slides 77–80. Look for flow-rate units and the calibrated rotameter scale."
       }
     }
   ]

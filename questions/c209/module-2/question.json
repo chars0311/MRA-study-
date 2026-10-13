@@ -188,29 +188,6 @@
       }
     },
     {
-      "id": "c209-p50-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "Which set lists the three air-motor designs in the slides?",
-      "answer": "Vane, axial piston, and radial piston",
-      "options": [
-        "Vane, axial piston, and radial piston",
-        "Induction, synchronous, and DC",
-        "Needle, globe, and gate",
-        "Single-acting, double-acting, and telescoping"
-      ],
-      "explanation": "Vane, axial piston, and radial piston. The course explains: PNEUMATIC MOTORS COMMON TYPES VANE/ROTOR AXIAL PISTON RADIAL PISTON",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 50",
-      "topic": "Module 2 · Basic Pneumatic Circuits",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 50,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 50. Look for the explanation of Which set lists the three air-motor designs in the slides.",
-        "excerpt": "PNEUMATIC MOTORS\nCOMMON TYPES\n• VANE/ROTOR\n• AXIAL PISTON\n• RADIAL PISTON\n50\nA07"
-      }
-    },
-    {
       "id": "c209-p52-concept",
       "world": "pneumatic",
       "type": "quiz",
@@ -257,31 +234,293 @@
       }
     },
     {
-      "id": "visual-p-single",
+      "id": "c209-teacher-main-line",
       "world": "pneumatic",
-      "type": "symbol",
-      "prompt": "What returns the rod toward its unpowered position in this cylinder?",
-      "answer": "The spring",
-      "options": [
-        "The spring",
-        "Air applied to a second cylinder port",
-        "An electric motor",
-        "A shuttle valve"
-      ],
-      "explanation": "The spring. Look at the symbol features shown in the diagram and compare them with the descriptions on the source slide.",
-      "source": "p",
-      "section": "Slide 43",
       "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "quiz",
+      "prompt": "★ A pneumatic main line is represented by which line style?",
+      "answer": "Solid",
+      "options": [
+        "Solid",
+        "Dashed",
+        "Dotted",
+        "Dash-dot"
+      ],
+      "explanation": "Main working-flow lines are solid. Compare them with the pilot/control line style in the schematic conventions.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 4,
+          "question": 6
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 53,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 6; C209 Pneumatic Systems.pdf, slide 53. Main working-flow lines are solid. Compare them with the pilot/control line style in the schematic conventions."
+      }
+    },
+    {
+      "id": "c209-p50-concept",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "quiz",
+      "prompt": "★ Which are three common pneumatic motor designs?",
+      "answer": "Vane, radial piston, axial piston",
+      "options": [
+        "Vane, radial piston, axial piston",
+        "Turbine, piston, lobed rotor",
+        "Lobed rotor, vane, V-type",
+        "Vane, V-type, axial"
+      ],
+      "explanation": "The motor slide lists vane/rotor, axial piston, and radial piston designs.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 5,
+          "question": 7
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 50,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 7; C209 Pneumatic Systems.pdf, slide 50. The motor slide lists vane/rotor, axial piston, and radial piston designs."
+      }
+    },
+    {
+      "id": "c209-teacher-operator",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "quiz",
+      "prompt": "★ What holds the course’s 3-port DCV in its energized position?",
+      "answer": "Operator",
+      "options": [
+        "Operator",
+        "Spool",
+        "Body",
+        "Spring"
+      ],
+      "explanation": "The operator holds the valve energized. The spring returns the valve when operator force is removed.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 8",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 5,
+          "question": 8
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 44,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 8; C209 Pneumatic Systems.pdf, slide 44. The operator holds the valve energized. The spring returns the valve when operator force is removed."
+      }
+    },
+    {
+      "id": "c209-teacher-muffler-symbol",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "symbol",
+      "prompt": "★ Which component does this symbol represent?",
+      "answer": "Muffler",
+      "options": [
+        "Muffler",
+        "Single-acting cylinder",
+        "Double-acting cylinder",
+        "Accumulator"
+      ],
+      "explanation": "The exhaust silencer/muffler symbol identifies a component used to reduce exhaust noise.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 9",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 6,
+          "question": 9
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 49,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 9; C209 Pneumatic Systems.pdf, slide 49. The exhaust silencer/muffler symbol identifies a component used to reduce exhaust noise."
+      },
       "diagram": {
         "kind": "slide-image",
-        "imageKey": "c209-slide-43-7",
-        "alt": "Original pneumatic component diagram from the course slide"
-      },
+        "imageKey": "c209-teacher-q1-6-0",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "visual-p-single",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "symbol",
+      "prompt": "★ Which cylinder arrangement does this symbol represent?",
+      "answer": "Single-acting to retract",
+      "options": [
+        "Single-acting to retract",
+        "Double-acting",
+        "Single-acting to extend",
+        "None of the above"
+      ],
+      "explanation": "The spring is on the cap side and extends the rod; air entering the rod-side port retracts it. The named powered action is retraction.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 10",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 7,
+          "question": 10
+        }
+      ],
       "reviewSlides": [],
       "reviewCue": {
         "page": 43,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 43. Compare the diagram with the component description.",
-        "excerpt": "SINGLE-ACTING CYLINDERS\n43"
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 10; C209 Pneumatic Systems.pdf, slide 43. The spring is on the cap side and extends the rod; air entering the rod-side port retracts it. The named powered action is retraction."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-q1-7-0",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-final-single-port",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "quiz",
+      "prompt": "★ How many air connection ports does a single-acting spring-return cylinder have?",
+      "answer": "One",
+      "options": [
+        "One",
+        "Two",
+        "Four",
+        "None"
+      ],
+      "explanation": "Air powers one direction through one port; the spring supplies the return force.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 2,
+          "question": 7
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 42,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 7; C209 Pneumatic Systems.pdf, slide 42. Air powers one direction through one port; the spring supplies the return force."
+      }
+    },
+    {
+      "id": "c209-final-pilot-line",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "quiz",
+      "prompt": "★ What does a dashed pilot/control line represent in a pneumatic schematic?",
+      "answer": "Pilot line",
+      "options": [
+        "Pilot line",
+        "Main line",
+        "Exhaust line",
+        "Enclosure"
+      ],
+      "explanation": "Pilot lines communicate control pressure; main working-flow lines are solid. An enclosure has its own boundary convention.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 10",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 2,
+          "question": 10
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 53,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 10; C209 Pneumatic Systems.pdf, slide 53. Pilot lines communicate control pressure; main working-flow lines are solid. An enclosure has its own boundary convention."
+      }
+    },
+    {
+      "id": "c209-final-motor-symbol",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "symbol",
+      "prompt": "★ Which component does this symbol represent?",
+      "answer": "Bidirectional air motor",
+      "options": [
+        "Bidirectional air motor",
+        "Junction",
+        "Conditioning device",
+        "Restriction"
+      ],
+      "explanation": "The circle represents a rotary actuator; the inward-pointing pneumatic triangles indicate compressed-air input and bidirectional operation.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 1,
+          "question": 5
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 48,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 5; C209 Pneumatic Systems.pdf, slide 48. The circle represents a rotary actuator; the inward-pointing pneumatic triangles indicate compressed-air input and bidirectional operation."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final-1-0",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-final-spring-extend",
+      "world": "pneumatic",
+      "topic": "Module 2 · Basic Pneumatic Circuits",
+      "type": "symbol",
+      "prompt": "★ Which cylinder shown can extend under spring force without air pressure?",
+      "answer": "Cylinder B",
+      "options": [
+        "Cylinder B",
+        "Cylinder A",
+        "Cylinder C",
+        "None of them"
+      ],
+      "explanation": "Cylinder B has the spring at the cap end pushing the piston and rod outward. Cylinder C’s rod-end spring pushes toward retraction.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 27",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 5,
+          "question": 27
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 42,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 27; C209 Pneumatic Systems.pdf, slide 42. Cylinder B has the spring at the cap end pushing the piston and rod outward. Cylinder C’s rod-end spring pushes toward retraction."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final-1-5",
+        "alt": "Original pneumatic quiz diagram"
       }
     }
   ]

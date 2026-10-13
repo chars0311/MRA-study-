@@ -1,7 +1,9 @@
 {
   "world": "pneumatic",
   "topic": "Module 7 · Automatic Input Devices 1",
-  "mathQuestionIds": [],
+  "mathQuestionIds": [
+    "c209-math-gauge-error"
+  ],
   "questions": [
     {
       "id": "q056",
@@ -73,29 +75,6 @@
       }
     },
     {
-      "id": "c209-p125-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "Which filter is a depth-type element made from fired bronze beads?",
-      "answer": "Sintered bronze",
-      "options": [
-        "Sintered bronze",
-        "Synthetic layered",
-        "Wick venturi",
-        "Coalescing trap"
-      ],
-      "explanation": "Sintered bronze. The course explains: Filter Elements Sintered Bronze Made by firing tiny beads at high temperature. Known as a depth-type element Cleaned by back flushing",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 125",
-      "topic": "Module 7 · Automatic Input Devices 1",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 125,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 125. Look for the explanation of Which filter is a depth-type element made from fired bronze beads.",
-        "excerpt": "Filter Elements\nSintered Bronze\n► Made by firing tiny beads at high \ntemperature.\n► Known as a depth-type element\n► Cleaned by back flushing\n125"
-      }
-    },
-    {
       "id": "c209-p126-concept",
       "world": "pneumatic",
       "type": "quiz",
@@ -139,29 +118,6 @@
         "page": 128,
         "text": "Review C209 Pneumatic Systems.pdf, slide 128. Look for the explanation of What does a coalescing filter collect.",
         "excerpt": "Coalescing Filters\n► Removes very small particles and \nalmost all water.\n► Collects oil and water droplets.\n► Typically located ahead of \nsensitive devices.\n► Operates in stages:\n► First stage filters bulk water \nand particulates.\n► Second stage eliminates \natomized oils, mists, and fine \nparticles.\n► Third stages removes organic \nvapors and odors.  \n128"
-      }
-    },
-    {
-      "id": "c209-p130-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "What is dew point?",
-      "answer": "The temperature at which water vapor begins to condense",
-      "options": [
-        "The temperature at which water vapor begins to condense",
-        "The maximum compressor voltage",
-        "The cylinder’s maximum speed",
-        "The oil’s flash point"
-      ],
-      "explanation": "The temperature at which water vapor begins to condense. The course explains: Water Removal Relative Humidity- the ratio of the amount of water the air current holds to the total amount it could hold. Dew Point- air that has reached 100% relative humidity.",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 130",
-      "topic": "Module 7 · Automatic Input Devices 1",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 130,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 130. Look for the explanation of What is dew point.",
-        "excerpt": "Water Removal \nRelative Humidity- the ratio of the \namount of water the air current holds \nto the total amount it could hold.\nDew Point- air that has reached 100% \nrelative humidity.\n130"
       }
     },
     {
@@ -280,29 +236,6 @@
       }
     },
     {
-      "id": "c209-p147-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "How does aerosol lubrication distribute oil?",
-      "answer": "Mix oil with compressed air and carry it through the system",
-      "options": [
-        "Mix oil with compressed air and carry it through the system",
-        "Send oil through electrical wiring",
-        "Place dry beads in the air line",
-        "Store oil only in the pressure gauge"
-      ],
-      "explanation": "Mix oil with compressed air and carry it through the system. The course explains: Lubrication Aerosol Lubrication Mixes oil with compressed air Oil is carried throughout the system by air.",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 147",
-      "topic": "Module 7 · Automatic Input Devices 1",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 147,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 147. Look for the explanation of How does aerosol lubrication distribute oil.",
-        "excerpt": "Lubrication\nAerosol Lubrication\n► Mixes oil with compressed air\n► Oil is carried throughout the \nsystem by air.\n147\nA45"
-      }
-    },
-    {
       "id": "c209-p152-concept",
       "world": "pneumatic",
       "type": "quiz",
@@ -369,6 +302,221 @@
         "page": 156,
         "text": "Review C209 Pneumatic Systems.pdf, slide 156. Look for the explanation of Which symptom can indicate a major air leak.",
         "excerpt": "Air Leaks \nMost Common Locations\n► Flange connections\n► Fittings\n► Traps and drains\n► Filters\n► Hoses\n► Operating valves\n► If a compressor is cycling too \nfrequently, the minimum pressure \nmust be adjusted\n156\nA40 A34\nFilter\nA46"
+      }
+    },
+    {
+      "id": "c209-final-drip",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "prompt": "★ How is the oil delivery of a sight-feed air-mist lubricator commonly checked?",
+      "answer": "Drip rate in the sight dome",
+      "options": [
+        "Drip rate in the sight dome",
+        "External flow-control setting",
+        "Pressure-gauge reading",
+        "Oil level alone"
+      ],
+      "explanation": "The sight dome shows drops delivered over time; bowl level indicates available supply, not the dispensing rate.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 12",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 2,
+          "question": 12
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 150,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 12; C209 Pneumatic Systems.pdf, slide 150. The sight dome shows drops delivered over time; bowl level indicates available supply, not the dispensing rate."
+      }
+    },
+    {
+      "id": "c209-p147-concept",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "prompt": "★ What is lubrication called when oil is mixed with compressed air?",
+      "answer": "Aerosol lubrication",
+      "options": [
+        "Aerosol lubrication",
+        "Oil cup",
+        "Forced draft",
+        "Pre-lubrication"
+      ],
+      "explanation": "Aerosol lubrication suspends oil particles in the air so airflow carries them to components. The air stream carries the dispersed oil to the points of use.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 15",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 3,
+          "question": 15
+        },
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 4,
+          "question": 19
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 147,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 15; C209 Pneumatic Systems.pdf, slide 147. Aerosol lubrication suspends oil particles in the air so airflow carries them to components."
+      }
+    },
+    {
+      "id": "c209-final-oil-level",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "prompt": "★ When should a lubricator’s oil supply be replenished?",
+      "answer": "When the bowl level falls below its minimum-level mark",
+      "options": [
+        "When the bowl level falls below its minimum-level mark",
+        "When the sight dome is half full",
+        "Whenever the drip rate changes",
+        "Only after the suction tube is completely uncovered"
+      ],
+      "explanation": "Maintain the specified minimum oil level so the lubricator can draw oil. Follow the equipment procedure when filling.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 20",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 4,
+          "question": 20
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 150,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 20; C209 Pneumatic Systems.pdf, slide 150. Maintain the specified minimum oil level so the lubricator can draw oil. Follow the equipment procedure when filling."
+      }
+    },
+    {
+      "id": "c209-final-cycling",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "prompt": "★ According to C209 slide 156, which pressure-switch setting should be adjusted when a compressor cycles too frequently?",
+      "answer": "Minimum pressure",
+      "options": [
+        "Minimum pressure",
+        "Range",
+        "Maximum pressure",
+        "Flow rate"
+      ],
+      "explanation": "Slide 156 explicitly says minimum pressure. The supplied practice key says range, so the wording here specifies the slide answer. Confirm the instructor’s intended terminology before the final.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 29",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 6,
+          "question": 29
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 156,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 29; C209 Pneumatic Systems.pdf, slide 156. Slide 156 explicitly says minimum pressure. The supplied practice key says range, so the wording here specifies the slide answer. Confirm the instructor’s intended terminology before the final."
+      }
+    },
+    {
+      "id": "c209-p125-concept",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "prompt": "★ How should a dirty sintered-bronze air-filter element be cleaned?",
+      "answer": "Backflush it",
+      "options": [
+        "Backflush it",
+        "Clean it with Dacron",
+        "Replace it because it can never be cleaned",
+        "Tap it against a hard surface"
+      ],
+      "explanation": "The course says this reusable depth-type filter can be cleaned by backflushing, which reverses flow to remove trapped contamination.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 32",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 6,
+          "question": 32
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 125,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 32; C209 Pneumatic Systems.pdf, slide 125. The course says this reusable depth-type filter can be cleaned by backflushing, which reverses flow to remove trapped contamination."
+      }
+    },
+    {
+      "id": "c209-p130-concept",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "prompt": "★ What happens when compressed-air temperature falls below its dew point?",
+      "answer": "Condensate forms",
+      "options": [
+        "Condensate forms",
+        "Pipes necessarily freeze immediately",
+        "Air friction necessarily increases",
+        "The compressor always stops"
+      ],
+      "explanation": "Water vapor condenses as the air cools below the dew point. Freezing requires a sufficiently low temperature as well.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 33",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 6,
+          "question": 33
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 130,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 33; C209 Pneumatic Systems.pdf, slide 130. Water vapor condenses as the air cools below the dew point. Freezing requires a sufficiently low temperature as well."
+      }
+    },
+    {
+      "id": "c209-final-condensate",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "prompt": "★ What should be done with condensed water in a compressed-air system?",
+      "answer": "Drain it from the system",
+      "options": [
+        "Drain it from the system",
+        "Use it to clean the filter",
+        "Recycle it to add moisture",
+        "Use it as aftercooler coolant"
+      ],
+      "explanation": "Condensed water contributes to corrosion and other defects. Drains and traps remove it from the system.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 46",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 8,
+          "question": 46
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 134,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 46; C209 Pneumatic Systems.pdf, slide 134. Condensed water contributes to corrosion and other defects. Drains and traps remove it from the system."
       }
     }
   ]

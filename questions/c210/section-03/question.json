@@ -1,7 +1,10 @@
 {
   "world": "mechanical",
   "topic": "Day 3 · Belt drives & chain installation",
-  "mathQuestionIds": [],
+  "mathQuestionIds": [
+    "c210-math-pulley",
+    "c210-math-chain-wear"
+  ],
   "questions": [
     {
       "id": "module-check-5",
@@ -19,17 +22,384 @@
       "explanation": "The driver sheave turns with the prime mover and transfers motion through the belt.",
       "source": "g",
       "section": "Day 3 · Three Basic Components of a Belt Drive, slide 103",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-103.jpg",
-          "page": 103,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 103,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 103. The driver sheave turns with the prime mover and transfers motion through the belt.",
         "excerpt": "The DRIVER SHEAVE is a grooved disc that is attached to the shaft of the drive or prime mover. It turns with the drive shaft and causes the belt to move. The DRIVEN SHEAVE/ PULLEY, is a grooved disc that is attached to the driven shaft. It turns when the belt …"
+      }
+    },
+    {
+      "id": "c210-slide-106-q39",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which pulley dimension is used to calculate belt-drive ratio?",
+      "answer": "Pitch diameter",
+      "options": [
+        "Pitch diameter",
+        "Outside flange width",
+        "Shaft length",
+        "Bearing bore diameter"
+      ],
+      "explanation": "The belt transmits force at the pitch circle; use pitch diameters in the pulley ratio.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 106",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 106,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 106. The belt transmits force at the pitch circle; use pitch diameters in the pulley ratio.",
+        "excerpt": "Pitch Circle, Pitch Diameter and Pitch\nThe pitch circle where the \nbelt grips the pulley groove \nand transmits force. Its \nlocated somewhere inside \nthe outer diameter of the \nsheave. Knowing the\npitch circle allows you to \ndetermine the pitch \ndiameter.\nThe PITCH \nDIAMETER is \nsimply the \ndiameter of \nthe pitch \ncircle.\nThe PITCH CIRCLE is not the outer edge of the \nhub, but is the place in the belt representing the \ncenter of the force being transmitted through the \nbelt.\nThe PITCH LENGTH is the \nlength of the belt that passes \nthrough the pitch circles.\n106"
+      }
+    },
+    {
+      "id": "c210-slide-110-q40",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which belt profile is mainly used for light-duty low-cost drives?",
+      "answer": "Round belt",
+      "options": [
+        "Round belt",
+        "Timing belt only",
+        "Heavy-duty wedge belt only",
+        "Roller chain"
+      ],
+      "explanation": "The slide describes round belts as inexpensive and suited to light loads where slip and efficiency are less critical.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 110",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 110,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 110. The slide describes round belts as inexpensive and suited to light loads where slip and efficiency are less critical.",
+        "excerpt": "Five Types of Belt Drives and Give an Application of Each\nThe flat belt was the first type of belt drive used. Less common now but has \nbeen in use for 100s of years. Still found in conveyors, machine tools, printing \npresses, and textile machinery. Most common use is as a conveyor belt.\nThe round belt uses a circular cross- section. It is mainly found in very light duty \napplications, such as vacuums and printers, where either the load is light or \nslip and efficiency are not important. Its main asset is low cost.\nThe ribbed belt has ribs that run longitudinally (along the length) on the belt. \nThese ribs are designed to seat in mating grooves in the sheaves.\nThis type of belt has a greater area of the belt in contact with the sheave, \nwhich means that there is less wear on the belt or sheaves.\nThe sheaves are more compact and higher pulley ratios can be used, typically \nas high as 40:1"
+      }
+    },
+    {
+      "id": "c210-slide-111-q41",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Why does a timing belt maintain synchronization?",
+      "answer": "Its teeth positively engage the pulley",
+      "options": [
+        "Its teeth positively engage the pulley",
+        "It relies only on flat-belt friction",
+        "Its grease makes it slip",
+        "It has no tension"
+      ],
+      "explanation": "Toothed engagement maintains the relative positions of the shafts, unlike a friction belt that can slip.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 111",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 111,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 111. Toothed engagement maintains the relative positions of the shafts, unlike a friction belt that can slip.",
+        "excerpt": "Five Types of Belt Drives and Give an Application of Each\nThe V-belt is a wedge-shaped belt made from a combination of rubber and textile \nmaterial. It became popular because of its advantages over flat belts:\n⮚ Can operate at higher speeds.\n⮚ Can transmit power more efficiently.\n⮚ Can transmit power in a smaller size.\n⮚ Requires very little maintenance.\nThe V-belt is designed to ride high in the groove gripping the walls of the pulley by \nwedging itself against the sides of the pulley groove as the belt is tightened.\nTiming belts, which have notches or teeth, are used when slippage can’t be allowed in \nthe drive train. As the drive pulley turns, its teeth engage the teeth of the belt and pull it. \nWith this design, this belt does not slip, and a constant speed is maintained at the shaft.\nBecause of the teeth, the timing belt does not require a high tension as V-belts do, \nmaking its ope"
+      }
+    },
+    {
+      "id": "c210-slide-114-q42",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "How does a V-belt transmit force to a sheave?",
+      "answer": "Friction enhanced by wedging in the groove",
+      "options": [
+        "Friction enhanced by wedging in the groove",
+        "Chain-pin engagement",
+        "Electrical induction",
+        "A shaft key inside the belt"
+      ],
+      "explanation": "Tension seats the belt in the groove so wedging increases grip and power transmission.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 114",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 114,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 114. Tension seats the belt in the groove so wedging increases grip and power transmission.",
+        "excerpt": "V-belt drives transmit power between two sheaves with tension created on the belt. This tension \ncauses the belt to be pulled down, or wedged, into the groove of the sheave, creating enough \nfriction to keep the belt from slipping when the turning sheave is placed under a load.\nHow V-Belts Work and Wear\nThe wedging action of the V-belt creates friction between the sides of the sheave, not the \ngroove bottom. The sides of the belt and sheave both wear and the belt gradually works its way \ndown in the groove.\nThe V-belt should ride high in the groove, with its top near the top of the sheave. Normally, the \nV-belt does not touch the bottom of the sheave. \n114\nA38"
+      }
+    },
+    {
+      "id": "c210-slide-117-q43",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What does a dial indicator reveal as the sheave is turned by hand?",
+      "answer": "Runout",
+      "options": [
+        "Runout",
+        "Grease consistency",
+        "Motor winding voltage",
+        "Chain pitch directly"
+      ],
+      "explanation": "Indicator movement shows variation in the sheave’s running surface relative to the shaft.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 117",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 117,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 117. Indicator movement shows variation in the sheave’s running surface relative to the shaft.",
+        "excerpt": "Runout\nSet up the dial indicator and adjust it to the middle of its \nrange. Rotate the shaft by hand and watch the indicator \nneedle. Stop the rotation at the lowest reading and set the \ndial to \"0\". Rotate the shaft until the needle reads its \nhighest. Subtract the highest from the lowest (usually 0”) to \nget the Total Indicator Reading, TIR.\nRunout, is ½ of the total indicator reading.\nA bent shaft or worn bearings will cause the shaft to \nwobble as it spins. This is called runout. It’s usually \nmeasured with a dial indicator as the spinning shaft \nmoves up and down. If there is movement  (looseness) \nin the end of the shaft, that’s called end-float.\nEnd Float\nFor labs, we will use typical values of 0.002” as \nmaximums for runout and 0.001” for end float.\nMeasurement:\n117\nA41"
+      }
+    },
+    {
+      "id": "c210-slide-119-q44",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What does the force-deflection method check?",
+      "answer": "Belt tension",
+      "options": [
+        "Belt tension",
+        "Gear tooth hardness",
+        "Oil flash point",
+        "Shaft voltage"
+      ],
+      "explanation": "Apply the specified force at the span and compare deflection with the belt data; use the correct drive specification.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 119",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 119,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 119. Apply the specified force at the span and compare deflection with the belt data; use the correct drive specification.",
+        "excerpt": "Belt Tension – Force Deflection Method\nSkill 2 - Determine the Belt Deflection Force for a Given Application\nBelts need enough tension to avoid slippage while minimizing \ntension to avoid wear and tear.\nTension is measured by providing a known force and measuring the \ndeflection:\n⮚ Knowing the belt cross section and sheave diameter, use a \ntable to pick a minimum force to apply.\n⮚ Measure the belt span, which is the unsupported length.\n⮚ Divide the belt span by 64 to get a target deflection.\n⮚ At the center of the span, press the tension gauge to the \ntarget deflection and measure the force.\n⮚ The force needs to be at least the minimum from the table, up \nto 50% more (1.5 times that).\n⮚ If the force is out of range, loosen or tighten the belt to bring it \ninto the range. \nBelt Tension Gauge\n119\nA42"
+      }
+    },
+    {
+      "id": "c210-slide-123-q45",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which chain design reduces meshing noise with inverted teeth?",
+      "answer": "Silent chain",
+      "options": [
+        "Silent chain",
+        "Standard roller chain only",
+        "Round belt",
+        "Gate chain"
+      ],
+      "explanation": "Silent chain uses inverted tooth links to reduce engagement noise.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 123",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 123,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 123. Silent chain uses inverted tooth links to reduce engagement noise.",
+        "excerpt": "Silent Chains use an inverted tooth design to reduce the \nnoise created by the engagement and release of the \nsprocket teeth to the chain.\nThey are quieter, more efficient, last longer, and can \noperate at higher speeds than roller chains. They are \nmuch more expensive than roller and rollerless chains.\nApplications such as industrial pumps, fans, and other \nheavy machinery use silent chains.\nThey usually need guides in the sprockets in the form of a \ngroove.\nLeaf chains are made up of many plates held together \nby pins. They have no rollers and are not usually used in \nchain drive applications.\nChain wrenches, forklifts, and other hoisting devices \nnormally use leaf chains.\nFour Types of Chains and Give an Application of Each\nSilent Chain\nLeaf Chain\n123"
+      }
+    },
+    {
+      "id": "c210-slide-124-q46",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Why use a multiple-strand roller chain?",
+      "answer": "Transmit more power than a comparable single strand",
+      "options": [
+        "Transmit more power than a comparable single strand",
+        "Make every drive friction-only",
+        "Remove all lubrication requirements",
+        "Eliminate sprocket teeth"
+      ],
+      "explanation": "Multiple strands share the load and increase power capacity within the drive rating.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 124",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 124,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 124. Multiple strands share the load and increase power capacity within the drive rating.",
+        "excerpt": "Four Types of Roller Chain Drives with Applications of Each\nSingle-strand chain are the most common roller chain used. A single \nrow of rollers with plates on each side make up the chain.\nSingle-strand chains are used for most general-purpose applications of \nlow-to- medium power transmissions. This type of chain is also found on \nbicycles.\nApplications that transmit a great deal of power often use multiple-\nstrand chains. The chains used in multiple-strand chain drives are \nthe same as those used in single-strand drives. They are merely \njoined to create multiple rows.\nMultiple-strand chains are used in applications with much heavier \nloads and higher speeds than a single-strand chain can handle. \nSUPPORT THE CHAIN WHEN REMOVING\n124"
+      }
+    },
+    {
+      "id": "c210-slide-127-q47",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What transmits force in a roller-chain drive?",
+      "answer": "Positive tooth engagement",
+      "options": [
+        "Positive tooth engagement",
+        "Only friction on a smooth pulley",
+        "Air pressure",
+        "A clutch’s electrical coil"
+      ],
+      "explanation": "The sprocket teeth engage the chain; tooth count determines ratio and chain pitch must match the sprocket.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 127",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 127,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 127. The sprocket teeth engage the chain; tooth count determines ratio and chain pitch must match the sprocket.",
+        "excerpt": "Operation of a Single-Strand Roller Chain Drive\nSince tooth engagement, not friction, is used to transmit the force, the chain drive does \nnot require a high tension so chain drive is usually more efficient than other drive systems.\nThe chain tension only needs to be high enough to keep the chain from flying off the \nsprockets.\nThe chordal action of the chain links causes some \nfrictional losses between the sprocket and the \nchain. As the roller link contacts the sprocket, it \ninitially rises up the tooth. Then, it slides down the \ntooth as it winds around the sprocket. This action \noccurs as each link engages with the sprocket, \ncreating a certain amount of friction. However, \nthe friction is minimized by the chain's roller. Chain \ndrives always have a slight speed variation in the \nchain. Even though the driver sprocket's speed is \nconstant, the driven sprocket's speed oscillates \nslig"
+      }
+    },
+    {
+      "id": "c210-slide-129-q48",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which fault can cause premature chain-drive failure?",
+      "answer": "Sprocket misalignment",
+      "options": [
+        "Sprocket misalignment",
+        "Correct lubrication",
+        "Correct chain sag",
+        "Matched chain and sprocket pitch"
+      ],
+      "explanation": "Misaligned sprockets load the links unevenly. Check alignment, lubrication, wear, and tension.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 129",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 129,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 129. Misaligned sprockets load the links unevenly. Check alignment, lubrication, wear, and tension.",
+        "excerpt": "Chain Drive Misalignment and Other Fails\nSprocket drives are simple to maintain but they \nwill fail without maintenance. Noise is the key \nto issues:\nMisalignment produces grinding sounds\nWORN SPROCKET WITH HOOKED TEETH\nNOTE FOR ALL CHAIN DRIVES VERSUS BELT DRIVES: \nThe pins and rollers engage the teeth in the sprocket and carry the load through the links. \nThe drive is NOT dependent on friction, as in a belt drive.\n129"
+      }
+    },
+    {
+      "id": "c210-slide-130-q49",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What does a torque wrench control when tightening fasteners?",
+      "answer": "Applied tightening torque",
+      "options": [
+        "Applied tightening torque",
+        "Shaft runout",
+        "Oil viscosity",
+        "Belt pitch diameter"
+      ],
+      "explanation": "Use the specified torque and an appropriate calibrated wrench rather than judging tightness by feel.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 130",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 130,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 130. Use the specified torque and an appropriate calibrated wrench rather than judging tightness by feel.",
+        "excerpt": "Using A Torque Wrench\nA torque wrench is used to tighten bolts or nuts to a set torque value, measured \nusually in inch-pounds or foot-pounds. This tool allows nuts and bolts to be tightened \nto a specific tension in the bolt and clamping force on the two parts.\nMAKE SURE THE WRENCH IS ON THE NUT ONLY, NOT THE BOLT. SO THAT YOU DON’T \nHAVE TO WORRY ABOUT THE BOLT RUBBING ON SOMETHING AND CAUSING THE \nREADING TO BE INACCURATE.\nNEVER LOOSEN A NUT OR BOLT WITH A TORQUE WRENCH\nThere are digital and non-digital torque wrenches in the laboratory\n13010 Chain Tensioning and Installation"
+      }
+    },
+    {
+      "id": "c210-slide-134-q50",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "How can chain sag be adjusted?",
+      "answer": "Move adjustable shaft centers or use a chain idler",
+      "options": [
+        "Move adjustable shaft centers or use a chain idler",
+        "Change motor voltage only",
+        "File all sprocket teeth",
+        "Remove the master-link clip"
+      ],
+      "explanation": "Changing center distance or positioning an idler takes up slack while maintaining the prescribed sag.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 134",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 134,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 134. Changing center distance or positioning an idler takes up slack while maintaining the prescribed sag.",
+        "excerpt": "Two Methods Used to Adjust Chain Sag\nIn a system with adjustable centers, when the sag of a chain \nneeds to be adjusted, the centers of the drive system can be \nmoved either farther apart or closer together.\nAnother method used to adjust chain sag is with a device \ncalled a CHAIN IDLER. A CHAIN IDLER is a mechanism that has a \nsmall sprocket attached to an arm.\nSome chain idler arms are spring-loaded, which automatically \nkeeps constant tension in the chain drive via the idler sprocket.\nIf a spring-loaded arm is not used, the location of the idler \nsprocket must be manually adjusted to achieve the desired \nchain tension.\n134"
+      }
+    },
+    {
+      "id": "c210-slide-135-q51",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What primarily causes a used roller chain to elongate?",
+      "answer": "Wear at pins and bushings",
+      "options": [
+        "Wear at pins and bushings",
+        "Elastic stretching of every plate",
+        "Growth in sprocket diameter",
+        "Motor current alone"
+      ],
+      "explanation": "Wear increases spacing between links, making the chain longer. The slide specifies replacement at 3% elongation.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 135",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 135,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 135. Wear increases spacing between links, making the chain longer. The slide specifies replacement at 3% elongation.",
+        "excerpt": "Chains Do Not Stretch, They Wear and Elongate\nChain sag will need to be removed as it increases with time, making it look like the \nchain is stretching. The chain is not stretching; the bushings are wearing.\nIf a chain has 75 links, and the bushings each wear 0.010”, the chain will lengthen by \n75 X 0.010, or 0.75 inch. The wear just causes the space between individual links to \nincrease in length.\nIt is important to understand that a chain \nshould be replaced when its length \nbecomes 3% longer than its original length.\n135"
+      }
+    },
+    {
+      "id": "c210-slide-136-q52",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which way should a master-link spring clip’s closed end face?",
+      "answer": "In the chain’s direction of travel",
+      "options": [
+        "In the chain’s direction of travel",
+        "Opposite the direction of travel",
+        "Always toward the motor regardless of motion",
+        "Always downward"
+      ],
+      "explanation": "The slide shows the closed end leading in the direction of chain travel, reducing the risk of the open end catching.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 136",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 136,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 136. The slide shows the closed end leading in the direction of chain travel, reducing the risk of the open end catching.",
+        "excerpt": "Function and Operation of a Master Link\nSome chain drives do not have adjustable centers; their shafts cannot be moved closer or farther \napart. The chain must be separated and rejoined so it can be installed or removed.\nThis is done with a special chain link called a MASTER LINK, which is a standard link with one \nremovable side plate. With the side plate removed, a master link can be inserted into a chain or \nremoved from it. A cotter pin or a locking spring clip secures the removable side plate of a \nmaster link.\nTHE CLOSED END OF THE CLIP SHOULD POINT IN THE DIRECTION THE CHAIN MOVES, IN THE FIRST 2 \nPHOTOS ABOVE THE CHAIN IS MOVING TO THE LEFT\n136"
+      }
+    },
+    {
+      "id": "c210-slide-137-q53",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What holds chain ends together when a sprocket cannot be used for assembly?",
+      "answer": "Chain puller",
+      "options": [
+        "Chain puller",
+        "Grease gun",
+        "Pressure switch",
+        "Micrometer"
+      ],
+      "explanation": "A chain puller grips and draws the ends together so the master link can be installed.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 137",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 137,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 137. A chain puller grips and draws the ends together so the master link can be installed.",
+        "excerpt": "Two Methods of Installing a Lightweight Chain That Uses a Master Link\nSkill 4 - Install and Remove a Chain with a Master Link Using Sprocket Teeth\nSprocket Mesh\nThe easiest method is to mesh the two ends of the chain next to \neach other over the sprocket teeth, then insert the master link. \nThe teeth of the sprocket hold one end in place while the rest of \nthe chain is wrapped around the other sprocket and back to the \noriginal end.\nChain Puller\nWhen a sprocket can’t be used to hold chain ends in \nplace, a chain puller is used. The puller holds the ends of \ntogether while the master link is installed.\nA chain puller operates by pulling the two ends of the \nchain together with its jaws. THE DIAL ON TOP OF THE \nTOOL OPENS AND CLOSES THE JAWS. \n137\nA49\nVIDEO - HOW TO USE A CHAIN PULLER"
+      }
+    },
+    {
+      "id": "c210-picture-109-8",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "symbol",
+      "prompt": "Why does the belt shown suit a synchronized drive?",
+      "answer": "Its teeth engage the pulley positively",
+      "options": [
+        "Its teeth engage the pulley positively",
+        "It depends entirely on belt slip",
+        "It has a round cross-section",
+        "It is a roller chain"
+      ],
+      "explanation": "The visible teeth identify a timing-belt drive and preserve relative shaft positions.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 109",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 109,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 109. The visible teeth identify a timing-belt drive and preserve relative shaft positions.",
+        "excerpt": "Five Types of Belt Drives\nBelt drives are the most common type of adjacent or parallel shaft-to-shaft \ndrives used because they are quiet, low in cost, and easy to maintain. These \nare the five types of belt drives you will most often encounter:\nUncommon \nnow, but have \nbeen in use \nfor 100s of \nyears\nLight Duty and \ncheap\nUsed when \nmachinery \nhas to be \nsynchronized\nUsed when extra \ntorque and \nhorsepower are \nneeded\nBy far the \nmost common\n109\n7 V-Belt Operation"
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-slide-109-8",
+        "alt": "Original C210 course component diagram"
       }
     }
   ]

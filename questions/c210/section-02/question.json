@@ -4,67 +4,12 @@
   "mathQuestionIds": [
     "q129",
     "q130",
-    "calc-speed"
+    "calc-speed",
+    "c210-math-sprocket",
+    "c210-math-gear-torque",
+    "c210-math-pitch"
   ],
   "questions": [
-    {
-      "id": "q063",
-      "world": "mechanical",
-      "type": "quiz",
-      "prompt": "To calculate output speed as input speed divided by sprocket ratio, how must the sprocket ratio be calculated?",
-      "answer": "Driven teeth divided by driver teeth",
-      "options": [
-        "Driven teeth divided by driver teeth",
-        "Driver teeth divided by driven teeth",
-        "Total teeth times speed",
-        "Sum of both tooth counts"
-      ],
-      "explanation": "The ratio is driven/driver. Output speed is input speed divided by that ratio.",
-      "source": "g",
-      "section": "Sprocket Ratio, slide 81",
-      "topic": "Day 2 · Shafts, chain drives & gears",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-81.jpg",
-          "page": 81,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
-      "reviewCue": {
-        "page": 81,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "How to Calculate Sprocket Ratio Skill 1 - Calculate Sprocket Ratio The speed and torque that are transmitted to the driven shaft where the teeth touch along the PITCH CIRCLE of a chain drive. When the driver and driven sprockets have different numbers of teeth…"
-      }
-    },
-    {
-      "id": "q064",
-      "world": "mechanical",
-      "type": "quiz",
-      "prompt": "What does an idler gear change without changing the final speed ratio?",
-      "answer": "Rotation direction or transfer location",
-      "options": [
-        "Rotation direction or transfer location",
-        "Final output speed ratio",
-        "Input frequency",
-        "Lubricant viscosity"
-      ],
-      "explanation": "The guide describes idlers as transferring motion or changing direction without changing output speed or torque ratio.",
-      "source": "g",
-      "section": "Idler Gears, slide 84",
-      "topic": "Day 2 · Shafts, chain drives & gears",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-139.jpg",
-          "page": 139,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
-      "reviewCue": {
-        "page": 139,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "⮚ Ignore idlers, except for direction change. They do not affect torque or speed ⮚ Use the Gear Ratio, GR = DRIVEN / DRIVER to calculate the torque and speed of the next driven shaft ⮚ That shaft becomes the new driver and the GR to the next output shaft is us…"
-      }
-    },
     {
       "id": "q065",
       "world": "mechanical",
@@ -81,46 +26,11 @@
       "source": "g",
       "section": "Four Types of Gear Drives, slide 88",
       "topic": "Day 2 · Shafts, chain drives & gears",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-88.jpg",
-          "page": 88,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 88,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 88. A rotating pinion moves along a straight rack, converting rotary and linear motion.",
         "excerpt": "Converts rotary motion to linear motion. Also know as a rack and pinion drive. This is used in fluid power actuators to convert linear motion into rotary motion. 88"
-      }
-    },
-    {
-      "id": "q066",
-      "world": "mechanical",
-      "type": "scenario",
-      "prompt": "You enlarge the driven gear while keeping the driver and input speed fixed. What happens to output speed?",
-      "answer": "It decreases",
-      "options": [
-        "It decreases",
-        "It increases",
-        "It must stay the same",
-        "It becomes zero immediately"
-      ],
-      "explanation": "Gear size and speed are inversely related: a larger driven gear rotates more slowly.",
-      "source": "g",
-      "section": "Shaft Speed and Torque, slide 87",
-      "topic": "Day 2 · Shafts, chain drives & gears",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-140.jpg",
-          "page": 140,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
-      "reviewCue": {
-        "page": 140,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "If the DRIVEN is larger than the DRIVER, the speed of the Driven is LESS THAN the speed of the DRIVER BUT the TORQUE is MORE. Use the ratio accordingly. EXERCISE: What is the speed of the DRIVER GEAR? Gear Ratio = 12/36 = 1 to 3, Since RPM of Output is 30 rpm …"
       }
     },
     {
@@ -145,16 +55,10 @@
         "alt": "Course slide diagram for this question",
         "page": 69
       },
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-69.jpg",
-          "page": 69,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 69,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 69. The two hubs engage a flexible spider. The slide describes this as a flexible jaw coupling that can accommodate some misalignment.",
         "excerpt": "The flexible jaw coupling is a type of coupling with a rubber- like insert called a spider to connect the two hubs. ⮚ The hubs of a jaw coupling are machined from metal and mount a key fastener or bushing. ⮚ The spider is rubber or other flexible material. ⮚ T…"
       }
     },
@@ -180,16 +84,10 @@
         "alt": "Course slide diagram for this question",
         "page": 89
       },
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-89.jpg",
-          "page": 89,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 89,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 89. The straight teeth run parallel to the gear shaft. This matches the gear comparison in the course slide.",
         "excerpt": "The spur gear drive is the most basic of gear drives, used mainly in low- to-medium speed applications such as machine tool drives, instrument transducers, and gear reducers for low cost and easy maintenance. The helical gear is similar in design to the spur g…"
       }
     },
@@ -215,16 +113,10 @@
         "alt": "Course slide diagram for this question",
         "page": 89
       },
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-89.jpg",
-          "page": 89,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 89,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 89. The teeth are angled across the gear face. This matches the gear comparison in the course slide.",
         "excerpt": "The helical gear is similar in design to the spur gear except that its teeth are cut into the gear at an angle to the gear's axis of rotation. It’s more expensive than the spur and creates a side or thrust load but can operate at higher speeds with lower noise…"
       }
     },
@@ -250,17 +142,440 @@
         "alt": "Course slide diagram for this question",
         "page": 89
       },
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-89.jpg",
-          "page": 89,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 89,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 89. Two opposite helical tooth patterns form the characteristic paired pattern. This matches the gear comparison in the course slide.",
         "excerpt": "helical gear design has two helical patterns for quiet, high- speed, heavy-load operation. It eliminates the side load caused by the single helical design. IT IS THE MOST EXPENSIVE of the gears.” The internal gear or planetary drive uses one or more external g…"
+      }
+    },
+    {
+      "id": "c210-slide-58-q24",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which shaft material is suitable for wet, corrosive environments?",
+      "answer": "Stainless steel",
+      "options": [
+        "Stainless steel",
+        "Untreated wood",
+        "Soft plastic only",
+        "Plain carbon steel without protection"
+      ],
+      "explanation": "Stainless steel resists corrosion; the slide compares it with cold-rolled, hardened, and chrome-plated steels.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 58",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 58,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 58. Stainless steel resists corrosion; the slide compares it with cold-rolled, hardened, and chrome-plated steels.",
+        "excerpt": "Four Types of Shaft Materials and Give an Application of Each\nHardened steel is cold rolled steel \nthat is heat-treated in some \nmanner to Increase its strength. It is \nused in heavy-duty applications \nsuch as high-speed drive shafts.\nCold Rolled steel Is the \nmost common of all shaft \nmaterials because it is \ncheap and easy to \nmachine. It is available in \ndifferent strengths \naccording to its carbon \ncontent. Cold rolled steel is \nused in most applications.\nChrome plated steel is cold \nrolled or hardened steel that \nhas been given a coating or \nplated with chrome.\nChrome is a metal that is \nresistant to rusting and other \ncorrosive applications. It is often \nused on rollers in presses.\nStainless steel resists rusting and is very\nstrong. It combines the features of\nhardened steel and chrome plating.\nStainless steel has small amounts of\nchrome and nickel to increase its corrosion\nresista"
+      }
+    },
+    {
+      "id": "c210-slide-60-q25",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "How does a plain bearing reduce shaft friction?",
+      "answer": "A lubricant separates sliding surfaces",
+      "options": [
+        "A lubricant separates sliding surfaces",
+        "Gear teeth mesh with the shaft",
+        "It produces electrical current",
+        "It uses a timing belt"
+      ],
+      "explanation": "A plain bearing supports a sliding shaft surface with lubrication; antifriction bearings use rolling elements.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 60",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 60,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 60. A plain bearing supports a sliding shaft surface with lubrication; antifriction bearings use rolling elements.",
+        "excerpt": "The Function of a Bearing\nA solid(PLAIN) bearing uses lubricant to reduce friction between the shaft and the \nbearing. The shaft rotates inside the bearing with a lubricant layer that separates it from \nthe bearing's metal surface. A solid bearing is also known as a \"fluid film bearing.\"\nSolid bearings are lubricated by a grease or oil fitting in the bearing housing. \nMachines that have many bearings often have an “AUTOMATIC LUBRICATION SYSTEM”   \nTHAT SUPPLIES LUBRICANT TO MANY LOCATIONS LIKE BEARINGS IN AN AUTOMOBILE ENGINE.\n60\nA24"
+      }
+    },
+    {
+      "id": "c210-slide-61-q26",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which bearing load acts perpendicular to the shaft axis?",
+      "answer": "Radial load",
+      "options": [
+        "Radial load",
+        "Thrust load",
+        "Axial load only",
+        "No bearing load"
+      ],
+      "explanation": "Radial loads act across the shaft axis. Thrust loads act along the axis.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 61",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 61,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 61. Radial loads act across the shaft axis. Thrust loads act along the axis.",
+        "excerpt": "Three Types of Bearing Loads \nRadial or side loads act in a direction that is perpendicular \nto the axis of the shaft. Radial bearings carry radial loads \nand some small thrust loads. An example is the shaft shown \nhere. The weight of the shaft and any attached hubs or \ngears creates a force that pulls downward on the radial \nbearings.\nCombination loads with both a radial load and a thrust load \nare fairly common. One example is the robot body like the \none shown here. When the body rotates, the weight of the \nmachine creates a radial load along with the thrust load.\nForce\nThrust or axial loads act in a direction parallel to the shaft \naxis and opposite to the direction of force. These thrust \nbearings can carry some small axial load. As the screw \nshown here drives the load, it creates a thrust load on the \nshaft in the opposite direction.\n61"
+      }
+    },
+    {
+      "id": "c210-slide-61-q27",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which bearing load acts along the shaft axis?",
+      "answer": "Thrust load",
+      "options": [
+        "Thrust load",
+        "Radial load only",
+        "Side load only",
+        "Belt sag"
+      ],
+      "explanation": "Thrust is axial loading. A combined load includes axial and radial components.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 61",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 61,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 61. Thrust is axial loading. A combined load includes axial and radial components.",
+        "excerpt": "Three Types of Bearing Loads \nRadial or side loads act in a direction that is perpendicular \nto the axis of the shaft. Radial bearings carry radial loads \nand some small thrust loads. An example is the shaft shown \nhere. The weight of the shaft and any attached hubs or \ngears creates a force that pulls downward on the radial \nbearings.\nCombination loads with both a radial load and a thrust load \nare fairly common. One example is the robot body like the \none shown here. When the body rotates, the weight of the \nmachine creates a radial load along with the thrust load.\nForce\nThrust or axial loads act in a direction parallel to the shaft \naxis and opposite to the direction of force. These thrust \nbearings can carry some small axial load. As the screw \nshown here drives the load, it creates a thrust load on the \nshaft in the opposite direction.\n61"
+      }
+    },
+    {
+      "id": "c210-slide-62-q28",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Why are at least two bearings used to support a radial shaft load?",
+      "answer": "Locate and support the shaft securely",
+      "options": [
+        "Locate and support the shaft securely",
+        "Increase electrical voltage",
+        "Remove every need for lubrication",
+        "Guarantee zero backlash"
+      ],
+      "explanation": "The bearings constrain the shaft’s position while supporting its load.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 62",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 62,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 62. The bearings constrain the shaft’s position while supporting its load.",
+        "excerpt": "How Bearings Are Positioned to Support a Load\nFor radial loads, use at least two bearings to \nsecure the position of the shaft. Place the \nload between the two bearings or overhang \nit. An overhung load is also called a \ncantilever load.\nCANTILEVER LOAD\nMachines like this electric motor have\nbuilt-in bearings mounted externally. All electric \nmotors have two bearings, one on each side of the \nhousing to support the motor's rotor and shaft. They \nalso support an external radial load, allowing other \nparts such as gears and hubs to be attached without \nextra  external bearings.\nThrust loads only need one bearing. Place this bearing anywhere on the shaft in a \nway such that it can counteract the direction of the thrust load. This bearing must \nhave some shelf or set screw to stop slippage\n62"
+      }
+    },
+    {
+      "id": "c210-slide-63-q29",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which bearing installation method is preferred in the slides?",
+      "answer": "Arbor press",
+      "options": [
+        "Arbor press",
+        "Direct blows on the rolling elements",
+        "Hammering the shaft sideways",
+        "Forcing a key into the bearing"
+      ],
+      "explanation": "An arbor press applies controlled square force. Force must be applied through the appropriate bearing ring.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 63",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 63,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 63. An arbor press applies controlled square force. Force must be applied through the appropriate bearing ring.",
+        "excerpt": "Bearing Installation\nTwo methods of bearing installation:\nAbor press (preferred) uses a lever to press squarely on \nthe housing with no damage. Larger bearings require a \nhydraulic press.\nIf nothing else is available, Sleeve and Hammer uses \na mallet and scrap wood.\nThis takes more skill and is prone to damaging the \nbearing. \n63\nA26"
+      }
+    },
+    {
+      "id": "c210-slide-65-q30",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which mount supports a shaft parallel to its mounting plane?",
+      "answer": "Pillow block",
+      "options": [
+        "Pillow block",
+        "Flange bearing mount",
+        "C-face motor mount",
+        "Gear idler"
+      ],
+      "explanation": "Pillow-block housings have feet on a mounting surface. Flange mounts support shafts through a plane.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 65",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 65,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 65. Pillow-block housings have feet on a mounting surface. Flange mounts support shafts through a plane.",
+        "excerpt": "Two Methods of Mounting a Shaft\nPILLOW BLOCK with a housing and \nmounting feet. Mounts the shaft parallel \nto a plate.\nFLANGE TYPE BEARING MOUNT with a \nhousing that mounts perpendicular to the \nshaft. Flanges have either two or four \nmounting holes and can be built into the \nhousing of the machine itself.\nMOUNTING FEET\nZerk \nGrease \nFitting\n65"
+      }
+    },
+    {
+      "id": "c210-slide-67-q31",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What is the purpose of a shaft coupling?",
+      "answer": "Transmit torque between two shafts",
+      "options": [
+        "Transmit torque between two shafts",
+        "Set oil viscosity",
+        "Create compressed air",
+        "Measure chain sag"
+      ],
+      "explanation": "A coupling joins shafts, such as a motor and pump, to transmit mechanical power.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 67",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 67,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 67. A coupling joins shafts, such as a motor and pump, to transmit mechanical power.",
+        "excerpt": "Coupling and Applications\nCouplings connect one shaft to another, such as \nconnecting electric motors to pumps and gear \nreducers. FLEXIBLE COUPLINGS allow some small \nmisalignment and absorb the shock/initial load when the \nmotor is turned on and off.\nCouplings create one long shaft from 2 \nshafet . The mechanical power systems \nand their couplings provides a secure \nmethod of transmitting the TORQUE and \nSPEED from one shaft to another.\nAlthough they appear to perform a rather \nsimple task, there are many types of \ncouplings, and their correct installation will \ngreatly affect. the mechanical efficiency and \nlife of the system\n67\nA28"
+      }
+    },
+    {
+      "id": "c210-slide-69-q32",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Which part of a flexible jaw coupling absorbs shock and tolerates small misalignment?",
+      "answer": "Elastomer insert or spider",
+      "options": [
+        "Elastomer insert or spider",
+        "A rigid gear tooth",
+        "The foundation grout",
+        "The Zerk fitting"
+      ],
+      "explanation": "The flexible insert lies between coupling jaws and cushions torque transfer within the coupling’s specified limits.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 69",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 69,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 69. The flexible insert lies between coupling jaws and cushions torque transfer within the coupling’s specified limits.",
+        "excerpt": "Flexible Jaw Coupling \nThe flexible jaw coupling is a type of coupling with a rubber-\nlike insert called a spider to connect the two hubs.\n⮚ The hubs of a jaw coupling are machined from metal and \nmount a key fastener or bushing.\n⮚ The spider is rubber or other flexible material. \n⮚ The advantage of A FLEXIBLE JAW/SPIDER COUPLING is \nthat it “ALLOWS MORE MISALIGNMENT THAN MOST FLEXIBLE \nCOUPLINGS” but it is limited for low to medium power or \nspeed applications.\n⮚ It DOES NOT REQUIRE LUBRICATION\nOther names for this coupling are a jaw\nand spider coupler, elastomeric jaw \ncoupling, or simply a jaw coupling.\n69\nA30"
+      }
+    },
+    {
+      "id": "q063",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "How is sprocket ratio calculated?",
+      "answer": "Driven teeth divided by driver teeth",
+      "options": [
+        "Driven teeth divided by driver teeth",
+        "Driver teeth divided by driven teeth",
+        "Driven speed divided by tooth diameter",
+        "Sum of the tooth counts"
+      ],
+      "explanation": "With ratio defined as driven/driver, output speed is input speed divided by ratio and ideal output torque is input torque times ratio.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 81",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 81,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 81. With ratio defined as driven/driver, output speed is input speed divided by ratio and ideal output torque is input torque times ratio.",
+        "excerpt": "How to Calculate Sprocket Ratio\nSkill 1 - Calculate Sprocket Ratio\nThe speed and torque that \nare transmitted to the driven \nshaft where the teeth touch \nalong the PITCH CIRCLE of a \nchain drive.\nWhen the driver and driven sprockets \nhave different numbers of teeth, both \nthe torque and speed are different \nbetween the them.\nWith an SR of 3, the driven sprocket has \n3 times the torque but 1/3 of the speed \nof the driver.\nThe sprocket ratio is the ratio of the number of teeth \non the driven sprocket to the number of teeth on the \ndriver sprocket.  Its that simple.\nThis sprocket ratio is 3 or “3 \nto 1” for the drive below.\nSR = Driven Teeth Count\nDriver Teeth Count\n81\nA45"
+      }
+    },
+    {
+      "id": "q064",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What does an idler gear affect in a simple gear train?",
+      "answer": "Rotation direction and spacing, not the overall ratio",
+      "options": [
+        "Rotation direction and spacing, not the overall ratio",
+        "Overall ratio regardless of other gears",
+        "Input power creation",
+        "Oil viscosity"
+      ],
+      "explanation": "An idler adds another mesh and changes direction; its tooth count cancels from the overall driver-to-output ratio.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 84",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 84,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 84. An idler adds another mesh and changes direction; its tooth count cancels from the overall driver-to-output ratio.",
+        "excerpt": "Three Components of a Gear Drive System\nIdler Gears\nIdler gears are sometimes used in drive systems. They are \npositioned between the driver and driven gears and transfer \ntorque and motion from the driver gear to the driven gear.\n⮚ Its purpose is to:\n⮚ CHANGE THE DIRECTION OF ROTATION\n⮚ OR TRANSFER THE POWER TO A LOCATION THAT IS FURTHER \nFROM THE DRIVER SHAFT\nIt does not affect either the speed or the torque \noutput of the driven gear.\n84\nA50"
+      }
+    },
+    {
+      "id": "c210-slide-85-q35",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What is a gear’s pitch circle?",
+      "answer": "The theoretical circle where motion is transmitted",
+      "options": [
+        "The theoretical circle where motion is transmitted",
+        "The outermost tooth-tip circle only",
+        "The shaft’s bore diameter",
+        "The foundation outline"
+      ],
+      "explanation": "Pitch dimensions are used in gear ratios and tooth geometry. Distinguish the pitch circle from outside and root circles.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 85",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 85,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 85. Pitch dimensions are used in gear ratios and tooth geometry. Distinguish the pitch circle from outside and root circles.",
+        "excerpt": "The pitch circle of a gear is the \nlocation on the gear where the speed \nand torque are transmitted.\nDefine the Gear Pitch, Pitch Circle, and Pitch Diameter\nThe pitch of a gear, or circular pitch, is \nthe distance between one point on a \ntooth and the corresponding point on \nthe next tooth when measured along the \npitch circle.\nThe pitch diameter is the \ndiameter of the pitch circle \n85"
+      }
+    },
+    {
+      "id": "c210-slide-89-q36",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What distinguishes helical gear teeth from spur teeth?",
+      "answer": "Teeth are angled to the shaft axis",
+      "options": [
+        "Teeth are angled to the shaft axis",
+        "Teeth are always straight and parallel to the axis",
+        "There are no teeth",
+        "The gear is a belt"
+      ],
+      "explanation": "Helical teeth engage progressively and can generate axial thrust. Spur teeth run parallel to the axis.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 89",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 89,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 89. Helical teeth engage progressively and can generate axial thrust. Spur teeth run parallel to the axis.",
+        "excerpt": "Four Types of Parallel Shaft Gears\nThe spur gear drive is the most basic \nof gear drives, used mainly in low-\nto-medium speed applications such \nas machine tool drives, instrument \ntransducers, and gear reducers for \nlow cost and easy maintenance.\nThe helical gear is similar in \ndesign to the spur gear \nexcept that its teeth are \ncut into the gear at an \nangle to the gear's axis of \nrotation. It’s more \nexpensive than the spur \nand creates a side or thrust \nload but can operate at \nhigher speeds with lower \nnoise.\nThe herringbone or double \nhelical gear design has two \nhelical patterns for quiet, high-\nspeed, heavy-load operation. \nIt eliminates the side load \ncaused by the single helical \ndesign. IT IS THE MOST \nEXPENSIVE of the gears.”\nThe internal gear or planetary drive \nuses one or more external gears to \ndrive a larger internal gear. This \ntype of gear drive is used for \nextremely "
+      }
+    },
+    {
+      "id": "c210-slide-93-q37",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What is diametral pitch?",
+      "answer": "Number of teeth divided by pitch diameter",
+      "options": [
+        "Number of teeth divided by pitch diameter",
+        "Pitch diameter divided by teeth",
+        "Output speed divided by input speed",
+        "The distance between shaft centers"
+      ],
+      "explanation": "Diametral pitch describes tooth size: DP = N / PD when using the slide’s inch-based dimensions.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 93",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 93,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 93. Diametral pitch describes tooth size: DP = N / PD when using the slide’s inch-based dimensions.",
+        "excerpt": "Diametral Pitch (Gear Pitch)\n10 - Number of Teeth \n11 - Pitch Diameter \n12 - Diametral Pitch\nDIAMETRAL PITCH Is size of the teeth on\nthe gear. Two gears must have the same\ndiametral pitch in order to mesh.\nIt is the ratio of the number of teeth on\nthe gear to the pitch diameter.\nSince gears can only have whole numbers\nof teeth, a gear can only have a pitch\ndiameter that is a multiple for the gear pitch\n93"
+      }
+    },
+    {
+      "id": "c210-slide-99-q38",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What is gear backlash?",
+      "answer": "Clearance between meshing tooth surfaces",
+      "options": [
+        "Clearance between meshing tooth surfaces",
+        "Shaft end float only",
+        "Oil resistance to flow",
+        "Belt deflection"
+      ],
+      "explanation": "Backlash is related to the difference between tooth thickness and the mating tooth space. It is checked with the specified measuring procedure.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 99",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 99,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 99. Backlash is related to the difference between tooth thickness and the mating tooth space. It is checked with the specified measuring procedure.",
+        "excerpt": "Backlash\nBacklash is the difference between the thickness of a tooth and the width of the tooth space \nwhere the pitch circles touch.\nMost gears need some backlash built into them to allow them to mesh smoothly and allow space \nfor  lubrication between the gears.\nThere are standard look-up tables to determine this distance. It is created by making the tooth \nthickness slightly smaller than the tooth width and adjusting the center-to-center distance of the \ngears. \nBacklash is typically a few thousandths of an inch.\nIf adjusted correctly, the pitch circles are meeting \nat one point, a tangent.\n99"
+      }
+    },
+    {
+      "id": "c210-picture-65-7",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "symbol",
+      "prompt": "Which fitting is shown in this cutaway?",
+      "answer": "Zerk grease fitting",
+      "options": [
+        "Zerk grease fitting",
+        "Pressure regulator",
+        "Master link",
+        "Set screw"
+      ],
+      "explanation": "The fitting’s spring-loaded check permits grease entry while helping retain lubricant.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 65",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 65,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 65. The fitting’s spring-loaded check permits grease entry while helping retain lubricant.",
+        "excerpt": "Two Methods of Mounting a Shaft\nPILLOW BLOCK with a housing and \nmounting feet. Mounts the shaft parallel \nto a plate.\nFLANGE TYPE BEARING MOUNT with a \nhousing that mounts perpendicular to the \nshaft. Flanges have either two or four \nmounting holes and can be built into the \nhousing of the machine itself.\nMOUNTING FEET\nZerk \nGrease \nFitting\n65"
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-slide-65-7",
+        "alt": "Original C210 course component diagram"
+      }
+    },
+    {
+      "id": "c210-picture-65-8",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "symbol",
+      "prompt": "Which bearing mounting style is shown at the two vertical plates?",
+      "answer": "Flange-mounted bearing",
+      "options": [
+        "Flange-mounted bearing",
+        "Pillow block on a horizontal bedplate",
+        "C-face motor mount",
+        "Shaft coupling"
+      ],
+      "explanation": "The flanges mount the bearings to the plates with the shaft perpendicular to the mounting planes.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 65",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 65,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 65. The flanges mount the bearings to the plates with the shaft perpendicular to the mounting planes.",
+        "excerpt": "Two Methods of Mounting a Shaft\nPILLOW BLOCK with a housing and \nmounting feet. Mounts the shaft parallel \nto a plate.\nFLANGE TYPE BEARING MOUNT with a \nhousing that mounts perpendicular to the \nshaft. Flanges have either two or four \nmounting holes and can be built into the \nhousing of the machine itself.\nMOUNTING FEET\nZerk \nGrease \nFitting\n65"
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-slide-65-8",
+        "alt": "Original C210 course component diagram"
+      }
+    },
+    {
+      "id": "c210-picture-89-9",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "symbol",
+      "prompt": "For the external spur gears shown, how do the two shafts rotate relative to one another?",
+      "answer": "In opposite directions",
+      "options": [
+        "In opposite directions",
+        "In the same direction",
+        "Only one shaft rotates",
+        "Direction cannot change across a mesh"
+      ],
+      "explanation": "One external gear mesh reverses rotation direction while transmitting torque between parallel shafts.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 89",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 89,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 89. One external gear mesh reverses rotation direction while transmitting torque between parallel shafts.",
+        "excerpt": "Four Types of Parallel Shaft Gears\nThe spur gear drive is the most basic \nof gear drives, used mainly in low-\nto-medium speed applications such \nas machine tool drives, instrument \ntransducers, and gear reducers for \nlow cost and easy maintenance.\nThe helical gear is similar in \ndesign to the spur gear \nexcept that its teeth are \ncut into the gear at an \nangle to the gear's axis of \nrotation. It’s more \nexpensive than the spur \nand creates a side or thrust \nload but can operate at \nhigher speeds with lower \nnoise.\nThe herringbone or double \nhelical gear design has two \nhelical patterns for quiet, high-\nspeed, heavy-load operation. \nIt eliminates the side load \ncaused by the single helical \ndesign. IT IS THE MOST \nEXPENSIVE of the gears.”\nThe internal gear or planetary drive \nuses one or more external gears to \ndrive a larger internal gear. This \ntype of gear drive is used for \nextremely "
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-slide-89-9",
+        "alt": "Original C210 course component diagram"
       }
     }
   ]

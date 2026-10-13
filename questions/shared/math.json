@@ -19,16 +19,10 @@
       "unit": "RPM",
       "tolerance": 2.5,
       "topic": "Day 2 · Shafts, chain drives & gears",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-82.jpg",
-          "page": 82,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 82,
-        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 82. Sprocket ratio = 40/20 = 2. Output speed = 1000/2 = 500 RPM.",
         "excerpt": "DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in opposite directions If you halve speed, you double torque 82"
       }
     },
@@ -51,16 +45,10 @@
       "unit": "in·lbf",
       "tolerance": 6,
       "topic": "Day 2 · Shafts, chain drives & gears",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-82.jpg",
-          "page": 82,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 82,
-        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 82. Output torque = input torque × ratio = 600 × 2 = 1200 in·lbf.",
         "excerpt": "The Sprocket Ratio = 40/20 = 2 Since the DRIVEN(larger)sprocket will move slower than DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in oppos…"
       }
     },
@@ -83,16 +71,10 @@
       "unit": "RPM",
       "tolerance": 0.3,
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-38.jpg",
-          "page": 38,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 38,
-        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 38. There are 60 seconds per minute: 1 × 60 = 60 revolutions per minute.",
         "excerpt": "per minute or RPM. If a motor shaft is turning at one revolution per second, the speed is 60 RPM. Contact Tachometer - The rubber contact of the tachometer tip is placed on the end of the spinning shaft. It spins at the same speed as the shaft and it’s interna…"
       }
     },
@@ -2683,16 +2665,10 @@
           "tolerance": 1.6500000000000001
         }
       ],
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-82.jpg",
-          "page": 82,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 82,
-        "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 82. Ratio = driven ÷ driver = 2. Output speed = 600 ÷ 2 = 300 RPM.",
         "excerpt": "DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in opposite directions If you halve speed, you double torque 82"
       }
     },
@@ -4471,6 +4447,421 @@
         "text": "Review C209 Pneumatic Systems.pdf, slide 78. Identify the formula and substitute the stated values.",
         "excerpt": "FLOW RATE\nFormula\n• US customary uses CFM\n• SI system uses CMM\nExample\n3 cubic feet of air passes a \nmeasurement point in 1 minute,  so the \nflow rate is 3CFM \n3.00 ft³\n1 min. = 60 sec.\nRf=3.00ft³ \n1 min. 3 cfm\n78"
       }
+    },
+    {
+      "id": "c209-math-gauge-error",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "formula",
+      "prompt": "★ A 1000 kPa full-scale gauge permits 8% full-scale error. What is the maximum error magnitude?",
+      "answer": "80 kPa",
+      "options": [
+        "80 kPa",
+        "8 kPa",
+        "160 kPa",
+        "800 kPa"
+      ],
+      "explanation": "Maximum error = 0.08 × 1000 = 80 kPa; the reading may be up to 80 kPa above or below the true pressure.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 1,
+          "question": 1
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 154,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 1; C209 Pneumatic Systems.pdf, slide 154. Maximum error = 0.08 × 1000 = 80 kPa; the reading may be up to 80 kPa above or below the true pressure."
+      },
+      "numeric": 80,
+      "unit": "kPa",
+      "tolerance": 0.1
+    },
+    {
+      "id": "c209-math-flow-hour",
+      "world": "pneumatic",
+      "topic": "Module 4 · Pneumatic Speed Control Circuits",
+      "type": "formula",
+      "prompt": "★ 5.0 cubic metres of air passes a point in 20 seconds. Find flow in cubic metres per hour.",
+      "answer": "900 m³/hr",
+      "options": [
+        "900 m³/hr",
+        "250 m³/hr",
+        "450 m³/hr",
+        "1200 m³/hr"
+      ],
+      "explanation": "5/20 = 0.25 m³/s. Multiply by 3600 seconds/hour to get 900 m³/hr.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 24",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 5,
+          "question": 24
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 78,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 24; C209 Pneumatic Systems.pdf, slide 78. 5/20 = 0.25 m³/s. Multiply by 3600 seconds/hour to get 900 m³/hr."
+      },
+      "numeric": 900,
+      "unit": "m³/hr",
+      "tolerance": 0.1
+    },
+    {
+      "id": "c209-math-diameter",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "formula",
+      "prompt": "A 2-inch bore cylinder extends at 80 psi. Using area = 0.7854D², find theoretical force.",
+      "answer": "251.3 lb",
+      "options": [
+        "251.3 lb",
+        "125.7 lb",
+        "160 lb",
+        "320 lb"
+      ],
+      "numeric": 251.3,
+      "unit": "lb",
+      "tolerance": 0.15,
+      "explanation": "Area = 0.7854 × 2² = 3.1416 in². Force = 80 × 3.1416 = 251.3 lb.",
+      "source": "p",
+      "section": "Slide 60",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 60,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 60. Area = 0.7854 × 2² = 3.1416 in². Force = 80 × 3.1416 = 251.3 lb."
+      }
+    },
+    {
+      "id": "c209-math-absolute",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "formula",
+      "prompt": "A gauge reads 60 psig. Using 14.7 psi atmospheric pressure, find absolute pressure.",
+      "answer": "74.7 psia",
+      "options": [
+        "74.7 psia",
+        "45.3 psia",
+        "60 psia",
+        "14.7 psia"
+      ],
+      "numeric": 74.7,
+      "unit": "psia",
+      "tolerance": 0.15,
+      "explanation": "Pabsolute = Pgauge + Patmospheric = 60 + 14.7 = 74.7 psia.",
+      "source": "p",
+      "section": "Slide 65",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 65,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 65. Pabsolute = Pgauge + Patmospheric = 60 + 14.7 = 74.7 psia."
+      }
+    },
+    {
+      "id": "c209-math-boyle",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "formula",
+      "prompt": "A fixed gas volume is 4 litres at 100 kPa absolute. At constant temperature it is compressed to 2 litres. Find final absolute pressure.",
+      "answer": "200 kPa",
+      "options": [
+        "200 kPa",
+        "50 kPa",
+        "100 kPa",
+        "400 kPa"
+      ],
+      "numeric": 200,
+      "unit": "kPa",
+      "tolerance": 0.15,
+      "explanation": "P1V1 = P2V2, so P2 = 100 × 4 / 2 = 200 kPa absolute.",
+      "source": "p",
+      "section": "Slide 69",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 69,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 69. P1V1 = P2V2, so P2 = 100 × 4 / 2 = 200 kPa absolute."
+      }
+    },
+    {
+      "id": "c209-math-final-absolute",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "formula",
+      "prompt": "★ At sea level a gauge reads 640 kPa. Using atmospheric pressure of 101.3 kPa, find absolute pressure.",
+      "answer": "741.3 kPa absolute",
+      "options": [
+        "741.3 kPa absolute",
+        "641 kPa absolute",
+        "844 kPa absolute",
+        "742 kPa absolute"
+      ],
+      "explanation": "Absolute pressure = 640 + 101.3 = 741.3 kPa. Absolute psi must be labeled psia, not the psig label used by the source choices.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 30",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 6,
+          "question": 30
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 65,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 30; C209 Pneumatic Systems.pdf, slide 65. Absolute pressure = 640 + 101.3 = 741.3 kPa. Absolute psi must be labeled psia, not the psig label used by the source choices."
+      },
+      "numeric": 741.3,
+      "unit": "kPa absolute",
+      "tolerance": 0.1
+    },
+    {
+      "id": "c209-math-final-pa",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "formula",
+      "prompt": "★ Convert 500 N/m² to kilopascals.",
+      "answer": "0.5 kPa",
+      "options": [
+        "0.5 kPa",
+        "100 kPa",
+        "1000 kPa",
+        "1 kPa"
+      ],
+      "explanation": "1 N/m² = 1 Pa and 1000 Pa = 1 kPa. Therefore 500 Pa = 0.5 kPa.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 42",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 8,
+          "question": 42
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 66,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 42; C209 Pneumatic Systems.pdf, slide 66. 1 N/m² = 1 Pa and 1000 Pa = 1 kPa. Therefore 500 Pa = 0.5 kPa."
+      },
+      "numeric": 0.5,
+      "unit": "kPa",
+      "tolerance": 0.1
+    },
+    {
+      "id": "c210-math-hp",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A shaft delivers 20 ft-lb at 1750 RPM. Using HP = torque × RPM / 5252, find power.",
+      "answer": "6.66 hp",
+      "options": [
+        "6.66 hp",
+        "3.33 hp",
+        "13.32 hp",
+        "35000 hp"
+      ],
+      "explanation": "HP = 20 × 1750 / 5252 = 6.66 hp.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 49",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 49,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 49. HP = 20 × 1750 / 5252 = 6.66 hp.",
+        "excerpt": "Calculate Rotary Mechanical Power\nSkill 2 - Calculate Rotary Mechanical Power\nWhere:\nSs = Shaft Speed (rpm)\nTs = Shaft Torque (ft-lb or N-m)\nP = Rotary Power (hp)\nPower is the rate at which work is performed\nShaft Torque X Shaft Speed\n5252\nPower will have basic units of Foot-LBS per Second or Newton Meters per second, \nbut it’s rare to write it this way. Instead, its standard to use:\n⮚ Horsepower (HP) in the US\n⮚ Watts or kilowatts (kW, 1 kW = 1,000 Watts)\nRotary Power measured in HP =\nShaft Torque X Shaft Speed\n9549\nRotary Power measured in kW =\n49"
+      },
+      "numeric": 6.66,
+      "unit": "hp",
+      "tolerance": 0.15
+    },
+    {
+      "id": "c210-math-efficiency",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A drive receives 10 hp and delivers 8 hp. Find efficiency.",
+      "answer": "80 %",
+      "options": [
+        "80 %",
+        "20 %",
+        "125 %",
+        "8 %"
+      ],
+      "explanation": "Efficiency = 8 / 10 × 100 = 80%.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 53",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 53,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 53. Efficiency = 8 / 10 × 100 = 80%.",
+        "excerpt": "Calculate Mechanical Efficiency and Explain Its Importance\nSkill 3 - Calculate Mechanical Efficiency\nCalculate the MECHANICAL POWER EFFICIENCY using the formula and the given values. Round \nyour answer to two decimal places. MECHANICAL EFFICIENCY is ALWAYS LESS THAN 100%\n53"
+      },
+      "numeric": 80,
+      "unit": "%",
+      "tolerance": 0.15
+    },
+    {
+      "id": "c210-math-sprocket",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A 15-tooth driver turns at 1200 RPM and drives a 45-tooth sprocket. Find output speed.",
+      "answer": "400 RPM",
+      "options": [
+        "400 RPM",
+        "3600 RPM",
+        "800 RPM",
+        "1200 RPM"
+      ],
+      "explanation": "Ratio = 45/15 = 3. Output speed = 1200/3 = 400 RPM.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 81",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 81,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 81. Ratio = 45/15 = 3. Output speed = 1200/3 = 400 RPM.",
+        "excerpt": "How to Calculate Sprocket Ratio\nSkill 1 - Calculate Sprocket Ratio\nThe speed and torque that \nare transmitted to the driven \nshaft where the teeth touch \nalong the PITCH CIRCLE of a \nchain drive.\nWhen the driver and driven sprockets \nhave different numbers of teeth, both \nthe torque and speed are different \nbetween the them.\nWith an SR of 3, the driven sprocket has \n3 times the torque but 1/3 of the speed \nof the driver.\nThe sprocket ratio is the ratio of the number of teeth \non the driven sprocket to the number of teeth on the \ndriver sprocket.  Its that simple.\nThis sprocket ratio is 3 or “3 \nto 1” for the drive below.\nSR = Driven Teeth Count\nDriver Teeth Count\n81\nA45"
+      },
+      "numeric": 400,
+      "unit": "RPM",
+      "tolerance": 0.15
+    },
+    {
+      "id": "c210-math-gear-torque",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A 20-tooth driver produces 12 ft-lb and drives a 60-tooth gear. Ignoring losses, find output torque.",
+      "answer": "36 ft-lb",
+      "options": [
+        "36 ft-lb",
+        "4 ft-lb",
+        "12 ft-lb",
+        "72 ft-lb"
+      ],
+      "explanation": "Ratio = 60/20 = 3. Ideal output torque = 12 × 3 = 36 ft-lb.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 86",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 86,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 86. Ratio = 60/20 = 3. Ideal output torque = 12 × 3 = 36 ft-lb.",
+        "excerpt": "Gear Ratio of a Gear Drive\nThe speed and torque that are transmitted to the\ndriven shaft of a gear drive are calculated using\nthe gear ratio, which can be calculated using one\nof two methods:\nGear Ratio Using Pitch Diameters in this diagram\nGR = 2.66 inches/2 inches =1.33\nGear Ratio Using Number of Teeth, if 15 on driver and 20 on \ndriven  GR = 20/15=1.33\nThe Driven Pulley has to spin slower because it is larger\nthan the Driver Pulley\nSpeed of Driven, given \nInput Speed and Gear \nRatio?  1350 rpm \nTorque of Driven,\n13.33 in-lbs\n1/What is the OUTPUT \nSPEED?\nIf the INPUT SPEED = 1800 \nRPM\n2/What is the OUTPUT \nTORQUE?\nIf the INPUT TORQUE = 10 \nin-lbs\n86\n"
+      },
+      "numeric": 36,
+      "unit": "ft-lb",
+      "tolerance": 0.15
+    },
+    {
+      "id": "c210-math-pitch",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A gear has 40 teeth and a 4-inch pitch diameter. Find diametral pitch.",
+      "answer": "10 teeth/in",
+      "options": [
+        "10 teeth/in",
+        "160 teeth/in",
+        "0.1 teeth/in",
+        "44 teeth/in"
+      ],
+      "explanation": "DP = teeth / pitch diameter = 40/4 = 10 teeth/in.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 93",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 93,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 93. DP = teeth / pitch diameter = 40/4 = 10 teeth/in.",
+        "excerpt": "Diametral Pitch (Gear Pitch)\n10 - Number of Teeth \n11 - Pitch Diameter \n12 - Diametral Pitch\nDIAMETRAL PITCH Is size of the teeth on\nthe gear. Two gears must have the same\ndiametral pitch in order to mesh.\nIt is the ratio of the number of teeth on\nthe gear to the pitch diameter.\nSince gears can only have whole numbers\nof teeth, a gear can only have a pitch\ndiameter that is a multiple for the gear pitch\n93"
+      },
+      "numeric": 10,
+      "unit": "teeth/in",
+      "tolerance": 0.15
+    },
+    {
+      "id": "c210-math-pulley",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A 3-inch driver sheave at 900 RPM drives a 9-inch sheave. Find ideal output speed.",
+      "answer": "300 RPM",
+      "options": [
+        "300 RPM",
+        "2700 RPM",
+        "600 RPM",
+        "900 RPM"
+      ],
+      "explanation": "Pitch-diameter ratio = 9/3 = 3. Output speed = 900/3 = 300 RPM.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 108",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 108,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 108. Pitch-diameter ratio = 9/3 = 3. Output speed = 900/3 = 300 RPM.",
+        "excerpt": "Calculate the Pulley Ratio\nIf the SPEED of the driver is 30 RPM, and the PR is 3, the\ndriven speed is 10 RPM If the TORQUE of the DIVER is\n100 ft-lb, the TORQUE is 3 times higher or 300 ft-lb\nAs the PULLEY RATIO gets larger, the SPEED gets slower, but he TORQUE increases. This behaves \nidentically with Gear Pitch Ratio and Sprocket Ratio\nIf a Pulley Ratio, PR is 6/2 or 3, its also called 3:1, with the \nfirst number being the drive and the second being the \ndriver.\nThe pulley ratio determines the relationship for speed\nand torque between the two pulleys \nPulley Ratio = PR = Pitch Diameter Diven\nPitch Diameter Diver\n108\nA36 A37"
+      },
+      "numeric": 300,
+      "unit": "RPM",
+      "tolerance": 0.15
+    },
+    {
+      "id": "c210-math-chain-wear",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "formula",
+      "prompt": "An original 40-inch chain has elongated 3%. What is its new length?",
+      "answer": "41.2 in",
+      "options": [
+        "41.2 in",
+        "40.3 in",
+        "38.8 in",
+        "43 in"
+      ],
+      "explanation": "Elongation = 40 × 0.03 = 1.2 in. New length = 41.2 in.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 135",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 135,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 135. Elongation = 40 × 0.03 = 1.2 in. New length = 41.2 in.",
+        "excerpt": "Chains Do Not Stretch, They Wear and Elongate\nChain sag will need to be removed as it increases with time, making it look like the \nchain is stretching. The chain is not stretching; the bushings are wearing.\nIf a chain has 75 links, and the bushings each wear 0.010”, the chain will lengthen by \n75 X 0.010, or 0.75 inch. The wear just causes the space between individual links to \nincrease in length.\nIt is important to understand that a chain \nshould be replaced when its length \nbecomes 3% longer than its original length.\n135"
+      },
+      "numeric": 41.2,
+      "unit": "in",
+      "tolerance": 0.15
+    },
+    {
+      "id": "c210-math-compound",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A 1200 RPM driver passes through two reduction stages of 2:1 and 3:1. Find output speed.",
+      "answer": "200 RPM",
+      "options": [
+        "200 RPM",
+        "7200 RPM",
+        "600 RPM",
+        "400 RPM"
+      ],
+      "explanation": "Overall reduction = 2 × 3 = 6. Output speed = 1200/6 = 200 RPM.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 141",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 141,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 141. Overall reduction = 2 × 3 = 6. Output speed = 1200/6 = 200 RPM.",
+        "excerpt": "Compound Gear Drives\nA compound gear drive is a type of gear train that has two or more gears mounted on \none shaft. These gears can be mounted anywhere on the shaft, either next to each \nother or on opposite ends of the shaft.\nif gears are mounted on the same shaft they must be rotating at the SAME SPEED\n141"
+      },
+      "numeric": 200,
+      "unit": "RPM",
+      "tolerance": 0.15
     }
   ]
 }

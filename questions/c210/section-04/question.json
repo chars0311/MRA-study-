@@ -1,7 +1,9 @@
 {
   "world": "mechanical",
   "topic": "Day 4 · Drive-train calculations & shaft alignment",
-  "mathQuestionIds": [],
+  "mathQuestionIds": [
+    "c210-math-compound"
+  ],
   "questions": [
     {
       "id": "module-check-6",
@@ -19,17 +21,154 @@
       "explanation": "The Day 4 review says to ignore idlers for speed and torque ratio, but include their effect on direction.",
       "source": "g",
       "section": "Day 4 · Drive-train calculation review, slide 139",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/g-139.jpg",
-          "page": 139,
-          "title": "C210 Mechanical Power Sys.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 139,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 139. The Day 4 review says to ignore idlers for speed and torque ratio, but include their effect on direction.",
         "excerpt": "To calculate speed, direction and torque of gears throughout a drive train: ⮚ Start with the speed, torque and direction of the motor as the 1st driven or input gear. ⮚ Ignore idlers, except for direction change. They do not affect torque or speed ⮚ Use the Ge…"
+      }
+    },
+    {
+      "id": "q066",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "A larger driven gear gives which ideal output change?",
+      "answer": "Lower speed and higher torque",
+      "options": [
+        "Lower speed and higher torque",
+        "Higher speed and lower torque",
+        "Higher speed and higher torque with no added power",
+        "Exactly the same speed and torque"
+      ],
+      "explanation": "For a driven/driver ratio above one, divide input speed and multiply input torque by the ratio, neglecting losses.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 140",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 140,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 140. For a driven/driver ratio above one, divide input speed and multiply input torque by the ratio, neglecting losses.",
+        "excerpt": "If the DRIVEN is larger than the DRIVER, the speed of the \nDriven is LESS THAN the speed of the DRIVER\nBUT the TORQUE is MORE. Use the ratio accordingly. \nEXERCISE: \nWhat is the speed of the DRIVER GEAR?\nGear Ratio = 12/36 = 1 to 3, Since RPM of \nOutput is 30 rpm then rpm of input is slower or \n30 rpm / 3 = 10 rpm\n36\nIdler gears, or any gear between the \ndriver and a driven gear do not affect \nthe torque or speed of the driven shaft \nSpeed and torque calculations depend \nonly on the driver and driven gears \nSpeed and Torque Output in a Multiple Shaft Gear Drive\n30\n12\n140"
+      }
+    },
+    {
+      "id": "c210-slide-141-q55",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "What characterizes a compound gear drive?",
+      "answer": "Two or more gears rigidly share a shaft",
+      "options": [
+        "Two or more gears rigidly share a shaft",
+        "Every gear rotates on a separate shaft",
+        "It has no driven gears",
+        "It uses only one gear"
+      ],
+      "explanation": "Gears fixed on the same shaft rotate at the same speed; successive mesh ratios combine across stages.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 141",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 141,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 141. Gears fixed on the same shaft rotate at the same speed; successive mesh ratios combine across stages.",
+        "excerpt": "Compound Gear Drives\nA compound gear drive is a type of gear train that has two or more gears mounted on \none shaft. These gears can be mounted anywhere on the shaft, either next to each \nother or on opposite ends of the shaft.\nif gears are mounted on the same shaft they must be rotating at the SAME SPEED\n141"
+      }
+    },
+    {
+      "id": "c210-slide-145-q56",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "How does one external gear mesh change rotation direction?",
+      "answer": "It reverses direction",
+      "options": [
+        "It reverses direction",
+        "It preserves direction",
+        "It stops the output shaft",
+        "It doubles the speed regardless of tooth count"
+      ],
+      "explanation": "Each external gear mesh reverses the rotation direction. Count meshes to determine the final direction.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 145",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 145,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 145. Each external gear mesh reverses the rotation direction. Count meshes to determine the final direction.",
+        "excerpt": "Direction of Rotation of a Gear Drive\nEach gear that is added to a gear train causes the driven gear's rotation direction to change. When \nthere are only two gears, the driven gear turns in the opposite direction to the driver gear. If one gear \nis added in the middle, either an idler gear or another driven gear, the direction of rotation of the \noriginal driven gear will be the same as the driver gear.\nEXERCISE:\nWhat is the direction of \nrotation of the output shaft?\nCW = CLOCKWISE\nCCW = COUNTER CLOCKWISE\n145"
+      }
+    },
+    {
+      "id": "c210-slide-146-q57",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Before connecting a multiple-shaft drive, what should be aligned?",
+      "answer": "Each shaft and its drive components",
+      "options": [
+        "Each shaft and its drive components",
+        "Only the motor’s electrical leads",
+        "Only the last shaft’s guard",
+        "Only the grease fittings"
+      ],
+      "explanation": "The course requires shafts to be individually aligned before the complete drive is assembled.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 146",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 146,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 146. The course requires shafts to be individually aligned before the complete drive is assembled.",
+        "excerpt": "Install and Align a Multiple Shaft Drive System\nEach shaft in a multiple shaft drive system must be \nindividually aligned. The alignment procedures for \neach shaft are the same as those for a single shaft \ndrive system.\nEach shaft is individually aligned, but there is a best \norder in which to align them. Start with the last \noutput shaft (or the machine that can’t be \nadjusted), then work backwards toward the driver \nshaft.\nStart with each shaft  0.010” to \n0.015” lower than the one \ndownstream to allow for shimming \nFor example, Generator 2 and the Motor \nshould be aligned first and Generator 1 \nand the Motor last. For the first alignment, \nthe Motor is the moveable machine. For \nthe second alignment, the Motor is the \nstationary machine while Generator 1 \nacts as the moveable machine.\n146"
+      }
+    },
+    {
+      "id": "c210-slide-147-q58",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "Why do rigid sleeve and flange couplings need accurate shaft alignment?",
+      "answer": "They do not provide flexible misalignment accommodation",
+      "options": [
+        "They do not provide flexible misalignment accommodation",
+        "They contain a rubber spider",
+        "They intentionally bend the shaft",
+        "They work only with belts"
+      ],
+      "explanation": "A rigid coupling makes shafts act as a single unit; misalignment places unwanted forces on shafts and bearings.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 147",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 147,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 147. A rigid coupling makes shafts act as a single unit; misalignment places unwanted forces on shafts and bearings.",
+        "excerpt": "Function and Two Types of Solid Couplings: Sleeve and Flange\nSolid couplings connect two shafts together to make \nthem a rigid unit. They’re not commonly used\nto connect motors to driven components such as pumps \nand gearboxes because they do not allow any \nmisalignment. They’re only used absolute alignment is \nneeded or a way to disconnect a shaft is needed.\nCOMPARED TO BELT, CHAIN AND GEAR \nDRIVES, RIGID COUPLINGS LIKE SLEEVE AND \nFLANGE SHOULD BE SAFER BECAUSE THEY DO \nNOT REALLY HAVE NIP or PINCH POINTS\n147"
+      }
+    },
+    {
+      "id": "c210-picture-148-7",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "type": "symbol",
+      "prompt": "Which coupling construction is illustrated?",
+      "answer": "Split sleeve coupling",
+      "options": [
+        "Split sleeve coupling",
+        "Flexible jaw coupling",
+        "Roller-chain drive",
+        "V-belt sheave"
+      ],
+      "explanation": "The sleeve is split into bolted halves that clamp around the shaft ends. It is a rigid coupling.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 148",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 148,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 148. The sleeve is split into bolted halves that clamp around the shaft ends. It is a rigid coupling.",
+        "excerpt": "Operation of Split and Sleeve Couplings\nThe solid sleeve coupling is a solid cylinder of metal which is designed \nto slide over the two shafts and clamp them together by means of a \nset screw on each shaft. To install this type, the two shafts must be \nable to be moved away from each other.\nThe split sleeve coupling clamps the two shafts together using two \nhalf-round pieces that clamp to each other using bolts. The split \nfeature allows the two coupling halves to be removed without \nmoving the two shafts away from each other.\nSleeve couplings are mainly used on smaller shafts with diameters less than six inches. Larger shafts use \nflange couplings. They are mainly used on longer shafts because these misalignments can be \ncompensated by the flex allowed with longer distance between the bearings.\n148"
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-slide-148-7",
+        "alt": "Original C210 course component diagram"
       }
     }
   ]

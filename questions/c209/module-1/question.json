@@ -4,75 +4,6 @@
   "mathQuestionIds": [],
   "questions": [
     {
-      "id": "q047",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "What medium transmits power in a pneumatic system?",
-      "answer": "Air or another gas",
-      "options": [
-        "Air or another gas",
-        "Only hydraulic oil",
-        "Electric current only",
-        "A belt"
-      ],
-      "explanation": "Pneumatics uses compressed gas to perform work.",
-      "source": "p",
-      "section": "Introduction to Pneumatics",
-      "topic": "Module 1 · Pneumatic Power Systems",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 2,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 2. Look for Introduction to Pneumatics.",
-        "excerpt": "Introduction to Pneumatics\nDefinition\n► The use of air or other gases to perform \nwork.\nManufacturing\n► Robotics\n► Power Tools\n► Painting\nTransportation\n► Truck Brakes\n► Air Shock Absorbers\n► Vehicle Control Devices \nConstruction\n► Rock Drills\n► Pneumatic drill\n► Air Chisel\n2"
-      }
-    },
-    {
-      "id": "q048",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "Which component converts pneumatic power into mechanical motion?",
-      "answer": "Actuator",
-      "options": [
-        "Actuator",
-        "Filter",
-        "Supply hose",
-        "Storage tank"
-      ],
-      "explanation": "Cylinders create linear motion; air motors create rotary motion.",
-      "source": "p",
-      "section": "Basic Components: Power Output Devices",
-      "topic": "Module 1 · Pneumatic Power Systems",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 7,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 7. Look for Basic Components: Power Output Devices.",
-        "excerpt": "Basic Components\nPower Output Devices\n► The power output device is \nwhere pneumatic power is \nconverted to mechanical power.\n► These output devices are called \nActuators.\n► Actuators can either be cylinders, \nwhich produce linear motion.\n► Actuators can also be motors, \nwhich produce rotary motion.\n7"
-      }
-    },
-    {
-      "id": "q050",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "What is the pressure regulator's main role?",
-      "answer": "Reduce and control downstream pressure",
-      "options": [
-        "Reduce and control downstream pressure",
-        "Increase air contamination",
-        "Store all exhaust air",
-        "Measure shaft speed"
-      ],
-      "explanation": "The regulator adjusts the pressure supplied to control and power circuits.",
-      "source": "p",
-      "section": "Pressure Regulator in a Circuit, slide 21",
-      "topic": "Module 1 · Pneumatic Power Systems",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 21,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 21. Look for Pressure Regulator in a Circuit, slide 21.",
-        "excerpt": "Pressure Regulator in a Circuit\n► As shown, the regulator with the pressure \ngauge us used to reduce the supply pressure \nto the control and power circuit of the \nmachine.\n► Normally it is located in the circuit between a \nfilter and the control valves.\n► A pressure regulator contains:\n► Adjustment knob\n► Spring (loading element)\n► Diaphragm or piston (sensing element)\n► Poppet/seat (control valve)\n► Optional relief valve\n► A needle valve is not one of these \ncomponents. It is a separate flow-control \ndevice, not a pressure-reducing \nmechanism.\n21\nA05"
-      }
-    },
-    {
       "id": "q051",
       "world": "pneumatic",
       "type": "quiz",
@@ -168,29 +99,6 @@
         "page": 6,
         "text": "Review C209 Pneumatic Systems.pdf, slide 6. Look for the explanation of Which device controls direction, pressure, or flow in a pneumatic circuit.",
         "excerpt": "Basic Components\nControl Devices\n► Valves control direction, pressure, \nand flow of the pressurized gas in \nthe actuator lines of the \npneumatic system.\n► Three examples of the many \ntypes of valves are:\n► Flow control valves\n► Directional control valves\n► Pressure regulator valves\n6"
-      }
-    },
-    {
-      "id": "c209-p8-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "What connects the air supply to the rest of the pneumatic circuit?",
-      "answer": "Supply line",
-      "options": [
-        "Supply line",
-        "Exhaust port",
-        "Piston rod",
-        "Pilot spring"
-      ],
-      "explanation": "Supply line. The course explains: Basic Components Conductors Conductors (hose/pipe) are needed to transmit air between pneumatic system components. The Supply Line connects the compressed air source to the control devices. The Actuator line carries the air to and from the control devices to the actuator. Returned air is exhausted back into the atmosphere through an exhaust port.",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 8",
-      "topic": "Module 1 · Pneumatic Power Systems",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 8,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 8. Look for the explanation of What connects the air supply to the rest of the pneumatic circuit.",
-        "excerpt": "Basic Components\nConductors\n► Conductors (hose/pipe) are \nneeded to transmit air between \npneumatic system components.\n► The Supply Line connects the \ncompressed air source to the \ncontrol devices.\n► The Actuator line carries the air to \nand from the control devices to the \nactuator.\n► Returned air is exhausted back into \nthe atmosphere through an exhaust \nport. \n8"
       }
     },
     {
@@ -329,29 +237,6 @@
         "page": 23,
         "text": "Review C209 Pneumatic Systems.pdf, slide 23. Look for the explanation of What is the purpose of the filter deflector plate.",
         "excerpt": "Air Filter\n► Inlet Port – Air enters filter through inlet \nport.\n► Deflector Plate – The deflector plate \ncauses the air to spin inside the filter \nbowl.\n► Filter element – The filter element traps \nthe remaining small particles. \n► Baffle – The baffle controls the path of \nthe air flow. \n► Bowl – The bowl collects the water and \ndirt particles and serves as the outer \ncasing of the air filter.\n► Manual drain – The drain plug allows the \ncollected water and dirt particles to be \ndrained. Water should be drained \nbefore it reaches the bottom of the \nbaffle.\n► Outlet Port – The air exits the filter \nthrough the outlet port.\nInlet Port Outlet Port\nDeflector \nPlate\nFilter \nElement\nBaffle\nBowl\nManual Drain\n23\nA01 A38"
-      }
-    },
-    {
-      "id": "c209-p24-concept",
-      "world": "pneumatic",
-      "type": "quiz",
-      "prompt": "When is a quick-connect fitting especially useful?",
-      "answer": "A hose must be disconnected frequently",
-      "options": [
-        "A hose must be disconnected frequently",
-        "A permanent welded joint is needed",
-        "A cylinder must change stroke",
-        "A motor must change voltage"
-      ],
-      "explanation": "A hose must be disconnected frequently. The course explains: Quick-Connect Fittings Quick Connect fittings are used where it is necessary to frequently disconnect a hose. A quick connect fitting consists of: Male fitting Female connect These two fittings snap together without any special tools.",
-      "source": "p",
-      "section": "C209 Pneumatic Systems, slide 24",
-      "topic": "Module 1 · Pneumatic Power Systems",
-      "reviewSlides": [],
-      "reviewCue": {
-        "page": 24,
-        "text": "Review C209 Pneumatic Systems.pdf, slide 24. Look for the explanation of When is a quick-connect fitting especially useful.",
-        "excerpt": "Quick-Connect Fittings\n► Quick Connect fittings are used \nwhere it is necessary to frequently \ndisconnect a hose.\n► A quick connect fitting consists of:\n► Male fitting\n► Female connect\n► These two fittings snap together \nwithout any special tools.\n24\n"
       }
     },
     {
@@ -518,6 +403,655 @@
         "page": 28,
         "text": "Review C209 Pneumatic Systems.pdf, slide 28. Compare the diagram with the component description.",
         "excerpt": "Double-Acting Pneumatic Cylinder\n► A pneumatic cylinder consists of a \npiston/rod assembly that moves inside a \nbarrel-shaped body.\n► The rod of the cylinder is attached to part \nof the machine and transmits the \nmechanical force into straight line motion.\n► The piston is the part on which the fluid \nexerts its pressure. It converts fluid power to \nmechanical power.\n► The most common type if cylinder is a \ndouble-acting cylinder.\n► Consists of two ports.\n► When pressurized air enters the cap end, \nthe cylinder rod extends\n► When pressure enters the rod end, it \nretracts.\n28"
+      }
+    },
+    {
+      "id": "c209-teacher-filter-element",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Smaller dirt particles are removed by which part of the air filter?",
+      "answer": "Element",
+      "options": [
+        "Element",
+        "Deflector",
+        "Baffle",
+        "Bowl"
+      ],
+      "explanation": "The filter element traps smaller particles; the deflector spins the air and the bowl collects separated material.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 1",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 2,
+          "question": 1
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 23,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 1; C209 Pneumatic Systems.pdf, slide 23. The filter element traps smaller particles; the deflector spins the air and the bowl collects separated material."
+      }
+    },
+    {
+      "id": "q048",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Which pneumatic component provides straight-line motion?",
+      "answer": "Cylinder",
+      "options": [
+        "Cylinder",
+        "Motor",
+        "DCV",
+        "Muffler"
+      ],
+      "explanation": "A cylinder converts pneumatic power into linear motion. A pneumatic motor produces rotary motion.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 2,
+          "question": 2
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 27,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 2; C209 Pneumatic Systems.pdf, slide 27. A cylinder converts pneumatic power into linear motion. A pneumatic motor produces rotary motion."
+      }
+    },
+    {
+      "id": "c209-teacher-pressure-definition",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Pressure measures what when force acts over an area?",
+      "answer": "Force intensity",
+      "options": [
+        "Force intensity",
+        "Distance",
+        "Volume",
+        "Time"
+      ],
+      "explanation": "Pressure is force per unit area: P = F/A. Look for the force acting over the surface area.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 3",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 3,
+          "question": 3
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 10,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 3; C209 Pneumatic Systems.pdf, slide 10. Pressure is force per unit area: P = F/A. Look for the force acting over the surface area."
+      }
+    },
+    {
+      "id": "c209-teacher-stall",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Pneumatic actuators can be stopped without causing damage. True or false?",
+      "answer": "True",
+      "options": [
+        "True",
+        "False"
+      ],
+      "explanation": "The slide lists the ability to stop an actuator without damage among pneumatic and hydraulic similarities; follow the operating conditions specified for the equipment.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 3,
+          "question": 4
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 4; C209 Pneumatic Systems.pdf, slide 3. The slide lists the ability to stop an actuator without damage among pneumatic and hydraulic similarities; follow the operating conditions specified for the equipment."
+      }
+    },
+    {
+      "id": "c209-teacher-regulator-parts",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Which is not a component of the pressure regulator described in the slides?",
+      "answer": "Needle valve",
+      "options": [
+        "Needle valve",
+        "Vent",
+        "Poppet",
+        "None of the above",
+        "All of the above"
+      ],
+      "explanation": "The regulator includes a poppet and vent holes. A needle valve is a separate adjustable flow restriction.",
+      "source": "p",
+      "section": "FP QUIZ-1 Basic Pneumatics 1-2.pdf · question 5",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "FP QUIZ-1 Basic Pneumatics 1-2.pdf",
+          "page": 4,
+          "question": 5
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 16,
+        "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 5; C209 Pneumatic Systems.pdf, slide 16. The regulator includes a poppet and vent holes. A needle valve is a separate adjustable flow restriction."
+      }
+    },
+    {
+      "id": "q050",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Why is a pneumatic regulator used?",
+      "answer": "Maintain consistent downstream pressure",
+      "options": [
+        "Maintain consistent downstream pressure",
+        "Filter dirt",
+        "Connect three branch circuits",
+        "Turn off the compressor"
+      ],
+      "explanation": "The regulator reduces and controls downstream pressure; filtering and compressor switching have different devices.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 1,
+          "question": 2
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 21,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 2; C209 Pneumatic Systems.pdf, slide 21. The regulator reduces and controls downstream pressure; filtering and compressor switching have different devices."
+      }
+    },
+    {
+      "id": "c209-final-output",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ What are pneumatic power-output devices called?",
+      "answer": "Actuators",
+      "options": [
+        "Actuators",
+        "Compressors",
+        "Conductors",
+        "Valves"
+      ],
+      "explanation": "Actuators convert compressed-air energy into mechanical output; cylinders and motors are examples.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 4",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 1,
+          "question": 4
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 4; C209 Pneumatic Systems.pdf, slide 7. Actuators convert compressed-air energy into mechanical output; cylinders and motors are examples."
+      }
+    },
+    {
+      "id": "q047",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Which medium is most commonly used in industrial pneumatic systems?",
+      "answer": "Air",
+      "options": [
+        "Air",
+        "Pure nitrogen",
+        "Water",
+        "Petroleum"
+      ],
+      "explanation": "The slides identify air as the typical pneumatic working medium.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 9",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 2,
+          "question": 9
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 9,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 9; C209 Pneumatic Systems.pdf, slide 9. The slides identify air as the typical pneumatic working medium."
+      }
+    },
+    {
+      "id": "c209-final-filter-first",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Which listed component comes first in the branch air-preparation arrangement?",
+      "answer": "Filter",
+      "options": [
+        "Filter",
+        "Quick-exhaust valve",
+        "Regulator",
+        "Lubricator"
+      ],
+      "explanation": "The filter cleans incoming air before downstream regulation and lubrication. Look for the filter-regulator-lubricator sequence.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 11",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 2,
+          "question": 11
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 22,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 11; C209 Pneumatic Systems.pdf, slide 22. The filter cleans incoming air before downstream regulation and lubrication. Look for the filter-regulator-lubricator sequence."
+      }
+    },
+    {
+      "id": "c209-final-air-safety",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Why should you never block a pressurized air line with fingers or hands?",
+      "answer": "Compressed air can penetrate the skin",
+      "options": [
+        "Compressed air can penetrate the skin",
+        "Fingers only contaminate air",
+        "Only the hose label may be damaged",
+        "It makes the regulator inaccurate"
+      ],
+      "explanation": "The course says to keep compressed air away from skin and other body openings. Never use a hand to seal or test a live line.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 22",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 4,
+          "question": 22
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 15,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 22; C209 Pneumatic Systems.pdf, slide 15. The course says to keep compressed air away from skin and other body openings. Never use a hand to seal or test a live line."
+      }
+    },
+    {
+      "id": "c209-p24-concept",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ When are quick-connect fittings especially useful?",
+      "answer": "Frequent hose connection and disconnection",
+      "options": [
+        "Frequent hose connection and disconnection",
+        "Only at high altitude",
+        "In every application without exception",
+        "Only when low cost is required"
+      ],
+      "explanation": "Quick-connects permit repeated connection and disconnection without dismantling a permanent fitting.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 25",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 5,
+          "question": 25
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 24,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 25; C209 Pneumatic Systems.pdf, slide 24. Quick-connects permit repeated connection and disconnection without dismantling a permanent fitting."
+      }
+    },
+    {
+      "id": "c209-final-override",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Which DCV feature allows local actuation for setup or controller troubleshooting?",
+      "answer": "Manual override",
+      "options": [
+        "Manual override",
+        "Pneumatic centering",
+        "Spooling",
+        "Remote piloting"
+      ],
+      "explanation": "A manual override lets the valve be actuated independently of its normal control signal; use the authorized setup procedure.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 26",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 5,
+          "question": 26
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 31,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 26; C209 Pneumatic Systems.pdf, slide 31. A manual override lets the valve be actuated independently of its normal control signal; use the authorized setup procedure."
+      }
+    },
+    {
+      "id": "c209-final-dcv-flow",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "symbol",
+      "prompt": "★ When the lever is moved right as shown, which listed flow path is established?",
+      "answer": "Port B to Port EB",
+      "options": [
+        "Port B to Port EB",
+        "Port P to Port B",
+        "Port B to Port EA",
+        "Port EB to Port A"
+      ],
+      "explanation": "The left envelope moves into alignment: supply P connects to A, and cylinder port B connects to exhaust EB. Trace the two arrows.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 13",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 3,
+          "question": 13
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 39,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 13; C209 Pneumatic Systems.pdf, slide 39. The left envelope moves into alignment: supply P connects to A, and cylinder port B connects to exhaust EB. Trace the two arrows."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final-1-2",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-final-subplate",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Which seals are fitted between a pneumatic valve and subplate ports to prevent leakage?",
+      "answer": "O-rings",
+      "options": [
+        "O-rings",
+        "Teflon rings",
+        "Teflon tape",
+        "Machined plugs"
+      ],
+      "explanation": "O-rings seal the mating port faces without obstructing the passages. Review the valve mounting/sealing illustration.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 31",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 6,
+          "question": 31
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 30,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 31; C209 Pneumatic Systems.pdf, slide 30. O-rings seal the mating port faces without obstructing the passages. Review the valve mounting/sealing illustration."
+      }
+    },
+    {
+      "id": "c209-final-symbol-function",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ What do pneumatic schematic symbols primarily represent?",
+      "answer": "Component function",
+      "options": [
+        "Component function",
+        "Exact flow rates",
+        "Physical port locations only",
+        "Exact pressure settings"
+      ],
+      "explanation": "Schematics use standardized functional symbols rather than realistic physical drawings or dimensions.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 35",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 7,
+          "question": 35
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 13,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 35; C209 Pneumatic Systems.pdf, slide 13. Schematics use standardized functional symbols rather than realistic physical drawings or dimensions."
+      }
+    },
+    {
+      "id": "c209-final-hose-safety",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ Why must compressed-air hoses and devices be secured?",
+      "answer": "Prevent whipping if a hose breaks or disconnects",
+      "options": [
+        "Prevent whipping if a hose breaks or disconnects",
+        "Prevent losing their labels",
+        "Allow pressure to be increased quickly",
+        "Eliminate all contamination"
+      ],
+      "explanation": "Stored air energy can cause an unsecured hose to whip. Secure hoses and use the course safety procedures.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 40",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 8,
+          "question": 40
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 15,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 40; C209 Pneumatic Systems.pdf, slide 15. Stored air energy can cause an unsecured hose to whip. Secure hoses and use the course safety procedures."
+      }
+    },
+    {
+      "id": "c209-p8-concept",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ What line connects the compressed-air source to the control devices?",
+      "answer": "Supply line",
+      "options": [
+        "Supply line",
+        "Actuator line",
+        "Control line",
+        "Exhaust line"
+      ],
+      "explanation": "The supply line carries air from the power input source toward the circuit’s control devices.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 41",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 8,
+          "question": 41
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 8,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 41; C209 Pneumatic Systems.pdf, slide 8. The supply line carries air from the power input source toward the circuit’s control devices."
+      }
+    },
+    {
+      "id": "c209-final-filter-drain",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "quiz",
+      "prompt": "★ When should collected liquid be drained from an air-filter bowl?",
+      "answer": "Before it reaches the bottom of the baffle",
+      "options": [
+        "Before it reaches the bottom of the baffle",
+        "After it reaches the top of the baffle",
+        "Only when the element is clogged",
+        "Only when liquid is trapped in the element"
+      ],
+      "explanation": "Drain collected liquid before it reaches the baffle and can be carried into the downstream air stream.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test3.pdf · question 45",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test3.pdf",
+          "page": 8,
+          "question": 45
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 23,
+        "text": "Review C-209 Interactive Practice Test3.pdf, question 45; C209 Pneumatic Systems.pdf, slide 23. Drain collected liquid before it reaches the baffle and can be carried into the downstream air stream."
+      }
+    },
+    {
+      "id": "c209-final-32-symbol",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "symbol",
+      "prompt": "★ How is this directional control valve classified?",
+      "answer": "3-way, 2-position",
+      "options": [
+        "3-way, 2-position",
+        "5-way, 3-position",
+        "2-way, 3-position",
+        "4-way, 3-position"
+      ],
+      "explanation": "Count three working ports and two flow envelopes. Operator symbols do not add working ports or valve positions.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test2.pdf · question 28",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test2.pdf",
+          "page": 5,
+          "question": 28
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 33,
+        "text": "Review C-209 Interactive Practice Test2.pdf, question 28; C209 Pneumatic Systems.pdf, slide 33. Count three working ports and two flow envelopes. Operator symbols do not add working ports or valve positions."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final2-5-1",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-final-solenoid",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "symbol",
+      "prompt": "★ What operator is shown on this directional control valve?",
+      "answer": "Solenoid",
+      "options": [
+        "Solenoid",
+        "Spool",
+        "Automatic only",
+        "Manual"
+      ],
+      "explanation": "The small box with a diagonal line is the electrical-solenoid operator. The spring at the other side indicates return.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test2.pdf · question 37",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test2.pdf",
+          "page": 7,
+          "question": 37
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 31,
+        "text": "Review C-209 Interactive Practice Test2.pdf, question 37; C209 Pneumatic Systems.pdf, slide 31. The small box with a diagonal line is the electrical-solenoid operator. The spring at the other side indicates return."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final2-7-0",
+        "alt": "Original pneumatic quiz diagram"
+      }
+    },
+    {
+      "id": "c209-final-gauge",
+      "world": "pneumatic",
+      "topic": "Module 1 · Pneumatic Power Systems",
+      "type": "symbol",
+      "prompt": "★ What approximate pressure does the black outer psi scale indicate?",
+      "answer": "380 psi",
+      "options": [
+        "380 psi",
+        "7000 kPa",
+        "4500 kPa",
+        "26 psi"
+      ],
+      "explanation": "Read the black outer scale in psi. The needle is near 380 psi. The red inner scale is labeled 100 × kPa, so its 26 represents about 2600 kPa.",
+      "source": "p",
+      "section": "C-209 Interactive Practice Test2.pdf · question 38",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-209 Interactive Practice Test2.pdf",
+          "page": 7,
+          "question": 38
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review C-209 Interactive Practice Test2.pdf, question 38; C209 Pneumatic Systems.pdf, slide 12. Read the black outer scale in psi. The needle is near 380 psi. The red inner scale is labeled 100 × kPa, so its 26 represents about 2600 kPa."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c209-teacher-final2-7-1",
+        "alt": "Original pneumatic quiz diagram"
       }
     }
   ]
