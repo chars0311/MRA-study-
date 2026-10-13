@@ -19,17 +19,33 @@
       "explanation": "Uncoupled shafts require individual static readings at multiple angular positions.",
       "source": "a",
       "section": "Day 2 · Laser Shaft Alignment Operation, slide 44",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-44.jpg",
-          "page": 44,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 44,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Day 2 · Laser Shaft Alignment Operation, slide 44. Uncoupled shafts require individual static readings at multiple angular positions.",
         "excerpt": "When the shafts are not coupled, a laser alignment system cannot perform a continuous sweep because the shafts won’t rotate together. In this situation, the system requires you to take individual, static readings at multiple angular positions — which is exactl…"
+      }
+    },
+    {
+      "id": "c302-p44-29",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 2: Laser Shaft Alignment Operation",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Why is a single-point alignment measurement insufficient?",
+      "answer": "It does not provide enough angular-position data",
+      "options": [
+        "It does not provide enough angular-position data",
+        "It always requires uncoupled shafts",
+        "It measures only motor voltage",
+        "It automatically compensates all backlash"
+      ],
+      "explanation": "The course’s method comparison states that a single point provides insufficient data. Multipoint measurements provide readings at multiple fixed angles.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 44",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 44,
+        "text": "Review C302 Laser Shaft Alignment.pdf, slide 44. Compare single-point, multipoint, and continuous-sweep methods."
       }
     }
   ]

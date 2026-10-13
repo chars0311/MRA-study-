@@ -7,7 +7,7 @@
       "id": "q086",
       "world": "conveyor",
       "type": "scenario",
-      "prompt": "A conveyor belt’s factory edge may be uneven. Which reference should be used to plan a square end cut?",
+      "prompt": "A conveyor belt’s factory edge may be uneven. Which reference is used to plan a square end cut?",
       "answer": "A marked belt centerline",
       "options": [
         "A marked belt centerline",
@@ -16,20 +16,128 @@
         "The motor nameplate"
       ],
       "explanation": "The course explains that slit edges can be curvy and describes marking a centerline for squaring the cut.",
-      "source": "c",
-      "section": "Prepare Belt Ends, slides 20–21",
+      "source": "clp",
+      "section": "ClipperTrainingManual_0214.pdf, page 7",
       "topic": "Prepare Belt Ends",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-20.jpg",
-          "page": 20,
-          "title": "Conveyors.pdf"
-        }
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review ClipperTrainingManual_0214.pdf, page 7: Importance of a Square Cut. Use the average centerline and draw the cut perpendicular to it."
+      }
+    },
+    {
+      "id": "conveyor-clp7-12",
+      "world": "conveyor",
+      "topic": "Prepare Belt Ends",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Why must a belt end be cut square to its average centerline?",
+      "answer": "Prevent mistracking and extend splice life",
+      "options": [
+        "Prevent mistracking and extend splice life",
+        "Increase motor voltage",
+        "Eliminate every roller",
+        "Change pulley ratio"
       ],
+      "explanation": "A square end prevents the splice from skewing the belt. The manual specifies an average-centerline method.",
+      "section": "ClipperTrainingManual_0214.pdf, PDF page 7",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review ClipperTrainingManual_0214.pdf, PDF page 7. A square end prevents the splice from skewing the belt. The manual specifies an average-centerline method."
+      }
+    },
+    {
+      "id": "conveyor-clp7-13",
+      "world": "conveyor",
+      "topic": "Prepare Belt Ends",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "What should be removed from an impression-cover belt before measuring and installing hooks?",
+      "answer": "The impression cover at the splice area",
+      "options": [
+        "The impression cover at the splice area",
+        "All structural belt fabric",
+        "Every belt edge",
+        "The drive pulley"
+      ],
+      "explanation": "Skiving the impression cover gives the correct thickness reference and lets the hooks seat properly.",
+      "section": "ClipperTrainingManual_0214.pdf, PDF page 7",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review ClipperTrainingManual_0214.pdf, PDF page 7. Skiving the impression cover gives the correct thickness reference and lets the hooks seat properly."
+      }
+    },
+    {
+      "id": "conveyor-clp7-14",
+      "world": "conveyor",
+      "topic": "Prepare Belt Ends",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which tool draws the cut perpendicular to the belt’s average centerline?",
+      "answer": "Square",
+      "options": [
+        "Square",
+        "Torque wrench",
+        "Tachometer",
+        "Grease gun"
+      ],
+      "explanation": "Use the average centerline and a square to mark the perpendicular cut rather than trusting an irregular factory edge.",
+      "section": "ClipperTrainingManual_0214.pdf, PDF page 7",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review ClipperTrainingManual_0214.pdf, PDF page 7. Use the average centerline and a square to mark the perpendicular cut rather than trusting an irregular factory edge."
+      }
+    },
+    {
+      "id": "conveyor-square-photo",
+      "world": "conveyor",
+      "topic": "Prepare Belt Ends",
+      "type": "symbol",
+      "source": "c",
+      "prompt": "Why must the belt centerline still be established before using the squaring gauge shown?",
+      "answer": "The factory edge may be imperfect",
+      "options": [
+        "The factory edge may be imperfect",
+        "The gauge eliminates the need for any measurements",
+        "The centerline controls motor voltage",
+        "The gauge tensions the drive chain"
+      ],
+      "explanation": "The slide warns that a laser gauge relying on a perfect factory edge can give an inaccurate square cut. Use the established centerline.",
+      "section": "Conveyors.pdf, slide 20",
+      "reviewSlides": [],
       "reviewCue": {
         "page": 20,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "always slit from wider stock and the edges can be curvy. 20"
+        "text": "Review Conveyors.pdf, slide 20. The slide warns that a laser gauge relying on a perfect factory edge can give an inaccurate square cut. Use the established centerline."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "last-course-c-20-6",
+        "alt": "Original supplied course diagram"
+      }
+    },
+    {
+      "id": "conveyor-trailing-lace",
+      "world": "conveyor",
+      "topic": "Prepare Belt Ends",
+      "type": "quiz",
+      "source": "c",
+      "prompt": "Why trim one loop from the trailing lacing?",
+      "answer": "Let it fit inside the leading lacing",
+      "options": [
+        "Let it fit inside the leading lacing",
+        "Remove every connecting pin",
+        "Make both rows wider than the belt",
+        "Create a vulcanized splice"
+      ],
+      "explanation": "The slide makes the trailing lace narrower so it meshes inside the leading lace.",
+      "section": "Conveyors.pdf, slide 25",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 25,
+        "text": "Review Conveyors.pdf, slide 25. The slide makes the trailing lace narrower so it meshes inside the leading lace."
       }
     }
   ]

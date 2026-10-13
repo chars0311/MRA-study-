@@ -113,10 +113,23 @@
     if (error) throw error;
   }
 
+  async function updateCloudConfidence(event) {
+    const u = await getUser();
+    if (!client || !u) return false;
+    const { error } = await client.from("study_progress")
+      .update({ guessed: event.guessed === true })
+      .eq("user_id", u.id).eq("event_key", event.key);
+    if (error) throw error;
+    return true;
+  }
+
   async function mergeWithCloud(localEvents) {
     const u = await getUser();
     if (!u) return localEvents;
     await saveCloudEvents(localEvents);
+    for (const event of localEvents.filter(e => e.confidenceSyncPending)) {
+      if (await updateCloudConfidence(event)) delete event.confidenceSyncPending;
+    }
     const cloud = await loadCloudProgress();
     const merged = new Map();
     for (const e of [...cloud, ...localEvents]) {
@@ -211,9 +224,11 @@
     syncLabel,
     mergeWithCloud,
     saveCloudEvents,
+    updateCloudConfidence,
     openDialog,
     closeDialog,
   };
 
   init().catch(() => {});
 })();
+

@@ -19,17 +19,187 @@
       "source": "c",
       "section": "Flat Belt Conveyor Operation, slide 5",
       "topic": "Flat Belt Conveyor Operation",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-5.jpg",
-          "page": 5,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 5,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Flat Belt Conveyor Operation, slide 5. The operation sequence begins with inspecting these conveyor elements.",
         "excerpt": "1. Inspect belt, rollers, guards, and emergency stops 2. Switch on main power supply 3. Start conveyor and run empty briefly 4. Load materials evenly on the belt 5. Monitor for smooth, safe operation 6. Stop conveyor after transfer is complete 7. Power off and…"
+      }
+    },
+    {
+      "id": "conveyor-c2-0",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which side of the course conveyor belt is visible on top?",
+      "answer": "Friction side",
+      "options": [
+        "Friction side",
+        "Smooth return side only",
+        "Metal lacing side only",
+        "Motor mounting side"
+      ],
+      "explanation": "The component-identification activity states that the friction side is on the conveyor’s top surface.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 2",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 2. The component-identification activity states that the friction side is on the conveyor’s top surface."
+      }
+    },
+    {
+      "id": "conveyor-c2-1",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "What supports the moving belt on this lab conveyor?",
+      "answer": "Slider bed",
+      "options": [
+        "Slider bed",
+        "Only the motor fan",
+        "Only the chain guard",
+        "An air cylinder"
+      ],
+      "explanation": "The belt rides over a slider bed; other conveyors may use supporting rollers.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 2",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 2. The belt rides over a slider bed; other conveyors may use supporting rollers."
+      }
+    },
+    {
+      "id": "conveyor-c2-2",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which guarded transmission connects the motor drive to the conveyor?",
+      "answer": "Chain drive",
+      "options": [
+        "Chain drive",
+        "A laser coupling only",
+        "A hydraulic hose",
+        "A rotameter"
+      ],
+      "explanation": "The activity identifies the chain guard covering the drive. Never operate with the required guard absent.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 2",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 2. The activity identifies the chain guard covering the drive. Never operate with the required guard absent."
+      }
+    },
+    {
+      "id": "conveyor-c3-3",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "What is the lab conveyor safety switch used for?",
+      "answer": "Emergency stopping",
+      "options": [
+        "Emergency stopping",
+        "Measuring belt length",
+        "Lubricating the chain",
+        "Squaring a splice"
+      ],
+      "explanation": "The activity identifies the safety switch as the emergency stopping control. Follow the lab’s procedures for isolation and restart.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 3",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 3. The activity identifies the safety switch as the emergency stopping control. Follow the lab’s procedures for isolation and restart."
+      }
+    },
+    {
+      "id": "conveyor-c4-4",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "What should happen to torn or unreadable conveyor warning labels?",
+      "answer": "Replace them and keep them visible",
+      "options": [
+        "Replace them and keep them visible",
+        "Paint over them",
+        "Cover them with stored material",
+        "Remove them permanently"
+      ],
+      "explanation": "The packet says damaged labels should be replaced and their view kept unobstructed.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 4",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 4. The packet says damaged labels should be replaced and their view kept unobstructed."
+      }
+    },
+    {
+      "id": "conveyor-c5-5",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Where are the two conveyor take-ups located?",
+      "answer": "One on each side",
+      "options": [
+        "One on each side",
+        "Both inside the motor",
+        "Only on the return roller shaft center",
+        "Only in the electrical cabinet"
+      ],
+      "explanation": "Take-ups provide adjustment from either side of the conveyor.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 5,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 5. Take-ups provide adjustment from either side of the conveyor."
+      }
+    },
+    {
+      "id": "conveyor-c17-6",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Why should snub rollers be cleaned when contaminated?",
+      "answer": "Remove material that can interfere with belt operation",
+      "options": [
+        "Remove material that can interfere with belt operation",
+        "Change the reducer gear ratio",
+        "Increase the motor voltage",
+        "Shorten every splice pin"
+      ],
+      "explanation": "The inspection procedure checks snub rollers for dirt and contamination and directs cleaning when necessary.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 17",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 17,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 17. The inspection procedure checks snub rollers for dirt and contamination and directs cleaning when necessary."
+      }
+    },
+    {
+      "id": "conveyor-c18-7",
+      "world": "conveyor",
+      "topic": "Flat Belt Conveyor Operation",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which symptoms should be checked during the controlled running inspection?",
+      "answer": "Excessive noise, vibration, and overheating",
+      "options": [
+        "Excessive noise, vibration, and overheating",
+        "Only warning-label color",
+        "Only belt brand",
+        "Only pulley paint"
+      ],
+      "explanation": "The packet asks for observation of motor and reducer operation, noise, vibration, and heat.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 18",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 18,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 18. The packet asks for observation of motor and reducer operation, noise, vibration, and heat."
       }
     }
   ]

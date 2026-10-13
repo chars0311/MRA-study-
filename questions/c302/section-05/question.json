@@ -1,7 +1,9 @@
 {
   "world": "alignment",
   "topic": "Day 2 · Segment 1: Soft Foot Correction",
-  "mathQuestionIds": [],
+  "mathQuestionIds": [
+    "alignment-shim-mils"
+  ],
   "questions": [
     {
       "id": "module-check-7",
@@ -19,22 +21,121 @@
       "explanation": "The slides describe repeating shim corrections and rechecks until all four feet are within tolerance.",
       "source": "a",
       "section": "Soft Foot Correction · Notes on Soft Foot, slide 34; Day 2 Segment 1, slide 43",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-32.jpg",
-          "page": 32,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        },
-        {
-          "url": "./review-slides/a-34.jpg",
-          "page": 34,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 34,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Soft Foot Correction · Notes on Soft Foot, slide 34; Day 2 Segment 1, slide 43. The slides describe repeating shim corrections and rechecks until all four feet are within tolerance.",
         "excerpt": "• When the results screen shows the need for shims under all 4 feet, it is correcting for vertical parallel misalignment by raising the movable machine (motor) • After adding shims and tightening, the soft foot can move to a different foot. This is just due to…"
+      }
+    },
+    {
+      "id": "c302-p30-24",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 1: Soft Foot Correction",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Where are the emitters positioned for the soft-foot procedure?",
+      "answer": "12 o’clock",
+      "options": [
+        "12 o’clock",
+        "Only 6 o’clock",
+        "Any random clock position",
+        "On the motor fan"
+      ],
+      "explanation": "The soft-foot screen setup calls for the units at 12 o’clock and the displayed bolt sequence to be followed.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 30",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 30,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 30. The soft-foot screen setup calls for the units at 12 o’clock and the displayed bolt sequence to be followed."
+      }
+    },
+    {
+      "id": "c302-p30-25",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 1: Soft Foot Correction",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Why follow the instrument’s exact soft-foot bolt sequence?",
+      "answer": "A different sequence can produce nonsensical results",
+      "options": [
+        "A different sequence can produce nonsensical results",
+        "It changes the coupling’s rated torque",
+        "It sets motor voltage",
+        "It eliminates all mounting bolts"
+      ],
+      "explanation": "The tool compares movements during its expected loosen-and-tighten steps; changing the order invalidates that comparison.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 30",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 30,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 30. The tool compares movements during its expected loosen-and-tighten steps; changing the order invalidates that comparison."
+      }
+    },
+    {
+      "id": "c302-p34-26",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 1: Soft Foot Correction",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "A soft-foot screen recommends a negative shim value. What does that mean?",
+      "answer": "Remove shim thickness",
+      "options": [
+        "Remove shim thickness",
+        "Add that thickness",
+        "Reverse shaft rotation",
+        "Increase motor current"
+      ],
+      "explanation": "Negative values indicate removal. Recheck after each change because corrections may transfer the apparent soft foot.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 34",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 34,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 34. Negative values indicate removal. Recheck after each change because corrections may transfer the apparent soft foot."
+      }
+    },
+    {
+      "id": "c302-p34-27",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 1: Soft Foot Correction",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Why can a 0.1-mil displayed recommendation be impractical in this lab?",
+      "answer": "The thinnest available shim is 3.0 mil",
+      "options": [
+        "The thinnest available shim is 3.0 mil",
+        "The laser cannot display numbers",
+        "All shims are 0.1 inch",
+        "The motor has no feet"
+      ],
+      "explanation": "Display resolution does not guarantee matching physical shim stock. Use sensible available thicknesses and remeasure.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 34",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 34,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 34. Display resolution does not guarantee matching physical shim stock. Use sensible available thicknesses and remeasure."
+      }
+    },
+    {
+      "id": "c302-p34-28",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 1: Soft Foot Correction",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Equal shim additions under all four feet primarily correct which vertical error?",
+      "answer": "Parallel offset",
+      "options": [
+        "Parallel offset",
+        "Angular tilt only",
+        "Horizontal offset",
+        "Coupling backlash"
+      ],
+      "explanation": "Equal additions raise the whole movable machine while maintaining its angle.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 34",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 34,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 34. Equal additions raise the whole movable machine while maintaining its angle."
       }
     }
   ]

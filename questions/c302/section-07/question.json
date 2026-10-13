@@ -19,17 +19,77 @@
       "explanation": "The slides call for comparison with the coupling manufacturer’s alignment specification; Day 2 Segment 3 covers tolerance selection.",
       "source": "a",
       "section": "Tolerances, slide 29; Day 2 Segment 3, slide 43",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-29.jpg",
-          "page": 29,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 29,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Tolerances, slide 29; Day 2 Segment 3, slide 43. The slides call for comparison with the coupling manufacturer’s alignment specification; Day 2 Segment 3 covers tolerance selection.",
         "excerpt": "If the coupling manufacturer’s datasheet doesn’t agree, pick the more appropriate. In our lab, the manufacturer’s alignment specification is much looser that the range built in here, so we choose this one. 29 A30 A36"
+      }
+    },
+    {
+      "id": "c302-p17-30",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 3: Laser Shaft Alignment Analysis",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Why should alignment tolerances match the machine and coupling?",
+      "answer": "Acceptable misalignment depends on the application specification",
+      "options": [
+        "Acceptable misalignment depends on the application specification",
+        "Every coupling has the same tolerance",
+        "The loosest displayed setting is always correct",
+        "Tolerance is only a decoration"
+      ],
+      "explanation": "Use the coupling specification and shaft speed as directed rather than an arbitrary acceptable screen result.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 17",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 17,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 17. Use the coupling specification and shaft speed as directed rather than an arbitrary acceptable screen result."
+      }
+    },
+    {
+      "id": "alignment-backlash",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 3: Laser Shaft Alignment Analysis",
+      "type": "quiz",
+      "source": "a",
+      "prompt": "How does the described backlash check compare readings?",
+      "answer": "Rotate one direction, then reverse and compare",
+      "options": [
+        "Rotate one direction, then reverse and compare",
+        "Take only one stationary reading",
+        "Add equal shims to every foot",
+        "Increase laser brightness"
+      ],
+      "explanation": "Reversing rotation reveals mechanical play that can distort angular readings.",
+      "section": "C302 Laser Shaft Alignment.pdf, slide 41",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 41,
+        "text": "Review C302 Laser Shaft Alignment.pdf, slide 41. Reversing rotation reveals mechanical play that can distort angular readings."
+      }
+    },
+    {
+      "id": "alignment-mount-shift",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 3: Laser Shaft Alignment Analysis",
+      "type": "quiz",
+      "source": "a",
+      "prompt": "A sensor shifts but the screen still appears in tolerance. What is required?",
+      "answer": "Secure it and recalibrate or remeasure as prompted",
+      "options": [
+        "Secure it and recalibrate or remeasure as prompted",
+        "Accept the previous reading",
+        "Ignore the sensor position",
+        "Use a wider tolerance to hide the change"
+      ],
+      "explanation": "Sensor movement can invalidate calibration even if the visible laser position looks acceptable.",
+      "section": "C302 Laser Shaft Alignment.pdf, slide 40",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 40,
+        "text": "Review C302 Laser Shaft Alignment.pdf, slide 40. Sensor movement can invalidate calibration even if the visible laser position looks acceptable."
       }
     }
   ]

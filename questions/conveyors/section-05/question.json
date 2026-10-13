@@ -2,7 +2,124 @@
   "world": "conveyor",
   "topic": "Tensioning",
   "mathQuestionIds": [
-    "q132"
+    "q132",
+    "conveyor-length",
+    "conveyor-centers",
+    "conveyor-reducer",
+    "conveyor-pulley-rpm",
+    "conveyor-fpm",
+    "conveyor-direct"
   ],
-  "questions": []
+  "questions": [
+    {
+      "id": "conveyor-c12-15",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which component is adjusted to correct the lab belt’s tracking?",
+      "answer": "Tail-end snub roller",
+      "options": [
+        "Tail-end snub roller",
+        "Only the motor voltage selector",
+        "The laser sensor",
+        "The lubricator"
+      ],
+      "explanation": "The installation procedure uses small snub-roller adjustments while checking belt position; follow the prescribed controlled-running procedure.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 12. The installation procedure uses small snub-roller adjustments while checking belt position; follow the prescribed controlled-running procedure."
+      }
+    },
+    {
+      "id": "conveyor-c12-16",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Why make tracking adjustments gradually and recheck?",
+      "answer": "Observe the belt’s response before further adjustment",
+      "options": [
+        "Observe the belt’s response before further adjustment",
+        "The reducer ratio changes automatically",
+        "The belt needs no observation",
+        "The splice should strike the frame"
+      ],
+      "explanation": "Tracking correction must be observed as the belt settles, avoiding unnecessary overcorrection.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 12. Tracking correction must be observed as the belt settles, avoiding unnecessary overcorrection."
+      }
+    },
+    {
+      "id": "conveyor-c15-17",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "What is checked on the chain drive’s slack side?",
+      "answer": "Mid-span deflection movement",
+      "options": [
+        "Mid-span deflection movement",
+        "Laser centerline",
+        "Cylinder force",
+        "Oil dew point"
+      ],
+      "explanation": "The maintenance procedure uses a rule to measure slack-side chain deflection and checks it against the specified requirement.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 15",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 15,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 15. The maintenance procedure uses a rule to measure slack-side chain deflection and checks it against the specified requirement."
+      }
+    },
+    {
+      "id": "conveyor-stretch",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "type": "quiz",
+      "source": "c",
+      "prompt": "What belt-stretch target is specified for this lab exercise?",
+      "answer": "0.25%",
+      "options": [
+        "0.25%",
+        "25%",
+        "2.5%",
+        "0% in every application"
+      ],
+      "explanation": "This is the lab-specific target; always use the specification for the actual belt and application.",
+      "section": "Conveyors.pdf, slide 37",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 37,
+        "text": "Review Conveyors.pdf, slide 37. This is the lab-specific target; always use the specification for the actual belt and application."
+      }
+    },
+    {
+      "id": "conveyor-tracking-tension",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "type": "quiz",
+      "source": "c",
+      "prompt": "For the snub-roll arrangement in this lab, which side does the belt track toward?",
+      "answer": "The side with higher tension",
+      "options": [
+        "The side with higher tension",
+        "The side with lower tension",
+        "Always the left side",
+        "Always the motor side"
+      ],
+      "explanation": "The lecture explicitly describes tracking toward higher tension for this lab’s snub-roll arrangement.",
+      "section": "Conveyors.pdf, slide 30",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 30,
+        "text": "Review Conveyors.pdf, slide 30. The lecture explicitly describes tracking toward higher tension for this lab’s snub-roll arrangement."
+      }
+    }
+  ]
 }

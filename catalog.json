@@ -68,23 +68,9 @@
       "description": "Belts, splices & tracking fundamentals",
       "icon": "▰",
       "sourceKeys": [
-        "c"
-      ]
-    },
-    {
-      "id": "saca",
-      "code": "FINAL",
-      "name": "SACA Practice Arena",
-      "description": "Mixed review from your course slides",
-      "icon": "★",
-      "sourceKeys": [
-        "e",
-        "m",
-        "s",
-        "p",
-        "g",
-        "a",
-        "c"
+        "c",
+        "clp",
+        "cv-lab"
       ]
     }
   ],
@@ -112,6 +98,12 @@
     },
     "full": {
       "title": "C201 Electrical Systems 1.pdf"
+    },
+    "clp": {
+      "title": "ClipperTrainingManual_0214.pdf"
+    },
+    "cv-lab": {
+      "title": "18424-XA-E2-L07-COMBINED.pdf"
     }
   },
   "topics": {
@@ -183,7 +175,7 @@
     "pneumatic": "Modules 1–2 match the supplied Basic Pneumatics teacher quiz; Modules 3–7 retain the slide headings. Module 7 covers air preparation, filtration, lubrication, and leaks despite its Automatic Input Devices 1 title.",
     "mechanical": "Sections follow the day breaks in the Mechanical Power slides.",
     "alignment": "Day 1 follows the slide topics; Day 2 uses the three named segments on the course outline.",
-    "conveyor": "This deck uses topic headings rather than numbered modules.",
+    "conveyor": "Existing topic sections are retained; added practice uses the supplied conveyor lab packet and Clipper wire-hook manual. Belt calculations are included in Tensioning.",
     "lab": "Labs are grouped by the supplied lab packet; they are not additional numbered lecture modules.",
     "math": "These are the three sessions named in the Amazon math packet.",
     "saca": "Mixed review follows each course’s modules and sections. Choose a course/module below or keep all courses mixed.",

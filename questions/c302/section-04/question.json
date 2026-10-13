@@ -1,7 +1,9 @@
 {
   "world": "alignment",
   "topic": "Day 1 · Laser alignment process",
-  "mathQuestionIds": [],
+  "mathQuestionIds": [
+    "alignment-angle"
+  ],
   "questions": [
     {
       "id": "q072",
@@ -19,16 +21,10 @@
       "source": "a",
       "section": "Live Vertical Screen, slide 37",
       "topic": "Day 1 · Laser alignment process",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-37.jpg",
-          "page": 37,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 37,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Live Vertical Screen, slide 37. The course's live vertical screen guides shim corrections.",
         "excerpt": "Live Vertical Screen is displayed 1st Make shim adjustments now, with this screen. When in tolerance (two green checks) maybe an orange zig- zag), click the arrow to proceed to the horizontal alignment Emitters will be vertical (12 O’clock) 37"
       }
     },
@@ -48,16 +44,10 @@
       "source": "a",
       "section": "Fine Alignment with Laser, slide 35",
       "topic": "Day 1 · Laser alignment process",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-35.jpg",
-          "page": 35,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 35,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Fine Alignment with Laser, slide 35. The countdown indicates active recording. Movement would distort the measurement.",
         "excerpt": "The correct procedure is to keep everything stationary until the countdown finishes and the system confirms the measurement is complete. This ensures accurate alignment results and prevents vibration or motion errors. Adding and removing shims ruins horizontal…"
       }
     },
@@ -77,16 +67,10 @@
       "source": "a",
       "section": "If a Laser or Sensor Moves, slide 40",
       "topic": "Day 1 · Laser alignment process",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-40.jpg",
-          "page": 40,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 40,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review If a Laser or Sensor Moves, slide 40. A shifted sensor affects measurement accuracy even if the beam still appears in range.",
         "excerpt": "When a laser or sensor unit moves—even slightly • it can affect measurement accuracy. • Even if the laser center appears within tolerance, the system’s calibration may no longer be valid. • The proper procedure is to secure the units, recalibrate using the dis…"
       }
     },
@@ -106,16 +90,10 @@
       "source": "a",
       "section": "Fine Alignment with Laser, slide 35",
       "topic": "Day 1 · Laser alignment process",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-35.jpg",
-          "page": 35,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 35,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Fine Alignment with Laser, slide 35. The guide emphasizes vertical first because shim changes can disturb the horizontal setting.",
         "excerpt": "Fine Alignment with Laser Vertical Angular Vertical Parallel Horizontal angular (with Jack Bolts) Horizontal Parallel (with Jack Bolts) 4 After soft foot, the TKSA will perform laser alignment. It will prompt you to move the emitters through a 180O range of ro…"
       }
     },
@@ -135,17 +113,143 @@
       "source": "a",
       "section": "Live Horizontal Screen, slide 38",
       "topic": "Day 1 · Laser alignment process",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-38.jpg",
-          "page": 38,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 38,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Live Horizontal Screen, slide 38. The course requires another measurement set to verify the corrected alignment.",
         "excerpt": "the arrow to proceed and REPEAT all measurements. Emitters will be horizontal (3 or 9 O’clock) 38 A24"
+      }
+    },
+    {
+      "id": "c302-p26-18",
+      "world": "alignment",
+      "topic": "Day 1 · Laser alignment process",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Where should transmitter brackets be attached in the course setup?",
+      "answer": "Shafts rather than coupling hubs",
+      "options": [
+        "Shafts rather than coupling hubs",
+        "Only coupling hubs",
+        "Only motor fans",
+        "Only the foundation"
+      ],
+      "explanation": "The slides specify shafts because mounting on hubs adds dimensional errors.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 26",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 26,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 26. The slides specify shafts because mounting on hubs adds dimensional errors."
+      }
+    },
+    {
+      "id": "c302-p35-19",
+      "world": "alignment",
+      "topic": "Day 1 · Laser alignment process",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Which three measurement positions span the lab’s 180-degree sequence?",
+      "answer": "3, 12, and 9 o’clock",
+      "options": [
+        "3, 12, and 9 o’clock",
+        "12, 6, and 12 o’clock",
+        "Only 3 and 9 o’clock",
+        "Only one arbitrary position"
+      ],
+      "explanation": "The procedure measures at 90°, 0°, and -90°, corresponding to 3, 12, and 9 o’clock.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 35",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 35,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 35. The procedure measures at 90°, 0°, and -90°, corresponding to 3, 12, and 9 o’clock."
+      }
+    },
+    {
+      "id": "c302-p37-20",
+      "world": "alignment",
+      "topic": "Day 1 · Laser alignment process",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What adjustments are made on the live vertical screen?",
+      "answer": "Shim corrections",
+      "options": [
+        "Shim corrections",
+        "Only jack-bolt side movement",
+        "Only laser brightness",
+        "Only belt tension"
+      ],
+      "explanation": "The live vertical screen guides shim changes. The following horizontal screen guides jack-bolt movements.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 37",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 37,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 37. The live vertical screen guides shim changes. The following horizontal screen guides jack-bolt movements."
+      }
+    },
+    {
+      "id": "c302-p38-21",
+      "world": "alignment",
+      "topic": "Day 1 · Laser alignment process",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What adjustments are made on the live horizontal screen?",
+      "answer": "Jack-bolt corrections",
+      "options": [
+        "Jack-bolt corrections",
+        "Only adding equal shims",
+        "Only changing shaft RPM",
+        "Only changing coupling diameter"
+      ],
+      "explanation": "The horizontal correction uses controlled sideways movement with the jack bolts.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 38",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 38,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 38. The horizontal correction uses controlled sideways movement with the jack bolts."
+      }
+    },
+    {
+      "id": "c302-p39-22",
+      "world": "alignment",
+      "topic": "Day 1 · Laser alignment process",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "After live corrections, what is required to verify alignment?",
+      "answer": "Repeat the measurement sequence",
+      "options": [
+        "Repeat the measurement sequence",
+        "Trust only the previous live numbers",
+        "Switch the motor on immediately",
+        "Remove the stationary sensor"
+      ],
+      "explanation": "The final as-measured screen follows a new three-position measurement and should show the required tolerances satisfied.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 39",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 39,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 39. The final as-measured screen follows a new three-position measurement and should show the required tolerances satisfied."
+      }
+    },
+    {
+      "id": "c302-p40-23",
+      "world": "alignment",
+      "topic": "Day 1 · Laser alignment process",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "A sensor mount moves slightly after measurement. What is the risk?",
+      "answer": "The alignment reading may no longer be accurate",
+      "options": [
+        "The alignment reading may no longer be accurate",
+        "The motor automatically becomes aligned",
+        "The shaft diameter becomes larger",
+        "The coupling rating increases"
+      ],
+      "explanation": "Movement of a laser or detector affects measured geometry. Recheck mounting and repeat measurements.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 40",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 40,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 40. Movement of a laser or detector affects measured geometry. Recheck mounting and repeat measurements."
       }
     }
   ]

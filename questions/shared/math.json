@@ -97,13 +97,7 @@
       "unit": "in",
       "tolerance": 0.01,
       "topic": "Tensioning",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-37.jpg",
-          "page": 37,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 37,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
@@ -4862,6 +4856,206 @@
       "numeric": 200,
       "unit": "RPM",
       "tolerance": 0.15
+    },
+    {
+      "id": "conveyor-length",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "formula",
+      "prompt": "For equal 4-inch pulleys 184 inches apart, use L = πD + 2C with π = 3.14. Find belt length.",
+      "answer": "380.56 in",
+      "options": [
+        "380.56 in",
+        "368 in",
+        "184 in",
+        "392 in"
+      ],
+      "explanation": "L = 3.14 × 4 + 2 × 184 = 380.56 in.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 20",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 20,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 20. L = 3.14 × 4 + 2 × 184 = 380.56 in."
+      },
+      "numeric": 380.56,
+      "unit": "in",
+      "tolerance": 1.9028
+    },
+    {
+      "id": "conveyor-centers",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "formula",
+      "prompt": "Overall length is 288 inches with 8-inch and 4-inch pulleys. Find center distance using C = overall length − (D + T)/2.",
+      "answer": "282 in",
+      "options": [
+        "282 in",
+        "276 in",
+        "294 in",
+        "286 in"
+      ],
+      "explanation": "C = 288 − (8 + 4)/2 = 282 in.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 21",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 21,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 21. C = 288 − (8 + 4)/2 = 282 in."
+      },
+      "numeric": 282,
+      "unit": "in",
+      "tolerance": 1.41
+    },
+    {
+      "id": "conveyor-reducer",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "formula",
+      "prompt": "A 1725 RPM motor drives a 25:1 reducer. Find reducer output speed.",
+      "answer": "69 RPM",
+      "options": [
+        "69 RPM",
+        "43125 RPM",
+        "25 RPM",
+        "1725 RPM"
+      ],
+      "explanation": "Output speed = 1725/25 = 69 RPM.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 23",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 23,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 23. Output speed = 1725/25 = 69 RPM."
+      },
+      "numeric": 69,
+      "unit": "RPM",
+      "tolerance": 0.34500000000000003
+    },
+    {
+      "id": "conveyor-pulley-rpm",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "formula",
+      "prompt": "A 69 RPM reducer sprocket with 21 teeth drives a 36-tooth sprocket. Find pulley speed.",
+      "answer": "40.25 RPM",
+      "options": [
+        "40.25 RPM",
+        "118.29 RPM",
+        "69 RPM",
+        "57 RPM"
+      ],
+      "explanation": "Pulley speed = 69 × 21/36 = 40.25 RPM.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 23",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 23,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 23. Pulley speed = 69 × 21/36 = 40.25 RPM."
+      },
+      "numeric": 40.25,
+      "unit": "RPM",
+      "tolerance": 0.20125
+    },
+    {
+      "id": "conveyor-fpm",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "formula",
+      "prompt": "A 4-inch drive pulley turns at 40.25 RPM. Use FPM = RPM × diameter × 0.262. Find belt speed.",
+      "answer": "42.18 FPM",
+      "options": [
+        "42.18 FPM",
+        "161 FPM",
+        "10.55 FPM",
+        "40.25 FPM"
+      ],
+      "explanation": "FPM = 40.25 × 4 × 0.262 = 42.182, approximately 42.18 FPM.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 23",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 23,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 23. FPM = 40.25 × 4 × 0.262 = 42.182, approximately 42.18 FPM."
+      },
+      "numeric": 42.18,
+      "unit": "FPM",
+      "tolerance": 0.2109
+    },
+    {
+      "id": "conveyor-direct",
+      "world": "conveyor",
+      "topic": "Tensioning",
+      "source": "cv-lab",
+      "type": "formula",
+      "prompt": "A belt mark travels 5 feet in 6 seconds. Find belt speed in feet per minute.",
+      "answer": "50 FPM",
+      "options": [
+        "50 FPM",
+        "0.833 FPM",
+        "30 FPM",
+        "300 FPM"
+      ],
+      "explanation": "Speed = distance/time × 60 = 5/6 × 60 = 50 FPM.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 26",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 26,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 26. Speed = distance/time × 60 = 5/6 × 60 = 50 FPM."
+      },
+      "numeric": 50,
+      "unit": "FPM",
+      "tolerance": 0.25
+    },
+    {
+      "id": "alignment-shim-mils",
+      "world": "alignment",
+      "topic": "Day 2 · Segment 1: Soft Foot Correction",
+      "source": "a",
+      "type": "formula",
+      "prompt": "The display recommends 6 mil of shim addition. How many 3-mil shims supply that thickness?",
+      "answer": "2 shims",
+      "options": [
+        "2 shims",
+        "1 shims",
+        "3 shims",
+        "6 shims"
+      ],
+      "explanation": "6 mil / 3 mil per shim = 2 shims. Recheck soft foot after installation and tightening.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 34",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 34,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 34. 6 mil / 3 mil per shim = 2 shims. Recheck soft foot after installation and tightening."
+      },
+      "numeric": 2,
+      "unit": "shims",
+      "tolerance": 0.01
+    },
+    {
+      "id": "alignment-angle",
+      "world": "alignment",
+      "topic": "Day 1 · Laser alignment process",
+      "source": "a",
+      "type": "formula",
+      "prompt": "Measurement positions are +90°, 0°, and −90°. What total angular span is covered?",
+      "answer": "180 degrees",
+      "options": [
+        "180 degrees",
+        "90 degrees",
+        "270 degrees",
+        "360 degrees"
+      ],
+      "explanation": "The span from +90° to −90° is 180°.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 35",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 35,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 35. The span from +90° to −90° is 180°."
+      },
+      "numeric": 180,
+      "unit": "degrees",
+      "tolerance": 0.9
     }
   ]
 }

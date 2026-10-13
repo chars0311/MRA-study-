@@ -19,16 +19,10 @@
       "source": "c",
       "section": "Conveyor Belt Splicing, slide 9",
       "topic": "Conveyor Belt Splicing",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-9.jpg",
-          "page": 9,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 9,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Conveyor Belt Splicing, slide 9. A splice joins the ends into a continuous belt.",
         "excerpt": "Conveyor Belt Splicing Conveyor belt splicing is the process of joining two ends of a conveyor belt to ensure continuous operation. Proper splicing improves performance, safety, and longevity of the belt. The splice is often the weakest link in a belt system; …"
       }
     },
@@ -48,16 +42,10 @@
       "source": "c",
       "section": "Types of Splicing, slide 11",
       "topic": "Conveyor Belt Splicing",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-11.jpg",
-          "page": 11,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 11,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Types of Splicing, slide 11. Mechanical splicing joins belt ends with fasteners for quick installation.",
         "excerpt": "1. Mechanical Splicing – Uses metal fasteners for quick installation. 2. Vulcanized Splicing – Uses heat and pressure for a seamless joint. 3. Cold Bond Splicing – Uses chemical adhesives instead of heat. 11 VIDEO OF MECHANICAL SPLICING USING A METAL Clipper® …"
       }
     },
@@ -77,16 +65,10 @@
       "source": "c",
       "section": "Types of Splicing, slide 11",
       "topic": "Conveyor Belt Splicing",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-11.jpg",
-          "page": 11,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 11,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Types of Splicing, slide 11. Vulcanizing uses heat and pressure; cold bonding uses adhesive.",
         "excerpt": "2. Vulcanized Splicing – Uses heat and pressure for a seamless joint. 3. Cold Bond Splicing – Uses chemical adhesives instead of heat. 11 VIDEO OF MECHANICAL SPLICING USING A METAL Clipper® Wire Hook Fastener Installation On Conveyor Belt"
       }
     },
@@ -106,16 +88,10 @@
       "source": "c",
       "section": "Components of a Mechanical Splice, slide 16",
       "topic": "Conveyor Belt Splicing",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-16.jpg",
-          "page": 16,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 16,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Components of a Mechanical Splice, slide 16. The hinge pin or clip secures the intermeshed fastener ends.",
         "excerpt": "- Hinge pin or clip locking the joint - Optional protective covers 16"
       }
     },
@@ -141,15 +117,119 @@
         "alt": "Course slide diagram for this question",
         "page": 10
       },
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-10.jpg",
-          "page": 10,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
-        "text": "Use the labeled components and operating conditions on the review slide to follow the explanation above."
+        "text": "Review Conveyor Belt Splicing · PDF page 10. The photograph shows interlocking wire hooks at the belt joint. These are mechanical fasteners, rather than a bonded or vulcanized joint."
+      }
+    },
+    {
+      "id": "conveyor-c11-8",
+      "world": "conveyor",
+      "topic": "Conveyor Belt Splicing",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "What connects intermeshed mechanical belt lacing?",
+      "answer": "Splice pin",
+      "options": [
+        "Splice pin",
+        "Motor key",
+        "Jack bolt",
+        "Lubricator wick"
+      ],
+      "explanation": "The lacing of both belt ends is meshed and the splice pin is inserted through it.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 11,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 11. The lacing of both belt ends is meshed and the splice pin is inserted through it."
+      }
+    },
+    {
+      "id": "conveyor-clp2-9",
+      "world": "conveyor",
+      "topic": "Conveyor Belt Splicing",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which application suits the Clipper wire-hook system described?",
+      "answer": "Light-duty belting",
+      "options": [
+        "Light-duty belting",
+        "Every heavy-duty belt without rating checks",
+        "Only metal conveyor slats",
+        "Only hydraulic hoses"
+      ],
+      "explanation": "The manual describes low-profile, machine-installed wire-hook fasteners for light-duty belts.",
+      "section": "ClipperTrainingManual_0214.pdf, PDF page 2",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review ClipperTrainingManual_0214.pdf, PDF page 2. The manual describes low-profile, machine-installed wire-hook fasteners for light-duty belts."
+      }
+    },
+    {
+      "id": "conveyor-clp2-10",
+      "world": "conveyor",
+      "topic": "Conveyor Belt Splicing",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "What distinguishes Unibar hooks from individually carded hooks?",
+      "answer": "Hooks are welded to a common bar",
+      "options": [
+        "Hooks are welded to a common bar",
+        "They use no connecting pin",
+        "They are always plastic",
+        "They form a vulcanized splice"
+      ],
+      "explanation": "The common bar improves handling, keeps hook legs parallel, and makes belt-end meshing easier.",
+      "section": "ClipperTrainingManual_0214.pdf, PDF page 2",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review ClipperTrainingManual_0214.pdf, PDF page 2. The common bar improves handling, keeps hook legs parallel, and makes belt-end meshing easier."
+      }
+    },
+    {
+      "id": "conveyor-clp4-11",
+      "world": "conveyor",
+      "topic": "Conveyor Belt Splicing",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which measurements guide wire-hook fastener selection?",
+      "answer": "Belt thickness and minimum pulley diameter",
+      "options": [
+        "Belt thickness and minimum pulley diameter",
+        "Only belt color",
+        "Only conveyor motor voltage",
+        "Only the overall conveyor height"
+      ],
+      "explanation": "The selection procedure measures belt thickness and the smallest relevant pulley, then consults the chart.",
+      "section": "ClipperTrainingManual_0214.pdf, PDF page 4",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review ClipperTrainingManual_0214.pdf, PDF page 4. The selection procedure measures belt thickness and the smallest relevant pulley, then consults the chart."
+      }
+    },
+    {
+      "id": "conveyor-emergency-splice",
+      "world": "conveyor",
+      "topic": "Conveyor Belt Splicing",
+      "type": "quiz",
+      "source": "c",
+      "prompt": "When is mechanical splicing especially useful?",
+      "answer": "Emergency repairs requiring quick installation",
+      "options": [
+        "Emergency repairs requiring quick installation",
+        "Only when maximum seamless strength is required",
+        "Only when no fasteners are allowed",
+        "Only when curing time is unrestricted"
+      ],
+      "explanation": "The slides list quick maintenance and emergency repair as applications for mechanical splices.",
+      "section": "Conveyors.pdf, slide 14",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 14,
+        "text": "Review Conveyors.pdf, slide 14. The slides list quick maintenance and emergency repair as applications for mechanical splices."
       }
     }
   ]

@@ -98,6 +98,24 @@ const fetch = async (url, options = {}) => {
     }
     return portableResponse({ event });
   }
+  if (url === "/api/confidence") {
+    const body = JSON.parse(options.body);
+    const event = portableEvents.find(e => e.key === body.key);
+    if (!event || typeof body.guessed !== 'boolean') return portableResponse({ error: 'Saved answer not found.' }, 400);
+    const previous = { ...event };
+    event.guessed = body.guessed;
+    event.confidenceSyncPending = true;
+    try { if (portablePersistent) localStorage.setItem(progressKey, JSON.stringify(portableEvents)); }
+    catch { for (const key of Object.keys(event)) if (!(key in previous)) delete event[key]; Object.assign(event, previous); return portableResponse({ error: 'Could not save confidence in this browser.' }, 500); }
+    if (globalThis.MRAAuth?.updateCloudConfidence) {
+      try {
+        if (await globalThis.MRAAuth.updateCloudConfidence(event)) delete event.confidenceSyncPending;
+      } catch (e) { console.warn('Confidence saved locally; account sync will retry.', e); }
+    }
+    try { if (portablePersistent) localStorage.setItem(progressKey, JSON.stringify(portableEvents)); } catch {}
+    return portableResponse({ event });
+  }
   return globalThis.fetch(url, options);
 };
+
 

@@ -66,9 +66,30 @@ function starredNote(qs, requested) {
   return ` ${n} starred teacher-quiz question${n===1?'':'s'} included.` +
     (n<requested ? ` This eligible pool has fewer than ${requested}; other modules are not added.` : '');
 }
-function confidenceControl(q) {
-  if(!run || run.mode==='cards' || run.feedback && !isExam()) return '';
-  return `<label class="confidence"><input type="checkbox" data-confidence="${escape(q.id)}" ${run.guesses?.[q.id]?'checked':''} ${run.locked||busy?'disabled':''}> I’m guessing / not confident</label><p class="small confidence-help">Correct guesses still earn the test points, but return for practice and do not advance mastery.</p>`;
+function confidenceControl(q, afterAnswer = false) {
+  if (!run || run.mode === 'cards') return '';
+  if (!afterAnswer && !isExam()) return '';
+  if (afterAnswer && !run.answers?.some(e => e.qid === q.id)) return '';
+  return `<label class="confidence"><input type="checkbox" data-confidence="${escape(q.id)}" ${afterAnswer ? 'data-confidence-saved="true"' : ''} ${run.guesses?.[q.id] ? 'checked' : ''} ${(afterAnswer ? run.grading : run.locked) || busy ? 'disabled' : ''}> ${afterAnswer ? 'I guessed / wasn’t confident' : 'I’m guessing / not confident'}</label><p class="small confidence-help">Correct guesses still earn test points, but return for practice and do not advance mastery.</p>`;
+}
+async function saveConfidence(qid, guessed) {
+  const prior = run.guesses?.[qid] === true;
+  busy = true;
+  error = '';
+  render();
+  try {
+    const response = await fetch('/api/confidence', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ key: run.id + '/' + qid, guessed }) });
+    const data = await response.json();
+    if (!response.ok) throw Error(data.error || 'Could not save confidence.');
+    run.guesses ??= {};
+    run.guesses[qid] = guessed;
+    events = events.map(e => e.key === data.event.key ? data.event : e);
+    run.answers = run.answers.map(e => e.key === data.event.key ? data.event : e);
+  } catch (e) {
+    run.guesses ??= {};
+    run.guesses[qid] = prior;
+    error = e.message;
+  } finally { busy = false; render(); }
 }
 function weakTopics(attempts = events, qs = courseQuestions()) {
   const latest = new Map();
@@ -104,7 +125,7 @@ function flagControl(q) {
 }
 function bindLearning() {
   root.querySelectorAll('[data-confidence]').forEach(input=>{
-    input.onchange=()=>{run.guesses??={};run.guesses[input.dataset.confidence]=input.checked;};
+    input.onchange=()=>{ if (input.dataset.confidenceSaved) { saveConfidence(input.dataset.confidence, input.checked); return; } run.guesses??={};run.guesses[input.dataset.confidence]=input.checked; };
   });
   root.querySelectorAll('[data-flag-form]').forEach(form=>{
     form.onsubmit=e=>{
@@ -136,3 +157,4 @@ function teacherSelection(items, target = 10) {
   const qs = shuffle([...teachers.slice(0,teacherCount), ...regular.slice(0,regularCount)]).map(freshQuestion);
   return { qs, note: `${qs.length} questions · ${teacherCount} starred teacher + ${regularCount} regular study · checked modules only · immediate explanations · no life cutoff.` + (teacherCount !== 8 || regularCount !== 2 ? ' The mix is adjusted to the questions available in your checked modules.' : '') };
 }
+

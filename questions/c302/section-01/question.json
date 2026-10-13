@@ -4,35 +4,6 @@
   "mathQuestionIds": [],
   "questions": [
     {
-      "id": "q067",
-      "world": "alignment",
-      "type": "quiz",
-      "prompt": "What is the goal of shaft alignment?",
-      "answer": "Both shafts rotate about the same centerline",
-      "options": [
-        "Both shafts rotate about the same centerline",
-        "Both shafts have the same length",
-        "Both motors have the same voltage",
-        "The coupling has no fasteners"
-      ],
-      "explanation": "Aligned centerlines reduce vibration and unnecessary wear.",
-      "source": "a",
-      "section": "Purpose of Shaft Alignment, slide 3",
-      "topic": "Day 1 · Shaft alignment fundamentals",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-3.jpg",
-          "page": 3,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
-      "reviewCue": {
-        "page": 3,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
-        "excerpt": "Both shafts rotate around the exact same centerline. When the centerlines are aligned: • Bearings run cooler • Couplings last longer • Vibration drops • Energy efficiency improves • Machine life increases • This is the core principle behind all alignment work.…"
-      }
-    },
-    {
       "id": "q068",
       "world": "alignment",
       "type": "quiz",
@@ -48,17 +19,170 @@
       "source": "a",
       "section": "Removing Misalignment, slide 4",
       "topic": "Day 1 · Shaft alignment fundamentals",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-4.jpg",
-          "page": 4,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 4,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Removing Misalignment, slide 4. Offset is parallel misalignment; angled centerlines are angular; both can occur together.",
         "excerpt": "parallel (offset), angular, combined We measure in both the: Vertical (think wall) Horizontal (think floor) 4"
+      }
+    },
+    {
+      "id": "q067",
+      "world": "alignment",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What does correct shaft alignment seek to achieve?",
+      "answer": "Both shafts rotating about the same centerline",
+      "options": [
+        "Both shafts rotating about the same centerline",
+        "The largest possible coupling gap",
+        "Identical shaft diameters",
+        "Maximum motor current"
+      ],
+      "explanation": "Alignment places the shaft axes on the same centerline and reduces forces caused by offset or angular error.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 3",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 3,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 3. Alignment places the shaft axes on the same centerline and reduces forces caused by offset or angular error."
+      }
+    },
+    {
+      "id": "c302-p4-1",
+      "world": "alignment",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Which misalignment means the shaft centerlines are parallel but displaced?",
+      "answer": "Parallel or offset",
+      "options": [
+        "Parallel or offset",
+        "Angular only",
+        "Soft foot only",
+        "Perfect alignment"
+      ],
+      "explanation": "Parallel misalignment is an offset between parallel axes; angular misalignment is a difference in their angle.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 4",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 4. Parallel misalignment is an offset between parallel axes; angular misalignment is a difference in their angle."
+      }
+    },
+    {
+      "id": "c302-p4-2",
+      "world": "alignment",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "In which planes must shaft alignment be checked?",
+      "answer": "Vertical and horizontal",
+      "options": [
+        "Vertical and horizontal",
+        "Only vertical",
+        "Only horizontal",
+        "Only the motor voltage plane"
+      ],
+      "explanation": "Both angular and parallel errors must be considered in the vertical and horizontal planes.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 4",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 4. Both angular and parallel errors must be considered in the vertical and horizontal planes."
+      }
+    },
+    {
+      "id": "c302-p6-3",
+      "world": "alignment",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What is a tradeoff of dial-indicator alignment compared with laser alignment?",
+      "answer": "Lower equipment cost but more manual effort and time",
+      "options": [
+        "Lower equipment cost but more manual effort and time",
+        "It always needs no operator skill",
+        "It can measure only voltage",
+        "It eliminates every tolerance requirement"
+      ],
+      "explanation": "The slide lists lower equipment cost but greater skill, time, and labor requirements for dial indicators.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 6",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 6,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 6. The slide lists lower equipment cost but greater skill, time, and labor requirements for dial indicators."
+      }
+    },
+    {
+      "id": "c302-p7-4",
+      "world": "alignment",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What does LASER stand for?",
+      "answer": "Light Amplification by Stimulated Emission of Radiation",
+      "options": [
+        "Light Amplification by Stimulated Emission of Radiation",
+        "Linear Axis Sensing and Electronic Recording",
+        "Light Alignment by Shaft Electrical Resistance",
+        "Low Amplitude Sensor Error Reading"
+      ],
+      "explanation": "The slide defines the acronym and describes laser light as a narrow, single-wavelength beam.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 7",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 7,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 7. The slide defines the acronym and describes laser light as a narrow, single-wavelength beam."
+      }
+    },
+    {
+      "id": "c302-p9-5",
+      "world": "alignment",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What should happen before mounting or working on the alignment setup?",
+      "answer": "Follow lockout/tagout",
+      "options": [
+        "Follow lockout/tagout",
+        "Start the motor at full speed",
+        "Look directly into the laser",
+        "Remove the shaft guards while running"
+      ],
+      "explanation": "The laser-safety slide begins with LOTO and also prohibits looking into the beam or reflecting it toward people.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 9",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 9,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 9. The laser-safety slide begins with LOTO and also prohibits looking into the beam or reflecting it toward people."
+      }
+    },
+    {
+      "id": "alignment-picture-angular",
+      "world": "alignment",
+      "topic": "Day 1 · Shaft alignment fundamentals",
+      "type": "symbol",
+      "source": "a",
+      "prompt": "What error is illustrated by the tilted motor shaft in the lower drawing?",
+      "answer": "Angular misalignment",
+      "options": [
+        "Angular misalignment",
+        "Parallel offset only",
+        "Soft foot measurement only",
+        "Correct coaxial alignment"
+      ],
+      "explanation": "The lower shaft axis is tilted relative to the fixed shaft. Angular misalignment means the axes meet at an angle.",
+      "section": "C302 Laser Shaft Alignment.pdf, slide 4",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 4,
+        "text": "Review C302 Laser Shaft Alignment.pdf, slide 4. The lower shaft axis is tilted relative to the fixed shaft. Angular misalignment means the axes meet at an angle."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "last-course-a-4-6",
+        "alt": "Original supplied course diagram"
       }
     }
   ]

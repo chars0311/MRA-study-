@@ -19,21 +19,10 @@
       "source": "a",
       "section": "Jack Bolts, slide 18",
       "topic": "Day 1 · Measurement unit & jack bolts",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-20.jpg",
-          "page": 20,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        },
-        {
-          "url": "./review-slides/a-35.jpg",
-          "page": 35,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 35,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Jack Bolts, slide 18. Jack bolts move the motor sideways. Vertical corrections use shims.",
         "excerpt": "Horizontal angular (with Jack Bolts) Horizontal Parallel (with Jack Bolts) 4 After soft foot, the TKSA will perform laser alignment. It will prompt you to move the emitters through a 180O range of rotation1: 1/ 90O (3-O’clock) then 2/ 0O (12-O’clock) then 3/ -…"
       }
     },
@@ -53,16 +42,10 @@
       "source": "a",
       "section": "Measuring units, slide 12",
       "topic": "Day 1 · Measurement unit & jack bolts",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-13.jpg",
-          "page": 13,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 13,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Measuring units, slide 12. M denotes movable; S denotes stationary.",
         "excerpt": "Emitters “talk” to each other and the display unit. They measure where the beams hit and transmit that back to the display unit. Movable Stationary USB cables Higher end units use Bluetooth (no cables) and can accept temperature targets for thermal compensatio…"
       }
     },
@@ -88,16 +71,10 @@
         "alt": "Course slide diagram for this question",
         "page": 21
       },
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-21.jpg",
-          "page": 21,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 21,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Day 1 · Measurement unit & jack bolts · PDF page 21. The motor rotates to change its angle. The slide shows one jack bolt tightening and the opposite location loosening to make the angular move.",
         "excerpt": "Jack Bolts - Angular Move Tighten Jack Bolt Loosen Jack Bolt 21"
       }
     },
@@ -123,17 +100,231 @@
         "alt": "Course slide diagram for this question",
         "page": 22
       },
-      "reviewSlides": [
-        {
-          "url": "./review-slides/a-22.jpg",
-          "page": 22,
-          "title": "C302 Laser Shaft Alignment.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 22,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Day 1 · Measurement unit & jack bolts · PDF page 22. The motor translates sideways without intentionally changing its angle. The slide shows the jack bolts on one side moving by the same number of turns.",
         "excerpt": "Jack Bolts - Parallel Move Tighten Jack Bolts with same number of turns Loosen Jack Bolts 22 A11"
+      }
+    },
+    {
+      "id": "c302-p12-6",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Where does the measuring unit marked S belong?",
+      "answer": "Stationary machine",
+      "options": [
+        "Stationary machine",
+        "Movable machine",
+        "Always the motor regardless of which machine moves",
+        "Always the right shaft"
+      ],
+      "explanation": "S denotes stationary and M denotes movable. The machine’s role determines the unit assignment.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 12. S denotes stationary and M denotes movable. The machine’s role determines the unit assignment."
+      }
+    },
+    {
+      "id": "c302-p13-7",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What do the measuring units report to the display?",
+      "answer": "Where the beams strike the sensors",
+      "options": [
+        "Where the beams strike the sensors",
+        "Only motor voltage",
+        "Only oil level",
+        "Only bearing temperature"
+      ],
+      "explanation": "The units detect beam positions and communicate them to the display for alignment calculations.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 13,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 13. The units detect beam positions and communicate them to the display for alignment calculations."
+      }
+    },
+    {
+      "id": "c302-p14-8",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Where should the beams initially strike the opposite units?",
+      "answer": "Near the middle of the sensors",
+      "options": [
+        "Near the middle of the sensors",
+        "Outside the detector area",
+        "On the shaft keyway",
+        "On the coupling bolts"
+      ],
+      "explanation": "Mount units about halfway up the brackets, then adjust so the beams strike near the sensor centers.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 14",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 14,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 14. Mount units about halfway up the brackets, then adjust so the beams strike near the sensor centers."
+      }
+    },
+    {
+      "id": "c302-p15-9",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Why must a keyway be kept away from the centering guides?",
+      "answer": "It can interfere with correct bracket seating",
+      "options": [
+        "It can interfere with correct bracket seating",
+        "It changes the motor’s frequency",
+        "It creates grease automatically",
+        "It is the required laser target"
+      ],
+      "explanation": "The slide shows correct and incorrect bracket orientation relative to shaft keyways.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 15",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 15,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 15. The slide shows correct and incorrect bracket orientation relative to shaft keyways."
+      }
+    },
+    {
+      "id": "c302-p16-10",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Which dimension is A in the lab setup?",
+      "answer": "Distance between measuring-unit mounting brackets",
+      "options": [
+        "Distance between measuring-unit mounting brackets",
+        "Coupling outside diameter",
+        "Distance between motor feet only",
+        "Motor shaft diameter"
+      ],
+      "explanation": "The instrument uses bracket and foot distances to calculate corrections. A is the spacing between brackets.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 16",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 16,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 16. The instrument uses bracket and foot distances to calculate corrections. A is the spacing between brackets."
+      }
+    },
+    {
+      "id": "c302-p16-11",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Which dimension is C in the lab setup?",
+      "answer": "Distance from the movable machine’s front foot to its back foot",
+      "options": [
+        "Distance from the movable machine’s front foot to its back foot",
+        "Coupling diameter",
+        "Distance between sensor brackets",
+        "Stationary shaft diameter"
+      ],
+      "explanation": "C describes the front-to-back foot spacing of the movable machine.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 16",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 16,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 16. C describes the front-to-back foot spacing of the movable machine."
+      }
+    },
+    {
+      "id": "c302-p17-12",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "Which tolerance should be considered when it differs from a built-in speed default?",
+      "answer": "The coupling manufacturer’s specification",
+      "options": [
+        "The coupling manufacturer’s specification",
+        "Any number that makes the screen green",
+        "Only the widest default",
+        "The operator’s shoe size"
+      ],
+      "explanation": "The slide says built-in speed defaults may not be best; consult the coupling datasheet and choose the appropriate specification.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 17",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 17,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 17. The slide says built-in speed defaults may not be best; consult the coupling datasheet and choose the appropriate specification."
+      }
+    },
+    {
+      "id": "c302-p20-13",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "After horizontal correction and tightening motor bolts, what should happen to the jack bolts?",
+      "answer": "Back them away from the feet",
+      "options": [
+        "Back them away from the feet",
+        "Keep maximum pushing force against both sides",
+        "Remove all motor bolts",
+        "Use them as permanent lifting supports"
+      ],
+      "explanation": "The slide finishes the sequence by tightening motor bolts in a crisscross pattern and backing the jack bolts off the feet.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 20",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 20,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 20. The slide finishes the sequence by tightening motor bolts in a crisscross pattern and backing the jack bolts off the feet."
+      }
+    },
+    {
+      "id": "c302-p21-14",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What jack-bolt adjustment produces an angular horizontal move?",
+      "answer": "Move one end relative to the other",
+      "options": [
+        "Move one end relative to the other",
+        "Move both ends equally in the same direction",
+        "Add identical shims to every foot",
+        "Change the laser wavelength"
+      ],
+      "explanation": "Moving one end changes the machine’s horizontal angle. Equal end movement produces parallel translation.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 21",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 21,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 21. Moving one end changes the machine’s horizontal angle. Equal end movement produces parallel translation."
+      }
+    },
+    {
+      "id": "c302-p22-15",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "source": "a",
+      "type": "quiz",
+      "prompt": "What produces a parallel horizontal move?",
+      "answer": "Move both ends equally in the same direction",
+      "options": [
+        "Move both ends equally in the same direction",
+        "Move only one end",
+        "Raise only one front foot",
+        "Rotate the motor shaft only"
+      ],
+      "explanation": "The slide calls for equal jack-bolt turns so the machine translates sideways without intentionally changing angle.",
+      "section": "C302 Laser Shaft Alignment.pdf, PDF page 22",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 22,
+        "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 22. The slide calls for equal jack-bolt turns so the machine translates sideways without intentionally changing angle."
       }
     }
   ]

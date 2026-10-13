@@ -19,16 +19,10 @@
       "source": "c",
       "section": "Common Failures and Troubleshooting, slide 42",
       "topic": "Splice limitations & troubleshooting",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-42.jpg",
-          "page": 42,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 42,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Common Failures and Troubleshooting, slide 42. The guide lists these inspections for common mechanical-splice failures.",
         "excerpt": "• - Fastener pull-out • - Corrosion or wear Troubleshooting: • - Check alignment and torque • - Inspect hinge pin • - Replace worn fasteners promptly 42"
       }
     },
@@ -48,17 +42,121 @@
       "source": "c",
       "section": "Pros and Cons of Mechanical Splices, slide 41",
       "topic": "Splice limitations & troubleshooting",
-      "reviewSlides": [
-        {
-          "url": "./review-slides/c-41.jpg",
-          "page": 41,
-          "title": "Conveyors.pdf"
-        }
-      ],
+      "reviewSlides": [],
       "reviewCue": {
         "page": 41,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review Pros and Cons of Mechanical Splices, slide 41. The guide lists a raised profile and lower strength compared with vulcanized joints.",
         "excerpt": "• - Raised joint profile • - Requires regular inspection 41"
+      }
+    },
+    {
+      "id": "conveyor-c16-18",
+      "world": "conveyor",
+      "topic": "Splice limitations & troubleshooting",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which chain-drive components are inspected for looseness or wear?",
+      "answer": "Sprocket teeth, set screws, and mounting bolts",
+      "options": [
+        "Sprocket teeth, set screws, and mounting bolts",
+        "Only warning labels",
+        "Only belt color",
+        "Only the laser display"
+      ],
+      "explanation": "The maintenance list includes tooth wear, sprocket set screws, and motor/reducer mounting bolts.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 16",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 16,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 16. The maintenance list includes tooth wear, sprocket set screws, and motor/reducer mounting bolts."
+      }
+    },
+    {
+      "id": "conveyor-c17-19",
+      "world": "conveyor",
+      "topic": "Splice limitations & troubleshooting",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "What should be done if conveyor fasteners are loose during inspection?",
+      "answer": "Tighten them according to the procedure",
+      "options": [
+        "Tighten them according to the procedure",
+        "Increase belt speed to hide the noise",
+        "Ignore them if the belt moves",
+        "Remove required guards permanently"
+      ],
+      "explanation": "The inspection procedure checks conveyor fasteners and corrects looseness before operation.",
+      "section": "18424-XA-E2-L07-COMBINED.pdf, PDF page 17",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 17,
+        "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 17. The inspection procedure checks conveyor fasteners and corrects looseness before operation."
+      }
+    },
+    {
+      "id": "conveyor-clp2-20",
+      "world": "conveyor",
+      "topic": "Splice limitations & troubleshooting",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Which application is listed as unsuitable for Unibar hooks?",
+      "answer": "Crowned-pulley systems",
+      "options": [
+        "Crowned-pulley systems",
+        "Every flat light-duty belt",
+        "Every machine-installed splice",
+        "Every straight belt end"
+      ],
+      "explanation": "The manual lists crowned pulleys, bias splices, troughed belts, and large back bends among Unibar restrictions.",
+      "section": "ClipperTrainingManual_0214.pdf, PDF page 2",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review ClipperTrainingManual_0214.pdf, PDF page 2. The manual lists crowned pulleys, bias splices, troughed belts, and large back bends among Unibar restrictions."
+      }
+    },
+    {
+      "id": "conveyor-clp2-21",
+      "world": "conveyor",
+      "topic": "Splice limitations & troubleshooting",
+      "source": "cv-lab",
+      "type": "quiz",
+      "prompt": "Why can individually selected hook material matter?",
+      "answer": "Material must suit the application and environment",
+      "options": [
+        "Material must suit the application and environment",
+        "Material never affects service",
+        "Every hook has identical corrosion resistance",
+        "It only changes belt speed"
+      ],
+      "explanation": "The manual offers material options and includes environment/application considerations in fastener selection.",
+      "section": "ClipperTrainingManual_0214.pdf, PDF page 2",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 2,
+        "text": "Review ClipperTrainingManual_0214.pdf, PDF page 2. The manual offers material options and includes environment/application considerations in fastener selection."
+      }
+    },
+    {
+      "id": "conveyor-fastener-pullout",
+      "world": "conveyor",
+      "topic": "Splice limitations & troubleshooting",
+      "type": "quiz",
+      "source": "c",
+      "prompt": "Which checks help diagnose fastener pull-out?",
+      "answer": "Alignment, fastener selection, and belt condition",
+      "options": [
+        "Alignment, fastener selection, and belt condition",
+        "Only motor paint",
+        "Only nameplate voltage",
+        "Only room temperature"
+      ],
+      "explanation": "The troubleshooting slide directs checking alignment and suitable fasteners, then replacing worn parts.",
+      "section": "Conveyors.pdf, slide 42",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 42,
+        "text": "Review Conveyors.pdf, slide 42. The troubleshooting slide directs checking alignment and suitable fasteners, then replacing worn parts."
       }
     }
   ]
