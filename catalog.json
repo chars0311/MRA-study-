@@ -180,7 +180,7 @@
   "outlineNotes": {
     "electrical": "Module numbering follows the supplied slides, which move from Module 3 to Module 5.",
     "sensor": "Module 3 (Limit Switches) and Module 4 (Timers) are listed on the Day 2 divider. Electronic-sensor introduction has no visible Module 6 label in the readable slides, so it is listed by topic. Module 7 retains its slide number.",
-    "pneumatic": "The readable deck explicitly labels Modules 3–7. Its earlier material is grouped by slide topic without assigning unverified Module 1/2 labels. Module 7 is titled Automatic Input Devices 1 in the slides; its content covers air preparation, filtration, lubrication and leaks.",
+    "pneumatic": "Modules 1–2 match the supplied Basic Pneumatics teacher quiz; Modules 3–7 retain the slide headings. Module 7 covers air preparation, filtration, lubrication, and leaks despite its Automatic Input Devices 1 title.",
     "mechanical": "Sections follow the day breaks in the Mechanical Power slides.",
     "alignment": "Day 1 follows the slide topics; Day 2 uses the three named segments on the course outline.",
     "conveyor": "This deck uses topic headings rather than numbered modules.",
