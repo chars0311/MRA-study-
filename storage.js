@@ -78,6 +78,7 @@ const fetch = async (url, options = {}) => {
       mode: b.mode,
       total: b.total,
       correct,
+      selectedAnswer: b.answer,
       guessed: b.guessed === true,
       at: new Date().toISOString(),
     };
@@ -117,5 +118,6 @@ const fetch = async (url, options = {}) => {
   }
   return globalThis.fetch(url, options);
 };
+
 
 

@@ -115,9 +115,17 @@ function weakTopicPanel(attempts = events, qs = courseQuestions()) {
 }
 let questionFlags = {};
 try { const saved=JSON.parse(localStorage.getItem('mra-question-flags-v1')||'{}'); if(saved && !Array.isArray(saved) && typeof saved==='object')questionFlags=saved; } catch {}
+function selectedAnswerForReport(q) {
+  if (run?.drafts?.[q.id] !== undefined) return run.drafts[q.id];
+  if (run?.feedback?.q?.id === q.id) return run.feedback.answer;
+  const savedAttempt = run?.answers?.find(e => e.qid === q.id);
+  if (savedAttempt?.selectedAnswer !== undefined) return savedAttempt.selectedAnswer;
+  return questionFlags[q.id]?.selectedAnswer || 'Not recorded for this earlier attempt';
+}
 function flagIssueUrl(q, reason, note) {
-  const body=`Question ID: ${q.id}\nCourse: ${q.world}\nModule: ${q.topic}\nQuestion: ${q.prompt}\nSource: ${q.section}\n\nIssue: ${reason}\nDetails: ${note}\n\nSuggested correction / supporting slide:`;
-  return 'https://github.com/chars0311/MRA-study-/issues/new?title='+encodeURIComponent('Question report: '+q.id)+'&body='+encodeURIComponent(body);
+  const form = run?.qs?.find(item => item.id === q.id) || q;
+  const body = `Question ID: ${q.id}\nCourse: ${q.world}\nModule: ${q.topic}\nQuestion: ${form.prompt}\nSelected answer: ${selectedAnswerForReport(q)}\nMarked correct answer: ${form.answer}\nSource: ${q.section}\nReview page: ${q.reviewCue?.page || 'See source section'}\nDiagram: ${form.diagram?.imageKey || 'No diagram'}\n\nIssue: ${reason}\nDetails: ${note}\n\nSuggested correction / supporting slide:`;
+  return 'https://github.com/chars0311/MRA-study-/issues/new?title=' + encodeURIComponent('Question report: ' + q.id) + '&body=' + encodeURIComponent(body);
 }
 function flagControl(q) {
   const saved=questionFlags[q.id]||{};
@@ -133,7 +141,7 @@ function bindLearning() {
       const q=bank.questions.find(q=>q.id===form.dataset.flagForm);
       if(!q)return;
       const reason=form.elements.reason.value,note=form.elements.note.value.trim();
-      questionFlags[q.id]={reason,note,at:new Date().toISOString()};
+      questionFlags[q.id]={reason,note,selectedAnswer:selectedAnswerForReport(q),at:new Date().toISOString()};
       let saved=true;
       try{localStorage.setItem('mra-question-flags-v1',JSON.stringify(questionFlags));}catch{saved=false;}
       form.querySelector('[data-flag-status]').textContent=saved?'Flag saved in this browser. Send it using the link below.':'Could not save locally. You can still send the report below.';
@@ -157,4 +165,5 @@ function teacherSelection(items, target = 10) {
   const qs = shuffle([...teachers.slice(0,teacherCount), ...regular.slice(0,regularCount)]).map(freshQuestion);
   return { qs, note: `${qs.length} questions · ${teacherCount} starred teacher + ${regularCount} regular study · checked modules only · immediate explanations · no life cutoff.` + (teacherCount !== 8 || regularCount !== 2 ? ' The mix is adjusted to the questions available in your checked modules.' : '') };
 }
+
 

@@ -358,7 +358,7 @@
       "id": "c209-p37-concept",
       "world": "pneumatic",
       "type": "quiz",
-      "prompt": "What happens in the blocked center position of the 5/3 valve shown in the course?",
+      "prompt": "What happens when a 5/3 DCV has all its ports blocked in its center position?",
       "answer": "All ports are blocked and the cylinder holds position",
       "options": [
         "All ports are blocked and the cylinder holds position",

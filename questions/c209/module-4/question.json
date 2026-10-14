@@ -368,14 +368,14 @@
       "topic": "Module 4 · Pneumatic Speed Control Circuits",
       "type": "symbol",
       "prompt": "★ Which valve and location give meter-out control during cylinder extension?",
-      "answer": "Valve 1 in location 1",
+      "answer": "Valve 2 in location 1",
       "options": [
-        "Valve 1 in location 1",
         "Valve 2 in location 1",
-        "Valve 1 in location 2",
-        "Valve 2 in location 2"
+        "Valve 1 in location 1",
+        "Valve 2 in location 2",
+        "Valve 1 in location 2"
       ],
-      "explanation": "During extension, the rod end exhausts through location 1. Valve 1 allows incoming flow toward the cylinder freely and restricts outgoing exhaust, giving meter-out extension.",
+      "explanation": "Location 1 is the rod-end line. During extension its exhaust flows from the cylinder toward the DCV, right to left. Valve 2 blocks that direction through its check bypass and meters it through the restriction, while allowing free flow toward the cylinder. The provided practice key says Valve 1, but Valve 1’s bypass permits free exhaust instead.",
       "source": "p",
       "section": "C-209 Interactive Practice Test3.pdf · question 8",
       "starred": true,
@@ -389,7 +389,7 @@
       "reviewSlides": [],
       "reviewCue": {
         "page": 84,
-        "text": "During extension, the rod end exhausts through location 1. Valve 1 allows incoming flow toward the cylinder freely and restricts outgoing exhaust, giving meter-out extension. Review the complete practice-test circuit and the meter-in/meter-out slides."
+        "text": "Review C209 Pneumatic Systems.pdf, slides 81–84; practice-test question 8. Compare the two check-valve orientations. Choose the rod-end valve that restricts outgoing exhaust during extension."
       },
       "diagram": {
         "kind": "slide-image",
@@ -402,15 +402,15 @@
       "world": "pneumatic",
       "topic": "Module 4 · Pneumatic Speed Control Circuits",
       "type": "symbol",
-      "prompt": "★ What flow-control arrangement is depicted during the shown valve actuation?",
-      "answer": "Meter-in retract",
+      "prompt": "★ During extension, what speed-control arrangement does the shown rod-end flow control provide?",
+      "answer": "Meter-out extend",
       "options": [
-        "Meter-in retract",
         "Meter-out extend",
+        "Meter-out retract",
         "Meter-in extend",
-        "Meter-out retract"
+        "Meter-in retract"
       ],
-      "explanation": "The upper line feeds the rod end through the flow-control restriction. Air entering the rod end retracts the cylinder, so this is meter-in retraction.",
+      "explanation": "During extension, the cap end receives supply air and the rod end exhausts. The check-valve bypass blocks rod-end exhaust from right to left, forcing it through the adjustable restriction. This meters air OUT during extension. The supplied practice key calls it meter-in retract, but that conflicts with the valve symbol and slide 84’s exhaust-metering principle.",
       "source": "p",
       "section": "C-209 Interactive Practice Test3.pdf · question 23",
       "starred": true,
@@ -423,8 +423,8 @@
       ],
       "reviewSlides": [],
       "reviewCue": {
-        "page": 83,
-        "text": "The upper line feeds the rod end through the flow-control restriction. Air entering the rod end retracts the cylinder, so this is meter-in retraction. Review the complete practice-test circuit and the meter-in/meter-out slides."
+        "page": 84,
+        "text": "Review C209 Pneumatic Systems.pdf, slides 81–84, and practice-test question 23. Find the rod end, trace its exhaust right to left during extension, and check which direction the bypass blocks. The pictured arrangement is meter-out extension."
       },
       "diagram": {
         "kind": "slide-image",

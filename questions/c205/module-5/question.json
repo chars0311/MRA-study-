@@ -104,16 +104,16 @@
       "world": "sensor",
       "topic": "Module 5 · Advanced Systems",
       "type": "quiz",
-      "prompt": "Which is the complete group of manual-control practices listed in the course?",
-      "answer": "All three: slow jogging, mode lockouts, and pushbutton jogging",
+      "prompt": "Which choice includes all five manual-control guidelines on the course slide?",
+      "answer": "Relay-controlled solenoids; no overrides; slow jogging; mode lockouts; pushbuttons for jogging",
       "options": [
-        "All three: slow jogging, mode lockouts, and pushbutton jogging",
-        "Slow jogging only",
-        "Mode lockouts only",
-        "Pushbutton jogging only",
+        "Relay-controlled solenoids; no overrides; slow jogging; mode lockouts; pushbuttons for jogging",
+        "Slow jogging, mode lockouts, and pushbuttons only",
+        "Directly power solenoids and use overrides for jogging",
+        "Jog rapidly and bypass mode lockouts",
         "None of these"
       ],
-      "explanation": "All three appear in the manual-control guidance, which also specifies relay control of solenoids and no manual overrides in that operating context.",
+      "explanation": "Slide 47 lists five guidelines, not just three: energize solenoids through relays, use no manual overrides, jog slowly, use mode lockouts, and use pushbuttons to jog. These are the course’s manual operating guidelines; troubleshooting override use is a different context.",
       "source": "s",
       "section": "Module 5 · Advanced Systems · C205 Sensor Logic Systems.pdf · PDF page 47",
       "sourcePages": [
@@ -128,7 +128,7 @@
       ],
       "reviewCue": {
         "page": 47,
-        "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
+        "text": "Review C205 Sensor Logic Systems.pdf, slide 47: Guidelines Working with Manual Controls. Read all five lines.",
         "excerpt": "No manual overrides! Jog at slow speeds Use mode lockouts Use only pushbuttons to jog 47"
       }
     }
