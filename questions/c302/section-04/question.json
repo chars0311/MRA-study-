@@ -26,7 +26,9 @@
         "page": 37,
         "text": "Review Live Vertical Screen, slide 37. The course's live vertical screen guides shim corrections.",
         "excerpt": "Live Vertical Screen is displayed 1st Make shim adjustments now, with this screen. When in tolerance (two green checks) maybe an orange zig- zag), click the arrow to proceed to the horizontal alignment Emitters will be vertical (12 O’clock) 37"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q072"
     },
     {
       "id": "q073",
@@ -49,7 +51,9 @@
         "page": 35,
         "text": "Review Fine Alignment with Laser, slide 35. The countdown indicates active recording. Movement would distort the measurement.",
         "excerpt": "The correct procedure is to keep everything stationary until the countdown finishes and the system confirms the measurement is complete. This ensures accurate alignment results and prevents vibration or motion errors. Adding and removing shims ruins horizontal…"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q073"
     },
     {
       "id": "q074",
@@ -72,7 +76,9 @@
         "page": 40,
         "text": "Review If a Laser or Sensor Moves, slide 40. A shifted sensor affects measurement accuracy even if the beam still appears in range.",
         "excerpt": "When a laser or sensor unit moves—even slightly • it can affect measurement accuracy. • Even if the laser center appears within tolerance, the system’s calibration may no longer be valid. • The proper procedure is to secure the units, recalibrate using the dis…"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q074"
     },
     {
       "id": "q075",
@@ -95,7 +101,9 @@
         "page": 35,
         "text": "Review Fine Alignment with Laser, slide 35. The guide emphasizes vertical first because shim changes can disturb the horizontal setting.",
         "excerpt": "Fine Alignment with Laser Vertical Angular Vertical Parallel Horizontal angular (with Jack Bolts) Horizontal Parallel (with Jack Bolts) 4 After soft foot, the TKSA will perform laser alignment. It will prompt you to move the emitters through a 180O range of ro…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q075"
     },
     {
       "id": "q076",
@@ -118,7 +126,9 @@
         "page": 38,
         "text": "Review Live Horizontal Screen, slide 38. The course requires another measurement set to verify the corrected alignment.",
         "excerpt": "the arrow to proceed and REPEAT all measurements. Emitters will be horizontal (3 or 9 O’clock) 38 A24"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q076"
     },
     {
       "id": "c302-p26-18",
@@ -140,7 +150,9 @@
       "reviewCue": {
         "page": 26,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 26. The slides specify shafts because mounting on hubs adds dimensional errors."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p26-18"
     },
     {
       "id": "c302-p35-19",
@@ -162,7 +174,9 @@
       "reviewCue": {
         "page": 35,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 35. The procedure measures at 90°, 0°, and -90°, corresponding to 3, 12, and 9 o’clock."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p35-19"
     },
     {
       "id": "c302-p37-20",
@@ -184,7 +198,9 @@
       "reviewCue": {
         "page": 37,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 37. The live vertical screen guides shim changes. The following horizontal screen guides jack-bolt movements."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p37-20"
     },
     {
       "id": "c302-p38-21",
@@ -206,7 +222,9 @@
       "reviewCue": {
         "page": 38,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 38. The horizontal correction uses controlled sideways movement with the jack bolts."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p38-21"
     },
     {
       "id": "c302-p39-22",
@@ -228,7 +246,9 @@
       "reviewCue": {
         "page": 39,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 39. The final as-measured screen follows a new three-position measurement and should show the required tolerances satisfied."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p39-22"
     },
     {
       "id": "c302-p40-23",
@@ -250,7 +270,9 @@
       "reviewCue": {
         "page": 40,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 40. Movement of a laser or detector affects measured geometry. Recheck mounting and repeat measurements."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p40-23"
     }
   ]
 }

@@ -31,7 +31,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review motor 5-6.pdf, PDF page 5. Swapping any two phase connections reverses the phase sequence and motor rotation. T1 and T3 are one such pair."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q028"
     },
     {
       "id": "q029",
@@ -70,7 +72,9 @@
       "reviewCue": {
         "page": 99,
         "text": "Review motor 5-6.pdf, PDF page 8. Also see C202 Electric Motor Controls.pdf, PDF page 99. Interlocking prevents simultaneous forward and reverse operation. Look for the contact or mechanical device that blocks the opposite direction."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q029"
     },
     {
       "id": "mc-jog",
@@ -106,7 +110,9 @@
         "imageKey": "teacher-mpre-p12-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 12
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "mc-jog"
     },
     {
       "id": "mc-interlock",
@@ -145,7 +151,9 @@
         "page": 100,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "forward contactor’s normally-closed interlock contacts are opened, preventing current from reaching the reverse coil ► If the reverse coil is energized, the reverse contactor’s normally-closed interlock contacts are opened, preventing current from reaching the…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-interlock"
     },
     {
       "id": "wb-18",
@@ -175,7 +183,9 @@
         "page": 99,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Interlocking - prevent one event from occurring before another event or while another event is in progress ► Application: prevent both forward and reverse coils from being energized at the same time ► Three methods: ► Auxiliary Contact Interlock - electrical…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-18"
     },
     {
       "id": "visual-m-interlock",
@@ -210,7 +220,9 @@
         "page": 100,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "forward contactor’s normally-closed interlock contacts are opened, preventing current from reaching the reverse coil ► If the reverse coil is energized, the reverse contactor’s normally-closed interlock contacts are opened, preventing current from reaching the…"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-m-interlock"
     },
     {
       "id": "c202x-drum",
@@ -238,7 +250,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review motor 5-6.pdf, PDF page 6. The drum switch is operated manually to change the motor connections. Look for its forward, off and reverse positions."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-drum"
     },
     {
       "id": "c202x-reverser",
@@ -270,7 +284,9 @@
         "page": 96,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A reversing magnetic motor starter consists of two magnetic contactors and overload protection ► Each contactor controls a different motor direction ► Independent Contacts - each contactor has its own set of contacts (forward and reverse) 96 Reversing Magnet…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-reverser"
     },
     {
       "id": "c202x-both",
@@ -302,7 +318,9 @@
         "page": 101,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► If both forward and reverse pushbuttons are pressed at the same time, neither coil is energized ► Can change direction without first pressing the stop pushbutton, but this is not recommended ► Stop the motor before changing directions 101"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-both"
     },
     {
       "id": "c202x-mechanical",
@@ -338,7 +356,9 @@
       "reviewCue": {
         "page": 102,
         "text": "Review motor 5-6.pdf, PDF page 8. Also see C202 Electric Motor Controls.pdf, PDF page 102. Mechanical interlocking physically prevents the second armature moving when the first is engaged."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-mechanical"
     },
     {
       "id": "c202x-blocked",
@@ -372,7 +392,9 @@
       "reviewCue": {
         "page": 103,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 11. Also see C202 Electric Motor Controls.pdf, PDF page 103. A powered coil with a mechanically blocked armature can draw excessive current and be damaged. Electrical interlocking interrupts that coil’s current path."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-blocked"
     },
     {
       "id": "c202x-jog",
@@ -410,7 +432,9 @@
         "page": 107,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A simple jogging with mode selection circuit using a two position selector which posioion switch selector switch: ► In the “Run” mode, the switch is closed and the seal-in circuit is complete ► In the “Jog” mode, the seal-in circuit is open ► Application: CN…"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202x-jog"
     },
     {
       "id": "c202x-run",
@@ -448,7 +472,9 @@
         "page": 107,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A simple jogging with mode selection circuit using a two position selector which posioion switch selector switch: ► In the “Run” mode, the switch is closed and the seal-in circuit is complete ► In the “Jog” mode, the seal-in circuit is open ► Application: CN…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-run"
     },
     {
       "id": "c202x-auto",
@@ -486,7 +512,9 @@
         "page": 108,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Another type of mode circuit is the Hand-Off-Automatic motor control circuit ► Uses a three-position selector switch ► Three functions: ► Hand (Manual) Mode ► Motor will run continuously ► Off Mode ► Prevents any of the input devices from energizing the circ…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-auto"
     },
     {
       "id": "c202x-off",
@@ -524,7 +552,9 @@
         "page": 108,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Prevents any of the input devices from energizing the circuit ► Automatic Mode ► Rely on the input devices to energize the coil to the motor ► Will not run until certain conditions are met ► Application: irrigation system for crops ► Hand - pump continuously…"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202x-off"
     },
     {
       "id": "c202x-hand",
@@ -565,7 +595,9 @@
         "imageKey": "teacher-mpre-p27-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 27
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202x-hand"
     },
     {
       "id": "c202-quiz-reverse-method",
@@ -595,7 +627,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review motor 5-6.pdf, PDF page 6. The listed reversing devices are a drum switch and a reversing magnetic starter. Reversing the physical position of a relay does not exchange motor phase connections."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-reverse-method"
     },
     {
       "id": "c202-quiz-drum-reverse",
@@ -636,7 +670,9 @@
         "imageKey": "teacher-m56-p7-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 7
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-quiz-drum-reverse"
     },
     {
       "id": "c202-quiz-pb-interlock",
@@ -672,7 +708,9 @@
       "reviewCue": {
         "page": 101,
         "text": "Review motor 5-6.pdf, PDF page 8. Also see C202 Electric Motor Controls.pdf, PDF page 101. Pushbutton interlocking uses the pushbuttons’ normally open and normally closed contacts to block the opposite command. Compare these with contacts labeled for the contactor coils."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-pb-interlock"
     },
     {
       "id": "c202-quiz-jog-definition",
@@ -708,7 +746,9 @@
       "reviewCue": {
         "page": 105,
         "text": "Review motor 5-6.pdf, PDF page 9. Also see C202 Electric Motor Controls.pdf, PDF page 105. The course defines jogging as operating an individual actuator in manual mode, such as moving it into position."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-jog-definition"
     },
     {
       "id": "c202-pre-interlock-diagram",
@@ -751,7 +791,9 @@
         "imageKey": "teacher-mpre-p10-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 10
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-interlock-diagram"
     },
     {
       "id": "c202-pre-selector-right",
@@ -786,7 +828,9 @@
         "imageKey": "teacher-mpre-p24-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 24
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-selector-right"
     },
     {
       "id": "c202-pre-selector-left",
@@ -822,7 +866,9 @@
         "imageKey": "teacher-mpre-p24-img1",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 24
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-selector-left"
     },
     {
       "id": "c202-pre-forward-jog",
@@ -858,7 +904,9 @@
         "imageKey": "teacher-mpre-p25-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 25
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-forward-jog"
     },
     {
       "id": "c202-pre-reverse-run",
@@ -894,7 +942,9 @@
         "imageKey": "teacher-mpre-p26-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 26
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-reverse-run"
     }
   ]
 }

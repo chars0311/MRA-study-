@@ -1,6 +1,6 @@
 // Preferences are local; question IDs and learning records are unchanged.
 let poolQuery = "", poolTeacherFilter = "all";
-const siteUpdated = "October 14, 2026";
+const siteUpdated = "October 16, 2026";
 function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
   try { localStorage.setItem('mra-theme', theme); } catch {}

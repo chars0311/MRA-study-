@@ -42,7 +42,9 @@
         "page": 18,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Motor Controller and Motor Starter ► A motor controller opens and closes the feed lines to start and stop a motor ► Satisfies the controller requirement ► A motor starter is a motor controller that includes overload protection ► Satisfies the controller and ov…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-starter"
     },
     {
       "id": "mc-short",
@@ -81,7 +83,9 @@
         "page": 17,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Overloads open when the motor has drawn excessive current over time ► An overload cannot react as quickly as a fuse or circuit breaker 17"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "mc-short"
     },
     {
       "id": "mc-bimetal",
@@ -120,7 +124,9 @@
         "page": 28,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "consists of two different metals that are laminated together ► Heat caused by high current deflects the bimetallic element because the metals have different expansion rates ► This deflection causes the main contacts of the motor starter to open ► Allows you to…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-bimetal"
     },
     {
       "id": "mc-magnetic",
@@ -159,7 +165,9 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-magnetic"
     },
     {
       "id": "wb-2",
@@ -189,7 +197,9 @@
         "page": 18,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Motor Controller and Motor Starter ► A motor controller opens and closes the feed lines to start and stop a motor ► Satisfies the controller requirement ► A motor starter is a motor controller that includes overload protection ► Satisfies the controller and ov…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-starter"
     },
     {
       "id": "wb-3",
@@ -225,7 +235,9 @@
       "reviewCue": {
         "page": 17,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 6. Also see C202 Electric Motor Controls.pdf, PDF page 17. Overload protection responds to excessive motor current over time. Short-circuit protection serves a different fault condition."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-3"
     },
     {
       "id": "wb-4",
@@ -255,7 +267,9 @@
         "page": 28,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A bimetallic thermal overload consists of two different metals that are laminated together ► Heat caused by high current deflects the bimetallic element because the metals have different expansion rates ► This deflection causes the main contacts of the motor…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-4"
     },
     {
       "id": "wb-5",
@@ -285,7 +299,9 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-5"
     },
     {
       "id": "c202x-disconnect",
@@ -317,7 +333,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Must open all ungrounded circuit conductors simultaneously ► e.g. 3-phase power requires 3-pole disconnect 2. Short Circuit Protection ► Guards against short circuits and running C ► Usually a set of fuses or circuit breakers 3. Controller ► Opens and closes…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-disconnect"
     },
     {
       "id": "c202x-combined",
@@ -349,7 +367,9 @@
         "page": 17,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A single component can satisfy more than one of the requirements ► A circuit breaker that is equipped with an operating handle may satisfy both the disconnect and short-circuit requirements ► Overloads are not used as short circuit protection ► Overloads ope…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-combined"
     },
     {
       "id": "c202x-fractional",
@@ -381,7 +401,9 @@
         "page": 22,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Fractional horsepower manual starters are used only for single-phase motors rated one horsepower or less ► Usually available in a toggle switch style, either single-pole or two-pole 22"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-fractional"
     },
     {
       "id": "c202x-restart",
@@ -416,7 +438,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 6. Undervoltage (low-voltage) protection prevents the starter from simply resuming operation when power returns. It requires a new start command."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-restart"
     },
     {
       "id": "c202x-alloy",
@@ -455,7 +479,9 @@
         "page": 27,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► The melting alloy type uses a solder pot and ratchet assembly ► When the pot is cool, the alloy is firm and holds the ratchet in place ► If high current flows through the heater, the alloy melts, releasing the ratchet ► Heaters are calibrated to various curr…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-alloy"
     },
     {
       "id": "c202x-bimetal",
@@ -493,7 +519,9 @@
         "page": 28,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "metals have different expansion rates ► This deflection causes the main contacts of the motor starter to open ► Allows you to adjust the trip point for exactly the current level required Normal Position Tripped 28 A08"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-bimetal"
     },
     {
       "id": "c202x-adjust",
@@ -525,7 +553,9 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Time-delay magnetic overloads allow adjustment of both the trip level and the response time ► Instantaneous-trip relay acts like a magnetic overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-adjust"
     },
     {
       "id": "c202x-instant",
@@ -557,7 +587,9 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Instantaneous-trip relay acts like a magnetic overload without the dashpot High Current Tripped Instantaneous-Trip 29 Tripped A07"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-instant"
     },
     {
       "id": "c202-quiz-ampacity",
@@ -586,7 +618,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 3. Ampacity names the allowable continuous current under the applicable conditions. Voltage describes electrical potential rather than current-carrying capacity."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-ampacity"
     },
     {
       "id": "c202-quiz-installation",
@@ -626,7 +660,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 4. Each listed function is required in the course overview. The complete set also includes overload protection; one device may perform more than one function."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-installation"
     },
     {
       "id": "c202-quiz-starter-parts",
@@ -661,7 +697,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 4. The starter uses a coil to operate contacts, includes overload protection, and can include auxiliary contacts for control functions."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-starter-parts"
     },
     {
       "id": "c202-quiz-power-contacts",
@@ -696,7 +734,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 4. The main contacts carry and switch the motor power. The coil operates the mechanism; overload protection detects sustained excessive current."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-power-contacts"
     },
     {
       "id": "c202-quiz-starter-types",
@@ -736,7 +776,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 5. These terms name starter types or starter horsepower categories in the course motor-starter overview."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-starter-types"
     },
     {
       "id": "c202-quiz-integral",
@@ -765,7 +807,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 5. The quiz gives the three-phase, up-to-10-hp description. Manual starters are operated mechanically and include overload protection; the actual device rating still governs its use."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-integral"
     },
     {
       "id": "c202-quiz-tamperproof",
@@ -800,7 +844,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 5. Melting-alloy heaters are calibrated at the factory. The slide calls them virtually tamperproof in the field for that reason."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-tamperproof"
     },
     {
       "id": "c202-quiz-overload-setup",
@@ -835,7 +881,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 6. The quiz requires motor full-load amperage and service factor. Review the nameplate, equipment instructions and the course setup procedure rather than assuming one multiplier always applies."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-overload-setup"
     },
     {
       "id": "c202-quiz-magnetic-sense",
@@ -871,7 +919,9 @@
       "reviewCue": {
         "page": 29,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 3. Also see C202 Electric Motor Controls.pdf, PDF page 29. A magnetic overload senses current through a coil. At the trip level its magnetic force operates the mechanism."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-magnetic-sense"
     },
     {
       "id": "c202-quiz-thermal-delay",
@@ -906,7 +956,9 @@
       "reviewCue": {
         "page": 29,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 4. Also see C202 Electric Motor Controls.pdf, PDF page 29. Thermal overload operation depends on heating over time. The course also describes delayed magnetic overloads; this question asks about the listed thermal mechanism."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-thermal-delay"
     }
   ]
 }

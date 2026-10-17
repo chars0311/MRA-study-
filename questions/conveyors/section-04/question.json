@@ -23,7 +23,10 @@
       "reviewCue": {
         "page": 7,
         "text": "Review ClipperTrainingManual_0214.pdf, page 7: Importance of a Square Cut. Use the average centerline and draw the cut perpendicular to it."
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q086",
+      "learningHelpKey": "belt-splice"
     },
     {
       "id": "conveyor-clp7-12",
@@ -45,7 +48,10 @@
       "reviewCue": {
         "page": 7,
         "text": "Review ClipperTrainingManual_0214.pdf, PDF page 7. A square end prevents the splice from skewing the belt. The manual specifies an average-centerline method."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-clp7-12",
+      "learningHelpKey": "belt-splice"
     },
     {
       "id": "conveyor-clp7-13",
@@ -67,7 +73,9 @@
       "reviewCue": {
         "page": 7,
         "text": "Review ClipperTrainingManual_0214.pdf, PDF page 7. Skiving the impression cover gives the correct thickness reference and lets the hooks seat properly."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-clp7-13"
     },
     {
       "id": "conveyor-clp7-14",
@@ -89,7 +97,9 @@
       "reviewCue": {
         "page": 7,
         "text": "Review ClipperTrainingManual_0214.pdf, PDF page 7. Use the average centerline and a square to mark the perpendicular cut rather than trusting an irregular factory edge."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-clp7-14"
     },
     {
       "id": "conveyor-square-photo",
@@ -116,7 +126,9 @@
         "kind": "slide-image",
         "imageKey": "last-course-c-20-6",
         "alt": "Original supplied course diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "conveyor-square-photo"
     },
     {
       "id": "conveyor-trailing-lace",
@@ -138,7 +150,10 @@
       "reviewCue": {
         "page": 25,
         "text": "Review Conveyors.pdf, slide 25. The slide makes the trailing lace narrower so it meshes inside the leading lace."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-trailing-lace",
+      "learningHelpKey": "belt-splice"
     }
   ]
 }

@@ -38,7 +38,10 @@
         "page": 65,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Function of a Transformer ● A Transfromer is an electrical device that converts AC electricity from one voltage level to another ○ s are used to transform high levels of voltage transmitted by the power company into lower level voltages that are more easily an…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-transformer",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-parts",
@@ -70,7 +73,10 @@
         "page": 66,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Primary Coil - input voltage ○ Secondary Coil - output voltage ○ Core - conducts magnetic field ● Uses the principle of mutual inductance ○ AC current flowing through the primary coil induces an AC voltage in the secondary coil 66 34"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-parts",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-inductance",
@@ -102,7 +108,9 @@
         "page": 66,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Uses the principle of mutual inductance ○ AC current flowing through the primary coil induces an AC voltage in the secondary coil 66 34"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-inductance"
     },
     {
       "id": "c201x-ratio",
@@ -134,7 +142,10 @@
         "page": 67,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● To determine output voltage you need only input voltage and turns ratio 67"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-ratio",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-checks",
@@ -166,7 +177,10 @@
         "page": 68,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Measure input and output voltages ○ Check the with an ohmmeter ■ Opens in Coils ■ Shorts between the Primary and Secondary Coils ■ Coils Shorted to the Core 68"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-checks",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-winding-open",
@@ -198,7 +212,9 @@
         "page": 69,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Opens in Coils - if any of the coils show infinity, the winding is open ○ Shorts between Coils - should show infinite resistance between primary and secondary coils ○ Shorts within Coils - effectively reduces the number of turns ○ Coils Shorted to the Core -…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-winding-open"
     },
     {
       "id": "c201x-isolation",
@@ -230,7 +246,10 @@
         "page": 69,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Shorts between Coils - should show infinite resistance between primary and secondary coils ○ Shorts within Coils - effectively reduces the number of turns ○ Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens i…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-isolation",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-core-short",
@@ -262,7 +281,9 @@
         "page": 69,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens in Coils Shorts between Coils Shorts within Coils Coils Shorted to the Core 69 Transformer"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-core-short"
     },
     {
       "id": "c201x-specs",
@@ -295,7 +316,9 @@
         "page": 70,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● The information needed to size a transformer includes: ○ Input voltage available ○ Output voltage desired ○ Output current required, both in-rush and steady-state ● With this information, you can use a catalog specification sheet ○ Safely and efficiently pro…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-specs"
     },
     {
       "id": "c201x-primary-current",
@@ -327,7 +350,10 @@
         "page": 72,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Amount of current that must be supplied to the primary coil in order to power the circuit connected to the secondary coil ○ Use to size the circuit breaker to handle the added load 72"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-primary-current",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-categories",
@@ -359,7 +385,10 @@
         "page": 73,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Isolation Transformers ■ Primary and secondary windings are physically and electrically separated ■ Magnetically coupled, not electrically coupled ■ Voltage spikes on the primary are greatly reduced on the secondary ■ Some produce an output voltage equal to …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-categories",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-control-use",
@@ -391,7 +420,10 @@
         "page": 74,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A control transformer reduces voltage from the main power line to a lower voltage that operates a machine’s electrical control system ○ Most common type has two primary coils and one secondary coil ○ In most cases, reduces 240 VAC or 480 VAC to 120 VAC ○ Met…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-control-use",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-parallel-primary",
@@ -430,7 +462,9 @@
         "page": 75,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● If supplied line voltage is 240 VAC, the primaries must be connected in parallel ● Turns Ratio 2:1 75"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-parallel-primary"
     },
     {
       "id": "c201x-series-primary",
@@ -469,7 +503,9 @@
         "page": 76,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● If supplied line voltage is 480 VAC, the primaries must be connected in series ● Turns Ratio 4:1 76"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-series-primary"
     },
     {
       "id": "c201x-ideal-power",
@@ -501,7 +537,10 @@
         "page": 77,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Input power and output power are equal ● If voltage goes up, current goes down 77"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-ideal-power",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-tap-fraction",
@@ -540,7 +579,10 @@
         "page": 78,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Function of a Tap ● A tap is connected at a point between the ends of the coil ○ Allows you to get a different output voltage 78"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-tap-fraction",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-center",
@@ -579,7 +621,9 @@
         "page": 79,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A tap that splits a secondary in half is called a center tap ○ Common application is a distribution transformer ■ Used by homes and businesses to change high voltage to the common 240/120 VAC ■ In this case, the center tap connected to earth ground and becom…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-center"
     }
   ]
 }

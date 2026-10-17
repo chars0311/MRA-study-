@@ -42,7 +42,9 @@
         "page": 5,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► The purpose of equipment grounding is to reduce the risk of shock ► If a current-carrying conductor makes contact with a metal chassis that does not have a grounding conductor, the chassis will become 🗲energized ► Touching the metal chassis provides a path …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-ground"
     },
     {
       "id": "mc-tag",
@@ -81,7 +83,9 @@
         "page": 10,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Not a physical restraint like a lockout 10"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-tag"
     },
     {
       "id": "wb-0",
@@ -111,7 +115,9 @@
         "page": 5,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► The purpose of equipment grounding is to reduce the risk of shock ► If a current-carrying conductor makes contact with a metal chassis that does not have a grounding conductor, the chassis will become 🗲energized ► Touching the metal chassis provides a path …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-0"
     },
     {
       "id": "wb-1",
@@ -141,7 +147,9 @@
         "page": 10,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Tagout involves placing a tag on a power source that states “Do Not Operate” ► Not a physical restraint like a lockout 10"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-1"
     },
     {
       "id": "c202x-ground-parts",
@@ -171,7 +179,9 @@
       "reviewCue": {
         "page": 1,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 1. The course includes metal conduit and metal enclosures in equipment grounding. Look for the exposed metal parts that could become energized by a fault."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-ground-parts"
     },
     {
       "id": "c202x-wet",
@@ -203,7 +213,9 @@
         "page": 8,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Rings, Watches, Bracelets, and Necklaces have low resistance and increase shock hazards ► Be Aware of Conditions before Working on a Piece of Equipment ► Make sure the power has been completely shut off before working on equipment ► Do Not Relay on Safety De…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-wet"
     },
     {
       "id": "c202x-locks",
@@ -235,7 +247,10 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► When several people service a piece of equipment, a multiple lockout is used ► Each person should have their own lockout ► Power cannot be restored until all of the locks have been removed 11 A03"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-locks",
+      "learningHelpKey": "safety"
     },
     {
       "id": "c202-safety-nec",
@@ -266,7 +281,9 @@
       ],
       "reviewCue": {
         "text": "Find NEC on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-nec"
     },
     {
       "id": "c202-safety-nema",
@@ -297,7 +314,9 @@
       ],
       "reviewCue": {
         "text": "Find NEMA on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-nema"
     },
     {
       "id": "c202-safety-iec",
@@ -328,7 +347,9 @@
       ],
       "reviewCue": {
         "text": "Find IEC on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-iec"
     },
     {
       "id": "c202-safety-ul",
@@ -359,7 +380,9 @@
       ],
       "reviewCue": {
         "text": "Find UL on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-ul"
     },
     {
       "id": "c202-safety-osha",
@@ -390,7 +413,9 @@
       ],
       "reviewCue": {
         "text": "Find OSHA on the Electrical Safety Standards slide and read the description directly below it. Compare its role with the other four entries."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-osha"
     },
     {
       "id": "c202-safety-jewelry",
@@ -420,7 +445,9 @@
       ],
       "reviewCue": {
         "text": "Find “Remove All Metal Jewelry” and the explanation about low resistance."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-jewelry"
     },
     {
       "id": "c202-safety-power",
@@ -450,7 +477,9 @@
       ],
       "reviewCue": {
         "text": "Find “Be Aware of Conditions” and its instruction about completely shutting off power."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-power"
     },
     {
       "id": "c202-safety-devices",
@@ -480,7 +509,9 @@
       ],
       "reviewCue": {
         "text": "Find “Do Not Rely on Safety Devices” and the list of devices that might fail."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-devices"
     },
     {
       "id": "c202-safety-prong",
@@ -510,7 +541,9 @@
       ],
       "reviewCue": {
         "text": "Find “Never Remove the Grounding Prong” and the consequence listed beneath it."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-prong"
     },
     {
       "id": "c202-safety-tools",
@@ -540,7 +573,9 @@
       ],
       "reviewCue": {
         "text": "Find the rule about organized tools and the two risks listed under it."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-tools"
     },
     {
       "id": "c202-safety-hand",
@@ -570,7 +605,9 @@
       ],
       "reviewCue": {
         "text": "Find “Work with One Hand” and the explanation of the hand-to-hand current path."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-hand"
     },
     {
       "id": "c202-safety-movement",
@@ -600,7 +637,9 @@
       ],
       "reviewCue": {
         "text": "Find “Always Move Slowly and Deliberately” and its stated reason."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-movement"
     },
     {
       "id": "c202-safety-alone",
@@ -630,7 +669,9 @@
       "reviewCue": {
         "page": 1,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 1. The course advises against working alone so someone can shut off power or call for help. The other choices are listed safety rules, not substitutes for isolation."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-alone"
     },
     {
       "id": "c202-safety-distractions",
@@ -660,7 +701,9 @@
       ],
       "reviewCue": {
         "text": "Find “Avoid Distractions” and its reference to unauthorized personnel."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-distractions"
     },
     {
       "id": "c202-safety-sources",
@@ -690,7 +733,10 @@
       ],
       "reviewCue": {
         "text": "Find the “Power sources include” bullet and read all four examples."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-sources",
+      "learningHelpKey": "safety"
     },
     {
       "id": "c202-safety-shock-tingle",
@@ -720,7 +766,9 @@
       ],
       "reviewCue": {
         "text": "Find the Up to 1 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-tingle"
     },
     {
       "id": "c202-safety-shock-pronounced",
@@ -750,7 +798,9 @@
       ],
       "reviewCue": {
         "text": "Find the 1–5 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-pronounced"
     },
     {
       "id": "c202-safety-shock-reflex",
@@ -780,7 +830,9 @@
       ],
       "reviewCue": {
         "text": "Find the 5–15 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-reflex"
     },
     {
       "id": "c202-safety-shock-letgo",
@@ -810,7 +862,9 @@
       ],
       "reviewCue": {
         "text": "Find the 15–20 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-letgo"
     },
     {
       "id": "c202-safety-shock-breathing",
@@ -840,7 +894,9 @@
       ],
       "reviewCue": {
         "text": "Find the 20–50 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-breathing"
     },
     {
       "id": "c202-safety-shock-fibrillation",
@@ -870,7 +926,9 @@
       ],
       "reviewCue": {
         "text": "Find the 50–100 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-fibrillation"
     },
     {
       "id": "c202-safety-shock-failure",
@@ -900,7 +958,9 @@
       ],
       "reviewCue": {
         "text": "Find the 100–200 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-failure"
     },
     {
       "id": "c202-safety-shock-burns",
@@ -930,7 +990,9 @@
       ],
       "reviewCue": {
         "text": "Find the Above 200 mA row in the Current Values column, then read directly across to Physical Effects. Compare it with the neighboring rows."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-burns"
     },
     {
       "id": "c202-quiz-safety",
@@ -975,7 +1037,9 @@
       "reviewCue": {
         "page": 1,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 1. All three are included in the course rules. The one-hand precaution does not replace shutting off power and following lockout procedures before changes."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-safety"
     },
     {
       "id": "c202-quiz-fatal-current",
@@ -1010,7 +1074,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 2. The quiz identifies 100 mA (0.1 A). The shock table also lists dangerous effects at lower currents; 100 mA is not a safe/unsafe boundary."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-fatal-current"
     },
     {
       "id": "c202-quiz-loto-purpose",
@@ -1050,7 +1116,10 @@
       "reviewCue": {
         "page": 2,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 2. Controlling hazardous energy helps prevent unexpected startup and protect people servicing the equipment. Each listed purpose applies."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-loto-purpose",
+      "learningHelpKey": "safety"
     },
     {
       "id": "c202-quiz-wye",
@@ -1079,7 +1148,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 2. The quiz answer is 480 VAC line-to-line and approximately 277 VAC line-to-neutral. In a balanced wye system, 480 divided by the square root of 3 is approximately 277."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-wye"
     },
     {
       "id": "c202-quiz-motor-parts",
@@ -1108,7 +1179,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 3. The stator is the stationary motor part and the rotor is the rotating part. The other choices do not identify that basic pair."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-motor-parts"
     },
     {
       "id": "c202-quiz-synchronous",
@@ -1137,7 +1210,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Quiz 1 (EMC 1-2).pdf, PDF page 3. Synchronous speed describes the rotating magnetic field. It is not a statement that an induction motor rotor always turns at that exact speed."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-synchronous"
     },
     {
       "id": "c202-quiz-loto-remove",
@@ -1167,7 +1242,10 @@
       "reviewCue": {
         "page": 2,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 2. The normal course rule is that the person who applied the personal lock removes it. Follow the instructor’s procedure; this question does not authorize removing another person’s lock."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-loto-remove",
+      "learningHelpKey": "safety"
     },
     {
       "id": "c202-quiz-phase-angle",
@@ -1197,7 +1275,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 2. Three equally spaced phases divide a 360° cycle into three: 360 ÷ 3 = 120°."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-phase-angle"
     },
     {
       "id": "c202-quiz-service-factor",
@@ -1227,7 +1307,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 2. Service factor is the multiplier associated with allowable loading above rated output under the specified conditions. It is not the frame size or insulation class."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-service-factor"
     },
     {
       "id": "c202-quiz-high-voltage",
@@ -1257,7 +1339,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 3. For comparable motor power, the higher rated supply voltage reduces line current; it does not increase it. Look for the high-voltage versus low-voltage current relationship."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-high-voltage"
     },
     {
       "id": "c202-pre-wye-low",
@@ -1293,7 +1377,9 @@
         "imageKey": "teacher-mpre-p16-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 16
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-pre-wye-low"
     },
     {
       "id": "c202-pre-wye-high",
@@ -1329,7 +1415,9 @@
         "imageKey": "teacher-mpre-p17-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 17
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-pre-wye-high"
     }
   ]
 }

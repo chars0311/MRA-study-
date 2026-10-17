@@ -26,7 +26,10 @@
         "page": 34,
         "text": "Review Soft Foot Correction · Notes on Soft Foot, slide 34; Day 2 Segment 1, slide 43. The slides describe repeating shim corrections and rechecks until all four feet are within tolerance.",
         "excerpt": "• When the results screen shows the need for shims under all 4 feet, it is correcting for vertical parallel misalignment by raising the movable machine (motor) • After adding shims and tightening, the soft foot can move to a different foot. This is just due to…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "module-check-7",
+      "learningHelpKey": "soft-foot"
     },
     {
       "id": "c302-p30-24",
@@ -48,7 +51,9 @@
       "reviewCue": {
         "page": 30,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 30. The soft-foot screen setup calls for the units at 12 o’clock and the displayed bolt sequence to be followed."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p30-24"
     },
     {
       "id": "c302-p30-25",
@@ -70,7 +75,9 @@
       "reviewCue": {
         "page": 30,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 30. The tool compares movements during its expected loosen-and-tighten steps; changing the order invalidates that comparison."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p30-25"
     },
     {
       "id": "c302-p34-26",
@@ -92,7 +99,9 @@
       "reviewCue": {
         "page": 34,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 34. Negative values indicate removal. Recheck after each change because corrections may transfer the apparent soft foot."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p34-26"
     },
     {
       "id": "c302-p34-27",
@@ -114,7 +123,9 @@
       "reviewCue": {
         "page": 34,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 34. Display resolution does not guarantee matching physical shim stock. Use sensible available thicknesses and remeasure."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p34-27"
     },
     {
       "id": "c302-p34-28",
@@ -136,7 +147,9 @@
       "reviewCue": {
         "page": 34,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 34. Equal additions raise the whole movable machine while maintaining its angle."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p34-28"
     }
   ]
 }

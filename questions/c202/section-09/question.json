@@ -30,7 +30,9 @@
         "page": 137,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► This method begins by testing near the middle of a circuit. ► Assumes that if the reading is good, then the issue lies downstream. If the reading is bad, the issue is located upstream. ► Used to isolate problems in a large systems. 137"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q034"
     },
     {
       "id": "c202x-system",
@@ -62,7 +64,9 @@
         "page": 127,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "⮚ Methodical steps to identify failed component(s). ⮚ Most often used process. Component level ⮚ Determining what failed in a particular component. ⮚ May require component disassembly. ⮚ Typically performed on a bench. 127"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c202x-system"
     },
     {
       "id": "c202x-bench",
@@ -94,7 +98,9 @@
         "page": 128,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Component Testing In-Circuit ⮚ Testing performed while component is still connected to machine. ⮚ May include DMM, gauges, sight, and sound. Out-of-Circuit ⮚ Performed after component has been removed. ⮚ Typically used to verify a component has gone bad. 128"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-bench"
     },
     {
       "id": "c202x-sequence-fault",
@@ -126,7 +132,9 @@
         "page": 135,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Machine sequence faults ► Malfunctions in the machine’s operations steps. ► Programmed actuator movements, pressure changes, speed changes. Performance faults ► Associated with actuator movement ► Speed, erratic movement, drift, output force. System faults ► R…"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c202x-sequence-fault"
     },
     {
       "id": "c202x-performance",
@@ -158,7 +166,9 @@
         "page": 135,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Performance faults ► Associated with actuator movement ► Speed, erratic movement, drift, output force. System faults ► Refers to the overall health of the system. ► Noisy operation, high/low pressure, no pressure, vibration or shock, system leaks. 135"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c202x-performance"
     },
     {
       "id": "c202x-output-back",
@@ -190,7 +200,9 @@
         "page": 138,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► This troubleshooting method begins at the actuator showing symptoms. e.g. solenoid, cylinder ► Test every point upstream of the actuator until the source of the symptom is found. ► Effective, but it can be time consuming Shotgun ► Randomly testing various pa…"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c202x-output-back"
     },
     {
       "id": "c202x-shotgun",
@@ -222,7 +234,9 @@
         "page": 138,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Randomly testing various parts in a faulty circuit. ► Can be useful on small circuits, most often slow and the least efficient. 138"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-shotgun"
     },
     {
       "id": "c202x-diamond",
@@ -255,7 +269,9 @@
         "page": 141,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "diamond and provides a question ► The answer to that question determines which branch the troubleshooter follows. 141"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-diamond"
     },
     {
       "id": "c202x-rectangle",
@@ -288,7 +304,9 @@
         "page": 142,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► represented by a rectangle. ► Suggest course of action ► Course of action may include a correction (fix), or a test method. Data element ► Represented by a parallelogram ► Used on flow charts that troubleshoot pneumatic logic circuits (PLC). 142"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-rectangle"
     },
     {
       "id": "c202x-link",
@@ -320,7 +338,9 @@
         "page": 143,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "TROUBLESHOOTING FLOWCHART Linking element ► Represented by a circle with a number inside. ► Shows the troubleshooter where to go when the flow cart is too large for a single page. ► The troubleshooter matches the number on the next page of the flowchart. 143"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-link"
     }
   ]
 }

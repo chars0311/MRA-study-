@@ -24,7 +24,10 @@
         "page": 35,
         "text": "Review Jack Bolts, slide 18. Jack bolts move the motor sideways. Vertical corrections use shims.",
         "excerpt": "Horizontal angular (with Jack Bolts) Horizontal Parallel (with Jack Bolts) 4 After soft foot, the TKSA will perform laser alignment. It will prompt you to move the emitters through a 180O range of rotation1: 1/ 90O (3-O’clock) then 2/ 0O (12-O’clock) then 3/ -…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q069",
+      "learningHelpKey": "alignment-planes"
     },
     {
       "id": "q070",
@@ -47,7 +50,9 @@
         "page": 13,
         "text": "Review Measuring units, slide 12. M denotes movable; S denotes stationary.",
         "excerpt": "Emitters “talk” to each other and the display unit. They measure where the beams hit and transmit that back to the display unit. Movable Stationary USB cables Higher end units use Bluetooth (no cables) and can accept temperature targets for thermal compensatio…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q070"
     },
     {
       "id": "visual-a-angular",
@@ -76,7 +81,9 @@
         "page": 21,
         "text": "Review Day 1 · Measurement unit & jack bolts · PDF page 21. The motor rotates to change its angle. The slide shows one jack bolt tightening and the opposite location loosening to make the angular move.",
         "excerpt": "Jack Bolts - Angular Move Tighten Jack Bolt Loosen Jack Bolt 21"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-a-angular"
     },
     {
       "id": "visual-a-parallel",
@@ -105,7 +112,9 @@
         "page": 22,
         "text": "Review Day 1 · Measurement unit & jack bolts · PDF page 22. The motor translates sideways without intentionally changing its angle. The slide shows the jack bolts on one side moving by the same number of turns.",
         "excerpt": "Jack Bolts - Parallel Move Tighten Jack Bolts with same number of turns Loosen Jack Bolts 22 A11"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-a-parallel"
     },
     {
       "id": "c302-p12-6",
@@ -127,7 +136,9 @@
       "reviewCue": {
         "page": 12,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 12. S denotes stationary and M denotes movable. The machine’s role determines the unit assignment."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p12-6"
     },
     {
       "id": "c302-p13-7",
@@ -149,7 +160,9 @@
       "reviewCue": {
         "page": 13,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 13. The units detect beam positions and communicate them to the display for alignment calculations."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p13-7"
     },
     {
       "id": "c302-p14-8",
@@ -171,7 +184,9 @@
       "reviewCue": {
         "page": 14,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 14. Mount units about halfway up the brackets, then adjust so the beams strike near the sensor centers."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p14-8"
     },
     {
       "id": "c302-p15-9",
@@ -193,7 +208,9 @@
       "reviewCue": {
         "page": 15,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 15. The slide shows correct and incorrect bracket orientation relative to shaft keyways."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p15-9"
     },
     {
       "id": "c302-p16-10",
@@ -215,7 +232,9 @@
       "reviewCue": {
         "page": 16,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 16. The instrument uses bracket and foot distances to calculate corrections. A is the spacing between brackets."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p16-10"
     },
     {
       "id": "c302-p16-11",
@@ -237,7 +256,9 @@
       "reviewCue": {
         "page": 16,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 16. C describes the front-to-back foot spacing of the movable machine."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p16-11"
     },
     {
       "id": "c302-p17-12",
@@ -259,7 +280,9 @@
       "reviewCue": {
         "page": 17,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 17. The slide says built-in speed defaults may not be best; consult the coupling datasheet and choose the appropriate specification."
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c302-p17-12"
     },
     {
       "id": "c302-p20-13",
@@ -281,7 +304,10 @@
       "reviewCue": {
         "page": 20,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 20. The slide finishes the sequence by tightening motor bolts in a crisscross pattern and backing the jack bolts off the feet."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p20-13",
+      "learningHelpKey": "alignment-planes"
     },
     {
       "id": "c302-p21-14",
@@ -303,7 +329,9 @@
       "reviewCue": {
         "page": 21,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 21. Moving one end changes the machine’s horizontal angle. Equal end movement produces parallel translation."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p21-14"
     },
     {
       "id": "c302-p22-15",
@@ -325,7 +353,65 @@
       "reviewCue": {
         "page": 22,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 22. The slide calls for equal jack-bolt turns so the machine translates sideways without intentionally changing angle."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p22-15"
+    },
+    {
+      "id": "gap-alignment-display-role",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "type": "quiz",
+      "source": "a",
+      "prompt": "What does the display do with the measuring units’ sensor data?",
+      "answer": "Calculate and show shaft alignment information",
+      "options": [
+        "Calculate and show shaft alignment information",
+        "Physically push the motor into position",
+        "Replace mounting bolts",
+        "Measure belt tension"
+      ],
+      "explanation": "The units report beam positions to the display. Entered geometry lets the system calculate alignment and guide the operator’s corrections.",
+      "section": "C302 Laser Shaft Alignment.pdf, slide 13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 13,
+        "text": "Review C302 Laser Shaft Alignment.pdf, slide 13. The units report beam positions to the display. Entered geometry lets the system calculate alignment and guide the operator’s corrections."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1190326188/saca-c-302-laser-alignment-systems-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-alignment-display-role"
+    },
+    {
+      "id": "gap-alignment-unit-roles",
+      "world": "alignment",
+      "topic": "Day 1 · Measurement unit & jack bolts",
+      "type": "quiz",
+      "source": "a",
+      "prompt": "The two measuring units are identical. What determines which is M and which is S?",
+      "answer": "Whether it is on the movable or stationary machine",
+      "options": [
+        "Whether it is on the movable or stationary machine",
+        "Which unit has a different laser color",
+        "Which unit has the larger shaft",
+        "Whether it is closest to the electrical supply"
+      ],
+      "explanation": "The course says both emitters are identical; M is assigned to the movable side and S to the stationary side.",
+      "section": "C302 Laser Shaft Alignment.pdf, slide 12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review C302 Laser Shaft Alignment.pdf, slide 12. The course says both emitters are identical; M is assigned to the movable side and S to the stationary side."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1190326188/saca-c-302-laser-alignment-systems-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-alignment-unit-roles"
     }
   ]
 }

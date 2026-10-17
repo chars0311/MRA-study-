@@ -2,7 +2,8 @@
   "world": "pneumatic",
   "topic": "Module 7 · Automatic Input Devices 1",
   "mathQuestionIds": [
-    "c209-math-gauge-error"
+    "c209-math-gauge-error",
+    "gap-math-humidity-ratio"
   ],
   "questions": [
     {
@@ -26,7 +27,9 @@
         "page": 155,
         "text": "Review C209 Pneumatic Systems.pdf, slide 155. Look for Air leaks: Effects, slide 155.",
         "excerpt": "Air leaks\nEffects\n► Energy costs\n► Tool efficiency\n► Decreased productivity\nNote:\n► Leakage rates can often account \nfor 40% of total air consumption.\n155\nA33"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q056"
     },
     {
       "id": "c209-p122-concept",
@@ -49,7 +52,9 @@
         "page": 122,
         "text": "Review C209 Pneumatic Systems.pdf, slide 122. Look for the explanation of Which contaminants can enter a compressed-air system.",
         "excerpt": "Contamination\nAir filtration\n► Compressed systems are \nsometimes contaminated.\n► Dirt, pollen, and water vapor.\nSources\n► Air taken in through compressor \ninlet.\n► During system construction.\n► Compression and heat.\n► Seals around actuators.\n122"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p122-concept"
     },
     {
       "id": "c209-p123-concept",
@@ -72,7 +77,9 @@
         "page": 123,
         "text": "Review C209 Pneumatic Systems.pdf, slide 123. Look for the explanation of Which maintenance helps prevent contamination problems.",
         "excerpt": "Contamination\nEffects\n► Rust\n► Blockages\n► Unusual wear\n► Pre-mature failure\nPreventive Maintenance\n► Change filters\n► Drain water\n► Inspect equipment \n123"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p123-concept"
     },
     {
       "id": "c209-p126-concept",
@@ -95,7 +102,9 @@
         "page": 126,
         "text": "Review C209 Pneumatic Systems.pdf, slide 126. Look for the explanation of Which filter element is described as non-reusable.",
         "excerpt": "Filter Elements\nSynthetic Layered\n► Made of interweaved plastic \nthreads.\n► Known as an edge-type filter.\n► Non-reusable \n126\nA35"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p126-concept"
     },
     {
       "id": "c209-p128-concept",
@@ -118,7 +127,9 @@
         "page": 128,
         "text": "Review C209 Pneumatic Systems.pdf, slide 128. Look for the explanation of What does a coalescing filter collect.",
         "excerpt": "Coalescing Filters\n► Removes very small particles and \nalmost all water.\n► Collects oil and water droplets.\n► Typically located ahead of \nsensitive devices.\n► Operates in stages:\n► First stage filters bulk water \nand particulates.\n► Second stage eliminates \natomized oils, mists, and fine \nparticles.\n► Third stages removes organic \nvapors and odors.  \n128"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p128-concept"
     },
     {
       "id": "c209-p133-concept",
@@ -141,7 +152,9 @@
         "page": 133,
         "text": "Review C209 Pneumatic Systems.pdf, slide 133. Look for the explanation of Which problem can condensed water cause.",
         "excerpt": "Condensation\nEffects\n► Loss lubrication\n► Rust and scale\n► Product defects\n► Pipe freezing\n133"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p133-concept"
     },
     {
       "id": "c209-p138-concept",
@@ -164,7 +177,9 @@
         "page": 138,
         "text": "Review C209 Pneumatic Systems.pdf, slide 138. Look for the explanation of Which set lists the dryer types in the course.",
         "excerpt": "Water Removal\nDryer types\n► Refrigeration \n► Chemical\n► Regenerative desiccant \n138"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p138-concept"
     },
     {
       "id": "c209-p141-concept",
@@ -187,7 +202,9 @@
         "page": 141,
         "text": "Review C209 Pneumatic Systems.pdf, slide 141. Look for the explanation of Which materials are used in a regenerative desiccant dryer.",
         "excerpt": "Water Removal\nRegenerative Desiccant\n► Uses desiccant such as silica gel \nor aluminum oxide.\n► Regenerating \n► Best method = Most expensive\n► Dew point -40 °F \n141\nA31 A32"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p141-concept"
     },
     {
       "id": "c209-p142-concept",
@@ -210,7 +227,9 @@
         "page": 142,
         "text": "Review C209 Pneumatic Systems.pdf, slide 142. Look for the explanation of What does an automatic pneumatic trap do.",
         "excerpt": "Water Removal\nPneumatic Trap\n► Automatic\n➢ Works continuously \n➢ Minimizes air loss\n➢ Float-type\nhttps://www.youtube.com/watch?v=d6lIgiYWcfM\n► Manual\n➢ Discharged by opening or cracking a valve \nperiodically.\n➢ Wastes air and energy\nhttps://www.youtube.com/shorts/qh1Pf097ERI\n142"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p142-concept"
     },
     {
       "id": "c209-p144-concept",
@@ -233,7 +252,9 @@
         "page": 144,
         "text": "Review C209 Pneumatic Systems.pdf, slide 144. Look for the explanation of Why lubricate pneumatic components.",
         "excerpt": "Lubrication\nPurpose\n► Eliminate friction\n► Reduce heat \nMethods\n► Pre-lubrication (assembly \nlubrication)\n► Self-lubrication\n► Aerosol lubrication\n144"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p144-concept"
     },
     {
       "id": "c209-p152-concept",
@@ -256,7 +277,9 @@
         "page": 152,
         "text": "Review C209 Pneumatic Systems.pdf, slide 152. Look for the explanation of Why use fine particles in a micro-aerosol lubricator.",
         "excerpt": "Lubrication\nMicro-Aerosol\n► Produces fine particles \n► Smaller particles travel further \nthrough the system.\n► Larger particles are redirected \nback to the bowl.\n152"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p152-concept"
     },
     {
       "id": "c209-p154-concept",
@@ -279,7 +302,9 @@
         "page": 154,
         "text": "Review C209 Pneumatic Systems.pdf, slide 154. Look for the explanation of How are pressure gauges calibrated in the slides.",
         "excerpt": "Calibration\nGauges\n► Gauges are only as good as their \naccuracy.\n► Calibrated by checking readings \nagainst dead weight test \nmachines. \n► Smaller companies outsource \ntheir calibration needs. \n► Calibration Video\n154"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p154-concept"
     },
     {
       "id": "c209-p156-concept",
@@ -302,7 +327,9 @@
         "page": 156,
         "text": "Review C209 Pneumatic Systems.pdf, slide 156. Look for the explanation of Which symptom can indicate a major air leak.",
         "excerpt": "Air Leaks \nMost Common Locations\n► Flange connections\n► Fittings\n► Traps and drains\n► Filters\n► Hoses\n► Operating valves\n► If a compressor is cycling too \nfrequently, the minimum pressure \nmust be adjusted\n156\nA40 A34\nFilter\nA46"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p156-concept"
     },
     {
       "id": "c209-final-drip",
@@ -332,7 +359,9 @@
       "reviewCue": {
         "page": 150,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 12; C209 Pneumatic Systems.pdf, slide 150. The sight dome shows drops delivered over time; bowl level indicates available supply, not the dispensing rate."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-drip"
     },
     {
       "id": "c209-p147-concept",
@@ -367,7 +396,9 @@
       "reviewCue": {
         "page": 147,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 15; C209 Pneumatic Systems.pdf, slide 147. Aerosol lubrication suspends oil particles in the air so airflow carries them to components."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p147-concept"
     },
     {
       "id": "c209-final-oil-level",
@@ -397,7 +428,9 @@
       "reviewCue": {
         "page": 150,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 20; C209 Pneumatic Systems.pdf, slide 150. Maintain the specified minimum oil level so the lubricator can draw oil. Follow the equipment procedure when filling."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-oil-level"
     },
     {
       "id": "c209-final-cycling",
@@ -427,7 +460,9 @@
       "reviewCue": {
         "page": 156,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 29; C209 Pneumatic Systems.pdf, slide 156. Slide 156 explicitly says minimum pressure. The supplied practice key says range, so the wording here specifies the slide answer. Confirm the instructor’s intended terminology before the final."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-cycling"
     },
     {
       "id": "c209-p125-concept",
@@ -457,7 +492,9 @@
       "reviewCue": {
         "page": 125,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 32; C209 Pneumatic Systems.pdf, slide 125. The course says this reusable depth-type filter can be cleaned by backflushing, which reverses flow to remove trapped contamination."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p125-concept"
     },
     {
       "id": "c209-p130-concept",
@@ -487,7 +524,10 @@
       "reviewCue": {
         "page": 130,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 33; C209 Pneumatic Systems.pdf, slide 130. Water vapor condenses as the air cools below the dew point. Freezing requires a sufficiently low temperature as well."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p130-concept",
+      "learningHelpKey": "air-filter"
     },
     {
       "id": "c209-final-condensate",
@@ -517,7 +557,94 @@
       "reviewCue": {
         "page": 134,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 46; C209 Pneumatic Systems.pdf, slide 134. Condensed water contributes to corrosion and other defects. Drains and traps remove it from the system."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-condensate"
+    },
+    {
+      "id": "gap-pneumatic-relative-humidity",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "source": "p",
+      "prompt": "What does relative humidity compare?",
+      "answer": "Water vapor present with the amount air could hold at that temperature",
+      "options": [
+        "Water vapor present with the amount air could hold at that temperature",
+        "Gauge pressure with absolute pressure",
+        "Oil volume with receiver size",
+        "Airflow with piston stroke"
+      ],
+      "explanation": "The water-removal slide defines relative humidity as the ratio of current water content to the total possible water content under those conditions.",
+      "section": "C209 Pneumatic Systems.pdf, slide 130",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 130,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 130. The water-removal slide defines relative humidity as the ratio of current water content to the total possible water content under those conditions."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1150210819/c-209-pneumatic-systems-1-study-guide-amatrol-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-pneumatic-relative-humidity"
+    },
+    {
+      "id": "gap-pneumatic-dryer-goal",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "source": "p",
+      "prompt": "Why lower the compressed air’s dew point below the ambient temperature?",
+      "answer": "Reduce condensation and corrosion in the system",
+      "options": [
+        "Reduce condensation and corrosion in the system",
+        "Make every pipe freeze",
+        "Increase water in the receiver",
+        "Replace every air filter"
+      ],
+      "explanation": "The course states that water is removed to drop dew point below ambient because water causes corrosion. Drying addresses vapor that would otherwise condense.",
+      "section": "C209 Pneumatic Systems.pdf, slide 134",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 134,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 134. The course states that water is removed to drop dew point below ambient because water causes corrosion. Drying addresses vapor that would otherwise condense."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1150210819/c-209-pneumatic-systems-1-study-guide-amatrol-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-pneumatic-dryer-goal",
+      "learningHelpKey": "air-filter"
+    },
+    {
+      "id": "gap-pneumatic-oil-selection",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "type": "quiz",
+      "source": "p",
+      "prompt": "Which oil is specified for the ordinary pneumatic lubrication example in the slides?",
+      "answer": "Light petroleum oil, SAE 5, without detergent or additives",
+      "options": [
+        "Light petroleum oil, SAE 5, without detergent or additives",
+        "Heavy detergent engine oil in every system",
+        "Water mixed with rust particles",
+        "Any cooking oil for all industrial equipment"
+      ],
+      "explanation": "Slide 153 specifies light petroleum SAE 5 without detergent or additives and separately notes food-processing oils. Match the equipment/application requirements.",
+      "section": "C209 Pneumatic Systems.pdf, slide 153",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 153,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 153. Slide 153 specifies light petroleum SAE 5 without detergent or additives and separately notes food-processing oils. Match the equipment/application requirements."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1150210819/c-209-pneumatic-systems-1-study-guide-amatrol-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-pneumatic-oil-selection"
     }
   ]
 }

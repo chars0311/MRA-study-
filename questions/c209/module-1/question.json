@@ -24,7 +24,10 @@
         "page": 22,
         "text": "Review C209 Pneumatic Systems.pdf, slide 22. Look for Air Filter, slide 22.",
         "excerpt": "Air Filter\nFunction\n► The air used in pneumatics is ambient air. That \nmeans that the air can contain dust, \npollution, and other particles which are to \nsmall to see.\n► If a particle is large enough it can prevent \nclose fitting parts from working smoothly.\n► An air filter is a device designed to clean the \nair before it enters the pneumatic system. It \nwill also remove water droplets from the air \nsupply. \n► All pneumatic system should be installed with \none or more air filters to keep them working \nproperly.\n22"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q051",
+      "learningHelpKey": "air-filter"
     },
     {
       "id": "visual-p-regulator",
@@ -53,7 +56,9 @@
         "page": 20,
         "text": "Review C209 Pneumatic Systems.pdf, slide 20. Look for Introduction & basic components · PDF page 20.",
         "excerpt": "Pressure Regulators\nSchematic Symbol\nFlow Line -The flow line connecting the inlet \nand outlet shows that these ports are \nconnected.\nPilot Line - The dashed line represents a pilot \nline inside the valve body which senses \ndownstream pressure.\nSpring - the spring shows that it opposes \ndownstream pressure. *The arrow through \nthe spring shows that it is adjustable.*\nPressure Gauge - This regulator is shown with \na pressure gauge. Many regulators are \nmade with a port for a pressure gauge.\nSelf Bleeding - the triangle on the inlet side \nshows that this regulator is self bleeding \n(venting). This means it automatically drops \nthe outlet pressure when the pressure \nadjustment is decreased.\nSpring\nPressure \nGauge\nPilot Line\nFlow Line\nSelf \nBleeding \nFeature\n20"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-p-regulator"
     },
     {
       "id": "c209-p5-concept",
@@ -76,7 +81,9 @@
         "page": 5,
         "text": "Review C209 Pneumatic Systems.pdf, slide 5. Look for the explanation of Which three components make up the pneumatic power input device.",
         "excerpt": "Basic Components\nPower Input device\n► Most pneumatic power input devices \nconsist of:\n► Electric motor\n► Compressor\n► Storage tank \n► Supply line\n► The electric motor turns the pump, or air \ncompressor.\n► The compressor draws ambient air and \ncompresses it.\n► Compressed air is stored in a tank and \ntransported via supply lines throughout the \nsystem. \n5"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p5-concept"
     },
     {
       "id": "c209-p6-concept",
@@ -99,7 +106,9 @@
         "page": 6,
         "text": "Review C209 Pneumatic Systems.pdf, slide 6. Look for the explanation of Which device controls direction, pressure, or flow in a pneumatic circuit.",
         "excerpt": "Basic Components\nControl Devices\n► Valves control direction, pressure, \nand flow of the pressurized gas in \nthe actuator lines of the \npneumatic system.\n► Three examples of the many \ntypes of valves are:\n► Flow control valves\n► Directional control valves\n► Pressure regulator valves\n6"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p6-concept"
     },
     {
       "id": "c209-p12-concept",
@@ -122,7 +131,9 @@
         "page": 12,
         "text": "Review C209 Pneumatic Systems.pdf, slide 12. Look for the explanation of What does a pneumatic pressure gauge indicate.",
         "excerpt": "Pressure Gauges\nFunctionality\n► Indicates the amount of pressure in a \npneumatic system.\n► Technicians read these gauges to \ndetermine if the machine is operating \nproperly.\n► Most gauges have a face plate \ngraduated in either US customary (Psi), or \nSi units (Pascals).\n► A pointer rotates around the scaled face \nplate as the pressure changes to \nindicate the pressure in the system. \nPressure Gauge error\n► Manufacturers state the error of the \ngauge in their catalogs as a percent of \nthe full scale reading.\n► A small percentage of gauge error is \nalways possible.\n12"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p12-concept"
     },
     {
       "id": "c209-p14-concept",
@@ -145,7 +156,9 @@
         "page": 14,
         "text": "Review C209 Pneumatic Systems.pdf, slide 14. Look for the explanation of Which organizations are listed for pneumatic schematic symbol standards.",
         "excerpt": "Standards Organizations\n► The three standards most often \nreferenced for symbols are those \ndeveloped by the following \norganizations:\n► National Fluid Power \nAssociation (NFPA)\n► American National Standards \nInstitute (ANSI)\n► International Organization for \nStandardization (ISO)\n!!We Use All Three!!\n14"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p14-concept"
     },
     {
       "id": "c209-p15-concept",
@@ -168,7 +181,9 @@
         "page": 15,
         "text": "Review C209 Pneumatic Systems.pdf, slide 15. Look for the explanation of Which practice follows the compressed-air safety rules in this course.",
         "excerpt": "Safety Rules\n► Do not point compressed air at \neyes, ears, nose, mouth, or skin.\n► Properly secure any hose or \ndevice that contains compressed \nai to prevent whipping if the hose \nbreaks.\n► Use proper pressure when \ncleaning with air.\n► Wear safety glasses.\n► Use containers strong enough to \nsafely hold compressed air.\n► Avoid continuous noise pressure.\n15\nA47"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p15-concept"
     },
     {
       "id": "c209-p18-concept",
@@ -191,7 +206,9 @@
         "page": 18,
         "text": "Review C209 Pneumatic Systems.pdf, slide 18. Look for the explanation of Which regulator component restricts airflow to control downstream pressure.",
         "excerpt": "Pressure Regulators\n► The poppet controls downstream pressure by \nrestricting the airflow.\n18\n► The piston is attached to one end of the \npoppet to provide a surface for the spring to \npush on.\n► The adjustment spring allows for smooth \nadjustment of the regulator.\n► The adjustment knob changes the compression \non the spring which controls the level of \ndownstream pressure."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p18-concept"
     },
     {
       "id": "c209-p19-concept",
@@ -214,7 +231,9 @@
         "page": 19,
         "text": "Review C209 Pneumatic Systems.pdf, slide 19. Look for the explanation of What does the regulator pilot hole allow outlet pressure to act on.",
         "excerpt": "Pressure Regulators\n► Vent holes keep the pressure from \nbuilding too high inside the regulator.\n► The pilot hole allows the outlet \npressure to push on the bottom of \nthe piston.\n19"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p19-concept"
     },
     {
       "id": "c209-p23-concept",
@@ -237,7 +256,9 @@
         "page": 23,
         "text": "Review C209 Pneumatic Systems.pdf, slide 23. Look for the explanation of What is the purpose of the filter deflector plate.",
         "excerpt": "Air Filter\n► Inlet Port – Air enters filter through inlet \nport.\n► Deflector Plate – The deflector plate \ncauses the air to spin inside the filter \nbowl.\n► Filter element – The filter element traps \nthe remaining small particles. \n► Baffle – The baffle controls the path of \nthe air flow. \n► Bowl – The bowl collects the water and \ndirt particles and serves as the outer \ncasing of the air filter.\n► Manual drain – The drain plug allows the \ncollected water and dirt particles to be \ndrained. Water should be drained \nbefore it reaches the bottom of the \nbaffle.\n► Outlet Port – The air exits the filter \nthrough the outlet port.\nInlet Port Outlet Port\nDeflector \nPlate\nFilter \nElement\nBaffle\nBowl\nManual Drain\n23\nA01 A38"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p23-concept"
     },
     {
       "id": "c209-p25-concept",
@@ -260,7 +281,9 @@
         "page": 25,
         "text": "Review C209 Pneumatic Systems.pdf, slide 25. Look for the explanation of What does a tee fitting connect to a supply line.",
         "excerpt": "Tee and Cross Fittings\nSymbol\n► Connects two different circuits to the same \nsupply line.\n► Uses a single fitting called a tee.\n► A tee symbol is use to show the branching \nconnections in a pneumatic circuit.\nGauge Block Tees\n► Gauge block tees do the same thing as loose \nfitting tees.\n► Machined from blocks of aluminum.\n► Tees are often directly connected to pressure \ngauges because they allow easy connection \nof a pressure gauge to monitor the pressure in a \nline.\n25"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p25-concept"
     },
     {
       "id": "c209-p26-concept",
@@ -283,7 +306,9 @@
         "page": 26,
         "text": "Review C209 Pneumatic Systems.pdf, slide 26. Look for the explanation of How many branch circuits can a cross fitting connect to the supply.",
         "excerpt": "Cross Fitting\n► A cross is shaped like a plus sign and is \nused to provide connections to three \nbranch circuits instead of two.\n► The cross symbol is used to show \nconnections to three branch circuits. \n26"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p26-concept"
     },
     {
       "id": "c209-p29-concept",
@@ -306,7 +331,10 @@
         "page": 29,
         "text": "Review C209 Pneumatic Systems.pdf, slide 29. Look for the explanation of What do piston seals separate in a double-acting cylinder.",
         "excerpt": "Double-Acting Pneumatic Cylinder\nPiston seals – piston seals are used to \nseparate the chambers of the cylinder. \nThese seals allow pressure to build and \nreduce leakage inside the cylinder. \nRod seals – A flexible seal, called a rod \nseal, is placed around the piston rod to \nprevent external leakage.\nRod bushing – a bushing holds the piston \nin place and helps support the rod as it \nextends. \nPiston Seal\nRod seal\nBushing\n29"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p29-concept",
+      "learningHelpKey": "double-cylinder"
     },
     {
       "id": "c209-p33-concept",
@@ -329,7 +357,9 @@
         "page": 33,
         "text": "Review C209 Pneumatic Systems.pdf, slide 33. Look for the explanation of What does each envelope in a DCV symbol represent.",
         "excerpt": "Directional Control Valves\nSchematic\n► Each envelope represents a \npossible valve position.\n► DCV classification is by the \nnumber of ports and number of \npositions.\n► This valve for example is a 2/2 \nDCV because in addition to the \ntwo positions its also has 2 ports \nfor fluid flow.\n33"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-p33-concept"
     },
     {
       "id": "c209-p36-concept",
@@ -352,7 +382,9 @@
         "page": 36,
         "text": "Review C209 Pneumatic Systems.pdf, slide 36. Look for the explanation of Which DCV port is connected to the air supply.",
         "excerpt": "5-Port, 3-Postion DCV\nValve body – the valve body has ports \nto provide flow paths for the fluid. Each \nof the ports is labeled according to its \nconnection.\nOperator – The operator is the device \nthat moves the spool. An operator can \nbe a lever, electrical solenoid, a manual \npush button, or other control device.\nSpool – The spool is designed with lands \nthat channel the flow through he valve \nto specific ports. Shifting positions \nchanges flow paths.\nSprings – a 3-postion valve usually has a \nspring on either side of the spool to \nposition it in the middle when not \nenergized. \nP-Port\nE-Ports\nA/B-PortsSprings\nOperator\nBody\n36"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p36-concept"
     },
     {
       "id": "c209-p37-concept",
@@ -375,7 +407,9 @@
         "page": 37,
         "text": "Review C209 Pneumatic Systems.pdf, slide 37. Look for the explanation of What happens in the blocked center position of the 5/3 valve shown in the course.",
         "excerpt": "5-Port, 3-Postion DCV\n► A 5/3 DCV is usually connected to air \ncylinder so that port A extends the rod and \nport B s it. P connects to the air supply, and \nEA and EB exhaust to the atmosphere.\n► When the spool is in the middle position, air \nflow is blocked between all ports. This \ncauses the cylinder to hold its position. \n37"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p37-concept"
     },
     {
       "id": "visual-p-double",
@@ -403,7 +437,9 @@
         "page": 28,
         "text": "Review C209 Pneumatic Systems.pdf, slide 28. Compare the diagram with the component description.",
         "excerpt": "Double-Acting Pneumatic Cylinder\n► A pneumatic cylinder consists of a \npiston/rod assembly that moves inside a \nbarrel-shaped body.\n► The rod of the cylinder is attached to part \nof the machine and transmits the \nmechanical force into straight line motion.\n► The piston is the part on which the fluid \nexerts its pressure. It converts fluid power to \nmechanical power.\n► The most common type if cylinder is a \ndouble-acting cylinder.\n► Consists of two ports.\n► When pressurized air enters the cap end, \nthe cylinder rod extends\n► When pressure enters the rod end, it \nretracts.\n28"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-p-double"
     },
     {
       "id": "c209-teacher-filter-element",
@@ -433,7 +469,10 @@
       "reviewCue": {
         "page": 23,
         "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 1; C209 Pneumatic Systems.pdf, slide 23. The filter element traps smaller particles; the deflector spins the air and the bowl collects separated material."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-filter-element",
+      "learningHelpKey": "air-filter"
     },
     {
       "id": "q048",
@@ -463,7 +502,9 @@
       "reviewCue": {
         "page": 27,
         "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 2; C209 Pneumatic Systems.pdf, slide 27. A cylinder converts pneumatic power into linear motion. A pneumatic motor produces rotary motion."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q048"
     },
     {
       "id": "c209-teacher-pressure-definition",
@@ -493,7 +534,10 @@
       "reviewCue": {
         "page": 10,
         "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 3; C209 Pneumatic Systems.pdf, slide 10. Pressure is force per unit area: P = F/A. Look for the force acting over the surface area."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-pressure-definition",
+      "learningHelpKey": "pressure-force"
     },
     {
       "id": "c209-teacher-stall",
@@ -521,7 +565,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 4; C209 Pneumatic Systems.pdf, slide 3. The slide lists the ability to stop an actuator without damage among pneumatic and hydraulic similarities; follow the operating conditions specified for the equipment."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-stall"
     },
     {
       "id": "c209-teacher-regulator-parts",
@@ -552,7 +598,9 @@
       "reviewCue": {
         "page": 16,
         "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 5; C209 Pneumatic Systems.pdf, slide 16. The regulator includes a poppet and vent holes. A needle valve is a separate adjustable flow restriction."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-regulator-parts"
     },
     {
       "id": "q050",
@@ -582,7 +630,9 @@
       "reviewCue": {
         "page": 21,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 2; C209 Pneumatic Systems.pdf, slide 21. The regulator reduces and controls downstream pressure; filtering and compressor switching have different devices."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q050"
     },
     {
       "id": "c209-final-output",
@@ -612,7 +662,9 @@
       "reviewCue": {
         "page": 7,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 4; C209 Pneumatic Systems.pdf, slide 7. Actuators convert compressed-air energy into mechanical output; cylinders and motors are examples."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-output"
     },
     {
       "id": "q047",
@@ -642,7 +694,9 @@
       "reviewCue": {
         "page": 9,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 9; C209 Pneumatic Systems.pdf, slide 9. The slides identify air as the typical pneumatic working medium."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q047"
     },
     {
       "id": "c209-final-filter-first",
@@ -672,7 +726,9 @@
       "reviewCue": {
         "page": 22,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 11; C209 Pneumatic Systems.pdf, slide 22. The filter cleans incoming air before downstream regulation and lubrication. Look for the filter-regulator-lubricator sequence."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-filter-first"
     },
     {
       "id": "c209-final-air-safety",
@@ -702,7 +758,9 @@
       "reviewCue": {
         "page": 15,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 22; C209 Pneumatic Systems.pdf, slide 15. The course says to keep compressed air away from skin and other body openings. Never use a hand to seal or test a live line."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-air-safety"
     },
     {
       "id": "c209-p24-concept",
@@ -732,7 +790,9 @@
       "reviewCue": {
         "page": 24,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 25; C209 Pneumatic Systems.pdf, slide 24. Quick-connects permit repeated connection and disconnection without dismantling a permanent fitting."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p24-concept"
     },
     {
       "id": "c209-final-override",
@@ -762,7 +822,9 @@
       "reviewCue": {
         "page": 31,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 26; C209 Pneumatic Systems.pdf, slide 31. A manual override lets the valve be actuated independently of its normal control signal; use the authorized setup procedure."
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c209-final-override"
     },
     {
       "id": "c209-final-dcv-flow",
@@ -797,7 +859,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final-1-2",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c209-final-dcv-flow"
     },
     {
       "id": "c209-final-subplate",
@@ -827,7 +891,10 @@
       "reviewCue": {
         "page": 30,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 31; C209 Pneumatic Systems.pdf, slide 30. O-rings seal the mating port faces without obstructing the passages. Review the valve mounting/sealing illustration."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-subplate",
+      "learningHelpKey": "valve-positions"
     },
     {
       "id": "c209-final-symbol-function",
@@ -857,7 +924,9 @@
       "reviewCue": {
         "page": 13,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 35; C209 Pneumatic Systems.pdf, slide 13. Schematics use standardized functional symbols rather than realistic physical drawings or dimensions."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-final-symbol-function"
     },
     {
       "id": "c209-final-hose-safety",
@@ -887,7 +956,9 @@
       "reviewCue": {
         "page": 15,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 40; C209 Pneumatic Systems.pdf, slide 15. Stored air energy can cause an unsecured hose to whip. Secure hoses and use the course safety procedures."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-hose-safety"
     },
     {
       "id": "c209-p8-concept",
@@ -917,7 +988,9 @@
       "reviewCue": {
         "page": 8,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 41; C209 Pneumatic Systems.pdf, slide 8. The supply line carries air from the power input source toward the circuit’s control devices."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p8-concept"
     },
     {
       "id": "c209-final-filter-drain",
@@ -947,7 +1020,9 @@
       "reviewCue": {
         "page": 23,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 45; C209 Pneumatic Systems.pdf, slide 23. Drain collected liquid before it reaches the baffle and can be carried into the downstream air stream."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-filter-drain"
     },
     {
       "id": "c209-final-32-symbol",
@@ -982,7 +1057,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final2-5-1",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c209-final-32-symbol"
     },
     {
       "id": "c209-final-solenoid",
@@ -1017,7 +1094,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final2-7-0",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c209-final-solenoid"
     },
     {
       "id": "c209-final-gauge",
@@ -1052,7 +1131,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final2-7-1",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-final-gauge"
     }
   ]
 }

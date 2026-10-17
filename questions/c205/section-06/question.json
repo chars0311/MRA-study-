@@ -36,7 +36,9 @@
       "reviewCue": {
         "page": 14,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 14. Inductive proximity sensors respond to metal targets. Ferrous and non-ferrous metals can both be detected, with different sensing ranges."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q038"
     },
     {
       "id": "q039",
@@ -71,7 +73,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review Sensor 6-7.pdf, PDF page 5. Capacitive proximity sensing detects nonmetallic material through changes in its electrostatic field. Inductive sensing is limited to metals."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q039"
     },
     {
       "id": "q040",
@@ -100,7 +104,9 @@
         "page": 52,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "PNP = Current “Sourcing” Used in circuits that require a high signal (+12V, +24V etc.) when activated/energized NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q040"
     },
     {
       "id": "q041",
@@ -129,7 +135,9 @@
         "page": 52,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just solid-state switches! 52 A12 A27"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q041"
     },
     {
       "id": "wb-24",
@@ -159,7 +167,9 @@
         "page": 54,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Inductive Proximity Sensor Uses an AC current flowing through a coil to create a magnetic field. When metal nears the head, some of the magnetic energy is absorbed Five things that affect performance: • Target material • Target Size • Target Distance • Sensor …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-24"
     },
     {
       "id": "wb-25",
@@ -189,7 +199,9 @@
         "page": 55,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Capacitive Proximity Sensor Uses an AC current flowing to two plates to create an electrostatic field (a voltage difference). When an object nears the head, this field changes Five things that affect performance: • Target material • Target Size • Target Distan…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-25"
     },
     {
       "id": "wb-29",
@@ -219,7 +231,9 @@
         "page": 52,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "PNP = Current “Sourcing” Used in circuits that require a high signal (+12V, +24V etc.) when activated/energized NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-29"
     },
     {
       "id": "wb-30",
@@ -249,7 +263,9 @@
         "page": 52,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "NPN = Current “Sinking” Used in circuits that require a low signal (0V) when activated / energized The Transistors inside of these sensors are just solid-state switches! 52 A12 A27"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-30"
     },
     {
       "id": "c205x-electronic-benefit",
@@ -281,7 +297,9 @@
         "page": 48,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Require a more complex control system than simple mechanical switches • Usually have a low power (voltage and current) handling capacity • Require optical isolation to protect against electrical noise 48 A03 A07"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-electronic-benefit"
     },
     {
       "id": "c205x-electronic-limit",
@@ -313,7 +331,9 @@
         "page": 48,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Usually have a low power (voltage and current) handling capacity • Require optical isolation to protect against electrical noise 48 A03 A07"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-electronic-limit"
     },
     {
       "id": "c205x-mechanical-exception",
@@ -346,7 +366,9 @@
         "page": 49,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Magnetic Reed Switch Hall Effect Sensor Photelectric Sensor The major difference between mechanical and electronic sensors (except for the reed switch) is that electronic sensors use transistors as switches and much faster 49 A02"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-mechanical-exception"
     },
     {
       "id": "c205x-source-diagram",
@@ -385,7 +407,9 @@
         "page": 50,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Two Transistor-Switching Technologies used in electronic switches PNP “Source” 50"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-source-diagram"
     },
     {
       "id": "c205x-sink-diagram",
@@ -422,7 +446,9 @@
       ],
       "reviewCue": {
         "text": "Use the labeled components and operating conditions on the review slide to follow the explanation above."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-sink-diagram"
     },
     {
       "id": "c205x-high-signal",
@@ -455,7 +481,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review Sensor 6-7.pdf, PDF page 2. PNP sources current toward the load and provides the positive/high signal described in the course."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-high-signal"
     },
     {
       "id": "c205x-low-signal",
@@ -490,7 +518,9 @@
       "reviewCue": {
         "page": 17,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 17. NPN sinks the output toward ground, providing the low signal described in the course."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-low-signal"
     },
     {
       "id": "c205x-inductive-field",
@@ -522,7 +552,9 @@
         "page": 54,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Inductive Proximity Sensor Uses an AC current flowing through a coil to create a magnetic field. When metal nears the head, some of the magnetic energy is absorbed Five things that affect performance: • Target material • Target Size • Target Distance • Sensor …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-inductive-field"
     },
     {
       "id": "c205x-inductive-target",
@@ -557,7 +589,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review Sensor 6-7.pdf, PDF page 4. The slide identifies steel and iron as especially suitable targets. Inductive sensors also detect non-ferrous metals, but target material affects sensing distance."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-inductive-target"
     },
     {
       "id": "c205x-inductive-factors",
@@ -590,7 +624,9 @@
         "page": 54,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Sensor head size • Sensor mounting Inductive sensors can only sense metals! Ferrous (steel and iron) are by far the best metals for detection. 54 A19"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-inductive-factors"
     },
     {
       "id": "c205x-capacitive-field",
@@ -622,7 +658,9 @@
         "page": 55,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Capacitive Proximity Sensor Uses an AC current flowing to two plates to create an electrostatic field (a voltage difference). When an object nears the head, this field changes Five things that affect performance: • Target material • Target Size • Target Distan…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-capacitive-field"
     },
     {
       "id": "c205x-three-wire",
@@ -657,7 +695,9 @@
       "reviewCue": {
         "page": 17,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 17. The sensor output conveys the detected state to a controller input or other control logic. It is separate from the sensor supply connections."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-three-wire"
     },
     {
       "id": "c205-quiz-fast-sensor",
@@ -694,7 +734,9 @@
       "reviewCue": {
         "page": 1,
         "text": "Review Sensor 6-7.pdf, PDF page 1. Electronic sensors can switch rapidly without the moving-contact limitations of a mechanical switch."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-fast-sensor"
     },
     {
       "id": "c205-quiz-high-current",
@@ -734,7 +776,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review Sensor 6-7.pdf, PDF page 2. The quiz selects a mechanical limit switch for its switching capacity, in contrast to low-current electronic sensors. The actual switch must be rated for the load."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-high-current"
     },
     {
       "id": "c205-quiz-pnp-test",
@@ -774,7 +818,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Sensor 6-7.pdf, PDF page 3. An active PNP output rises near +V, so the difference between +V and output is approximately zero. An unchanged supply voltage alone does not identify PNP."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-pnp-test"
     },
     {
       "id": "c205-quiz-isolation",
@@ -807,7 +853,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review Sensor 6-7.pdf, PDF page 4. Optical isolation transfers the signal with light across an electrical separation. The quiz identifies this as the isolation method; ordinary cable changes do not create that separation."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-isolation"
     },
     {
       "id": "c205-quiz-no-leds",
@@ -842,7 +890,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review Sensor 6-7.pdf, PDF page 5. With neither sensor LED lit, first establish whether the sensor is receiving its supply. This differs from the question where both sensor LEDs are already lit."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-no-leds"
     },
     {
       "id": "c205-quiz-ncho-output",
@@ -877,7 +927,10 @@
       "reviewCue": {
         "page": 6,
         "text": "Review Sensor 6-7.pdf, PDF page 6. NCHO distinguishes the normal closed state from the present held-open condition. Removing the actuating object lets the contact return to its normal state."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-ncho-output",
+      "learningHelpKey": "switch-states"
     },
     {
       "id": "c205-quiz-cap-load",
@@ -916,7 +969,9 @@
         "imageKey": "teacher-s67-7",
         "alt": "Unanswered diagram from Sensor 6-7.pdf, page 7",
         "page": 7
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-cap-load"
     },
     {
       "id": "c205-quiz-cap-active",
@@ -955,7 +1010,9 @@
         "imageKey": "teacher-s67-8",
         "alt": "Unanswered diagram from Sensor 6-7.pdf, page 8",
         "page": 8
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205-quiz-cap-active"
     },
     {
       "id": "c205-quiz-cap-range",
@@ -990,7 +1047,9 @@
       "reviewCue": {
         "page": 1,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 1. The capacitive sensor can detect both metal and nonmetal targets. Its sensing distance varies with the target material; the course comparison gives metals the longer range."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-cap-range"
     },
     {
       "id": "c205-quiz-npn-test",
@@ -1030,7 +1089,9 @@
       "reviewCue": {
         "page": 7,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 7. An active NPN output sinks toward ground, so its voltage relative to ground falls near zero."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-npn-test"
     }
   ]
 }

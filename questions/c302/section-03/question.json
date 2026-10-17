@@ -24,7 +24,9 @@
         "page": 23,
         "text": "Review Rough Alignment 1, slide 23. Rough alignment brings the shafts within the laser system's useful range.",
         "excerpt": "Laser alignment tools have limited range of adjustment, so rough alignment should always be done first with a straight edge or feeler gauge When performing shaft alignment—whether laser or rough—the recommended sequence is : .Angular — Correct the angular misa…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q071"
     },
     {
       "id": "c302-p24-16",
@@ -46,7 +48,9 @@
       "reviewCue": {
         "page": 24,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 24. The sequence starts with soft foot, then vertical angular, vertical parallel, horizontal angular, and horizontal parallel corrections."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p24-16"
     },
     {
       "id": "c302-p24-17",
@@ -68,7 +72,9 @@
       "reviewCue": {
         "page": 24,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 24. Rough alignment brings shafts within the laser system’s range before fine measurement."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p24-17"
     }
   ]
 }

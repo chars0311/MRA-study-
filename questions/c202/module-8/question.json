@@ -30,7 +30,10 @@
         "page": 122,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► When coil is energized, relay’s timing mechanism begins to run, but contacts remain in the normal state ► Once preset time delay is reached, contacts move to their energized states ► Contacts remain in energized states until coil is de-energized 122"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q030",
+      "learningHelpKey": "timer"
     },
     {
       "id": "q031",
@@ -59,7 +62,10 @@
         "page": 123,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Once coil is de-energized, timer starts running, and contacts remain held in their energized states ► Once preset time is reached, contacts return to their normal states 123"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q031",
+      "learningHelpKey": "timer"
     },
     {
       "id": "mc-on-scenario",
@@ -98,7 +104,10 @@
         "page": 122,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► When coil is energized, relay’s timing mechanism begins to run, but contacts remain in the normal state ► Once preset time delay is reached, contacts move to their energized states ► Contacts remain in energized states until coil is de-energized 122"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "mc-on-scenario",
+      "learningHelpKey": "timer"
     },
     {
       "id": "mc-off-scenario",
@@ -137,7 +146,10 @@
         "page": 123,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► When coil is energized, timer’s contacts immediately move to their energized states, but timing mechanism does not operate until coil is de-energized ► Once coil is de-energized, timer starts running, and contacts remain held in their energized states ► Once…"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "mc-off-scenario",
+      "learningHelpKey": "timer"
     },
     {
       "id": "wb-22",
@@ -167,7 +179,10 @@
         "page": 122,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "On-Delay Timer Operation ► When coil is energized, relay’s timing mechanism begins to run, but contacts remain in the normal state ► Once preset time delay is reached, contacts move to their energized states ► Contacts remain in energized states until coil is …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-22",
+      "learningHelpKey": "timer"
     },
     {
       "id": "wb-23",
@@ -197,7 +212,10 @@
         "page": 123,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Off-Delay Timer Operation ► When coil is energized, timer’s contacts immediately move to their energized states, but timing mechanism does not operate until coil is de-energized ► Once coil is de-energized, timer starts running, and contacts remain held in the…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-23",
+      "learningHelpKey": "timer"
     },
     {
       "id": "visual-m-notc",
@@ -232,7 +250,10 @@
         "page": 122,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Once preset time delay is reached, contacts move to their energized states ► Contacts remain in energized states until coil is de-energized 122"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-notc",
+      "learningHelpKey": "timer"
     },
     {
       "id": "visual-m-ncto",
@@ -268,7 +289,10 @@
         "imageKey": "teacher-mpre-p29-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 29
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "visual-m-ncto",
+      "learningHelpKey": "timer"
     },
     {
       "id": "c202x-parts",
@@ -300,7 +324,9 @@
         "page": 121,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Typical device used is a time-delay relay ► Changes the state of its contacts after a predetermined time has elapsed ► Components: ► Coil - when energized, causes contacts to change states ► Contacts - one or more sets of N.O. and N.C. contacts ► Timing Mech…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-parts"
     },
     {
       "id": "c202x-on-nc",
@@ -332,7 +358,10 @@
         "page": 122,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Once preset time delay is reached, contacts move to their energized states ► Contacts remain in energized states until coil is de-energized 122"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-on-nc",
+      "learningHelpKey": "timer"
     },
     {
       "id": "c202x-off-nc",
@@ -364,7 +393,10 @@
         "page": 123,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► When coil is energized, timer’s contacts immediately move to their energized states, but timing mechanism does not operate until coil is de-energized ► Once coil is de-energized, timer starts running, and contacts remain held in their energized states ► Once…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-off-nc",
+      "learningHelpKey": "timer"
     },
     {
       "id": "c202x-timer-noto",
@@ -403,7 +435,9 @@
         "page": 123,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Off-Delay Timer Operation ► When coil is energized, timer’s contacts immediately move to their energized states, but timing mechanism does not operate until coil is de-energized ► Once coil is de-energized, timer starts running, and contacts remain held in the…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-timer-noto"
     },
     {
       "id": "c202x-timer-nctc",
@@ -439,7 +473,10 @@
         "imageKey": "teacher-mpre-p28-img1",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 28
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-timer-nctc",
+      "learningHelpKey": "timer"
     }
   ]
 }

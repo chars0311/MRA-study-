@@ -40,7 +40,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review Sensor 1-2.pdf, PDF page 6. Every required input must be true. In the contact version, all normally open series contacts must close."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q035"
     },
     {
       "id": "q036",
@@ -69,7 +71,9 @@
         "page": 8,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "OR logic requires one of two switches in parallel to be closed NOT logic requires one normally closed switched to be open 8Control Logic 2 A13 A24"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q036"
     },
     {
       "id": "q037",
@@ -98,7 +102,9 @@
         "page": 9,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Memory Logic is used to keep an output energized after the Input signal that turned it on is removed Also known as a seal-in circuit 9Control Logic 3"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q037"
     },
     {
       "id": "q045",
@@ -139,7 +145,9 @@
         "imageKey": "teacher-s12-10",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 10",
         "page": 10
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "q045"
     },
     {
       "id": "visual-s-and",
@@ -192,7 +200,9 @@
         "imageKey": "teacher-s12-4",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
         "page": 4
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "visual-s-and"
     },
     {
       "id": "visual-s-or",
@@ -249,7 +259,9 @@
         "imageKey": "teacher-s12-4",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
         "page": 4
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "visual-s-or"
     },
     {
       "id": "visual-s-not",
@@ -302,7 +314,9 @@
         "imageKey": "teacher-s12-4",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
         "page": 4
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "visual-s-not"
     },
     {
       "id": "visual-s-nor",
@@ -355,7 +369,9 @@
         "imageKey": "teacher-s12-4",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
         "page": 4
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "visual-s-nor"
     },
     {
       "id": "slide-nand-sensor",
@@ -408,7 +424,9 @@
         "imageKey": "teacher-s12-4",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
         "page": 4
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "slide-nand-sensor"
     },
     {
       "id": "visual-s-nor-operation",
@@ -441,7 +459,9 @@
       ],
       "reviewCue": {
         "text": "Look for normally closed contacts in series. Opening either contact breaks the only path and turns the lamp off."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-s-nor-operation"
     },
     {
       "id": "visual-s-memory",
@@ -494,7 +514,9 @@
         "imageKey": "teacher-s12-4",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 4",
         "page": 4
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "visual-s-memory"
     },
     {
       "id": "switch-spst",
@@ -523,7 +545,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-spst"
     },
     {
       "id": "switch-normal",
@@ -552,7 +576,9 @@
         "page": 5,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "switch is unoperated or unenergized. Switches with multiple contacts can have various combinations of NO and NC. NC Contacts NO Contacts 5"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-normal"
     },
     {
       "id": "switch-mixed",
@@ -581,7 +607,9 @@
         "page": 5,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Switches with multiple contacts can have various combinations of NO and NC. NC Contacts NO Contacts 5"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-mixed"
     },
     {
       "id": "c205x-spst-single",
@@ -626,7 +654,9 @@
         "imageKey": "teacher-s12-5",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 5",
         "page": 5
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-spst-single"
     },
     {
       "id": "c205x-spst-double",
@@ -665,7 +695,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-spst-double"
     },
     {
       "id": "c205x-spdt-single",
@@ -704,7 +736,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-spdt-single"
     },
     {
       "id": "c205x-spdt-double",
@@ -743,7 +777,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-spdt-single"
     },
     {
       "id": "c205x-dpst-single",
@@ -782,7 +818,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-dpst-single"
     },
     {
       "id": "c205x-dpst-double",
@@ -821,7 +859,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-dpst-single"
     },
     {
       "id": "c205x-dpdt-single",
@@ -860,7 +900,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-dpdt-single"
     },
     {
       "id": "c205x-dpdt-double",
@@ -899,7 +941,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-dpdt-single"
     },
     {
       "id": "c205x-double-break",
@@ -938,7 +982,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SPST (Single Pole Single Throw) • are the most common. • have two wires. Two position Selector Switch OR a limit switch Typical Relay Switch OR push button Typical Push button"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-double-break"
     },
     {
       "id": "c205x-solid-state",
@@ -970,7 +1016,9 @@
         "page": 4,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "billions or over a trillion in your phone or computer. A transistor is solid-state: it has no moving parts like a limit switch or button. Below are the symbols for transistors: Used in control circuits, a Transistor is just an SPST switch, either on or off! So…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-solid-state"
     },
     {
       "id": "c205x-transistor-use",
@@ -1002,7 +1050,9 @@
         "page": 4,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solid state relays and sensors use transistors as switches Electricity Flow 4"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-transistor-use"
     },
     {
       "id": "c205x-mixed-contacts",
@@ -1034,7 +1084,9 @@
         "page": 5,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Each contact within any switch has a normal state. The normal state is when the switch is unoperated or unenergized. Switches with multiple contacts can have various combinations of NO and NC. NC Contacts NO Contacts 5"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-mixed-contacts"
     },
     {
       "id": "c205x-selector-identify",
@@ -1073,7 +1125,9 @@
         "page": 6,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● In a two-position switch, the solid arrow shows the unoperated state Switch States 2 Switch is open in the left position, closed in the right 6"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-selector-identify"
     },
     {
       "id": "c205x-selector-arrow",
@@ -1111,7 +1165,9 @@
         "page": 6,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● In a two-position switch, the solid arrow shows the unoperated state Switch States 2 Switch is open in the left position, closed in the right 6"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-selector-arrow"
     },
     {
       "id": "c205x-selector-center",
@@ -1150,7 +1206,9 @@
         "page": 6,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● In a three-position switch, the center position does not operate any contacts ● In a two-position switch, the solid arrow shows the unoperated state Switch States 2 Switch is open in the left position, closed in the right 6"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-selector-center"
     },
     {
       "id": "c205x-selector-left",
@@ -1189,7 +1247,9 @@
         "page": 6,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "position, closed in the right 6"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-selector-left"
     },
     {
       "id": "c205x-selector-right",
@@ -1228,7 +1288,9 @@
         "page": 6,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "position, closed in the right 6"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-selector-right"
     },
     {
       "id": "c205x-logic-purpose",
@@ -1260,7 +1322,9 @@
         "page": 7,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "make decisions that control a machine’s operation. 7"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-logic-purpose"
     },
     {
       "id": "c205x-and-one",
@@ -1296,7 +1360,9 @@
       ],
       "reviewCue": {
         "text": "Look for two normally open contacts in series. Trace the single current path: both contacts must close for the lamp to turn on."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-and-one"
     },
     {
       "id": "c205x-or-both",
@@ -1332,7 +1398,9 @@
       ],
       "reviewCue": {
         "text": "Look for two normally open contacts in parallel. Either closed branch can complete the path to the lamp."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-or-both"
     },
     {
       "id": "c205x-nand-both",
@@ -1368,7 +1436,9 @@
       ],
       "reviewCue": {
         "text": "Look for normally closed contacts in parallel. One closed branch keeps the lamp on; both contacts must open to turn it off."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-nand-both"
     },
     {
       "id": "c205x-memory-stop",
@@ -1404,7 +1474,9 @@
       ],
       "reviewCue": {
         "text": "Find the 1CRA contact wired around the Start pushbutton. Trace how that parallel contact keeps the relay energized after Start is released, and how Stop breaks the path."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-memory-stop"
     },
     {
       "id": "c205x-control-v-power",
@@ -1450,7 +1522,9 @@
         "imageKey": "teacher-s12-9",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 9",
         "page": 9
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-control-v-power"
     },
     {
       "id": "c205x-power-purpose",
@@ -1482,7 +1556,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Power diagrams show overall electrical system connections to motors and other actuators. 11"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-power-purpose"
     },
     {
       "id": "c205x-ladder-position",
@@ -1514,7 +1590,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Inputs are on left, outputs are on right Ladder Diagram Ladder Diagram Components • Shows only 4 types of components • Power supply ∙ Input devices ∙ Output devices ∙ Conductors 12 A09"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-ladder-position"
     },
     {
       "id": "c205x-ladder-number",
@@ -1547,7 +1625,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Ladder Diagram Rules: • All components must be labeled • All conductors must be numbered • All rungs must be numbered • Only control devices are shown • Only one load per rung is allowed • Read left to right and then top-down • Inputs are on left, outputs are …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-ladder-number"
     },
     {
       "id": "c205x-load-per-rung",
@@ -1579,7 +1659,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Only one load per rung is allowed • Read left to right and then top-down • Inputs are on left, outputs are on right Ladder Diagram Ladder Diagram Components • Shows only 4 types of components • Power supply ∙ Input devices ∙ Output devices ∙ Conductors 12 A0…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-load-per-rung"
     },
     {
       "id": "c205x-next-rung",
@@ -1611,7 +1693,9 @@
         "page": 13,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Read left to right and then top-down Ladder Diagram 13"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-next-rung"
     },
     {
       "id": "c205-quiz-selector-hold",
@@ -1652,7 +1736,9 @@
         "imageKey": "teacher-s12-2",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 2",
         "page": 2
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-selector-hold"
     },
     {
       "id": "c205-quiz-ladder-components",
@@ -1693,7 +1779,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Sensor 1-2.pdf, PDF page 3. A complete circuit needs a supply, conducting paths, an input device and an output device. Each listed item belongs to that set."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-ladder-components"
     },
     {
       "id": "c205-quiz-digital",
@@ -1728,7 +1816,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review Sensor 1-2.pdf, PDF page 5. Digital logic uses two states, such as ON/OFF or true/false."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-digital"
     },
     {
       "id": "c205-quiz-either-start",
@@ -1769,7 +1859,9 @@
         "imageKey": "teacher-pre-18",
         "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 18",
         "page": 18
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205-quiz-either-start"
     }
   ]
 }

@@ -31,7 +31,9 @@
       "reviewCue": {
         "page": 12,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 12. The installation procedure uses small snub-roller adjustments while checking belt position; follow the prescribed controlled-running procedure."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c12-15"
     },
     {
       "id": "conveyor-c12-16",
@@ -53,7 +55,9 @@
       "reviewCue": {
         "page": 12,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 12. Tracking correction must be observed as the belt settles, avoiding unnecessary overcorrection."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c12-16"
     },
     {
       "id": "conveyor-c15-17",
@@ -75,7 +79,9 @@
       "reviewCue": {
         "page": 15,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 15. The maintenance procedure uses a rule to measure slack-side chain deflection and checks it against the specified requirement."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c15-17"
     },
     {
       "id": "conveyor-stretch",
@@ -97,7 +103,9 @@
       "reviewCue": {
         "page": 37,
         "text": "Review Conveyors.pdf, slide 37. This is the lab-specific target; always use the specification for the actual belt and application."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-stretch"
     },
     {
       "id": "conveyor-tracking-tension",
@@ -119,7 +127,9 @@
       "reviewCue": {
         "page": 30,
         "text": "Review Conveyors.pdf, slide 30. The lecture explicitly describes tracking toward higher tension for this lab’s snub-roll arrangement."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-tracking-tension"
     }
   ]
 }

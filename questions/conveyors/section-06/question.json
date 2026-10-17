@@ -24,7 +24,10 @@
         "page": 42,
         "text": "Review Common Failures and Troubleshooting, slide 42. The guide lists these inspections for common mechanical-splice failures.",
         "excerpt": "• - Fastener pull-out • - Corrosion or wear Troubleshooting: • - Check alignment and torque • - Inspect hinge pin • - Replace worn fasteners promptly 42"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q082",
+      "learningHelpKey": "belt-splice"
     },
     {
       "id": "q085",
@@ -47,7 +50,10 @@
         "page": 41,
         "text": "Review Pros and Cons of Mechanical Splices, slide 41. The guide lists a raised profile and lower strength compared with vulcanized joints.",
         "excerpt": "• - Raised joint profile • - Requires regular inspection 41"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q085",
+      "learningHelpKey": "belt-splice"
     },
     {
       "id": "conveyor-c16-18",
@@ -69,7 +75,9 @@
       "reviewCue": {
         "page": 16,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 16. The maintenance list includes tooth wear, sprocket set screws, and motor/reducer mounting bolts."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c16-18"
     },
     {
       "id": "conveyor-c17-19",
@@ -91,7 +99,9 @@
       "reviewCue": {
         "page": 17,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 17. The inspection procedure checks conveyor fasteners and corrects looseness before operation."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c17-19"
     },
     {
       "id": "conveyor-clp2-20",
@@ -113,7 +123,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review ClipperTrainingManual_0214.pdf, PDF page 2. The manual lists crowned pulleys, bias splices, troughed belts, and large back bends among Unibar restrictions."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-clp2-20"
     },
     {
       "id": "conveyor-clp2-21",
@@ -135,7 +147,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review ClipperTrainingManual_0214.pdf, PDF page 2. The manual offers material options and includes environment/application considerations in fastener selection."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-clp2-21"
     },
     {
       "id": "conveyor-fastener-pullout",
@@ -157,7 +171,9 @@
       "reviewCue": {
         "page": 42,
         "text": "Review Conveyors.pdf, slide 42. The troubleshooting slide directs checking alignment and suitable fasteners, then replacing worn parts."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-fastener-pullout"
     }
   ]
 }

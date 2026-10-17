@@ -50,7 +50,10 @@
         "page": 39,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Control power is taken from power circuit using a control transformer to step down the voltage ► The control transformer also isolates the control circuit from the power circuit 39"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-transformer",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "mc-sizing",
@@ -89,7 +92,10 @@
         "page": 46,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Output current required, both in-rush and steady state 46"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-sizing",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "wb-6",
@@ -119,7 +125,9 @@
         "page": 39,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Function of a Control Transformer ► Line starting - power for the control circuit taken directly from one phase and neutral or two phases that feed the motor ► Separate control - power that is supplied to control circuit is different that power supplied to the…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-6"
     },
     {
       "id": "wb-7",
@@ -155,7 +163,10 @@
       "reviewCue": {
         "page": 35,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 4. Also see C202 Electric Motor Controls.pdf, PDF page 35. For the ideal transformer, primary-to-secondary voltage ratio equals primary-to-secondary turns ratio. Look for Np/Ns = Vp/Vs."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-7",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "wb-8",
@@ -185,7 +196,9 @@
         "page": 47,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Steady state VA - secondary voltage multiplied by secondary current during steady state ► Max in-rush VA - secondary voltage multiplied by secondary current during in-rush on a machine which has a motor or other inductive load 47"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-8"
     },
     {
       "id": "c202x-secondary",
@@ -217,7 +230,10 @@
         "page": 36,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Multiple Secondary Coils ► A transformer can have more than one secondary coil 36"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-secondary",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-dual",
@@ -249,7 +265,10 @@
         "page": 40,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A dual-voltage transformer has two primary coils and one secondary coil ► The two primary coils can be configured to be connected to two different voltage lines ► In most cases, it is used to reduce the main or line voltage of 240 VAC or 480 VAC to 120 VAC 4…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-dual",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-parallel",
@@ -283,7 +302,10 @@
       "reviewCue": {
         "page": 41,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 5. Also see C202 Electric Motor Controls.pdf, PDF page 41. At the lower 240 V supply, the two primary coils are connected in parallel. Series is used for 480 V."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-parallel",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-series",
@@ -317,7 +339,10 @@
       "reviewCue": {
         "page": 42,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 6. Also see C202 Electric Motor Controls.pdf, PDF page 42. Series connection divides the higher supply voltage between the two primary windings. Compare the series and parallel primary diagrams."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-series",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-taps",
@@ -355,7 +380,10 @@
         "page": 43,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A multi-tap transformer has multiple taps on the primary and/or secondary coil ► This allows the transformer to be connected to a variety of line voltages 43"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-taps",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-open",
@@ -387,7 +415,10 @@
         "page": 44,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Opens in Coils - if any of the coils show infinity, the winding is open ► Shorts between Coils - should show infinite resistance between primary and secondary coils ► Shorts within Coils - effectively reduces the number of turns ► Coils Shorted to the Core -…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-open",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-isolated",
@@ -419,7 +450,10 @@
         "page": 44,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Shorts between Coils - should show infinite resistance between primary and secondary coils ► Shorts within Coils - effectively reduces the number of turns ► Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens i…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-isolated",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-core",
@@ -451,7 +485,9 @@
         "page": 44,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens in Coils Shorts between Coils Shorts within Coils Coils Shorted to the Core 44"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-core"
     },
     {
       "id": "c202x-turns",
@@ -483,7 +519,9 @@
         "page": 44,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Shorts within Coils - effectively reduces the number of turns ► Coils Shorted to the Core - each coil should show infinite resistance between it and the core Opens in Coils Shorts between Coils Shorts within Coils Coils Shorted to the Core 44"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-turns"
     },
     {
       "id": "c202x-size",
@@ -515,7 +553,10 @@
         "page": 46,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Output current required, both in-rush and steady state 46"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-size",
+      "learningHelpKey": "transformer"
     }
   ]
 }

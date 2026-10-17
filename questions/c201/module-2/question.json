@@ -33,7 +33,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Series - one path for current to flow ■ Total current flows through each component ○ Parallel - more than one path for current to flow ■ Current splits between branch A and branch B at node 1 and rejoins at node 2 Types of Electrical Circuits Series Parallel…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q009"
     },
     {
       "id": "q010",
@@ -62,7 +64,9 @@
         "page": 22,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● In a parallel circuit, the same voltage is available to each of the branches ○ Voltage drop across each branch is the same"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q010"
     },
     {
       "id": "q011",
@@ -91,7 +95,9 @@
         "page": 19,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Leads are connected across the component (in parallel)"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q011"
     },
     {
       "id": "q012",
@@ -120,7 +126,9 @@
         "page": 24,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● To measure current, the ammeter is placed in series with the component ○ Different than measuring voltage or resistance where leads are connected across the component (in parallel)"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q012"
     },
     {
       "id": "q013",
@@ -149,7 +157,9 @@
         "page": 28,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Turn off the power to the circuit and disconnect one terminal of the component Schematic Symbol"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q013"
     },
     {
       "id": "q014",
@@ -178,7 +188,9 @@
         "page": 25,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Current does not change as it flows through a series circuit ● It is not common to connect loads in series ○ If one of the loads fails, all of the loads will lose power ○ Many older holiday lights were connected in series; when one burned out, they were all …"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q014"
     },
     {
       "id": "q015",
@@ -207,7 +219,9 @@
         "page": 26,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Current in a parallel circuit is divided among the branches ○ Amount of current that flows in each branch depends on the resistance in that branch ○ If one of the loads fails, the others will continue to work ○ Newer holiday lights are connected in parallel …"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q015"
     },
     {
       "id": "visual-e-series",
@@ -242,7 +256,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Series - one path for current to flow ■ Total current flows through each component ○ Parallel - more than one path for current to flow ■ Current splits between branch A and branch B at node 1 and rejoins at node 2 ○ OHMS LAW --- VOLTAGE = CURRENT times RESIS…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-e-series"
     },
     {
       "id": "visual-e-parallel",
@@ -277,7 +293,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "■ Current splits between branch A and branch B at node 1 and rejoins at node 2 ○ OHMS LAW --- VOLTAGE = CURRENT times RESISTANCE therefore if CURRENT = .3 amps and RESISTANCE = 100 ohms, VOLTAGE = .3 x 100 = 30 amps. Others, R=V/I or I=V/R and Power = V x I Ty…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-e-parallel"
     },
     {
       "id": "visual-e-parallel-voltage",
@@ -312,7 +330,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● All electrical circuits are made up of a combination of two types ○ Series - one path for current to flow ■ Total current flows through each component ○ Parallel - more than one path for current to flow ■ Current splits between branch A and branch B at node …"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-e-parallel-voltage"
     },
     {
       "id": "visual-e-voltmeter",
@@ -347,7 +367,9 @@
         "page": 19,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Leads are connected across the component (in parallel) 19"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-e-voltmeter"
     },
     {
       "id": "visual-e-ammeter",
@@ -382,7 +404,9 @@
         "page": 24,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● To measure current, the ammeter is placed in series with the component ○ Different than measuring voltage or resistance where leads are connected across the component (in parallel) 24"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-e-ammeter"
     },
     {
       "id": "c201x-series-path",
@@ -420,7 +444,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Series - one path for current to flow ■ Total current flows through each component ○ Parallel - more than one path for current to flow ■ Current splits between branch A and branch B at node 1 and rejoins at node 2 ○ OHMS LAW --- VOLTAGE = CURRENT times RESIS…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-series-path"
     },
     {
       "id": "c201x-parallel-path",
@@ -458,7 +484,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "■ Current splits between branch A and branch B at node 1 and rejoins at node 2 ○ OHMS LAW --- VOLTAGE = CURRENT times RESISTANCE therefore if CURRENT = .3 amps and RESISTANCE = 100 ohms, VOLTAGE = .3 x 100 = 30 amps. Others, R=V/I or I=V/R and Power = V x I Ty…"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c201x-parallel-path"
     },
     {
       "id": "c201x-analogy",
@@ -490,7 +518,9 @@
         "page": 17,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ A column of water exerts a force, increasing with height (potential energy) Potential Energy Pressure (Force) 17"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-analogy"
     },
     {
       "id": "c201x-voltage",
@@ -522,7 +552,9 @@
         "page": 18,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Measure as a difference in potential (force) between two points ○ Unit of measure is the Volt represented by E (electromotive force) or V (voltage) ○ V is most often used in schematics ● Type of voltage depends on if it produces direct current or alternating…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-voltage"
     },
     {
       "id": "c201x-voltmeter",
@@ -560,7 +592,9 @@
         "page": 19,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Leads are connected across the component (in parallel) 19"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-voltmeter"
     },
     {
       "id": "c201x-points",
@@ -592,7 +626,9 @@
         "page": 20,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Two points are needed to measure voltage ○ Value measured depends on which two points you use ● A power supply provides a source of both high and low potential ● Three points of interest: ○ Point A - highest potential because it is closest to the high potent…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-points"
     },
     {
       "id": "c201x-series-drops",
@@ -624,7 +660,9 @@
         "page": 21,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ The amount of voltage that used by each load (its voltage drop) depends on its resistance 21"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-series-drops"
     },
     {
       "id": "c201x-branch-voltage",
@@ -668,7 +706,9 @@
         "page": 22,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● In a parallel circuit, the same voltage is available to each of the branches ○ Voltage drop across each branch is the same 22"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-branch-voltage"
     },
     {
       "id": "c201x-current-unit",
@@ -700,7 +740,9 @@
         "page": 23,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Measured in units called amperes (amps) and abbreviated by the symbol A ○ Values can be very small (e.g. 0.001 A), in which case the unit is milliamp or mA 23 03"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-current-unit"
     },
     {
       "id": "c201x-ammeter",
@@ -738,7 +780,9 @@
         "page": 24,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● To measure current, the ammeter is placed in series with the component ○ Different than measuring voltage or resistance where leads are connected across the component (in parallel) 24"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-ammeter"
     },
     {
       "id": "c201x-series-current",
@@ -770,7 +814,10 @@
         "page": 25,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Current does not change as it flows through a series circuit ● It is not common to connect loads in series ○ If one of the loads fails, all of the loads will lose power ○ Many older holiday lights were connected in series; when one burned out, they were all …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-series-current",
+      "learningHelpKey": "series-parallel"
     },
     {
       "id": "c201x-series-open",
@@ -802,7 +849,9 @@
         "page": 25,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Current Flow (Series) ● Current does not change as it flows through a series circuit ● It is not common to connect loads in series ○ If one of the loads fails, all of the loads will lose power ○ Many older holiday lights were connected in series; when one burn…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-series-open"
     },
     {
       "id": "c201x-branch-open",
@@ -834,7 +883,9 @@
         "page": 26,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Current in a parallel circuit is divided among the branches ○ Amount of current that flows in each branch depends on the resistance in that branch ○ If one of the loads fails, the others will continue to work ○ Newer holiday lights are connected in parallel …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-branch-open"
     },
     {
       "id": "c201x-ohms",
@@ -866,7 +917,9 @@
         "page": 27,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Higher values measured in kilo-ohms (kΩ) or mega-ohms (MΩ) 27"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-ohms"
     },
     {
       "id": "c201x-meter-symbol",
@@ -905,7 +958,9 @@
         "page": 28,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● An ohmmeter measures the resistance between two points in a circuit ○ Test leads are placed in parallel with the component to be measured ○ Turn off the power to the circuit and disconnect one terminal of the component Schematic Symbol 28"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-meter-symbol"
     },
     {
       "id": "c201x-resistance-setup",
@@ -937,7 +992,9 @@
         "page": 28,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Turn off the power to the circuit and disconnect one terminal of the component Schematic Symbol 28"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-resistance-setup"
     },
     {
       "id": "c201x-color-value",
@@ -976,7 +1033,9 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Resistance Color Coding 29"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-color-value"
     },
     {
       "id": "c201x-tolerance",
@@ -1008,7 +1067,9 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Resistance Color Coding 29"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-tolerance"
     },
     {
       "id": "c201x-color-value2",
@@ -1047,7 +1108,9 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Resistance Color Coding 29"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-color-value2"
     },
     {
       "id": "c201x-add-series",
@@ -1086,7 +1149,10 @@
         "page": 30,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● In series, individual resistances add together to increase the total resistance 30"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c201x-add-series",
+      "learningHelpKey": "series-parallel"
     },
     {
       "id": "c201x-parallel-total",
@@ -1125,7 +1191,9 @@
         "page": 31,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Resistance (Parallel) ● In parallel, total resistance decreases when more resistors are added 31"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-parallel-total"
     },
     {
       "id": "c201x-toll",
@@ -1157,7 +1225,9 @@
         "page": 32,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Toll Booth Analogy A Single Resistor Three Resistors in Series Three Resistors in Parallel 32"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-toll"
     },
     {
       "id": "c201x-continuity",
@@ -1189,7 +1259,9 @@
         "page": 33,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "■ If a conductor has continuity, display shows a very small resistance value (0.01 Ω) ■ If there is an open in the conductor, the display shows an out-of-range indication ○ Using a Continuity(circuit) Tester ■ Indicates continuity with a buzzing sound ■ Compos…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-continuity"
     },
     {
       "id": "c201x-buzzer",
@@ -1221,7 +1293,9 @@
         "page": 33,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "■ Indicates continuity with a buzzing sound ■ Composed of a power source and a sounding device ■ Placing test leads across a conductor with continuity completes the circuit 33"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-buzzer"
     }
   ]
 }

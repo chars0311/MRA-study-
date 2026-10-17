@@ -24,7 +24,10 @@
         "page": 82,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 82. Sprocket ratio = 40/20 = 2. Output speed = 1000/2 = 500 RPM.",
         "excerpt": "DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in opposite directions If you halve speed, you double torque 82"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "q129",
+      "learningHelpKey": "gear-ratio"
     },
     {
       "id": "q130",
@@ -50,7 +53,10 @@
         "page": 82,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 82. Output torque = input torque × ratio = 600 × 2 = 1200 in·lbf.",
         "excerpt": "The Sprocket Ratio = 40/20 = 2 Since the DRIVEN(larger)sprocket will move slower than DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in oppos…"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "q130",
+      "learningHelpKey": "gear-ratio"
     },
     {
       "id": "q131",
@@ -76,7 +82,9 @@
         "page": 38,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 38. There are 60 seconds per minute: 1 × 60 = 60 revolutions per minute.",
         "excerpt": "per minute or RPM. If a motor shaft is turning at one revolution per second, the speed is 60 RPM. Contact Tachometer - The rubber contact of the tachometer tip is placed on the end of the spinning shaft. It spins at the same speed as the shaft and it’s interna…"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "q131"
     },
     {
       "id": "q132",
@@ -102,7 +110,9 @@
         "page": 37,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "In our lab exercise, the target belt stretch is 0.25% In 100 inches, this is 0.25” (1/4”) We don’t have 100” of belt length to work with, so we use 25” as a reference, aiming for 1/16 of stretch in that 25”. (¼ of 100” is 25” and ¼ of ¼” is 1/16”) 37"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "q132"
     },
     {
       "id": "calc-turns",
@@ -530,7 +540,9 @@
         "page": 35,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "► The turns ratio is the number of turns in the primary coil divided by the number of turns in the secondary coil Turns Ratio 35 A09S A09"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "calc-turns"
     },
     {
       "id": "calc-secondary",
@@ -958,7 +970,10 @@
         "page": 37,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "► The secondary output voltage of a transformer is calculated by dividing the primary voltage by the turns ratio 37"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "calc-secondary",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "calc-steady",
@@ -1386,7 +1401,9 @@
         "page": 47,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "► Steady state VA - secondary voltage multiplied by secondary current during steady state ► Max in-rush VA - secondary voltage multiplied by secondary current during in-rush on a machine which has a motor or other inductive load 47"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "calc-steady"
     },
     {
       "id": "calc-inrush",
@@ -1814,7 +1831,9 @@
         "page": 47,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "► Steady state VA - secondary voltage multiplied by secondary current during steady state ► Max in-rush VA - secondary voltage multiplied by secondary current during in-rush on a machine which has a motor or other inductive load 47"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "calc-inrush"
     },
     {
       "id": "calc-overload-arithmetic",
@@ -2242,7 +2261,9 @@
         "page": 31,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "use it. Otherwise, use the equipment manual find the trip point setting. If the trip point is not known, use the motor nameplate: Motor nameplates usually list FLC (full load current)and SF(service factor). Amatrol Skill 5A - Set Trip Level of a Motor Starter …"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "calc-overload-arithmetic"
     },
     {
       "id": "calc-speed",
@@ -2664,7 +2685,10 @@
         "page": 82,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 82. Ratio = driven ÷ driver = 2. Output speed = 600 ÷ 2 = 300 RPM.",
         "excerpt": "DRIVER(smaller) sprocket, the speed will be 1000 RPM/2=500RPM The Sprocket Ratio = 40/20=2 TORQUE WILL BE HIGHER 600 in-lbs x 2 = 1200 in-lbs Speed and torque change in opposite directions If you halve speed, you double torque 82"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "calc-speed",
+      "learningHelpKey": "gear-ratio"
     },
     {
       "id": "c201x-calc-series",
@@ -2743,7 +2767,10 @@
         "page": 36,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "Total Series Resistance ● The total resistance in a circuit determines how much power the circuit draws ● If the loads are connected in series, add the individual resistances 36 17 SYLLABUS. AI-generated content may be incorrect."
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-series",
+      "learningHelpKey": "series-parallel"
     },
     {
       "id": "c201x-calc-parallel",
@@ -2822,7 +2849,10 @@
         "page": 37,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "● The total resistance decreases as you add more resistors ● Alternate (rearranged) formulas: Total Parallel Resistance 37 EXAMPLE: 60, 45 AND 35 OHM RESISTORS CONNECTED IN PARALLEL, WHAT IS THE TOTAL RESISTANCE"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-parallel",
+      "learningHelpKey": "series-parallel"
     },
     {
       "id": "c201x-calc-current",
@@ -2901,7 +2931,9 @@
         "page": 39,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "● Voltage, current, and resistance are related to each other by Ohm’s Law ○ Applies to electrical circuits where the loads are only resistance-type loads ○ “One volt can push one amp through one ohm of resistance” 39"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-current"
     },
     {
       "id": "c201x-calc-voltage",
@@ -2980,7 +3012,9 @@
         "page": 39,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "● Voltage, current, and resistance are related to each other by Ohm’s Law ○ Applies to electrical circuits where the loads are only resistance-type loads ○ “One volt can push one amp through one ohm of resistance” 39"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-voltage"
     },
     {
       "id": "c201x-calc-resistance",
@@ -3059,7 +3093,9 @@
         "page": 40,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "● With Ohm’s Law, any of the three values for voltage, current, or resistance can be calculated if the other two are known 40"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-resistance"
     },
     {
       "id": "c201x-calc-kvl",
@@ -3138,7 +3174,9 @@
         "page": 41,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "● Kirchhoff’s Voltage Law states that the total voltage in a series circuit is equal to the sum of the individual voltage drops in the circuit 41"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-kvl"
     },
     {
       "id": "c201x-calc-kcl",
@@ -3217,7 +3255,9 @@
         "page": 42,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "○ In a parallel circuit, the total current to/from the power supply is called the main line current 42"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-kcl"
     },
     {
       "id": "c201x-calc-power",
@@ -3296,7 +3336,9 @@
         "page": 43,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "● Power is the measure of the energy consumed by a circuit ● Measured in watts, abbreviated W ● “One watt is consumed when one volt pushes one amp through a circuit” ● Power = Current x Voltage 43"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-power"
     },
     {
       "id": "c201x-calc-firm",
@@ -3375,7 +3417,9 @@
         "page": 56,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "○ A firm voltage divider uses a bleeder resistor that is 1/10 the resistance of the load ■ Used if the load voltage does not need to be very constant ■ Does not consume as much power as the stiff voltage divider ○ A stiff voltage divider uses a bleeder resisto…"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-firm"
     },
     {
       "id": "c201x-calc-stiff",
@@ -3454,7 +3498,9 @@
         "page": 56,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "○ A stiff voltage divider uses a bleeder resistor that is 1/100 the resistance of the load ■ Used when the load voltage must be more constant ○ Power wasted is 10-100X the load power ● Loaded voltage dividers are used if the load resistance is relatively low ○…"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-stiff"
     },
     {
       "id": "c201x-calc-divider",
@@ -3533,7 +3579,9 @@
         "page": 57,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "Firm and Stiff Voltage Divider Formulas ● Can be used to calculate the load voltage if you know the resistance ● Can also be used to size R1 if you know what the voltage needs to be ● Actually an approximation because it assumes RL is infinite 57"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-divider"
     },
     {
       "id": "c201x-calc-transformer",
@@ -3612,7 +3660,10 @@
         "page": 67,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "● To determine output voltage you need only input voltage and turns ratio 67"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-transformer",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-calc-va",
@@ -3691,7 +3742,10 @@
         "page": 70,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "○ Output current required, both in-rush and steady-state ● With this information, you can use a catalog specification sheet ○ Safely and efficiently provide the maximum current that can be drawn by the load ○ Machines with motors or other high in-rush devices …"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-va",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c201x-calc-primary",
@@ -3770,7 +3824,10 @@
         "page": 77,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "Voltage and Current Relationship ● Input power and output power are equal ● If voltage goes up, current goes down 77"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c201x-calc-primary",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-voltage",
@@ -3812,7 +3869,10 @@
         "imageKey": "teacher-mpre-p18-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 18
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c202x-voltage",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-steady",
@@ -3891,7 +3951,9 @@
         "page": 47,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "machine which has a motor or other inductive load 47"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c202x-steady"
     },
     {
       "id": "c202x-inrush",
@@ -3970,7 +4032,9 @@
         "page": 47,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "► Steady state VA - secondary voltage multiplied by secondary current during steady state ► Max in-rush VA - secondary voltage multiplied by secondary current during in-rush on a machine which has a motor or other inductive load 47"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c202x-inrush"
     },
     {
       "id": "c202x-differential",
@@ -4049,7 +4113,9 @@
         "page": 117,
         "text": "Find the formula or relationship in the passage below. Identify the input values and units, then follow the worked calculation above using this question’s numbers.",
         "excerpt": "reset pressure is deadband or differential ► Prevents the switch from rapidly cycling on and off 117"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c202x-differential"
     },
     {
       "id": "c201x-milliamp",
@@ -4082,7 +4148,9 @@
         "page": 23,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Electrical current is the flow of electrons through a circuit ○ Can either flow in one direction (DC) or alternatively in two directions (AC) ○ Measured in units called amperes (amps) and abbreviated by the symbol A ○ Values can be very small (e.g. 0.001 A),…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-milliamp"
     },
     {
       "id": "c201x-kilo",
@@ -4115,7 +4183,9 @@
         "page": 27,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Higher values measured in kilo-ohms (kΩ) or mega-ohms (MΩ) 27"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-kilo"
     },
     {
       "id": "c201x-kvl",
@@ -4148,7 +4218,9 @@
         "page": 41,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Kirchhoff’s Voltage Law states that the total voltage in a series circuit is equal to the sum of the individual voltage drops in the circuit 41"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-kvl"
     },
     {
       "id": "c201x-parallel-section",
@@ -4187,7 +4259,9 @@
         "page": 51,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solve a Combination Circuit Example 51"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-parallel-section"
     },
     {
       "id": "c201x-rating",
@@ -4219,7 +4293,9 @@
         "page": 71,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Select a VA Rating that is above, but closest to, the required value ○ Never undersize a transformer Specification Sheet 71"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-rating"
     },
     {
       "id": "c202-safety-shock-convert",
@@ -4249,7 +4325,9 @@
       ],
       "reviewCue": {
         "text": "Look above the table for “100 mA (0.1 A)” and check the milliamp-to-amp conversion."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-safety-shock-convert"
     },
     {
       "id": "c202x-rating",
@@ -4281,7 +4359,9 @@
         "page": 48,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Pick the one that is above but closest to the required value 48"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-rating"
     },
     {
       "id": "c202-quiz-primary-turns",
@@ -4310,7 +4390,10 @@
       "reviewCue": {
         "page": 1,
         "text": "Review Motors 3-4.pdf, PDF page 1. The voltage ratio is 120 ÷ 24 = 5:1. Primary turns = 400 × 5 = 2,000. Look for the primary-to-secondary turns and voltage relationship."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-primary-turns",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c209-math-force",
@@ -4336,7 +4419,10 @@
         "page": 60,
         "text": "Review C209 Pneumatic Systems.pdf, slide 60. Identify the formula and substitute the stated values.",
         "excerpt": "Calculating Force\nExtending Force Equation\n► The theoretical amount of force \ncreated by the cylinder can be \ncalculated using the pressure \nand the area of the piston.\n► To find the area of the circular \npiston, use the formula for the \narea of the circle.\n60"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c209-math-force",
+      "learningHelpKey": "pressure-force"
     },
     {
       "id": "c209-math-pressure",
@@ -4362,7 +4448,10 @@
         "page": 60,
         "text": "Review C209 Pneumatic Systems.pdf, slide 60. Identify the formula and substitute the stated values.",
         "excerpt": "Calculating Force\nExtending Force Equation\n► The theoretical amount of force \ncreated by the cylinder can be \ncalculated using the pressure \nand the area of the piston.\n► To find the area of the circular \npiston, use the formula for the \narea of the circle.\n60"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c209-math-pressure",
+      "learningHelpKey": "pressure-force"
     },
     {
       "id": "c209-math-retract",
@@ -4388,7 +4477,10 @@
         "page": 61,
         "text": "Review C209 Pneumatic Systems.pdf, slide 61. Identify the formula and substitute the stated values.",
         "excerpt": "Calculating Force\nCalculating Force\n► The pressure cannot be exerted \nover all the surfaces inside the \nrod end of the cylinder. \n► The pressure only acts on the \n“donut” or annular area.\n61"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c209-math-retract",
+      "learningHelpKey": "pressure-force"
     },
     {
       "id": "c209-math-leverage",
@@ -4414,7 +4506,9 @@
         "page": 64,
         "text": "Review C209 Pneumatic Systems.pdf, slide 64. Identify the formula and substitute the stated values.",
         "excerpt": "Pneumatic Leverage\nExample\n► If a force of 10 lbs. is applied \nover a small piston with 1 square-\ninch area, a pressure of 10 psi is \ncreated in the confined fluid.\n► In accordance with Pascal’s \nlaw, the same 10 psi acts on a \nlarger 10 in. piston creating 100 \nlbs. on the larger piston.\nhttps://www.youtube.com/watch?v=aoMCRG4zM2s\n64"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c209-math-leverage"
     },
     {
       "id": "c209-math-flow",
@@ -4440,7 +4534,10 @@
         "page": 78,
         "text": "Review C209 Pneumatic Systems.pdf, slide 78. Identify the formula and substitute the stated values.",
         "excerpt": "FLOW RATE\nFormula\n• US customary uses CFM\n• SI system uses CMM\nExample\n3 cubic feet of air passes a \nmeasurement point in 1 minute,  so the \nflow rate is 3CFM \n3.00 ft³\n1 min. = 60 sec.\nRf=3.00ft³ \n1 min. 3 cfm\n78"
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c209-math-flow",
+      "learningHelpKey": "flow-rate"
     },
     {
       "id": "c209-math-gauge-error",
@@ -4473,7 +4570,9 @@
       },
       "numeric": 80,
       "unit": "kPa",
-      "tolerance": 0.1
+      "tolerance": 0.1,
+      "category": "Calculate",
+      "conceptKey": "c209-math-gauge-error"
     },
     {
       "id": "c209-math-flow-hour",
@@ -4506,7 +4605,9 @@
       },
       "numeric": 900,
       "unit": "m³/hr",
-      "tolerance": 0.1
+      "tolerance": 0.1,
+      "category": "Calculate",
+      "conceptKey": "c209-math-flow-hour"
     },
     {
       "id": "c209-math-diameter",
@@ -4531,7 +4632,10 @@
       "reviewCue": {
         "page": 60,
         "text": "Review C209 Pneumatic Systems.pdf, slide 60. Area = 0.7854 × 2² = 3.1416 in². Force = 80 × 3.1416 = 251.3 lb."
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c209-math-diameter",
+      "learningHelpKey": "pressure-force"
     },
     {
       "id": "c209-math-absolute",
@@ -4556,7 +4660,10 @@
       "reviewCue": {
         "page": 65,
         "text": "Review C209 Pneumatic Systems.pdf, slide 65. Pabsolute = Pgauge + Patmospheric = 60 + 14.7 = 74.7 psia."
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c209-math-absolute",
+      "learningHelpKey": "absolute-pressure"
     },
     {
       "id": "c209-math-boyle",
@@ -4581,7 +4688,10 @@
       "reviewCue": {
         "page": 69,
         "text": "Review C209 Pneumatic Systems.pdf, slide 69. P1V1 = P2V2, so P2 = 100 × 4 / 2 = 200 kPa absolute."
-      }
+      },
+      "category": "Calculate",
+      "conceptKey": "c209-math-boyle",
+      "learningHelpKey": "absolute-pressure"
     },
     {
       "id": "c209-math-final-absolute",
@@ -4614,7 +4724,10 @@
       },
       "numeric": 741.3,
       "unit": "kPa absolute",
-      "tolerance": 0.1
+      "tolerance": 0.1,
+      "category": "Calculate",
+      "conceptKey": "c209-math-final-absolute",
+      "learningHelpKey": "absolute-pressure"
     },
     {
       "id": "c209-math-final-pa",
@@ -4647,7 +4760,9 @@
       },
       "numeric": 0.5,
       "unit": "kPa",
-      "tolerance": 0.1
+      "tolerance": 0.1,
+      "category": "Calculate",
+      "conceptKey": "c209-math-final-pa"
     },
     {
       "id": "c210-math-hp",
@@ -4673,7 +4788,9 @@
       },
       "numeric": 6.66,
       "unit": "hp",
-      "tolerance": 0.15
+      "tolerance": 0.15,
+      "category": "Calculate",
+      "conceptKey": "c210-math-hp"
     },
     {
       "id": "c210-math-efficiency",
@@ -4699,7 +4816,9 @@
       },
       "numeric": 80,
       "unit": "%",
-      "tolerance": 0.15
+      "tolerance": 0.15,
+      "category": "Calculate",
+      "conceptKey": "c210-math-efficiency"
     },
     {
       "id": "c210-math-sprocket",
@@ -4725,7 +4844,10 @@
       },
       "numeric": 400,
       "unit": "RPM",
-      "tolerance": 0.15
+      "tolerance": 0.15,
+      "category": "Calculate",
+      "conceptKey": "c210-math-sprocket",
+      "learningHelpKey": "gear-ratio"
     },
     {
       "id": "c210-math-gear-torque",
@@ -4751,7 +4873,9 @@
       },
       "numeric": 36,
       "unit": "ft-lb",
-      "tolerance": 0.15
+      "tolerance": 0.15,
+      "category": "Calculate",
+      "conceptKey": "c210-math-gear-torque"
     },
     {
       "id": "c210-math-pitch",
@@ -4777,7 +4901,9 @@
       },
       "numeric": 10,
       "unit": "teeth/in",
-      "tolerance": 0.15
+      "tolerance": 0.15,
+      "category": "Calculate",
+      "conceptKey": "c210-math-pitch"
     },
     {
       "id": "c210-math-pulley",
@@ -4803,7 +4929,10 @@
       },
       "numeric": 300,
       "unit": "RPM",
-      "tolerance": 0.15
+      "tolerance": 0.15,
+      "category": "Calculate",
+      "conceptKey": "c210-math-pulley",
+      "learningHelpKey": "gear-ratio"
     },
     {
       "id": "c210-math-chain-wear",
@@ -4829,7 +4958,9 @@
       },
       "numeric": 41.2,
       "unit": "in",
-      "tolerance": 0.15
+      "tolerance": 0.15,
+      "category": "Calculate",
+      "conceptKey": "c210-math-chain-wear"
     },
     {
       "id": "c210-math-compound",
@@ -4855,7 +4986,10 @@
       },
       "numeric": 200,
       "unit": "RPM",
-      "tolerance": 0.15
+      "tolerance": 0.15,
+      "category": "Calculate",
+      "conceptKey": "c210-math-compound",
+      "learningHelpKey": "gear-ratio"
     },
     {
       "id": "conveyor-length",
@@ -4880,7 +5014,9 @@
       },
       "numeric": 380.56,
       "unit": "in",
-      "tolerance": 1.9028
+      "tolerance": 1.9028,
+      "category": "Calculate",
+      "conceptKey": "conveyor-length"
     },
     {
       "id": "conveyor-centers",
@@ -4905,7 +5041,9 @@
       },
       "numeric": 282,
       "unit": "in",
-      "tolerance": 1.41
+      "tolerance": 1.41,
+      "category": "Calculate",
+      "conceptKey": "conveyor-centers"
     },
     {
       "id": "conveyor-reducer",
@@ -4930,7 +5068,9 @@
       },
       "numeric": 69,
       "unit": "RPM",
-      "tolerance": 0.34500000000000003
+      "tolerance": 0.34500000000000003,
+      "category": "Calculate",
+      "conceptKey": "conveyor-reducer"
     },
     {
       "id": "conveyor-pulley-rpm",
@@ -4955,7 +5095,10 @@
       },
       "numeric": 40.25,
       "unit": "RPM",
-      "tolerance": 0.20125
+      "tolerance": 0.20125,
+      "category": "Calculate",
+      "conceptKey": "conveyor-pulley-rpm",
+      "learningHelpKey": "gear-ratio"
     },
     {
       "id": "conveyor-fpm",
@@ -4980,7 +5123,9 @@
       },
       "numeric": 42.18,
       "unit": "FPM",
-      "tolerance": 0.2109
+      "tolerance": 0.2109,
+      "category": "Calculate",
+      "conceptKey": "conveyor-fpm"
     },
     {
       "id": "conveyor-direct",
@@ -5005,7 +5150,9 @@
       },
       "numeric": 50,
       "unit": "FPM",
-      "tolerance": 0.25
+      "tolerance": 0.25,
+      "category": "Calculate",
+      "conceptKey": "conveyor-direct"
     },
     {
       "id": "alignment-shim-mils",
@@ -5030,7 +5177,9 @@
       },
       "numeric": 2,
       "unit": "shims",
-      "tolerance": 0.01
+      "tolerance": 0.01,
+      "category": "Calculate",
+      "conceptKey": "alignment-shim-mils"
     },
     {
       "id": "alignment-angle",
@@ -5055,7 +5204,134 @@
       },
       "numeric": 180,
       "unit": "degrees",
-      "tolerance": 0.9
+      "tolerance": 0.9,
+      "category": "Calculate",
+      "conceptKey": "alignment-angle"
+    },
+    {
+      "id": "gap-math-belt-deflection",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A belt’s unsupported span is 32 inches. Using span/64, find the target deflection.",
+      "answer": "0.5 in",
+      "options": [
+        "0.5 in",
+        "2 in",
+        "0.25 in",
+        "32 in"
+      ],
+      "numeric": 0.5,
+      "unit": "in",
+      "tolerance": 0.0025,
+      "explanation": "Target deflection = 32/64 = 0.5 inch.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 119",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 119,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 119. Target deflection = 32/64 = 0.5 inch."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1022772949/saca-c-210-mechanical-power-systems-1-updated-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Calculate",
+      "conceptKey": "gap-math-belt-deflection"
+    },
+    {
+      "id": "gap-math-belt-force-window",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "type": "formula",
+      "prompt": "A belt table gives a minimum test force of 8 lb. The course permits up to 50% more. Find maximum permitted test force.",
+      "answer": "12 lb",
+      "options": [
+        "12 lb",
+        "4 lb",
+        "8 lb",
+        "16 lb"
+      ],
+      "numeric": 12,
+      "unit": "lb",
+      "tolerance": 0.06,
+      "explanation": "Maximum = 8 × 1.5 = 12 lb; the permitted range is 8–12 lb for this supplied table value.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 119",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 119,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 119. Maximum = 8 × 1.5 = 12 lb; the permitted range is 8–12 lb for this supplied table value."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1022772949/saca-c-210-mechanical-power-systems-1-updated-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Calculate",
+      "conceptKey": "gap-math-belt-force-window"
+    },
+    {
+      "id": "gap-math-pressure-drop",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "source": "p",
+      "type": "formula",
+      "prompt": "A component’s inlet pressure is 450 kPa and its outlet is 60 kPa. Find the pressure drop.",
+      "answer": "390 kPa",
+      "options": [
+        "390 kPa",
+        "510 kPa",
+        "450 kPa",
+        "7.5 kPa"
+      ],
+      "numeric": 390,
+      "unit": "kPa",
+      "tolerance": 1.95,
+      "explanation": "ΔP = inlet − outlet = 450 − 60 = 390 kPa.",
+      "section": "C209 Pneumatic Systems.pdf, slide 70",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 70,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 70. ΔP = inlet − outlet = 450 − 60 = 390 kPa."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1150210819/c-209-pneumatic-systems-1-study-guide-amatrol-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Calculate",
+      "conceptKey": "gap-math-pressure-drop"
+    },
+    {
+      "id": "gap-math-humidity-ratio",
+      "world": "pneumatic",
+      "topic": "Module 7 · Automatic Input Devices 1",
+      "source": "p",
+      "type": "formula",
+      "prompt": "Air holds 2 units of water vapor and could hold 4 units at the same temperature. Find relative humidity.",
+      "answer": "50 %",
+      "options": [
+        "50 %",
+        "200 %",
+        "25 %",
+        "2 %"
+      ],
+      "numeric": 50,
+      "unit": "%",
+      "tolerance": 0.25,
+      "explanation": "Relative humidity = actual/possible × 100 = 2/4 × 100 = 50%.",
+      "section": "C209 Pneumatic Systems.pdf, slide 130",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 130,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 130. Relative humidity = actual/possible × 100 = 2/4 × 100 = 50%."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1150210819/c-209-pneumatic-systems-1-study-guide-amatrol-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Calculate",
+      "conceptKey": "gap-math-humidity-ratio",
+      "learningHelpKey": "air-filter"
     }
   ]
 }

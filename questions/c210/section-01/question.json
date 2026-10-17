@@ -28,7 +28,9 @@
         "page": 2,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 2. The driver, or prime mover, supplies power to the driven device.",
         "excerpt": "A mechanical power transmission system is a device composed of linkages, shafts, bearings, gears, pulleys, or other components whose purpose is to transmit and control the force and motion from one device to another. The device from which the transmission syst…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q057"
     },
     {
       "id": "q058",
@@ -51,7 +53,9 @@
         "page": 7,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 7. The guide places couplings and clutches in the axial category.",
         "excerpt": "Category 1 - Axial Coupling, Clutch Category 2 - Shaft to Adjacent Shaft Belt, Chain, Gear Rotary Power Transmission 7"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q058"
     },
     {
       "id": "q062",
@@ -74,7 +78,9 @@
         "page": 38,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 38. RPM expresses how many full shaft rotations occur in one minute.",
         "excerpt": "per minute or RPM. If a motor shaft is turning at one revolution per second, the speed is 60 RPM. Contact Tachometer - The rubber contact of the tachometer tip is placed on the end of the spinning shaft. It spins at the same speed as the shaft and it’s interna…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q062"
     },
     {
       "id": "visual-g-square",
@@ -103,7 +109,9 @@
         "page": 41,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 41. The slide identifies this straight key with a square cross-section as a square key.",
         "excerpt": "Know SIX TYPES OF KEYS 6 1 2 3 4 5 RECTANGULAR WOODRUFF SQUARE KEY GIB HEAD OFFSET SADDLE 41"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-g-square"
     },
     {
       "id": "c210-slide-7-q0",
@@ -126,7 +134,9 @@
         "page": 7,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 7. Belt, chain, and gear drives connect adjacent shafts; couplings normally connect coaxial shafts.",
         "excerpt": "Category 1 - Axial\nCoupling, Clutch\nCategory 2 - Shaft to Adjacent Shaft\nBelt, Chain, Gear\nRotary Power Transmission \n7"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-7-q0"
     },
     {
       "id": "c210-slide-8-q1",
@@ -149,7 +159,9 @@
         "page": 8,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 8. A coupling transmits torque between coaxial shafts. Compare this with adjacent-shaft belt, chain, and gear drives.",
         "excerpt": "Axial Shaft to Shaft\nRigid or Flexible Coupling Clutch\n8"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-8-q1"
     },
     {
       "id": "c210-slide-10-q2",
@@ -172,7 +184,9 @@
         "page": 10,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 10. Loose clothing, hair, jewelry, and gloves can be drawn into moving equipment. Follow the six dress rules on the slide.",
         "excerpt": "Six Rules of Safe Dress for Working with Power Transmission \nEquipment\nDress safety rules help keep you or your clothing from getting \ncaught in the moving parts of a machine.\n1. Wear safety glasses always\n2. Avoid wearing loose-fitting clothes\n3. Remove ties, watches, rings and other jewelry\n4. Tie up long hair or put it in a cap or under your shirt\n5. WEAR HEAVY DUTY STEEL TOED SHOES. Canvas shoes are not \nacceptable.\n6. Roll up long sleeves or wear short sleeves\n*respiratory items if conditions required or if listed on the SDS \n(Safety Data Sheet)\nDo not wear gloves around machinery when it is running. \nA03\n10"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-10-q2"
     },
     {
       "id": "c210-slide-11-q3",
@@ -195,7 +209,9 @@
         "page": 11,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 11. The slide requires guards before operation and requires lockout while installing missing guards.",
         "excerpt": "Eight Mechanical Transmission Safety Rules\nEight Mechanical Transmission Safety Rules\n• Make sure machine power is off and its power switch is locked out by a lockout/tagout device.\n• Do not enter the machine's area of operation until the machine is completely stopped.\n• Always keep your tools clean and organized.\n• Do not work on wet floors.\n• Make sure all guards are in place before operating the machine. If guards are not properly \ninstalled, LOTO the machine and put the guards in place.\n• Make sure that you announce that you are going to start a machine before doing so to give \nothers a chance to clear the area.\n• Make sure that no one is in the area before starting a machine.\n• Always get help when lifting heavy parts\nLifts: \nBack and waist straight and use your knees. Heavy is defined as 51 pounds or greater: \nOccupational Safety and Health (NIOSH) provides guidelines for evaluatin"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-11-q3"
     },
     {
       "id": "c210-slide-13-q4",
@@ -218,7 +234,10 @@
         "page": 13,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 13. Each person servicing the equipment applies their own lock. The slide’s example uses three locks for three workers.",
         "excerpt": "Any person who is going to work around or “ON” the piece of equipment must perform a \nLOTO.\nExample: If an electrician, mechanic and a technician are working on the equipment and \na supervisor is just in the area, there must be 3 locks.\n⮚ The only person who should remove a lockout/ tagout is the person who installed it.\n⮚ In a case where there are several persons servicing a piece of equipment, a multiple \nlockout is used so that each person has their own lockout on the equipment.\n⮚ In order to restore the power, everyone must remove their own locks. This ensures that \neveryone is clear of the equipment before starting it.\n⮚ All companies are required to develop a lockout/tagout procedure and must train the \nemployees on the procedure.\nLockout/Tagout System - LOTO 13"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-13-q4",
+      "learningHelpKey": "safety"
     },
     {
       "id": "q059",
@@ -241,7 +260,9 @@
         "page": 14,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 14. The bedplate supports machinery and helps maintain alignment. It is anchored to the supporting foundation.",
         "excerpt": "Industrial equipment that transmits mechanical power must be securely mounted to handle the \nforces and torques it transmits to other machinery while it maintaining it’s alignment with the other \nmachinery. A building’s foundation is usually not suitable for direct mounting.\nMachinery is usually mounted to a bedplate, which is, in turn, mounted to a foundation.\nWhat is a Bedplate?\n⮚ The bedplate is a solid piece of metal, usually made of steel. It provides a rigid, level surface for \nmounting, which helps with components' alignment.\n⮚ The bedplate is anchored to the foundation with anchor bolts and is filled in with grout. Grout is a \ntype of concrete that provides support to the bedplate, giving it more rigidity.\n⮚ Before anchoring the bedplate, however, it should first be leveled. Leveling means to make the \nsurface of the bedplate parallel to the ground. The bedplate can be leveled by"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q059"
     },
     {
       "id": "c210-slide-15-q6",
@@ -264,7 +285,9 @@
         "page": 15,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 15. The foundation must prevent settling, maintain component alignment, and absorb vibration.",
         "excerpt": "A foundation is the structure that supports the bedplate under the machinery. The foundation for a \nmachine is important to its life and performance. It must be designed to perform three functions:\n⮚ Support the load of the machine without settling\n⮚ Maintain the alignment between coupled components\n⮚ Absorb any vibrations created by the machine or surrounding equipment\nThere are three Types of Foundations:\n⮚ Solid concrete\n⮚ Reinforced concrete\n⮚ Structural steel\nSolid concrete is usually considered the best\nFunction and Construction of a Foundation\n 15"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-15-q6"
     },
     {
       "id": "c210-slide-16-q7",
@@ -287,7 +310,9 @@
         "page": 16,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 16. A spirit level checks orientation relative to gravity. A tachometer measures shaft speed.",
         "excerpt": "The most common way to check the level of a surface, such as a bedplate, is a spirit level, or level. \n⮚ There are many applications where it is important to orient a surface so that it is \neither parallel or perpendicular to the ground.\n⮚ They’re regularly used in building construction with walls and floors, as well as in \nindustry with machinery.\nThe spirit levels are usually able to \nmeasure the perpendicularity as well \nas the parallelism of a surface with \nthe ground.\nSpirit Levels and their Application 16"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-16-q7"
     },
     {
       "id": "c210-slide-18-q8",
@@ -310,7 +335,9 @@
         "page": 18,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 18. Cleaning the fitting prevents dirt from being forced into the component with fresh grease.",
         "excerpt": "How Grease Is Applied \n⮚ Wipe the area, especially the Zerk fitting, clean\n⮚ Snap the coupler of the grease gun securely on the Zerk Fitting and pump grease \nuntil old grease comes out of the component *\n⮚ Wipe up the grease that flows out\nCOUPLER\n* This is standard, but you may want an extra pump or two until fresh grease comes out\nWhat is a grease?\nIt is a lubricating oil blended into a \n“soap”\n18\nA06\nVIDEO06 - GREASE GUN.\nAI-generated content may be incorrect.\nVIDEO - APPLYING GREASE THROUIGH A GREASE FITTING"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-18-q8"
     },
     {
       "id": "c210-slide-19-q9",
@@ -333,7 +360,9 @@
         "page": 19,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 19. The slide defines dropping point as the temperature where the semisolid soap breaks down into liquid.",
         "excerpt": "1. Type of Soap\n2. Hardness\n3. Dropping Point\nDropping Point\nThis is the temperature at which the semisolid \nsoap in the grease breaks down and \nbecomes a liquid.\nGreases can be put into categories ranging \nfrom low temperature greases (dropping \npoint around 150 °C) to extremely high \ntemperature greases (dropping point around \n230 °C).\nGreases are categorized by the \nsoaps that are used to form their \nsemisolid bases.\nHardness\nThe hardness of the grease affects its ability \nto be pumped. Hardness is determined by \nusing a device known as a penetrometer.\nTo determine the hardness of a grease \nsample, the penetrometer \nuses a cone- shaped weight \nthat is allowed to sink into the\ngrease. The Penetrometer\nmeasures the NLGI (hardness)\nof grease. The distance it sinks\nprovides a measure of the hardness of the \ngrease.\nHow Greases Are Specified\nThere are three qualities used \nwhen specifying "
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-19-q9"
     },
     {
       "id": "c210-slide-20-q10",
@@ -356,7 +385,9 @@
         "page": 20,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 20. Greases are specified by soap base and NLGI consistency. Do not confuse consistency with viscosity or dropping point.",
         "excerpt": "In most applications, all that is needed to specify\na grease is the soap base and the NLGI number\n(National Lubricating Grease Institute).\nThe NLGI number specifies the HARDNESS of a Grease.\nRemember, the Equipment Manufacturer\nnormally determines lubrication specifications\nIncluding lubrication locations as well as other \nrequirements or recommendations for repair or \nmaintenance. \nThis information can be found in the operation \nand maintenance manual. OR YOUR APM OR \nARU SYSTEMS OR MONITRONIC SYSTEM, previously\ncalled “EZ (EASY) RME SYSTEM”\nAmazon Monitron is an end-to-end system that uses \nmachine learning to detect abnormal \nconditions(vibration & temperature) in industrial \nequipment and enable predictive maintenance.\nHow Greases Are Specified\nIt is important for you to know what the terms mean \nto ensure that you use the proper lubricant\n20\nA07"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c210-slide-20-q10"
     },
     {
       "id": "c210-slide-23-q11",
@@ -379,7 +410,9 @@
         "page": 23,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 23. The lubricant must have suitable viscosity for the load and operating conditions.",
         "excerpt": "⮚ The single most important characteristic of an oil is its \nviscosity, or resistance to flow.\n⮚ If the viscosity is too high, the oil does not flow well or at all. \n⮚ If the viscosity is too low, there will not be enough \nprotection between moving surfaces, and excessive \nleakage will occur.\nHow Oils Are Specified\nThe viscosity of a lubricant is extremely important in \nmechanical systems. That is why machinery manufacturers \nbase their lubrication recommendations on viscosity.\n23"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-23-q11"
     },
     {
       "id": "c210-slide-25-q12",
@@ -402,7 +435,9 @@
         "page": 25,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 25. The oil becomes less viscous as it warms. The slide discusses why viscosity measurements depend on temperature.",
         "excerpt": "Viscosity\nSince an oil's viscosity changes with temperature, the Saybolt measurement is very important.\n⮚ An oil's viscosity is usually measured in units called\n⮚ Saybolt Universal Seconds (SSU or SUS) In the United States\n⮚ Centistokes for SI measurement\nViscosity is measured by heating oil to 100 °F (typically for machinery oils) and measuring the time it \ntakes for 60 milliliter of oil to flow through a calibrated tube into a container.\nFor example, if a 100 °F oil takes 250 seconds to fill the container, it has a viscosity of 250 SUS @ 100 °F.\nHow Oils Are Specified\nAutomotive oils like 10W-40 are standardized by the Society of Automotive Engineers \n“SAE”.from 2 measurements, -4 °F and 212 °F\n25"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-25-q12"
     },
     {
       "id": "c210-slide-28-q13",
@@ -425,7 +460,9 @@
         "page": 28,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 28. The C-face mount bolts the driven assembly to the motor face and addresses alignment issues associated with separate foot mounting.",
         "excerpt": "Three Types of Motor Mounts\n⮚ The C-FACE MOUNTING METHOD solves some foot mount \nproblems by mounting the driven component directly to the \nmotor face.\n⮚ The motor and the driven component have a special face called \na C-face, which has a flange and bolt holes. The C-face still \nrequires some alignment, but it is a much less tedious process than \nwith the foot mount.\n⮚ C-face mounting is commonly used with turbine, centrifugal and \nhydraulic pumps. It is also used with pumps that are small enough \nto hang from the motor and the application is compatible with \ndirect drive.\n⮚ The gearbox is another application where the C-face is used, \nexcept that the motor can often hang from the gearbox.\n⮚ THE MOTOR MOUNTS TO A SURFACE THAT IS PERPENDICUAR TO ITS \nOUTPUT SHAFT\nC Face Mount\n28"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-28-q13"
     },
     {
       "id": "c210-slide-29-q14",
@@ -448,7 +485,9 @@
         "page": 29,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 29. The built-in adjuster allows the motor position to change on the bedplate for belt or chain adjustment.",
         "excerpt": "Three Types of Motor Mounts\n⮚ Is a foot mount with an adjuster built in. It is also \nmounted on a bedplate.\n⮚ These mounts have a bolt that can move the motor \nback and forth on one axis or tilt it. This allows the \nmotor to be moved without having to loosen the \nmounting bolts.\n⮚ The adjustable motor mount is often used when it is \nnecessary to routinely change the position of the \nmotor to change tension on a belt or chain drive.\n⮚ Any service lines such as power, air, and water must \nhave enough flexibility to move with the machine as it \nadjusts.\nAdjustable Mount\n29"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-29-q14"
     },
     {
       "id": "c210-slide-34-q15",
@@ -471,7 +510,9 @@
         "page": 34,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 34. Establishing a reference lets indicator movement show deviation from that reference.",
         "excerpt": "How to Master and Use a Dial Indicator \nBefore a dial indicator can be used for measuring, it must be mastered. It’s \nalso called calibrating or setting the zero.\nThe dial indicator’s needle is adjusted to read zero when measuring an \nobject of known length height or width. The point where it touches is called a \nreference. \nThe dial indicator measures the difference between the reference \ndimension and the dimension of the part being measured, or the \nmovement of the part relative to the reference.\nAmerican dials usually have increment of 0.001” and 0.010” Metric(SI) dials \nare often graduated in increments of 0.01 mm. The value of the smallest \ngraduation on a dial face is usually printed on the face of the indicator. \nEach time the needle makes a rotation, the revolution counter needle \nincreases its reading by 1 mm. Therefore, the total travel of the probe is \nfound by adding the rea"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-34-q15"
     },
     {
       "id": "q061",
@@ -494,7 +535,10 @@
         "page": 35,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 35. Uneven feet or an unflat base can distort the motor when bolts are tightened. Correct the foot contact with the specified procedure.",
         "excerpt": "⮚ Soft foot occurs when mounting feet are not level with \neach other or the base is not flat. This causes the motor \nto wobble  OR runout by not resting on all four feet\n⮚ TO CORRECT SOFT FOOT, PLACE SHIMS UNDER ONE \nFOOT ONLY\n⮚ Soft foot should not be greater than 0.002 inches(.05 \nmm) \nMount and Level an Electric Motor\nA soft foot must be corrected before placing a \nmotor into service!\nIt is dangerous if not corrected:\n⮚ The nuts securing the feet to the base may loosen\n⮚ The motor frame may twist and destroy the \nbearings\n⮚ Metal fatigue may occur at the soft foot and \ncracks can develop, or the soft foot could even \nbreak off.\n⮚ Select the fasteners\n⮚ Mount Loosely\n⮚ Check and remove Soft Foot\n⮚ Level the motor \n35\nA14 A15"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q061",
+      "learningHelpKey": "soft-foot"
     },
     {
       "id": "c210-slide-38-q17",
@@ -517,7 +561,9 @@
         "page": 38,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 38. A tachometer measures revolutions per minute. A strobe can determine speed by making the rotating feature appear stationary.",
         "excerpt": "Two Methods of Measuring Motor Shaft Speed\nMotor speed is the measure of how fast the motor shaft is rotating. It’s shown as revolutions \nper minute or RPM. If a motor shaft is turning at one revolution per second, the speed is 60 \nRPM.\nContact Tachometer - The rubber contact of the tachometer tip is placed on the end \nof the spinning shaft. It spins at the same speed as the shaft and it’s internal gear \nsystem converts the rotating motion of a shaft into a reading shown on the \ntachometer.\nSkill 4 - Use a Digital Tachometer to Measure Motor Speed\nPhoto Tachometer -The photo tachometer uses a beam of light \npointed at a piece of reflective tape on the motor's shaft. The \nphoto tachometer counts the number of times the tape passes \nthrough the light.\nOnce the photo tachometer determines the speed, it is shown on \nthe display. This method has an advantage over the contact \ntachometer becau"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-38-q17"
     },
     {
       "id": "c210-slide-39-q18",
@@ -540,7 +586,9 @@
         "page": 39,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 39. The key fits into matching shaft and hub keyseats to transmit torque.",
         "excerpt": "A key is simply a piece \nof metal that is \n”SNUGLY FITTED, NOT \nFORCED”, between \ntwo grooves, which are \nmachined in a shaft \nand the hub of a \ncomponent to which it \nis to be connected. \nTHE HEIGHT OF THE KEY \nSHOULD BE TWICE THE \nHEIGHT OF THE KEYSEAT \nso that half of the key is \nin the groove in the \nshaft and half is in the \ngroove in the hub\nThe groove in the HUB is called \na KEYSEAT OR a KEYWAY\nHUB\nKey\nKeyseat\n39\nA16 A17\nKEYSEAT\n3 Key Fasteners"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-39-q18"
     },
     {
       "id": "c210-slide-44-q19",
@@ -563,7 +611,9 @@
         "page": 44,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 44. The key serves as the sacrificial component so overload does not first damage the shaft.",
         "excerpt": "Measure the Actual Size of a Key and Keyseat\nThree measuring tools are used to measure the key and keyseat:\n⮚ Caliper - measures the INSIDE WIDTH and the DEPTH of the keyseat for the the width and height \nof the key.\n⮚ Micrometer – Or a caliper can measure both the width and height of the key stock used to \nmake the key. The micrometer is a more accurate and commonly used\n⮚ Inch Rule - measures the length of a keyseat. Because the length is not critical, a rule is the \neasiest and quickest method of determining the keyseat’s approximate length.\nA key material’s strength is always less than the shaft’s so that it will shear first if the shaft is overloaded. \nThe general guideline is to make the key long enough to fit flush on one side of the hub and a little \nshorter than the length of the keyseat on the shaft to ensure that the key cannot slide around in the \nkeyseat.\nDigital \nMicrometer"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-44-q19"
     },
     {
       "id": "c210-slide-45-q20",
@@ -586,7 +636,9 @@
         "page": 45,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 45. The set screw secures the assembly. The shaft key carries torque through the keyseat engagement.",
         "excerpt": "Six Types of Set Screws\nSkill 2 – Measure the actual size of a Key and Keyset Given a Sample\nSkill 3 – Cut a file key stock to fit a keyseat\nA set screw is a threaded fastener \nused to hold keys in place. These \nfasteners generally do not have a \nhead.\nThere are various types of set \nscrews available. Dog Point \nCup Point \nSoft Tipped\nFlat Point \nCone Point \nOval Point \n45"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-45-q20"
     },
     {
       "id": "c210-slide-47-q21",
@@ -609,7 +661,9 @@
         "page": 47,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 47. The Prony brake applies a mechanical load; torque and shaft speed can then be used to calculate power.",
         "excerpt": "Two Methods of Loading a Mechanical Drive System\n⮚A Prony Brake applies a load to a motor. It can also \nmeasure the torque the motor is applying. With the \ntorque, rotational speed and electrical current draw \nknown, power and efficiency can be calculated.\n⮚Dynamometers are expensive, sophisticated tools used \nby engineers and race teams to load motors. They \nautomatically measure Torque, Power, and Efficiency\nProny Brake\nDYNO or DYNAMOMETER\n47\n4 Torque, Power, and Efficiency"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-47-q21"
     },
     {
       "id": "c210-slide-52-q22",
@@ -632,7 +686,9 @@
         "page": 52,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 52. Efficiency = output power / input power × 100%. Friction reduces useful output power.",
         "excerpt": "Calculate Mechanical Efficiency and Explain Its Importance\nSkill 3 - Calculate Mechanical Efficiency\nPower output of any mechanical equipment is always less than the power input. The cause is friction, \nwith the lost power converted to heat. Power Out\nPower In\nEfficiency= X 100         (in percent)\nLosses are minimized by maximizing efficiency to save money. Friction wastes money by wasting \npower and wearing components. Maintenance (lubrication and alignment) are the cure.\nMechanical efficiency can be calculated from the shaft speed and torque at the output. \nCommonly, a torque transducer, and a  tachometer measure output power while the electric \npower drawn by the motor provides the input power. If input power increases overtime, you know \nthat the mechanical drive is losing efficiency\n52\nA22 A23\nWe always have losses \nDUE TO FRICTION"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-52-q22"
     },
     {
       "id": "c210-slide-54-q23",
@@ -655,7 +711,9 @@
         "page": 54,
         "text": "Review C210 Mechanical Power Sys.pdf, slide 54. The course relates motor current to load torque and uses the manufacturer’s torque-current graph.",
         "excerpt": "Describe Two Methods of Measuring Shaft Torque\nThese are two methods you can use to measure the load on a shaft:\n⮚ Torque Transducer\n⮚ Current Measurement\nMotor Current Measurement\nTorque is related to the electrical current supplied to the motor. As motor \ntorque increases, so does electrical current.\nMotor manufacturers publish a graph with the specifications of the motor \nthat shows the torque vs. current characteristics. Torque is determined by \ncomparing measured current to the graph.\nA Torque transducer is a device that is directly coupled to the shaft and \ngenerates an electrical signal. The signal Is usually either a ±10 VAC or 4-\n20 mA signal and is proportional to the torque.\n54"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c210-slide-54-q23"
     },
     {
       "id": "visual-g-woodruff",
@@ -683,7 +741,9 @@
         "kind": "slide-image",
         "imageKey": "c210-slide-41-9",
         "alt": "Original C210 course component diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-g-woodruff"
     },
     {
       "id": "c210-picture-41-11",
@@ -711,7 +771,94 @@
         "kind": "slide-image",
         "imageKey": "c210-slide-41-11",
         "alt": "Original C210 course component diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c210-picture-41-11"
+    },
+    {
+      "id": "gap-mechanical-wet-floor",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "quiz",
+      "source": "g",
+      "prompt": "Which floor condition requires correction before working around mechanical transmission equipment?",
+      "answer": "A wet or slippery floor",
+      "options": [
+        "A wet or slippery floor",
+        "A dry unobstructed floor",
+        "A clearly marked walkway",
+        "A clean mounting surface"
+      ],
+      "explanation": "The safety slide says not to work on wet floors. Correct the condition using the site’s safety procedures.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 11,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 11. The safety slide says not to work on wet floors. Correct the condition using the site’s safety procedures."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1022772949/saca-c-210-mechanical-power-systems-1-updated-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-mechanical-wet-floor"
+    },
+    {
+      "id": "gap-mechanical-grease-coupler",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "quiz",
+      "source": "g",
+      "prompt": "Which part connects a grease gun to the Zerk fitting?",
+      "answer": "The grease-gun coupler",
+      "options": [
+        "The grease-gun coupler",
+        "The pressure gauge",
+        "The dial-indicator stem",
+        "The motor shaft key"
+      ],
+      "explanation": "Clean the fitting, then snap the grease-gun coupler securely onto it as shown in the lubrication procedure.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 18",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 18,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 18. Clean the fitting, then snap the grease-gun coupler securely onto it as shown in the lubrication procedure."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1022772949/saca-c-210-mechanical-power-systems-1-updated-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-mechanical-grease-coupler"
+    },
+    {
+      "id": "gap-mechanical-soft-foot-limit",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "quiz",
+      "source": "g",
+      "prompt": "According to the mounting slide, soft foot should not exceed approximately what value?",
+      "answer": "0.002 inch (about 0.05 mm)",
+      "options": [
+        "0.002 inch (about 0.05 mm)",
+        "0.02 inch (about 0.5 mm)",
+        "0.2 inch (about 5 mm)",
+        "2 inches (about 50 mm)"
+      ],
+      "explanation": "Slide 35 specifies 0.002 inch, approximately 0.05 mm. This is the course’s threshold; use the actual machine specification in service.",
+      "section": "C210 Mechanical Power Sys.pdf, slide 35",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 35,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 35. Slide 35 specifies 0.002 inch, approximately 0.05 mm. This is the course’s threshold; use the actual machine specification in service."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1022772949/saca-c-210-mechanical-power-systems-1-updated-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-mechanical-soft-foot-limit",
+      "learningHelpKey": "soft-foot"
     }
   ]
 }

@@ -32,7 +32,9 @@
         "page": 114,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Float switches include a float device that senses the level of a liquid ► Upward or downward movement of the float device controls switch contacts 114"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q032"
     },
     {
       "id": "q033",
@@ -61,7 +63,9 @@
         "page": 117,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "reset pressure is deadband or differential ► Prevents the switch from rapidly cycling on and off 117"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q033"
     },
     {
       "id": "mc-limit",
@@ -100,7 +104,9 @@
         "page": 112,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Mounted to detect position of a machine member or an item ► Two main components: ► Actuating Mechanism ► Lever arm that member or item presses against ► Contacts ► Provide path for the electrical signal ► N.O. - switch bar is drawn below the right-hand termi…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-limit"
     },
     {
       "id": "mc-sequence",
@@ -134,7 +140,9 @@
         "imageKey": "teacher-mpre-p14-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 14
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "mc-sequence"
     },
     {
       "id": "wb-19",
@@ -164,7 +172,9 @@
         "page": 114,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Float switches include a float device that senses the level of a liquid ► Upward or downward movement of the float device controls switch contacts 114"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q032"
     },
     {
       "id": "wb-20",
@@ -194,7 +204,9 @@
         "page": 112,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Mounted to detect position of a machine member or an item ► Two main components: ► Actuating Mechanism ► Lever arm that member or item presses against ► Contacts ► Provide path for the electrical signal ► N.O. - switch bar is drawn below the right-hand termi…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-limit"
     },
     {
       "id": "wb-21",
@@ -224,7 +236,9 @@
         "page": 117,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "reset pressure is deadband or differential ► Prevents the switch from rapidly cycling on and off 117"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-21"
     },
     {
       "id": "switch-limit-mechanism",
@@ -253,7 +267,9 @@
         "page": 112,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Mounted to detect position of a machine member or an item ► Two main components: ► Actuating Mechanism ► Lever arm that member or item presses against ► Contacts ► Provide path for the electrical signal ► N.O. - switch bar is drawn below the right-hand termi…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-limit-mechanism"
     },
     {
       "id": "switch-guard",
@@ -282,7 +298,10 @@
         "page": 113,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Limit Switch (cont.) ► Symbols sometimes drawn in the actuated or “held” state ► Draw the condition of the switch in the starting position with everything off ► Can be used as a safety interlock to detect if a safety guard is in place 113"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-guard",
+      "learningHelpKey": "safety"
     },
     {
       "id": "switch-float",
@@ -311,7 +330,9 @@
         "page": 114,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Float switches include a float device that senses the level of a liquid ► Upward or downward movement of the float device controls switch contacts 114"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-float"
     },
     {
       "id": "switch-float-action",
@@ -340,7 +361,9 @@
         "page": 114,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Upward or downward movement of the float device controls switch contacts 114"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-float-action"
     },
     {
       "id": "switch-pressure",
@@ -369,7 +392,9 @@
         "page": 116,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A pressure switch provides an electrical signal when the pressure in a fluid system reaches a certain pressure ► Two basic parts: ► Actuating Mechanism - plunger attached to a diaphragm in direct contact with fluid or gas ► Electrical Switch - snap acting, s…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-pressure"
     },
     {
       "id": "switch-diaphragm",
@@ -398,7 +423,9 @@
         "page": 116,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Actuating Mechanism - plunger attached to a diaphragm in direct contact with fluid or gas ► Electrical Switch - snap acting, suddenly changes states when actuated 116"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-diaphragm"
     },
     {
       "id": "switch-snap",
@@ -427,7 +454,9 @@
         "page": 116,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Electrical Switch - snap acting, suddenly changes states when actuated 116"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-snap"
     },
     {
       "id": "c202x-fill",
@@ -459,7 +488,9 @@
         "page": 115,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► When liquid level in the tank rises above the set level, the float switch will open the N.C. contacts and shut off the pump motor ► When the liquid level falls back below the set level, the contacts close again and start the motor ► Sump Operation ► When the…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-fill"
     },
     {
       "id": "c202x-sump",
@@ -491,7 +522,9 @@
         "page": 115,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► When liquid level in the tank rises above the set level, the float switch will open the N.C. contacts and shut off the pump motor ► When the liquid level falls back below the set level, the contacts close again and start the motor ► Sump Operation ► When the…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-sump"
     },
     {
       "id": "c202x-deadband",
@@ -523,7 +556,9 @@
         "page": 117,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "reset pressure is deadband or differential ► Prevents the switch from rapidly cycling on and off 117"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-deadband"
     },
     {
       "id": "c202x-sequence-stop",
@@ -561,7 +596,9 @@
         "page": 118,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Sequence Control ► Sequence control involves connecting motor starters so that the operation of one motor depends on the operating state of another motor ► In this example, motor 2 cannot start unless motor 1 is running 118 A38"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202x-sequence-stop"
     },
     {
       "id": "c202x-limit-no",
@@ -597,7 +634,9 @@
         "imageKey": "teacher-mpre-p5-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 5
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-limit-no"
     },
     {
       "id": "c202x-limit-nc",
@@ -633,7 +672,9 @@
         "imageKey": "teacher-mpre-p5-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 13
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-limit-nc"
     },
     {
       "id": "c202x-limit-nohc",
@@ -669,7 +710,10 @@
         "imageKey": "teacher-mpre-p5-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 9
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-limit-nohc",
+      "learningHelpKey": "switch-states"
     },
     {
       "id": "c202x-limit-ncho",
@@ -705,7 +749,10 @@
         "imageKey": "teacher-mpre-p5-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 23
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-limit-ncho",
+      "learningHelpKey": "switch-states"
     },
     {
       "id": "c202x-float-no",
@@ -744,7 +791,9 @@
         "page": 114,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Upward or downward movement of the float device controls switch contacts 114"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-float-no"
     },
     {
       "id": "c202x-float-nc",
@@ -783,7 +832,9 @@
         "page": 114,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Upward or downward movement of the float device controls switch contacts 114"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-float-nc"
     },
     {
       "id": "c202-pre-sequence-apps",
@@ -814,7 +865,9 @@
       "reviewCue": {
         "page": 15,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 15. All three can require coordinated operation in a defined sequence, such as lubrication before the main motor or a fan before the process."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-pre-sequence-apps"
     },
     {
       "id": "c202-pre-pressure-main",
@@ -850,7 +903,9 @@
         "imageKey": "teacher-mpre-p28-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 28
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-pressure-main"
     }
   ]
 }

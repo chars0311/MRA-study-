@@ -30,7 +30,9 @@
         "page": 7,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Supplies the energy to create an electrical current ● Input Device ○ Controls flow of current ○ Common input device is a switch ● Output Device ○ Consumes electrical energy ○ Also referred to as a load ● Conductor ○ Connects all the components ○ Allows curre…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q001"
     },
     {
       "id": "q004",
@@ -59,7 +61,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Motor - produces rotary mechanical motion"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q004"
     },
     {
       "id": "q005",
@@ -88,7 +92,9 @@
         "page": 13,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A solenoid has an armature that moves in a linear motion when current is applied to its coil Schematic Symbol"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q005"
     },
     {
       "id": "q006",
@@ -117,7 +123,9 @@
         "page": 9,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A circuit is closed is there is a complete path for current to flow ● A circuit is open if the path is broken in some way"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q006"
     },
     {
       "id": "q007",
@@ -146,7 +154,9 @@
         "page": 10,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "■ Normally Open (N.O.) - Open until acted on by the operator ■ Normally Closed (N.C.) - Closed until acted on by the operator"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q007"
     },
     {
       "id": "q008",
@@ -175,7 +185,9 @@
         "page": 4,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Alternating Current (AC) - flows alternatively in one direction and then the other [source link omitted]"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q008"
     },
     {
       "id": "visual-e-schematic",
@@ -210,7 +222,9 @@
         "page": 8,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Electrical schematic diagrams represent components by standard symbols ■ Do not show physical connections ■ Many diagrams show electrical parameters such as voltage, current, and resistance 8"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-e-schematic"
     },
     {
       "id": "switch-operator",
@@ -239,7 +253,9 @@
         "page": 10,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "■ Normally Open (N.O.) - Open until acted on by the operator ■ Normally Closed (N.C.) - Closed until acted on by the operator 10"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-operator"
     },
     {
       "id": "switch-contacts",
@@ -268,7 +284,9 @@
         "page": 10,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Contacts - open or close the circuit when operator is activated ■ Normally Open (N.O.) - Open until acted on by the operator ■ Normally Closed (N.C.) - Closed until acted on by the operator 10"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-contacts"
     },
     {
       "id": "switch-nc-state",
@@ -297,7 +315,9 @@
         "page": 10,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "■ Normally Closed (N.C.) - Closed until acted on by the operator 10"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-nc-state"
     },
     {
       "id": "switch-open-path",
@@ -326,7 +346,9 @@
         "page": 10,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A simple method for opening and closing a circuit is to use a switch ○ When the switch is closed, the circuit is closed and electricity flows ○ When the switch is open, the circuit is open ● Two main components: ○ Operator - causes the switch to activate ○ C…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-open-path"
     },
     {
       "id": "switch-knife",
@@ -355,7 +377,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selector Switch - often used to change machine mode 11"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-knife"
     },
     {
       "id": "switch-mode",
@@ -384,7 +408,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Selector Switch - often used to change machine mode 11"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-mode"
     },
     {
       "id": "switch-manual",
@@ -413,7 +439,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Automatically Operated - activated by a sensor, machine, or other device ● Three manually operated switches: ○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selec…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-manual"
     },
     {
       "id": "switch-automatic",
@@ -442,7 +470,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Automatically Operated - activated by a sensor, machine, or other device ● Three manually operated switches: ○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selec…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-automatic"
     },
     {
       "id": "c201x-electron",
@@ -474,7 +504,9 @@
         "page": 3,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Electrons - negatively (-) charged particles in an atom ○ Flow of electrons, also called current, can deliver energy to a point of use"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-electron"
     },
     {
       "id": "c201x-ac-dc",
@@ -506,7 +538,9 @@
         "page": 4,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Direct Current (DC) - flows in one direction ● Alternating Current (AC) - flows alternatively in one direction and then the other [source link omitted] 4"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-ac-dc"
     },
     {
       "id": "c201x-conventional",
@@ -538,7 +572,9 @@
         "page": 5,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Using conventional theory, the power supply creates flow from the highest potential (positive (+) terminal) to the lowest potential (negative (-) terminal) ○ Power supply provides both the lowest and highest potential points ○ Circuit - path that allows elec…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-conventional"
     },
     {
       "id": "c201x-dc-source",
@@ -570,7 +606,9 @@
         "page": 5,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Sources: battery, DC power supply (converts from AC) 5"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-dc-source"
     },
     {
       "id": "c201x-frequency",
@@ -602,7 +640,9 @@
         "page": 6,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● AC electricity in the U.S. cycles 60 times per second (60 Hz) 1 Hz 6"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-frequency"
     },
     {
       "id": "c201x-ac-symbol",
@@ -641,7 +681,9 @@
         "page": 7,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Supplies the energy to create an electrical current ● Input Device ○ Controls flow of current ○ Common input device is a switch ● Output Device ○ Consumes electrical energy ○ Also referred to as a load ● Conductor ○ Connects all the components ○ Allows curre…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-ac-symbol"
     },
     {
       "id": "c201x-dc-symbol",
@@ -680,7 +722,9 @@
         "page": 7,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Copper wire most often used Input Device Conductor Output Device Power Supply 7"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-dc-symbol"
     },
     {
       "id": "c201x-roles",
@@ -712,7 +756,9 @@
         "page": 7,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Four Basic Components ● Power Supply ○ Supplies the energy to create an electrical current ● Input Device ○ Controls flow of current ○ Common input device is a switch ● Output Device ○ Consumes electrical energy ○ Also referred to as a load ● Conductor ○ Conne…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-roles"
     },
     {
       "id": "c201x-load",
@@ -744,7 +790,9 @@
         "page": 7,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Consumes electrical energy ○ Also referred to as a load ● Conductor ○ Connects all the components ○ Allows current to flow ○ Copper wire most often used Input Device Conductor Output Device Power Supply 7"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-load"
     },
     {
       "id": "c201x-pictorial",
@@ -776,7 +824,9 @@
         "page": 8,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Pictorial diagrams use pictures of components ■ Become time-consuming to draw and hard to read as circuits become more complex ○ Electrical schematic diagrams represent components by standard symbols ■ Do not show physical connections ■ Many diagrams show el…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-pictorial"
     },
     {
       "id": "c201x-open",
@@ -808,7 +858,9 @@
         "page": 9,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A circuit is open if the path is broken in some way 9"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-open"
     },
     {
       "id": "c201x-switch-parts",
@@ -840,7 +892,9 @@
         "page": 10,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Two main components: ○ Operator - causes the switch to activate ○ Contacts - open or close the circuit when operator is activated ■ Normally Open (N.O.) - Open until acted on by the operator ■ Normally Closed (N.C.) - Closed until acted on by the operator 10…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-switch-parts"
     },
     {
       "id": "c201x-switch-knife",
@@ -879,7 +933,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selector Switch - often used to change machine mode 11"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-switch-knife"
     },
     {
       "id": "c201x-switch-no",
@@ -918,7 +974,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selector Switch - often used to change machine mode 11"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-switch-no"
     },
     {
       "id": "c201x-switch-nc",
@@ -957,7 +1015,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Knife Switch - visual confirmation of switch’s state e.g main disconnect ○ Pushbutton Switch - frequently used for start and stop operation ○ Selector Switch - often used to change machine mode 11"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-switch-nc"
     },
     {
       "id": "c201x-switch-selector-no",
@@ -996,7 +1056,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Selector Switch - often used to change machine mode 11"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-switch-selector-no"
     },
     {
       "id": "c201x-switch-selector-nc",
@@ -1035,7 +1097,9 @@
         "page": 11,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Selector Switch - often used to change machine mode 11"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-switch-selector-nc"
     },
     {
       "id": "c201x-output-lamp",
@@ -1074,7 +1138,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Lamp - gives off light when electrical current passes through its resistive element Resistor - limits the flow of electrical current Buzzer - produces sound Solenoid - produces linear mechanical motion Motor - produces rotary mechanical motion 12"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-output-lamp"
     },
     {
       "id": "c201x-output-resistor",
@@ -1113,7 +1179,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Resistor - limits the flow of electrical current Buzzer - produces sound Solenoid - produces linear mechanical motion Motor - produces rotary mechanical motion 12"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-output-resistor"
     },
     {
       "id": "c201x-output-buzzer",
@@ -1152,7 +1220,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Buzzer - produces sound Solenoid - produces linear mechanical motion Motor - produces rotary mechanical motion 12"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-output-buzzer"
     },
     {
       "id": "c201x-output-solenoid",
@@ -1191,7 +1261,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solenoid - produces linear mechanical motion Motor - produces rotary mechanical motion 12"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-output-solenoid"
     },
     {
       "id": "c201x-output-motor",
@@ -1230,7 +1302,9 @@
         "page": 12,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Motor - produces rotary mechanical motion 12"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-output-motor"
     },
     {
       "id": "c201x-linear",
@@ -1274,7 +1348,9 @@
         "page": 13,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A solenoid has an armature that moves in a linear motion when current is applied to its coil Schematic Symbol 13"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c201x-linear"
     },
     {
       "id": "c201x-rotary",
@@ -1318,7 +1394,9 @@
         "page": 14,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● When electricity is applied to a motor, a magnetic field is set up, causing a shaft inside the motor to rotate Schematic Symbol 14"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-rotary"
     }
   ]
 }

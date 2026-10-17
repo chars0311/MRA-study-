@@ -24,7 +24,10 @@
         "page": 42,
         "text": "Review C209 Pneumatic Systems.pdf, slide 42. Look for Single-Acting Cylinders, slide 42.",
         "excerpt": "SINGLE-ACTING CYLINDERS\nFUNCTION\n• THIS TYPE OF PNEUMATIC CYLINDER IS \nPOWERED BY COMPRESSED AIR IN ONE \nDIRECTION ONLY.\n• TO MOVE IN ANOTHER DIRECTION, \nANOTHER FORCE SUCH AS GRAVITY OR A \nSPRING IS USED.\n• THESE CYLINDERS ARE USED IN \nAPPLICATIONS WHERE THE  WILL CAUSE IT \nTO RETURN OR, IF THE  IS LIGHT ENOUGH, A \nSPRING CAN BE USED TO RETURN THE ROD.\n42"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q052",
+      "learningHelpKey": "single-cylinder"
     },
     {
       "id": "q054",
@@ -47,7 +50,9 @@
         "page": 49,
         "text": "Review C209 Pneumatic Systems.pdf, slide 49. Look for Mufflers, slide 49.",
         "excerpt": "BASIC MOTOR CIRCUITS\nMUFFLERS\n• AIR MOTORS, ESPECIALLY AT HIGH SPEEDS ARE \nCONSIDERABLY LOUDER THAN ELECTRICAL AND HYDRAULIC \nMOTORS.\n• MUFFLER, OR SILENCERS ARE PLACED ON THE EXHAUST PORT \nOF THE DCV OR THE COMPONENT ITSELF TO REDUCE NOISE.\n• REDUCES NOISE LEVELS IN THE SAME MANNER AS THE \nMUFFLER DOES IN AN AUTOMOBILE.\n• THE SKEMATIC SYMBOL IS SHOW ON THE RIIGHT\n49"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q054"
     },
     {
       "id": "c209-p42-concept",
@@ -70,7 +75,10 @@
         "page": 42,
         "text": "Review C209 Pneumatic Systems.pdf, slide 42. Look for the explanation of What returns a single-acting cylinder in its unpowered direction.",
         "excerpt": "SINGLE-ACTING CYLINDERS\nFUNCTION\n• THIS TYPE OF PNEUMATIC CYLINDER IS \nPOWERED BY COMPRESSED AIR IN ONE \nDIRECTION ONLY.\n• TO MOVE IN ANOTHER DIRECTION, \nANOTHER FORCE SUCH AS GRAVITY OR A \nSPRING IS USED.\n• THESE CYLINDERS ARE USED IN \nAPPLICATIONS WHERE THE  WILL CAUSE IT \nTO RETURN OR, IF THE  IS LIGHT ENOUGH, A \nSPRING CAN BE USED TO RETURN THE ROD.\n42"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p42-concept",
+      "learningHelpKey": "single-cylinder"
     },
     {
       "id": "c209-p44-concept",
@@ -93,7 +101,10 @@
         "page": 44,
         "text": "Review C209 Pneumatic Systems.pdf, slide 44. Look for the explanation of Which valve is normally used to operate a single-acting cylinder.",
         "excerpt": "3/2 PNEUMATIC DCV\nFUNCTION\n• A 3-PORT DCV IS NORMALLY USED TO \nOPERATE A SINGLE-ACTING CYLINDER\n• DESIGNED TO TAKE ADVANTAGE OF THE \nFACT THAT A SINGLE-ACTING CYLINDER IS \nPOWERED IN ONLY ONE DIRECTION.\n• ALLOWS THE MACHINE OPERATOR TO \nPOWER A CYLINDER IN ONE DIRECTION \nAND EXHAUST AIR TO RETURN.\n• THE 3 PORT DCV IS HELD IN THE ENERGIZED \nPOSITION BY THE OPERATOR\n44\nA08"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p44-concept",
+      "learningHelpKey": "single-cylinder"
     },
     {
       "id": "c209-p46-concept",
@@ -116,7 +127,9 @@
         "page": 46,
         "text": "Review C209 Pneumatic Systems.pdf, slide 46. Look for the explanation of Which actuator produces rotary motion from compressed air.",
         "excerpt": "MOTORS\nPNEUMATIC MOTOR\n• AN ACTUATOR THAT CONVERTS COMPRESSED AIR \nINTO ROTARY MOTION IS A PNEUMATIC MOTOR.\n• AN AIR MOTOR IS USED WHEN LOW FORCE, ROTARY \nOUTPUT IS NEEDED SUCH AS:\n• PNEUMATIC DRILL\n• MIXING MOTOR\n• SMALL WINCHES\n46"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p46-concept"
     },
     {
       "id": "c209-p47-concept",
@@ -139,7 +152,9 @@
         "page": 47,
         "text": "Review C209 Pneumatic Systems.pdf, slide 47. Look for the explanation of Which air-motor part provides the mechanical power output.",
         "excerpt": "BASIC MOTOR CIRCUITS\nROTOR – THE ROTOR IS CONNECTED TO THE \nSHAFT AND HAS SLOTS FOR THE VANES.\nSHAFT – THE SHAFT IS THE POWER OUTPUT OF \nTHE AIR MOTOR.\nVANES – THE VANES MOVE IN/OUT OF THE \nSLOTS ON THE ROTOR AND ARE PUSHED BY \nTHE COMPRESSED AIR. \nRotor\nShaft\nVanes\n47"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p47-concept"
     },
     {
       "id": "c209-p48-concept",
@@ -162,7 +177,9 @@
         "page": 48,
         "text": "Review C209 Pneumatic Systems.pdf, slide 48. Look for the explanation of What does uni-directional mean for an air motor.",
         "excerpt": "BASIC MOTOR CIRCUITS\nUNI/BI-DIRECTIONAL MOTOR\n• MOST AIR MOTORS ARE UNI-DIRECTIONAL, \nMEANING THEY TURN IN ONLY ONE \nDIRECTION.\n• BI-DIRECTIONAL TURN IN EITHER DIRECTION.\n48"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p48-concept"
     },
     {
       "id": "c209-p49-concept",
@@ -185,7 +202,9 @@
         "page": 49,
         "text": "Review C209 Pneumatic Systems.pdf, slide 49. Look for the explanation of What is the purpose of a pneumatic exhaust muffler.",
         "excerpt": "BASIC MOTOR CIRCUITS\nMUFFLERS\n• AIR MOTORS, ESPECIALLY AT HIGH SPEEDS ARE \nCONSIDERABLY LOUDER THAN ELECTRICAL AND HYDRAULIC \nMOTORS.\n• MUFFLER, OR SILENCERS ARE PLACED ON THE EXHAUST PORT \nOF THE DCV OR THE COMPONENT ITSELF TO REDUCE NOISE.\n• REDUCES NOISE LEVELS IN THE SAME MANNER AS THE \nMUFFLER DOES IN AN AUTOMOBILE.\n• THE SKEMATIC SYMBOL IS SHOW ON THE RIIGHT\n49"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p49-concept"
     },
     {
       "id": "c209-p52-concept",
@@ -208,7 +227,9 @@
         "page": 52,
         "text": "Review C209 Pneumatic Systems.pdf, slide 52. Look for the explanation of What happens to most schematic symbols when rotated without changing connections.",
         "excerpt": "PNEUMATIC SCHEMATICS\nROTATED OR REVERSED\n• MOST SYMBOLS MAY BE DRAWN EITHER \nHORIZONTAL OR VERTICAL WITHOUT \nALTERING THEIR MEANING.\n52\nHORIZONTAL/VERTICAL\n• LINES ARE SHOWN EITHER HORIZONTALLY \nOR VERTICALLY ON THE SCHEMATIC \nDIAGRAM.\n• DIAGONAL LINES SHOULD NOT BE USED.\n"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-p52-concept"
     },
     {
       "id": "c209-p54-concept",
@@ -231,7 +252,9 @@
         "page": 54,
         "text": "Review C209 Pneumatic Systems.pdf, slide 54. Look for the explanation of In what condition should components be shown on pneumatic schematics.",
         "excerpt": "PNEUMATIC SCHEMATICS\nDRAW EACH SYMBOL TO SHOW DE-ENERGIZED \nCONDITION\n• EACH SYMBOL IS DRAWN TO SHOW THE CONDITION OF THE \nCOMPONENT WHILE THE SYSTEM IS DE-ENERGIZED.\n• THE ONLY EXCEPTION IS WHEN MULTIPLE DIAGRAMS ARE \nDRAWN SHOWING VARIOUS PHASES OF A CIRCUIT’S \nOPERATION. \n54"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p54-concept"
     },
     {
       "id": "c209-teacher-main-line",
@@ -261,7 +284,9 @@
       "reviewCue": {
         "page": 53,
         "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 6; C209 Pneumatic Systems.pdf, slide 53. Main working-flow lines are solid. Compare them with the pilot/control line style in the schematic conventions."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-main-line"
     },
     {
       "id": "c209-p50-concept",
@@ -291,7 +316,9 @@
       "reviewCue": {
         "page": 50,
         "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 7; C209 Pneumatic Systems.pdf, slide 50. The motor slide lists vane/rotor, axial piston, and radial piston designs."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p50-concept"
     },
     {
       "id": "c209-teacher-operator",
@@ -321,7 +348,9 @@
       "reviewCue": {
         "page": 44,
         "text": "Review FP QUIZ-1 Basic Pneumatics 1-2.pdf, question 8; C209 Pneumatic Systems.pdf, slide 44. The operator holds the valve energized. The spring returns the valve when operator force is removed."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-operator"
     },
     {
       "id": "c209-teacher-muffler-symbol",
@@ -356,7 +385,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-q1-6-0",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-teacher-muffler-symbol"
     },
     {
       "id": "visual-p-single",
@@ -391,7 +422,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-q1-7-0",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-p-single"
     },
     {
       "id": "c209-final-single-port",
@@ -421,7 +454,10 @@
       "reviewCue": {
         "page": 42,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 7; C209 Pneumatic Systems.pdf, slide 42. Air powers one direction through one port; the spring supplies the return force."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-single-port",
+      "learningHelpKey": "single-cylinder"
     },
     {
       "id": "c209-final-pilot-line",
@@ -451,7 +487,9 @@
       "reviewCue": {
         "page": 53,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 10; C209 Pneumatic Systems.pdf, slide 53. Pilot lines communicate control pressure; main working-flow lines are solid. An enclosure has its own boundary convention."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-pilot-line"
     },
     {
       "id": "c209-final-motor-symbol",
@@ -486,7 +524,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final-1-0",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-final-motor-symbol"
     },
     {
       "id": "c209-final-spring-extend",
@@ -521,7 +561,10 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final-1-5",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-final-spring-extend",
+      "learningHelpKey": "pressure-force"
     }
   ]
 }

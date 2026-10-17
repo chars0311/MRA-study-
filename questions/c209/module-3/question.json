@@ -10,7 +10,8 @@
     "c209-math-absolute",
     "c209-math-boyle",
     "c209-math-final-absolute",
-    "c209-math-final-pa"
+    "c209-math-final-pa",
+    "gap-math-pressure-drop"
   ],
   "questions": [
     {
@@ -34,7 +35,9 @@
         "page": 60,
         "text": "Review C209 Pneumatic Systems.pdf, slide 60. Look for the explanation of Which formula gives theoretical cylinder force.",
         "excerpt": "Calculating Force\nExtending Force Equation\n► The theoretical amount of force \ncreated by the cylinder can be \ncalculated using the pressure \nand the area of the piston.\n► To find the area of the circular \npiston, use the formula for the \narea of the circle.\n60"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p60-concept"
     },
     {
       "id": "c209-p61-concept",
@@ -57,7 +60,10 @@
         "page": 61,
         "text": "Review C209 Pneumatic Systems.pdf, slide 61. Look for the explanation of Why is retracting force lower than extending force at the same pressure.",
         "excerpt": "Calculating Force\nCalculating Force\n► The pressure cannot be exerted \nover all the surfaces inside the \nrod end of the cylinder. \n► The pressure only acts on the \n“donut” or annular area.\n61"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p61-concept",
+      "learningHelpKey": "pressure-force"
     },
     {
       "id": "c209-p64-concept",
@@ -80,7 +86,9 @@
         "page": 64,
         "text": "Review C209 Pneumatic Systems.pdf, slide 64. Look for the explanation of How does pneumatic leverage produce a larger output force.",
         "excerpt": "Pneumatic Leverage\nExample\n► If a force of 10 lbs. is applied \nover a small piston with 1 square-\ninch area, a pressure of 10 psi is \ncreated in the confined fluid.\n► In accordance with Pascal’s \nlaw, the same 10 psi acts on a \nlarger 10 in. piston creating 100 \nlbs. on the larger piston.\nhttps://www.youtube.com/watch?v=aoMCRG4zM2s\n64"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p64-concept"
     },
     {
       "id": "c209-p66-concept",
@@ -103,7 +111,9 @@
         "page": 66,
         "text": "Review C209 Pneumatic Systems.pdf, slide 66. Look for the explanation of What does gauge pressure measure.",
         "excerpt": "Representing Pressure\nGauge Pressure\n► Indicates the amount of pressure above \natmospheric pressure.\n► Majority of pressure gauges are designed to \nindicate gauge pressure.\n► They are adjusted to read 0 psi/kPa when \nexposed to atmospheric pressure.\n66"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p66-concept"
     },
     {
       "id": "c209-p70-concept",
@@ -126,7 +136,9 @@
         "page": 70,
         "text": "Review C209 Pneumatic Systems.pdf, slide 70. Look for the explanation of What causes air to flow between connected areas.",
         "excerpt": "Air Flow and Resistance\n► A characteristic of air is that a difference in \npressure causes air flow to occur.\n► Air flows from areas of high pressure to \nareas of low pressure until pressure is the \nsame throughout.\n70"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p70-concept"
     },
     {
       "id": "c209-p71-concept",
@@ -149,7 +161,9 @@
         "page": 71,
         "text": "Review C209 Pneumatic Systems.pdf, slide 71. Look for the explanation of Which factors affect airflow through an opening in the slide example.",
         "excerpt": "Air Flow and Resistance\nExample\n► If two containers at different pressures are \nconnected together the air will flow from the \nhigher pressure container to the lower pressure \nwhen the valve is opened.\n► Rate of flow depends on:\n► Temperature \n► Difference in pressure \n► Size of orifice. \n71"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p71-concept"
     },
     {
       "id": "c209-p69-concept",
@@ -179,7 +193,9 @@
       "reviewCue": {
         "page": 69,
         "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 1; C209 Pneumatic Systems.pdf, slide 69. For a fixed quantity of gas at constant temperature, P1V1 = P2V2 using absolute pressure. Decreasing volume increases pressure."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p69-concept"
     },
     {
       "id": "c209-teacher-absolute",
@@ -209,7 +225,10 @@
       "reviewCue": {
         "page": 65,
         "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 2; C209 Pneumatic Systems.pdf, slide 65. All listed methods express Pabsolute = Pgauge + Patmospheric. The numerical values are the standard-atmosphere approximations used by the course."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-absolute",
+      "learningHelpKey": "absolute-pressure"
     },
     {
       "id": "c209-teacher-diameter",
@@ -239,7 +258,9 @@
       "reviewCue": {
         "page": 60,
         "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 3; C209 Pneumatic Systems.pdf, slide 60. A circular piston has area 0.7854D². Multiplying that area by pressure gives theoretical extension force."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-diameter"
     },
     {
       "id": "c209-p62-concept",
@@ -267,7 +288,9 @@
       "reviewCue": {
         "page": 62,
         "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 4; C209 Pneumatic Systems.pdf, slide 62. The pressure is transmitted equally and acts normal, or perpendicular, to the surfaces."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p62-concept"
     },
     {
       "id": "c209-teacher-pascal-parallel",
@@ -295,7 +318,9 @@
       "reviewCue": {
         "page": 62,
         "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 5; C209 Pneumatic Systems.pdf, slide 62. Pressure acts perpendicular to a surface, not along the surface. Look for the direction of force in the Pascal’s law slide."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-pascal-parallel"
     },
     {
       "id": "c209-teacher-load",
@@ -325,7 +350,9 @@
       "reviewCue": {
         "page": 59,
         "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 6; C209 Pneumatic Systems.pdf, slide 59. The actuator must generate force sufficient to oppose its load. For fixed effective area, required pressure follows P = F/A."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-teacher-load"
     },
     {
       "id": "c209-final-si",
@@ -355,7 +382,9 @@
       "reviewCue": {
         "page": 66,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 6; C209 Pneumatic Systems.pdf, slide 66. The pressure unit on the course SI gauges is kPa. A pascal is already force per area."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-si"
     },
     {
       "id": "c209-final-compressor-switch",
@@ -385,7 +414,9 @@
       "reviewCue": {
         "page": 68,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 14; C209 Pneumatic Systems.pdf, slide 68. A pressure switch responds to receiver pressure and controls compressor cycling. The setpoint controls stopping and restarting."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-compressor-switch"
     },
     {
       "id": "c209-final-piston",
@@ -415,7 +446,9 @@
       "reviewCue": {
         "page": 68,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 16; C209 Pneumatic Systems.pdf, slide 68. A reciprocating piston reduces the volume of trapped air, raising its pressure."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-piston"
     },
     {
       "id": "c209-final-friction",
@@ -445,7 +478,9 @@
       "reviewCue": {
         "page": 70,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 18; C209 Pneumatic Systems.pdf, slide 70. Flow through restrictions consumes pressure difference; compare upstream and downstream pressures."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-friction"
     },
     {
       "id": "c209-final-delta",
@@ -475,7 +510,9 @@
       "reviewCue": {
         "page": 70,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 39; C209 Pneumatic Systems.pdf, slide 70. Delta denotes a difference. Compare pressures at the two points to find ΔP; friction and load create pressure differences."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-delta"
     },
     {
       "id": "c209-final-load-backpressure",
@@ -505,7 +542,10 @@
       "reviewCue": {
         "page": 59,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 44; C209 Pneumatic Systems.pdf, slide 59. Pressure in the exhausting chamber acts against the piston. The net available force must overcome load, friction, and this opposing pressure."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-load-backpressure",
+      "learningHelpKey": "double-cylinder"
     },
     {
       "id": "c209-final-static",
@@ -540,7 +580,37 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final2-8-0",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c209-final-static"
+    },
+    {
+      "id": "gap-pneumatic-orifice-effect",
+      "world": "pneumatic",
+      "topic": "Module 3 · Principles of Pneumatic Pressure and Flow",
+      "type": "quiz",
+      "source": "p",
+      "prompt": "With other conditions unchanged, which opening offers less flow resistance?",
+      "answer": "A larger orifice",
+      "options": [
+        "A larger orifice",
+        "A smaller orifice",
+        "An equally sized opening with greater restriction",
+        "A completely blocked port"
+      ],
+      "explanation": "Slide 71 lists orifice size as an airflow factor. A larger available flow area generally permits more flow for the same pressure difference.",
+      "section": "C209 Pneumatic Systems.pdf, slide 71",
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 71,
+        "text": "Review C209 Pneumatic Systems.pdf, slide 71. Slide 71 lists orifice size as an airflow factor. A larger available flow area generally permits more flow for the same pressure difference."
+      },
+      "inspirationSources": [
+        "https://quizlet.com/1150210819/c-209-pneumatic-systems-1-study-guide-amatrol-flash-cards/"
+      ],
+      "starred": false,
+      "category": "Understand",
+      "conceptKey": "gap-pneumatic-orifice-effect"
     }
   ]
 }

@@ -30,7 +30,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Motors 3-4.pdf, PDF page 3. Both normally open contacts must close to complete the series path. Look for two contacts in the same current path."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-and"
     },
     {
       "id": "mc-or",
@@ -59,7 +61,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Motors 3-4.pdf, PDF page 3. Parallel normally open start contacts implement OR: either button can complete a path. Look for parallel start branches."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-or"
     },
     {
       "id": "mc-nor",
@@ -88,7 +92,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Motors 3-4.pdf, PDF page 3. The series path conducts only while neither input operates its normally closed contact. Operating either opens the path: NOR."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-nor"
     },
     {
       "id": "mc-nand",
@@ -117,7 +123,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review Motors 3-4.pdf, PDF page 4. The quiz identifies NAND: the light is off only when all door-closed conditions are true. Opening any door makes that combined condition false and turns the light on. Look for the input convention: door closed is true."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "mc-nand"
     },
     {
       "id": "mc-momentary",
@@ -156,7 +164,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A momentary switch returns to its original position once released ► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted acro…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-momentary"
     },
     {
       "id": "mc-ladder",
@@ -195,7 +205,9 @@
         "page": 64,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Left to right and top to bottom ► Wires connected to L1 are “1” ► Wires connected to N are “2” ► Conductors joined together directly share the same number 3. All Lines Must Be Numbered 4. Only Show Control Devices ► Control devices include switches, solenoid…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-ladder"
     },
     {
       "id": "wb-9",
@@ -225,7 +237,9 @@
         "page": 68,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Two normally-open switches wired in series ► Both switches must be closed to energize the output ► Application: a two hand circuit requires both hands to start a machine ► The red lamp turns on only when PB1 AND PB2 are pressed 68 A31 A32 A33 A32 A3S A36"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-9"
     },
     {
       "id": "wb-10",
@@ -255,7 +269,9 @@
         "page": 69,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Two normally-open switches wires in parallel ► Closing either of the switches will energize the output ► Closing both switches will also energize the output ► Application: remote-start button ► The red lamp turns on when PB1 OR PB2 is pressed 69"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-10"
     },
     {
       "id": "wb-11",
@@ -285,7 +301,9 @@
         "page": 70,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► The red lamp is on when PB1 is NOT pressed 70 A37"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-11"
     },
     {
       "id": "wb-12",
@@ -315,7 +333,9 @@
         "page": 71,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Two normally-closed switches in series ► Opening either of the switches will de-energize the output ► Opening both of the switches will also de-energize the output ► Application: remote-stop button 71"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-12"
     },
     {
       "id": "wb-13",
@@ -345,7 +365,9 @@
         "page": 72,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Two normally-closed switches in parallel ► Opening either of the switches will have no effect on the circuit; the output remains energized ► It is necessary to open all of the switches to de-energize the output 72"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-13"
     },
     {
       "id": "wb-14",
@@ -375,7 +397,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A momentary switch returns to its original position once released ► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted acro…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-14"
     },
     {
       "id": "wb-15",
@@ -405,7 +429,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted across the contacts Knife Pushbutton / Selector Momentary Maintained Lim…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-15"
     },
     {
       "id": "visual-m-and",
@@ -449,7 +475,9 @@
       ],
       "reviewCue": {
         "text": "Look for two normally open contacts in series. Both pushbuttons must close to complete the path to the lamp."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-and"
     },
     {
       "id": "visual-m-or",
@@ -493,7 +521,9 @@
       ],
       "reviewCue": {
         "text": "Look for two normally open contacts in parallel. Either pushbutton can complete a path to the lamp."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-or"
     },
     {
       "id": "visual-m-not",
@@ -537,7 +567,9 @@
       ],
       "reviewCue": {
         "text": "Look for one normally closed contact. Operating it opens the path and turns the output off."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-not"
     },
     {
       "id": "visual-m-nor",
@@ -581,7 +613,9 @@
       ],
       "reviewCue": {
         "text": "Look for normally closed contacts in series. Opening either contact breaks the only path and turns the lamp off."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-nor"
     },
     {
       "id": "slide-nand-motor",
@@ -625,7 +659,9 @@
       ],
       "reviewCue": {
         "text": "Look for normally closed contacts in parallel. One closed branch keeps the lamp on; both contacts must open to turn it off."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "slide-nand-motor"
     },
     {
       "id": "visual-m-and-operation",
@@ -658,7 +694,9 @@
       ],
       "reviewCue": {
         "text": "Look for two normally open contacts in series. Both pushbuttons must close to complete the path to the lamp."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-m-and-operation"
     },
     {
       "id": "visual-m-or-operation",
@@ -691,7 +729,9 @@
       ],
       "reviewCue": {
         "text": "Look for two normally open contacts in parallel. Either pushbutton can complete a path to the lamp."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-m-or-operation"
     },
     {
       "id": "visual-m-nand-operation",
@@ -724,7 +764,9 @@
       ],
       "reviewCue": {
         "text": "Look for normally closed contacts in parallel. One closed branch keeps the lamp on; both contacts must open to turn it off."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-m-nand-operation"
     },
     {
       "id": "visual-m-no",
@@ -759,7 +801,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► In a normally open switch, pressing the button closes the switch and allows current to flow ► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-no"
     },
     {
       "id": "visual-m-nc",
@@ -794,7 +838,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-nc"
     },
     {
       "id": "switch-maintained",
@@ -823,7 +869,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted across the contacts Knife Pushbutton / Selector Momentary Maintained Lim…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-maintained"
     },
     {
       "id": "switch-momentary-use",
@@ -852,7 +900,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A momentary switch returns to its original position once released ► A maintained switch holds its position once activated ► Consists of two main components: ► Operator - causes the switch to activate or deactivate ► Contacts - electricity is transmitted acro…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-momentary-use"
     },
     {
       "id": "switch-no-press",
@@ -881,7 +931,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► In a normally open switch, pressing the button closes the switch and allows current to flow ► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-no-press"
     },
     {
       "id": "switch-nc-press",
@@ -910,7 +962,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-nc-press"
     },
     {
       "id": "switch-no-release",
@@ -939,7 +993,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► In a normally open switch, pressing the button closes the switch and allows current to flow ► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-no-release"
     },
     {
       "id": "switch-nc-release",
@@ -968,7 +1024,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► In a normally closed switch, pressing the button opens the switch and prevents current flow 60 A11 A20 A25"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-nc-release"
     },
     {
       "id": "switch-selector-wafer",
@@ -997,7 +1055,9 @@
         "page": 61,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A selector switch consists of a conducting wafer that is rotated by a knob ► Available in two, three, or four positions ► Operator types: knob, lever, and keylock ► Typical applications: on/off, manual/automatic, run/jog, and forward/reverse ► Can be momenta…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-selector-wafer"
     },
     {
       "id": "switch-selector-behavior",
@@ -1026,7 +1086,9 @@
         "page": 61,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Can be momentary (e.g. ignition) or maintained (e.g. washing machine) ► A different circuit is connected to each terminal or position ► In a three-position switch, the center position does not operate any contacts Common Control Devices - Selector Switch 61 …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-selector-behavior"
     },
     {
       "id": "switch-selector-operators",
@@ -1055,7 +1117,9 @@
         "page": 61,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Operator types: knob, lever, and keylock ► Typical applications: on/off, manual/automatic, run/jog, and forward/reverse ► Can be momentary (e.g. ignition) or maintained (e.g. washing machine) ► A different circuit is connected to each terminal or position ► …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-selector-operators"
     },
     {
       "id": "c202x-semi",
@@ -1087,7 +1151,9 @@
         "page": 53,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Semiautomatic - manual input to begin operation, no further manual input e.g. washing machine ► Automatic - no manual input, operated by automatic input (or “pilot”) devices e.g. thermostat 53"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-semi"
     },
     {
       "id": "c202x-schematic",
@@ -1119,7 +1185,9 @@
         "page": 55,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► An electrical schematic uses standard symbols to show the interconnections between components of a circuit, but not how they are physically connected Pictorial Schematic 55 A28 A29"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-schematic"
     },
     {
       "id": "c202x-step",
@@ -1148,7 +1216,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review Motors 3-4.pdf, PDF page 2. Inputs provide conditions, logic evaluates them, and outputs perform the resulting actions. Look for the input–logic–output breakdown."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-step"
     },
     {
       "id": "c202x-lamp",
@@ -1187,7 +1257,9 @@
         "page": 58,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Common Control Devices - Indicator Lamp ► An indicator lamp tells the operating status of the machine ► The letter in the center of the circle indicates the color of the lamp ► Check voltage rating before use Schematic Symbol 58"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-lamp"
     },
     {
       "id": "c202x-center",
@@ -1219,7 +1291,9 @@
         "page": 61,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► In a three-position switch, the center position does not operate any contacts Common Control Devices - Selector Switch 61 A16"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-center"
     },
     {
       "id": "c202x-rails",
@@ -1251,7 +1325,10 @@
         "page": 63,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► If supply is from a control transformer, labeled as X1 and X2 ► Input Devices - connected between L1 and output devices ► Perform the logic functions that control output devices ► Output Devices - located between input devices and N ► Cause the machine to pe…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-rails",
+      "learningHelpKey": "transformer"
     },
     {
       "id": "c202x-numbers",
@@ -1283,7 +1360,9 @@
         "page": 64,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Conductors joined together directly share the same number 3. All Lines Must Be Numbered 4. Only Show Control Devices ► Control devices include switches, solenoids, and relays ► Should not show power devices such as valves, motors, and cylinders 5. Place Only…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-numbers"
     },
     {
       "id": "c202x-loads",
@@ -1315,7 +1394,9 @@
         "page": 64,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "5. Place Only One Load Per Line ► Load is simply another name for an output device ► Loads should be wired in parallel on different lines, never in series on the same line 6. Output Devices Located on Right 64 A38"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-loads"
     },
     {
       "id": "c202-quiz-sequence",
@@ -1349,7 +1430,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review Motors 3-4.pdf, PDF page 2. A sequence of operation describes the ordered moves needed to complete the task. Look for the order of the machine actions."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-sequence"
     },
     {
       "id": "c202-quiz-ladder-function",
@@ -1378,7 +1461,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review Motors 3-4.pdf, PDF page 2. Ladder diagrams show how control contacts and output devices work together. Look for the control rungs and their conditions."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-ladder-function"
     },
     {
       "id": "c202-quiz-relay-expression",
@@ -1413,7 +1498,9 @@
         "imageKey": "teacher-m34-4",
         "alt": "Relay ladder circuit from the Motors 3–4 quiz",
         "page": 4
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-relay-expression"
     },
     {
       "id": "c202-quiz-pushbutton-e",
@@ -1448,7 +1535,9 @@
         "imageKey": "teacher-m34-5",
         "alt": "Relay ladder circuit from the Motors 3–4 quiz",
         "page": 5
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-quiz-pushbutton-e"
     },
     {
       "id": "c202-quiz-input",
@@ -1484,7 +1573,9 @@
       "reviewCue": {
         "page": 54,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 4. Also see C202 Electric Motor Controls.pdf, PDF page 54. Input devices such as switches control when or how current flows. Outputs use the electricity; conductors carry it."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-input"
     },
     {
       "id": "c202-quiz-selector-mode",
@@ -1519,7 +1610,9 @@
       "reviewCue": {
         "page": 11,
         "text": "Review C-202 EMC Pretest.pdf, PDF page 11. A selector switch selects the operating mode, for example Hand–Off–Automatic. Look for its labeled positions."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-selector-mode"
     },
     {
       "id": "c202-pre-pb-lamps",
@@ -1555,7 +1648,9 @@
         "imageKey": "teacher-mpre-p18-img1",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 18
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-pb-lamps"
     },
     {
       "id": "c202-pre-parallel-lamps",
@@ -1591,7 +1686,9 @@
         "imageKey": "teacher-mpre-p19-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 19
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-parallel-lamps"
     }
   ]
 }

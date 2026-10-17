@@ -36,7 +36,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 6. A magnetic field operates the reed switch contacts. Hall-effect sensors also sense magnetic fields, but are not one of these choices."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q042"
     },
     {
       "id": "q044",
@@ -71,7 +73,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 2. The output is already present at the sensor. Check whether that signal reaches the controller input to distinguish wiring/input trouble from a sensor fault."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q044"
     },
     {
       "id": "wb-26",
@@ -101,7 +105,9 @@
         "page": 56,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Magnetic Reed Switch The reed switch is purely mechanical. It has only two leads and acts as a single-pole, single throw switch (SPST) that closes in a magnetic field. It needs no external power and is connected in series with the power supply and then the loa…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-26"
     },
     {
       "id": "wb-27",
@@ -131,7 +137,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "A Hall Effect switch can only sense a magnetic field, but can use AC or DC This sensor contains a conductive material that has current flowing through it. When a magnetic field is brought close, it bends the field and causes a small but measurable voltage chan…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-27"
     },
     {
       "id": "wb-28",
@@ -166,7 +174,9 @@
       "reviewCue": {
         "page": 16,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 16. Photoelectric sensors use a light source and receiver, with the received light controlling the electrical output."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-28"
     },
     {
       "id": "wb-33",
@@ -196,7 +206,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Through Beam – The object to be sensed breaks the beam to activate the sensor ● Retro-Reflective – Light reflects back from the object being sensed Through Beam Sensor 60 A23"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-33"
     },
     {
       "id": "c205x-reed-leads",
@@ -240,7 +252,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review Sensor 6-7.pdf, PDF page 6. The basic reed switch has two leads and needs no separate power for sensing electronics. This describes the course devices, not every commercial sensor model."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-reed-leads"
     },
     {
       "id": "c205x-reed-power",
@@ -272,7 +286,9 @@
         "page": 56,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "The reed switch is purely mechanical. It has only two leads and acts as a single-pole, single throw switch (SPST) that closes in a magnetic field. It needs no external power and is connected in series with the power supply and then the load or controller input…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-reed-power"
     },
     {
       "id": "c205x-reed-series",
@@ -307,7 +323,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 4. The course connects the reed switch in series between the supply and the load/controller input. Closing it completes that input path."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-reed-series"
     },
     {
       "id": "c205x-reed-factors",
@@ -340,7 +358,9 @@
         "page": 58,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Material between switch and magnet 58"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-reed-factors"
     },
     {
       "id": "c205x-hall-principle",
@@ -372,7 +392,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "A Hall Effect switch can only sense a magnetic field, but can use AC or DC This sensor contains a conductive material that has current flowing through it. When a magnetic field is brought close, it bends the field and causes a small but measurable voltage chan…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-hall-principle"
     },
     {
       "id": "c205x-hall-reed",
@@ -404,7 +426,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "sense a magnetic field, but can use AC or DC This sensor contains a conductive material that has current flowing through it. When a magnetic field is brought close, it bends the field and causes a small but measurable voltage change. Performance depends on: • …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-hall-reed"
     },
     {
       "id": "c205x-through-beam",
@@ -436,7 +460,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Through Beam – The object to be sensed breaks the beam to activate the sensor ● Retro-Reflective – Light reflects back from the object being sensed Through Beam Sensor 60 A23"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-through-beam"
     },
     {
       "id": "c205x-photo-parts",
@@ -468,7 +494,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "A Photoelectric Sensor energizes it’s output when it sees light. It is a Solid-State device that uses the principle of Photoconduction. ( The ability of a material to conduct electrical current when struck by Light. It has 3 components: ● Light source (transmi…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-photo-parts"
     },
     {
       "id": "c205x-photo-interference",
@@ -503,7 +531,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 3. Unwanted light entering the receiver can imitate the intended reflected beam. The slide discusses shielding against external light."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-photo-interference"
     },
     {
       "id": "c205x-reflective-target",
@@ -538,7 +568,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review Sensor 6-7.pdf, PDF page 6. The tilted shiny surface sends the reflected beam away from the receiver. Detection depends on returned light, not just whether the target looks shiny."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-reflective-target"
     },
     {
       "id": "c205x-detected-no-input",
@@ -573,7 +605,9 @@
       "reviewCue": {
         "page": 15,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 15. Lit indicators show power/detection but do not prove a usable output signal. Measure the output at the sensor before following the signal toward the controller."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-detected-no-input"
     },
     {
       "id": "c205x-voltage-checks",
@@ -605,7 +639,9 @@
         "page": 63,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "check supply voltages and output voltage 63 AC and DC. A05"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-voltage-checks"
     },
     {
       "id": "c205-quiz-hall-target",
@@ -644,7 +680,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Sensor 6-7.pdf, PDF page 3. Hall-effect sensing responds to a magnetic field through a small voltage change in the sensing material."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-hall-target"
     },
     {
       "id": "c205-quiz-ac-dc",
@@ -693,7 +731,9 @@
       "reviewCue": {
         "page": 7,
         "text": "Review Sensor 6-7.pdf, PDF page 7. Slides 56 and 58 state that reed switches handle AC or DC. Slide 59 says Hall-effect switches can use AC or DC. Use a device with the appropriate rating. The Sensor 6–7 quiz key conflicts with these slides; this answer follows the slides."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-ac-dc"
     },
     {
       "id": "c205-quiz-hall-test",
@@ -728,7 +768,9 @@
       "reviewCue": {
         "page": 14,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 14. A magnet supplies the magnetic field that Hall sensing responds to. Checking the output change tests sensing action; supply voltage alone does not."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-hall-test"
     },
     {
       "id": "c205-quiz-hall-load",
@@ -767,7 +809,9 @@
         "imageKey": "teacher-pre-20",
         "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 20",
         "page": 20
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-hall-load"
     }
   ]
 }

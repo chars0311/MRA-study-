@@ -24,7 +24,9 @@
         "page": 44,
         "text": "Review Day 2 · Laser Shaft Alignment Operation, slide 44. Uncoupled shafts require individual static readings at multiple angular positions.",
         "excerpt": "When the shafts are not coupled, a laser alignment system cannot perform a continuous sweep because the shafts won’t rotate together. In this situation, the system requires you to take individual, static readings at multiple angular positions — which is exactl…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "module-check-8"
     },
     {
       "id": "c302-p44-29",
@@ -46,7 +48,9 @@
       "reviewCue": {
         "page": 44,
         "text": "Review C302 Laser Shaft Alignment.pdf, slide 44. Compare single-point, multipoint, and continuous-sweep methods."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p44-29"
     }
   ]
 }

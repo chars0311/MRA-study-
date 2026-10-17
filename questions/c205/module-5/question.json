@@ -30,7 +30,10 @@
         "page": 46,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Two Modes of Operation: Automatic and Jog (manual) Automatic Mode runs continuously after a momentary press of 1PB. Jog mode: 1-Sol only energizes when 1PB is pressed. 46"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "module-check-2",
+      "learningHelpKey": "control-relay"
     },
     {
       "id": "c205x-cylinder-sync",
@@ -65,7 +68,9 @@
       "reviewCue": {
         "page": 1,
         "text": "Review Sensor 3-5.pdf, PDF page 1. The shared machine member makes the cylinders move together, so one position switch can sense that shared motion."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-cylinder-sync"
     },
     {
       "id": "c205x-jog-auto",
@@ -97,7 +102,9 @@
         "page": 46,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Two Modes of Operation: Automatic and Jog (manual) Automatic Mode runs continuously after a momentary press of 1PB. Jog mode: 1-Sol only energizes when 1PB is pressed. 46"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-jog-auto"
     },
     {
       "id": "c205x-manual-guidance",
@@ -130,7 +137,9 @@
         "page": 47,
         "text": "Review C205 Sensor Logic Systems.pdf, slide 47: Guidelines Working with Manual Controls. Read all five lines.",
         "excerpt": "No manual overrides! Jog at slow speeds Use mode lockouts Use only pushbuttons to jog 47"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-manual-guidance"
     }
   ]
 }

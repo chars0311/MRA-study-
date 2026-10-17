@@ -43,7 +43,9 @@
         "page": 36,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Total Series Resistance ● The total resistance in a circuit determines how much power the circuit draws ● If the loads are connected in series, add the individual resistances 36 17 SYLLABUS. AI-generated content may be incorrect."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-series-rule"
     },
     {
       "id": "c201x-parallel-rule",
@@ -75,7 +77,10 @@
         "page": 37,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● The total resistance decreases as you add more resistors ● Alternate (rearranged) formulas: Total Parallel Resistance 37 EXAMPLE: 60, 45 AND 35 OHM RESISTORS CONNECTED IN PARALLEL, WHAT IS THE TOTAL RESISTANCE"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-parallel-rule",
+      "learningHelpKey": "series-parallel"
     },
     {
       "id": "c201x-inverse",
@@ -107,7 +112,10 @@
         "page": 38,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Resistance and Current Relationship ● Current in series and parallel circuits is affected by changes in resistance ● An increase in resistance causes a decrease in current and vice versa 38"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-inverse",
+      "learningHelpKey": "ohms-law"
     },
     {
       "id": "c201x-ohms-i",
@@ -139,7 +147,10 @@
         "page": 39,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Voltage, current, and resistance are related to each other by Ohm’s Law ○ Applies to electrical circuits where the loads are only resistance-type loads ○ “One volt can push one amp through one ohm of resistance” 39"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-ohms-i",
+      "learningHelpKey": "ohms-law"
     },
     {
       "id": "c201x-ohms-r",
@@ -171,7 +182,10 @@
         "page": 39,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Voltage, current, and resistance are related to each other by Ohm’s Law ○ Applies to electrical circuits where the loads are only resistance-type loads ○ “One volt can push one amp through one ohm of resistance” 39"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-ohms-r",
+      "learningHelpKey": "ohms-law"
     },
     {
       "id": "c201x-ohms-image",
@@ -210,7 +224,9 @@
         "page": 40,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● With Ohm’s Law, any of the three values for voltage, current, or resistance can be calculated if the other two are known 40"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c201x-ohms-image"
     },
     {
       "id": "c201x-kcl",
@@ -243,7 +259,9 @@
         "page": 42,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ In a parallel circuit, the total current to/from the power supply is called the main line current 42"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-kcl"
     },
     {
       "id": "c201x-power-unit",
@@ -275,7 +293,9 @@
         "page": 43,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Power is the measure of the energy consumed by a circuit ● Measured in watts, abbreviated W ● “One watt is consumed when one volt pushes one amp through a circuit” ● Power = Current x Voltage 43"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-power-unit"
     },
     {
       "id": "c201x-overcurrent",
@@ -307,7 +327,9 @@
         "page": 44,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● High current can damage electrical components ○ Too many loads connected to circuit ○ Short circuit - direct path with little or no resistance ● Two types of devices: ○ Fuse - used where a problem rarely occurs e.g. a car’s light system ○ Circuit Breaker - u…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-overcurrent"
     },
     {
       "id": "c201x-fuse",
@@ -346,7 +368,9 @@
         "page": 45,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● When current flow exceeds the rated value of the fuse, the wire or foil strip melts and opens the circuit ○ If a fuse is good, it has continuity; if a fuse is blown, there is no continuity and therefore no current flow Schematic Symbol Good Blown 45"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-fuse"
     },
     {
       "id": "c201x-fuse-state",
@@ -378,7 +402,9 @@
         "page": 45,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ If a fuse is good, it has continuity; if a fuse is blown, there is no continuity and therefore no current flow Schematic Symbol Good Blown 45"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-fuse-state"
     },
     {
       "id": "c201x-breaker",
@@ -410,7 +436,9 @@
         "page": 46,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Performs the same protective service as a fuse, but can be reset ● Just as a fuse blows, a circuit breaker trips if there is excessive current ● Two types ○ Thermally Triggered - trips due to heat caused by excessive current ■ Has a lag time (delay) before i…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-breaker"
     },
     {
       "id": "c201x-thermal",
@@ -442,7 +470,9 @@
         "page": 46,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "■ Has a lag time (delay) before it trips because the temperature must increase ○ Magnetically Triggered - trips due to strength of magnetic field created by excessive current ■ Trips immediately when a surge of excessive current is present ■ A slow increase in…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-thermal"
     },
     {
       "id": "c201x-combined",
@@ -474,7 +504,9 @@
         "page": 46,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "of magnetic field created by excessive current ■ Trips immediately when a surge of excessive current is present ■ A slow increase in current may not trip the breaker ○ Thermomagnetic - a combination of both 46"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-combined"
     }
   ]
 }

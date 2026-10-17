@@ -36,7 +36,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review Sensor 3-5.pdf, PDF page 4. A moving machine part operates the switch mechanically, changing its contacts to indicate position."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "module-check-0"
     },
     {
       "id": "visual-s-sequence",
@@ -77,7 +79,9 @@
         "imageKey": "teacher-s35-4",
         "alt": "Unanswered diagram from Sensor 3-5.pdf, page 4",
         "page": 4
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "visual-s-sequence"
     },
     {
       "id": "visual-s-single-cycle",
@@ -112,7 +116,10 @@
         "page": 37,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "operates 2LS which breaks the seal-in. 1CR is de-energized and the cylinder retracts. Reading Ladder Diagrams 2 37"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-s-single-cycle",
+      "learningHelpKey": "control-relay"
     },
     {
       "id": "switch-held-no",
@@ -141,7 +148,10 @@
         "page": 35,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-held-no",
+      "learningHelpKey": "switch-states"
     },
     {
       "id": "switch-held-nc",
@@ -170,7 +180,10 @@
         "page": 35,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-held-nc",
+      "learningHelpKey": "switch-states"
     },
     {
       "id": "switch-power-off",
@@ -199,7 +212,9 @@
         "page": 35,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Two Other Limit Switch States 35"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "switch-power-off"
     },
     {
       "id": "c205x-position-not-pressure",
@@ -232,7 +247,9 @@
         "page": 33,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "A limit switch is an input device to automatically open and close a switch based on the position of another part of the machine or the product. They are simple, low cost, reliable and extremely common 33"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-position-not-pressure"
     },
     {
       "id": "c205x-limit-normal",
@@ -264,7 +281,9 @@
         "page": 34,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "They are shown in ladder diagrams in their unoperated state. 34"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-limit-normal"
     },
     {
       "id": "c205x-limit-no",
@@ -305,7 +324,9 @@
         "imageKey": "teacher-s35-2",
         "alt": "Unanswered diagram from Sensor 3-5.pdf, page 2",
         "page": 2
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-limit-no"
     },
     {
       "id": "c205x-limit-nc",
@@ -346,7 +367,9 @@
         "imageKey": "teacher-s35-2",
         "alt": "Unanswered diagram from Sensor 3-5.pdf, page 2",
         "page": 2
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-limit-nc"
     },
     {
       "id": "c205x-limit-nohc",
@@ -387,7 +410,9 @@
         "imageKey": "teacher-s35-2",
         "alt": "Unanswered diagram from Sensor 3-5.pdf, page 2",
         "page": 2
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-limit-nohc"
     },
     {
       "id": "c205x-limit-ncho",
@@ -428,7 +453,9 @@
         "imageKey": "teacher-s35-2",
         "alt": "Unanswered diagram from Sensor 3-5.pdf, page 2",
         "page": 2
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-limit-ncho"
     },
     {
       "id": "c205x-nohc-release",
@@ -466,7 +493,9 @@
         "page": 35,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-nohc-release"
     },
     {
       "id": "c205x-ncho-release",
@@ -504,7 +533,9 @@
         "page": 35,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-ncho-release"
     },
     {
       "id": "c205x-none-example",
@@ -543,7 +574,9 @@
         "page": 35,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Normally Open, held closed Normally Closed, held open Two Other Limit Switch States 35"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-none-example"
     },
     {
       "id": "c205x-sequence-drop",
@@ -581,7 +614,9 @@
         "page": 36,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "extend. If 2LS opens cylinder 2 retracts. Reading Ladder Diagrams 1 36 A16"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-sequence-drop"
     },
     {
       "id": "c205x-one-cycle",
@@ -622,7 +657,9 @@
         "imageKey": "teacher-pre-19",
         "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 19",
         "page": 19
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-one-cycle"
     },
     {
       "id": "c205x-continuous-id",
@@ -660,7 +697,9 @@
         "page": 38,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "This is a continuous cycle circuit: The cylinder will reciprocate back and forth after the operator presses 1PB for a moment. Reading Ladder Diagrams 3 – Multiple Limit Switches 38 A17 A28 The keys to this diagram are normally open, held closed 1LS and normall…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c205x-continuous-id"
     },
     {
       "id": "c205x-continuous-hold",
@@ -698,7 +737,9 @@
         "page": 38,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "cylinder. 2CRA seals this rung and allows the cylinder to extend even after 1LS opens. When the cylinder extends to close 2LS, the seal allowing 2CR to energize is lost and the cylinder retracts. When it retracts and closes 1LS, the cycle starts again."
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-continuous-hold"
     },
     {
       "id": "c205x-guard-removal",
@@ -736,7 +777,9 @@
         "page": 39,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "If a guard is removed, power to the machine is killed. 39"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-guard-removal"
     },
     {
       "id": "c205-quiz-limit-lamps",
@@ -791,7 +834,9 @@
         "imageKey": "teacher-s35-5",
         "alt": "Unanswered diagram from Sensor 3-5.pdf, page 5",
         "page": 5
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205-quiz-limit-lamps"
     },
     {
       "id": "c205-quiz-full-extension",
@@ -831,7 +876,9 @@
       "reviewCue": {
         "page": 12,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 12. The limit switch detects the end of the extension stroke and changes the control state to start retraction."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205-quiz-full-extension"
     }
   ]
 }

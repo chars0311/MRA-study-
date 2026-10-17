@@ -24,7 +24,9 @@
         "page": 4,
         "text": "Review Removing Misalignment, slide 4. Offset is parallel misalignment; angled centerlines are angular; both can occur together.",
         "excerpt": "parallel (offset), angular, combined We measure in both the: Vertical (think wall) Horizontal (think floor) 4"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q068"
     },
     {
       "id": "q067",
@@ -46,7 +48,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 3. Alignment places the shaft axes on the same centerline and reduces forces caused by offset or angular error."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q067"
     },
     {
       "id": "c302-p4-1",
@@ -68,7 +72,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 4. Parallel misalignment is an offset between parallel axes; angular misalignment is a difference in their angle."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p4-1"
     },
     {
       "id": "c302-p4-2",
@@ -90,7 +96,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 4. Both angular and parallel errors must be considered in the vertical and horizontal planes."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p4-2"
     },
     {
       "id": "c302-p6-3",
@@ -112,7 +120,9 @@
       "reviewCue": {
         "page": 6,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 6. The slide lists lower equipment cost but greater skill, time, and labor requirements for dial indicators."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p6-3"
     },
     {
       "id": "c302-p7-4",
@@ -134,7 +144,9 @@
       "reviewCue": {
         "page": 7,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 7. The slide defines the acronym and describes laser light as a narrow, single-wavelength beam."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p7-4"
     },
     {
       "id": "c302-p9-5",
@@ -156,7 +168,9 @@
       "reviewCue": {
         "page": 9,
         "text": "Review C302 Laser Shaft Alignment.pdf, PDF page 9. The laser-safety slide begins with LOTO and also prohibits looking into the beam or reflecting it toward people."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c302-p9-5"
     },
     {
       "id": "alignment-picture-angular",
@@ -183,7 +197,9 @@
         "kind": "slide-image",
         "imageKey": "last-course-a-4-6",
         "alt": "Original supplied course diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "alignment-picture-angular"
     }
   ]
 }

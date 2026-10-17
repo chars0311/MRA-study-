@@ -24,7 +24,9 @@
         "page": 3,
         "text": "Review Classification of Conveyors, slide 3. Bulk conveyors handle loose material; package conveyors move individual items such as boxes.",
         "excerpt": "Bulk Material Conveyors – move loose materials (powder, grains, pellets). Part / Package Conveyors – transport discrete items (boxes, parts). 3"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q077"
     },
     {
       "id": "conveyor-package",
@@ -46,7 +48,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review Conveyors.pdf, slide 3. The lecture distinguishes discrete parts/packages from loose grains, powders, and pellets."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-package"
     }
   ]
 }

@@ -35,7 +35,9 @@
       "reviewCue": {
         "page": 83,
         "text": "Review motor 5-6.pdf, PDF page 3. Also see C202 Electric Motor Controls.pdf, PDF page 83. The motor starter combines switching with overload protection for the motor. Look for the overload device associated with the starter."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q024"
     },
     {
       "id": "q025",
@@ -64,7 +66,10 @@
         "page": 82,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "2. Normally-open contacts 1CR-A will close, allowing current to flow through a parallel path to relay coil 3. When pushbutton PB1 is released, the relay coil stays energized through contacts 1CR- A 4. When stop pushbutton PB3 is pressed, its normally-closed co…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q025",
+      "learningHelpKey": "control-relay"
     },
     {
       "id": "q026",
@@ -94,7 +99,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review motor 5-6.pdf, PDF page 4. Loss of power drops the coil and opens the seal-in contact. A fresh Start command is needed after power returns."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q026"
     },
     {
       "id": "q027",
@@ -122,7 +129,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review motor 5-6.pdf, PDF page 4. When supply returns, the maintained closed input again completes the coil circuit. The control has not required a new momentary Start command."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q027"
     },
     {
       "id": "mc-relay",
@@ -161,7 +170,9 @@
         "page": 77,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► In the normal or de-energized state, the spring holds the normally-closed contacts closed and the normally-open contacts open ► When energized, the solenoid attracts the armature, causing the normally-closed contacts to open and the normally-open contacts to…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-relay"
     },
     {
       "id": "mc-seal-fault",
@@ -209,7 +220,9 @@
         "page": 87,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A three-wire control circuit uses three wires to connect the input device to the coil of the magnetic starter, the 3 phases will be 360 / 3 or 12 0 degrees apart ► The third wire provides the seal-in or memory function ► Provides low-voltage protection ► If …"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "mc-seal-fault"
     },
     {
       "id": "mc-label",
@@ -248,7 +261,10 @@
         "page": 78,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Symbols for the contacts and coil of a control relay share the same label ► The label of each set of contacts usually has a letter added to identify it ► In memory logic, a relay continues to energize itself after a momentary input ► One set of contacts is w…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "mc-label",
+      "learningHelpKey": "control-relay"
     },
     {
       "id": "wb-16",
@@ -283,7 +299,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review motor 5-6.pdf, PDF page 4. A normally open auxiliary contact closes around the momentary Start contact and maintains the coil current. Look for the holding branch."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-16"
     },
     {
       "id": "wb-17",
@@ -313,7 +331,9 @@
         "page": 87,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Three-Wire Control ► A three-wire control circuit uses three wires to connect the input device to the coil of the magnetic starter, the 3 phases will be 360 / 3 or 12 0 degrees apart ► The third wire provides the seal-in or memory function ► Provides low-volta…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-17"
     },
     {
       "id": "visual-m-two-wire",
@@ -348,7 +368,9 @@
         "page": 86,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A two-wire control circuit uses two wires to connect the input device to the power supply and to the coil of the magnetic starter ► Does not provide low-voltage protection ► If there is power loss, pilot device contacts will remain closed ► When power return…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-two-wire"
     },
     {
       "id": "visual-m-three-wire",
@@ -383,7 +405,9 @@
         "page": 87,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A three-wire control circuit uses three wires to connect the input device to the coil of the magnetic starter, the 3 phases will be 360 / 3 or 12 0 degrees apart ► The third wire provides the seal-in or memory function ► Provides low-voltage protection ► If …"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-m-three-wire"
     },
     {
       "id": "c202x-load-relay",
@@ -415,7 +439,9 @@
         "page": 76,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A control relay is a magnetic switching device designed to switch parts of a circuit on or off when it receives an electrical input ► Three types of applications: ► Energizing Larger Output Devices ► Some output devices draw more current than control devices…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-load-relay"
     },
     {
       "id": "c202x-spring",
@@ -447,7 +473,9 @@
         "page": 77,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "a spring-loaded armature ► In the normal or de-energized state, the spring holds the normally-closed contacts closed and the normally-open contacts open ► When energized, the solenoid attracts the armature, causing the normally-closed contacts to open and the …"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-spring"
     },
     {
       "id": "c202x-heavy",
@@ -477,7 +505,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review motor 5-6.pdf, PDF page 2. Machine-control relays are the heavy-duty industrial category. A rheostat and potentiometer are variable resistors."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-heavy"
     },
     {
       "id": "c202x-detached",
@@ -513,7 +543,9 @@
       "reviewCue": {
         "page": 80,
         "text": "Review motor 5-6.pdf, PDF page 2. Also see C202 Electric Motor Controls.pdf, PDF page 80. Detached symbology separates the coil and contacts on the drawing while their shared label identifies the same relay."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c202x-detached"
     },
     {
       "id": "c202x-reference",
@@ -545,7 +577,9 @@
         "page": 81,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A dash “_” under a number indicates normally-closed contacts ► No dash indicates normally-open contacts 81"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-reference"
     },
     {
       "id": "c202x-poles",
@@ -577,7 +611,9 @@
         "page": 84,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► A magnetic motor starter used to operate a three-phase motor must have at least three sets of power contacts ► A typical magnetic starter also includes: ► Thermal Overload ► Senses excessive current and opens its overload contact to turn off the motor coil ►…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-poles"
     },
     {
       "id": "c202x-trip",
@@ -609,7 +645,9 @@
         "page": 84,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "► Senses excessive current and opens its overload contact to turn off the motor coil ► Auxiliary Contact ► Extra set of normally-open contacts that can be used to provide a seal-in circuit ► Interlock Contact ► Used with reversing motor contactors to prevent b…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-trip"
     },
     {
       "id": "c202x-pilot",
@@ -639,7 +677,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review motor 5-6.pdf, PDF page 5. Pressing a push-to-test indicator temporarily supplies its lamp through the test connection. Look for the third terminal and test action."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202x-pilot"
     },
     {
       "id": "c202-quiz-relay-control",
@@ -675,7 +715,9 @@
       "reviewCue": {
         "page": 77,
         "text": "Review motor 5-6.pdf, PDF page 1. Also see C202 Electric Motor Controls.pdf, PDF page 77. The relay coil operates contacts that can switch another circuit. Look for the coil and its associated contacts."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-relay-control"
     },
     {
       "id": "c202-quiz-coil-output",
@@ -711,7 +753,9 @@
       "reviewCue": {
         "page": 80,
         "text": "Review motor 5-6.pdf, PDF page 2. Also see C202 Electric Motor Controls.pdf, PDF page 80. The coil uses electrical energy to operate the relay, so it is an output. The relay contacts act as inputs in the circuits they control."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-coil-output"
     },
     {
       "id": "c202-quiz-three-overloads",
@@ -741,7 +785,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review motor 5-6.pdf, PDF page 3. The course calls for three overload elements, one for each phase. Count the three current paths to the motor."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c202-quiz-three-overloads"
     },
     {
       "id": "c202-pre-relay-initial",
@@ -777,7 +823,9 @@
         "imageKey": "teacher-mpre-p19-img1",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 19
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-relay-initial"
     },
     {
       "id": "c202-pre-relay-held",
@@ -813,7 +861,9 @@
         "imageKey": "teacher-mpre-p20-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 20
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-relay-held"
     },
     {
       "id": "c202-pre-seal-initial",
@@ -849,7 +899,9 @@
         "imageKey": "teacher-mpre-p21-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 21
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-seal-initial"
     },
     {
       "id": "c202-pre-seal-running",
@@ -885,7 +937,9 @@
         "imageKey": "teacher-mpre-p22-img0",
         "alt": "Original teacher-quiz circuit or symbol diagram",
         "page": 22
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c202-pre-seal-running"
     }
   ]
 }

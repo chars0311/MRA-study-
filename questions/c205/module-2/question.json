@@ -30,7 +30,9 @@
         "page": 15,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Directional Control Valves Operator Type ► The operator is used to shift a DCV’s spool to a different position. ► The most common are: ► Solenoid ► Manual ► Pneumatic pilot ► Cam-operated ► Not all DCVs used spools! Solenoid Manual Pneumatic Pilot Body Spool (…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q043"
     },
     {
       "id": "q046",
@@ -59,7 +61,9 @@
         "page": 25,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "CONTROL RELAY as a memory circuit When Start 1PB is pressed, 1CR is energized and closes 1CRA. When 1PB is released, 1CRA keeps 1CR energized. A momentary press of 1PB keeps 1CR permanently on! The circuit is killed by pressing 2PB, also called the eStop 25 A1…"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q046"
     },
     {
       "id": "wb-31",
@@ -89,7 +93,9 @@
         "page": 26,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solid State (SSR)– No moving parts, with switching done by transistors Electromechanical (EMR)– A magnetized coil moves switch contacts EMR SSR 26"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-31"
     },
     {
       "id": "wb-32",
@@ -119,7 +125,9 @@
         "page": 26,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Relays can be either: Solid State (SSR)– No moving parts, with switching done by transistors Electromechanical (EMR)– A magnetized coil moves switch contacts EMR SSR 26"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "wb-32"
     },
     {
       "id": "visual-s-seal",
@@ -154,7 +162,9 @@
         "page": 25,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "1CRA. When 1PB is released, 1CRA keeps 1CR energized. A momentary press of 1PB keeps 1CR permanently on! The circuit is killed by pressing 2PB, also called the eStop 25 A15 A18 A30"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-s-seal"
     },
     {
       "id": "visual-s-relay",
@@ -195,7 +205,9 @@
         "imageKey": "teacher-s12-8",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 8",
         "page": 8
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-s-relay"
     },
     {
       "id": "c205x-dcv-function",
@@ -227,7 +239,9 @@
         "page": 14,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "DCV – Directional Control Valve Valves and Relays Controls the flow of air (pneumatic) or fluid (hydraulic) to different ports (pressurized lines) Are operated by: • Hand (manual) • Electric (solenoid) • Air/Hydraulic (pilot) • Cam (like a limit switch) 14 MOD…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-dcv-function"
     },
     {
       "id": "c205x-dcv-operators",
@@ -260,7 +274,9 @@
         "page": 14,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "• Air/Hydraulic (pilot) • Cam (like a limit switch) 14 MODULE 2"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-dcv-operators"
     },
     {
       "id": "c205x-spool",
@@ -298,7 +314,9 @@
         "page": 15,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "spool to a different position. ► The most common are: ► Solenoid ► Manual ► Pneumatic pilot ► Cam-operated ► Not all DCVs used spools! Solenoid Manual Pneumatic Pilot Body Spool (slides back and forth) Solenoids move the spool Lever moves the spool Ports 15 Th…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-spool"
     },
     {
       "id": "c205x-five-three",
@@ -331,7 +349,9 @@
         "page": 15,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "This is a 5/3 DCV: 5 ports with 3 positions"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-five-three"
     },
     {
       "id": "c205x-dcv-a-path",
@@ -370,7 +390,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solenoid A energized, spool slides right. A-P and B-S are connected Solenoid B energized, spool slides left. A-R and B-P are connected 16"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-dcv-a-path"
     },
     {
       "id": "c205x-dcv-b-path",
@@ -409,7 +431,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solenoid A energized, spool slides right. A-P and B-S are connected Solenoid B energized, spool slides left. A-R and B-P are connected 16"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-dcv-b-path"
     },
     {
       "id": "c205x-dcv-neutral",
@@ -447,7 +471,9 @@
         "page": 16,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Unoperated: Both solenoids are unenergized, spool is in the center, no flow Pressure Pressure PressureExhaust Exhaust Solenoid A energized, spool slides right. A-P and B-S are connected Solenoid B energized, spool slides left. A-R and B-P are connected 16"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-dcv-neutral"
     },
     {
       "id": "c205x-five-two",
@@ -479,7 +505,9 @@
         "page": 17,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "How to “read” a DCV on a power diagram This is a 5/2 DCV: 5 ports with 2 positions Only the spool is shown on power diagrams Non - Energized: The spring pushes the spool to the left Energized: The solenoid pushes the spool to the right A is pressurized ( red )…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-five-two"
     },
     {
       "id": "c205x-spring-return",
@@ -511,7 +539,9 @@
         "page": 17,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Energized: The spring pushes the spool to the left Energized: The solenoid pushes the spool to the right A is pressurized ( red ), retracting the cylinder B is pressurized ( red ), extending the cylinder"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-spring-return"
     },
     {
       "id": "c205x-manual-override",
@@ -552,7 +582,9 @@
         "imageKey": "teacher-pre-9",
         "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 9",
         "page": 9
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c205x-manual-override"
     },
     {
       "id": "c205x-relay-command",
@@ -584,7 +616,9 @@
         "page": 20,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Relays are electrically operated switches that open and close their circuits by receiving electrical signals from outside sources. Relays are usually heavier duty than pushbuttons and manual switches: they can carry a higher electrical current and hold up to m…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-relay-command"
     },
     {
       "id": "c205x-relay-duty",
@@ -616,7 +650,9 @@
         "page": 21,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Machine Control Relay Parts of a relay What a relay looks like on a ladder diagram outlined in yellow 21"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-relay-duty"
     },
     {
       "id": "c205x-detached",
@@ -648,7 +684,10 @@
         "page": 22,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Machine Control Relay Many switches and different combinations of switches can be ganged together within a relay 22"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-detached",
+      "learningHelpKey": "control-relay"
     },
     {
       "id": "c205x-relay-nc",
@@ -686,7 +725,9 @@
         "page": 23,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "This 1 CRB is the normally closed contact. When 1CR is energized, it opens and turns the green light off. 23 A29"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-relay-nc"
     },
     {
       "id": "c205x-relay-reset",
@@ -730,7 +771,10 @@
         "page": 23,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "energized, it closes and turns the red light on. This 1 CRB is the normally closed contact. When 1CR is energized, it opens and turns the green light off. 23 A29"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-relay-reset",
+      "learningHelpKey": "control-relay"
     },
     {
       "id": "c205x-seal-release",
@@ -768,7 +812,9 @@
         "page": 25,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "CONTROL RELAY as a memory circuit When Start 1PB is pressed, 1CR is energized and closes 1CRA. When 1PB is released, 1CRA keeps 1CR energized. A momentary press of 1PB keeps 1CR permanently on! The circuit is killed by pressing 2PB, also called the eStop 25 A1…"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205x-seal-release"
     },
     {
       "id": "c205x-ssr-emr",
@@ -800,7 +846,9 @@
         "page": 26,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solid State (SSR)– No moving parts, with switching done by transistors Electromechanical (EMR)– A magnetized coil moves switch contacts EMR SSR 26"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-ssr-emr"
     },
     {
       "id": "c205x-relay-selection",
@@ -833,7 +881,9 @@
         "page": 27,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "o Output Voltage o Input Voltage o Output Current o Input Current 27"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-relay-selection"
     },
     {
       "id": "c205x-ssr-rating",
@@ -865,7 +915,9 @@
         "page": 28,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "SSRs are specified for AC or DC, they’re not interchangeable Testing a Solid-State Relay Usually, a few voltage checks can determine is an SSR is good: • With the control voltage is applied to the SSR, does the output change state? • Is the line voltage that s…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-ssr-rating"
     },
     {
       "id": "c205x-ssr-line",
@@ -897,7 +949,9 @@
         "page": 29,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Is the line voltage that supplies the load good? This diagram is for an AC circuit with a “sinking” SSR (covered later). With a DC SSR or a sourcing SSR, current flow direction will change where you measure. If no or low voltage is measured here, the problem i…"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c205x-ssr-line"
     },
     {
       "id": "c205x-ssr-switch",
@@ -929,7 +983,9 @@
         "page": 30,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Is the control voltage good? With the switch closed, measure after the switch too. Switches are always a source of problems. If no or low voltage is measured in either spot, the problem is not the SSR. The switch is bad if no voltage is measured at the SSR whe…"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c205x-ssr-switch"
     },
     {
       "id": "c205x-ssr-output",
@@ -964,7 +1020,9 @@
       "reviewCue": {
         "page": 16,
         "text": "Review PRE-TEST Sensor Logic Systems.pdf, PDF page 16. The relay output should respond to its input. If the correct input and supply are present but the output does not change, the relay is suspect."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c205x-ssr-output"
     },
     {
       "id": "c205-quiz-jog-motor",
@@ -1005,7 +1063,9 @@
         "imageKey": "teacher-s12-7",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 7",
         "page": 7
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205-quiz-jog-motor"
     },
     {
       "id": "c205-quiz-sol-extend",
@@ -1044,7 +1104,9 @@
         "imageKey": "teacher-s12-11",
         "alt": "Unanswered diagram from Sensor 1-2.pdf, page 11",
         "page": 11
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205-quiz-sol-extend"
     },
     {
       "id": "c205-quiz-motor-interlock",
@@ -1085,7 +1147,9 @@
         "imageKey": "teacher-pre-10",
         "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 10",
         "page": 10
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205-quiz-motor-interlock"
     },
     {
       "id": "c205-quiz-coil-b",
@@ -1126,7 +1190,9 @@
         "imageKey": "teacher-pre-11",
         "alt": "Unanswered diagram from PRE-TEST Sensor Logic Systems.pdf, page 11",
         "page": 11
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c205-quiz-coil-b"
     }
   ]
 }

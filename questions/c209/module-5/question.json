@@ -24,7 +24,9 @@
         "page": 90,
         "text": "Review C209 Pneumatic Systems.pdf, slide 90. Look for Module 5 · Cam-operated valves, slide 90.",
         "excerpt": "Cam-operated valves\n► Also known as a roller operated valve.\n► Designed to function similar to an electrical limit \nswitch.\n► It is a two-position DCV mechanically actuated by \nthe extension or ion of the cylinder rod.\n► slowing a cylinder is achieved by restricting the \nexhaust air flow rather than the incoming air.\n► Used in applications where electrical switches are \nnot safe.\n► Petroleum refineries use this valve type\n90\nA19\nCam or \nRoller \nOperator \nA21 A22"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "module-check-3"
     },
     {
       "id": "c209-p90-concept",
@@ -47,7 +49,9 @@
         "page": 90,
         "text": "Review C209 Pneumatic Systems.pdf, slide 90. Look for the explanation of What actuates a cam-operated pneumatic valve.",
         "excerpt": "Cam-operated valves\n► Also known as a roller operated valve.\n► Designed to function similar to an electrical limit \nswitch.\n► It is a two-position DCV mechanically actuated by \nthe extension or ion of the cylinder rod.\n► slowing a cylinder is achieved by restricting the \nexhaust air flow rather than the incoming air.\n► Used in applications where electrical switches are \nnot safe.\n► Petroleum refineries use this valve type\n90\nA19\nCam or \nRoller \nOperator \nA21 A22"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p90-concept"
     },
     {
       "id": "c209-p92-concept",
@@ -70,7 +74,9 @@
         "page": 92,
         "text": "Review C209 Pneumatic Systems.pdf, slide 92. Look for the explanation of What is used for power braking in the two-speed circuit.",
         "excerpt": "Two-speed circuits\nPower Braking/Cam-Valve\n► Uses a pressure regulator to apply high \nback pressure.\n► Used for higher speeds that require a \ngreater force to decelerate the .\n92"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p92-concept"
     },
     {
       "id": "c209-p93-concept",
@@ -93,7 +99,9 @@
         "page": 93,
         "text": "Review C209 Pneumatic Systems.pdf, slide 93. Look for the explanation of Which component can absorb motion externally at the end of travel.",
         "excerpt": "Two-speed circuits\nShock Absorbers\n► This method uses external shock absorbers.\n► Works for any application with properly sized \nshock absorbers for the application.\n► Internal (cushioning)\n93"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p93-concept"
     },
     {
       "id": "c209-p94-concept",
@@ -116,7 +124,10 @@
         "page": 94,
         "text": "Review C209 Pneumatic Systems.pdf, slide 94. Look for the explanation of How many ports does a two-way valve have.",
         "excerpt": "Two-way valves\nFunction\n► Has two ports, inlet/outlet.\n► Controls flow in either direction.\n► Used to control volume or \nfunction as on/off valves.\nTypes\n► Needle\n► Plug\n► Ball\n► Globe\n► Gate \n94"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p94-concept",
+      "learningHelpKey": "valve-positions"
     },
     {
       "id": "c209-p95-concept",
@@ -139,7 +150,9 @@
         "page": 95,
         "text": "Review C209 Pneumatic Systems.pdf, slide 95. Look for the explanation of Which two-way valve provides fine adjustment of flow.",
         "excerpt": "Two-way valves\nNeedle\n► Used to control volume of flow.\n► Generally considered to be a speed \ncontrol valve.\n► Allows for fine tuning.\n► Control varies by design of the \nneedle.\n95"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p95-concept"
     },
     {
       "id": "c209-p96-concept",
@@ -162,7 +175,9 @@
         "page": 96,
         "text": "Review C209 Pneumatic Systems.pdf, slide 96. Look for the explanation of What is the usual function of a plug valve.",
         "excerpt": "Two-way valves\nPlug\n► Usually restricted to on/off \nfunction.\n► Coarse-adjustment can be \nachieved with intermediate \npositioning.\n► The plug consists of a hole which \ncan be aligned with ports\n96"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p96-concept"
     },
     {
       "id": "c209-p97-concept",
@@ -185,7 +200,9 @@
         "page": 97,
         "text": "Review C209 Pneumatic Systems.pdf, slide 97. Look for the explanation of Which valve uses a ball with a hole through its diameter.",
         "excerpt": "Two-way valves\nBall\n► Similar to a plug style.\n► Uses a ball a hole through its \ndiameter.\n► Typically used for on/off only\n97"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p97-concept"
     },
     {
       "id": "c209-p99-concept",
@@ -208,7 +225,9 @@
         "page": 99,
         "text": "Review C209 Pneumatic Systems.pdf, slide 99. Look for the explanation of Which valve uses a wedge that moves into the flow path.",
         "excerpt": "Two-way valves\nGate\n► Similar to globe valves, uses in \ngeneral piping and process \ncontrol.\n► Requires many turns to \nopen/close.\n► The wedge action of the gate \nallows for easy shearing of high \nflows.\n99"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p99-concept"
     }
   ]
 }

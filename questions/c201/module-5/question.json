@@ -41,7 +41,10 @@
         "page": 54,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Voltage Divider Network ● A voltage divider creates a voltage that is lower than the source voltage ● Consists of two or more resistors in series with the source voltage ○ The voltage at point B is some value between the source voltage and zero volts 54"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "visual-e-divider",
+      "learningHelpKey": "series-parallel"
     },
     {
       "id": "c201x-combination",
@@ -85,7 +88,9 @@
         "page": 48,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A series-parallel or combination circuit contains elements of both series and parallel circuits ○ Components connected in series have the same current flowing through them ○ Components connected in parallel have the same voltage across them 48"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c201x-combination"
     },
     {
       "id": "c201x-nodes",
@@ -117,7 +122,9 @@
         "page": 49,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Nodes that split the current ○ Nodes that recombine the current 49"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-nodes"
     },
     {
       "id": "c201x-first-step",
@@ -149,7 +156,9 @@
         "page": 50,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Seven Steps for Solving Combination Circuits ● Solving or analyzing a circuit involves determining unknown values of resistance, current, or voltage in a combination circuit ● Seven general steps: ○ Simplify the Circuit - simplify to a series circuit by findin…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-first-step"
     },
     {
       "id": "c201x-r34",
@@ -188,7 +197,9 @@
         "page": 51,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solve a Combination Circuit Example 51"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-r34"
     },
     {
       "id": "c201x-total",
@@ -227,7 +238,9 @@
         "page": 51,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solve a Combination Circuit Example 51"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-total"
     },
     {
       "id": "c201x-current",
@@ -266,7 +279,9 @@
         "page": 51,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solve a Combination Circuit Example 51"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-current"
     },
     {
       "id": "c201x-r2-voltage",
@@ -305,7 +320,9 @@
         "page": 51,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Solve a Combination Circuit Example 51"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-r2-voltage"
     },
     {
       "id": "c201x-fan-main",
@@ -343,7 +360,9 @@
         "page": 52,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Ceiling Fan with Lights 52"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c201x-fan-main"
     },
     {
       "id": "c201x-fan-control",
@@ -381,7 +400,9 @@
         "page": 52,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Ceiling Fan with Lights 52"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-fan-control"
     },
     {
       "id": "c201x-variable-three",
@@ -420,7 +441,9 @@
         "page": 53,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Can have two or three terminals ○ The two outside terminals act like a fixed resistor ○ The center terminal is attached to a slider (or “wiper”) which is controlled by a knob ● Two Types ○ Rheostat - used primarily in high-power circuits ○ Potentiometer - us…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-variable-three"
     },
     {
       "id": "c201x-variable-two",
@@ -459,7 +482,9 @@
         "page": 53,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ The two outside terminals act like a fixed resistor ○ The center terminal is attached to a slider (or “wiper”) which is controlled by a knob ● Two Types ○ Rheostat - used primarily in high-power circuits ○ Potentiometer - used primarily in low-power (e.g. el…"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-variable-two"
     },
     {
       "id": "c201x-outer",
@@ -491,7 +516,9 @@
         "page": 53,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ The two outside terminals act like a fixed resistor ○ The center terminal is attached to a slider (or “wiper”) which is controlled by a knob ● Two Types ○ Rheostat - used primarily in high-power circuits ○ Potentiometer - used primarily in low-power (e.g. el…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-outer"
     },
     {
       "id": "c201x-divider",
@@ -529,7 +556,9 @@
         "page": 54,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Consists of two or more resistors in series with the source voltage ○ The voltage at point B is some value between the source voltage and zero volts 54"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c201x-divider"
     },
     {
       "id": "c201x-divider-design",
@@ -562,7 +591,9 @@
         "page": 55,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● Three points to consider when designing a voltage divider network: ○ How constant the load voltage must be ○ How much power the circuit will consume ○ Whether the load resistance is high or low ● Three types of voltage divider networks: ○ Firm Voltage Divide…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-divider-design"
     },
     {
       "id": "c201x-firm",
@@ -594,7 +625,9 @@
         "page": 56,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ A firm voltage divider uses a bleeder resistor that is 1/10 the resistance of the load ■ Used if the load voltage does not need to be very constant ■ Does not consume as much power as the stiff voltage divider ○ A stiff voltage divider uses a bleeder resisto…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-firm"
     },
     {
       "id": "c201x-stiff",
@@ -626,7 +659,9 @@
         "page": 56,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ A stiff voltage divider uses a bleeder resistor that is 1/100 the resistance of the load ■ Used when the load voltage must be more constant ○ Power wasted is 10-100X the load power ● Loaded voltage dividers are used if the load resistance is relatively low ○…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-stiff"
     },
     {
       "id": "c201x-loading",
@@ -658,7 +693,9 @@
         "page": 56,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ A firm voltage divider uses a bleeder resistor that is 1/10 the resistance of the load ■ Used if the load voltage does not need to be very constant ■ Does not consume as much power as the stiff voltage divider ○ A stiff voltage divider uses a bleeder resisto…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-loading"
     },
     {
       "id": "c201x-approximation",
@@ -690,7 +727,9 @@
         "page": 57,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "Firm and Stiff Voltage Divider Formulas ● Can be used to calculate the load voltage if you know the resistance ● Can also be used to size R1 if you know what the voltage needs to be ● Actually an approximation because it assumes RL is infinite 57"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-approximation"
     },
     {
       "id": "c201x-short-series",
@@ -728,7 +767,9 @@
         "page": 58,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● A short in a series circuit may or may not cause excessive current ○ If a single component is shorted, current continues to flow through the rest of circuit ○ Only the shorted component is bypassed, meaning the current will be higher 58"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c201x-short-series"
     },
     {
       "id": "c201x-short-parallel",
@@ -766,7 +807,9 @@
         "page": 59,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ Causes an excessive amount of current since there is practically no resistance ○ A short across the power supply can damage or destroy it 59"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "c201x-short-parallel"
     },
     {
       "id": "c201x-locate-short",
@@ -798,7 +841,9 @@
         "page": 60,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ If the resistance stays close to zero when a branch is removed, the short is in another branch ○ If the resistance suddenly rises when a branch is disconnected, that is the shorted branch ○ If disconnecting all branches results in a zero ohm reading, the sho…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-locate-short"
     },
     {
       "id": "c201x-open-total",
@@ -836,7 +881,9 @@
         "page": 61,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "● If one branch of a parallel circuit has opened, the rest of the circuit will still operate but with a reduced total current ○ The effective resistance of the circuit has been increased ● If an open occurs in a series circuit, current will not flow 61"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c201x-open-total"
     },
     {
       "id": "c201x-locate-open",
@@ -868,7 +915,9 @@
         "page": 62,
         "text": "Find the passage below on the review slide. Focus on the component, condition, or relationship it describes.",
         "excerpt": "○ If disconnecting a branch has no effect on the total resistance, that branch has a open ○ More than one branch may have an open, so you should continue checking after one is found ○ If the open occurs in the main line, the circuit will not operate at all 62"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c201x-locate-open"
     }
   ]
 }

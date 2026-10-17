@@ -24,7 +24,9 @@
         "page": 5,
         "text": "Review Flat Belt Conveyor Operation, slide 5. The operation sequence begins with inspecting these conveyor elements.",
         "excerpt": "1. Inspect belt, rollers, guards, and emergency stops 2. Switch on main power supply 3. Start conveyor and run empty briefly 4. Load materials evenly on the belt 5. Monitor for smooth, safe operation 6. Stop conveyor after transfer is complete 7. Power off and…"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q084"
     },
     {
       "id": "conveyor-c2-0",
@@ -46,7 +48,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 2. The component-identification activity states that the friction side is on the conveyor’s top surface."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c2-0"
     },
     {
       "id": "conveyor-c2-1",
@@ -68,7 +72,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 2. The belt rides over a slider bed; other conveyors may use supporting rollers."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c2-1"
     },
     {
       "id": "conveyor-c2-2",
@@ -90,7 +96,9 @@
       "reviewCue": {
         "page": 2,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 2. The activity identifies the chain guard covering the drive. Never operate with the required guard absent."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c2-2"
     },
     {
       "id": "conveyor-c3-3",
@@ -112,7 +120,9 @@
       "reviewCue": {
         "page": 3,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 3. The activity identifies the safety switch as the emergency stopping control. Follow the lab’s procedures for isolation and restart."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c3-3"
     },
     {
       "id": "conveyor-c4-4",
@@ -134,7 +144,9 @@
       "reviewCue": {
         "page": 4,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 4. The packet says damaged labels should be replaced and their view kept unobstructed."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c4-4"
     },
     {
       "id": "conveyor-c5-5",
@@ -156,7 +168,9 @@
       "reviewCue": {
         "page": 5,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 5. Take-ups provide adjustment from either side of the conveyor."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c5-5"
     },
     {
       "id": "conveyor-c17-6",
@@ -178,7 +192,9 @@
       "reviewCue": {
         "page": 17,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 17. The inspection procedure checks snub rollers for dirt and contamination and directs cleaning when necessary."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c17-6"
     },
     {
       "id": "conveyor-c18-7",
@@ -200,7 +216,9 @@
       "reviewCue": {
         "page": 18,
         "text": "Review 18424-XA-E2-L07-COMBINED.pdf, PDF page 18. The packet asks for observation of motor and reducer operation, noise, vibration, and heat."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "conveyor-c18-7"
     }
   ]
 }

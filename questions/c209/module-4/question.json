@@ -27,7 +27,9 @@
         "page": 87,
         "text": "Review C209 Pneumatic Systems.pdf, slide 87. Look for Independent Speed Control, slide 87.",
         "excerpt": "INDEPENDENT SPEED CONTROL\n• This is when an actuators speed must be adjusted \nindependently in each direction.\n• Slow approach/fast reset\n• Matching retraction and extension speeds.\n• In pneumatic systems, slowing a cylinder is \nachieved by restricting the exhaust air flow rather \nthan the incoming air.\n• This technique is called meter-out control, where \nthe flow control valve is placed on the exhaust \nside of the actuator.\n• By switching to a slower flow control speed, the \ncylinder’s motion becomes smoother and more \ncontrolled during deceleration.\n87"
-      }
+      },
+      "category": "Troubleshoot",
+      "conceptKey": "q055"
     },
     {
       "id": "c209-p80-concept",
@@ -50,7 +52,10 @@
         "page": 80,
         "text": "Review C209 Pneumatic Systems.pdf, slide 80. Look for the explanation of How is the lab rotameter read.",
         "excerpt": "Rotameters\n• Consists of an acrylic tube and ball.\n• Ball is the required size and weight to match \nthe calibration for standard flow.\n• To read the rotameter, observe where the \nmiddle of the ball meets the scale\n80"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p80-concept",
+      "learningHelpKey": "flow-rate"
     },
     {
       "id": "c209-p81-concept",
@@ -73,7 +78,9 @@
         "page": 81,
         "text": "Review C209 Pneumatic Systems.pdf, slide 81. Look for the explanation of What does a check valve do.",
         "excerpt": "CHECK VALVES\nCommon Types\n• Ball\n• Poppet\nFree-Flow\nNon-Free Flow\n81\n• Considered a one-way DCV.\n• Allows flow in one direction, but \nblocks flow in the opposite direction. \n• Applications include:\n• Holding press. in receiver\n• Bypassing components\n• Quick-connect fittings\n•Ultrasonic: Use sound waves to calculate fluid velocity non-intrusively or inline.\n•Turbine: Use an internal spinning rotor whose speed matches the fluid velocity.\n•Variable Area (Rotameters)"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p81-concept"
     },
     {
       "id": "c209-p83-concept",
@@ -96,7 +103,10 @@
         "page": 83,
         "text": "Review C209 Pneumatic Systems.pdf, slide 83. Look for the explanation of What does meter-in control restrict.",
         "excerpt": "METER-IN FLOW CONTROL\n• A flow-control valve placed at the inlet of an \nactuator is called a meter-in flow control circuit.\n• Meter-in circuit can be used to control the extend or  \nspeed.\n• Meter-in should be used only to control speeds \nwhen a  opposes movement.\n83"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p83-concept",
+      "learningHelpKey": "meter-flow"
     },
     {
       "id": "c209-p85-concept",
@@ -119,7 +129,9 @@
         "page": 85,
         "text": "Review C209 Pneumatic Systems.pdf, slide 85. Look for the explanation of Where is a valve installed for exhaust-port speed control.",
         "excerpt": "EXHAUST PORT SPEED CONTROL\n• Most pneumatic DCV’s have exhaust ports \nwhich allow lines to be connected.\n• A speed control valve is placed within this line.\n• Commonly used with single-acting cylinders to \ncontrol return speed. \n85"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p85-concept"
     },
     {
       "id": "c209-p86-concept",
@@ -142,7 +154,9 @@
         "page": 86,
         "text": "Review C209 Pneumatic Systems.pdf, slide 86. Look for the explanation of Where is the restriction installed for pressure-port speed control.",
         "excerpt": "PRESSURE PORT SPEED CONTROL\n• Another method of speed control places a needle valve or flow control valve in the \npressure line of the DCV.\n• In a bi-directional application, speed is affected in both directions.\n• Used in double-acting cylinder applications.\n86"
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p86-concept"
     },
     {
       "id": "visual-p-check",
@@ -170,7 +184,9 @@
         "page": 81,
         "text": "Review C209 Pneumatic Systems.pdf, slide 81. Compare the diagram with the component description.",
         "excerpt": "CHECK VALVES\nCommon Types\n• Ball\n• Poppet\nFree-Flow\nNon-Free Flow\n81\n• Considered a one-way DCV.\n• Allows flow in one direction, but \nblocks flow in the opposite direction. \n• Applications include:\n• Holding press. in receiver\n• Bypassing components\n• Quick-connect fittings\n•Ultrasonic: Use sound waves to calculate fluid velocity non-intrusively or inline.\n•Turbine: Use an internal spinning rotor whose speed matches the fluid velocity.\n•Variable Area (Rotameters)"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "visual-p-check"
     },
     {
       "id": "c209-p82-concept",
@@ -200,7 +216,9 @@
       "reviewCue": {
         "page": 82,
         "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 7; C209 Pneumatic Systems.pdf, slide 82. The adjustable restriction meters flow one way; the check-valve bypass permits free flow in the other direction."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p82-concept"
     },
     {
       "id": "c209-p77-concept",
@@ -230,7 +248,10 @@
       "reviewCue": {
         "page": 77,
         "text": "Review FP QUIZ-2 Pneumatic Systems 3-4.pdf, question 8; C209 Pneumatic Systems.pdf, slide 77. Flow rate is volume divided by elapsed time, such as CFM or cubic metres per minute."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p77-concept",
+      "learningHelpKey": "flow-rate"
     },
     {
       "id": "c209-p76-diagram",
@@ -265,7 +286,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-q2-6-0",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-p76-diagram"
     },
     {
       "id": "c209-p82-diagram",
@@ -300,7 +323,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-q2-7-0",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-p82-diagram"
     },
     {
       "id": "c209-final-speed",
@@ -330,7 +355,9 @@
       "reviewCue": {
         "page": 83,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 3; C209 Pneumatic Systems.pdf, slide 83. Cylinder movement depends on available pressure difference and load, while airflow and effective area determine speed."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-speed"
     },
     {
       "id": "c209-p76-concept",
@@ -360,7 +387,9 @@
       "reviewCue": {
         "page": 75,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 21; C209 Pneumatic Systems.pdf, slide 75. Its adjustable restriction changes airflow and therefore actuator speed. A needle valve restricts both directions."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-p76-concept"
     },
     {
       "id": "c209-final-meter-out-placement",
@@ -395,7 +424,10 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final-1-1",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-final-meter-out-placement",
+      "learningHelpKey": "meter-flow"
     },
     {
       "id": "c209-final-meter-in",
@@ -430,7 +462,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final-1-4",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c209-final-meter-in"
     },
     {
       "id": "c209-final-check-in-flow",
@@ -460,7 +494,9 @@
       "reviewCue": {
         "page": 82,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 36; C209 Pneumatic Systems.pdf, slide 82. The check-valve bypass allows free reverse flow around the adjustable restriction."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "c209-final-check-in-flow"
     },
     {
       "id": "q053",
@@ -490,7 +526,10 @@
       "reviewCue": {
         "page": 84,
         "text": "Review C-209 Interactive Practice Test3.pdf, question 43; C209 Pneumatic Systems.pdf, slide 84. The restriction meters air leaving the actuator. This creates back pressure on the exhaust side and controls motion."
-      }
+      },
+      "category": "Understand",
+      "conceptKey": "q053",
+      "learningHelpKey": "meter-flow"
     },
     {
       "id": "c209-final-photo-flow",
@@ -525,7 +564,9 @@
         "kind": "slide-image",
         "imageKey": "c209-teacher-final2-3-0",
         "alt": "Original pneumatic quiz diagram"
-      }
+      },
+      "category": "Apply",
+      "conceptKey": "c209-final-photo-flow"
     },
     {
       "id": "c209-rotameter-scale-units",
@@ -552,7 +593,10 @@
       "reviewCue": {
         "page": 80,
         "text": "Review C209 Pneumatic Systems.pdf, slides 77–80. Look for flow-rate units and the calibrated rotameter scale."
-      }
+      },
+      "category": "Identify",
+      "conceptKey": "c209-rotameter-scale-units",
+      "learningHelpKey": "flow-rate"
     }
   ]
 }

@@ -3,6 +3,22 @@
 :root[data-theme="light"] :is(button,input,textarea,select) { background:#edf3f8; color:var(--ink); border-color:var(--line); }
 :root[data-theme="light"] button:hover:not(:disabled) { background:#e0ebf2; }
 :root[data-theme="light"] .primary { background:#c2f27c; color:#173508; }
+.study-settings { display:grid; gap:1rem; }
+.study-settings h2,.study-settings p { margin:0; }
+.study-settings select { margin-left:1rem; padding:.65rem; max-width:100%; }
+.study-settings fieldset { display:flex; flex-wrap:wrap; gap:.8rem 1.25rem; padding:1rem; border:1px solid var(--line); border-radius:12px; }
+.study-settings label { cursor:pointer; }
+.study-settings input { width:20px; height:20px; vertical-align:middle; accent-color:var(--lime); }
+.study-bookmark { margin:.5rem .75rem .5rem 0; min-height:44px; }
+.study-bookmark[aria-pressed="true"] { border-color:var(--lime); }
+.category-tag,.topic-skill { display:inline-block; border:1px solid var(--line); padding:.3rem .65rem; border-radius:999px; font-size:.82rem; color:var(--muted); margin:.35rem .5rem .35rem 0; }
+.flash-ratings { padding:1rem; margin:1rem 0; border:1px solid var(--line); border-radius:12px; }
+.flash-ratings button { min-height:48px; margin:0 .5rem .5rem 0; }
+.simple-help { border:1px solid var(--line); border-radius:12px; padding:1rem; margin:1rem 0; }
+.simple-help summary { cursor:pointer; font-weight:700; min-height:28px; }
+.simple-help p { line-height:1.65; }
+.review-cue { padding:.8rem; border-left:3px solid var(--lime); }
+@media(max-width:520px) { .study-settings select { display:block; margin:.5rem 0 0; width:100%; } .study-settings fieldset { display:grid; grid-template-columns:1fr 1fr; } .flash-ratings button { width:calc(33% - .6rem); padding:.65rem .2rem; } }
 :root[data-theme="light"] :is(.answer.correct,.feedback.good) { background:#e3f4df; color:#234d16; }
 :root[data-theme="light"] :is(.answer.incorrect,.feedback.bad,.notice) { background:#fde8e8; color:#78242a; }
 :root[data-theme="light"] .notice p { color:#78242a; }

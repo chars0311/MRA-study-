@@ -52,6 +52,7 @@ function learningSelection(items, target, starredTarget = 0, coverModules = fals
       groups.get(key).push(q);
     }
     for(const [key,group] of groups) {
+      if (picked.length >= target) break;
       if(!picked.some(q=>q.world+'|'+q.topic===key))
         add(group.find(q=>states.get(q.id)?.isDue) || group[0]);
     }
@@ -163,7 +164,7 @@ function teacherSelection(items, target = 10) {
   teacherCount = Math.min(teachers.length, size - regularCount);
   regularCount = Math.min(regular.length, size - teacherCount);
   const qs = shuffle([...teachers.slice(0,teacherCount), ...regular.slice(0,regularCount)]).map(freshQuestion);
-  return { qs, note: `${qs.length} questions · ${teacherCount} starred teacher + ${regularCount} regular study · checked modules only · immediate explanations · no life cutoff.` + (teacherCount !== 8 || regularCount !== 2 ? ' The mix is adjusted to the questions available in your checked modules.' : '') };
+  return { qs, note: `${qs.length} questions · ${teacherCount} starred teacher + ${regularCount} regular study · checked modules only · immediate explanations · no life cutoff.` + (teacherCount !== Math.ceil(size * .8) || regularCount !== size - Math.ceil(size * .8) ? ' The mix is adjusted to the questions available in your checked modules.' : '') };
 }
 
 
