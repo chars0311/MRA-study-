@@ -1786,6 +1786,276 @@
       "category": "Understand",
       "conceptKey": "c210-quiz1-q39",
       "teacherModule": 4
+    },
+    {
+      "id": "c210-set-screw-cup",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "quiz",
+      "prompt": "Which set-screw type has a dished-out tip that bites into the shaft for locking strength?",
+      "answer": "Cup point",
+      "options": [
+        "Cup point",
+        "Flat point",
+        "Dog point",
+        "Oval point",
+        "Cone point",
+        "Soft-tipped"
+      ],
+      "explanation": "The cup-shaped recess leaves an edge that bites into the shaft. It is intended to grip, rather than protect the shaft from all marks.",
+      "source": "g",
+      "section": "H57210 Key Fasteners · Six Types of Set Screws · Cup point",
+      "starred": false,
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 45,
+        "text": "Review H57210 Key Fasteners, “Six Types of Set Screws,” Cup point paragraph in your IMG_4600.heic photo. C210 Mechanical Power Sys.pdf, slide 45, shows the six point types."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-set-screw-cup",
+      "learningHelp": {
+        "simple": "Think of a small hollow cup at the end. Its rim contacts and bites into the shaft.",
+        "example": "For a collar using a dished gripping tip, identify the screw by that cup-shaped recess.",
+        "memory": "Cup = hollow tip that grips.",
+        "lookFor": "Compare the tip shape and its stated application in the Cup point paragraph. A recessed cup at the tip bites into the shaft for locking strength."
+      },
+      "wrongAnswerExplanations": {
+        "Flat point": "The flat point limits shaft deformation and suits components that are frequently dismantled.",
+        "Dog point": "Its projecting point fits a hole in the shaft to lock and precisely locate components.",
+        "Oval point": "Its rounded end suits contact at an angle without excessive shaft indentation.",
+        "Cone point": "Its pointed end bites into the shaft for permanent mounting with strong axial and torsional locking.",
+        "Soft-tipped": "A different, softer tip material, commonly nylon or brass, conforms to the shaft and helps prevent damage or scarring."
+      },
+      "variants": [
+        {
+          "prompt": "Which set-screw type has a dished-out tip that bites into the shaft for locking strength?"
+        },
+        {
+          "prompt": "A set screw needs a recessed cup edge that grips the shaft. Which point type matches that feature?"
+        }
+      ],
+      "courseBookSource": {
+        "title": "H57210 Key Fasteners",
+        "heading": "Six Types of Set Screws",
+        "referencePhoto": "IMG_4600.heic",
+        "subheading": "Cup point"
+      }
+    },
+    {
+      "id": "c210-set-screw-flat",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "quiz",
+      "prompt": "According to the Key Fasteners text, which point type limits shaft deformation and suits frequently dismantled components?",
+      "answer": "Flat point",
+      "options": [
+        "Cup point",
+        "Flat point",
+        "Dog point",
+        "Oval point",
+        "Cone point",
+        "Soft-tipped"
+      ],
+      "explanation": "The book associates flat-point set screws with the least shaft deformation and frequently dismantled components. Unlike a cone, the flat end is not selected to dig deeply into the shaft.",
+      "source": "g",
+      "section": "H57210 Key Fasteners · Six Types of Set Screws · Flat point",
+      "starred": false,
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 45,
+        "text": "Review H57210 Key Fasteners, “Six Types of Set Screws,” Flat point paragraph in your IMG_4600.heic photo. C210 Mechanical Power Sys.pdf, slide 45, shows the six point types."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-set-screw-flat",
+      "learningHelp": {
+        "simple": "Flat contact spreads the contact instead of concentrating it at a sharp point.",
+        "example": "A repeatedly dismantled hub is the course example of an application for a flat point.",
+        "memory": "Flat = frequent dismantling, limited deformation.",
+        "lookFor": "Compare the tip shape and its stated application in the Flat point paragraph. The flat point limits shaft deformation and suits components that are frequently dismantled."
+      },
+      "wrongAnswerExplanations": {
+        "Cup point": "A recessed cup at the tip bites into the shaft for locking strength.",
+        "Dog point": "Its projecting point fits a hole in the shaft to lock and precisely locate components.",
+        "Oval point": "Its rounded end suits contact at an angle without excessive shaft indentation.",
+        "Cone point": "Its pointed end bites into the shaft for permanent mounting with strong axial and torsional locking.",
+        "Soft-tipped": "A different, softer tip material, commonly nylon or brass, conforms to the shaft and helps prevent damage or scarring."
+      },
+      "variants": [
+        {
+          "prompt": "According to the Key Fasteners text, which point type limits shaft deformation and suits frequently dismantled components?"
+        },
+        {
+          "prompt": "A component is removed and reassembled frequently. The course calls for a flat-contact point with minimal shaft deformation. Which type is described?"
+        }
+      ],
+      "courseBookSource": {
+        "title": "H57210 Key Fasteners",
+        "heading": "Six Types of Set Screws",
+        "referencePhoto": "IMG_4600.heic",
+        "subheading": "Flat point"
+      }
+    },
+    {
+      "id": "c210-set-screw-dog",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "quiz",
+      "prompt": "Which set-screw type fits into a hole in the shaft to lock and precisely locate components?",
+      "answer": "Dog point",
+      "options": [
+        "Cup point",
+        "Flat point",
+        "Dog point",
+        "Oval point",
+        "Cone point",
+        "Soft-tipped"
+      ],
+      "explanation": "The dog point enters a prepared hole. That engagement provides both locking and precise location of the components relative to one another.",
+      "source": "g",
+      "section": "H57210 Key Fasteners · Six Types of Set Screws · Dog point",
+      "starred": false,
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 45,
+        "text": "Review H57210 Key Fasteners, “Six Types of Set Screws,” Dog point paragraph in your IMG_4600.heic photo. C210 Mechanical Power Sys.pdf, slide 45, shows the six point types."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-set-screw-dog",
+      "learningHelp": {
+        "simple": "The projecting end acts like a locator in the matching hole.",
+        "example": "When a collar must return to a particular drilled shaft position, the dog point engages that hole.",
+        "memory": "Dog = projecting locator in a hole.",
+        "lookFor": "Compare the tip shape and its stated application in the Dog point paragraph. Its projecting point fits a hole in the shaft to lock and precisely locate components."
+      },
+      "wrongAnswerExplanations": {
+        "Cup point": "A recessed cup at the tip bites into the shaft for locking strength.",
+        "Flat point": "The flat point limits shaft deformation and suits components that are frequently dismantled.",
+        "Oval point": "Its rounded end suits contact at an angle without excessive shaft indentation.",
+        "Cone point": "Its pointed end bites into the shaft for permanent mounting with strong axial and torsional locking.",
+        "Soft-tipped": "A different, softer tip material, commonly nylon or brass, conforms to the shaft and helps prevent damage or scarring."
+      },
+      "variants": [
+        {
+          "prompt": "Which set-screw type fits into a hole in the shaft to lock and precisely locate components?"
+        },
+        {
+          "prompt": "A shaft has a locating hole for the projecting end of a set screw. Which point type is intended to enter it?"
+        }
+      ],
+      "courseBookSource": {
+        "title": "H57210 Key Fasteners",
+        "heading": "Six Types of Set Screws",
+        "referencePhoto": "IMG_4600.heic",
+        "subheading": "Dog point"
+      }
+    },
+    {
+      "id": "c210-set-screw-oval",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "quiz",
+      "prompt": "Which set-screw type does the course identify for contacting the shaft at an angle without excessive indentation?",
+      "answer": "Oval point",
+      "options": [
+        "Cup point",
+        "Flat point",
+        "Dog point",
+        "Oval point",
+        "Cone point",
+        "Soft-tipped"
+      ],
+      "explanation": "The book describes the oval point as avoiding excessive indentation and being best when contact occurs at an angle. Its rounded contact distinguishes it from the flat point.",
+      "source": "g",
+      "section": "H57210 Key Fasteners · Six Types of Set Screws · Oval point",
+      "starred": false,
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 45,
+        "text": "Review H57210 Key Fasteners, “Six Types of Set Screws,” Oval point paragraph in your IMG_4600.heic photo. C210 Mechanical Power Sys.pdf, slide 45, shows the six point types."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-set-screw-oval",
+      "learningHelp": {
+        "simple": "A rounded end accommodates angled contact.",
+        "example": "When the screw approaches the shaft at an angle, look for the oval-point application in the text.",
+        "memory": "Oval = rounded end for angled contact.",
+        "lookFor": "Compare the tip shape and its stated application in the Oval point paragraph. Its rounded end suits contact at an angle without excessive shaft indentation."
+      },
+      "wrongAnswerExplanations": {
+        "Cup point": "A recessed cup at the tip bites into the shaft for locking strength.",
+        "Flat point": "The flat point limits shaft deformation and suits components that are frequently dismantled.",
+        "Dog point": "Its projecting point fits a hole in the shaft to lock and precisely locate components.",
+        "Cone point": "Its pointed end bites into the shaft for permanent mounting with strong axial and torsional locking.",
+        "Soft-tipped": "A different, softer tip material, commonly nylon or brass, conforms to the shaft and helps prevent damage or scarring."
+      },
+      "variants": [
+        {
+          "prompt": "Which set-screw type does the course identify for contacting the shaft at an angle without excessive indentation?"
+        },
+        {
+          "prompt": "The set screw will meet the shaft at an angle. Which rounded point type does the course describe for this application?"
+        }
+      ],
+      "courseBookSource": {
+        "title": "H57210 Key Fasteners",
+        "heading": "Six Types of Set Screws",
+        "referencePhoto": "IMG_4600.heic",
+        "subheading": "Oval point"
+      }
+    },
+    {
+      "id": "c210-set-screw-soft",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "type": "quiz",
+      "prompt": "Which set-screw type uses a tip such as nylon or brass to conform to a soft shaft and help prevent scarring?",
+      "answer": "Soft-tipped",
+      "options": [
+        "Cup point",
+        "Flat point",
+        "Dog point",
+        "Oval point",
+        "Cone point",
+        "Soft-tipped"
+      ],
+      "explanation": "A soft-tipped screw uses a different contact material, typically nylon or brass. The tip conforms to the shaft and provides locking while reducing damage or scarring to soft shafts.",
+      "source": "g",
+      "section": "H57210 Key Fasteners · Six Types of Set Screws · Soft-tipped",
+      "starred": false,
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 45,
+        "text": "Review H57210 Key Fasteners, “Six Types of Set Screws,” Soft-tipped paragraph in your IMG_4600.heic photo. C210 Mechanical Power Sys.pdf, slide 45, shows the six point types."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-set-screw-soft",
+      "learningHelp": {
+        "simple": "The contact material is softer so it can conform rather than cut into the shaft.",
+        "example": "For a soft shaft that should not be scarred by a biting metal point, identify the nylon- or brass-tipped option.",
+        "memory": "Soft tip = protect the soft shaft.",
+        "lookFor": "Compare the tip shape and its stated application in the Soft-tipped paragraph. A different, softer tip material, commonly nylon or brass, conforms to the shaft and helps prevent damage or scarring."
+      },
+      "wrongAnswerExplanations": {
+        "Cup point": "A recessed cup at the tip bites into the shaft for locking strength.",
+        "Flat point": "The flat point limits shaft deformation and suits components that are frequently dismantled.",
+        "Dog point": "Its projecting point fits a hole in the shaft to lock and precisely locate components.",
+        "Oval point": "Its rounded end suits contact at an angle without excessive shaft indentation.",
+        "Cone point": "Its pointed end bites into the shaft for permanent mounting with strong axial and torsional locking."
+      },
+      "variants": [
+        {
+          "prompt": "Which set-screw type uses a tip such as nylon or brass to conform to a soft shaft and help prevent scarring?"
+        },
+        {
+          "prompt": "Protecting a soft shaft from damage is important. Which type uses a different material at its tip to conform to the shaft?"
+        }
+      ],
+      "courseBookSource": {
+        "title": "H57210 Key Fasteners",
+        "heading": "Six Types of Set Screws",
+        "referencePhoto": "IMG_4600.heic",
+        "subheading": "Soft-tipped"
+      }
     }
   ]
 }
