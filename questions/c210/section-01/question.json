@@ -4,33 +4,43 @@
   "mathQuestionIds": [
     "q131",
     "c210-math-hp",
-    "c210-math-efficiency"
+    "c210-math-efficiency",
+    "c210-quiz1-q14"
   ],
   "questions": [
     {
       "id": "q057",
       "world": "mechanical",
       "type": "quiz",
-      "prompt": "What is the driver in a transmission system?",
-      "answer": "The device supplying power",
+      "prompt": "★ A mechanical power transmission system receives power from the ____.",
+      "answer": "Both driver and prime mover",
       "options": [
-        "The device supplying power",
-        "Only the largest gear",
-        "The device receiving power",
-        "The safety guard"
+        "Driven device",
+        "Driver",
+        "Prime mover",
+        "Both driver and prime mover"
       ],
-      "explanation": "The driver, or prime mover, supplies power to the driven device.",
+      "explanation": "Driver and prime mover name the device supplying power. The driven device receives it.",
       "source": "g",
-      "section": "Function of a Mechanical Power Transmission System, slide 2",
+      "section": "C-210 teacher Quiz 1, question 1; Module 1 · E-learning 210.1, Objective 2, page 12",
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "reviewSlides": [],
       "reviewCue": {
         "page": 2,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 2. The driver, or prime mover, supplies power to the driven device.",
-        "excerpt": "A mechanical power transmission system is a device composed of linkages, shafts, bearings, gears, pulleys, or other components whose purpose is to transmit and control the force and motion from one device to another. The device from which the transmission syst…"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 2; E-learning 210.1, Objective 2, page 12. Teacher Quiz 1, question 1. Driver and prime mover name the device supplying power. The driven device receives it."
       },
       "category": "Understand",
-      "conceptKey": "q057"
+      "conceptKey": "q057",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 2,
+          "question": 1
+        }
+      ],
+      "teacherModule": 1,
+      "answerKeyNote": "Letter-dependent combination option written out so shuffled choices remain meaningful."
     },
     {
       "id": "q058",
@@ -119,24 +129,32 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "Which set contains adjacent-shaft transmission methods?",
-      "answer": "Belt, chain, and gear",
+      "prompt": "★ Which three drives transmit rotary power from a shaft to an adjacent shaft?",
+      "answer": "Belt drive, chain drive, and gear drive",
       "options": [
-        "Belt, chain, and gear",
-        "Only rigid and flexible couplings",
-        "Only clutches and couplings",
-        "Only cylinders and valves"
+        "Belt drive, clutch, and gear drive",
+        "Clutch, direct coupling, and gear drive",
+        "Belt drive, chain drive, and gear drive",
+        "Flexible coupling, direct coupling, and sleeve coupling"
       ],
-      "explanation": "Belt, chain, and gear drives connect adjacent shafts; couplings normally connect coaxial shafts.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 7",
+      "explanation": "Belts, chains, and gears connect adjacent shafts. Couplings and clutches belong to the axial category.",
+      "section": "C-210 teacher Quiz 1, question 2; Module 1 · E-learning 210.1, Objective 2, page 12",
       "reviewSlides": [],
       "reviewCue": {
         "page": 7,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 7. Belt, chain, and gear drives connect adjacent shafts; couplings normally connect coaxial shafts.",
-        "excerpt": "Category 1 - Axial\nCoupling, Clutch\nCategory 2 - Shaft to Adjacent Shaft\nBelt, Chain, Gear\nRotary Power Transmission \n7"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 7; E-learning 210.1, Objective 2, page 12. Teacher Quiz 1, question 2. Belts, chains, and gears connect adjacent shafts. Couplings and clutches belong to the axial category."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-7-q0"
+      "conceptKey": "c210-slide-7-q0",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 2,
+          "question": 2
+        }
+      ],
+      "teacherModule": 1
     },
     {
       "id": "c210-slide-8-q1",
@@ -169,24 +187,33 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "Which clothing practice is appropriate around running transmission equipment?",
-      "answer": "Secure long hair and avoid loose clothing",
+      "prompt": "★ Which dress practice belongs to the course rules for working around running machinery?",
+      "answer": "Wear close-fitting clothing and heavy-duty shoes",
       "options": [
-        "Secure long hair and avoid loose clothing",
-        "Wear loose sleeves near the shaft",
-        "Wear gloves near exposed rotating parts",
-        "Leave jewelry loose"
+        "Wear safety glasses and gloves at all times",
+        "Wear close-fitting clothing and heavy-duty shoes",
+        "Wear bright-colored clothing",
+        "Wear lightweight, loose-fitting clothing"
       ],
-      "explanation": "Loose clothing, hair, jewelry, and gloves can be drawn into moving equipment. Follow the six dress rules on the slide.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 10",
+      "explanation": "Close-fitting clothing helps avoid entanglement, and the slide specifies heavy-duty steel-toed shoes. Safety glasses are required, but gloves must not be worn around running machinery.",
+      "section": "C-210 teacher Quiz 1, question 3; Module 1 · E-learning 210.1, Objective 3, page 16",
       "reviewSlides": [],
       "reviewCue": {
         "page": 10,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 10. Loose clothing, hair, jewelry, and gloves can be drawn into moving equipment. Follow the six dress rules on the slide.",
-        "excerpt": "Six Rules of Safe Dress for Working with Power Transmission \nEquipment\nDress safety rules help keep you or your clothing from getting \ncaught in the moving parts of a machine.\n1. Wear safety glasses always\n2. Avoid wearing loose-fitting clothes\n3. Remove ties, watches, rings and other jewelry\n4. Tie up long hair or put it in a cap or under your shirt\n5. WEAR HEAVY DUTY STEEL TOED SHOES. Canvas shoes are not \nacceptable.\n6. Roll up long sleeves or wear short sleeves\n*respiratory items if conditions required or if listed on the SDS \n(Safety Data Sheet)\nDo not wear gloves around machinery when it is running. \nA03\n10"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 10; E-learning 210.1, Objective 3, page 16. Teacher Quiz 1, question 3. Close-fitting clothing helps avoid entanglement, and the slide specifies heavy-duty steel-toed shoes. Safety glasses are required, but gloves must not be worn around running machinery."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-10-q2"
+      "conceptKey": "c210-slide-10-q2",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 3,
+          "question": 3
+        }
+      ],
+      "teacherModule": 1,
+      "learningHelpKey": "safety"
     },
     {
       "id": "c210-slide-11-q3",
@@ -270,24 +297,32 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "Which set lists the foundation’s three required functions?",
-      "answer": "Support load, maintain alignment, absorb vibration",
+      "prompt": "★ Besides supporting the load and maintaining alignment, what must a machine foundation do?",
+      "answer": "Absorb vibration created by the machine",
       "options": [
-        "Support load, maintain alignment, absorb vibration",
-        "Increase speed, increase torque, reduce voltage",
-        "Lubricate bearings, tension belts, adjust gears",
-        "Store oil, cool shafts, measure current"
+        "Be easily moved",
+        "Be lightweight",
+        "Blend with the other foundations",
+        "Absorb vibration created by the machine"
       ],
-      "explanation": "The foundation must prevent settling, maintain component alignment, and absorb vibration.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 15",
+      "explanation": "The three foundation functions are supporting the load, maintaining alignment, and absorbing machine or surrounding vibration.",
+      "section": "C-210 teacher Quiz 1, question 5; Module 1 · E-learning 210.1, Objective 6, page 27",
       "reviewSlides": [],
       "reviewCue": {
         "page": 15,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 15. The foundation must prevent settling, maintain component alignment, and absorb vibration.",
-        "excerpt": "A foundation is the structure that supports the bedplate under the machinery. The foundation for a \nmachine is important to its life and performance. It must be designed to perform three functions:\n⮚ Support the load of the machine without settling\n⮚ Maintain the alignment between coupled components\n⮚ Absorb any vibrations created by the machine or surrounding equipment\nThere are three Types of Foundations:\n⮚ Solid concrete\n⮚ Reinforced concrete\n⮚ Structural steel\nSolid concrete is usually considered the best\nFunction and Construction of a Foundation\n 15"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 15; E-learning 210.1, Objective 6, page 27. Teacher Quiz 1, question 5. The three foundation functions are supporting the load, maintaining alignment, and absorbing machine or surrounding vibration."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-15-q6"
+      "conceptKey": "c210-slide-15-q6",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 4,
+          "question": 5
+        }
+      ],
+      "teacherModule": 1
     },
     {
       "id": "c210-slide-16-q7",
@@ -295,24 +330,32 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "Which tool checks whether a mounting surface is level?",
-      "answer": "Spirit level",
+      "prompt": "★ A spirit level with the appropriate vials can check a surface in which orientations?",
+      "answer": "Vertical or horizontal",
       "options": [
-        "Spirit level",
-        "Tachometer",
-        "Torque wrench",
-        "Ammeter"
+        "Vertical or horizontal",
+        "Only vertical",
+        "Only horizontal",
+        "Any position regardless of its vials"
       ],
-      "explanation": "A spirit level checks orientation relative to gravity. A tachometer measures shaft speed.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 16",
+      "explanation": "The course describes checking surfaces parallel to the ground and perpendicular to it: horizontal level and vertical plumb.",
+      "section": "C-210 teacher Quiz 1, question 6; Module 1 · E-learning 210.1, Objective 9, page 38",
       "reviewSlides": [],
       "reviewCue": {
         "page": 16,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 16. A spirit level checks orientation relative to gravity. A tachometer measures shaft speed.",
-        "excerpt": "The most common way to check the level of a surface, such as a bedplate, is a spirit level, or level. \n⮚ There are many applications where it is important to orient a surface so that it is \neither parallel or perpendicular to the ground.\n⮚ They’re regularly used in building construction with walls and floors, as well as in \nindustry with machinery.\nThe spirit levels are usually able to \nmeasure the perpendicularity as well \nas the parallelism of a surface with \nthe ground.\nSpirit Levels and their Application 16"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 16; E-learning 210.1, Objective 9, page 38. Teacher Quiz 1, question 6. The course describes checking surfaces parallel to the ground and perpendicular to it: horizontal level and vertical plumb."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-16-q7"
+      "conceptKey": "c210-slide-16-q7",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 5,
+          "question": 6
+        }
+      ],
+      "teacherModule": 1
     },
     {
       "id": "c210-slide-18-q8",
@@ -395,24 +438,32 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "What is viscosity?",
-      "answer": "Resistance to flow",
+      "prompt": "★ Which lubricant characteristic means resistance to flow?",
+      "answer": "Viscosity",
       "options": [
-        "Resistance to flow",
-        "Resistance to electrical current",
-        "Amount of shaft runout",
-        "Number of gear teeth"
+        "Viscosity",
+        "Viscosity index",
+        "Pour point",
+        "Lubricity ratio"
       ],
-      "explanation": "The lubricant must have suitable viscosity for the load and operating conditions.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 23",
+      "explanation": "Viscosity is resistance to flow. Oil that is too thick flows poorly; oil that is too thin may not protect moving surfaces adequately.",
+      "section": "C-210 teacher Quiz 1, question 7; Module 1 · E-learning 210.1, Objective 10, page 48",
       "reviewSlides": [],
       "reviewCue": {
         "page": 23,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 23. The lubricant must have suitable viscosity for the load and operating conditions.",
-        "excerpt": "⮚ The single most important characteristic of an oil is its \nviscosity, or resistance to flow.\n⮚ If the viscosity is too high, the oil does not flow well or at all. \n⮚ If the viscosity is too low, there will not be enough \nprotection between moving surfaces, and excessive \nleakage will occur.\nHow Oils Are Specified\nThe viscosity of a lubricant is extremely important in \nmechanical systems. That is why machinery manufacturers \nbase their lubrication recommendations on viscosity.\n23"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 23; E-learning 210.1, Objective 10, page 48. Teacher Quiz 1, question 7. Viscosity is resistance to flow. Oil that is too thick flows poorly; oil that is too thin may not protect moving surfaces adequately."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-23-q11"
+      "conceptKey": "c210-slide-23-q11",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 6,
+          "question": 7
+        }
+      ],
+      "teacherModule": 1
     },
     {
       "id": "c210-slide-25-q12",
@@ -470,24 +521,32 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "Why use an adjustable motor mount?",
-      "answer": "Adjust shaft center distance for drive tension",
+      "prompt": "★ When is an adjustable motor mount useful?",
+      "answer": "When belt or chain tension needs routine adjustment",
       "options": [
-        "Adjust shaft center distance for drive tension",
-        "Change motor winding voltage",
-        "Replace all bearings",
-        "Eliminate every guard"
+        "To vary motor speed directly",
+        "Only when changing the motor size",
+        "When belt or chain tension needs routine adjustment",
+        "To compensate for worn motor bearings"
       ],
-      "explanation": "The built-in adjuster allows the motor position to change on the bedplate for belt or chain adjustment.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 29",
+      "explanation": "The adjuster moves the motor to change shaft center distance and belt or chain tension. Moving the base does not directly change motor speed or repair bearings.",
+      "section": "C-210 teacher Quiz 1, question 15; Module 2 · E-learning 210.2, Objective 1, page 2",
       "reviewSlides": [],
       "reviewCue": {
         "page": 29,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 29. The built-in adjuster allows the motor position to change on the bedplate for belt or chain adjustment.",
-        "excerpt": "Three Types of Motor Mounts\n⮚ Is a foot mount with an adjuster built in. It is also \nmounted on a bedplate.\n⮚ These mounts have a bolt that can move the motor \nback and forth on one axis or tilt it. This allows the \nmotor to be moved without having to loosen the \nmounting bolts.\n⮚ The adjustable motor mount is often used when it is \nnecessary to routinely change the position of the \nmotor to change tension on a belt or chain drive.\n⮚ Any service lines such as power, air, and water must \nhave enough flexibility to move with the machine as it \nadjusts.\nAdjustable Mount\n29"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 29; E-learning 210.2, Objective 1, page 2. Teacher Quiz 1, question 15. The adjuster moves the motor to change shaft center distance and belt or chain tension. Moving the base does not directly change motor speed or repair bearings."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-29-q14"
+      "conceptKey": "c210-slide-29-q14",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 10,
+          "question": 15
+        }
+      ],
+      "teacherModule": 2
     },
     {
       "id": "c210-slide-34-q15",
@@ -646,24 +705,32 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "Which device loads a motor and can measure its torque?",
+      "prompt": "★ Besides a dynamometer, which device loads a mechanical drive system?",
       "answer": "Prony brake",
       "options": [
-        "Prony brake",
-        "Rotameter",
-        "Spirit level",
-        "Dial caliper"
+        "Torque converter",
+        "Load calculator",
+        "Shaft-speed indicator",
+        "Prony brake"
       ],
-      "explanation": "The Prony brake applies a mechanical load; torque and shaft speed can then be used to calculate power.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 47",
+      "explanation": "A Prony brake applies a load and can measure shaft torque. A tachometer or shaft-speed indicator measures speed rather than serving as the load.",
+      "section": "C-210 teacher Quiz 1, question 32; Module 4 · E-learning 210.4, Objective 1, page 2",
       "reviewSlides": [],
       "reviewCue": {
         "page": 47,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 47. The Prony brake applies a mechanical load; torque and shaft speed can then be used to calculate power.",
-        "excerpt": "Two Methods of Loading a Mechanical Drive System\n⮚A Prony Brake applies a load to a motor. It can also \nmeasure the torque the motor is applying. With the \ntorque, rotational speed and electrical current draw \nknown, power and efficiency can be calculated.\n⮚Dynamometers are expensive, sophisticated tools used \nby engineers and race teams to load motors. They \nautomatically measure Torque, Power, and Efficiency\nProny Brake\nDYNO or DYNAMOMETER\n47\n4 Torque, Power, and Efficiency"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 47; E-learning 210.4, Objective 1, page 2. Teacher Quiz 1, question 32. A Prony brake applies a load and can measure shaft torque. A tachometer or shaft-speed indicator measures speed rather than serving as the load."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-47-q21"
+      "conceptKey": "c210-slide-47-q21",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 23,
+          "question": 32
+        }
+      ],
+      "teacherModule": 4
     },
     {
       "id": "c210-slide-52-q22",
@@ -671,24 +738,32 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "What does mechanical efficiency compare?",
-      "answer": "Output power with input power",
+      "prompt": "★ What ratio defines mechanical power efficiency?",
+      "answer": "Output power divided by input power",
       "options": [
-        "Output power with input power",
-        "Output speed with shaft diameter",
-        "Oil volume with temperature",
-        "Belt length with torque"
+        "Output power divided by input power",
+        "Torque multiplied by RPM",
+        "Output torque divided by load",
+        "Load multiplied by radius arm"
       ],
-      "explanation": "Efficiency = output power / input power × 100%. Friction reduces useful output power.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 52",
+      "explanation": "Efficiency compares useful output power with input power. Multiply output/input by 100 to express the ratio as a percentage; friction converts some input power to heat.",
+      "section": "C-210 teacher Quiz 1, question 33; Module 4 · E-learning 210.4, Objective 3, page 16",
       "reviewSlides": [],
       "reviewCue": {
         "page": 52,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 52. Efficiency = output power / input power × 100%. Friction reduces useful output power.",
-        "excerpt": "Calculate Mechanical Efficiency and Explain Its Importance\nSkill 3 - Calculate Mechanical Efficiency\nPower output of any mechanical equipment is always less than the power input. The cause is friction, \nwith the lost power converted to heat. Power Out\nPower In\nEfficiency= X 100         (in percent)\nLosses are minimized by maximizing efficiency to save money. Friction wastes money by wasting \npower and wearing components. Maintenance (lubrication and alignment) are the cure.\nMechanical efficiency can be calculated from the shaft speed and torque at the output. \nCommonly, a torque transducer, and a  tachometer measure output power while the electric \npower drawn by the motor provides the input power. If input power increases overtime, you know \nthat the mechanical drive is losing efficiency\n52\nA22 A23\nWe always have losses \nDUE TO FRICTION"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 52; E-learning 210.4, Objective 3, page 16. Teacher Quiz 1, question 33. Efficiency compares useful output power with input power. Multiply output/input by 100 to express the ratio as a percentage; friction converts some input power to heat."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-52-q22"
+      "conceptKey": "c210-slide-52-q22",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 24,
+          "question": 33
+        }
+      ],
+      "teacherModule": 4
     },
     {
       "id": "c210-slide-54-q23",
@@ -696,46 +771,53 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "quiz",
-      "prompt": "For a given motor, what generally happens to current as load torque increases?",
+      "prompt": "★ For the motor relationship described in the course, what happens as required torque increases?",
       "answer": "Current increases",
       "options": [
+        "Current remains constant",
         "Current increases",
-        "Current always becomes zero",
-        "Current necessarily decreases",
-        "Current changes into shaft speed"
+        "Current decreases",
+        "RPM necessarily increases"
       ],
-      "explanation": "The course relates motor current to load torque and uses the manufacturer’s torque-current graph.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 54",
+      "explanation": "The course relates greater motor torque to greater electrical current. Use the manufacturer’s torque-versus-current graph for a particular motor.",
+      "section": "C-210 teacher Quiz 1, question 34; Module 4 · E-learning 210.4, Objective 4, page 24",
       "reviewSlides": [],
       "reviewCue": {
         "page": 54,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 54. The course relates motor current to load torque and uses the manufacturer’s torque-current graph.",
-        "excerpt": "Describe Two Methods of Measuring Shaft Torque\nThese are two methods you can use to measure the load on a shaft:\n⮚ Torque Transducer\n⮚ Current Measurement\nMotor Current Measurement\nTorque is related to the electrical current supplied to the motor. As motor \ntorque increases, so does electrical current.\nMotor manufacturers publish a graph with the specifications of the motor \nthat shows the torque vs. current characteristics. Torque is determined by \ncomparing measured current to the graph.\nA Torque transducer is a device that is directly coupled to the shaft and \ngenerates an electrical signal. The signal Is usually either a ±10 VAC or 4-\n20 mA signal and is proportional to the torque.\n54"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 54; E-learning 210.4, Objective 4, page 24. Teacher Quiz 1, question 34. The course relates greater motor torque to greater electrical current. Use the manufacturer’s torque-versus-current graph for a particular motor."
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-54-q23"
+      "conceptKey": "c210-slide-54-q23",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 25,
+          "question": 34
+        }
+      ],
+      "teacherModule": 4
     },
     {
       "id": "visual-g-woodruff",
       "world": "mechanical",
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
-      "type": "symbol",
-      "prompt": "Which shaft key shape is shown?",
-      "answer": "Woodruff key",
+      "type": "quiz",
+      "prompt": "★ What is the characteristic shape of a Woodruff key?",
+      "answer": "Half moon",
       "options": [
-        "Woodruff key",
-        "Square key",
-        "Gib-head key",
-        "Saddle key"
+        "Rectangular",
+        "Half moon",
+        "Square",
+        "Long tapered wedge"
       ],
-      "explanation": "A Woodruff key has a semicircular profile that fits a curved keyseat.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 41",
+      "explanation": "A Woodruff key has a half-moon shape. This distinguishes it from square, rectangular, and tapered key forms.",
+      "section": "C-210 teacher Quiz 1, question 28; Module 3 · E-learning 210.3, Objective 2, page 4",
       "reviewSlides": [],
       "reviewCue": {
-        "page": 41,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 41. A Woodruff key has a semicircular profile that fits a curved keyseat.",
-        "excerpt": "Know SIX TYPES OF KEYS\n6\n1 2 3\n4 5\nRECTANGULAR\n WOODRUFF\nSQUARE KEY\nGIB HEAD OFFSET\nSADDLE\n41"
+        "page": 42,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 42; E-learning 210.3, Objective 2, page 4. Teacher Quiz 1, question 28. A Woodruff key has a half-moon shape. This distinguishes it from square, rectangular, and tapered key forms."
       },
       "diagram": {
         "kind": "slide-image",
@@ -743,7 +825,16 @@
         "alt": "Original C210 course component diagram"
       },
       "category": "Identify",
-      "conceptKey": "visual-g-woodruff"
+      "conceptKey": "visual-g-woodruff",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 20,
+          "question": 28
+        }
+      ],
+      "teacherModule": 3
     },
     {
       "id": "c210-picture-41-11",
@@ -837,28 +928,864 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "type": "quiz",
       "source": "g",
-      "prompt": "According to the mounting slide, soft foot should not exceed approximately what value?",
-      "answer": "0.002 inch (about 0.05 mm)",
+      "prompt": "★ According to the course mounting slide, soft foot generally should not exceed what value?",
+      "answer": "0.002 inch (0.0508 mm)",
       "options": [
-        "0.002 inch (about 0.05 mm)",
-        "0.02 inch (about 0.5 mm)",
-        "0.2 inch (about 5 mm)",
-        "2 inches (about 50 mm)"
+        "0.002 inch (0.0508 mm)",
+        "0.25 inch",
+        "0.03 inch",
+        "0.51 inch"
       ],
-      "explanation": "Slide 35 specifies 0.002 inch, approximately 0.05 mm. This is the course’s threshold; use the actual machine specification in service.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 35",
+      "explanation": "The slide limit is 0.002 inch, approximately 0.05 mm. Multiply inches by 25.4 to convert: 0.002 × 25.4 = 0.0508 mm.",
+      "section": "C-210 teacher Quiz 1, question 17; Module 2 · E-learning 210.2, Objective 5, page 29",
       "reviewSlides": [],
       "reviewCue": {
         "page": 35,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 35. Slide 35 specifies 0.002 inch, approximately 0.05 mm. This is the course’s threshold; use the actual machine specification in service."
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 35; E-learning 210.2, Objective 5, page 29. Teacher Quiz 1, question 17. The slide limit is 0.002 inch, approximately 0.05 mm. Multiply inches by 25.4 to convert: 0.002 × 25.4 = 0.0508 mm."
       },
-      "inspirationSources": [
-        "https://quizlet.com/1022772949/saca-c-210-mechanical-power-systems-1-updated-flash-cards/"
-      ],
-      "starred": false,
+      "starred": true,
       "category": "Understand",
       "conceptKey": "gap-mechanical-soft-foot-limit",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 11,
+          "question": 17
+        }
+      ],
+      "teacherModule": 2,
+      "learningHelpKey": "soft-foot",
+      "answerKeyNote": "Quiz feedback letter B is a typo; the marked option A, feedback value and slide 35 all specify 0.002 inch."
+    },
+    {
+      "id": "c210-quiz1-q04",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ According to the course lockout/tagout rule, who removes a personal lockout?",
+      "options": [
+        "Only the instructor",
+        "Any two people",
+        "Only the person who installed the lockout",
+        "Any person familiar with the equipment"
+      ],
+      "answer": "Only the person who installed the lockout",
+      "explanation": "The course rule assigns removal of each personal lock to the person who installed it. In group lockout, each worker has a personal lock.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 4; Module 1 · E-learning 210.1, Objective 5, page 22",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 3,
+          "question": 4
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 12,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 12; E-learning 210.1, Objective 5, page 22. Teacher Quiz 1, question 4. The course rule assigns removal of each personal lock to the person who installed it. In group lockout, each worker has a personal lock."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q04",
+      "teacherModule": 1,
+      "learningHelpKey": "safety"
+    },
+    {
+      "id": "c210-quiz1-q08",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which source is best for determining where to oil and grease a machine?",
+      "options": [
+        "The operation and maintenance manual",
+        "Only a machine representative’s informal advice",
+        "Inspecting the machine without its documentation",
+        "Only talking to an operator"
+      ],
+      "answer": "The operation and maintenance manual",
+      "explanation": "The equipment manufacturer specifies lubrication requirements and locations in the operation and maintenance manual.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 8; Module 1 · E-learning 210.1, Objective 10, page 45",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 6,
+          "question": 8
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 20,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 20; E-learning 210.1, Objective 10, page 45. Teacher Quiz 1, question 8. The equipment manufacturer specifies lubrication requirements and locations in the operation and maintenance manual."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q08",
+      "teacherModule": 1
+    },
+    {
+      "id": "c210-quiz1-q09",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which foundation material does the course normally consider best for industrial machinery?",
+      "options": [
+        "Wooden beams",
+        "Solid concrete",
+        "Asphalt",
+        "Whatever floor material already exists"
+      ],
+      "answer": "Solid concrete",
+      "explanation": "The slide lists solid concrete, reinforced concrete, and structural steel foundations, and normally considers solid concrete best.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 9; Module 1 · E-learning 210.1, Objective 6, page 28",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 7,
+          "question": 9
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 15,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 15; E-learning 210.1, Objective 6, page 28. Teacher Quiz 1, question 9. The slide lists solid concrete, reinforced concrete, and structural steel foundations, and normally considers solid concrete best."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q09",
+      "teacherModule": 1
+    },
+    {
+      "id": "c210-quiz1-q10",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ A bedplate is a solid piece of metal usually made of what?",
+      "options": [
+        "Copper",
+        "Steel",
+        "Brass",
+        "Cast iron"
+      ],
+      "answer": "Steel",
+      "explanation": "A bedplate is usually steel and provides the rigid, level mounting surface between machinery and foundation.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 10; Module 1 · E-learning 210.1, Objective 7, page 31",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 7,
+          "question": 10
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 14,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 14; E-learning 210.1, Objective 7, page 31. Teacher Quiz 1, question 10. A bedplate is usually steel and provides the rigid, level mounting surface between machinery and foundation."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q10",
+      "teacherModule": 1
+    },
+    {
+      "id": "c210-quiz1-q11",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ The standard hex-head motor-mounting bolt is used with which hardware?",
+      "options": [
+        "One lock washer and a nut",
+        "One flat washer, one lock washer, and a nut",
+        "Two flat washers, one lock washer, and a nut",
+        "Two flat washers, two lock washers, and a nut"
+      ],
+      "answer": "Two flat washers, one lock washer, and a nut",
+      "explanation": "The course assembly uses a hex-head bolt, two flat washers, one lock washer, and a nut. Flat washers distribute the clamping load at the mounting holes.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 11; Module 2 · E-learning 210.2, Objective 2, page 5",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 8,
+          "question": 11
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 30,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 30; E-learning 210.2, Objective 2, page 5. Teacher Quiz 1, question 11. The course assembly uses a hex-head bolt, two flat washers, one lock washer, and a nut. Flat washers distribute the clamping load at the mounting holes."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q11",
+      "teacherModule": 2
+    },
+    {
+      "id": "c210-quiz1-q12",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which bolt diameter does the course select for a 1/2-inch motor-foot mounting hole?",
+      "options": [
+        "1/2 inch",
+        "7/16 inch",
+        "9/16 inch",
+        "1/4 inch"
+      ],
+      "answer": "7/16 inch",
+      "explanation": "A 7/16-inch bolt fills most of the 1/2-inch hole while leaving a little clearance for alignment. The 9/16-inch bolt is too large.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 12; Module 2 · E-learning 210.2, Objective 3, page 12",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 9,
+          "question": 12
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 31,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 31; E-learning 210.2, Objective 3, page 12. Teacher Quiz 1, question 12. A 7/16-inch bolt fills most of the 1/2-inch hole while leaving a little clearance for alignment. The 9/16-inch bolt is too large."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q12",
+      "teacherModule": 2
+    },
+    {
+      "id": "c210-quiz1-q13",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ In the course’s simple one-short-foot example, how is motor soft foot corrected?",
+      "options": [
+        "Shim the one short foot",
+        "Shim all four feet equally",
+        "Leave the motor base unsupported",
+        "Shim two diagonally opposite feet"
+      ],
+      "answer": "Shim the one short foot",
+      "explanation": "Three feet define a plane. Shimming the one short foot brings it into that plane so the motor rests solidly without being twisted by its fasteners.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 13; Module 2 · E-learning 210.2, Objective 5, page 29",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 9,
+          "question": 13
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 35,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 35; E-learning 210.2, Objective 5, page 29. Teacher Quiz 1, question 13. Three feet define a plane. Shimming the one short foot brings it into that plane so the motor rests solidly without being twisted by its fasteners."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q13",
+      "teacherModule": 2,
       "learningHelpKey": "soft-foot"
+    },
+    {
+      "id": "c210-quiz1-q16",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ How is a bolt’s grade or property class identified?",
+      "options": [
+        "Measure only its diameter",
+        "Measure only its length and diameter",
+        "Read the markings on its head",
+        "Count only its threads per inch"
+      ],
+      "answer": "Read the markings on its head",
+      "explanation": "Bolt-head markings identify grade or property class. Diameter, length, and thread pitch describe size, not strength grade.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 16; Module 2 · E-learning 210.2, Objective 3, page 9",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 11,
+          "question": 16
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 31,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 31; E-learning 210.2, Objective 3, page 9. Teacher Quiz 1, question 16. Bolt-head markings identify grade or property class. Diameter, length, and thread pitch describe size, not strength grade."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q16",
+      "teacherModule": 2
+    },
+    {
+      "id": "c210-quiz1-q18",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ What can an uncorrected motor soft-foot condition cause in use?",
+      "options": [
+        "Misalignment and vibration",
+        "Only corrosion",
+        "Only electrical end float",
+        "A harmless change in paint color"
+      ],
+      "answer": "Misalignment and vibration",
+      "explanation": "Soft foot can let fasteners loosen or twist the motor frame. Loose mounting and misalignment lead to vibration and possible component damage.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 18; Module 2 · E-learning 210.2, Objective 5, page 28",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 12,
+          "question": 18
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 35,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 35; E-learning 210.2, Objective 5, page 28. Teacher Quiz 1, question 18. Soft foot can let fasteners loosen or twist the motor frame. Loose mounting and misalignment lead to vibration and possible component damage."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q18",
+      "teacherModule": 2,
+      "learningHelpKey": "soft-foot"
+    },
+    {
+      "id": "c210-quiz1-q19",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ What is the free movement of a shaft along its own axis called?",
+      "options": [
+        "End float",
+        "Total indicated runout (TIR)",
+        "Soft foot",
+        "A fixed 0.51-inch clearance"
+      ],
+      "answer": "End float",
+      "explanation": "End float, or end play, is axial shaft movement. A dial indicator at the shaft end measures this movement; compare the result with the manufacturer’s specification.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 19; Module 2 · E-learning 210.2, Objective 5, page 30",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 13,
+          "question": 19
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 36,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 36; E-learning 210.2, Objective 5, page 30. Teacher Quiz 1, question 19. End float, or end play, is axial shaft movement. A dial indicator at the shaft end measures this movement; compare the result with the manufacturer’s specification."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q19",
+      "teacherModule": 2
+    },
+    {
+      "id": "c210-quiz1-q20",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ In the course’s contact-tachometer example, the rubber tip contacts which part?",
+      "options": [
+        "The end of the spinning motor shaft",
+        "The stationary motor foot",
+        "The power cord",
+        "Only a stopped motor shaft"
+      ],
+      "answer": "The end of the spinning motor shaft",
+      "explanation": "The contact tachometer tip rotates with the shaft end so the instrument can indicate RPM. The slide contrasts it with a photo tachometer that reads without shaft contact.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 20; Module 2 · E-learning 210.2, Objective 6, page 42",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 14,
+          "question": 20
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 38,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 38; E-learning 210.2, Objective 6, page 42. Teacher Quiz 1, question 20. The contact tachometer tip rotates with the shaft end so the instrument can indicate RPM. The slide contrasts it with a photo tachometer that reads without shaft contact."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q20",
+      "teacherModule": 2
+    },
+    {
+      "id": "c210-quiz1-q21",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ In the course’s shaft-and-hub terminology, what is the groove in the shaft for a key called?",
+      "options": [
+        "Keygroove",
+        "Keyseat",
+        "Keyway",
+        "Either keyseat or keyway for every shaft groove"
+      ],
+      "answer": "Keyseat",
+      "explanation": "The shaft groove is called the keyseat. The slide also uses keyseat or keyway for the hub groove; use the shaft-versus-hub distinction asked here.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 21; Module 3 · E-learning 210.3, Objective 1, page 2",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 15,
+          "question": 21
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 39,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 39; E-learning 210.3, Objective 1, page 2. Teacher Quiz 1, question 21. The shaft groove is called the keyseat. The slide also uses keyseat or keyway for the hub groove; use the shaft-versus-hub distinction asked here."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q21",
+      "teacherModule": 3,
+      "answerKeyNote": "Letter-dependent combination option written out so shuffled choices remain meaningful."
+    },
+    {
+      "id": "c210-quiz1-q22",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ The nominal keyseat height is normally what fraction of the key height?",
+      "options": [
+        "Slightly smaller than the full height",
+        "Slightly larger than the full height",
+        "The same as the full height",
+        "Half"
+      ],
+      "answer": "Half",
+      "explanation": "About half of the key height sits in the shaft keyseat and half in the hub keyseat, so the key bridges both parts.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 22; Module 3 · E-learning 210.3, Objective 3, page 9",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 16,
+          "question": 22
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 43,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 43; E-learning 210.3, Objective 3, page 9. Teacher Quiz 1, question 22. About half of the key height sits in the shaft keyseat and half in the hub keyseat, so the key bridges both parts."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q22",
+      "teacherModule": 3
+    },
+    {
+      "id": "c210-quiz1-q23",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which instrument is best suited to measuring a keyseat’s inside width and depth?",
+      "options": [
+        "Micrometer",
+        "Dial caliper",
+        "Rule",
+        "Feeler gauge"
+      ],
+      "answer": "Dial caliper",
+      "explanation": "A caliper has inside-measuring and depth-measuring features. The micrometer is suited to precise outside dimensions, while a rule is adequate for approximate keyseat length.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 23; Module 3 · E-learning 210.3, Objective 4, page 20",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 17,
+          "question": 23
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 44,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 44; E-learning 210.3, Objective 4, page 20. Teacher Quiz 1, question 23. A caliper has inside-measuring and depth-measuring features. The micrometer is suited to precise outside dimensions, while a rule is adequate for approximate keyseat length."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q23",
+      "teacherModule": 3
+    },
+    {
+      "id": "c210-quiz1-q24",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ How should a correctly sized key fit into a shaft keyseat?",
+      "options": [
+        "Slide in without being forced",
+        "Require hammer blows",
+        "Require a vise to press it in",
+        "Require cooling the key and heating the shaft"
+      ],
+      "answer": "Slide in without being forced",
+      "explanation": "The key should fit snugly without forcing and without play. If the fit is too tight, check dimensions rather than driving it in.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 24; Module 3 · E-learning 210.3, Objective 6, page 29",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 17,
+          "question": 24
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 39,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 39; E-learning 210.3, Objective 6, page 29. Teacher Quiz 1, question 24. The key should fit snugly without forcing and without play. If the fit is too tight, check dimensions rather than driving it in."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-key-fit",
+      "teacherModule": 3
+    },
+    {
+      "id": "c210-quiz1-q25",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ What material are keys normally made from in this course?",
+      "options": [
+        "Copper",
+        "Cold-rolled steel",
+        "Stainless steel",
+        "Brass"
+      ],
+      "answer": "Cold-rolled steel",
+      "explanation": "The key-stock material listed in the slides is normally cold-rolled steel. Its size, tolerance, length, and material are selected for the application.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 25; Module 3 · E-learning 210.3, Objective 3, page 16",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 18,
+          "question": 25
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 43,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 43; E-learning 210.3, Objective 3, page 16. Teacher Quiz 1, question 25. The key-stock material listed in the slides is normally cold-rolled steel. Its size, tolerance, length, and material are selected for the application."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q25",
+      "teacherModule": 3
+    },
+    {
+      "id": "c210-quiz1-q26",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which set-screw point bites into the shaft for strong, permanent mounting?",
+      "options": [
+        "Oval point",
+        "Dog point",
+        "Cone point",
+        "Cup point"
+      ],
+      "answer": "Cone point",
+      "explanation": "The teacher quiz identifies the cone point for permanent mounting because its point bites into the shaft. The slide lists cone point among the set-screw types.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 26; Module 3 · E-learning 210.3, Objective 5, page 22",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 18,
+          "question": 26
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 45,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 45; E-learning 210.3, Objective 5, page 22. Teacher Quiz 1, question 26. The teacher quiz identifies the cone point for permanent mounting because its point bites into the shaft. The slide lists cone point among the set-screw types."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q26",
+      "teacherModule": 3
+    },
+    {
+      "id": "c210-quiz1-q27",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which tool should remove a hub that will not come off the shaft by hand?",
+      "options": [
+        "A hammer striking the hub directly",
+        "A bearing puller",
+        "An open flame on the hub",
+        "A pry bar on the hub edge"
+      ],
+      "answer": "A bearing puller",
+      "explanation": "A bearing puller pushes on the shaft end while pulling the hub. The course warns against hammering the hub directly because that can damage it.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 27; Module 3 · E-learning 210.3, Objective 6, page 30",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 19,
+          "question": 27
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 46,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 46; E-learning 210.3, Objective 6, page 30. Teacher Quiz 1, question 27. A bearing puller pushes on the shaft end while pulling the hub. The course warns against hammering the hub directly because that can damage it."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q27",
+      "teacherModule": 3
+    },
+    {
+      "id": "c210-quiz1-q29",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which measurement is a micrometer suited to making with great precision?",
+      "options": [
+        "Inside width of a keyseat",
+        "Outside diameter of a shaft",
+        "Approximate length of a key",
+        "Depth of a keyway"
+      ],
+      "answer": "Outside diameter of a shaft",
+      "explanation": "An outside micrometer measures precise outside dimensions. For keyseat inside width or depth, use the caliper features identified on the slide.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 29; Module 3 · E-learning 210.3, Objective 4, page 20",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 20,
+          "question": 29
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 44,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 44; E-learning 210.3, Objective 4, page 20. Teacher Quiz 1, question 29. An outside micrometer measures precise outside dimensions. For keyseat inside width or depth, use the caliper features identified on the slide."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q29",
+      "teacherModule": 3
+    },
+    {
+      "id": "c210-quiz1-q30",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ What should provide enough force to place a correctly fitted key into its keyseat?",
+      "options": [
+        "A metal-faced hammer",
+        "A screwdriver used as a lever",
+        "Your thumb",
+        "A soft-faced hammer"
+      ],
+      "answer": "Your thumb",
+      "explanation": "A correctly fitted key slides into place with thumb pressure. Needing to hammer or pry it indicates the fit needs checking.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 30; Module 3 · E-learning 210.3, Objective 6, page 29",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 21,
+          "question": 30
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 39,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 39; E-learning 210.3, Objective 6, page 29. Teacher Quiz 1, question 30. A correctly fitted key slides into place with thumb pressure. Needing to hammer or pry it indicates the fit needs checking."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-key-fit",
+      "teacherModule": 3
+    },
+    {
+      "id": "c210-quiz1-q35",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which ammeter opens around a conductor to measure current without disconnecting that conductor?",
+      "options": [
+        "Handheld ammeter with series leads",
+        "Built-in panel ammeter",
+        "Clamp-on ammeter",
+        "A wrap-around label"
+      ],
+      "answer": "Clamp-on ammeter",
+      "explanation": "A clamp-on ammeter opens around one conductor. A lead-type ammeter is inserted in series, while a built-in ammeter is installed as part of the machine circuit.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 35; Module 4 · E-learning 210.4, Objective 5, page 27",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 26,
+          "question": 35
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 55,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 55; E-learning 210.4, Objective 5, page 27. Teacher Quiz 1, question 35. A clamp-on ammeter opens around one conductor. A lead-type ammeter is inserted in series, while a built-in ammeter is installed as part of the machine circuit."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q35",
+      "teacherModule": 4
+    },
+    {
+      "id": "c210-quiz1-q36",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which change can reduce mechanical drive efficiency?",
+      "options": [
+        "Current remaining constant by definition",
+        "A current increase by itself as the cause",
+        "Increased friction",
+        "An RPM increase in every case"
+      ],
+      "answer": "Increased friction",
+      "explanation": "Friction converts mechanical energy to heat, reducing the fraction delivered as useful output. Increased current can be a symptom of additional load, not the definition of the loss mechanism.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 36; Module 4 · E-learning 210.4, Objective 3, page 16",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 27,
+          "question": 36
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 52,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 52; E-learning 210.4, Objective 3, page 16. Teacher Quiz 1, question 36. Friction converts mechanical energy to heat, reducing the fraction delivered as useful output. Increased current can be a symptom of additional load, not the definition of the loss mechanism."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q36",
+      "teacherModule": 4
+    },
+    {
+      "id": "c210-quiz1-q37",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ Which listed instruments can measure motor current when used in their intended configurations?",
+      "options": [
+        "A handheld ammeter",
+        "A built-in ammeter",
+        "A clamp-on ammeter",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "The slide lists handheld series-connected ammeters, built-in panel ammeters, and clamp-on ammeters. Each measures current by its intended connection method.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 37; Module 4 · E-learning 210.4, Objective 5, page 26",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 27,
+          "question": 37
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 55,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 55; E-learning 210.4, Objective 5, page 26. Teacher Quiz 1, question 37. The slide lists handheld series-connected ammeters, built-in panel ammeters, and clamp-on ammeters. Each measures current by its intended connection method."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q37",
+      "teacherModule": 4
+    },
+    {
+      "id": "c210-quiz1-q38",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ For force acting in the direction of motion, how is mechanical work calculated?",
+      "options": [
+        "Load × torque",
+        "Revolutions per hour",
+        "Force × distance",
+        "Power divided by time"
+      ],
+      "answer": "Force × distance",
+      "explanation": "For constant force in the direction of displacement, work = force × distance. Power describes the rate of doing that work. The quiz asks for the force-distance definition.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 38; Module 4 · E-learning 210.4, Self Review, page 32",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 28,
+          "question": 38
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 49,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 49; E-learning 210.4, Self Review, page 32. Teacher Quiz 1, question 38. For constant force in the direction of displacement, work = force × distance. Power describes the rate of doing that work. The quiz asks for the force-distance definition."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q38",
+      "teacherModule": 4,
+      "answerKeyNote": "Changed teacher distractor Power times Time because W=P×t is also valid for constant/average power; only force times distance answers the revised options."
+    },
+    {
+      "id": "c210-quiz1-q39",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "quiz",
+      "prompt": "★ How is the current signal from a shaft torque transducer converted to a torque value?",
+      "options": [
+        "Compare it with the manufacturer’s calibration graph",
+        "Treat the current number itself as torque",
+        "Multiply current by 5252",
+        "Divide current by 5252"
+      ],
+      "answer": "Compare it with the manufacturer’s calibration graph",
+      "explanation": "The transducer produces an electrical signal proportional to torque. Its manufacturer’s calibration graph translates the measured signal to torque; 5252 belongs to the horsepower equation.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 39; Module 4 · E-learning 210.4, Objective 4, page 24",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 29,
+          "question": 39
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 54,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 54; E-learning 210.4, Objective 4, page 24. Teacher Quiz 1, question 39. The transducer produces an electrical signal proportional to torque. Its manufacturer’s calibration graph translates the measured signal to torque; 5252 belongs to the horsepower equation."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz1-q39",
+      "teacherModule": 4
     }
   ]
 }

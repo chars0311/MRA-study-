@@ -4770,27 +4770,41 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "formula",
-      "prompt": "A shaft delivers 20 ft-lb at 1750 RPM. Using HP = torque × RPM / 5252, find power.",
-      "answer": "6.66 hp",
+      "prompt": "★ A motor shaft produces 4 ft-lb at 1313 RPM. Using HP = torque × RPM / 5252, find power.",
+      "answer": "1 hp",
       "options": [
-        "6.66 hp",
-        "3.33 hp",
-        "13.32 hp",
-        "35000 hp"
+        "1 hp",
+        "10 hp",
+        "100 hp",
+        "1000 hp"
       ],
-      "explanation": "HP = 20 × 1750 / 5252 = 6.66 hp.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 49",
+      "explanation": "HP = 4 × 1313 / 5252 = 5252 / 5252 = 1 hp. Use ft-lb and RPM with the 5252 constant.",
+      "section": "C-210 teacher Quiz 1, question 31; Module 4 · E-learning 210.4, Objective 2, page 8",
       "reviewSlides": [],
       "reviewCue": {
         "page": 49,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 49. HP = 20 × 1750 / 5252 = 6.66 hp.",
-        "excerpt": "Calculate Rotary Mechanical Power\nSkill 2 - Calculate Rotary Mechanical Power\nWhere:\nSs = Shaft Speed (rpm)\nTs = Shaft Torque (ft-lb or N-m)\nP = Rotary Power (hp)\nPower is the rate at which work is performed\nShaft Torque X Shaft Speed\n5252\nPower will have basic units of Foot-LBS per Second or Newton Meters per second, \nbut it’s rare to write it this way. Instead, its standard to use:\n⮚ Horsepower (HP) in the US\n⮚ Watts or kilowatts (kW, 1 kW = 1,000 Watts)\nRotary Power measured in HP =\nShaft Torque X Shaft Speed\n9549\nRotary Power measured in kW =\n49"
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 49; E-learning 210.4, Objective 2, page 8. Teacher Quiz 1, question 31. HP = 4 × 1313 / 5252 = 5252 / 5252 = 1 hp. Use ft-lb and RPM with the 5252 constant."
       },
-      "numeric": 6.66,
-      "unit": "hp",
-      "tolerance": 0.15,
       "category": "Calculate",
-      "conceptKey": "c210-math-hp"
+      "conceptKey": "c210-math-hp",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 22,
+          "question": 31
+        }
+      ],
+      "teacherModule": 4,
+      "numeric": 1,
+      "unit": "hp",
+      "tolerance": 0.005,
+      "learningHelp": {
+        "simple": "Use the formula with matching units, then substitute the given numbers.",
+        "example": "HP = 4 × 1313 / 5252 = 5252 / 5252 = 1 hp. Use ft-lb and RPM with the 5252 constant.",
+        "memory": "Horsepower: torque × RPM ÷ 5252. Efficiency: output ÷ input × 100.",
+        "lookFor": "Find the formula on slide 49; identify each given quantity before calculating."
+      }
     },
     {
       "id": "c210-math-efficiency",
@@ -4798,27 +4812,41 @@
       "topic": "Day 1 · Introduction to Mechanical Drive Systems",
       "source": "g",
       "type": "formula",
-      "prompt": "A drive receives 10 hp and delivers 8 hp. Find efficiency.",
-      "answer": "80 %",
+      "prompt": "★ A system receives 100 hp and delivers 85 hp. What is its mechanical power efficiency?",
+      "answer": "85 %",
       "options": [
-        "80 %",
-        "20 %",
-        "125 %",
-        "8 %"
+        "8.5 %",
+        "118 %",
+        "85 %",
+        "59 %"
       ],
-      "explanation": "Efficiency = 8 / 10 × 100 = 80%.",
-      "section": "C210 Mechanical Power Sys.pdf, slide 53",
+      "explanation": "Efficiency = output/input × 100 = 85/100 × 100 = 85%. The missing 15% is not useful output power.",
+      "section": "C-210 teacher Quiz 1, question 40; Module 4 · E-learning 210.4, Objective 3, page 16",
       "reviewSlides": [],
       "reviewCue": {
-        "page": 53,
-        "text": "Review C210 Mechanical Power Sys.pdf, slide 53. Efficiency = 8 / 10 × 100 = 80%.",
-        "excerpt": "Calculate Mechanical Efficiency and Explain Its Importance\nSkill 3 - Calculate Mechanical Efficiency\nCalculate the MECHANICAL POWER EFFICIENCY using the formula and the given values. Round \nyour answer to two decimal places. MECHANICAL EFFICIENCY is ALWAYS LESS THAN 100%\n53"
+        "page": 52,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 52; E-learning 210.4, Objective 3, page 16. Teacher Quiz 1, question 40. Efficiency = output/input × 100 = 85/100 × 100 = 85%. The missing 15% is not useful output power."
       },
-      "numeric": 80,
-      "unit": "%",
-      "tolerance": 0.15,
       "category": "Calculate",
-      "conceptKey": "c210-math-efficiency"
+      "conceptKey": "c210-math-efficiency",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 30,
+          "question": 40
+        }
+      ],
+      "teacherModule": 4,
+      "numeric": 85,
+      "unit": "%",
+      "tolerance": 0.425,
+      "learningHelp": {
+        "simple": "Use the formula with matching units, then substitute the given numbers.",
+        "example": "Efficiency = output/input × 100 = 85/100 × 100 = 85%. The missing 15% is not useful output power.",
+        "memory": "Horsepower: torque × RPM ÷ 5252. Efficiency: output ÷ input × 100.",
+        "lookFor": "Find the formula on slide 52; identify each given quantity before calculating."
+      }
     },
     {
       "id": "c210-math-sprocket",
@@ -5332,6 +5360,42 @@
       "category": "Calculate",
       "conceptKey": "gap-math-humidity-ratio",
       "learningHelpKey": "air-filter"
+    },
+    {
+      "id": "c210-quiz1-q14",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "type": "formula",
+      "prompt": "★ One shaft revolution per second equals how many revolutions per minute?",
+      "options": [
+        "1 RPM",
+        "1000 RPM",
+        "60 RPM",
+        "6 RPM"
+      ],
+      "answer": "60 RPM",
+      "explanation": "One minute contains 60 seconds, so 1 revolution/second × 60 seconds/minute = 60 RPM.",
+      "starred": true,
+      "section": "C-210 teacher Quiz 1, question 14; Module 2 · E-learning 210.2, Objective 6, page 41",
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
+          "page": 10,
+          "question": 14
+        }
+      ],
+      "reviewSlides": [],
+      "reviewCue": {
+        "page": 38,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 38; E-learning 210.2, Objective 6, page 41. Teacher Quiz 1, question 14. One minute contains 60 seconds, so 1 revolution/second × 60 seconds/minute = 60 RPM."
+      },
+      "category": "Calculate",
+      "conceptKey": "c210-quiz1-q14",
+      "teacherModule": 2,
+      "numeric": 60,
+      "unit": "RPM",
+      "tolerance": 0.3
     }
   ]
 }
