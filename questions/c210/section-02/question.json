@@ -645,7 +645,7 @@
       ],
       "answer": "Transmit mechanical power from one location to another",
       "explanation": "A shaft transmits torque and rotating motion from one location to another.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 41; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -677,7 +677,7 @@
       ],
       "answer": "To resist rusting or corrosion",
       "explanation": "Chrome plating protects steel from rust and corrosion.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 42; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -709,7 +709,7 @@
       ],
       "answer": "Always less than",
       "explanation": "Accuracy stock is precision-ground to tighter tolerances than ordinary round stock.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 43; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -741,7 +741,7 @@
       ],
       "answer": "Radial, thrust, and combination",
       "explanation": "Radial loads act perpendicular to the shaft; thrust loads act parallel; combination loads include both.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 44; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -773,7 +773,7 @@
       ],
       "answer": "Load capacity",
       "explanation": "Adding rolling elements increases the bearing's load capacity.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 45; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -805,7 +805,7 @@
       ],
       "answer": "Plain and anti-friction",
       "explanation": "Plain bearings support sliding motion on a lubricant film, while anti-friction bearings use balls or rollers.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 46; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -837,7 +837,7 @@
       ],
       "answer": "Bearing",
       "explanation": "Use an appropriate sleeve and protective block instead of striking the bearing itself.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 47; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -869,7 +869,7 @@
       ],
       "answer": "Pillow block and flange",
       "explanation": "Pillow-block housings mount to a surface generally parallel to the shaft; flange housings mount to a perpendicular surface.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 48; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -901,7 +901,7 @@
       ],
       "answer": "Allows more misalignment",
       "explanation": "Its flexible elastomer spider accommodates more misalignment than many other flexible couplings.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 49; E-learning 210.5",
       "reviewSlides": [],
       "reviewCue": {
@@ -933,7 +933,7 @@
       ],
       "answer": "Relative numbers of teeth on the driven and driver sprockets",
       "explanation": "The sprocket tooth-count ratio determines the ideal change in speed and torque.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 51; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -965,7 +965,7 @@
       ],
       "answer": "Chain, driver sprocket, and driven sprocket",
       "explanation": "A chain transfers motion between the driver sprocket and the driven sprocket.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 52; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -997,7 +997,7 @@
       ],
       "answer": "3",
       "explanation": "Sprocket ratio = driven teeth ÷ driver teeth = 54 ÷ 18 = 3.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 53; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -1029,7 +1029,7 @@
       ],
       "answer": "1,899 ft-lb",
       "explanation": "Ratio = 72 ÷ 24 = 3; output torque = 633 × 3 = 1,899 ft-lb, ignoring losses.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 54; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -1061,7 +1061,7 @@
       ],
       "answer": "Sprocket ratio (SR)",
       "explanation": "Increasing the driven-to-driver tooth ratio reduces output RPM.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 55; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -1093,7 +1093,7 @@
       ],
       "answer": "Torque",
       "explanation": "A higher sprocket ratio increases ideal output torque while reducing speed.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 56; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -1125,7 +1125,7 @@
       ],
       "answer": "Reduces",
       "explanation": "For the same driver, more teeth on the driven sprocket decrease its RPM.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 57; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -1157,7 +1157,7 @@
       ],
       "answer": "Directly",
       "explanation": "More teeth on the driven sprocket increase the sprocket ratio and ideal driven torque.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 58; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -1189,7 +1189,7 @@
       ],
       "answer": "Sprocket ratio",
       "explanation": "Output RPM = input RPM ÷ sprocket ratio.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 59; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -1221,7 +1221,7 @@
       ],
       "answer": "All of the above",
       "explanation": "A chain drive needs the driver sprocket, chain, and driven sprocket.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 60; E-learning 210.8",
       "reviewSlides": [],
       "reviewCue": {
@@ -1253,7 +1253,7 @@
       ],
       "answer": "Change the direction of rotation",
       "explanation": "Idlers change rotation direction or span distance, but do not change the overall ideal speed ratio.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 61; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1285,7 +1285,7 @@
       ],
       "answer": "Pitch diameters",
       "explanation": "Pitch diameter, like tooth count, relates directly to gear speed and torque ratios.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 62; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1317,7 +1317,7 @@
       ],
       "answer": "480",
       "explanation": "Gear ratio = 18 ÷ 12 = 1.5; driven speed = 720 ÷ 1.5 = 480 RPM.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 63; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1349,7 +1349,7 @@
       ],
       "answer": "Moving axis",
       "explanation": "The rack-and-pinion converts rotary and linear motion; the course calls it a moving-axis drive.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 64; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1381,7 +1381,7 @@
       ],
       "answer": "Speed decreases",
       "explanation": "A larger driven gear rotates more slowly for the same driver speed.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 65; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1413,7 +1413,7 @@
       ],
       "answer": "Parallel axis",
       "explanation": "Spur gears, including a spur idler between shafts, operate on parallel axes.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 66; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1445,7 +1445,7 @@
       ],
       "answer": "Side thrust",
       "explanation": "Helical teeth operate smoothly but create axial thrust from their angled contact.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 67; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1477,7 +1477,7 @@
       ],
       "answer": "Corresponding points on adjacent teeth measured along the pitch circle",
       "explanation": "Circular pitch is measured along the pitch circle between matching points on adjacent teeth.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 68; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1509,7 +1509,7 @@
       ],
       "answer": "200 ft-lb",
       "explanation": "Gear ratio = 20 ÷ 10 = 2; ideal driven torque = 100 × 2 = 200 ft-lb.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 69; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1541,7 +1541,7 @@
       ],
       "answer": "Expense",
       "explanation": "Herringbone gears help cancel axial thrust, but their manufacture is expensive.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 70; E-learning 210.11",
       "reviewSlides": [],
       "reviewCue": {
@@ -1573,7 +1573,7 @@
       ],
       "answer": "Number of teeth to pitch diameter",
       "explanation": "Diametral pitch = number of teeth ÷ pitch diameter.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 71; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1605,7 +1605,7 @@
       ],
       "answer": "Shape made by the edge of the tooth",
       "explanation": "Tooth profile refers to the shape of the gear-tooth outline.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 72; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1637,7 +1637,7 @@
       ],
       "answer": "Difference between tooth thickness and tooth-space width",
       "explanation": "Backlash is the clearance between mating tooth surfaces, expressed at the pitch circle.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 73; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1669,7 +1669,7 @@
       ],
       "answer": "Teeth roll more than slip, reducing friction",
       "explanation": "The involute profile reduces sliding and friction during meshing.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 74; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1701,7 +1701,7 @@
       ],
       "answer": "Only a gear with diametral pitch 16",
       "explanation": "Meshing gears must have the same diametral pitch and compatible tooth geometry.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 75; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1733,7 +1733,7 @@
       ],
       "answer": "Face width",
       "explanation": "Face width is the gear's width across the tooth faces; wider gears can support higher loads.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 76; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1765,7 +1765,7 @@
       ],
       "answer": "Makes their pitch circles tangent",
       "explanation": "Pitch circles should be tangent at the intended center distance.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 77; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1797,7 +1797,7 @@
       ],
       "answer": "Number of teeth and pitch diameter",
       "explanation": "Divide the number of teeth by pitch diameter.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 78; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1829,7 +1829,7 @@
       ],
       "answer": "Line of action",
       "explanation": "The line of action is the path of tooth contact; for involute teeth it is tangent to the base circles.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 79; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
@@ -1861,7 +1861,7 @@
       ],
       "answer": "None; all three are important",
       "explanation": "Pitch, pitch circle, and pitch diameter are all important gear dimensions.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 80; E-learning 210.12",
       "reviewSlides": [],
       "reviewCue": {
