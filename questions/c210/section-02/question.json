@@ -630,6 +630,1254 @@
       },
       "category": "Identify",
       "conceptKey": "c210-picture-89-9"
+    },
+    {
+      "id": "c210-quiz2-q41",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "The function of a machine shaft is to __________.",
+      "options": [
+        "Act as a spacer between a motor and a driven shaft",
+        "Support the weight of a motor",
+        "Transmit mechanical power from one location to another",
+        "Act as a heat sink to counteract motor overheating"
+      ],
+      "answer": "Transmit mechanical power from one location to another",
+      "explanation": "A shaft transmits torque and rotating motion from one location to another.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 41; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 41, and the relevant E-learning 210.5 objective. A shaft transmits torque and rotating motion from one location to another."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q41",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 2,
+          "question": 41
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q42",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Chrome-plated steel shafts should be used __________.",
+      "options": [
+        "To improve the appearance of the machine",
+        "To resist rusting or corrosion",
+        "On shafts exceeding six inches in diameter",
+        "For flexibility"
+      ],
+      "answer": "To resist rusting or corrosion",
+      "explanation": "Chrome plating protects steel from rust and corrosion.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 42; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 42, and the relevant E-learning 210.5 objective. Chrome plating protects steel from rust and corrosion."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q42",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 3,
+          "question": 42
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q43",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "The diameter of an accuracy-stock shaft is __________ the nominal diameter due to precision grinding.",
+      "options": [
+        "Always greater than",
+        "Usually greater than",
+        "Always equal to",
+        "Always less than"
+      ],
+      "answer": "Always less than",
+      "explanation": "Accuracy stock is precision-ground to tighter tolerances than ordinary round stock.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 43; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 43, and the relevant E-learning 210.5 objective. Accuracy stock is precision-ground to tighter tolerances than ordinary round stock."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q43",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 4,
+          "question": 43
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q44",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Bearings counteract which three types of loads?",
+      "options": [
+        "Radial, coaxial, and transaxial",
+        "Radial, thrust, and combination",
+        "Radial, helical, and transverse",
+        "Radial, reverse, and axial"
+      ],
+      "answer": "Radial, thrust, and combination",
+      "explanation": "Radial loads act perpendicular to the shaft; thrust loads act parallel; combination loads include both.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 44; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 44, and the relevant E-learning 210.5 objective. Radial loads act perpendicular to the shaft; thrust loads act parallel; combination loads include both."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q44",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 5,
+          "question": 44
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q45",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "What increases when more balls are added to an anti-friction bearing?",
+      "options": [
+        "Load capacity",
+        "Overhang",
+        "Double-roll alignment",
+        "Conrad bearing"
+      ],
+      "answer": "Load capacity",
+      "explanation": "Adding rolling elements increases the bearing's load capacity.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 45; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 45, and the relevant E-learning 210.5 objective. Adding rolling elements increases the bearing's load capacity."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q45",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 6,
+          "question": 45
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q46",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "The two major categories of bearings used in industry are __________.",
+      "options": [
+        "Ball and roller",
+        "Ball and journal",
+        "Plain and anti-friction",
+        "Friction and anti-friction"
+      ],
+      "answer": "Plain and anti-friction",
+      "explanation": "Plain bearings support sliding motion on a lubricant film, while anti-friction bearings use balls or rollers.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 46; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 46, and the relevant E-learning 210.5 objective. Plain bearings support sliding motion on a lubricant film, while anti-friction bearings use balls or rollers."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q46",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 7,
+          "question": 46
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q47",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "When installing a bearing mechanically on a shaft, never strike the __________ directly with a hammer.",
+      "options": [
+        "Sleeve",
+        "Shaft",
+        "Bearing",
+        "Vise"
+      ],
+      "answer": "Bearing",
+      "explanation": "Use an appropriate sleeve and protective block instead of striking the bearing itself.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 47; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 47, and the relevant E-learning 210.5 objective. Use an appropriate sleeve and protective block instead of striking the bearing itself."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q47",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 8,
+          "question": 47
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q48",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Both major categories of shaft bearings can be mounted in which two ways?",
+      "options": [
+        "Four-bolt and two-bolt",
+        "Pillow block and flange",
+        "Single assembly and split assembly",
+        "None of the above"
+      ],
+      "answer": "Pillow block and flange",
+      "explanation": "Pillow-block housings mount to a surface generally parallel to the shaft; flange housings mount to a perpendicular surface.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 48; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 48, and the relevant E-learning 210.5 objective. Pillow-block housings mount to a surface generally parallel to the shaft; flange housings mount to a perpendicular surface."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q48",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 9,
+          "question": 48
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q49",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "An advantage of a flexible jaw coupling is that it __________.",
+      "options": [
+        "Is less expensive",
+        "Allows more misalignment",
+        "Dissipates heat better",
+        "Holds shafts together better"
+      ],
+      "answer": "Allows more misalignment",
+      "explanation": "Its flexible elastomer spider accommodates more misalignment than many other flexible couplings.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 49; E-learning 210.5",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 49, and the relevant E-learning 210.5 objective. Its flexible elastomer spider accommodates more misalignment than many other flexible couplings."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q49",
+      "starred": true,
+      "teacherModule": 5,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 10,
+          "question": 49
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q51",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "In a chain drive, the speed and torque of the driven shaft are determined by the __________.",
+      "options": [
+        "Relative numbers of teeth on the driven and driver sprockets",
+        "Ratio of the sprockets' pitch circles",
+        "Ratio of the chords between sprockets",
+        "Ratio of the sprocket diameters"
+      ],
+      "answer": "Relative numbers of teeth on the driven and driver sprockets",
+      "explanation": "The sprocket tooth-count ratio determines the ideal change in speed and torque.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 51; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 51, and the relevant E-learning 210.8 objective. The sprocket tooth-count ratio determines the ideal change in speed and torque."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q51",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 12,
+          "question": 51
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q52",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "The three basic components of a chain drive are __________.",
+      "options": [
+        "Chain, roller, and pin",
+        "Chain, driver sprocket, and driven sprocket",
+        "Chain, master link, and roller",
+        "Pins, rollers, and bushings"
+      ],
+      "answer": "Chain, driver sprocket, and driven sprocket",
+      "explanation": "A chain transfers motion between the driver sprocket and the driven sprocket.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 52; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 52, and the relevant E-learning 210.8 objective. A chain transfers motion between the driver sprocket and the driven sprocket."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q52",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 13,
+          "question": 52
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q53",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "A chain drive has a driven sprocket with 54 teeth and a driver sprocket with 18 teeth. What is the sprocket ratio?",
+      "options": [
+        "0.333",
+        "72",
+        "33",
+        "3"
+      ],
+      "answer": "3",
+      "explanation": "Sprocket ratio = driven teeth ÷ driver teeth = 54 ÷ 18 = 3.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 53; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 53, and the relevant E-learning 210.8 objective. Sprocket ratio = driven teeth ÷ driver teeth = 54 ÷ 18 = 3."
+      },
+      "category": "Calculate",
+      "conceptKey": "c210-quiz2-q53",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 14,
+          "question": 53
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q54",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "A chain drive has a 24-tooth driver sprocket and 72-tooth driven sprocket. If driver torque is 633 ft-lb, what is ideal driven torque?",
+      "options": [
+        "133 ft-lb",
+        "211 ft-lb",
+        "1,899 ft-lb",
+        "3,165 ft-lb"
+      ],
+      "answer": "1,899 ft-lb",
+      "explanation": "Ratio = 72 ÷ 24 = 3; output torque = 633 × 3 = 1,899 ft-lb, ignoring losses.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 54; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 54, and the relevant E-learning 210.8 objective. Ratio = 72 ÷ 24 = 3; output torque = 633 × 3 = 1,899 ft-lb, ignoring losses."
+      },
+      "category": "Calculate",
+      "conceptKey": "c210-quiz2-q54",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 15,
+          "question": 54
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q55",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "In a chain drive, the driven shaft speed decreases as the __________ increases.",
+      "options": [
+        "Drive torque",
+        "Sprocket ratio (SR)",
+        "Chain pitch",
+        "Driver torque"
+      ],
+      "answer": "Sprocket ratio (SR)",
+      "explanation": "Increasing the driven-to-driver tooth ratio reduces output RPM.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 55; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 55, and the relevant E-learning 210.8 objective. Increasing the driven-to-driver tooth ratio reduces output RPM."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q55",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 16,
+          "question": 55
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q56",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "In a chain drive, driven shaft __________ increases as the sprocket ratio increases.",
+      "options": [
+        "Torque",
+        "Speed",
+        "Chain pitch",
+        "Chord pitch"
+      ],
+      "answer": "Torque",
+      "explanation": "A higher sprocket ratio increases ideal output torque while reducing speed.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 56; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 56, and the relevant E-learning 210.8 objective. A higher sprocket ratio increases ideal output torque while reducing speed."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q56",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 17,
+          "question": 56
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q57",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "In a chain drive, a larger driven sprocket increases torque and __________ speed.",
+      "options": [
+        "Reduces",
+        "Maintains",
+        "Does not change",
+        "Increases"
+      ],
+      "answer": "Reduces",
+      "explanation": "For the same driver, more teeth on the driven sprocket decrease its RPM.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 57; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 57, and the relevant E-learning 210.8 objective. For the same driver, more teeth on the driven sprocket decrease its RPM."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q57",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 18,
+          "question": 57
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q58",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Driven shaft torque is __________ proportional to the number of teeth on the driven sprocket, with the driver unchanged.",
+      "options": [
+        "Inversely",
+        "Directly",
+        "Equally",
+        "Not"
+      ],
+      "answer": "Directly",
+      "explanation": "More teeth on the driven sprocket increase the sprocket ratio and ideal driven torque.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 58; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 58, and the relevant E-learning 210.8 objective. More teeth on the driven sprocket increase the sprocket ratio and ideal driven torque."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q58",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 19,
+          "question": 58
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q59",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "In a chain drive, the driven sprocket's rotational speed is determined by the __________.",
+      "options": [
+        "Pulley ratio",
+        "Sprocket ratio",
+        "Backlash",
+        "Shape of the sprocket teeth"
+      ],
+      "answer": "Sprocket ratio",
+      "explanation": "Output RPM = input RPM ÷ sprocket ratio.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 59; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 59, and the relevant E-learning 210.8 objective. Output RPM = input RPM ÷ sprocket ratio."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q59",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 20,
+          "question": 59
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q60",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Which is a basic component of a chain drive system?",
+      "options": [
+        "Driven sprocket",
+        "Chain",
+        "Driver sprocket",
+        "All of the above"
+      ],
+      "answer": "All of the above",
+      "explanation": "A chain drive needs the driver sprocket, chain, and driven sprocket.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 60; E-learning 210.8",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 60, and the relevant E-learning 210.8 objective. A chain drive needs the driver sprocket, chain, and driven sprocket."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q60",
+      "starred": true,
+      "teacherModule": 8,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 21,
+          "question": 60
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q61",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "An idler gear can __________ of the driven gear or transfer power farther from the driver shaft.",
+      "options": [
+        "Increase the torque",
+        "Change the direction of rotation",
+        "Increase the speed",
+        "Decrease the speed"
+      ],
+      "answer": "Change the direction of rotation",
+      "explanation": "Idlers change rotation direction or span distance, but do not change the overall ideal speed ratio.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 61; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 61, and the relevant E-learning 210.11 objective. Idlers change rotation direction or span distance, but do not change the overall ideal speed ratio."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q61",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 22,
+          "question": 61
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q62",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "In a gear drive, the ratio of the __________ can be used to compute gear ratio.",
+      "options": [
+        "Pitch diameters",
+        "Outer diameters",
+        "Gear pitches",
+        "Shaft diameters"
+      ],
+      "answer": "Pitch diameters",
+      "explanation": "Pitch diameter, like tooth count, relates directly to gear speed and torque ratios.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 62; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 62, and the relevant E-learning 210.11 objective. Pitch diameter, like tooth count, relates directly to gear speed and torque ratios."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q62",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 23,
+          "question": 62
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q63",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "A gear drive has a 12-tooth driver and an 18-tooth driven gear. The driver rotates at 720 RPM. What is driven RPM?",
+      "options": [
+        "1,080",
+        "680",
+        "480",
+        "280"
+      ],
+      "answer": "480",
+      "explanation": "Gear ratio = 18 ÷ 12 = 1.5; driven speed = 720 ÷ 1.5 = 480 RPM.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 63; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 63, and the relevant E-learning 210.11 objective. Gear ratio = 18 ÷ 12 = 1.5; driven speed = 720 ÷ 1.5 = 480 RPM."
+      },
+      "category": "Calculate",
+      "conceptKey": "c210-quiz2-q63",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 24,
+          "question": 63
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q64",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "A rack-and-pinion drive is an example of which type of gear drive?",
+      "options": [
+        "Parallel axis",
+        "Intersecting axis",
+        "Non-intersecting axis",
+        "Moving axis"
+      ],
+      "answer": "Moving axis",
+      "explanation": "The rack-and-pinion converts rotary and linear motion; the course calls it a moving-axis drive.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 64; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 64, and the relevant E-learning 210.11 objective. The rack-and-pinion converts rotary and linear motion; the course calls it a moving-axis drive."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q64",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 25,
+          "question": 64
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q65",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "What happens to speed when the driven gear size increases, with the driver unchanged?",
+      "options": [
+        "Speed stays the same",
+        "No change in speed",
+        "Speed increases",
+        "Speed decreases"
+      ],
+      "answer": "Speed decreases",
+      "explanation": "A larger driven gear rotates more slowly for the same driver speed.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 65; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 65, and the relevant E-learning 210.11 objective. A larger driven gear rotates more slowly for the same driver speed."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q65",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 27,
+          "question": 65
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q66",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Two spur gears connected by an idler gear are an example of which gear-drive arrangement?",
+      "options": [
+        "Moving axis",
+        "Non-intersecting axis",
+        "Intersecting axis",
+        "Parallel axis"
+      ],
+      "answer": "Parallel axis",
+      "explanation": "Spur gears, including a spur idler between shafts, operate on parallel axes.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 66; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 66, and the relevant E-learning 210.11 objective. Spur gears, including a spur idler between shafts, operate on parallel axes."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q66",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 28,
+          "question": 66
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q67",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "One disadvantage of helical gears is __________.",
+      "options": [
+        "Excess noise",
+        "Low efficiency",
+        "Excess weight",
+        "Side thrust"
+      ],
+      "answer": "Side thrust",
+      "explanation": "Helical teeth operate smoothly but create axial thrust from their angled contact.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 67; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 67, and the relevant E-learning 210.11 objective. Helical teeth operate smoothly but create axial thrust from their angled contact."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q67",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 29,
+          "question": 67
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q68",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "The pitch of a gear is the distance between __________.",
+      "options": [
+        "Tips of adjacent teeth",
+        "Points at the bases of adjacent teeth",
+        "Corresponding points on adjacent teeth measured along the pitch circle",
+        "Angles between the top and base of teeth"
+      ],
+      "answer": "Corresponding points on adjacent teeth measured along the pitch circle",
+      "explanation": "Circular pitch is measured along the pitch circle between matching points on adjacent teeth.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 68; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 68, and the relevant E-learning 210.11 objective. Circular pitch is measured along the pitch circle between matching points on adjacent teeth."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q68",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 30,
+          "question": 68
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q69",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "A gear drive has a 10-tooth driver and a 20-tooth driven gear. Driver torque is 100 ft-lb. What is ideal driven torque?",
+      "options": [
+        "150 RPM",
+        "150 in-lb",
+        "200 ft-lb",
+        "67 ft-lb"
+      ],
+      "answer": "200 ft-lb",
+      "explanation": "Gear ratio = 20 ÷ 10 = 2; ideal driven torque = 100 × 2 = 200 ft-lb.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 69; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 69, and the relevant E-learning 210.11 objective. Gear ratio = 20 ÷ 10 = 2; ideal driven torque = 100 × 2 = 200 ft-lb."
+      },
+      "category": "Calculate",
+      "conceptKey": "c210-quiz2-q69",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 31,
+          "question": 69
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q70",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "What is the main disadvantage of a herringbone gear drive?",
+      "options": [
+        "Side thrust",
+        "Noise",
+        "Expense",
+        "Need for lubrication"
+      ],
+      "answer": "Expense",
+      "explanation": "Herringbone gears help cancel axial thrust, but their manufacture is expensive.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 70; E-learning 210.11",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 70, and the relevant E-learning 210.11 objective. Herringbone gears help cancel axial thrust, but their manufacture is expensive."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q70",
+      "starred": true,
+      "teacherModule": 11,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 32,
+          "question": 70
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q71",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Diametral pitch is the ratio of __________.",
+      "options": [
+        "Pitch diameter to outer diameter",
+        "Outer diameter to base-circle diameter",
+        "Pitch diameter to pitch",
+        "Number of teeth to pitch diameter"
+      ],
+      "answer": "Number of teeth to pitch diameter",
+      "explanation": "Diametral pitch = number of teeth ÷ pitch diameter.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 71; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 71, and the relevant E-learning 210.12 objective. Diametral pitch = number of teeth ÷ pitch diameter."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q71",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 33,
+          "question": 71
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q72",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "A gear's tooth profile is defined as the __________.",
+      "options": [
+        "Surface on top of the tooth",
+        "Line along the edge blending with the root",
+        "Part of the tooth below the pitch circle",
+        "Shape made by the edge of the tooth"
+      ],
+      "answer": "Shape made by the edge of the tooth",
+      "explanation": "Tooth profile refers to the shape of the gear-tooth outline.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 72; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 72, and the relevant E-learning 210.12 objective. Tooth profile refers to the shape of the gear-tooth outline."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q72",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 34,
+          "question": 72
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q73",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Backlash is the __________.",
+      "options": [
+        "Distance between a gear's top land and bottom land",
+        "Difference between tooth thickness and tooth-space width",
+        "Working depth of a gear",
+        "Difference in runout of the meshing shafts"
+      ],
+      "answer": "Difference between tooth thickness and tooth-space width",
+      "explanation": "Backlash is the clearance between mating tooth surfaces, expressed at the pitch circle.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 73; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 73, and the relevant E-learning 210.12 objective. Backlash is the clearance between mating tooth surfaces, expressed at the pitch circle."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q73",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 35,
+          "question": 73
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q74",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Most spur gears use an involute tooth profile. An advantage is that __________.",
+      "options": [
+        "There is no backlash",
+        "Teeth roll more than slip, reducing friction",
+        "There is no straight-tooth rack",
+        "Torque always increases"
+      ],
+      "answer": "Teeth roll more than slip, reducing friction",
+      "explanation": "The involute profile reduces sliding and friction during meshing.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 74; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 74, and the relevant E-learning 210.12 objective. The involute profile reduces sliding and friction during meshing."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q74",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 36,
+          "question": 74
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q75",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "A gear with diametral pitch 16 will mesh with __________.",
+      "options": [
+        "Any gear of diametral pitch 16 or lower",
+        "Only a gear with diametral pitch 16",
+        "Any gear of diametral pitch 16 or higher",
+        "Only gears with diametral pitch above 16"
+      ],
+      "answer": "Only a gear with diametral pitch 16",
+      "explanation": "Meshing gears must have the same diametral pitch and compatible tooth geometry.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 75; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 75, and the relevant E-learning 210.12 objective. Meshing gears must have the same diametral pitch and compatible tooth geometry."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q75",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 37,
+          "question": 75
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q76",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Which dimension specifies gear thickness across the tooth face and increases for higher loads?",
+      "options": [
+        "Addendum",
+        "Pitch diameter",
+        "Diametral pitch",
+        "Face width"
+      ],
+      "answer": "Face width",
+      "explanation": "Face width is the gear's width across the tooth faces; wider gears can support higher loads.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 76; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 76, and the relevant E-learning 210.12 objective. Face width is the gear's width across the tooth faces; wider gears can support higher loads."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q76",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 38,
+          "question": 76
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q77",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "The ideal center distance between two gears is the distance that __________.",
+      "options": [
+        "Makes their pitch circles tangent",
+        "Produces no backlash",
+        "Maximizes space between top and bottom land",
+        "Maximizes backlash"
+      ],
+      "answer": "Makes their pitch circles tangent",
+      "explanation": "Pitch circles should be tangent at the intended center distance.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 77; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 77, and the relevant E-learning 210.12 objective. Pitch circles should be tangent at the intended center distance."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q77",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 39,
+          "question": 77
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q78",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Diametral pitch can be determined using the __________.",
+      "options": [
+        "Number of teeth and tooth angle",
+        "Number of teeth and pitch diameter",
+        "Number of teeth and center distances",
+        "Center distance and pitch diameter"
+      ],
+      "answer": "Number of teeth and pitch diameter",
+      "explanation": "Divide the number of teeth by pitch diameter.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 78; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 78, and the relevant E-learning 210.12 objective. Divide the number of teeth by pitch diameter."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q78",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 40,
+          "question": 78
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q79",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "What is the path traced by the point where two gear teeth make contact?",
+      "options": [
+        "Working depth",
+        "Line of action",
+        "Pressure angle",
+        "Pitch point"
+      ],
+      "answer": "Line of action",
+      "explanation": "The line of action is the path of tooth contact; for involute teeth it is tangent to the base circles.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 79; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 79, and the relevant E-learning 210.12 objective. The line of action is the path of tooth contact; for involute teeth it is tangent to the base circles."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q79",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 41,
+          "question": 79
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q80",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "type": "quiz",
+      "prompt": "Which of these is NOT an important gear dimension?",
+      "options": [
+        "Pitch",
+        "Pitch circle",
+        "Pitch diameter",
+        "None; all three are important"
+      ],
+      "answer": "None; all three are important",
+      "explanation": "Pitch, pitch circle, and pitch diameter are all important gear dimensions.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 80; E-learning 210.12",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 80, and the relevant E-learning 210.12 objective. Pitch, pitch circle, and pitch diameter are all important gear dimensions."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q80",
+      "starred": true,
+      "teacherModule": 12,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 42,
+          "question": 80
+        }
+      ]
     }
   ]
 }
