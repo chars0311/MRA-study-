@@ -184,6 +184,230 @@
       },
       "category": "Identify",
       "conceptKey": "c210-picture-148-7"
+    },
+    {
+      "id": "c210-quiz2-q81",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "type": "quiz",
+      "prompt": "The first step in aligning and installing a spur gear system is to __________.",
+      "options": [
+        "Mount gears on the shaft",
+        "Inspect gears for wear",
+        "Mesh the gears",
+        "Mount and level the motor and driven component"
+      ],
+      "answer": "Mount and level the motor and driven component",
+      "explanation": "Level the motor and driven component first so shafts and gear teeth can align properly.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 81; E-learning 210.13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 81, and the relevant E-learning 210.13 objective. Level the motor and driven component first so shafts and gear teeth can align properly."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q81",
+      "starred": true,
+      "teacherModule": 13,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 42,
+          "question": 81
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q84",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "type": "quiz",
+      "prompt": "Which method can be used to measure actual backlash between two gears?",
+      "options": [
+        "Tachometer at the gear centers",
+        "Micrometer measurement of tooth width",
+        "Direct dial indicator measurement",
+        "Spirit level between gear centers"
+      ],
+      "answer": "Direct dial indicator measurement",
+      "explanation": "A dial indicator can measure backlash while one gear is held stationary and the other moved back and forth.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 84; E-learning 210.13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 84, and the relevant E-learning 210.13 objective. A dial indicator can measure backlash while one gear is held stationary and the other moved back and forth."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q84",
+      "starred": true,
+      "teacherModule": 13,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 46,
+          "question": 84
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q85",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "type": "quiz",
+      "prompt": "If backlash is too small, __________.",
+      "options": [
+        "Gear friction increases and the gears may run roughly or lock up",
+        "Output torque decreases",
+        "Speed increases",
+        "Gears must become noisy"
+      ],
+      "answer": "Gear friction increases and the gears may run roughly or lock up",
+      "explanation": "Insufficient backlash increases rubbing, load, wear, and risk of binding.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 85; E-learning 210.13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 85, and the relevant E-learning 210.13 objective. Insufficient backlash increases rubbing, load, wear, and risk of binding."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q85",
+      "starred": true,
+      "teacherModule": 13,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 47,
+          "question": 85
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q86",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "type": "quiz",
+      "prompt": "Which backlash-measurement method is most often used for larger gears?",
+      "options": [
+        "Direct",
+        "Machinery's Handbook guideline",
+        "Indirect",
+        "Rule and straightedge"
+      ],
+      "answer": "Direct",
+      "explanation": "A direct dial indicator can touch the teeth on large gears.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 86; E-learning 210.13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 86, and the relevant E-learning 210.13 objective. A direct dial indicator can touch the teeth on large gears."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q86",
+      "starred": true,
+      "teacherModule": 13,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 48,
+          "question": 86
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q87",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "type": "quiz",
+      "prompt": "To use a table for the allowable backlash range of two gears, what must you know?",
+      "options": [
+        "Ratio of pitch diameters",
+        "Diametral pitch and center distance",
+        "Pitch circle and pitch length",
+        "Number of teeth on each gear"
+      ],
+      "answer": "Diametral pitch and center distance",
+      "explanation": "AGMA-style backlash tables use diametral pitch and shaft center distance.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 87; E-learning 210.13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 87, and the relevant E-learning 210.13 objective. AGMA-style backlash tables use diametral pitch and shaft center distance."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q87",
+      "starred": true,
+      "teacherModule": 13,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 49,
+          "question": 87
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q88",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "type": "quiz",
+      "prompt": "A gear has 78 teeth and pitch diameter 14 inches. What is its diametral pitch?",
+      "options": [
+        "0.1795",
+        "5.571",
+        "1",
+        "8"
+      ],
+      "answer": "5.571",
+      "explanation": "Diametral pitch = 78 ÷ 14 = approximately 5.571 teeth per inch.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 88; E-learning 210.13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 88, and the relevant E-learning 210.13 objective. Diametral pitch = 78 ÷ 14 = approximately 5.571 teeth per inch."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q88",
+      "starred": true,
+      "teacherModule": 13,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 50,
+          "question": 88
+        }
+      ]
+    },
+    {
+      "id": "c210-quiz2-q89",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "type": "quiz",
+      "prompt": "Backlash is defined as __________.",
+      "options": [
+        "The same thing as gear pitch",
+        "Clearance between the back of an engaged driver tooth and the following driven tooth, measured along the pitch circle",
+        "The pitch circle",
+        "Space between any two teeth"
+      ],
+      "answer": "Clearance between the back of an engaged driver tooth and the following driven tooth, measured along the pitch circle",
+      "explanation": "Backlash is the free clearance between the non-driving flanks of meshing gear teeth.",
+      "source": "teacher",
+      "section": "C-210 MPS210 Quiz 2, question 89; E-learning 210.13",
+      "reviewSlides": [],
+      "reviewCue": {
+        "text": "Review MPS210 Quiz 2, question 89, and the relevant E-learning 210.13 objective. Backlash is the free clearance between the non-driving flanks of meshing gear teeth."
+      },
+      "category": "Understand",
+      "conceptKey": "c210-quiz2-q89",
+      "starred": true,
+      "teacherModule": 13,
+      "teacherQuizSources": [
+        {
+          "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
+          "page": 51,
+          "question": 89
+        }
+      ]
     }
   ]
 }
