@@ -199,7 +199,7 @@
       ],
       "answer": "Mount and level the motor and driven component",
       "explanation": "Level the motor and driven component first so shafts and gear teeth can align properly.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 81; E-learning 210.13",
       "reviewSlides": [],
       "reviewCue": {
@@ -231,7 +231,7 @@
       ],
       "answer": "Direct dial indicator measurement",
       "explanation": "A dial indicator can measure backlash while one gear is held stationary and the other moved back and forth.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 84; E-learning 210.13",
       "reviewSlides": [],
       "reviewCue": {
@@ -263,7 +263,7 @@
       ],
       "answer": "Gear friction increases and the gears may run roughly or lock up",
       "explanation": "Insufficient backlash increases rubbing, load, wear, and risk of binding.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 85; E-learning 210.13",
       "reviewSlides": [],
       "reviewCue": {
@@ -295,7 +295,7 @@
       ],
       "answer": "Direct",
       "explanation": "A direct dial indicator can touch the teeth on large gears.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 86; E-learning 210.13",
       "reviewSlides": [],
       "reviewCue": {
@@ -327,7 +327,7 @@
       ],
       "answer": "Diametral pitch and center distance",
       "explanation": "AGMA-style backlash tables use diametral pitch and shaft center distance.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 87; E-learning 210.13",
       "reviewSlides": [],
       "reviewCue": {
@@ -359,7 +359,7 @@
       ],
       "answer": "5.571",
       "explanation": "Diametral pitch = 78 ÷ 14 = approximately 5.571 teeth per inch.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 88; E-learning 210.13",
       "reviewSlides": [],
       "reviewCue": {
@@ -391,7 +391,7 @@
       ],
       "answer": "Clearance between the back of an engaged driver tooth and the following driven tooth, measured along the pitch circle",
       "explanation": "Backlash is the free clearance between the non-driving flanks of meshing gear teeth.",
-      "source": "teacher",
+      "source": "g",
       "section": "C-210 MPS210 Quiz 2, question 89; E-learning 210.13",
       "reviewSlides": [],
       "reviewCue": {
