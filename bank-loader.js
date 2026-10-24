@@ -84,7 +84,7 @@ async function loadQuestionBank(readJson = readBankJson) {
 }
 
 async function readBankJson(path) {
-  const response = await globalThis.fetch("./" + path + "?v=20261023-quiz2-fix", { cache: "no-store" });
+  const response = await globalThis.fetch("./" + path + "?v=20261024-practice", { cache: "no-store" });
   if (!response.ok)
     throw new Error(
       "Could not load " + path + ". Check that all v14 files were uploaded.",

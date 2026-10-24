@@ -5,7 +5,8 @@
     "c210-math-pulley",
     "c210-math-chain-wear",
     "gap-math-belt-deflection",
-    "gap-math-belt-force-window"
+    "gap-math-belt-force-window",
+    "c210-practice-q49"
   ],
   "questions": [
     {
@@ -466,6 +467,171 @@
       "starred": false,
       "category": "Understand",
       "conceptKey": "gap-mechanical-belt-test-position"
+    },
+    {
+      "id": "c210-practice-q02",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 2",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q02",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 2,
+          "question": 2
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ In the groove of the sheave, where should a V-Belt be positioned?",
+      "answer": "High",
+      "options": [
+        "Low",
+        "High",
+        "Partially",
+        "Middle"
+      ],
+      "explanation": "A V-belt rides high in the sheave groove and grips its sidewalls. Bottoming out prevents the intended wedging action.",
+      "reviewCue": {
+        "page": 115,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 115; C-210 Mechanical Practice Test.pdf, question 2. A V-belt rides high in the sheave groove and grips its sidewalls. Bottoming out prevents the intended wedging action."
+      }
+    },
+    {
+      "id": "c210-practice-q09",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 9",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q09",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 5,
+          "question": 9
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ How much of the belt span does the tension tester typically require to determine the force required to deflect the V-Belt?",
+      "answer": "1/64",
+      "options": [
+        "1/64",
+        "1/16",
+        "1/8",
+        "1/32"
+      ],
+      "explanation": "The force-deflection method uses a deflection of 1/64 inch per inch of unsupported span. The specified force is then compared with the belt manufacturer’s range.",
+      "reviewCue": {
+        "page": 119,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 119; C-210 Mechanical Practice Test.pdf, question 9. The force-deflection method uses a deflection of 1/64 inch per inch of unsupported span. The specified force is then compared with the belt manufacturer’s range."
+      }
+    },
+    {
+      "id": "c210-practice-q13",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 13",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q13",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 7,
+          "question": 13
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ How are the jaws of a chain puller operated to open and close them?",
+      "answer": "Dial on top of the tool",
+      "options": [
+        "Jaw inserted into the chain",
+        "Dial on top of the tool",
+        "Using a torque wrench",
+        "By hand"
+      ],
+      "explanation": "The chain puller’s top adjusting dial operates its jaws to bring the chain ends together.",
+      "reviewCue": {
+        "page": 137,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 137; C-210 Mechanical Practice Test.pdf, question 13. The chain puller’s top adjusting dial operates its jaws to bring the chain ends together."
+      }
+    },
+    {
+      "id": "c210-practice-q17",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 17",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q17",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 9,
+          "question": 17
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ What are the elements positioned between the side plates of a typical industrial roller chain?",
+      "answer": "Pins, bushing and rollers",
+      "options": [
+        "Pins",
+        "Pins, bushing and rollers",
+        "Pins and bushings",
+        "Interior plates"
+      ],
+      "explanation": "A roller chain has pins, bushings, and rollers between its side plates. These parts provide its articulated joints and rolling contact.",
+      "reviewCue": {
+        "page": 126,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 126; C-210 Mechanical Practice Test.pdf, question 17. A roller chain has pins, bushings, and rollers between its side plates. These parts provide its articulated joints and rolling contact."
+      }
+    },
+    {
+      "id": "c210-practice-q41",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 41",
+      "type": "symbol",
+      "category": "Identify",
+      "conceptKey": "c210-practice-q41",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 22,
+          "question": 41
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ What is the demonstrated sheave misalignment type?",
+      "answer": "Parallel",
+      "options": [
+        "Parallel",
+        "Soft foot",
+        "Horizontal angular",
+        "Vertical angular"
+      ],
+      "explanation": "The two sheaves remain parallel but are offset so the belt runs out of their common plane. That identifies parallel misalignment.",
+      "reviewCue": {
+        "page": 118,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 118; C-210 Mechanical Practice Test.pdf, question 41. The two sheaves remain parallel but are offset so the belt runs out of their common plane. That identifies parallel misalignment."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-41",
+        "alt": "Diagram supplied with C-210 practice question 41"
+      }
     }
   ]
 }

@@ -1,0 +1,92 @@
+/* White/blue day mode and charcoal/orange night mode. Existing scoring colors stay semantic. */
+:root {
+  color-scheme:dark;
+  --bg:#202124; --surface:#292b2f; --raised:#303338; --hover:#383c42;
+  --line:#4c5057; --ink:#f6f4f0; --muted:#bdc1c8;
+  --accent:#ffa052; --accent-hover:#ffb476; --accent-ink:#241609;
+  --accent-soft:#413226; --accent-border:#b16d38; --lime:var(--accent);
+  --red:#ffabab; --shadow:0 8px 24px #00000022;
+  --panel-gradient:linear-gradient(120deg,#35302c,#292b2f 85%);
+}
+:root[data-theme="light"] {
+  color-scheme:light;
+  --bg:#f5f8fd; --surface:#ffffff; --raised:#f0f5fc; --hover:#e5eefb;
+  --line:#c1cfe2; --ink:#142c49; --muted:#4a607b;
+  --accent:#145cca; --accent-hover:#0e4ba7; --accent-ink:#ffffff;
+  --accent-soft:#e7f0ff; --accent-border:#759fdc; --lime:var(--accent);
+  --red:#ad2337; --shadow:0 8px 24px #173b6a0c;
+  --panel-gradient:linear-gradient(120deg,#ffffff,#edf4ff 90%);
+}
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body { background:var(--bg); -webkit-font-smoothing:antialiased; }
+:root[data-theme] :is(.board,.play-shell,.results,.rules,.world-card,.topic-panel,.pool-panel,.pool-question,.library-grid article,.progress-worlds article,.review-list article,.exam-sidebar,.account-modal,.weak-topics article,.course-progress,.module-row,.source,.question-flag,.flashcard,.course-jump) {
+  background:var(--surface); color:var(--ink); border-color:var(--line);
+}
+:root[data-theme] :is(.board,.play-shell,.results,.topic-panel,.pool-panel,.account-modal) { border-radius:20px; box-shadow:var(--shadow); }
+:root[data-theme] .board { background:var(--panel-gradient); }
+:root[data-theme] .board-copy p { color:var(--muted); }
+:root[data-theme] :is(button,input,textarea,select,.question-flag textarea,.question-flag select,.account-modal input) {
+  background:var(--raised); color:var(--ink); border-color:var(--line); font:inherit;
+}
+button,a,input,select,textarea,summary { -webkit-tap-highlight-color:transparent; }
+button { border-radius:14px; transition:background-color 180ms ease,border-color 180ms ease,box-shadow 180ms ease,transform 140ms ease; }
+:root[data-theme] button:hover:not(:disabled) { background:var(--hover); border-color:var(--accent); }
+button:active:not(:disabled) { transform:translateY(1px); }
+:root[data-theme] :is(button,a,input,textarea,select,summary):focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+:root[data-theme] :is(.primary,button.primary) { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+:root[data-theme] :is(.primary,button.primary):hover:not(:disabled) { background:var(--accent-hover); border-color:var(--accent-hover); }
+:root[data-theme] :is(.mode,.compact-world,.module-checks label) { background:var(--surface); border-color:var(--line); }
+:root[data-theme] :is(.mode[data-mode="symbol"],.mode[data-mode="boss"]) { background:var(--accent-soft); border-color:var(--accent-border); }
+:root[data-theme] :is(.compact-world.selected,.module-checks label:has(input:checked),.navigation button.active,.answer.draft-selected,.exam-question-list button[aria-current]) { background:var(--accent-soft); color:var(--ink); border-color:var(--accent); }
+:root[data-theme] .compact-world.selected { box-shadow:inset 3px 0 var(--accent); }
+:root[data-theme] :is(.compact-world-icon,.eyebrow,.pool-question summary,.question-flag a,.mode-icon) { color:var(--accent); }
+:root[data-theme] :is(.small,.module-checks small,.confidence-help,.category-tag,.topic-skill,.mission-meta,.save-status) { color:var(--muted); }
+:root[data-theme] :is(.question-flag,.weak-topics article + article,.module-checks,.study-settings fieldset,.simple-help) { border-color:var(--line); }
+:root[data-theme] :is(.world-emblem,.navigation button.active,.compact-world.selected) { background:var(--accent-soft); color:var(--accent); border-color:var(--accent-border); }
+:root[data-theme] :is(.review-guidance,.review-guidance blockquote) { background:var(--raised); color:var(--ink); border-color:var(--accent-border); }
+:root[data-theme] .review-guidance blockquote { border-left-color:var(--accent); }
+:root[data-theme] .answer { background:var(--raised); }
+:root[data-theme] .answer:hover:not(:disabled) { background:var(--hover); }
+:root[data-theme] :is(.answer.correct,.feedback.good) { background:#203c2d; color:#e3f9e9; border-color:#6bad7d; }
+:root[data-theme] :is(.answer.incorrect,.feedback.bad) { background:#442b31; color:#ffe6e8; border-color:#d77886; }
+:root[data-theme="light"] :is(.answer.correct,.feedback.good) { background:#edf8f0; color:#204e30; border-color:#4a8f60; }
+:root[data-theme="light"] :is(.answer.incorrect,.feedback.bad) { background:#fff0f2; color:#882238; border-color:#bb6274; }
+:root[data-theme] :is(.notice,.review-tag.wrong) { background:var(--accent-soft); color:var(--ink); border-color:var(--accent-border); }
+:root[data-theme] .notice p { color:var(--ink); }
+:root[data-theme] :is(.slide-question-image,.review-slides figure,.viewer-stage) { background:#ffffff; color:#142c49; }
+:root[data-theme] .slide-question-image img { background:#ffffff; }
+:root[data-theme] .zoom-hint { color:#304252; }
+:root[data-theme] progress { accent-color:var(--accent); background:var(--raised); border-radius:999px; overflow:hidden; }
+progress::-webkit-progress-bar { background:var(--raised); border-radius:999px; }
+progress::-webkit-progress-value { background:var(--accent); border-radius:999px; transition:width 220ms ease; }
+progress::-moz-progress-bar { background:var(--accent); border-radius:999px; }
+input[type="checkbox"],input[type="radio"] { accent-color:var(--accent); }
+.quest { max-width:1240px; }
+.training-modes { gap:14px; }
+.mode { padding:20px; }
+.mode b { letter-spacing:-.015em; }
+.play-shell h1 { font-size:clamp(1.6rem,2.6vw,2.2rem); line-height:1.3; text-wrap:pretty; }
+.answer-grid { gap:12px; }
+.answer { line-height:1.5; }
+.navigation { gap:8px; }
+.navigation button { text-align:center; }
+.study-settings fieldset label { padding:.3rem 0; }
+.site-update { line-height:1.5; }
+@media(hover:hover) and (prefers-reduced-motion:no-preference) {
+  .mode:hover:not(:disabled),.compact-world:hover:not(:disabled) { transform:translateY(-2px); box-shadow:var(--shadow); }
+}
+@media(max-width:600px) {
+  .quest { padding-left:16px; padding-right:16px; }
+  .play-shell,.topic-panel,.pool-panel { padding:20px; }
+  .navigation { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); padding-bottom:5px; }
+  .navigation button { min-width:0; padding:12px 7px; font-size:13px; white-space:normal; }
+  .training-modes { gap:10px; }
+  .mode { padding:16px; }
+  .play-top { row-gap:12px; }
+  .board { padding:24px; }
+  .board h1 { font-size:clamp(1.8rem,7vw,2.4rem); }
+}
+@media(prefers-reduced-motion:reduce) {
+  html { scroll-behavior:auto; }
+  *,*::before,*::after { transition:none !important; animation:none !important; }
+}

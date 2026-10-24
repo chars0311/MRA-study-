@@ -5,7 +5,10 @@
     "q131",
     "c210-math-hp",
     "c210-math-efficiency",
-    "c210-quiz1-q14"
+    "c210-quiz1-q14",
+    "c210-practice-q35",
+    "c210-practice-q47",
+    "c210-practice-q48"
   ],
   "questions": [
     {
@@ -210,10 +213,47 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 3,
           "question": 3
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 11,
+          "question": 20
         }
       ],
       "teacherModule": 1,
-      "learningHelpKey": "safety"
+      "learningHelpKey": "safety",
+      "variants": [
+        {
+          "prompt": "★ Which dress practice belongs to the course rules for working around running machinery?",
+          "answer": "Wear close-fitting clothing and heavy-duty shoes",
+          "options": [
+            "Wear safety glasses and gloves at all times",
+            "Wear close-fitting clothing and heavy-duty shoes",
+            "Wear bright-colored clothing",
+            "Wear lightweight, loose-fitting clothing"
+          ],
+          "explanation": "Close-fitting clothing helps avoid entanglement, and the slide specifies heavy-duty steel-toed shoes. Safety glasses are required, but gloves must not be worn around running machinery.",
+          "reviewCue": {
+            "page": 10,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 10; E-learning 210.1, Objective 3, page 16. Teacher Quiz 1, question 3. Close-fitting clothing helps avoid entanglement, and the slide specifies heavy-duty steel-toed shoes. Safety glasses are required, but gloves must not be worn around running machinery."
+          }
+        },
+        {
+          "prompt": "★ What attire is recommended for ensuring safety when working in proximity to mechanical power transmission equipment?",
+          "answer": "Heavy duty shoes",
+          "options": [
+            "Long sleeve shirts",
+            "Loose-fitting clothing",
+            "Heavy duty shoes",
+            "Gloves"
+          ],
+          "explanation": "The course specifies heavy-duty shoes along with other safe-dress rules. Loose clothing and gloves near running machinery present entanglement concerns.",
+          "reviewCue": {
+            "page": 10,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 10; C-210 Mechanical Practice Test.pdf, question 20. The course specifies heavy-duty shoes along with other safe-dress rules. Loose clothing and gloves near running machinery present entanglement concerns."
+          }
+        }
+      ]
     },
     {
       "id": "c210-slide-11-q3",
@@ -461,9 +501,46 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 6,
           "question": 7
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 12,
+          "question": 23
         }
       ],
-      "teacherModule": 1
+      "teacherModule": 1,
+      "variants": [
+        {
+          "prompt": "★ Which lubricant characteristic means resistance to flow?",
+          "answer": "Viscosity",
+          "options": [
+            "Viscosity",
+            "Viscosity index",
+            "Pour point",
+            "Lubricity ratio"
+          ],
+          "explanation": "Viscosity is resistance to flow. Oil that is too thick flows poorly; oil that is too thin may not protect moving surfaces adequately.",
+          "reviewCue": {
+            "page": 23,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 23; E-learning 210.1, Objective 10, page 48. Teacher Quiz 1, question 7. Viscosity is resistance to flow. Oil that is too thick flows poorly; oil that is too thin may not protect moving surfaces adequately."
+          }
+        },
+        {
+          "prompt": "★ Which property of a lubricant holds the utmost significance in machine lubrication?",
+          "answer": "Viscosity",
+          "options": [
+            "Pour point",
+            "Viscosity",
+            "Lubricity ratio",
+            "Viscosity index"
+          ],
+          "explanation": "Viscosity is resistance to flow and is the key oil characteristic emphasized in the course.",
+          "reviewCue": {
+            "page": 23,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 23; C-210 Mechanical Practice Test.pdf, question 23. Viscosity is resistance to flow and is the key oil characteristic emphasized in the course."
+          }
+        }
+      ]
     },
     {
       "id": "c210-slide-25-q12",
@@ -571,7 +648,48 @@
         "excerpt": "How to Master and Use a Dial Indicator \nBefore a dial indicator can be used for measuring, it must be mastered. It’s \nalso called calibrating or setting the zero.\nThe dial indicator’s needle is adjusted to read zero when measuring an \nobject of known length height or width. The point where it touches is called a \nreference. \nThe dial indicator measures the difference between the reference \ndimension and the dimension of the part being measured, or the \nmovement of the part relative to the reference.\nAmerican dials usually have increment of 0.001” and 0.010” Metric(SI) dials \nare often graduated in increments of 0.01 mm. The value of the smallest \ngraduation on a dial face is usually printed on the face of the indicator. \nEach time the needle makes a rotation, the revolution counter needle \nincreases its reading by 1 mm. Therefore, the total travel of the probe is \nfound by adding the rea"
       },
       "category": "Understand",
-      "conceptKey": "c210-slide-34-q15"
+      "conceptKey": "c210-slide-34-q15",
+      "variants": [
+        {
+          "prompt": "What does mastering a dial indicator mean?",
+          "answer": "Set a reference or zero before measuring",
+          "options": [
+            "Set a reference or zero before measuring",
+            "Increase its measuring range electronically",
+            "Use it as a torque wrench",
+            "Calibrate motor current"
+          ],
+          "explanation": "Establishing a reference lets indicator movement show deviation from that reference.",
+          "reviewCue": {
+            "page": 34,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 34. Establishing a reference lets indicator movement show deviation from that reference.",
+            "excerpt": "How to Master and Use a Dial Indicator \nBefore a dial indicator can be used for measuring, it must be mastered. It’s \nalso called calibrating or setting the zero.\nThe dial indicator’s needle is adjusted to read zero when measuring an \nobject of known length height or width. The point where it touches is called a \nreference. \nThe dial indicator measures the difference between the reference \ndimension and the dimension of the part being measured, or the \nmovement of the part relative to the reference.\nAmerican dials usually have increment of 0.001” and 0.010” Metric(SI) dials \nare often graduated in increments of 0.01 mm. The value of the smallest \ngraduation on a dial face is usually printed on the face of the indicator. \nEach time the needle makes a rotation, the revolution counter needle \nincreases its reading by 1 mm. Therefore, the total travel of the probe is \nfound by adding the rea"
+          }
+        },
+        {
+          "prompt": "★ What is the reference to which a dial indicator is calibrated?",
+          "answer": "Master or reference part",
+          "options": [
+            "Master or reference part",
+            "Known value printed on the dial indicator case",
+            "Manual movement of the probe",
+            "Constant value"
+          ],
+          "explanation": "Mastering sets the dial indicator to a reference or zero using a master/reference part of known dimension.",
+          "reviewCue": {
+            "page": 34,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 34; C-210 Mechanical Practice Test.pdf, question 11. Mastering sets the dial indicator to a reference or zero using a master/reference part of known dimension."
+          }
+        }
+      ],
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 6,
+          "question": 11
+        }
+      ],
+      "starred": true
     },
     {
       "id": "q061",
@@ -761,9 +879,46 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 24,
           "question": 33
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 10,
+          "question": 19
         }
       ],
-      "teacherModule": 4
+      "teacherModule": 4,
+      "variants": [
+        {
+          "prompt": "★ What ratio defines mechanical power efficiency?",
+          "answer": "Output power divided by input power",
+          "options": [
+            "Output power divided by input power",
+            "Torque multiplied by RPM",
+            "Output torque divided by load",
+            "Load multiplied by radius arm"
+          ],
+          "explanation": "Efficiency compares useful output power with input power. Multiply output/input by 100 to express the ratio as a percentage; friction converts some input power to heat.",
+          "reviewCue": {
+            "page": 52,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 52; E-learning 210.4, Objective 3, page 16. Teacher Quiz 1, question 33. Efficiency compares useful output power with input power. Multiply output/input by 100 to express the ratio as a percentage; friction converts some input power to heat."
+          }
+        },
+        {
+          "prompt": "★ How is the power efficiency of a machine determined?",
+          "answer": "Power output divided by its power input",
+          "options": [
+            "Heat loss output divided by its power input",
+            "Power input divided by its power output",
+            "Power output divided by its power input",
+            "Power input divided by its heat loss output"
+          ],
+          "explanation": "Mechanical efficiency is output power divided by input power. Multiply by 100 to express the ratio as a percentage.",
+          "reviewCue": {
+            "page": 52,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 52; C-210 Mechanical Practice Test.pdf, question 19. Mechanical efficiency is output power divided by input power. Multiply by 100 to express the ratio as a percentage."
+          }
+        }
+      ]
     },
     {
       "id": "c210-slide-54-q23",
@@ -890,9 +1045,48 @@
       "inspirationSources": [
         "https://quizlet.com/1022772949/saca-c-210-mechanical-power-systems-1-updated-flash-cards/"
       ],
-      "starred": false,
+      "starred": true,
       "category": "Understand",
-      "conceptKey": "gap-mechanical-wet-floor"
+      "conceptKey": "gap-mechanical-wet-floor",
+      "variants": [
+        {
+          "prompt": "Which floor condition requires correction before working around mechanical transmission equipment?",
+          "answer": "A wet or slippery floor",
+          "options": [
+            "A wet or slippery floor",
+            "A dry unobstructed floor",
+            "A clearly marked walkway",
+            "A clean mounting surface"
+          ],
+          "explanation": "The safety slide says not to work on wet floors. Correct the condition using the site’s safety procedures.",
+          "reviewCue": {
+            "page": 11,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 11. The safety slide says not to work on wet floors. Correct the condition using the site’s safety procedures."
+          }
+        },
+        {
+          "prompt": "★ What safety precautions should be taken when operating in the vicinity of mechanical power transmission equipment?",
+          "answer": "Not work on wet floors",
+          "options": [
+            "Not replace machine guards before starting the machine",
+            "Not work on wet floors",
+            "Always have someone else in the work area",
+            "Always lift heavy parts by yourself"
+          ],
+          "explanation": "Wet or slippery floors are an unsafe working condition. The course also requires guards, controlled startup, and help with heavy parts.",
+          "reviewCue": {
+            "page": 11,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 11; C-210 Mechanical Practice Test.pdf, question 4. Wet or slippery floors are an unsafe working condition. The course also requires guards, controlled startup, and help with heavy parts."
+          }
+        }
+      ],
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 3,
+          "question": 4
+        }
+      ]
     },
     {
       "id": "gap-mechanical-grease-coupler",
@@ -918,9 +1112,48 @@
       "inspirationSources": [
         "https://quizlet.com/1022772949/saca-c-210-mechanical-power-systems-1-updated-flash-cards/"
       ],
-      "starred": false,
+      "starred": true,
       "category": "Understand",
-      "conceptKey": "gap-mechanical-grease-coupler"
+      "conceptKey": "gap-mechanical-grease-coupler",
+      "variants": [
+        {
+          "prompt": "Which part connects a grease gun to the Zerk fitting?",
+          "answer": "The grease-gun coupler",
+          "options": [
+            "The grease-gun coupler",
+            "The pressure gauge",
+            "The dial-indicator stem",
+            "The motor shaft key"
+          ],
+          "explanation": "Clean the fitting, then snap the grease-gun coupler securely onto it as shown in the lubrication procedure.",
+          "reviewCue": {
+            "page": 18,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 18. Clean the fitting, then snap the grease-gun coupler securely onto it as shown in the lubrication procedure."
+          }
+        },
+        {
+          "prompt": "★ What is employed to connect a grease gun to the zerk fitting on a bearing housing?",
+          "answer": "Coupler",
+          "options": [
+            "Hose",
+            "Coupler",
+            "Plunger rod",
+            "Barrel"
+          ],
+          "explanation": "The grease-gun coupler snaps onto the Zerk fitting. The hose supplies grease to the coupler but does not itself lock onto the fitting.",
+          "reviewCue": {
+            "page": 18,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 18; C-210 Mechanical Practice Test.pdf, question 34. The grease-gun coupler snaps onto the Zerk fitting. The hose supplies grease to the coupler but does not itself lock onto the fitting."
+          }
+        }
+      ],
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 18,
+          "question": 34
+        }
+      ]
     },
     {
       "id": "gap-mechanical-soft-foot-limit",
@@ -951,11 +1184,48 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 11,
           "question": 17
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 20,
+          "question": 39
         }
       ],
       "teacherModule": 2,
       "learningHelpKey": "soft-foot",
-      "answerKeyNote": "Quiz feedback letter B is a typo; the marked option A, feedback value and slide 35 all specify 0.002 inch."
+      "answerKeyNote": "Quiz feedback letter B is a typo; the marked option A, feedback value and slide 35 all specify 0.002 inch.",
+      "variants": [
+        {
+          "prompt": "★ According to the course mounting slide, soft foot generally should not exceed what value?",
+          "answer": "0.002 inch (0.0508 mm)",
+          "options": [
+            "0.002 inch (0.0508 mm)",
+            "0.25 inch",
+            "0.03 inch",
+            "0.51 inch"
+          ],
+          "explanation": "The slide limit is 0.002 inch, approximately 0.05 mm. Multiply inches by 25.4 to convert: 0.002 × 25.4 = 0.0508 mm.",
+          "reviewCue": {
+            "page": 35,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 35; E-learning 210.2, Objective 5, page 29. Teacher Quiz 1, question 17. The slide limit is 0.002 inch, approximately 0.05 mm. Multiply inches by 25.4 to convert: 0.002 × 25.4 = 0.0508 mm."
+          }
+        },
+        {
+          "prompt": "★ According to the course mounting slide, what is the approximate soft-foot limit in millimetres?",
+          "answer": "0.05",
+          "options": [
+            "0.03",
+            "0.25",
+            "0.52",
+            "0.05"
+          ],
+          "explanation": "The course’s approximate soft-foot limit is 0.002 inch = 0.0508 mm, commonly rounded to 0.05 mm.",
+          "reviewCue": {
+            "page": 35,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 35; C-210 Mechanical Practice Test.pdf, question 39. The course’s approximate soft-foot limit is 0.002 inch = 0.0508 mm, commonly rounded to 0.05 mm."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q04",
@@ -1013,6 +1283,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 6,
           "question": 8
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 7,
+          "question": 12
         }
       ],
       "reviewSlides": [],
@@ -1022,7 +1297,39 @@
       },
       "category": "Understand",
       "conceptKey": "c210-quiz1-q08",
-      "teacherModule": 1
+      "teacherModule": 1,
+      "variants": [
+        {
+          "prompt": "★ Which source is best for determining where to oil and grease a machine?",
+          "answer": "The operation and maintenance manual",
+          "options": [
+            "The operation and maintenance manual",
+            "Only a machine representative’s informal advice",
+            "Inspecting the machine without its documentation",
+            "Only talking to an operator"
+          ],
+          "explanation": "The equipment manufacturer specifies lubrication requirements and locations in the operation and maintenance manual.",
+          "reviewCue": {
+            "page": 20,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 20; E-learning 210.1, Objective 10, page 45. Teacher Quiz 1, question 8. The equipment manufacturer specifies lubrication requirements and locations in the operation and maintenance manual."
+          }
+        },
+        {
+          "prompt": "★ What is the most effective method for identifying the lubrication points on a machine for oiling and greasing?",
+          "answer": "Refer to the operation and maintenance manual",
+          "options": [
+            "Consult with the machine vendor personnel",
+            "Inspect the machine",
+            "Refer to the operation and maintenance manual",
+            "Talk to an operator"
+          ],
+          "explanation": "The manufacturer’s operation and maintenance manual identifies lubrication locations and lubricant requirements.",
+          "reviewCue": {
+            "page": 20,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 20; C-210 Mechanical Practice Test.pdf, question 12. The manufacturer’s operation and maintenance manual identifies lubrication locations and lubricant requirements."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q09",
@@ -1112,6 +1419,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 8,
           "question": 11
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 2,
+          "question": 3
         }
       ],
       "reviewSlides": [],
@@ -1121,7 +1433,39 @@
       },
       "category": "Understand",
       "conceptKey": "c210-quiz1-q11",
-      "teacherModule": 2
+      "teacherModule": 2,
+      "variants": [
+        {
+          "prompt": "★ The standard hex-head motor-mounting bolt is used with which hardware?",
+          "answer": "Two flat washers, one lock washer, and a nut",
+          "options": [
+            "One lock washer and a nut",
+            "One flat washer, one lock washer, and a nut",
+            "Two flat washers, one lock washer, and a nut",
+            "Two flat washers, two lock washers, and a nut"
+          ],
+          "explanation": "The course assembly uses a hex-head bolt, two flat washers, one lock washer, and a nut. Flat washers distribute the clamping load at the mounting holes.",
+          "reviewCue": {
+            "page": 30,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 30; E-learning 210.2, Objective 2, page 5. Teacher Quiz 1, question 11. The course assembly uses a hex-head bolt, two flat washers, one lock washer, and a nut. Flat washers distribute the clamping load at the mounting holes."
+          }
+        },
+        {
+          "prompt": "★ What is the typical fastener combination commonly employed to secure a motor to a bedplate?",
+          "answer": "Hex head bolt with two flat washers, lock washer and a nut",
+          "options": [
+            "Hex head bolt with two flat washers, two lock washers, and a nut",
+            "Hex head bolt with lock washer and a nut",
+            "Hex head bolt with a flat washer, lock washer and a nut",
+            "Hex head bolt with two flat washers, lock washer and a nut"
+          ],
+          "explanation": "The course fastener stack is a hex-head bolt, two flat washers, one lock washer, and a nut.",
+          "reviewCue": {
+            "page": 30,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 30; C-210 Mechanical Practice Test.pdf, question 3. The course fastener stack is a hex-head bolt, two flat washers, one lock washer, and a nut."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q12",
@@ -1178,6 +1522,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 9,
           "question": 13
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 8,
+          "question": 15
         }
       ],
       "reviewSlides": [],
@@ -1188,7 +1537,39 @@
       "category": "Understand",
       "conceptKey": "c210-quiz1-q13",
       "teacherModule": 2,
-      "learningHelpKey": "soft-foot"
+      "learningHelpKey": "soft-foot",
+      "variants": [
+        {
+          "prompt": "★ In the course’s simple one-short-foot example, how is motor soft foot corrected?",
+          "answer": "Shim the one short foot",
+          "options": [
+            "Shim the one short foot",
+            "Shim all four feet equally",
+            "Leave the motor base unsupported",
+            "Shim two diagonally opposite feet"
+          ],
+          "explanation": "Three feet define a plane. Shimming the one short foot brings it into that plane so the motor rests solidly without being twisted by its fasteners.",
+          "reviewCue": {
+            "page": 35,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 35; E-learning 210.2, Objective 5, page 29. Teacher Quiz 1, question 13. Three feet define a plane. Shimming the one short foot brings it into that plane so the motor rests solidly without being twisted by its fasteners."
+          }
+        },
+        {
+          "prompt": "★ Where should shims be inserted to rectify a soft foot condition?",
+          "answer": "One foot only",
+          "options": [
+            "Both feet on same end of the motor",
+            "The two diagonally opposite feet",
+            "All four feet",
+            "One foot only"
+          ],
+          "explanation": "For the course’s one-short-foot example, shim that one foot so all feet rest on a common plane.",
+          "reviewCue": {
+            "page": 35,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 35; C-210 Mechanical Practice Test.pdf, question 15. For the course’s one-short-foot example, shim that one foot so all feet rest on a common plane."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q16",
@@ -1245,6 +1626,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 12,
           "question": 18
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 14,
+          "question": 26
         }
       ],
       "reviewSlides": [],
@@ -1255,7 +1641,39 @@
       "category": "Understand",
       "conceptKey": "c210-quiz1-q18",
       "teacherModule": 2,
-      "learningHelpKey": "soft-foot"
+      "learningHelpKey": "soft-foot",
+      "variants": [
+        {
+          "prompt": "★ What can an uncorrected motor soft-foot condition cause in use?",
+          "answer": "Misalignment and vibration",
+          "options": [
+            "Misalignment and vibration",
+            "Only corrosion",
+            "Only electrical end float",
+            "A harmless change in paint color"
+          ],
+          "explanation": "Soft foot can let fasteners loosen or twist the motor frame. Loose mounting and misalignment lead to vibration and possible component damage.",
+          "reviewCue": {
+            "page": 35,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 35; E-learning 210.2, Objective 5, page 28. Teacher Quiz 1, question 18. Soft foot can let fasteners loosen or twist the motor frame. Loose mounting and misalignment lead to vibration and possible component damage."
+          }
+        },
+        {
+          "prompt": "★ What issues can arise when a soft foot mounting condition is present upon placing the motor into service?",
+          "answer": "Vibration",
+          "options": [
+            "Vibration",
+            "Run-out",
+            "End float",
+            "Corrosion"
+          ],
+          "explanation": "Soft foot can twist or loosen a motor mounting and cause misalignment and vibration. It must be corrected before service.",
+          "reviewCue": {
+            "page": 35,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 35; C-210 Mechanical Practice Test.pdf, question 26. Soft foot can twist or loosen a motor mounting and cause misalignment and vibration. It must be corrected before service."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q19",
@@ -1345,6 +1763,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 15,
           "question": 21
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 5,
+          "question": 8
         }
       ],
       "reviewSlides": [],
@@ -1355,7 +1778,39 @@
       "category": "Understand",
       "conceptKey": "c210-quiz1-q21",
       "teacherModule": 3,
-      "answerKeyNote": "Letter-dependent combination option written out so shuffled choices remain meaningful."
+      "answerKeyNote": "Letter-dependent combination option written out so shuffled choices remain meaningful.",
+      "variants": [
+        {
+          "prompt": "★ In the course’s shaft-and-hub terminology, what is the groove in the shaft for a key called?",
+          "answer": "Keyseat",
+          "options": [
+            "Keygroove",
+            "Keyseat",
+            "Keyway",
+            "Either keyseat or keyway for every shaft groove"
+          ],
+          "explanation": "The shaft groove is called the keyseat. The slide also uses keyseat or keyway for the hub groove; use the shaft-versus-hub distinction asked here.",
+          "reviewCue": {
+            "page": 39,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 39; E-learning 210.3, Objective 1, page 2. Teacher Quiz 1, question 21. The shaft groove is called the keyseat. The slide also uses keyseat or keyway for the hub groove; use the shaft-versus-hub distinction asked here."
+          }
+        },
+        {
+          "prompt": "★ The groove in a shaft designed to accommodate a key is commonly referred to as what?",
+          "answer": "Keyseat",
+          "options": [
+            "Keyseat",
+            "Keyhole",
+            "Keygroove",
+            "Keyway"
+          ],
+          "explanation": "The course calls the groove in the shaft a keyseat; the hub groove may be called a keyseat or keyway.",
+          "reviewCue": {
+            "page": 39,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 39; C-210 Mechanical Practice Test.pdf, question 8. The course calls the groove in the shaft a keyseat; the hub groove may be called a keyseat or keyway."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q22",
@@ -1379,6 +1834,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 16,
           "question": 22
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 21,
+          "question": 40
         }
       ],
       "reviewSlides": [],
@@ -1388,7 +1848,39 @@
       },
       "category": "Understand",
       "conceptKey": "c210-quiz1-q22",
-      "teacherModule": 3
+      "teacherModule": 3,
+      "variants": [
+        {
+          "prompt": "★ The nominal keyseat height is normally what fraction of the key height?",
+          "answer": "Half",
+          "options": [
+            "Slightly smaller than the full height",
+            "Slightly larger than the full height",
+            "The same as the full height",
+            "Half"
+          ],
+          "explanation": "About half of the key height sits in the shaft keyseat and half in the hub keyseat, so the key bridges both parts.",
+          "reviewCue": {
+            "page": 43,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 43; E-learning 210.3, Objective 3, page 9. Teacher Quiz 1, question 22. About half of the key height sits in the shaft keyseat and half in the hub keyseat, so the key bridges both parts."
+          }
+        },
+        {
+          "prompt": "★ How does the nominal keyseat height relate to the key height?",
+          "answer": "Half",
+          "options": [
+            "Slightly larger",
+            "Slightly smaller",
+            "Half",
+            "Same"
+          ],
+          "explanation": "Normally half the key height sits in the shaft and half in the hub, so the nominal keyseat height is half the key height.",
+          "reviewCue": {
+            "page": 43,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 43; C-210 Mechanical Practice Test.pdf, question 40. Normally half the key height sits in the shaft and half in the hub, so the nominal keyseat height is half the key height."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q23",
@@ -1412,6 +1904,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 17,
           "question": 23
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 10,
+          "question": 18
         }
       ],
       "reviewSlides": [],
@@ -1421,7 +1918,39 @@
       },
       "category": "Understand",
       "conceptKey": "c210-quiz1-q23",
-      "teacherModule": 3
+      "teacherModule": 3,
+      "variants": [
+        {
+          "prompt": "★ Which instrument is best suited to measuring a keyseat’s inside width and depth?",
+          "answer": "Dial caliper",
+          "options": [
+            "Micrometer",
+            "Dial caliper",
+            "Rule",
+            "Feeler gauge"
+          ],
+          "explanation": "A caliper has inside-measuring and depth-measuring features. The micrometer is suited to precise outside dimensions, while a rule is adequate for approximate keyseat length.",
+          "reviewCue": {
+            "page": 44,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 44; E-learning 210.3, Objective 4, page 20. Teacher Quiz 1, question 23. A caliper has inside-measuring and depth-measuring features. The micrometer is suited to precise outside dimensions, while a rule is adequate for approximate keyseat length."
+          }
+        },
+        {
+          "prompt": "★ Which tool is most suitable for measuring the inside width and depth of a keyseat?",
+          "answer": "Dial caliper",
+          "options": [
+            "Dial caliper",
+            "Feeler gauge",
+            "Micrometer",
+            "Ruler"
+          ],
+          "explanation": "The caliper’s inside-measuring and depth features measure the keyseat width and depth. An outside micrometer measures outside dimensions.",
+          "reviewCue": {
+            "page": 44,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 44; C-210 Mechanical Practice Test.pdf, question 18. The caliper’s inside-measuring and depth features measure the keyseat width and depth. An outside micrometer measures outside dimensions."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q24",
@@ -1445,6 +1974,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 17,
           "question": 24
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 13,
+          "question": 24
         }
       ],
       "reviewSlides": [],
@@ -1454,7 +1988,39 @@
       },
       "category": "Understand",
       "conceptKey": "c210-key-fit",
-      "teacherModule": 3
+      "teacherModule": 3,
+      "variants": [
+        {
+          "prompt": "★ How should a correctly sized key fit into a shaft keyseat?",
+          "answer": "Slide in without being forced",
+          "options": [
+            "Slide in without being forced",
+            "Require hammer blows",
+            "Require a vise to press it in",
+            "Require cooling the key and heating the shaft"
+          ],
+          "explanation": "The key should fit snugly without forcing and without play. If the fit is too tight, check dimensions rather than driving it in.",
+          "reviewCue": {
+            "page": 39,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 39; E-learning 210.3, Objective 6, page 29. Teacher Quiz 1, question 24. The key should fit snugly without forcing and without play. If the fit is too tight, check dimensions rather than driving it in."
+          }
+        },
+        {
+          "prompt": "★ What is the proper method for assembling a key into a shaft keyseat?",
+          "answer": "Fit the key into the keyseat without forcing it",
+          "options": [
+            "Press the key into place using a vise",
+            "Cool the key and heat the shaft",
+            "Fit the key into the keyseat without forcing it",
+            "Tap the key into place with a hammer"
+          ],
+          "explanation": "The key should fit snugly without forcing. If it is too tight, check the dimensions rather than hammering or pressing it into place.",
+          "reviewCue": {
+            "page": 39,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 39; C-210 Mechanical Practice Test.pdf, question 24. The key should fit snugly without forcing. If it is too tight, check the dimensions rather than hammering or pressing it into place."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q25",
@@ -1676,6 +2242,11 @@
           "file": "NEW MPS210 QUIZ1 1 2 3 4.pdf",
           "page": 27,
           "question": 36
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 4,
+          "question": 6
         }
       ],
       "reviewSlides": [],
@@ -1685,7 +2256,39 @@
       },
       "category": "Understand",
       "conceptKey": "c210-quiz1-q36",
-      "teacherModule": 4
+      "teacherModule": 4,
+      "variants": [
+        {
+          "prompt": "★ Which change can reduce mechanical drive efficiency?",
+          "answer": "Increased friction",
+          "options": [
+            "Current remaining constant by definition",
+            "A current increase by itself as the cause",
+            "Increased friction",
+            "An RPM increase in every case"
+          ],
+          "explanation": "Friction converts mechanical energy to heat, reducing the fraction delivered as useful output. Increased current can be a symptom of additional load, not the definition of the loss mechanism.",
+          "reviewCue": {
+            "page": 52,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 52; E-learning 210.4, Objective 3, page 16. Teacher Quiz 1, question 36. Friction converts mechanical energy to heat, reducing the fraction delivered as useful output. Increased current can be a symptom of additional load, not the definition of the loss mechanism."
+          }
+        },
+        {
+          "prompt": "★ How does friction impact the operation of a machine?",
+          "answer": "Decrease productive power",
+          "options": [
+            "No effect",
+            "Increase productive power",
+            "Cools machine parts",
+            "Decrease productive power"
+          ],
+          "explanation": "Friction converts part of the input energy into heat, leaving less power for useful output.",
+          "reviewCue": {
+            "page": 52,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 52; C-210 Mechanical Practice Test.pdf, question 6. Friction converts part of the input energy into heat, leaving less power for useful output."
+          }
+        }
+      ]
     },
     {
       "id": "c210-quiz1-q37",
@@ -2055,6 +2658,208 @@
         "heading": "Six Types of Set Screws",
         "referencePhoto": "IMG_4600.heic",
         "subheading": "Soft-tipped"
+      }
+    },
+    {
+      "id": "c210-practice-q22",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 22",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q22",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 12,
+          "question": 22
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ Prior to working on mechanical power transmission equipment, what precautionary measures should be taken?",
+      "answer": "Make sure machine power is off and its power switch is locked out by a LOTO",
+      "options": [
+        "Make sure machine power is off and its power switch is locked out by a LOTO",
+        "Have someone else in the area near you",
+        "Remove the machine guards",
+        "Approach the machine while its is shutting down"
+      ],
+      "explanation": "The course requires power to be off and locked out before maintenance. Waiting nearby or merely removing a guard does not isolate energy.",
+      "reviewCue": {
+        "page": 11,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 11; C-210 Mechanical Practice Test.pdf, question 22. The course requires power to be off and locked out before maintenance. Waiting nearby or merely removing a guard does not isolate energy."
+      }
+    },
+    {
+      "id": "c210-practice-q28",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 28",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q28",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 15,
+          "question": 28
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ Pick the one that is a unit of measurement for torque?",
+      "answer": "Newton-meters",
+      "options": [
+        "Rotations per minute",
+        "Newtons",
+        "Pascals",
+        "Newton-meters"
+      ],
+      "explanation": "Torque is force times perpendicular lever arm, so N-m is a torque unit. Newtons alone measure force; RPM measures speed.",
+      "reviewCue": {
+        "page": 48,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 48; C-210 Mechanical Practice Test.pdf, question 28. Torque is force times perpendicular lever arm, so N-m is a torque unit. Newtons alone measure force; RPM measures speed."
+      }
+    },
+    {
+      "id": "c210-practice-q29",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 29",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q29",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 15,
+          "question": 29
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ Which pair of quantities determines rotary mechanical power?",
+      "answer": "Torque multiplied by rotational speed",
+      "options": [
+        "Force multiplied by distance",
+        "Torque multiplied by distance",
+        "Force multiplied by rotational speed",
+        "Torque multiplied by rotational speed"
+      ],
+      "explanation": "Rotary mechanical power depends on torque and angular speed. Use the appropriate conversion constant when working in RPM rather than radians per second.",
+      "reviewCue": {
+        "page": 49,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 49; C-210 Mechanical Practice Test.pdf, question 29. Rotary mechanical power depends on torque and angular speed. Use the appropriate conversion constant when working in RPM rather than radians per second."
+      }
+    },
+    {
+      "id": "c210-practice-q38",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 38",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q38",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 20,
+          "question": 38
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ A comparison dial indicator is zeroed on a known master. What dimension is combined with its signed reading to obtain the actual part dimension?",
+      "answer": "Reference",
+      "options": [
+        "Reference",
+        "Tolerance",
+        "Probe",
+        "Needle"
+      ],
+      "explanation": "A comparison indicator measures a signed difference from its reference. Add that signed difference to the known reference dimension to obtain the actual dimension.",
+      "reviewCue": {
+        "page": 34,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 34; C-210 Mechanical Practice Test.pdf, question 38. A comparison indicator measures a signed difference from its reference. Add that signed difference to the known reference dimension to obtain the actual dimension."
+      }
+    },
+    {
+      "id": "c210-practice-q43",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 43",
+      "type": "symbol",
+      "category": "Identify",
+      "conceptKey": "c210-practice-q43",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 24,
+          "question": 43
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ With the dial indicator probe positioned as shown against the shaft end, which movement is measured?",
+      "answer": "End-float",
+      "options": [
+        "Soft foot",
+        "Torque",
+        "Run-out",
+        "End-float"
+      ],
+      "explanation": "The probe contacts the shaft end along its axis, so it measures axial end float. A radial probe on the shaft circumference measures runout.",
+      "reviewCue": {
+        "page": 36,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 36; C-210 Mechanical Practice Test.pdf, question 43. The probe contacts the shaft end along its axis, so it measures axial end float. A radial probe on the shaft circumference measures runout."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-43",
+        "alt": "Diagram supplied with C-210 practice question 43"
+      }
+    },
+    {
+      "id": "c210-practice-q45",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 45",
+      "type": "symbol",
+      "category": "Identify",
+      "conceptKey": "c210-practice-q45",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 26,
+          "question": 45
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ In which direction does the illustrated pneumatic actuator transmit mechanical power?",
+      "answer": "Linear",
+      "options": [
+        "Rotary",
+        "Axial",
+        "Shaft-to-adjacent-shaft",
+        "Linear"
+      ],
+      "explanation": "The actuator rod moves back and forth in a straight line, so the output motion is linear.",
+      "reviewCue": {
+        "page": 5,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 5; C-210 Mechanical Practice Test.pdf, question 45. The actuator rod moves back and forth in a straight line, so the output motion is linear."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-45",
+        "alt": "Diagram supplied with C-210 practice question 45"
       }
     }
   ]

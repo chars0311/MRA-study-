@@ -7,7 +7,8 @@
     "calc-speed",
     "c210-math-sprocket",
     "c210-math-gear-torque",
-    "c210-math-pitch"
+    "c210-math-pitch",
+    "c210-practice-q07"
   ],
   "questions": [
     {
@@ -788,8 +789,45 @@
           "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
           "page": 6,
           "question": 45
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 17,
+          "question": 32
         }
-      ]
+      ],
+      "variants": [
+        {
+          "prompt": "What increases when more balls are added to an anti-friction bearing?",
+          "answer": "Load capacity",
+          "options": [
+            "Load capacity",
+            "Overhang",
+            "Double-roll alignment",
+            "Conrad bearing"
+          ],
+          "explanation": "Adding rolling elements increases the bearing's load capacity.",
+          "reviewCue": {
+            "text": "Review MPS210 Quiz 2, question 45, and the relevant E-learning 210.5 objective. Adding rolling elements increases the bearing's load capacity."
+          }
+        },
+        {
+          "prompt": "★ With ball size and other bearing design factors unchanged, which change does the course say increases anti-friction bearing load capacity?",
+          "answer": "Greater number of balls",
+          "options": [
+            "Smaller number of balls",
+            "Smaller diameter of balls",
+            "Greater number of balls",
+            "Larger diameter of balls"
+          ],
+          "explanation": "The slide explicitly states that adding balls or rollers increases bearing load capacity. Holding ball size and other design factors constant makes this the single intended answer.",
+          "reviewCue": {
+            "page": 64,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 64; C-210 Mechanical Practice Test.pdf, question 32. The slide explicitly states that adding balls or rollers increases bearing load capacity. Holding ball size and other design factors constant makes this the single intended answer."
+          }
+        }
+      ],
+      "practiceClarification": "Practice wording clarified to make the condition, method or requested reading explicit; see the per-form explanation."
     },
     {
       "id": "c210-quiz2-q46",
@@ -916,6 +954,42 @@
           "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
           "page": 10,
           "question": 49
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 8,
+          "question": 14
+        }
+      ],
+      "variants": [
+        {
+          "prompt": "An advantage of a flexible jaw coupling is that it __________.",
+          "answer": "Allows more misalignment",
+          "options": [
+            "Is less expensive",
+            "Allows more misalignment",
+            "Dissipates heat better",
+            "Holds shafts together better"
+          ],
+          "explanation": "Its flexible elastomer spider accommodates more misalignment than many other flexible couplings.",
+          "reviewCue": {
+            "text": "Review MPS210 Quiz 2, question 49, and the relevant E-learning 210.5 objective. Its flexible elastomer spider accommodates more misalignment than many other flexible couplings."
+          }
+        },
+        {
+          "prompt": "★ What benefits does a flexible jaw coupling offer?",
+          "answer": "Allows more misalignment",
+          "options": [
+            "Allows more misalignment",
+            "Holds the shafts together better",
+            "Dissipates heat better",
+            "Less expensive"
+          ],
+          "explanation": "A flexible jaw coupling accommodates more misalignment than a rigid coupling, within its specified limits. Its flexible insert also absorbs shock.",
+          "reviewCue": {
+            "page": 69,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 69; C-210 Mechanical Practice Test.pdf, question 14. A flexible jaw coupling accommodates more misalignment than a rigid coupling, within its specified limits. Its flexible insert also absorbs shock."
+          }
         }
       ]
     },
@@ -1268,6 +1342,42 @@
           "file": "NEW MPS210 QUIZ2 5 8 11 12 13.pdf",
           "page": 22,
           "question": 61
+        },
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 19,
+          "question": 37
+        }
+      ],
+      "variants": [
+        {
+          "prompt": "An idler gear can __________ of the driven gear or transfer power farther from the driver shaft.",
+          "answer": "Change the direction of rotation",
+          "options": [
+            "Increase the torque",
+            "Change the direction of rotation",
+            "Increase the speed",
+            "Decrease the speed"
+          ],
+          "explanation": "Idlers change rotation direction or span distance, but do not change the overall ideal speed ratio.",
+          "reviewCue": {
+            "text": "Review MPS210 Quiz 2, question 61, and the relevant E-learning 210.11 objective. Idlers change rotation direction or span distance, but do not change the overall ideal speed ratio."
+          }
+        },
+        {
+          "prompt": "★ How does the inclusion of an idler gear between the driver shaft and the driven shaft impact the operation of a gearbox?",
+          "answer": "Changed the direction of rotation",
+          "options": [
+            "Decrease speed",
+            "Increase torque",
+            "Changed the direction of rotation",
+            "Increase speed"
+          ],
+          "explanation": "An idler changes the rotation direction and allows spacing between gears. In a simple train it does not change the overall driver-to-driven tooth ratio.",
+          "reviewCue": {
+            "page": 102,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 102; C-210 Mechanical Practice Test.pdf, question 37. An idler changes the rotation direction and allows spacing between gears. In a simple train it does not change the overall driver-to-driven tooth ratio."
+          }
         }
       ]
     },
@@ -1878,6 +1988,238 @@
           "question": 80
         }
       ]
+    },
+    {
+      "id": "c210-practice-q05",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 5",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q05",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 3,
+          "question": 5
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ In what situations should the sleeve and hammer method be employed when installing an antifriction bearing?",
+      "answer": "When it is the only method available",
+      "options": [
+        "The sleeve should be of a soft material to prevent damage to the bearing",
+        "Always take care when striking the bearing with the hammer",
+        "When it is the only method available",
+        "The hammer should be made of plastic to prevent damage to the bearing"
+      ],
+      "explanation": "The slides prefer an arbor press. Sleeve-and-hammer installation is a fallback when the preferred equipment is unavailable, because it is easier to damage the bearing.",
+      "reviewCue": {
+        "page": 63,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 63; C-210 Mechanical Practice Test.pdf, question 5. The slides prefer an arbor press. Sleeve-and-hammer installation is a fallback when the preferred equipment is unavailable, because it is easier to damage the bearing."
+      }
+    },
+    {
+      "id": "c210-practice-q16",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 16",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q16",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 9,
+          "question": 16
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ What is a commonly used approach to lubricate a machine that has multiple bearing points?",
+      "answer": "Automatic lubricator",
+      "options": [
+        "Automatic lubricator",
+        "Pneumatic grease gun",
+        "Oil spray",
+        "Zerk fitting"
+      ],
+      "explanation": "An automatic lubrication system supplies multiple bearing lubrication points through its distribution system.",
+      "reviewCue": {
+        "page": 60,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 60; C-210 Mechanical Practice Test.pdf, question 16. An automatic lubrication system supplies multiple bearing lubrication points through its distribution system."
+      }
+    },
+    {
+      "id": "c210-practice-q21",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 21",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q21",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 11,
+          "question": 21
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ Which listed positive-engagement drive can provide a 3:1 reduction between separated shafts without belt slip?",
+      "answer": "Chain drive",
+      "options": [
+        "Clutch",
+        "V-belt",
+        "Chain drive",
+        "Direct coupling"
+      ],
+      "explanation": "A chain drive provides positive sprocket engagement and can provide the stated reduction. A direct coupling or clutch alone does not create a 3:1 ratio.",
+      "reviewCue": {
+        "page": 78,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 78; C-210 Mechanical Practice Test.pdf, question 21. A chain drive provides positive sprocket engagement and can provide the stated reduction. A direct coupling or clutch alone does not create a 3:1 ratio."
+      },
+      "practiceClarification": "Practice wording clarified to make the condition, method or requested reading explicit; see the per-form explanation."
+    },
+    {
+      "id": "c210-practice-q25",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 25",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q25",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 13,
+          "question": 25
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ What kind of device is commonly employed to link a pump and an electric motor?",
+      "answer": "Flexible coupling",
+      "options": [
+        "Universal joint",
+        "Clutch",
+        "Flexible coupling",
+        "Rigid coupling"
+      ],
+      "explanation": "The course uses a flexible coupling to connect shafts such as a motor and pump while accommodating limited misalignment.",
+      "reviewCue": {
+        "page": 69,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 69; C-210 Mechanical Practice Test.pdf, question 25. The course uses a flexible coupling to connect shafts such as a motor and pump while accommodating limited misalignment."
+      }
+    },
+    {
+      "id": "c210-practice-q27",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 27",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q27",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 14,
+          "question": 27
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ Which listed system is the course’s likely choice for a high-torque 15:1 reduction?",
+      "answer": "Gearbox",
+      "options": [
+        "Direct coupling",
+        "V-belt drive",
+        "Gearbox",
+        "Chain drive"
+      ],
+      "explanation": "The gear-drive section describes large gear ratios, including worm gearing. A gearbox is the listed choice for the stated high-ratio reduction example.",
+      "reviewCue": {
+        "page": 88,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 88; C-210 Mechanical Practice Test.pdf, question 27. The gear-drive section describes large gear ratios, including worm gearing. A gearbox is the listed choice for the stated high-ratio reduction example."
+      },
+      "practiceClarification": "Practice wording clarified to make the condition, method or requested reading explicit; see the per-form explanation."
+    },
+    {
+      "id": "c210-practice-q31",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 31",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q31",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 16,
+          "question": 31
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ In the slide’s basic grease procedure for an unsealed bearing, when does old grease first indicate that grease has passed through the bearing?",
+      "answer": "Until old grease begins to flow out of the bearing",
+      "options": [
+        "Until old grease begins to flow out of the bearing",
+        "Until the grease gun becomes difficult to move",
+        "Until new grease begins to flow out of the bearing",
+        "Until grease come out of the connection between the coupler and the grease fitting"
+      ],
+      "explanation": "In the supplied slide’s unsealed-bearing grease procedure, pump until old grease comes out, then clean up. The slide separately notes that an extra pump or two may bring fresh grease out; use the manufacturer’s procedure for actual equipment.",
+      "reviewCue": {
+        "page": 18,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 18; C-210 Mechanical Practice Test.pdf, question 31. In the supplied slide’s unsealed-bearing grease procedure, pump until old grease comes out, then clean up. The slide separately notes that an extra pump or two may bring fresh grease out; use the manufacturer’s procedure for actual equipment."
+      },
+      "practiceClarification": "Practice wording clarified to make the condition, method or requested reading explicit; see the per-form explanation."
+    },
+    {
+      "id": "c210-practice-q46",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 46",
+      "type": "symbol",
+      "category": "Identify",
+      "conceptKey": "c210-practice-q46",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 27,
+          "question": 46
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ What is the depicted mechanical power transmission system type?",
+      "answer": "Chain",
+      "options": [
+        "Chain",
+        "Belt",
+        "Direct",
+        "Gear"
+      ],
+      "explanation": "The pictured chain engages two toothed sprockets. That is a chain drive, rather than a belt or directly meshing gear drive.",
+      "reviewCue": {
+        "page": 78,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 78; C-210 Mechanical Practice Test.pdf, question 46. The pictured chain engages two toothed sprockets. That is a chain drive, rather than a belt or directly meshing gear drive."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-46",
+        "alt": "Diagram supplied with C-210 practice question 46"
+      }
     }
   ]
 }

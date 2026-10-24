@@ -408,6 +408,178 @@
           "question": 89
         }
       ]
+    },
+    {
+      "id": "c210-practice-q10",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 10",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q10",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 6,
+          "question": 10
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ For the course’s initial rough-alignment setup, about how far below the stationary shaft should the more movable shaft start so it can be raised with shims?",
+      "answer": "0.25-0.38",
+      "options": [
+        "0.25-0.38",
+        "0.0-0.12",
+        "0.12-0.25",
+        "0.38-0.51"
+      ],
+      "explanation": "The course starts the more movable shaft about 0.010–0.015 inch lower so it can be raised with shims. That is approximately 0.25–0.38 mm.",
+      "reviewCue": {
+        "page": 73,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 73; C-210 Mechanical Practice Test.pdf, question 10. The course starts the more movable shaft about 0.010–0.015 inch lower so it can be raised with shims. That is approximately 0.25–0.38 mm."
+      },
+      "practiceClarification": "Practice wording clarified to make the condition, method or requested reading explicit; see the per-form explanation."
+    },
+    {
+      "id": "c210-practice-q33",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 33",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q33",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 17,
+          "question": 33
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ When aligning two shafts, what are the two types of misalignment that must be examined and rectified in both vertical and horizontal planes?",
+      "answer": "Parallel and angular",
+      "options": [
+        "Coupling space and gap",
+        "Top view and side view",
+        "Bottom and top",
+        "Parallel and angular"
+      ],
+      "explanation": "Check both parallel offset and angular misalignment in the vertical and horizontal planes.",
+      "reviewCue": {
+        "page": 73,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 73; C-210 Mechanical Practice Test.pdf, question 33. Check both parallel offset and angular misalignment in the vertical and horizontal planes."
+      }
+    },
+    {
+      "id": "c210-practice-q36",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 36",
+      "type": "quiz",
+      "category": "Understand",
+      "conceptKey": "c210-practice-q36",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 19,
+          "question": 36
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ In the course’s angular shaft-leveling method, how is shim thickness calculated from the feeler-gauge correction and shim ratio?",
+      "answer": "Feeler gauge leaf thickness multiplied by the shim ratio",
+      "options": [
+        "Feeler gauge leaf thickness multiplied by the shim ratio",
+        "Thickness of the feeler gauge leaves",
+        "Mounting bolt distance divided by the shaft length",
+        "Feeler gauge leaf thickness multiplied by the bearing mounting bolt distance"
+      ],
+      "explanation": "For the angular shim-ratio method, shim thickness equals the measured feeler-gauge thickness multiplied by the appropriate distance ratio. Direct parallel-gap correction is a different case.",
+      "reviewCue": {
+        "page": 75,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 75; C-210 Mechanical Practice Test.pdf, question 36. For the angular shim-ratio method, shim thickness equals the measured feeler-gauge thickness multiplied by the appropriate distance ratio. Direct parallel-gap correction is a different case."
+      },
+      "practiceClarification": "Practice wording clarified to make the condition, method or requested reading explicit; see the per-form explanation."
+    },
+    {
+      "id": "c210-practice-q42",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 42",
+      "type": "symbol",
+      "category": "Identify",
+      "conceptKey": "c210-practice-q42",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 23,
+          "question": 42
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ What type of coupling is depicted?",
+      "answer": "Rigid",
+      "options": [
+        "Universal joint",
+        "Clutch",
+        "Rigid",
+        "Flexible"
+      ],
+      "explanation": "The pictured flanged construction is a rigid coupling. It has no flexible spider or universal-joint cross, so accurate shaft alignment is required.",
+      "reviewCue": {
+        "page": 147,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 147; C-210 Mechanical Practice Test.pdf, question 42. The pictured flanged construction is a rigid coupling. It has no flexible spider or universal-joint cross, so accurate shaft alignment is required."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-42",
+        "alt": "Diagram supplied with C-210 practice question 42"
+      }
+    },
+    {
+      "id": "c210-practice-q44",
+      "world": "mechanical",
+      "topic": "Day 4 · Drive-train calculations & shaft alignment",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 44",
+      "type": "symbol",
+      "category": "Identify",
+      "conceptKey": "c210-practice-q44",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 25,
+          "question": 44
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ What misalignment does equal shim thickness under all the motor feet correct, as shown?",
+      "answer": "Vertical parallel",
+      "options": [
+        "Horizontal parallel",
+        "Vertical angular",
+        "Vertical parallel",
+        "Horizontal angular"
+      ],
+      "explanation": "Equal shim thickness under all motor feet raises the motor without intentionally tilting it. That corrects vertical parallel offset.",
+      "reviewCue": {
+        "page": 74,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 74; C-210 Mechanical Practice Test.pdf, question 44. Equal shim thickness under all motor feet raises the motor without intentionally tilting it. That corrects vertical parallel offset."
+      },
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-44",
+        "alt": "Diagram supplied with C-210 practice question 44"
+      }
     }
   ]
 }

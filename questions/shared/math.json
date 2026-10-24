@@ -4903,7 +4903,54 @@
       "unit": "ft-lb",
       "tolerance": 0.15,
       "category": "Calculate",
-      "conceptKey": "c210-math-gear-torque"
+      "conceptKey": "c210-math-gear-torque",
+      "variants": [
+        {
+          "prompt": "A 20-tooth driver produces 12 ft-lb and drives a 60-tooth gear. Ignoring losses, find output torque.",
+          "answer": "36 ft-lb",
+          "options": [
+            "36 ft-lb",
+            "4 ft-lb",
+            "12 ft-lb",
+            "72 ft-lb"
+          ],
+          "explanation": "Ratio = 60/20 = 3. Ideal output torque = 12 × 3 = 36 ft-lb.",
+          "numeric": 36,
+          "unit": "ft-lb",
+          "tolerance": 0.15,
+          "reviewCue": {
+            "page": 86,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 86. Ratio = 60/20 = 3. Ideal output torque = 12 × 3 = 36 ft-lb.",
+            "excerpt": "Gear Ratio of a Gear Drive\nThe speed and torque that are transmitted to the\ndriven shaft of a gear drive are calculated using\nthe gear ratio, which can be calculated using one\nof two methods:\nGear Ratio Using Pitch Diameters in this diagram\nGR = 2.66 inches/2 inches =1.33\nGear Ratio Using Number of Teeth, if 15 on driver and 20 on \ndriven  GR = 20/15=1.33\nThe Driven Pulley has to spin slower because it is larger\nthan the Driver Pulley\nSpeed of Driven, given \nInput Speed and Gear \nRatio?  1350 rpm \nTorque of Driven,\n13.33 in-lbs\n1/What is the OUTPUT \nSPEED?\nIf the INPUT SPEED = 1800 \nRPM\n2/What is the OUTPUT \nTORQUE?\nIf the INPUT TORQUE = 10 \nin-lbs\n86\n"
+          }
+        },
+        {
+          "prompt": "★ Ignoring losses, what output torque results from a 20-tooth driver supplying 20 N-m to a 60-tooth driven sprocket?",
+          "answer": "60 N-m",
+          "options": [
+            "120 N-m",
+            "20 N-m",
+            "60 N-m",
+            "40 N-m"
+          ],
+          "explanation": "Ideal driven torque = input torque × driven teeth/driver teeth = 20 × 60/20 = 60 N-m. This assumes losses are ignored.",
+          "reviewCue": {
+            "page": 86,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 86; C-210 Mechanical Practice Test.pdf, question 1. Ideal driven torque = input torque × driven teeth/driver teeth = 20 × 60/20 = 60 N-m. This assumes losses are ignored."
+          },
+          "numeric": 60,
+          "unit": "N-m",
+          "tolerance": 0.3
+        }
+      ],
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 1,
+          "question": 1
+        }
+      ],
+      "starred": true
     },
     {
       "id": "c210-math-pitch",
@@ -4960,7 +5007,54 @@
       "tolerance": 0.15,
       "category": "Calculate",
       "conceptKey": "c210-math-pulley",
-      "learningHelpKey": "gear-ratio"
+      "learningHelpKey": "gear-ratio",
+      "variants": [
+        {
+          "prompt": "A 3-inch driver sheave at 900 RPM drives a 9-inch sheave. Find ideal output speed.",
+          "answer": "300 RPM",
+          "options": [
+            "300 RPM",
+            "2700 RPM",
+            "600 RPM",
+            "900 RPM"
+          ],
+          "explanation": "Pitch-diameter ratio = 9/3 = 3. Output speed = 900/3 = 300 RPM.",
+          "numeric": 300,
+          "unit": "RPM",
+          "tolerance": 0.15,
+          "reviewCue": {
+            "page": 108,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 108. Pitch-diameter ratio = 9/3 = 3. Output speed = 900/3 = 300 RPM.",
+            "excerpt": "Calculate the Pulley Ratio\nIf the SPEED of the driver is 30 RPM, and the PR is 3, the\ndriven speed is 10 RPM If the TORQUE of the DIVER is\n100 ft-lb, the TORQUE is 3 times higher or 300 ft-lb\nAs the PULLEY RATIO gets larger, the SPEED gets slower, but he TORQUE increases. This behaves \nidentically with Gear Pitch Ratio and Sprocket Ratio\nIf a Pulley Ratio, PR is 6/2 or 3, its also called 3:1, with the \nfirst number being the drive and the second being the \ndriver.\nThe pulley ratio determines the relationship for speed\nand torque between the two pulleys \nPulley Ratio = PR = Pitch Diameter Diven\nPitch Diameter Diver\n108\nA36 A37"
+          }
+        },
+        {
+          "prompt": "★ What is the RPM of the driven sheave in a belt drive system when the driver sheave has a pitch diameter of 100mm, the driven sheave has a pitch diameter of 200mm, and the driver sheave operates at a speed of 1800 RPM?",
+          "answer": "900 RPM",
+          "options": [
+            "1200 RPM",
+            "3600 RPM",
+            "900 RPM",
+            "1800 RPM"
+          ],
+          "explanation": "Driven speed = driver speed × driver pitch diameter/driven pitch diameter = 1800 × 100/200 = 900 RPM.",
+          "reviewCue": {
+            "page": 108,
+            "text": "Review C210 Mechanical Power Sys.pdf, slide 108; C-210 Mechanical Practice Test.pdf, question 30. Driven speed = driver speed × driver pitch diameter/driven pitch diameter = 1800 × 100/200 = 900 RPM."
+          },
+          "numeric": 900,
+          "unit": "RPM",
+          "tolerance": 4.5
+        }
+      ],
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 16,
+          "question": 30
+        }
+      ],
+      "starred": true
     },
     {
       "id": "c210-math-chain-wear",
@@ -5396,6 +5490,198 @@
       "numeric": 60,
       "unit": "RPM",
       "tolerance": 0.3
+    },
+    {
+      "id": "c210-practice-q07",
+      "world": "mechanical",
+      "topic": "Day 2 · Shafts, chain drives & gears",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 7",
+      "type": "formula",
+      "category": "Calculate",
+      "conceptKey": "c210-practice-q07",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 4,
+          "question": 7
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ A 24-tooth driver gear turns a 36-tooth driven gear at 1440 RPM. What is driver speed?",
+      "answer": "2160 RPM",
+      "options": [
+        "2160 RPM",
+        "960 RPM",
+        "560 RPM",
+        "1360 RPM"
+      ],
+      "explanation": "Driver speed = driven speed × driven teeth/driver teeth = 1440 × 36/24 = 2160 RPM.",
+      "reviewCue": {
+        "page": 86,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 86; C-210 Mechanical Practice Test.pdf, question 7. Driver speed = driven speed × driven teeth/driver teeth = 1440 × 36/24 = 2160 RPM."
+      },
+      "numeric": 2160,
+      "unit": "RPM",
+      "tolerance": 10.8
+    },
+    {
+      "id": "c210-practice-q35",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 35",
+      "type": "formula",
+      "category": "Calculate",
+      "conceptKey": "c210-practice-q35",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 18,
+          "question": 35
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ During one full shaft turn, the indicator’s maximum-minus-minimum reading is 0.28 mm. What is total indicated runout?",
+      "answer": "0.28 mm",
+      "options": [
+        "0.56 mm",
+        "0.14 mm",
+        "0.28 mm",
+        "0.42 mm"
+      ],
+      "explanation": "Total indicated runout is the full maximum-to-minimum indicator movement over one shaft revolution. A total change of 0.28 mm is 0.28 mm TIR.",
+      "reviewCue": {
+        "page": 36,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 36; C-210 Mechanical Practice Test.pdf, question 35. Total indicated runout is the full maximum-to-minimum indicator movement over one shaft revolution. A total change of 0.28 mm is 0.28 mm TIR."
+      },
+      "numeric": 0.28,
+      "unit": "mm",
+      "tolerance": 0.0014000000000000002
+    },
+    {
+      "id": "c210-practice-q47",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 47",
+      "type": "formula",
+      "category": "Calculate",
+      "conceptKey": "c210-practice-q47",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 28,
+          "question": 47
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ Treat the illustration’s labels as forces: output/load = 150 kgf and input/effort = 300 kgf. What is mechanical advantage = load/effort?",
+      "answer": "0.5",
+      "options": [
+        "2",
+        "0.5",
+        "0.2",
+        "5"
+      ],
+      "explanation": "Using the clarified force labels, mechanical advantage = output/load force ÷ input/effort force = 150/300 = 0.5. Do not treat the kg labels as lever-arm lengths.",
+      "reviewCue": {
+        "page": 48,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 48; C-210 Mechanical Practice Test.pdf, question 47. Using the clarified force labels, mechanical advantage = output/load force ÷ input/effort force = 150/300 = 0.5. Do not treat the kg labels as lever-arm lengths."
+      },
+      "numeric": 0.5,
+      "unit": "",
+      "tolerance": 0.0025,
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-47",
+        "alt": "Diagram supplied with C-210 practice question 47"
+      },
+      "practiceClarification": "Practice wording clarified to make the condition, method or requested reading explicit; see the per-form explanation."
+    },
+    {
+      "id": "c210-practice-q48",
+      "world": "mechanical",
+      "topic": "Day 1 · Introduction to Mechanical Drive Systems",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 48",
+      "type": "formula",
+      "category": "Calculate",
+      "conceptKey": "c210-practice-q48",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 29,
+          "question": 48
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ Ignoring the small revolution counter, what reading does the large pointer show? Each main-dial division is 0.01 mm.",
+      "answer": "0.37 mm",
+      "options": [
+        "3.7 mm",
+        "3.7 inches",
+        "0.37 mm",
+        "0.037 mm"
+      ],
+      "explanation": "The large pointer indicates 37 divisions at 0.01 mm per division: 37 × 0.01 = 0.37 mm on the main dial. This question deliberately asks for that dial alone.",
+      "reviewCue": {
+        "page": 34,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 34; C-210 Mechanical Practice Test.pdf, question 48. The large pointer indicates 37 divisions at 0.01 mm per division: 37 × 0.01 = 0.37 mm on the main dial. This question deliberately asks for that dial alone."
+      },
+      "numeric": 0.37,
+      "unit": "mm",
+      "tolerance": 0.00185,
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-48",
+        "alt": "Diagram supplied with C-210 practice question 48"
+      },
+      "practiceClarification": "Practice wording clarified to make the condition, method or requested reading explicit; see the per-form explanation."
+    },
+    {
+      "id": "c210-practice-q49",
+      "world": "mechanical",
+      "topic": "Day 3 · Belt drives & chain installation",
+      "source": "g",
+      "section": "C-210 Mechanical Practice Test.pdf · question 49",
+      "type": "formula",
+      "category": "Calculate",
+      "conceptKey": "c210-practice-q49",
+      "starred": true,
+      "teacherQuizSources": [
+        {
+          "file": "C-210 Mechanical Practice Test.pdf",
+          "page": 30,
+          "question": 49
+        }
+      ],
+      "reviewSlides": [],
+      "prompt": "★ What gap does the ruler show between the chain datum and the underside of the straightedge, in millimetres?",
+      "answer": "6 mm",
+      "options": [
+        "6 mm",
+        "11 mm",
+        "3 mm",
+        "5 mm"
+      ],
+      "explanation": "Read the gap from the chain datum to the underside of the straightedge. The indicated 0.6 cm equals 6 mm; each numbered centimetre contains ten millimetres.",
+      "reviewCue": {
+        "page": 134,
+        "text": "Review C210 Mechanical Power Sys.pdf, slide 134; C-210 Mechanical Practice Test.pdf, question 49. Read the gap from the chain datum to the underside of the straightedge. The indicated 0.6 cm equals 6 mm; each numbered centimetre contains ten millimetres."
+      },
+      "numeric": 6,
+      "unit": "mm",
+      "tolerance": 0.03,
+      "diagram": {
+        "kind": "slide-image",
+        "imageKey": "c210-practice-diagram-49",
+        "alt": "Diagram supplied with C-210 practice question 49"
+      }
     }
   ]
 }
